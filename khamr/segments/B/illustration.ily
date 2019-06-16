@@ -725,7 +725,7 @@ B_Flute_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    b''2                                                                       %! baca_make_repeat_tied_notes
+    b''2                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -741,7 +741,7 @@ B_Flute_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Flute_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
-    b''2                                                                       %! baca_make_repeat_tied_notes
+    b''2                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -1902,7 +1902,7 @@ B_Oboe_Music_Voice = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    ds'!2                                                                      %! baca_make_repeat_tied_notes
+    ds'!2                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                          %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1917,7 +1917,7 @@ B_Oboe_Music_Voice = {                                                         %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Oboe_Music_Voice measure 76 / measure 2]                              %! _comment_measure_numbers
-    ds'!2                                                                      %! baca_make_repeat_tied_notes
+    ds'!2                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3227,7 +3227,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    gs!2                                                                       %! baca_make_repeat_tied_notes
+    gs!2                                                                       %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“B. cl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -3242,7 +3242,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Clarinet_Music_Voice measure 76 / measure 2]                          %! _comment_measure_numbers
-    gs!2                                                                       %! baca_make_repeat_tied_notes
+    gs!2                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -4222,15 +4222,15 @@ B_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [B Clarinet_Music_Voice measure 107 / measure 33]                        %! _comment_measure_numbers
-    a2.                                                                        %! baca_make_repeat_tied_notes
+    a2.                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [B Clarinet_Music_Voice measure 108 / measure 34]                        %! _comment_measure_numbers
-    a1                                                                         %! baca_make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [B Clarinet_Music_Voice measure 109 / measure 35]                        %! _comment_measure_numbers
-    a1                                                                         %! baca_make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [B Clarinet_Music_Voice measure 110 / measure 36]                        %! _comment_measure_numbers
@@ -4241,7 +4241,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [B Clarinet_Music_Voice measure 111 / measure 37]                        %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_repeat_tied_notes
+    r2.                                                                        %! baca.make_repeat_tied_notes
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -4300,7 +4300,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    es'!2                                                                      %! baca_make_repeat_tied_notes
+    es'!2                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Bar. sax.”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -4315,7 +4315,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Saxophone_Music_Voice measure 76 / measure 2]                         %! _comment_measure_numbers
-    es'!2                                                                      %! baca_make_repeat_tied_notes
+    es'!2                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -5543,7 +5543,7 @@ B_Guitar_Music_Voice = {                                                       %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    g'2                                                                        %! baca_make_repeat_tied_notes
+    g'2                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Gt.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -5558,7 +5558,7 @@ B_Guitar_Music_Voice = {                                                       %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Guitar_Music_Voice measure 76 / measure 2]                            %! _comment_measure_numbers
-    g'2                                                                        %! baca_make_repeat_tied_notes
+    g'2                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -5601,13 +5601,13 @@ B_Guitar_Music_Voice = {                                                       %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Guitar_Music_Voice measure 84 / measure 10]                           %! _comment_measure_numbers
-    af''!2.                                                                    %! baca_make_repeat_tied_notes
+    af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
     % [B Guitar_Music_Voice measure 85 / measure 11]                           %! _comment_measure_numbers
-    af''!1                                                                     %! baca_make_repeat_tied_notes
+    af''!1                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -5621,22 +5621,22 @@ B_Guitar_Music_Voice = {                                                       %
     \repeatTie
 
     % [B Guitar_Music_Voice measure 87 / measure 13]                           %! _comment_measure_numbers
-    af''!2.                                                                    %! baca_make_repeat_tied_notes
+    af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 88 / measure 14]                           %! _comment_measure_numbers
-    af''!2                                                                     %! baca_make_repeat_tied_notes
+    af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 89 / measure 15]                           %! _comment_measure_numbers
-    af''!1.                                                                    %! baca_make_repeat_tied_notes
+    af''!1.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 90 / measure 16]                           %! _comment_measure_numbers
-    af''!2                                                                     %! baca_make_repeat_tied_notes
+    af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -5650,62 +5650,62 @@ B_Guitar_Music_Voice = {                                                       %
     \repeatTie
 
     % [B Guitar_Music_Voice measure 92 / measure 18]                           %! _comment_measure_numbers
-    af''!2.                                                                    %! baca_make_repeat_tied_notes
+    af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 93 / measure 19]                           %! _comment_measure_numbers
-    af''!1                                                                     %! baca_make_repeat_tied_notes
+    af''!1                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 94 / measure 20]                           %! _comment_measure_numbers
-    af''!1.                                                                    %! baca_make_repeat_tied_notes
+    af''!1.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 95 / measure 21]                           %! _comment_measure_numbers
-    af''!2                                                                     %! baca_make_repeat_tied_notes
+    af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 96 / measure 22]                           %! _comment_measure_numbers
-    af''!2                                                                     %! baca_make_repeat_tied_notes
+    af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 97 / measure 23]                           %! _comment_measure_numbers
-    af''!2.                                                                    %! baca_make_repeat_tied_notes
+    af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 98 / measure 24]                           %! _comment_measure_numbers
-    af''!1                                                                     %! baca_make_repeat_tied_notes
+    af''!1                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 99 / measure 25]                           %! _comment_measure_numbers
-    af''!2                                                                     %! baca_make_repeat_tied_notes
+    af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 100 / measure 26]                          %! _comment_measure_numbers
-    af''!2                                                                     %! baca_make_repeat_tied_notes
+    af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 101 / measure 27]                          %! _comment_measure_numbers
-    af''!1.                                                                    %! baca_make_repeat_tied_notes
+    af''!1.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 102 / measure 28]                          %! _comment_measure_numbers
-    af''!1                                                                     %! baca_make_repeat_tied_notes
+    af''!1                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 103 / measure 29]                          %! _comment_measure_numbers
-    af''!2.                                                                    %! baca_make_repeat_tied_notes
+    af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -7319,7 +7319,7 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 79 / measure 5]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -7332,13 +7332,13 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 80 / measure 6]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 81 / measure 7]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -7356,14 +7356,14 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 83 / measure 9]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B Percussion_Music_Voice measure 84 / measure 10]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
@@ -7375,285 +7375,285 @@ B_Percussion_Music_Voice = {                                                   %
         }                                                                      %! baca.markup:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 85 / measure 11]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 86 / measure 12]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 87 / measure 13]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 88 / measure 14]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 89 / measure 15]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 90 / measure 16]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 91 / measure 17]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 92 / measure 18]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 93 / measure 19]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 94 / measure 20]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 95 / measure 21]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 96 / measure 22]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 97 / measure 23]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 98 / measure 24]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 99 / measure 25]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 100 / measure 26]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 103 / measure 29]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! baca_make_repeated_duration_notes
+    c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 104 / measure 30]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -7666,7 +7666,7 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 105 / measure 31]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -7684,20 +7684,20 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 107 / measure 33]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 108 / measure 34]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B Percussion_Music_Voice measure 109 / measure 35]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -7715,7 +7715,7 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 111 / measure 37]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -7776,7 +7776,7 @@ B_Violin_Music_Voice = {                                                       %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    a'2                                                                        %! baca_make_repeat_tied_notes
+    a'2                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vn.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -7791,7 +7791,7 @@ B_Violin_Music_Voice = {                                                       %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Violin_Music_Voice measure 76 / measure 2]                            %! _comment_measure_numbers
-    a'2                                                                        %! baca_make_repeat_tied_notes
+    a'2                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [B Violin_Music_Voice measure 77 / measure 3]                            %! _comment_measure_numbers
@@ -8121,7 +8121,7 @@ B_Viola_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    gs'!2                                                                      %! baca_make_repeat_tied_notes
+    gs'!2                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -8136,7 +8136,7 @@ B_Viola_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Viola_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
-    gs'!2                                                                      %! baca_make_repeat_tied_notes
+    gs'!2                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
@@ -8462,7 +8462,7 @@ B_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    g2                                                                         %! baca_make_repeat_tied_notes
+    g2                                                                         %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -8477,7 +8477,7 @@ B_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Cello_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
-    g2                                                                         %! baca_make_repeat_tied_notes
+    g2                                                                         %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [B Cello_Music_Voice measure 77 / measure 3]                             %! _comment_measure_numbers
@@ -8947,7 +8947,7 @@ B_Contrabass_Music_Voice = {                                                   %
     <g,, a,>2.
 
     % [B Contrabass_Music_Voice measure 105 / measure 31]                      %! _comment_measure_numbers
-    r1                                                                         %! baca_make_repeat_tied_notes
+    r1                                                                         %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 106 / measure 32]                      %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
@@ -8962,15 +8962,15 @@ B_Contrabass_Music_Voice = {                                                   %
     \repeatTie
 
     % [B Contrabass_Music_Voice measure 107 / measure 33]                      %! _comment_measure_numbers
-    g,,2.                                                                      %! baca_make_repeat_tied_notes
+    g,,2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [B Contrabass_Music_Voice measure 108 / measure 34]                      %! _comment_measure_numbers
-    g,,1                                                                       %! baca_make_repeat_tied_notes
+    g,,1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [B Contrabass_Music_Voice measure 109 / measure 35]                      %! _comment_measure_numbers
-    g,,1                                                                       %! baca_make_repeat_tied_notes
+    g,,1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [B Contrabass_Music_Voice measure 110 / measure 36]                      %! _comment_measure_numbers
@@ -8981,7 +8981,7 @@ B_Contrabass_Music_Voice = {                                                   %
     \repeatTie
 
     % [B Contrabass_Music_Voice measure 111 / measure 37]                      %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_repeat_tied_notes
+    r2.                                                                        %! baca.make_repeat_tied_notes
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
