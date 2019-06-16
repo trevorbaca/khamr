@@ -20,6 +20,7 @@ def fused_wind(
         rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.TieSpecifier(repeat_ties=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             incise_specifier=rmakers.InciseSpecifier(
@@ -29,7 +30,6 @@ def fused_wind(
                 suffix_counts=[1],
                 talea_denominator=denominator,
             ),
-            tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
             tag="khamr.fused_wind",
         ),
     )

@@ -12,11 +12,9 @@ def silent_first_division() -> baca.RhythmCommand:
         divisions=baca.divisions().map(quarters),
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
+            rmakers.TieSpecifier(tie_across_divisions=True, repeat_ties=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=[rmakers.silence([0])],
-            tie_specifier=rmakers.TieSpecifier(
-                tie_across_divisions=True, repeat_ties=True
-            ),
             tag="khamr.silent_first_division",
         ),
     )

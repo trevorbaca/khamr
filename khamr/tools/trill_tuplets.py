@@ -15,11 +15,9 @@ def trill_tuplets(
         divisions=baca.divisions().fuse().quarters(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            rmakers.TieSpecifier(repeat_ties=True, tie_across_divisions=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
-            tie_specifier=rmakers.TieSpecifier(
-                repeat_ties=True, tie_across_divisions=True
-            ),
             tuplet_ratios=string_tuplet_ratios(tuplet_ratios),
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True, trivialize=True
