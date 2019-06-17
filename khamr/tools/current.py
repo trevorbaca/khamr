@@ -15,12 +15,10 @@ def current(
         divisions=baca.divisions().map(quarters),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=tuplet_ratios,
-            tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True, trivialize=True
-            ),
             tag="khamr.current",
         ),
     )
