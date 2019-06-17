@@ -15,13 +15,11 @@ def trill_tuplets(
         divisions=baca.divisions().fuse().quarters(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
             rmakers.TieSpecifier(repeat_ties=True, tie_across_divisions=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=string_tuplet_ratios(tuplet_ratios),
-            tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True, trivialize=True
-            ),
             tag="khamr.trill_tuplets",
         ),
     )
