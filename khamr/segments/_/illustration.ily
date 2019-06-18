@@ -2020,11 +2020,11 @@ i_Saxophone_Music_Voice = {                                                    %
     r4.
 
     <d'' eqs''!>8
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     <d'' eqs''!>8
     \repeatTie
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! khamr.fused_wind
 
@@ -4460,13 +4460,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 39]                                    %! _comment_measure_numbers
         fs'!8                                                                  %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gqf'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -4478,13 +4478,13 @@ i_Violin_Music_Voice = {                                                       %
 
         fqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -4572,13 +4572,13 @@ i_Violin_Music_Voice = {                                                       %
 
         eqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         e'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan f'                                                     %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5067,13 +5067,13 @@ i_Viola_Music_Voice = {                                                        %
 
         fs'!8                                                                  %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gqf'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5086,13 +5086,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 40]                                     %! _comment_measure_numbers
         fqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5168,13 +5168,13 @@ i_Viola_Music_Voice = {                                                        %
 
         e'8                                                                    %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         eqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan fqs'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
