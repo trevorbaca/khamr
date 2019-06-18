@@ -5818,7 +5818,7 @@ B_Piano_Music_Voice = {                                                        %
     \baca-fff-ancora                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -5833,38 +5833,38 @@ B_Piano_Music_Voice = {                                                        %
     f''''16                                                                    %! khamr.current
 
     c''''16                                                                    %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     af'''!16                                                                   %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g'''16                                                                     %! khamr.current
 
     e''''16                                                                    %! khamr.current
 
     c''''16                                                                    %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [B Piano_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
     b'''16                                                                     %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     df''''!16                                                                  %! khamr.current
 
     ef''''!16                                                                  %! khamr.current
 
     f''''16                                                                    %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 2/3 {                                                               %! khamr.current
 
         e''''8                                                                 %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         fs'''!8                                                                %! khamr.current
 
         bf'''!8                                                                %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
@@ -5872,7 +5872,7 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 77 / measure 3]                         %! _comment_measure_numbers
         a'''16.                                                                %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         c''''16.                                                               %! khamr.current
 
@@ -5897,14 +5897,14 @@ B_Piano_Music_Voice = {                                                        %
         ef''''!16.                                                             %! khamr.current
 
         a'''16.                                                                %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     \times 4/5 {                                                               %! khamr.current
 
         e''''16.                                                               %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         fs'''!16.                                                              %! khamr.current
 
@@ -5922,40 +5922,40 @@ B_Piano_Music_Voice = {                                                        %
     f''''8                                                                     %! khamr.current
 
     ef''''!8                                                                   %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 2/3 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 78 / measure 4]                         %! _comment_measure_numbers
         f''''8                                                                 %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b'''8                                                                  %! khamr.current
 
         df''''!8                                                               %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     bf'''!16                                                                   %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a'''16                                                                     %! khamr.current
 
     e''''16                                                                    %! khamr.current
 
     fs'''!16                                                                   %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     f''''16                                                                    %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     c''''16                                                                    %! khamr.current
 
     df''''!16                                                                  %! khamr.current
 
     d''''16                                                                    %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 2/3 {                                                               %! khamr.current
 
@@ -5963,31 +5963,31 @@ B_Piano_Music_Voice = {                                                        %
         e''''8                                                                 %! khamr.current
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ffff                                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         c''''8                                                                 %! khamr.current
 
         af'''!8                                                                %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     \times 2/3 {                                                               %! khamr.current
 
         g'''8                                                                  %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         fs'''!8                                                                %! khamr.current
 
         bf'''!8                                                                %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     \times 4/5 {                                                               %! khamr.current
 
         a'''16                                                                 %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e''''16                                                                %! khamr.current
 
@@ -5996,14 +5996,14 @@ B_Piano_Music_Voice = {                                                        %
         f''''16                                                                %! khamr.current
 
         c''''16                                                                %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     \times 4/5 {                                                               %! khamr.current
 
         df''''!16                                                              %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         g'''16                                                                 %! khamr.current
 
@@ -6012,7 +6012,7 @@ B_Piano_Music_Voice = {                                                        %
         c''''16                                                                %! khamr.current
 
         af'''!16                                                               %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
@@ -6020,7 +6020,7 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 80 / measure 6]                         %! _comment_measure_numbers
         df''''!16.                                                             %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         ef''''!16.                                                             %! khamr.current
 
@@ -6029,14 +6029,14 @@ B_Piano_Music_Voice = {                                                        %
         b'''16.                                                                %! khamr.current
 
         df''''!16.                                                             %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     \times 4/5 {                                                               %! khamr.current
 
         d''''16.                                                               %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         f''''16.                                                               %! khamr.current
 
@@ -6045,7 +6045,7 @@ B_Piano_Music_Voice = {                                                        %
         af'''!16.                                                              %! khamr.current
 
         g'''16.                                                                %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
@@ -6053,7 +6053,7 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 81 / measure 7]                         %! _comment_measure_numbers
         e''''16                                                                %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         c''''16                                                                %! khamr.current
 
@@ -6062,45 +6062,45 @@ B_Piano_Music_Voice = {                                                        %
         df''''!16                                                              %! khamr.current
 
         ef''''!16                                                              %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     f''''16                                                                    %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e''''16                                                                    %! khamr.current
 
     fs'''!16                                                                   %! khamr.current
 
     bf'''!16                                                                   %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a'''16                                                                     %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     c''''16                                                                    %! khamr.current
 
     af'''!16                                                                   %! khamr.current
 
     g'''16                                                                     %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e''''16                                                                    %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     f''''16                                                                    %! khamr.current
 
     b'''16                                                                     %! khamr.current
 
     df''''!16                                                                  %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 2/3 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 82 / measure 8]                         %! _comment_measure_numbers
         ef''''!8                                                               %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         a'''8                                                                  %! khamr.current
 
@@ -6137,14 +6137,14 @@ B_Piano_Music_Voice = {                                                        %
         b'''16                                                                 %! khamr.current
 
         df''''!16                                                              %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     \times 4/5 {                                                               %! khamr.current
 
         bf'''!16                                                               %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         a'''16                                                                 %! khamr.current
 
@@ -6165,7 +6165,7 @@ B_Piano_Music_Voice = {                                                        %
         df''''!8                                                               %! khamr.current
 
         d''''8                                                                 %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
@@ -6173,44 +6173,44 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 83 / measure 9]                         %! _comment_measure_numbers
         e''''8                                                                 %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         c''''8                                                                 %! khamr.current
 
         af'''!8                                                                %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current
 
     g'''16                                                                     %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     fs'''!16                                                                   %! khamr.current
 
     bf'''!16                                                                   %! khamr.current
 
     a'''16                                                                     %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e''''16                                                                    %! khamr.current
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d''''16                                                                    %! khamr.current
 
     f''''16                                                                    %! khamr.current
 
     c''''16                                                                    %! khamr.current
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 2/3 {                                                               %! khamr.current
 
         df''''!8                                                               %! khamr.current
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         g'''8                                                                  %! khamr.current
 
         e''''8                                                                 %! khamr.current
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \ottava 0                                                              %! baca.ottava:SpannerIndicatorCommand(2)
 
     }                                                                          %! khamr.current
