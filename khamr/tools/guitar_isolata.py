@@ -4,7 +4,9 @@ import typing
 from abjadext import rmakers
 
 
-def guitar_isolata(*, dmask: rmakers.MasksTyping = None) -> baca.RhythmCommand:
+def guitar_isolata(
+    *specifiers, dmask: rmakers.MasksTyping = None
+) -> baca.RhythmCommand:
     """
     Makes guitar isolata.
     """
@@ -20,7 +22,13 @@ def guitar_isolata(*, dmask: rmakers.MasksTyping = None) -> baca.RhythmCommand:
         divisions=baca.divisions().fuse().quarters(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
+            *specifiers,
+            rmakers.TupletSpecifier(
+                extract_trivial=True,
+                rewrite_rest_filled=True,
+                rewrite_sustained=True,
+                trivialize=True,
+            ),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=[

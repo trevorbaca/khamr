@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def fused_wind(
     counts: abjad.IntegerSequence,
-    *,
+    *specifiers,
     dmask: rmakers.MasksTyping = None,
     denominator: int = 8,
 ) -> baca.RhythmCommand:
@@ -19,7 +19,10 @@ def fused_wind(
         divisions=divisions,
         rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
-            rmakers.TupletSpecifier(extract_trivial=True),
+            *specifiers,
+            rmakers.TupletSpecifier(
+                extract_trivial=True, rewrite_rest_filled=True
+            ),
             rmakers.TieSpecifier(repeat_ties=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,

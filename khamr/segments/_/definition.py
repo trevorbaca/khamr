@@ -127,11 +127,14 @@ maker(
         ),
     )
 
+### end margin markup ###
+
 maker(
     'fl',
     khamr.fused_wind(
         [10, 10, 6, 10, 8, 6],
-        dmask=rmakers.silence([2, 5], 6)
+        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([2, 5], 6)]),
+        #dmask=rmakers.silence([2, 5], 6)
         ),
     )
 
@@ -139,7 +142,8 @@ maker(
     'ob',
     khamr.fused_wind(
         [12, 6, 10, 10, 6, 8],
-        dmask=rmakers.silence([1, 4], 6),
+        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([1, 4], 6)]),
+        ##dmask=rmakers.silence([1, 4], 6),
         ),
     )
 
@@ -147,7 +151,8 @@ maker(
     'cl',
     khamr.fused_wind(
         [8, 6, 10, 6, 10, 8],
-        dmask=rmakers.silence([1, 3], 6),
+        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([1, 3], 6)]),
+        ##dmask=rmakers.silence([1, 3], 6),
         ),
     )
 
@@ -155,14 +160,26 @@ maker(
     'sax',
     khamr.fused_wind(
         [14, 6, 10, 6, 10, 8],
-        dmask=rmakers.silence([1, 3], 6),
+        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([1, 3], 6)]),
+        ##dmask=rmakers.silence([1, 3], 6),
         ),
     )
 
 maker(
     ('gt', (1, 24)),
-    khamr.guitar_isolata(),
-    )
+    khamr.guitar_isolata(
+#        rmakers.SilenceMask(
+#            selector=baca.tuplets()[abjad.index([1, 2, 3, 5, 6, 7, 8], 9)],
+#        ),
+#        rmakers.SilenceMask(
+#            selector=baca.tuplets()[:12],
+#        ),
+#        rmakers.TieSpecifier(
+#            attach_ties=True,
+#            selector=baca.tuplets()[:1].leaves()[:-1],
+#        ),
+    ),
+)
 
 maker(
     ('gt', (25, 40)),
@@ -171,8 +188,13 @@ maker(
 
 maker(
     ('gt', (41, 44)),
-    khamr.guitar_isolata(dmask=rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
-    )
+    khamr.guitar_isolata(
+        dmask=rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)
+#        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([
+#            1, 2, 3, 5, 6, 7, 8], 9)]
+#        ),
+    ),
+)
 
 maker(
     ('pf', (1, 24)),
@@ -186,8 +208,13 @@ maker(
 
 maker(
     ('pf', (37, 40)),
-    khamr.guitar_isolata(dmask=rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
-    )
+    khamr.guitar_isolata(
+        dmask=rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)
+#        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([
+#            1, 2, 3, 5, 6, 7, 8], 9)]
+#        ),
+    ),
+)
 
 maker(
     ('pf', (41, 44)),
@@ -201,8 +228,17 @@ maker(
 
 maker(
     ('vn', (1, 36)),
-    khamr.opening_glissandi(0, dmask=rmakers.sustain([0, 1, 2, 5], 7)),
-    )
+    khamr.opening_glissandi(
+        0,
+        dmask=rmakers.sustain([0, 1, 2, 5], 7),
+#        rmakers.TieSpecifier(
+#            attach_repeat_ties=True,
+#            selector=baca.tuplets()[abjad.index([0, 1, 2, 5], 7)].map(
+#                baca.leaves()[1:]
+#            ),
+#        ),
+    ),
+)
 
 maker(
     ('vn', (37, 44)),
@@ -211,8 +247,17 @@ maker(
 
 maker(
     ('va', (1, 36)),
-    khamr.opening_glissandi(-1, dmask=rmakers.sustain([1, 2, 3, 6], 7)),
-    )
+    khamr.opening_glissandi(
+        -1,
+        dmask=rmakers.sustain([1, 2, 3, 6], 7)
+#        rmakers.TieSpecifier(
+#            attach_ties=True,
+#            selector=baca.tuplets()[abjad.index([1, 2, 3, 6], 7)].map(
+#                baca.leaves()[:-1]
+#            ),
+#        ),
+    ),
+)
 
 maker(
     ('va', (37, 44)),
@@ -221,8 +266,17 @@ maker(
 
 maker(
     ('vc', (1, 36)),
-    khamr.opening_glissandi(-2, dmask=rmakers.sustain([0, 2, 3, 4], 7)),
-    )
+    khamr.opening_glissandi(
+        -2,
+        dmask=rmakers.sustain([0, 2, 3, 4], 7),
+#        rmakers.TieSpecifier(
+#            attach_ties=True,
+#            selector=baca.tuplets()[abjad.index([0, 2, 3, 4], 7)].map(
+#                baca.leaves()[:-1]
+#            ),
+#        ),
+    ),
+)
 
 maker(
     ('vc', (37, 44)),
@@ -231,8 +285,17 @@ maker(
 
 maker(
     'cb',
-    khamr.opening_glissandi(-3, dmask=rmakers.sustain([0, 1, 4, 6], 7)),
-    )
+    khamr.opening_glissandi(
+        -3,
+        dmask=rmakers.sustain([0, 1, 4, 6], 7),
+#        rmakers.TieSpecifier(
+#            attach_ties=True,
+#            selector=baca.tuplets()[abjad.index([0, 1, 4, 6], 7)].map(
+#                baca.leaves()[:-1]
+#            ),
+#        ),
+    ),
+)
 
 maker(
     ('fl', (1, 16)),
