@@ -5,7 +5,9 @@ from abjadext import rmakers
 
 
 def continuous_glissandi(
-    tuplet_ratio_rotation: int, *, dmask: rmakers.MasksTyping
+    tuplet_ratio_rotation: int,
+    *specifiers: rmakers.SpecifierTyping,
+    dmask: rmakers.MasksTyping,
 ) -> baca.RhythmCommand:
     """
     Makes continuous glissandi rhythm.
@@ -22,7 +24,10 @@ def continuous_glissandi(
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
+            *specifiers,
+            rmakers.TupletSpecifier(
+                extract_trivial=True, rewrite_rest_filled=True, trivialize=True
+            ),
             rmakers.TieSpecifier(repeat_ties=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=division_masks,
