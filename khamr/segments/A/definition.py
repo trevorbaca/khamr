@@ -90,8 +90,12 @@ maker(
 
 maker(
     ('gt', (1, 4)),
-    khamr.guitar_isolata(dmask=rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
-    )
+    khamr.guitar_isolata(
+        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([
+            1, 2, 3, 5, 6, 7, 8], 9)]
+        ),
+    ),
+)
 
 maker(
     ('gt', (5, 14)),
