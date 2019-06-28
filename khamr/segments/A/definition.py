@@ -179,9 +179,17 @@ maker(
     ('cb', (1, 14)),
     khamr.opening_glissandi(
         -3,
-        dmask=[rmakers.sustain([0, 1, 4, 6], 7), rmakers.silence([-1])],
+        rmakers.TieSpecifier(
+            attach_repeat_ties=True,
+            selector=baca.tuplets()[abjad.index([0, 1, 4, 6], 7)].map(
+                baca.leaves()[1:]
+            ),
         ),
-    )
+        rmakers.SilenceMask(
+            selector=baca.tuplet(-1),
+        ),
+    ),
+)
 
 winds_guitar_strings = ['fl', 'ob', 'cl', 'sax', 'gt', 'vn', 'va', 'vc', 'cb']
 
