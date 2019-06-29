@@ -16,7 +16,7 @@ def fused_wind(
     divisions = baca.divisions().map(quarters).flatten(depth=-1)
     divisions = divisions.fuse(counts, cyclic=True)
     return baca.rhythm(
-        divisions=divisions,
+        ###divisions=divisions,
         rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             *specifiers,
@@ -24,8 +24,9 @@ def fused_wind(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
             rmakers.TieSpecifier(repeat_ties=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
+            ###rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
+            divisions=divisions,
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=[-1],
                 prefix_counts=[0],

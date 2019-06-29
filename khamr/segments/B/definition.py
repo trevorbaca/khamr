@@ -71,8 +71,15 @@ maker(
 
 maker(
     ('ob', (34, 37)),
-    khamr.fused_wind([10], dmask=rmakers.silence([0]), denominator=16),
-    )
+    khamr.fused_wind(
+        [10],
+        rmakers.SilenceMask(
+            selector=baca.tuplet(0),
+        ),
+        ###dmask=rmakers.silence([0]),
+        denominator=16,
+    ),
+)
 
 maker(
     ('cl', (1, 2)),
