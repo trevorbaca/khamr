@@ -52,7 +52,6 @@ maker(
     ('fl', (1, 8)),
     khamr.fused_wind(
         [10, 10, 6, 8, 6],
-        #dmask=rmakers.silence([2, 5], 6),
         rmakers.SilenceMask(
             selector=baca.tuplets()[abjad.index([2, 5], 6)],
         ),
@@ -65,7 +64,6 @@ maker(
     ('ob', (1, 8)),
     khamr.fused_wind(
         [12, 6, 10, 10, 6, 8],
-        #dmask=rmakers.silence([1, 4], 6),
         rmakers.SilenceMask(
             selector=baca.tuplets()[abjad.index([1, 4], 6)],
         ),
@@ -78,7 +76,6 @@ maker(
     ('cl', (1, 14)),
     khamr.fused_wind(
         [8, 6, 10, 6, 10, 8],
-        #dmask=[rmakers.silence([1, 3], 6), rmakers.silence([-1])],
         rmakers.SilenceMask(
             selector=baca.tuplets()[abjad.index([1, 3], 6)],
         ),
@@ -94,7 +91,6 @@ maker(
     ('sax', (1, 8)),
     khamr.fused_wind(
         [14, 6, 10, 6, 10, 8],
-        #dmask=rmakers.silence([1, 3], 6),
         rmakers.SilenceMask(
             selector=baca.tuplets()[abjad.index([1, 3], 6)],
         ),
@@ -115,7 +111,6 @@ maker(
 maker(
     ('gt', (5, 14)),
     baca.make_repeat_tied_notes(
-        #dmask=rmakers.silence([-1]),
         rmakers.SilenceMask(
             selector=baca.lt(-1),
         ),
@@ -127,7 +122,6 @@ maker(
 maker(
     ('pf', (1, 14)),
     baca.make_repeat_tied_notes(
-        #dmask=rmakers.silence([-1]),
         rmakers.SilenceMask(
             selector=baca.lt(-1),
         ),
@@ -154,10 +148,6 @@ maker(
 maker(
     ('perc', (15, 20)),
     khamr.quarter_hits(
-#        dmask=rmakers.silence([
-#            0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 
-#            12, 13, 14, 15, 16, 18, 19, 20,
-#            ]),
         rmakers.SilenceMask(
             selector=baca.lts()[abjad.index([
             0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 
