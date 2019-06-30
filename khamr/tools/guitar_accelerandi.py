@@ -17,7 +17,7 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
             ),
             rmakers.TieSpecifier(tie_across_divisions=True, repeat_ties=True),
             rmakers.BeamSpecifier(
-                beam_each_division=True, use_feather_beams=True
+                selector=baca.tuplets(), use_feather_beams=True
             ),
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(

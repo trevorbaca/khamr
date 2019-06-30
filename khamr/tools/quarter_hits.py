@@ -15,8 +15,8 @@ def quarter_hits(
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.plts()),
             rmakers.TieSpecifier(repeat_ties=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tag="khamr.quarter_hits",
         ),

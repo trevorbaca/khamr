@@ -22,7 +22,7 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
         rhythm_maker=rmakers.NoteRhythmMaker(
             *specifiers,
             rmakers.TieSpecifier(repeat_ties=True, tie_across_divisions=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(selector=baca.plts()),
             division_masks=[rmakers.silence([1], 2)],
             tag="khamr.alternate_divisions",
         ),

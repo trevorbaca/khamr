@@ -13,7 +13,7 @@ def silent_first_division() -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             rmakers.TieSpecifier(tie_across_divisions=True, repeat_ties=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(selector=baca.plts()),
             division_masks=[rmakers.silence([0])],
             tag="khamr.silent_first_division",
         ),
