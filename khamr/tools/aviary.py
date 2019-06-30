@@ -14,7 +14,7 @@ def aviary(
     return baca.rhythm(
         divisions=baca.divisions().fuse().split([duration], cyclic=True),
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
-            rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             denominators=[16],
             extra_counts_per_division=extra_counts,
         ),

@@ -18,10 +18,10 @@ def current(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=tuplet_ratios,
             tag="khamr.current",

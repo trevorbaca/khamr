@@ -25,11 +25,11 @@ def continuous_glissandi(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
             rmakers.TieSpecifier(repeat_ties=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=division_masks,
             tuplet_ratios=tuplet_ratios,
             tag="khamr.continuous_glissandi",

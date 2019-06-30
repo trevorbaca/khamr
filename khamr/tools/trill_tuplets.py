@@ -18,11 +18,11 @@ def trill_tuplets(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
             rmakers.TieSpecifier(repeat_ties=True, tie_across_divisions=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=string_tuplet_ratios(tuplet_ratios),
             tag="khamr.trill_tuplets",

@@ -14,13 +14,13 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True,
                 rewrite_rest_filled=True,
                 rewrite_sustained=True,
                 trivialize=True,
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
             tuplet_ratios=[
                 (-1, 1, -1),
                 (-1, 1, -1),
