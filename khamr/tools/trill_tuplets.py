@@ -6,25 +6,25 @@ from .string_tuplet_ratios import string_tuplet_ratios
 
 
 def trill_tuplets(
-    tuplet_ratios: int,
-    *specifiers: rmakers.SpecifierTyping,
-    dmask: rmakers.MasksTyping = None,
+    tuplet_ratios: int, *specifiers: rmakers.SpecifierTyping
 ) -> baca.RhythmCommand:
     """
     Makes trill tuplet rhythm.
     """
     return baca.rhythm(
-        divisions=baca.divisions().fuse().quarters(),
-        rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            rmakers.TieSpecifier(
+                attach_ties=True,
+                selector=baca.tuplets()[:-1].map(baca.ptail(-1)),
+            ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
-                extract_trivial=True, rewrite_rest_filled=True, trivialize=True
-            ),
-            rmakers.TieSpecifier(repeat_ties=True, tie_across_divisions=True),
-            division_masks=dmask,
+            rmakers.TupletSpecifier(rewrite_rest_filled=True, trivialize=True),
+            rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.RewriteMeterCommand(),
+            rmakers.TieSpecifier(repeat_ties=True),
+            divisions=baca.divisions().fuse().quarters().flatten(depth=-1),
             tuplet_ratios=string_tuplet_ratios(tuplet_ratios),
             tag="khamr.trill_tuplets",
-        ),
+        )
     )

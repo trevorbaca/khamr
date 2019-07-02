@@ -30,6 +30,10 @@ def opening_glissandi(
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
+            rmakers.TieSpecifier(
+                attach_repeat_ties=True,
+                selector=baca.tuplets()[1:].map(baca.pleaf(0)),
+            ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
@@ -38,7 +42,6 @@ def opening_glissandi(
                 rewrite_sustained=True,
                 trivialize=True,
             ),
-            rmakers.TieSpecifier(tie_across_divisions=True),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             tuplet_ratios=tuplet_ratios,

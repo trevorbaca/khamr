@@ -166,22 +166,37 @@ maker(
 
 maker(
     ('vn', (1, 14)),
-    khamr.trill_tuplets(4, dmask=rmakers.silence([-2, -1])),
-    )
+    khamr.trill_tuplets(
+        4,
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[-2:],
+        ),
+    ),
+)
 
 # va
 
 maker(
     ('va', (1, 14)),
-    khamr.trill_tuplets(3, dmask=rmakers.silence([-2, -1])),
-    )
+    khamr.trill_tuplets(
+        3,
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[-2:],
+        ),
+    ),
+)
 
 # vc
 
 maker(
     ('vc', (1, 8)),
-    khamr.trill_tuplets(2, dmask=rmakers.silence([-2, -1])),
-    )
+    khamr.trill_tuplets(
+        2,
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[-2:],
+        ),
+    ),
+)
 
 maker(
     ('vc', (9, 14)),
