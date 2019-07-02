@@ -9,12 +9,14 @@ def silent_first_division() -> baca.RhythmCommand:
     """
     quarters = baca.divisions().quarters(compound=(3, 2))
     return baca.rhythm(
-        divisions=baca.divisions().map(quarters),
-        rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            rmakers.TieSpecifier(tie_across_divisions=True, repeat_ties=True),
-            rmakers.BeamSpecifier(selector=baca.plts()),
-            division_masks=[rmakers.silence([0])],
+            rmakers.TieSpecifier(
+                attach_repeat_ties=True, selector=baca.ptails()[1:]
+            ),
+            rmakers.SilenceMask(selector=baca.note(0)),
+            rmakers.RewriteMeterCommand(),
+            rmakers.TieSpecifier(repeat_ties=True),
+            divisions=baca.divisions().map(quarters).flatten(depth=-1),
             tag="khamr.silent_first_division",
-        ),
+        )
     )

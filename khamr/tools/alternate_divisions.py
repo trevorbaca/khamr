@@ -18,12 +18,17 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
         )
         specifiers.append(specifier)
     return baca.rhythm(
-        rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
+            rmakers.TieSpecifier(
+                attach_ties=True, selector=baca.ptails()[:-1]
+            ),
+            rmakers.SilenceMask(
+                selector=baca.leaves().group_by_measure()[abjad.index([1], 2)]
+            ),
             *specifiers,
-            rmakers.TieSpecifier(repeat_ties=True, tie_across_divisions=True),
             rmakers.BeamSpecifier(selector=baca.plts()),
-            division_masks=[rmakers.silence([1], 2)],
+            rmakers.RewriteMeterCommand(),
+            rmakers.TieSpecifier(repeat_ties=True),
             tag="khamr.alternate_divisions",
-        ),
+        )
     )

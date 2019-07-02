@@ -11,14 +11,18 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     return baca.rhythm(
         divisions=baca.divisions().fuse(counts, cyclic=True),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
+            rmakers.TieSpecifier(
+                attach_repeat_ties=True,
+                selector=baca.tuplets()[1:].map(baca.pleaf(0)),
+            ),
             rmakers.TupletSpecifier(
                 duration_bracket=True,
                 selector=baca.tuplets().filter_length(">", 1),
             ),
-            rmakers.TieSpecifier(tie_across_divisions=True, repeat_ties=True),
             rmakers.BeamSpecifier(
                 selector=baca.tuplets(), use_feather_beams=True
             ),
+            rmakers.TieSpecifier(repeat_ties=True),
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=(1, 2),
