@@ -63,14 +63,14 @@ maker(
 maker(
     ('gt', (1, 7)),
     baca.make_repeat_tied_notes(
-        dmask=[rmakers.silence([0], 1), rmakers.sustain([-1])],
-        ),
-    )
+        rmakers.SilenceMask(selector=baca.lts()[:-1]),
+    ),
+)
 
 maker(
     ('gt', (8, 15)),
     baca.make_repeat_tied_notes(
-        dmask=[rmakers.silence([0], 1), rmakers.sustain([0])],
+        rmakers.SilenceMask(selector=baca.lts()[1:]),
         ),
     )
 
@@ -82,14 +82,14 @@ maker(
 maker(
     ('pf', (1, 7)),
     baca.make_repeat_tied_notes(
-        dmask=[rmakers.silence([0], 1), rmakers.sustain([-1])],
+        rmakers.SilenceMask(selector=baca.lts()[:-1]),
         ),
     )
 
 maker(
     ('pf', (8, 15)),
     baca.make_repeat_tied_notes(
-        dmask=[rmakers.silence([0], 1), rmakers.sustain([0])],
+        rmakers.SilenceMask(selector=baca.lts()[1:]),
         ),
     )
 
@@ -101,9 +101,9 @@ maker(
 maker(
     ('perc', (1, 5)),
     baca.make_repeat_tied_notes(
-        dmask=rmakers.silence([-1]),
-        ),
-    )
+        rmakers.SilenceMask(selector=baca.lt(-1)),
+    ),
+)
 
 maker(
     ('perc', (8, 15)),

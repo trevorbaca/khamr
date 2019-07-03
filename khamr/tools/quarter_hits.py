@@ -3,9 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def quarter_hits(
-    *specifiers: rmakers.SpecifierTyping, dmask: rmakers.MasksTyping = None
-) -> baca.RhythmCommand:
+def quarter_hits(*specifiers: rmakers.SpecifierTyping,) -> baca.RhythmCommand:
     """
     Makes quarter hits.
     """
@@ -17,7 +15,6 @@ def quarter_hits(
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.plts()),
             rmakers.TieSpecifier(repeat_ties=True),
-            division_masks=dmask,
             tag="khamr.quarter_hits",
         ),
     )

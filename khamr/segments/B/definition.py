@@ -73,10 +73,7 @@ maker(
     ('ob', (34, 37)),
     khamr.fused_wind(
         [10],
-        rmakers.SilenceMask(
-            selector=baca.tuplet(0),
-        ),
-        ###dmask=rmakers.silence([0]),
+        rmakers.SilenceMask(selector=baca.tuplet(0)),
         denominator=16,
     ),
 )
@@ -96,9 +93,9 @@ maker(
     ('cl', (32, 37)),
     baca.instrument(khamr.instruments['BassClarinet']),
     baca.make_repeat_tied_notes(
-        dmask=rmakers.silence([-1]),
-        ),
-    )
+        rmakers.SilenceMask(selector=baca.lt(-1)),
+    ),
+)
 
 maker(
     ('sax', (1, 2)),
@@ -163,8 +160,16 @@ maker(
 
 maker(
     ('vn', (3, 29)),
-    khamr.continuous_glissandi(0, dmask=rmakers.sustain([0, 1, 3], 7)),
-    )
+    khamr.continuous_glissandi(
+        0,
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[abjad.index([0, 1, 3], 7)].map(
+                baca.ptails()[:-1],
+            ),
+        ),
+    ),
+)
 
 maker(
     ('va', (1, 2)),
@@ -173,8 +178,16 @@ maker(
 
 maker(
     ('va', (3, 29)),
-    khamr.continuous_glissandi(-1, dmask=rmakers.sustain([1, 2, 4], 7)),
-    )
+    khamr.continuous_glissandi(
+        -1,
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[abjad.index([1, 2, 4], 7)].map(
+                baca.ptails()[:-1],
+            ),
+        ),
+    ),
+)
 
 maker(
     ('vc', (1, 2)),
@@ -183,8 +196,16 @@ maker(
 
 maker(
     ('vc', (3, 29)),
-    khamr.continuous_glissandi(-2, dmask=rmakers.sustain([2, 3, 5], 7)),
-    )
+    khamr.continuous_glissandi(
+        -2,
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[abjad.index([2, 3, 5], 7)].map(
+                baca.ptails()[:-1],
+            ),
+        ),
+    ),
+)
 
 maker(
     ('cb', [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]),
@@ -193,10 +214,8 @@ maker(
 
 maker(
     ('cb', [(30, 31), (32, 37)]),
-    baca.make_repeat_tied_notes(
-        dmask=rmakers.silence([-1]),
-        ),
-    )
+    baca.make_repeat_tied_notes(rmakers.SilenceMask(selector=baca.lt(-1))),
+)
 
 maker(
     ('fl', (1, 2)),
