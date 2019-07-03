@@ -23,7 +23,6 @@ from khamr.materials.instruments.definition import instruments
 from khamr.materials.margin_markups.definition import margin_markups
 from khamr.materials.metric_modulations.definition import metric_modulations
 from khamr.materials.metronome_marks.definition import metronome_marks
-from khamr.materials.multimeasure_rests.definition import multimeasure_rests
 from khamr.materials.percussion_instruments.definition import (
     percussion_instruments,
 )
