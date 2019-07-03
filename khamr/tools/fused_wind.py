@@ -13,12 +13,12 @@ def fused_wind(
     divisions = baca.divisions().map(quarters).flatten(depth=-1)
     divisions = divisions.fuse(counts, cyclic=True)
     return baca.rhythm(
-        rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             *specifiers,
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
+            rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=divisions,
             incise_specifier=rmakers.InciseSpecifier(
@@ -29,5 +29,5 @@ def fused_wind(
                 talea_denominator=denominator,
             ),
             tag="khamr.fused_wind",
-        ),
+        )
     )
