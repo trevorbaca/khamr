@@ -39,9 +39,7 @@ maker(
     baca.rehearsal_mark('A'),
     )
 
-stage_4_silence_mask = rmakers.silence([4, 5, 11, 12, 17, 18, 19, 20])
-
-stage_5_silence_mask = rmakers.silence([
+stage_5_silence_pattern = abjad.index([
     0, 2, 4, 5, 7, 8, 9, 11, 13,
     15, 16, 17, 19, 20, 21, 23, 24, 26,
     ])
@@ -135,8 +133,13 @@ maker(
 
 maker(
     ('pf', (21, 30)),
-    khamr.current([4, 3, 5], dmask=stage_5_silence_mask),
-    )
+    khamr.current(
+        [4, 3, 5],
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[stage_5_silence_pattern],
+        ),
+    ),
+)
 
 # perc
 
@@ -159,8 +162,12 @@ maker(
 
 maker(
     ('perc', (21, 30)),
-    khamr.quarter_hits(dmask=stage_5_silence_mask),
-    )
+    khamr.quarter_hits(
+        rmakers.SilenceMask(
+            selector=baca.lts()[stage_5_silence_pattern],
+        ),
+    ),
+)
 
 # vn
 
@@ -201,9 +208,9 @@ maker(
 maker(
     ('vc', (9, 14)),
     baca.make_repeat_tied_notes(
-        dmask=rmakers.silence([-1]),
-        ),
-    )
+        rmakers.SilenceMask(selector=baca.lt(-1)),
+    ),
+)
 
 # cb
 

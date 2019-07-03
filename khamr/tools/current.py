@@ -4,9 +4,7 @@ from abjadext import rmakers
 
 
 def current(
-    counts: abjad.IntegerSequence,
-    *specifiers: rmakers.SpecifierTyping,
-    dmask: rmakers.MasksTyping = None,
+    counts: abjad.IntegerSequence, *specifiers: rmakers.SpecifierTyping
 ) -> baca.RhythmCommand:
     """
     Makes current rhythm.
@@ -22,7 +20,6 @@ def current(
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
-            division_masks=dmask,
             tuplet_ratios=tuplet_ratios,
             tag="khamr.current",
         ),
