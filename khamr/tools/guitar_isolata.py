@@ -10,8 +10,6 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
     """
 
     return baca.rhythm(
-        divisions=baca.divisions().fuse().quarters(),
-        rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
@@ -21,6 +19,8 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
                 rewrite_sustained=True,
                 trivialize=True,
             ),
+            rmakers.RewriteMeterCommand(),
+            divisions=baca.divisions().fuse().quarters().flatten(depth=-1),
             tuplet_ratios=[
                 (-1, 1, -1),
                 (-1, 1, -1),
@@ -32,5 +32,5 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
                 (-3, 1, -1),
             ],
             tag="khamr.guitar_isolata",
-        ),
+        )
     )
