@@ -19,7 +19,7 @@ def current(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
             rmakers.RewriteMeterCommand(),
-            divisions=baca.divisions().map(quarters).flatten(depth=-1),
+            divisions=baca.divisions().map(quarters),
             tuplet_ratios=tuplet_ratios,
             tag="khamr.current",
         )
