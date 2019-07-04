@@ -23,7 +23,7 @@ def trill_tuplets(
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
-            divisions=baca.divisions().fuse().quarters().flatten(depth=-1),
+            divisions=baca.divisions().fuse().quarters(),
             tuplet_ratios=string_tuplet_ratios(tuplet_ratios),
             tag="khamr.trill_tuplets",
         )
