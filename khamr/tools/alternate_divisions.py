@@ -17,6 +17,7 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
             detach_repeat_ties=True, selector=baca.notes()
         )
         specifiers.append(specifier)
+
     return baca.rhythm(
         rhythm_maker=rmakers.NoteRhythmMaker(
             rmakers.TieSpecifier(
