@@ -11,6 +11,7 @@ def current(
     """
     tuplet_ratios = [_ * (1,) for _ in counts]
     quarters = baca.divisions().quarters(compound=(3, 2))
+
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,

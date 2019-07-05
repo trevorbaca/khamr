@@ -15,6 +15,7 @@ def continuous_glissandi(
     )
     tuplet_ratio_rotation *= 2
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
+
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
