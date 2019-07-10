@@ -11,7 +11,8 @@ def closing() -> baca.RhythmCommand:
     divisions = baca.divisions().fuse().split(divisions_, cyclic=True)
 
     return baca.rhythm(
-        rhythm_maker=rmakers.NoteRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.NoteRhythmMaker(tag="khamr.closing"),
             rmakers.SilenceMask(selector=baca.lts()[abjad.index([0, -1])]),
             rmakers.BeamSpecifier(selector=baca.plts()),
             rmakers.RewriteMeterCommand(),

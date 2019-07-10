@@ -14,7 +14,17 @@ def fused_wind(
     divisions = divisions.fuse(counts, cyclic=True)
 
     return baca.rhythm(
-        rhythm_maker=rmakers.IncisedRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.IncisedRhythmMaker(
+                incise_specifier=rmakers.InciseSpecifier(
+                    prefix_talea=[-1],
+                    prefix_counts=[0],
+                    suffix_talea=[-1],
+                    suffix_counts=[1],
+                    talea_denominator=denominator,
+                ),
+                tag="khamr.fused_wind",
+            ),
             *specifiers,
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
@@ -22,13 +32,6 @@ def fused_wind(
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=divisions,
-            incise_specifier=rmakers.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=denominator,
-            ),
             tag="khamr.fused_wind",
         )
     )

@@ -12,11 +12,16 @@ def aviary(
     """
 
     return baca.rhythm(
-        rhythm_maker=rmakers.EvenDivisionRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.EvenDivisionRhythmMaker(
+                denominators=[16],
+                divisions=baca.divisions()
+                .fuse()
+                .split([duration], cyclic=True),
+                extra_counts_per_division=extra_counts,
+                tag="khamr.aviary",
+            ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
-            denominators=[16],
-            divisions=baca.divisions().fuse().split([duration], cyclic=True),
-            extra_counts_per_division=extra_counts,
             tag="khamr.aviary",
         )
     )

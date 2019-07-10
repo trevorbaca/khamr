@@ -12,7 +12,11 @@ def trill_tuplets(
     Makes trill tuplet rhythm.
     """
     return baca.rhythm(
-        rhythm_maker=rmakers.TupletRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TupletRhythmMaker(
+                tuplet_ratios=string_tuplet_ratios(tuplet_ratios),
+                tag="khamr.trill_tuplets",
+            ),
             rmakers.TieSpecifier(
                 attach_ties=True,
                 selector=baca.tuplets()[:-1].map(baca.ptail(-1)),
@@ -24,7 +28,6 @@ def trill_tuplets(
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=baca.divisions().fuse().quarters(),
-            tuplet_ratios=string_tuplet_ratios(tuplet_ratios),
             tag="khamr.trill_tuplets",
         )
     )
