@@ -10,7 +10,8 @@ def silent_first_division() -> baca.RhythmCommand:
     quarters = baca.divisions().quarters(compound=(3, 2))
 
     return baca.rhythm(
-        rhythm_maker=rmakers.NoteRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.NoteRhythmMaker(tag="khamr.silent_first_division"),
             rmakers.TieSpecifier(
                 attach_repeat_ties=True, selector=baca.ptails()[1:]
             ),

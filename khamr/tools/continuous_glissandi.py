@@ -17,7 +17,10 @@ def continuous_glissandi(
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
-        rhythm_maker=rmakers.TupletRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TupletRhythmMaker(
+                tuplet_ratios=tuplet_ratios, tag="khamr.continuous_glissandi"
+            ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
@@ -28,7 +31,6 @@ def continuous_glissandi(
             ),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
-            tuplet_ratios=tuplet_ratios,
             tag="khamr.continuous_glissandi",
         )
     )

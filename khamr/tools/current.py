@@ -13,7 +13,10 @@ def current(
     quarters = baca.divisions().quarters(compound=(3, 2))
 
     return baca.rhythm(
-        rhythm_maker=rmakers.TupletRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TupletRhythmMaker(
+                tuplet_ratios=tuplet_ratios, tag="khamr.current"
+            ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
@@ -21,7 +24,6 @@ def current(
             ),
             rmakers.RewriteMeterCommand(),
             divisions=baca.divisions().map(quarters),
-            tuplet_ratios=tuplet_ratios,
             tag="khamr.current",
         )
     )

@@ -19,7 +19,8 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
         specifiers.append(specifier)
 
     return baca.rhythm(
-        rhythm_maker=rmakers.NoteRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.NoteRhythmMaker(tag="khamr.alternate_divisions"),
             rmakers.TieSpecifier(
                 attach_ties=True, selector=baca.ptails()[:-1]
             ),

@@ -10,7 +10,8 @@ def quarter_hits(*specifiers: rmakers.SpecifierTyping,) -> baca.RhythmCommand:
     quarters = baca.divisions().quarters(compound=(3, 2))
 
     return baca.rhythm(
-        rhythm_maker=rmakers.NoteRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.NoteRhythmMaker(tag="khamr.quarter_hits"),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.plts()),
             rmakers.RewriteMeterCommand(),

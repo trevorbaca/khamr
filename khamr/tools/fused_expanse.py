@@ -12,7 +12,8 @@ def fused_expanse(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     divisions = divisions.fuse(counts, cyclic=True)
 
     return baca.rhythm(
-        rhythm_maker=rmakers.NoteRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.NoteRhythmMaker(tag="khamr.fused_expanse"),
             rmakers.BeamSpecifier(selector=baca.plts()),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
