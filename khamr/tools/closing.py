@@ -12,12 +12,12 @@ def closing() -> baca.RhythmCommand:
 
     return baca.rhythm(
         rmakers.RhythmCommand(
-            rmakers.NoteRhythmMaker(tag="khamr.closing"),
+            rmakers.NoteRhythmMaker(),
             rmakers.SilenceMask(selector=baca.lts()[abjad.index([0, -1])]),
             rmakers.BeamSpecifier(selector=baca.plts()),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=divisions,
-            tag="khamr.closing",
-        )
+        ),
+        tag="khamr.closing",
     )
