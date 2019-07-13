@@ -14,9 +14,7 @@ def current(
 
     return baca.rhythm(
         rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(
-                tuplet_ratios=tuplet_ratios, tag="khamr.current"
-            ),
+            rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
@@ -24,6 +22,6 @@ def current(
             ),
             rmakers.RewriteMeterCommand(),
             divisions=baca.divisions().map(quarters),
-            tag="khamr.current",
-        )
+        ),
+        tag="khamr.current",
     )

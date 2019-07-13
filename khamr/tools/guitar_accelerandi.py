@@ -22,8 +22,7 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
                         stop_duration=(1, 2),
                         written_duration=(1, 16),
                     ),
-                ],
-                tag="khamr.guitar_accelerandi",
+                ]
             ),
             rmakers.TieSpecifier(
                 attach_repeat_ties=True,
@@ -38,6 +37,6 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
             ),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=baca.divisions().fuse(counts, cyclic=True),
-            tag="khamr.guitar_accelerandi",
-        )
+        ),
+        tag="khamr.guitar_accelerandi",
     )

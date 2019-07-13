@@ -19,9 +19,8 @@ def aviary(
                 .fuse()
                 .split([duration], cyclic=True),
                 extra_counts_per_division=extra_counts,
-                tag="khamr.aviary",
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
-            tag="khamr.aviary",
-        )
+        ),
+        tag="khamr.aviary",
     )

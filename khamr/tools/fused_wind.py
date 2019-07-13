@@ -22,8 +22,7 @@ def fused_wind(
                     suffix_talea=[-1],
                     suffix_counts=[1],
                     talea_denominator=denominator,
-                ),
-                tag="khamr.fused_wind",
+                )
             ),
             *specifiers,
             rmakers.TupletSpecifier(
@@ -32,6 +31,6 @@ def fused_wind(
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=divisions,
-            tag="khamr.fused_wind",
-        )
+        ),
+        tag="khamr.fused_wind",
     )

@@ -31,9 +31,7 @@ def opening_glissandi(
 
     return baca.rhythm(
         rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(
-                tuplet_ratios=tuplet_ratios, tag="khamr.opening_glissandi"
-            ),
+            rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
             rmakers.TieSpecifier(
                 attach_repeat_ties=True,
                 selector=baca.tuplets()[1:].map(baca.pleaf(0)),
@@ -48,6 +46,6 @@ def opening_glissandi(
             ),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
-            tag="khamr.opening_glissandi",
-        )
+        ),
+        tag="khamr.opening_glissandi",
     )
