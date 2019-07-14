@@ -15,7 +15,7 @@ def silent_first_division() -> baca.RhythmCommand:
             rmakers.TieSpecifier(
                 attach_repeat_ties=True, selector=baca.ptails()[1:]
             ),
-            rmakers.SilenceMask(baca.note(0)),
+            rmakers.rest(baca.note(0)),
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=baca.divisions().map(quarters),
