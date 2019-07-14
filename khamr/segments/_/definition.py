@@ -133,40 +133,40 @@ maker(
     'fl',
     khamr.fused_wind(
         [10, 10, 6, 10, 8, 6],
-        rmakers.SilenceMask(baca.tuplets().get([2, 5], 6)),
-        ),
-    )
+        rmakers.rest(baca.tuplets().get([2, 5], 6)),
+    ),
+)
 
 maker(
     'ob',
     khamr.fused_wind(
         [12, 6, 10, 10, 6, 8],
-        rmakers.SilenceMask(baca.tuplets().get([1, 4], 6)),
-        ),
-    )
+        rmakers.rest(baca.tuplets().get([1, 4], 6)),
+    ),
+)
 
 maker(
     'cl',
     khamr.fused_wind(
         [8, 6, 10, 6, 10, 8],
-        rmakers.SilenceMask(baca.tuplets().get([1, 3], 6)),
-        ),
-    )
+        rmakers.rest(baca.tuplets().get([1, 3], 6)),
+    ),
+)
 
 maker(
     'sax',
     khamr.fused_wind(
         [14, 6, 10, 6, 10, 8],
-        rmakers.SilenceMask(baca.tuplets().get([1, 3], 6)),
-        ),
-    )
+        rmakers.rest(baca.tuplets().get([1, 3], 6)),
+    ),
+)
 
 maker(
     ('gt', (1, 24)),
     khamr.guitar_isolata(
-        rmakers.SilenceMask(baca.tuplets().get([1, 2, 3, 5, 6, 7, 8], 9)),
-        rmakers.SilenceMask(baca.tuplets()[:12]),
-        rmakers.SustainMask(baca.tuplets()[:1]),
+        rmakers.rest(baca.tuplets().get([1, 2, 3, 5, 6, 7, 8], 9)),
+        rmakers.rest(baca.tuplets()[:12]),
+        rmakers.note(baca.tuplets()[:1]),
         rmakers.TieSpecifier(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
@@ -182,7 +182,7 @@ maker(
 maker(
     ('gt', (41, 44)),
     khamr.guitar_isolata(
-        rmakers.SilenceMask(baca.tuplets().get([1, 2, 3, 5, 6, 7, 8], 9)),
+        rmakers.rest(baca.tuplets().get([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
 )
 
@@ -199,7 +199,7 @@ maker(
 maker(
     ('pf', (37, 40)),
     khamr.guitar_isolata(
-        rmakers.SilenceMask(baca.tuplets().get([1, 2, 3, 5, 6, 7, 8], 9)),
+        rmakers.rest(baca.tuplets().get([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
 )
 
