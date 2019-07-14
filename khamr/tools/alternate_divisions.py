@@ -25,7 +25,7 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
                 attach_ties=True, selector=baca.ptails()[:-1]
             ),
             rmakers.SilenceMask(
-                selector=baca.leaves().group_by_measure()[abjad.index([1], 2)]
+                baca.leaves().group_by_measure()[abjad.index([1], 2)]
             ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.plts()),
