@@ -164,9 +164,7 @@ maker(
         0,
         rmakers.TieSpecifier(
             attach_ties=True,
-            selector=baca.tuplets()[abjad.index([0, 1, 3], 7)].map(
-                baca.ptails()[:-1],
-            ),
+            selector=baca.tuplets().get([0, 1, 3], 7).map(baca.ptails()[:-1]),
         ),
     ),
 )
@@ -182,9 +180,7 @@ maker(
         -1,
         rmakers.TieSpecifier(
             attach_ties=True,
-            selector=baca.tuplets()[abjad.index([1, 2, 4], 7)].map(
-                baca.ptails()[:-1],
-            ),
+            selector=baca.tuplets().get([1, 2, 4], 7).map(baca.ptails()[:-1]),
         ),
     ),
 )
@@ -200,9 +196,7 @@ maker(
         -2,
         rmakers.TieSpecifier(
             attach_ties=True,
-            selector=baca.tuplets()[abjad.index([2, 3, 5], 7)].map(
-                baca.ptails()[:-1],
-            ),
+            selector=baca.tuplets().get([2, 3, 5], 7).map(baca.ptails()[:-1]),
         ),
     ),
 )

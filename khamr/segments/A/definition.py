@@ -50,7 +50,7 @@ maker(
     ('fl', (1, 8)),
     khamr.fused_wind(
         [10, 10, 6, 8, 6],
-        rmakers.SilenceMask(baca.tuplets()[abjad.index([2, 5], 6)]),
+        rmakers.SilenceMask(baca.tuplets().get([2, 5], 6)),
     ),
 )
 
@@ -60,7 +60,7 @@ maker(
     ('ob', (1, 8)),
     khamr.fused_wind(
         [12, 6, 10, 10, 6, 8],
-        rmakers.SilenceMask(baca.tuplets()[abjad.index([1, 4], 6)]),
+        rmakers.SilenceMask(baca.tuplets().get([1, 4], 6)),
     ),
 )
 
@@ -70,7 +70,7 @@ maker(
     ('cl', (1, 14)),
     khamr.fused_wind(
         [8, 6, 10, 6, 10, 8],
-        rmakers.SilenceMask(baca.tuplets()[abjad.index([1, 3], 6)]),
+        rmakers.SilenceMask(baca.tuplets().get([1, 3], 6)),
         rmakers.SilenceMask(baca.tuplet(-1)),
     ),
 )
@@ -81,7 +81,7 @@ maker(
     ('sax', (1, 8)),
     khamr.fused_wind(
         [14, 6, 10, 6, 10, 8],
-        rmakers.SilenceMask(baca.tuplets()[abjad.index([1, 3], 6)]),
+        rmakers.SilenceMask(baca.tuplets().get([1, 3], 6)),
     ),
 )
 
@@ -90,9 +90,7 @@ maker(
 maker(
     ('gt', (1, 4)),
     khamr.guitar_isolata(
-        rmakers.SilenceMask(baca.tuplets()[abjad.index([
-            1, 2, 3, 5, 6, 7, 8], 9)]
-        ),
+        rmakers.SilenceMask(baca.tuplets().get([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
 )
 
@@ -121,7 +119,7 @@ maker(
     ('pf', (21, 30)),
     khamr.current(
         [4, 3, 5],
-        rmakers.SilenceMask(baca.tuplets()[stage_5_silence_pattern]),
+        rmakers.SilenceMask(baca.tuplets().get(stage_5_silence_pattern)),
     ),
 )
 
@@ -136,10 +134,9 @@ maker(
     ('perc', (15, 20)),
     khamr.quarter_hits(
         rmakers.SilenceMask(
-            baca.lts()[abjad.index([
-            0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 
-            12, 13, 14, 15, 16, 18, 19, 20,
-            ])],
+            baca.lts().get([
+            0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20,
+            ]),
         ),
     ),
 )
@@ -147,7 +144,7 @@ maker(
 maker(
     ('perc', (21, 30)),
     khamr.quarter_hits(
-        rmakers.SilenceMask(baca.lts()[stage_5_silence_pattern]),
+        rmakers.SilenceMask(baca.lts().get(stage_5_silence_pattern)),
     ),
 )
 
@@ -196,9 +193,7 @@ maker(
         -3,
         rmakers.TieSpecifier(
             attach_repeat_ties=True,
-            selector=baca.tuplets()[abjad.index([0, 1, 4, 6], 7)].map(
-                baca.leaves()[1:]
-            ),
+            selector=baca.tuplets().get([0, 1, 4, 6], 7).map(baca.leaves()[1:]),
         ),
         rmakers.SilenceMask(baca.tuplet(-1)),
     ),
