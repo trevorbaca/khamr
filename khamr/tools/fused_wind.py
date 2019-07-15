@@ -25,11 +25,11 @@ def fused_wind(
                 )
             ),
             *specifiers,
-            rmakers.TupletSpecifier(
+            rmakers.TupletCommand(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
-            rmakers.RewriteMeterCommand(),
-            rmakers.TieSpecifier(repeat_ties=True),
+            rmakers.rewrite_meter(),
+            rmakers.TieCommand(repeat_ties=True),
             divisions=divisions,
         ),
         tag="khamr.fused_wind",

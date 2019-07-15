@@ -20,15 +20,15 @@ def continuous_glissandi(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 extract_trivial=True,
                 rewrite_rest_filled=True,
                 rewrite_sustained=True,
                 trivialize=True,
             ),
-            rmakers.RewriteMeterCommand(),
-            rmakers.TieSpecifier(repeat_ties=True),
+            rmakers.rewrite_meter(),
+            rmakers.TieCommand(repeat_ties=True),
         ),
         tag="khamr.continuous_glissandi",
     )
