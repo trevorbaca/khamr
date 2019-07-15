@@ -24,18 +24,18 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
                     ),
                 ]
             ),
-            rmakers.TieSpecifier(
+            rmakers.TieCommand(
                 attach_repeat_ties=True,
                 selector=baca.tuplets()[1:].map(baca.pleaf(0)),
             ),
-            rmakers.TupletSpecifier(
+            rmakers.TupletCommand(
                 duration_bracket=True,
                 selector=baca.tuplets().filter_length(">", 1),
             ),
-            rmakers.BeamSpecifier(
+            rmakers.BeamCommand(
                 selector=baca.tuplets(), use_feather_beams=True
             ),
-            rmakers.TieSpecifier(repeat_ties=True),
+            rmakers.TieCommand(repeat_ties=True),
             divisions=baca.divisions().fuse(counts, cyclic=True),
         ),
         tag="khamr.guitar_accelerandi",

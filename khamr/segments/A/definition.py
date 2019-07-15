@@ -188,7 +188,7 @@ maker(
     ('cb', (1, 14)),
     khamr.opening_glissandi(
         -3,
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_repeat_ties=True,
             selector=baca.tuplets().get([0, 1, 4, 6], 7).map(baca.leaves()[1:]),
         ),

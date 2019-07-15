@@ -24,14 +24,14 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
                 ]
             ),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 extract_trivial=True,
                 rewrite_rest_filled=True,
                 rewrite_sustained=True,
                 trivialize=True,
             ),
-            rmakers.RewriteMeterCommand(),
+            rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         tag="khamr.guitar_isolata",

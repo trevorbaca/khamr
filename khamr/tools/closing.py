@@ -14,9 +14,9 @@ def closing() -> baca.RhythmCommand:
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(),
             rmakers.rest(baca.lts().get([0, -1])),
-            rmakers.BeamSpecifier(selector=baca.plts()),
-            rmakers.RewriteMeterCommand(),
-            rmakers.TieSpecifier(repeat_ties=True),
+            rmakers.BeamCommand(selector=baca.plts()),
+            rmakers.rewrite_meter(),
+            rmakers.TieCommand(repeat_ties=True),
             divisions=divisions,
         ),
         tag="khamr.closing",

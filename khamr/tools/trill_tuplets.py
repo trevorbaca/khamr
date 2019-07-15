@@ -16,16 +16,16 @@ def trill_tuplets(
             rmakers.TupletRhythmMaker(
                 tuplet_ratios=string_tuplet_ratios(tuplet_ratios)
             ),
-            rmakers.TieSpecifier(
+            rmakers.TieCommand(
                 attach_ties=True,
                 selector=baca.tuplets()[:-1].map(baca.ptail(-1)),
             ),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(rewrite_rest_filled=True, trivialize=True),
-            rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.RewriteMeterCommand(),
-            rmakers.TieSpecifier(repeat_ties=True),
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(rewrite_rest_filled=True, trivialize=True),
+            rmakers.TupletCommand(extract_trivial=True),
+            rmakers.rewrite_meter(),
+            rmakers.TieCommand(repeat_ties=True),
             divisions=baca.divisions().fuse().quarters(),
         ),
         tag="khamr.trill_tuplets",

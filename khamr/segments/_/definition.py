@@ -167,7 +167,7 @@ maker(
         rmakers.rest(baca.tuplets().get([1, 2, 3, 5, 6, 7, 8], 9)),
         rmakers.rest(baca.tuplets()[:12]),
         rmakers.note(baca.tuplets()[:1]),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
         ),
@@ -217,7 +217,7 @@ maker(
     ('vn', (1, 36)),
     khamr.opening_glissandi(
         0,
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_repeat_ties=True,
             selector=baca.tuplets().get([0, 1, 2, 5], 7).map(baca.leaves()[1:]),
         ),
@@ -233,7 +233,7 @@ maker(
     ('va', (1, 36)),
     khamr.opening_glissandi(
         -1,
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([1, 2, 3, 6], 7).map(baca.leaves()[:-1]),
         ),
@@ -249,7 +249,7 @@ maker(
     ('vc', (1, 36)),
     khamr.opening_glissandi(
         -2,
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, 2, 3, 4], 7).map(baca.leaves()[:-1]),
         ),
@@ -265,7 +265,7 @@ maker(
     'cb',
     khamr.opening_glissandi(
         -3,
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, 1, 4, 6], 7).map(baca.leaves()[:-1]),
         ),
