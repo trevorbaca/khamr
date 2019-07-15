@@ -24,13 +24,11 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
                 ]
             ),
             *specifiers,
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(
-                extract_trivial=True,
-                rewrite_rest_filled=True,
-                rewrite_sustained=True,
-                trivialize=True,
-            ),
+            rmakers.beam(),
+            rmakers.rewrite_rest_filled(),
+            rmakers.rewrite_sustained(),
+            rmakers.trivialize(),
+            rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),
