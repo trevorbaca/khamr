@@ -19,12 +19,12 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(),
-            rmakers.TieCommand(attach_ties=True, selector=baca.ptails()[:-1]),
+            rmakers.tie(baca.ptails()[:-1]),
             rmakers.rest(baca.leaves().group_by_measure().get([1], 2)),
             *specifiers,
-            rmakers.BeamCommand(selector=baca.plts()),
+            rmakers.beam(baca.plts()),
             rmakers.rewrite_meter(),
-            rmakers.TieCommand(repeat_ties=True),
+            rmakers.to_repeat_tie(),
         ),
         tag="khamr.alternate_divisions",
     )
