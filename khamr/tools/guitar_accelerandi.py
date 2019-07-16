@@ -25,7 +25,7 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
                 ]
             ),
             rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
-            rmakers.set_duration_bracket(baca.tuplets().filter_length(">", 1)),
+            rmakers.duration_bracket(baca.tuplets().filter_length(">", 1)),
             rmakers.feather_beam(),
             rmakers.to_repeat_tie(),
             divisions=baca.divisions().fuse(counts, cyclic=True),
