@@ -2430,7 +2430,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 27]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         d''16 * 115/64                                                         %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         fs''!16 * 121/64                                                       %! khamr.guitar_accelerandi
@@ -2493,7 +2493,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 28]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         cs''!16 * 487/64                                                       %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         b''16 * 209/32                                                         %! khamr.guitar_accelerandi
@@ -2556,7 +2556,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 30]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         f''16 * 13/8                                                           %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         d''16 * 125/64                                                         %! khamr.guitar_accelerandi
@@ -2615,7 +2615,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 31]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         g''16 * 123/16                                                         %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         bf''!16 * 449/64                                                       %! khamr.guitar_accelerandi
@@ -2682,7 +2682,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 33]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         af''!16 * 13/8                                                         %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         e''16 * 125/64                                                         %! khamr.guitar_accelerandi
@@ -2739,7 +2739,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 34]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         cs''!16 * 245/32                                                       %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         c''16 * 109/16                                                         %! khamr.guitar_accelerandi
@@ -2806,7 +2806,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 36]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         e''16 * 113/64                                                         %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         f''16 * 121/64                                                         %! khamr.guitar_accelerandi
@@ -2869,7 +2869,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 37]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         d''16 * 477/64                                                         %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         cs''!16 * 353/64                                                       %! khamr.guitar_accelerandi
@@ -2928,7 +2928,7 @@ i_Guitar_Music_Voice = {                                                       %
         % [_ Guitar_Music_Voice measure 39]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         d''16 * 115/64                                                         %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         fs''!16 * 121/64                                                       %! khamr.guitar_accelerandi
@@ -2952,7 +2952,7 @@ i_Guitar_Music_Voice = {                                                       %
 
         % [_ Guitar_Music_Voice measure 40]                                    %! _comment_measure_numbers
         bf''!2                                                                 %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
 
     }                                                                          %! khamr.guitar_accelerandi
 
@@ -3333,7 +3333,7 @@ i_Piano_Music_Voice = {                                                        %
         % [_ Piano_Music_Voice measure 28]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         cs''''!16 * 117/64                                                     %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         b'''16 * 121/64                                                        %! khamr.guitar_accelerandi
@@ -3398,7 +3398,7 @@ i_Piano_Music_Voice = {                                                        %
         % [_ Piano_Music_Voice measure 30]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         d''''16 * 497/64                                                       %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         fs'''!16 * 59/8                                                        %! khamr.guitar_accelerandi
@@ -3471,7 +3471,7 @@ i_Piano_Music_Voice = {                                                        %
         % [_ Piano_Music_Voice measure 33]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         e''''16 * 117/64                                                       %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         d''''16 * 121/64                                                       %! khamr.guitar_accelerandi
@@ -3538,7 +3538,7 @@ i_Piano_Music_Voice = {                                                        %
         % [_ Piano_Music_Voice measure 35]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         ef''''!16 * 123/16                                                     %! khamr.guitar_accelerandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.guitar_accelerandi
         [                                                                      %! khamr.guitar_accelerandi
 
         cs''''!16 * 449/64                                                     %! khamr.guitar_accelerandi
@@ -3652,17 +3652,17 @@ i_Piano_Music_Voice = {                                                        %
 
     % [_ Piano_Music_Voice measure 42]                                         %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [_ Piano_Music_Voice measure 43]                                         %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [_ Piano_Music_Voice measure 44]                                         %! _comment_measure_numbers
     c'1.                                                                       %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -4089,11 +4089,11 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 2]                                         %! _comment_measure_numbers
     g'2                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 3]                                         %! _comment_measure_numbers
     g'1.                                                                       %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 3/4 {                                                               %! khamr.opening_glissandi
@@ -4102,7 +4102,7 @@ i_Violin_Music_Voice = {                                                       %
         g'2.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         af'!4                                                                  %! khamr.opening_glissandi
@@ -4117,7 +4117,7 @@ i_Violin_Music_Voice = {                                                       %
     af'!2.                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     gqs'!4                                                                     %! khamr.opening_glissandi
@@ -4128,7 +4128,7 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 6]                                         %! _comment_measure_numbers
     gqs'!2.                                                                    %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 2/3 {                                                               %! khamr.opening_glissandi
 
@@ -4136,7 +4136,7 @@ i_Violin_Music_Voice = {                                                       %
         gqs'!1                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a'2                                                                    %! khamr.opening_glissandi
@@ -4186,8 +4186,8 @@ i_Violin_Music_Voice = {                                                       %
         bqf'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        - \tweak direction #up
-        \repeatTie
+        - \tweak direction #up                                                 %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         af'!4                                                                  %! khamr.opening_glissandi
@@ -4200,7 +4200,7 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 13]                                        %! _comment_measure_numbers
     af'!2.                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 4/5 {                                                               %! khamr.opening_glissandi
 
@@ -4208,7 +4208,7 @@ i_Violin_Music_Voice = {                                                       %
         af'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs'!8                                                                 %! khamr.opening_glissandi
@@ -4258,7 +4258,7 @@ i_Violin_Music_Voice = {                                                       %
         a'1                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         g'2                                                                    %! khamr.opening_glissandi
@@ -4271,7 +4271,7 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 20]                                        %! _comment_measure_numbers
     g'1.                                                                       %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 2/3 {                                                               %! khamr.opening_glissandi
 
@@ -4279,7 +4279,7 @@ i_Violin_Music_Voice = {                                                       %
         g'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a'4                                                                    %! khamr.opening_glissandi
@@ -4292,15 +4292,15 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 22]                                        %! _comment_measure_numbers
     a'2                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 23]                                        %! _comment_measure_numbers
     a'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 24]                                        %! _comment_measure_numbers
     a'1                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 4/5 {                                                               %! khamr.opening_glissandi
 
@@ -4308,7 +4308,7 @@ i_Violin_Music_Voice = {                                                       %
         a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b'8                                                                    %! khamr.opening_glissandi
@@ -4325,7 +4325,7 @@ i_Violin_Music_Voice = {                                                       %
         b'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         aqs'!8                                                                 %! khamr.opening_glissandi
@@ -4338,13 +4338,13 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 27]                                        %! _comment_measure_numbers
     aqs'!1.                                                                    %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 28]                                        %! _comment_measure_numbers
     aqs'!2.                                                                    %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     bf'!4                                                                      %! khamr.opening_glissandi
@@ -4355,16 +4355,16 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 29]                                        %! _comment_measure_numbers
     bf'!2.                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 30]                                        %! _comment_measure_numbers
     bf'!2.                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 31]                                        %! _comment_measure_numbers
     bf'!1                                                                      %! khamr.opening_glissandi
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 5/9 {                                                               %! khamr.opening_glissandi
@@ -4373,8 +4373,8 @@ i_Violin_Music_Voice = {                                                       %
         bf'!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        - \tweak direction #up
-        \repeatTie
+        - \tweak direction #up                                                 %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         g'2.                                                                   %! khamr.opening_glissandi
@@ -4389,7 +4389,7 @@ i_Violin_Music_Voice = {                                                       %
     g'2                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     a'4                                                                        %! khamr.opening_glissandi
@@ -4400,7 +4400,7 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 34]                                        %! _comment_measure_numbers
     a'1                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 4/7 {                                                               %! khamr.opening_glissandi
 
@@ -4408,7 +4408,7 @@ i_Violin_Music_Voice = {                                                       %
         a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b'4                                                                    %! khamr.opening_glissandi
@@ -4709,15 +4709,15 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 2]                                          %! _comment_measure_numbers
     af'!2                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 3]                                          %! _comment_measure_numbers
     af'!1.                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 4]                                          %! _comment_measure_numbers
     af'!2.                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 2/3 {                                                               %! khamr.opening_glissandi
 
@@ -4725,7 +4725,7 @@ i_Viola_Music_Voice = {                                                        %
         af'!1                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs'!2                                                                 %! khamr.opening_glissandi
@@ -4740,7 +4740,7 @@ i_Viola_Music_Voice = {                                                        %
     gqs'!2                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     a'4                                                                        %! khamr.opening_glissandi
@@ -4751,7 +4751,7 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 7]                                          %! _comment_measure_numbers
     a'1                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 5/7 {                                                               %! khamr.opening_glissandi
@@ -4760,7 +4760,7 @@ i_Viola_Music_Voice = {                                                        %
         a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bqf'!4                                                                 %! khamr.opening_glissandi
@@ -4773,21 +4773,21 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 9]                                          %! _comment_measure_numbers
     bqf'!1                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 10]                                         %! _comment_measure_numbers
     bqf'!2.                                                                    %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 11]                                         %! _comment_measure_numbers
     bqf'!1                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 12]                                         %! _comment_measure_numbers
     bqf'!1                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     af'!4                                                                      %! khamr.opening_glissandi
@@ -4803,7 +4803,7 @@ i_Viola_Music_Voice = {                                                        %
         af'!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs'!4                                                                 %! khamr.opening_glissandi
@@ -4816,7 +4816,7 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 14]                                         %! _comment_measure_numbers
     gqs'!2                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 3/4 {                                                               %! khamr.opening_glissandi
@@ -4825,7 +4825,7 @@ i_Viola_Music_Voice = {                                                        %
         gqs'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a'2                                                                    %! khamr.opening_glissandi
@@ -4875,7 +4875,7 @@ i_Viola_Music_Voice = {                                                        %
         g'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a'4                                                                    %! khamr.opening_glissandi
@@ -4888,7 +4888,7 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 21]                                         %! _comment_measure_numbers
     a'2                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 4/5 {                                                               %! khamr.opening_glissandi
 
@@ -4896,7 +4896,7 @@ i_Viola_Music_Voice = {                                                        %
         a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b'8                                                                    %! khamr.opening_glissandi
@@ -4909,21 +4909,21 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 23]                                         %! _comment_measure_numbers
     b'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 24]                                         %! _comment_measure_numbers
     b'1                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 25]                                         %! _comment_measure_numbers
     b'2                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 26]                                         %! _comment_measure_numbers
     b'4.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     aqs'!8                                                                     %! khamr.opening_glissandi
@@ -4939,7 +4939,7 @@ i_Viola_Music_Voice = {                                                        %
         aqs'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bf'!2                                                                  %! khamr.opening_glissandi
@@ -4952,13 +4952,13 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 28]                                         %! _comment_measure_numbers
     bf'!1                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 29]                                         %! _comment_measure_numbers
     bf'!2                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     g'4                                                                        %! khamr.opening_glissandi
@@ -5006,7 +5006,7 @@ i_Viola_Music_Voice = {                                                        %
         a'1                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b'4                                                                    %! khamr.opening_glissandi
@@ -5019,13 +5019,13 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 35]                                         %! _comment_measure_numbers
     b'1                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 36]                                         %! _comment_measure_numbers
     b'1                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     aqs'!4                                                                     %! khamr.opening_glissandi
@@ -5265,7 +5265,7 @@ i_Cello_Music_Voice = {                                                        %
         g2                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         af!4                                                                   %! khamr.opening_glissandi
@@ -5278,15 +5278,15 @@ i_Cello_Music_Voice = {                                                        %
 
     % [_ Cello_Music_Voice measure 3]                                          %! _comment_measure_numbers
     af!1.                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 4]                                          %! _comment_measure_numbers
     af!2.                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 5]                                          %! _comment_measure_numbers
     af!1                                                                       %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 6/7 {                                                               %! khamr.opening_glissandi
@@ -5295,7 +5295,7 @@ i_Cello_Music_Voice = {                                                        %
         af!2.                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs!8                                                                  %! khamr.opening_glissandi
@@ -5312,7 +5312,7 @@ i_Cello_Music_Voice = {                                                        %
         gqs!1                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a4                                                                     %! khamr.opening_glissandi
@@ -5381,7 +5381,7 @@ i_Cello_Music_Voice = {                                                        %
         af!2                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs!4                                                                  %! khamr.opening_glissandi
@@ -5394,7 +5394,7 @@ i_Cello_Music_Voice = {                                                        %
 
     % [_ Cello_Music_Voice measure 15]                                         %! _comment_measure_numbers
     gqs!1.                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 4/7 {                                                               %! khamr.opening_glissandi
 
@@ -5402,7 +5402,7 @@ i_Cello_Music_Voice = {                                                        %
         gqs!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a8                                                                     %! khamr.opening_glissandi
@@ -5451,7 +5451,7 @@ i_Cello_Music_Voice = {                                                        %
         g2                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a8                                                                     %! khamr.opening_glissandi
@@ -5464,7 +5464,7 @@ i_Cello_Music_Voice = {                                                        %
 
     % [_ Cello_Music_Voice measure 22]                                         %! _comment_measure_numbers
     a2                                                                         %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 3/4 {                                                               %! khamr.opening_glissandi
@@ -5473,7 +5473,7 @@ i_Cello_Music_Voice = {                                                        %
         a2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b4                                                                     %! khamr.opening_glissandi
@@ -5486,21 +5486,21 @@ i_Cello_Music_Voice = {                                                        %
 
     % [_ Cello_Music_Voice measure 24]                                         %! _comment_measure_numbers
     b1                                                                         %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 25]                                         %! _comment_measure_numbers
     b2                                                                         %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 26]                                         %! _comment_measure_numbers
     b2                                                                         %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 27]                                         %! _comment_measure_numbers
     b1                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     aqs!2                                                                      %! khamr.opening_glissandi
@@ -5515,7 +5515,7 @@ i_Cello_Music_Voice = {                                                        %
         aqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bf!4                                                                   %! khamr.opening_glissandi
@@ -5528,7 +5528,7 @@ i_Cello_Music_Voice = {                                                        %
 
     % [_ Cello_Music_Voice measure 29]                                         %! _comment_measure_numbers
     bf!2.                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 6/7 {                                                               %! khamr.opening_glissandi
@@ -5537,7 +5537,7 @@ i_Cello_Music_Voice = {                                                        %
         bf!2.                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         g8                                                                     %! khamr.opening_glissandi
@@ -5580,7 +5580,7 @@ i_Cello_Music_Voice = {                                                        %
     a2.                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     b4                                                                         %! khamr.opening_glissandi
@@ -5807,14 +5807,14 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 2]                                     %! _comment_measure_numbers
     a2                                                                         %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 3]                                 %! _comment_measure_numbers
         a1.                                                                    %! khamr.opening_glissandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bf!4                                                                   %! khamr.opening_glissandi
@@ -5825,7 +5825,7 @@ i_Contrabass_Music_Voice = {                                                   %
 
         % [_ Contrabass_Music_Voice measure 4]                                 %! _comment_measure_numbers
         bf!2.                                                                  %! khamr.opening_glissandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         aqs!8.                                                                 %! khamr.opening_glissandi
@@ -5834,13 +5834,13 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 5]                                     %! _comment_measure_numbers
     aqs!1                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 6]                                 %! _comment_measure_numbers
         aqs!2.                                                                 %! khamr.opening_glissandi
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b8.                                                                    %! khamr.opening_glissandi
@@ -5879,7 +5879,7 @@ i_Contrabass_Music_Voice = {                                                   %
         cqs'!1                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bf!2                                                                   %! khamr.opening_glissandi
@@ -5917,21 +5917,21 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 14]                                    %! _comment_measure_numbers
     aqs!2                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 15]                                    %! _comment_measure_numbers
     aqs!1.                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 16]                                    %! _comment_measure_numbers
     aqs!2                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 17]                                    %! _comment_measure_numbers
     aqs!1                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     b4                                                                         %! khamr.opening_glissandi
@@ -5946,7 +5946,7 @@ i_Contrabass_Music_Voice = {                                                   %
         b2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a8.                                                                    %! khamr.opening_glissandi
@@ -5959,7 +5959,7 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 19]                                    %! _comment_measure_numbers
     a1                                                                         %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 3/4 {                                                               %! khamr.opening_glissandi
@@ -5968,7 +5968,7 @@ i_Contrabass_Music_Voice = {                                                   %
         a1.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b2                                                                     %! khamr.opening_glissandi
@@ -5981,15 +5981,15 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 21]                                    %! _comment_measure_numbers
     b2                                                                         %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 22]                                    %! _comment_measure_numbers
     b2                                                                         %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 23]                                    %! _comment_measure_numbers
     b2.                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 2/3 {                                                               %! khamr.opening_glissandi
 
@@ -5997,7 +5997,7 @@ i_Contrabass_Music_Voice = {                                                   %
         b1                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         cs'!2                                                                  %! khamr.opening_glissandi
@@ -6014,7 +6014,7 @@ i_Contrabass_Music_Voice = {                                                   %
         cs'!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bqs!8                                                                  %! khamr.opening_glissandi
@@ -6027,7 +6027,7 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 26]                                    %! _comment_measure_numbers
     bqs!2                                                                      %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 6/7 {                                                               %! khamr.opening_glissandi
@@ -6036,7 +6036,7 @@ i_Contrabass_Music_Voice = {                                                   %
         bqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         c'4                                                                    %! khamr.opening_glissandi
@@ -6049,21 +6049,21 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 28]                                    %! _comment_measure_numbers
     c'1                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 29]                                    %! _comment_measure_numbers
     c'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 30]                                    %! _comment_measure_numbers
     c'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 31]                                    %! _comment_measure_numbers
     c'2.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     a4                                                                         %! khamr.opening_glissandi
@@ -6079,7 +6079,7 @@ i_Contrabass_Music_Voice = {                                                   %
         a2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b4                                                                     %! khamr.opening_glissandi
@@ -6092,7 +6092,7 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 33]                                    %! _comment_measure_numbers
     b2.                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 2/3 {                                                               %! khamr.opening_glissandi
 
@@ -6100,7 +6100,7 @@ i_Contrabass_Music_Voice = {                                                   %
         b1                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         cs'!2                                                                  %! khamr.opening_glissandi
@@ -6150,7 +6150,7 @@ i_Contrabass_Music_Voice = {                                                   %
         bqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         dqf'!4                                                                 %! khamr.opening_glissandi
@@ -6163,13 +6163,13 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 40]                                    %! _comment_measure_numbers
     dqf'!2                                                                     %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 41]                                    %! _comment_measure_numbers
     dqf'!1                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     c'4                                                                        %! khamr.opening_glissandi
@@ -6180,17 +6180,17 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 42]                                    %! _comment_measure_numbers
     c'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 43]                                    %! _comment_measure_numbers
     c'1                                                                        %! khamr.opening_glissandi
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 44]                                    %! _comment_measure_numbers
     c'1.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container

@@ -723,47 +723,47 @@ A_Flute_Music_Voice = {                                                        %
     % [A Flute_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
     b''2                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Flute_Music_Voice measure 67 / measure 23]                            %! _comment_measure_numbers
     b''2.                                                                      %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Flute_Music_Voice measure 68 / measure 24]                            %! _comment_measure_numbers
     b''1                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Flute_Music_Voice measure 69 / measure 25]                            %! _comment_measure_numbers
     b''2                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Flute_Music_Voice measure 70 / measure 26]                            %! _comment_measure_numbers
     b''2                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Flute_Music_Voice measure 71 / measure 27]                            %! _comment_measure_numbers
     b''1.                                                                      %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Flute_Music_Voice measure 72 / measure 28]                            %! _comment_measure_numbers
     b''1                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Flute_Music_Voice measure 73 / measure 29]                            %! _comment_measure_numbers
     b''2.                                                                      %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Flute_Music_Voice measure 74 / measure 30]                            %! _comment_measure_numbers
     b''2.                                                                      %! khamr.silent_first_division
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -946,39 +946,39 @@ A_Oboe_Music_Voice = {                                                         %
 
     % [A Oboe_Music_Voice measure 66 / measure 22]                             %! _comment_measure_numbers
     ds'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 67 / measure 23]                             %! _comment_measure_numbers
     ds'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 68 / measure 24]                             %! _comment_measure_numbers
     ds'!1                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 69 / measure 25]                             %! _comment_measure_numbers
     ds'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 70 / measure 26]                             %! _comment_measure_numbers
     ds'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 71 / measure 27]                             %! _comment_measure_numbers
     ds'!1.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 72 / measure 28]                             %! _comment_measure_numbers
     ds'!1                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 73 / measure 29]                             %! _comment_measure_numbers
     ds'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 74 / measure 30]                             %! _comment_measure_numbers
     ds'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1151,39 +1151,39 @@ A_Clarinet_Music_Voice = {                                                     %
 
     % [A Clarinet_Music_Voice measure 66 / measure 22]                         %! _comment_measure_numbers
     gs!2                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 67 / measure 23]                         %! _comment_measure_numbers
     gs!2.                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 68 / measure 24]                         %! _comment_measure_numbers
     gs!1                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 69 / measure 25]                         %! _comment_measure_numbers
     gs!2                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 70 / measure 26]                         %! _comment_measure_numbers
     gs!2                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 71 / measure 27]                         %! _comment_measure_numbers
     gs!1.                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 72 / measure 28]                         %! _comment_measure_numbers
     gs!1                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 73 / measure 29]                         %! _comment_measure_numbers
     gs!2.                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 74 / measure 30]                         %! _comment_measure_numbers
     gs!2.                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1360,39 +1360,39 @@ A_Saxophone_Music_Voice = {                                                    %
 
     % [A Saxophone_Music_Voice measure 66 / measure 22]                        %! _comment_measure_numbers
     es'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 67 / measure 23]                        %! _comment_measure_numbers
     es'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 68 / measure 24]                        %! _comment_measure_numbers
     es'!1                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 69 / measure 25]                        %! _comment_measure_numbers
     es'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 70 / measure 26]                        %! _comment_measure_numbers
     es'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 71 / measure 27]                        %! _comment_measure_numbers
     es'!1.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 72 / measure 28]                        %! _comment_measure_numbers
     es'!1                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 73 / measure 29]                        %! _comment_measure_numbers
     es'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 74 / measure 30]                        %! _comment_measure_numbers
     es'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1526,11 +1526,11 @@ A_Guitar_Music_Voice = {                                                       %
 
     % [A Guitar_Music_Voice measure 50 / measure 6]                            %! _comment_measure_numbers
     fs!2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Guitar_Music_Voice measure 51 / measure 7]                            %! _comment_measure_numbers
     fs!1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Guitar_Music_Voice measure 52 / measure 8]                            %! _comment_measure_numbers
     fs!2.
@@ -1541,15 +1541,15 @@ A_Guitar_Music_Voice = {                                                       %
 
     % [A Guitar_Music_Voice measure 53 / measure 9]                            %! _comment_measure_numbers
     fs!1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Guitar_Music_Voice measure 54 / measure 10]                           %! _comment_measure_numbers
     fs!2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Guitar_Music_Voice measure 55 / measure 11]                           %! _comment_measure_numbers
     fs!1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Guitar_Music_Voice measure 56 / measure 12]                           %! _comment_measure_numbers
     fs!2.
@@ -1560,7 +1560,7 @@ A_Guitar_Music_Voice = {                                                       %
 
     % [A Guitar_Music_Voice measure 57 / measure 13]                           %! _comment_measure_numbers
     fs!2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Guitar_Music_Voice measure 58 / measure 14]                           %! _comment_measure_numbers
     r2                                                                         %! baca.make_repeat_tied_notes
@@ -1608,39 +1608,39 @@ A_Guitar_Music_Voice = {                                                       %
 
     % [A Guitar_Music_Voice measure 66 / measure 22]                           %! _comment_measure_numbers
     g2                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 67 / measure 23]                           %! _comment_measure_numbers
     g2.                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 68 / measure 24]                           %! _comment_measure_numbers
     g1                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 69 / measure 25]                           %! _comment_measure_numbers
     g2                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 70 / measure 26]                           %! _comment_measure_numbers
     g2                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 71 / measure 27]                           %! _comment_measure_numbers
     g1.                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 72 / measure 28]                           %! _comment_measure_numbers
     g1                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 73 / measure 29]                           %! _comment_measure_numbers
     g2.                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 74 / measure 30]                           %! _comment_measure_numbers
     g2.                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1719,30 +1719,30 @@ A_Piano_Music_Voice = {                                                        %
 
     % [A Piano_Music_Voice measure 46 / measure 2]                             %! _comment_measure_numbers
     c'2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 47 / measure 3]                             %! _comment_measure_numbers
     c'1.                                                                       %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 48 / measure 4]                             %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 49 / measure 5]                             %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 50 / measure 6]                             %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 51 / measure 7]                             %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 52 / measure 8]                             %! _comment_measure_numbers
     c'2.
@@ -1753,17 +1753,17 @@ A_Piano_Music_Voice = {                                                        %
 
     % [A Piano_Music_Voice measure 53 / measure 9]                             %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 54 / measure 10]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 55 / measure 11]                            %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 56 / measure 12]                            %! _comment_measure_numbers
     c'2.
@@ -1774,7 +1774,7 @@ A_Piano_Music_Voice = {                                                        %
 
     % [A Piano_Music_Voice measure 57 / measure 13]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Piano_Music_Voice measure 58 / measure 14]                            %! _comment_measure_numbers
     r2                                                                         %! baca.make_repeat_tied_notes
@@ -2909,39 +2909,39 @@ A_Violin_Music_Voice = {                                                       %
 
     % [A Violin_Music_Voice measure 66 / measure 22]                           %! _comment_measure_numbers
     a'2                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 67 / measure 23]                           %! _comment_measure_numbers
     a'2.                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 68 / measure 24]                           %! _comment_measure_numbers
     a'1                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 69 / measure 25]                           %! _comment_measure_numbers
     a'2                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 70 / measure 26]                           %! _comment_measure_numbers
     a'2                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 71 / measure 27]                           %! _comment_measure_numbers
     a'1.                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 72 / measure 28]                           %! _comment_measure_numbers
     a'1                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 73 / measure 29]                           %! _comment_measure_numbers
     a'2.                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 74 / measure 30]                           %! _comment_measure_numbers
     a'2.                                                                       %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3284,39 +3284,39 @@ A_Viola_Music_Voice = {                                                        %
 
     % [A Viola_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
     gs'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 67 / measure 23]                            %! _comment_measure_numbers
     gs'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 68 / measure 24]                            %! _comment_measure_numbers
     gs'!1                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 69 / measure 25]                            %! _comment_measure_numbers
     gs'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 70 / measure 26]                            %! _comment_measure_numbers
     gs'!2                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 71 / measure 27]                            %! _comment_measure_numbers
     gs'!1.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 72 / measure 28]                            %! _comment_measure_numbers
     gs'!1                                                                      %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 73 / measure 29]                            %! _comment_measure_numbers
     gs'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 74 / measure 30]                            %! _comment_measure_numbers
     gs'!2.                                                                     %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3518,11 +3518,11 @@ A_Cello_Music_Voice = {                                                        %
 
     % [A Cello_Music_Voice measure 54 / measure 10]                            %! _comment_measure_numbers
     fs!2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Cello_Music_Voice measure 55 / measure 11]                            %! _comment_measure_numbers
     fs!1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Cello_Music_Voice measure 56 / measure 12]                            %! _comment_measure_numbers
     fs!2.
@@ -3533,7 +3533,7 @@ A_Cello_Music_Voice = {                                                        %
 
     % [A Cello_Music_Voice measure 57 / measure 13]                            %! _comment_measure_numbers
     fs!2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [A Cello_Music_Voice measure 58 / measure 14]                            %! _comment_measure_numbers
     r2                                                                         %! baca.make_repeat_tied_notes
@@ -3569,39 +3569,39 @@ A_Cello_Music_Voice = {                                                        %
 
     % [A Cello_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
     g2                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 67 / measure 23]                            %! _comment_measure_numbers
     g2.                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 68 / measure 24]                            %! _comment_measure_numbers
     g1                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 69 / measure 25]                            %! _comment_measure_numbers
     g2                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 70 / measure 26]                            %! _comment_measure_numbers
     g2                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 71 / measure 27]                            %! _comment_measure_numbers
     g1.                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 72 / measure 28]                            %! _comment_measure_numbers
     g1                                                                         %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 73 / measure 29]                            %! _comment_measure_numbers
     g2.                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 74 / measure 30]                            %! _comment_measure_numbers
     g2.                                                                        %! khamr.silent_first_division
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3678,14 +3678,14 @@ A_Contrabass_Music_Voice = {                                                   %
 
     % [A Contrabass_Music_Voice measure 46 / measure 2]                        %! _comment_measure_numbers
     <g, a>2
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
     \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [A Contrabass_Music_Voice measure 47 / measure 3]                    %! _comment_measure_numbers
         <g, a>1.
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         <af,! bf!>4
@@ -3696,7 +3696,7 @@ A_Contrabass_Music_Voice = {                                                   %
 
         % [A Contrabass_Music_Voice measure 48 / measure 4]                    %! _comment_measure_numbers
         <af,! bf!>2.
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         <gqs,! aqs!>8.
@@ -3705,13 +3705,13 @@ A_Contrabass_Music_Voice = {                                                   %
 
     % [A Contrabass_Music_Voice measure 49 / measure 5]                        %! _comment_measure_numbers
     <gqs,! aqs!>1
-    \repeatTie
+    \repeatTie                                                                 %! khamr.opening_glissandi
 
     \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [A Contrabass_Music_Voice measure 50 / measure 6]                    %! _comment_measure_numbers
         <gqs,! aqs!>2.
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         <a, b>8.
@@ -3744,7 +3744,7 @@ A_Contrabass_Music_Voice = {                                                   %
 
         % [A Contrabass_Music_Voice measure 55 / measure 11]                   %! _comment_measure_numbers
         <bqf,! cqs'!>1
-        \repeatTie
+        \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         <af,! bf!>2
@@ -3805,39 +3805,39 @@ A_Contrabass_Music_Voice = {                                                   %
 
     % [A Contrabass_Music_Voice measure 66 / measure 22]                       %! _comment_measure_numbers
     <g,, a,>2
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Contrabass_Music_Voice measure 67 / measure 23]                       %! _comment_measure_numbers
     <g,, a,>2.
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Contrabass_Music_Voice measure 68 / measure 24]                       %! _comment_measure_numbers
     <g,, a,>1
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Contrabass_Music_Voice measure 69 / measure 25]                       %! _comment_measure_numbers
     <g,, a,>2
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Contrabass_Music_Voice measure 70 / measure 26]                       %! _comment_measure_numbers
     <g,, a,>2
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Contrabass_Music_Voice measure 71 / measure 27]                       %! _comment_measure_numbers
     <g,, a,>1.
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Contrabass_Music_Voice measure 72 / measure 28]                       %! _comment_measure_numbers
     <g,, a,>1
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Contrabass_Music_Voice measure 73 / measure 29]                       %! _comment_measure_numbers
     <g,, a,>2.
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     % [A Contrabass_Music_Voice measure 74 / measure 30]                       %! _comment_measure_numbers
     <g,, a,>2.
-    \repeatTie
+    \repeatTie                                                                 %! khamr.silent_first_division
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

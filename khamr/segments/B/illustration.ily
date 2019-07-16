@@ -743,7 +743,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
     b''2                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1918,7 +1918,7 @@ B_Oboe_Music_Voice = {                                                         %
 
     % [B Oboe_Music_Voice measure 76 / measure 2]                              %! _comment_measure_numbers
     ds'!2                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3243,7 +3243,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
     % [B Clarinet_Music_Voice measure 76 / measure 2]                          %! _comment_measure_numbers
     gs!2                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4223,15 +4223,15 @@ B_Clarinet_Music_Voice = {                                                     %
 
     % [B Clarinet_Music_Voice measure 107 / measure 33]                        %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Clarinet_Music_Voice measure 108 / measure 34]                        %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Clarinet_Music_Voice measure 109 / measure 35]                        %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Clarinet_Music_Voice measure 110 / measure 36]                        %! _comment_measure_numbers
     a2.
@@ -4316,7 +4316,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
     % [B Saxophone_Music_Voice measure 76 / measure 2]                         %! _comment_measure_numbers
     es'!2                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5559,7 +5559,7 @@ B_Guitar_Music_Voice = {                                                       %
 
     % [B Guitar_Music_Voice measure 76 / measure 2]                            %! _comment_measure_numbers
     g'2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5609,7 +5609,7 @@ B_Guitar_Music_Voice = {                                                       %
     % [B Guitar_Music_Voice measure 85 / measure 11]                           %! _comment_measure_numbers
     af''!1                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 86 / measure 12]                           %! _comment_measure_numbers
     af''!2.
@@ -5623,22 +5623,22 @@ B_Guitar_Music_Voice = {                                                       %
     % [B Guitar_Music_Voice measure 87 / measure 13]                           %! _comment_measure_numbers
     af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 88 / measure 14]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 89 / measure 15]                           %! _comment_measure_numbers
     af''!1.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 90 / measure 16]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 91 / measure 17]                           %! _comment_measure_numbers
     af''!2.
@@ -5652,62 +5652,62 @@ B_Guitar_Music_Voice = {                                                       %
     % [B Guitar_Music_Voice measure 92 / measure 18]                           %! _comment_measure_numbers
     af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 93 / measure 19]                           %! _comment_measure_numbers
     af''!1                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 94 / measure 20]                           %! _comment_measure_numbers
     af''!1.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 95 / measure 21]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 96 / measure 22]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 97 / measure 23]                           %! _comment_measure_numbers
     af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 98 / measure 24]                           %! _comment_measure_numbers
     af''!1                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 99 / measure 25]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 100 / measure 26]                          %! _comment_measure_numbers
     af''!2                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 101 / measure 27]                          %! _comment_measure_numbers
     af''!1.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 102 / measure 28]                          %! _comment_measure_numbers
     af''!1                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Guitar_Music_Voice measure 103 / measure 29]                          %! _comment_measure_numbers
     af''!2.                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -7334,14 +7334,14 @@ B_Percussion_Music_Voice = {                                                   %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 81 / measure 7]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 82 / measure 8]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7358,8 +7358,8 @@ B_Percussion_Music_Voice = {                                                   %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 84 / measure 10]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7668,8 +7668,8 @@ B_Percussion_Music_Voice = {                                                   %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 106 / measure 32]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7686,21 +7686,21 @@ B_Percussion_Music_Voice = {                                                   %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 108 / measure 34]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 109 / measure 35]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 110 / measure 36]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7717,7 +7717,7 @@ B_Percussion_Music_Voice = {                                                   %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -7792,7 +7792,7 @@ B_Violin_Music_Voice = {                                                       %
 
     % [B Violin_Music_Voice measure 76 / measure 2]                            %! _comment_measure_numbers
     a'2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Violin_Music_Voice measure 77 / measure 3]                            %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
@@ -8137,7 +8137,7 @@ B_Viola_Music_Voice = {                                                        %
 
     % [B Viola_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
     gs'!2                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
     \times 3/5 {                                                               %! khamr.continuous_glissandi
@@ -8478,7 +8478,7 @@ B_Cello_Music_Voice = {                                                        %
 
     % [B Cello_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
     g2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Cello_Music_Voice measure 77 / measure 3]                             %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
@@ -8817,7 +8817,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 76 / measure 2]                        %! _comment_measure_numbers
     <g,, a,>2
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 77 / measure 3]                        %! _comment_measure_numbers
     <gs,,! as,!>1.
@@ -8826,7 +8826,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 78 / measure 4]                        %! _comment_measure_numbers
     <gs,,! as,!>2.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 79 / measure 5]                        %! _comment_measure_numbers
     <gs,,! as,!>1
@@ -8837,11 +8837,11 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 80 / measure 6]                        %! _comment_measure_numbers
     <gs,,! as,!>2.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 81 / measure 7]                        %! _comment_measure_numbers
     <gs,,! as,!>1
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 82 / measure 8]                        %! _comment_measure_numbers
     <gs,,! as,!>2.
@@ -8853,7 +8853,7 @@ B_Contrabass_Music_Voice = {                                                   %
     <gs,,! as,!>1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 84 / measure 10]                       %! _comment_measure_numbers
     <gs,,! as,!>2.
@@ -8863,7 +8863,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 85 / measure 11]                       %! _comment_measure_numbers
     <gs,,! as,!>1
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 86 / measure 12]                       %! _comment_measure_numbers
     <gs,,! as,!>2.
@@ -8874,19 +8874,19 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 87 / measure 13]                       %! _comment_measure_numbers
     <gs,,! as,!>2.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 88 / measure 14]                       %! _comment_measure_numbers
     <gs,,! as,!>2
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 89 / measure 15]                       %! _comment_measure_numbers
     <gs,,! as,!>1.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 90 / measure 16]                       %! _comment_measure_numbers
     <gs,,! as,!>2
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 91 / measure 17]                       %! _comment_measure_numbers
     <gs,,! as,!>2.
@@ -8897,35 +8897,35 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 92 / measure 18]                       %! _comment_measure_numbers
     <gs,,! as,!>2.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 93 / measure 19]                       %! _comment_measure_numbers
     <gs,,! as,!>1
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 94 / measure 20]                       %! _comment_measure_numbers
     <gs,,! as,!>1.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 95 / measure 21]                       %! _comment_measure_numbers
     <gs,,! as,!>2
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 96 / measure 22]                       %! _comment_measure_numbers
     <gs,,! as,!>2
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 97 / measure 23]                       %! _comment_measure_numbers
     <gs,,! as,!>2.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 98 / measure 24]                       %! _comment_measure_numbers
     <gs,,! as,!>1
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 99 / measure 25]                       %! _comment_measure_numbers
     <gs,,! as,!>2
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 100 / measure 26]                      %! _comment_measure_numbers
     <g,, a,>2
@@ -8933,15 +8933,15 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 101 / measure 27]                      %! _comment_measure_numbers
     <g,, a,>1.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 102 / measure 28]                      %! _comment_measure_numbers
     <g,, a,>1
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 103 / measure 29]                      %! _comment_measure_numbers
     <g,, a,>2.
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 104 / measure 30]                      %! _comment_measure_numbers
     <g,, a,>2.
@@ -8963,15 +8963,15 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 107 / measure 33]                      %! _comment_measure_numbers
     g,,2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 108 / measure 34]                      %! _comment_measure_numbers
     g,,1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 109 / measure 35]                      %! _comment_measure_numbers
     g,,1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 110 / measure 36]                      %! _comment_measure_numbers
     g,,2.

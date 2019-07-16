@@ -15,7 +15,7 @@ def silent_first_division() -> baca.RhythmCommand:
             rmakers.repeat_tie(baca.ptails()[1:]),
             rmakers.rest(baca.note(0)),
             rmakers.rewrite_meter(),
-            rmakers.to_repeat_tie(),
+            rmakers.force_repeat_ties(),
             divisions=baca.divisions().map(quarters),
         ),
         tag="khamr.silent_first_division",
