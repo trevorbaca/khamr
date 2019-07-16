@@ -14,7 +14,7 @@ def fused_expanse(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(),
-            rmakers.beam(baca.plts()),
+            rmakers.simple_beam(baca.plts()),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
             divisions=divisions.flatten(depth=-1),

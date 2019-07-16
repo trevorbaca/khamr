@@ -20,7 +20,7 @@ def continuous_glissandi(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
             *specifiers,
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.rewrite_sustained(),
             rmakers.trivialize(),
