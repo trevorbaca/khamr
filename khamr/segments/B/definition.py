@@ -162,9 +162,8 @@ maker(
     ('vn', (3, 29)),
     khamr.continuous_glissandi(
         0,
-        rmakers.TieCommand(
-            attach_ties=True,
-            selector=baca.tuplets().get([0, 1, 3], 7).map(baca.ptails()[:-1]),
+        rmakers.tie(
+            baca.tuplets().get([0, 1, 3], 7).map(baca.ptails()[:-1]),
         ),
     ),
 )
@@ -178,9 +177,8 @@ maker(
     ('va', (3, 29)),
     khamr.continuous_glissandi(
         -1,
-        rmakers.TieCommand(
-            attach_ties=True,
-            selector=baca.tuplets().get([1, 2, 4], 7).map(baca.ptails()[:-1]),
+        rmakers.tie(
+            baca.tuplets().get([1, 2, 4], 7).map(baca.ptails()[:-1]),
         ),
     ),
 )
@@ -194,9 +192,8 @@ maker(
     ('vc', (3, 29)),
     khamr.continuous_glissandi(
         -2,
-        rmakers.TieCommand(
-            attach_ties=True,
-            selector=baca.tuplets().get([2, 3, 5], 7).map(baca.ptails()[:-1]),
+        rmakers.tie(
+            baca.tuplets().get([2, 3, 5], 7).map(baca.ptails()[:-1]),
         ),
     ),
 )

@@ -40,7 +40,7 @@ def opening_glissandi(
             rmakers.trivialize(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            rmakers.TieCommand(repeat_ties=True),
+            rmakers.to_repeat_tie(),
         ),
         tag="khamr.opening_glissandi",
     )

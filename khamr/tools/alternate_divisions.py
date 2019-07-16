@@ -9,11 +9,7 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
     """
     specifiers = []
     if detach_ties is True:
-        specifier = rmakers.TieCommand(detach_ties=True, selector=baca.notes())
-        specifiers.append(specifier)
-        specifier = rmakers.TieCommand(
-            detach_repeat_ties=True, selector=baca.notes()
-        )
+        specifier = rmakers.untie()
         specifiers.append(specifier)
 
     return baca.rhythm(
