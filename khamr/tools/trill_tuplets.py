@@ -18,7 +18,7 @@ def trill_tuplets(
             ),
             rmakers.tie(baca.tuplets()[:-1].map(baca.ptail(-1))),
             *specifiers,
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.trivialize(),
             rmakers.extract_trivial(),
