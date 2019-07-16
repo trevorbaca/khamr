@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def quarter_hits(*specifiers: rmakers.SpecifierTyping,) -> baca.RhythmCommand:
+def quarter_hits(*specifiers: rmakers.Command,) -> baca.RhythmCommand:
     """
     Makes quarter hits.
     """
