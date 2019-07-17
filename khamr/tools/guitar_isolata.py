@@ -24,7 +24,7 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
                 ]
             ),
             *specifiers,
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.rewrite_sustained(),
             rmakers.trivialize(),

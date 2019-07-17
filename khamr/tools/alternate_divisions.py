@@ -18,7 +18,7 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
             rmakers.tie(baca.ptails()[:-1]),
             rmakers.rest(baca.leaves().group_by_measure().get([1], 2)),
             *specifiers,
-            rmakers.simple_beam(baca.plts()),
+            rmakers.beam(baca.plts()),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
         ),

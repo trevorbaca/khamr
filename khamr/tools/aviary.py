@@ -20,7 +20,7 @@ def aviary(
                 .split([duration], cyclic=True),
                 extra_counts_per_division=extra_counts,
             ),
-            rmakers.simple_beam(),
+            rmakers.beam(),
         ),
         tag="khamr.aviary",
     )
