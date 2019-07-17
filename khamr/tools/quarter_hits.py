@@ -13,7 +13,7 @@ def quarter_hits(*specifiers: rmakers.Command,) -> baca.RhythmCommand:
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(),
             *specifiers,
-            rmakers.simple_beam(baca.plts()),
+            rmakers.beam(baca.plts()),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
             divisions=baca.divisions().map(quarters),

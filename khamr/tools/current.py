@@ -16,7 +16,7 @@ def current(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
             *specifiers,
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.trivialize(),
             rmakers.extract_trivial(),
