@@ -12,12 +12,12 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
         rmakers.RhythmCommand(
             rmakers.AccelerandoRhythmMaker(
                 interpolation_specifiers=[
-                    rmakers.InterpolationSpecifier(
+                    rmakers.Interpolation(
                         start_duration=(1, 2),
                         stop_duration=(1, 8),
                         written_duration=(1, 16),
                     ),
-                    rmakers.InterpolationSpecifier(
+                    rmakers.Interpolation(
                         start_duration=(1, 8),
                         stop_duration=(1, 2),
                         written_duration=(1, 16),
