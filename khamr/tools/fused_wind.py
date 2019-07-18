@@ -16,7 +16,7 @@ def fused_wind(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.IncisedRhythmMaker(
-                incise_specifier=rmakers.InciseSpecifier(
+                incise_specifier=rmakers.Incise(
                     prefix_talea=[-1],
                     prefix_counts=[0],
                     suffix_talea=[-1],

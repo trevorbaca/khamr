@@ -13,7 +13,7 @@ def silent_first_division() -> baca.RhythmCommand:
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(),
             rmakers.repeat_tie(baca.ptails()[1:]),
-            rmakers.rest(baca.note(0)),
+            rmakers.force_rest(baca.note(0)),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
             divisions=baca.divisions().map(quarters),

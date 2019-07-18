@@ -13,7 +13,7 @@ def closing() -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(),
-            rmakers.rest(baca.lts().get([0, -1])),
+            rmakers.force_rest(baca.lts().get([0, -1])),
             rmakers.beam(baca.plts()),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
