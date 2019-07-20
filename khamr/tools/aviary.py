@@ -18,7 +18,7 @@ def aviary(
                 divisions=baca.divisions()
                 .fuse()
                 .split([duration], cyclic=True),
-                extra_counts_per_division=extra_counts,
+                extra_counts=extra_counts,
             ),
             rmakers.beam(),
         ),
