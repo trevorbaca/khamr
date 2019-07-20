@@ -16,7 +16,7 @@ def quarter_hits(*specifiers: rmakers.Command,) -> baca.RhythmCommand:
             rmakers.beam(baca.plts()),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
-            divisions=baca.divisions().map(quarters),
+            preprocessor=baca.divisions().map(quarters),
         ),
         tag="khamr.quarter_hits",
     )

@@ -29,7 +29,7 @@ def fused_wind(
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
-            divisions=divisions,
+            preprocessor=divisions,
         ),
         tag="khamr.fused_wind",
     )

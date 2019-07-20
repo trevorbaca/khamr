@@ -24,7 +24,7 @@ def trill_tuplets(
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
-            divisions=baca.divisions().fuse().quarters(),
+            preprocessor=baca.divisions().fuse().quarters(),
         ),
         tag="khamr.trill_tuplets",
     )

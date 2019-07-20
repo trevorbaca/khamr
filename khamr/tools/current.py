@@ -21,7 +21,7 @@ def current(
             rmakers.trivialize(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            divisions=baca.divisions().map(quarters),
+            preprocessor=baca.divisions().map(quarters),
         ),
         tag="khamr.current",
     )
