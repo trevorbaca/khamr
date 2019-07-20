@@ -30,8 +30,8 @@ def opening_glissandi(
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
+        rmakers.rhythm(
+            rmakers.tuplet(tuplet_ratios=tuplet_ratios),
             rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
             *specifiers,
             rmakers.beam(),

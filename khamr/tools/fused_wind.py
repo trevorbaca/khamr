@@ -14,8 +14,8 @@ def fused_wind(
     divisions = divisions.fuse(counts, cyclic=True)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.IncisedRhythmMaker(
+        rmakers.rhythm(
+            rmakers.incised(
                 incise=rmakers.Incise(
                     prefix_talea=[-1],
                     prefix_counts=[0],

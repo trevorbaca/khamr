@@ -12,10 +12,8 @@ def trill_tuplets(
     Makes trill tuplet rhythm.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(
-                tuplet_ratios=string_tuplet_ratios(tuplet_ratios)
-            ),
+        rmakers.rhythm(
+            rmakers.tuplet(tuplet_ratios=string_tuplet_ratios(tuplet_ratios)),
             rmakers.tie(baca.tuplets()[:-1].map(baca.ptail(-1))),
             *specifiers,
             rmakers.beam(),
