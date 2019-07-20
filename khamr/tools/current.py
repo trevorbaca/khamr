@@ -13,8 +13,8 @@ def current(
     quarters = baca.divisions().quarters(compound=(3, 2))
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
+        rmakers.rhythm(
+            rmakers.tuplet(tuplet_ratios=tuplet_ratios),
             *specifiers,
             rmakers.beam(),
             rmakers.rewrite_rest_filled(),

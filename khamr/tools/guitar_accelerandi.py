@@ -9,8 +9,8 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     """
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.AccelerandoRhythmMaker(
+        rmakers.rhythm(
+            rmakers.accelerando(
                 interpolations=[
                     rmakers.Interpolation(
                         start_duration=(1, 2),

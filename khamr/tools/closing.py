@@ -11,8 +11,8 @@ def closing() -> baca.RhythmCommand:
     divisions = baca.divisions().fuse().split(divisions_, cyclic=True)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.NoteRhythmMaker(),
+        rmakers.rhythm(
+            rmakers.note(),
             rmakers.force_rest(baca.lts().get([0, -1])),
             rmakers.beam(baca.plts()),
             rmakers.rewrite_meter(),

@@ -10,8 +10,8 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
     """
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(
+        rmakers.rhythm(
+            rmakers.tuplet(
                 tuplet_ratios=[
                     (-1, 1, -1),
                     (-1, 1, -1),
