@@ -28,7 +28,7 @@ def fused_wind(
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            rmakers.force_repeat_ties(),
+            rmakers.force_repeat_tie(),
             preprocessor=divisions,
         ),
         tag="khamr.fused_wind",

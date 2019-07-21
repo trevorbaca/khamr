@@ -26,7 +26,7 @@ def continuous_glissandi(
             rmakers.trivialize(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            rmakers.force_repeat_ties(),
+            rmakers.force_repeat_tie(),
         ),
         tag="khamr.continuous_glissandi",
     )
