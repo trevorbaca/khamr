@@ -27,7 +27,7 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
             rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
             rmakers.duration_bracket(baca.tuplets().filter_length(">", 1)),
             rmakers.feather_beam(),
-            rmakers.force_repeat_ties(),
+            rmakers.force_repeat_tie(),
             preprocessor=baca.divisions().fuse(counts, cyclic=True),
         ),
         tag="khamr.guitar_accelerandi",
