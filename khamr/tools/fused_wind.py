@@ -16,13 +16,11 @@ def fused_wind(
     return baca.rhythm(
         rmakers.rhythm(
             rmakers.incised(
-                incise=rmakers.Incise(
-                    prefix_talea=[-1],
-                    prefix_counts=[0],
-                    suffix_talea=[-1],
-                    suffix_counts=[1],
-                    talea_denominator=denominator,
-                )
+                prefix_talea=[-1],
+                prefix_counts=[0],
+                suffix_talea=[-1],
+                suffix_counts=[1],
+                talea_denominator=denominator,
             ),
             *specifiers,
             rmakers.rewrite_rest_filled(),

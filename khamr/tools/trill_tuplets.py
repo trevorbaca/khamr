@@ -13,7 +13,7 @@ def trill_tuplets(
     """
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios=string_tuplet_ratios(tuplet_ratios)),
+            rmakers.tuplet(string_tuplet_ratios(tuplet_ratios)),
             rmakers.tie(baca.tuplets()[:-1].map(baca.ptail(-1))),
             *specifiers,
             rmakers.beam(),
