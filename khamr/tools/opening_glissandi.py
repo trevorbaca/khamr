@@ -30,17 +30,15 @@ def opening_glissandi(
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios),
-            rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.rewrite_sustained(),
-            rmakers.trivialize(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            rmakers.force_repeat_tie(),
-        ),
+        rmakers.tuplet(tuplet_ratios),
+        rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.rewrite_sustained(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
         tag="khamr.opening_glissandi",
     )

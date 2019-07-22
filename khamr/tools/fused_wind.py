@@ -14,20 +14,18 @@ def fused_wind(
     divisions = divisions.fuse(counts, cyclic=True)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.incised(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=denominator,
-            ),
-            *specifiers,
-            rmakers.rewrite_rest_filled(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            rmakers.force_repeat_tie(),
-            preprocessor=divisions,
+        rmakers.incised(
+            prefix_talea=[-1],
+            prefix_counts=[0],
+            suffix_talea=[-1],
+            suffix_counts=[1],
+            talea_denominator=denominator,
         ),
+        *specifiers,
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
+        preprocessor=divisions,
         tag="khamr.fused_wind",
     )

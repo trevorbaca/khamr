@@ -13,14 +13,12 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
         specifiers.append(specifier)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.note(),
-            rmakers.tie(baca.ptails()[:-1]),
-            rmakers.force_rest(baca.leaves().group_by_measure().get([1], 2)),
-            *specifiers,
-            rmakers.beam(baca.plts()),
-            rmakers.rewrite_meter(),
-            rmakers.force_repeat_tie(),
-        ),
+        rmakers.note(),
+        rmakers.tie(baca.ptails()[:-1]),
+        rmakers.force_rest(baca.leaves().group_by_measure().get([1], 2)),
+        *specifiers,
+        rmakers.beam(baca.plts()),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
         tag="khamr.alternate_divisions",
     )

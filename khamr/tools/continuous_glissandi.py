@@ -17,16 +17,14 @@ def continuous_glissandi(
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.rewrite_sustained(),
-            rmakers.trivialize(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            rmakers.force_repeat_tie(),
-        ),
+        rmakers.tuplet(tuplet_ratios),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.rewrite_sustained(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
         tag="khamr.continuous_glissandi",
     )
