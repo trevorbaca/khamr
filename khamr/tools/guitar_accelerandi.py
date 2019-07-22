@@ -9,18 +9,16 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     """
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.accelerando(
-                interpolations=[
-                    rmakers.interpolate((1, 2), (1, 8), (1, 16)),
-                    rmakers.interpolate((1, 8), (1, 2), (1, 16)),
-                ]
-            ),
-            rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
-            rmakers.duration_bracket(baca.tuplets().filter_length(">", 1)),
-            rmakers.feather_beam(),
-            rmakers.force_repeat_tie(),
-            preprocessor=baca.divisions().fuse(counts, cyclic=True),
+        rmakers.accelerando(
+            interpolations=[
+                rmakers.interpolate((1, 2), (1, 8), (1, 16)),
+                rmakers.interpolate((1, 8), (1, 2), (1, 16)),
+            ]
         ),
+        rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
+        rmakers.duration_bracket(baca.tuplets().filter_length(">", 1)),
+        rmakers.feather_beam(),
+        rmakers.force_repeat_tie(),
+        preprocessor=baca.divisions().fuse(counts, cyclic=True),
         tag="khamr.guitar_accelerandi",
     )

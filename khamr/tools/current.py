@@ -13,15 +13,13 @@ def current(
     quarters = baca.divisions().quarters(compound=(3, 2))
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.trivialize(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            preprocessor=baca.divisions().map(quarters),
-        ),
+        rmakers.tuplet(tuplet_ratios),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        preprocessor=baca.divisions().map(quarters),
         tag="khamr.current",
     )

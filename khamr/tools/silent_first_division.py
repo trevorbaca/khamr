@@ -10,13 +10,11 @@ def silent_first_division() -> baca.RhythmCommand:
     quarters = baca.divisions().quarters(compound=(3, 2))
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.note(),
-            rmakers.repeat_tie(baca.ptails()[1:]),
-            rmakers.force_rest(baca.note(0)),
-            rmakers.rewrite_meter(),
-            rmakers.force_repeat_tie(),
-            preprocessor=baca.divisions().map(quarters),
-        ),
+        rmakers.note(),
+        rmakers.repeat_tie(baca.ptails()[1:]),
+        rmakers.force_rest(baca.note(0)),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
+        preprocessor=baca.divisions().map(quarters),
         tag="khamr.silent_first_division",
     )
