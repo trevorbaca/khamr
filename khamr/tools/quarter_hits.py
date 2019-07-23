@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def quarter_hits(*specifiers: rmakers.Command,) -> baca.RhythmCommand:
+def quarter_hits(*commands: rmakers.Command,) -> baca.RhythmCommand:
     """
     Makes quarter hits.
     """
@@ -11,7 +11,7 @@ def quarter_hits(*specifiers: rmakers.Command,) -> baca.RhythmCommand:
 
     return baca.rhythm(
         rmakers.note(),
-        *specifiers,
+        *commands,
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),

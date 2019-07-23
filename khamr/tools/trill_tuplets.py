@@ -6,7 +6,7 @@ from .string_tuplet_ratios import string_tuplet_ratios
 
 
 def trill_tuplets(
-    tuplet_ratios: int, *specifiers: rmakers.Command
+    tuplet_ratios: int, *commands: rmakers.Command
 ) -> baca.RhythmCommand:
     """
     Makes trill tuplet rhythm.
@@ -14,7 +14,7 @@ def trill_tuplets(
     return baca.rhythm(
         rmakers.tuplet(string_tuplet_ratios(tuplet_ratios)),
         rmakers.tie(baca.tuplets()[:-1].map(baca.ptail(-1))),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.trivialize(),

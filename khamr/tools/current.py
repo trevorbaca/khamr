@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 
 def current(
-    counts: abjad.IntegerSequence, *specifiers: rmakers.Command
+    counts: abjad.IntegerSequence, *commands: rmakers.Command
 ) -> baca.RhythmCommand:
     """
     Makes current rhythm.
@@ -14,7 +14,7 @@ def current(
 
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.trivialize(),
