@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 
 def opening_glissandi(
-    tuplet_ratio_rotation: int, *specifiers: rmakers.Command
+    tuplet_ratio_rotation: int, *commands: rmakers.Command
 ) -> baca.RhythmCommand:
     """
     Makes opening glissandi rhythm.
@@ -32,7 +32,7 @@ def opening_glissandi(
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
         rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.rewrite_sustained(),

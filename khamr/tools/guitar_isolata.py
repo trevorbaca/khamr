@@ -4,7 +4,7 @@ import typing
 from abjadext import rmakers
 
 
-def guitar_isolata(*specifiers) -> baca.RhythmCommand:
+def guitar_isolata(*commands) -> baca.RhythmCommand:
     """
     Makes guitar isolata.
     """
@@ -22,7 +22,7 @@ def guitar_isolata(*specifiers) -> baca.RhythmCommand:
                 (-3, 1, -1),
             ]
         ),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.rewrite_sustained(),

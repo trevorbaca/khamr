@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 
 def fused_wind(
-    counts: abjad.IntegerSequence, *specifiers, denominator: int = 8
+    counts: abjad.IntegerSequence, *commands, denominator: int = 8
 ) -> baca.RhythmCommand:
     """
     Makes fused wind rhythm.
@@ -21,7 +21,7 @@ def fused_wind(
             suffix_counts=[1],
             talea_denominator=denominator,
         ),
-        *specifiers,
+        *commands,
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
