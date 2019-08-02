@@ -20,5 +20,6 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
+        stack=True,
         tag="khamr.alternate_divisions",
     )
