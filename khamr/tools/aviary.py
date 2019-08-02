@@ -15,5 +15,6 @@ def aviary(
         rmakers.even_division([16], extra_counts=extra_counts),
         rmakers.beam(),
         preprocessor=baca.divisions().fuse().split([duration], cyclic=True),
+        stack=True,
         tag="khamr.aviary",
     )
