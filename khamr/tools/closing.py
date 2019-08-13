@@ -8,7 +8,7 @@ def closing() -> baca.RhythmCommand:
     Makes closing rhythm.
     """
     divisions_ = [(2, 4), (4, 4), (12, 4)]
-    divisions = baca.divisions().fuse().split(divisions_, cyclic=True)
+    divisions = baca.sequence().fuse().split_divisions(divisions_, cyclic=True)
 
     return baca.rhythm(
         rmakers.note(),

@@ -7,7 +7,7 @@ def quarter_hits(*commands: rmakers.Command,) -> baca.RhythmCommand:
     """
     Makes quarter hits.
     """
-    quarters = baca.divisions().quarters(compound=(3, 2))
+    quarters = baca.sequence().quarters(compound=(3, 2))
 
     return baca.rhythm(
         rmakers.note(),
@@ -15,6 +15,6 @@ def quarter_hits(*commands: rmakers.Command,) -> baca.RhythmCommand:
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=baca.divisions().map(quarters),
+        preprocessor=baca.sequence().map(quarters),
         tag="khamr.quarter_hits",
     )
