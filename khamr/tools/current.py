@@ -10,7 +10,7 @@ def current(
     Makes current rhythm.
     """
     tuplet_ratios = [_ * (1,) for _ in counts]
-    quarters = baca.divisions().quarters(compound=(3, 2))
+    quarters = baca.sequence().quarters(compound=(3, 2))
 
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
@@ -20,6 +20,6 @@ def current(
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=baca.divisions().map(quarters),
+        preprocessor=baca.sequence().map(quarters),
         tag="khamr.current",
     )

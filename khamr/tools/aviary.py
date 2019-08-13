@@ -14,6 +14,8 @@ def aviary(
     return baca.rhythm(
         rmakers.even_division([16], extra_counts=extra_counts),
         rmakers.beam(),
-        preprocessor=baca.divisions().fuse().split([duration], cyclic=True),
+        preprocessor=baca.sequence()
+        .fuse()
+        .split_divisions([duration], cyclic=True),
         tag="khamr.aviary",
     )
