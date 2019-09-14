@@ -285,7 +285,6 @@ maker(
 
 maker(
     ('sax', (34, 37)),
-    baca.bar_extent_persistent((0, 2)),
     baca.clef('percussion'),
     baca.dynamic('pp'),
     baca.markup('airtone'),
