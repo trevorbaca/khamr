@@ -406,7 +406,6 @@ maker(
 maker(
     'perc',
     baca.accent(selector=baca.pheads()),
-    baca.bar_extent_persistent((0, 2)),
     baca.dynamic('mp'),
     baca.pitches('C4 C4 C4 Ab5', allow_repeats=True),
     baca.staff_lines(1),

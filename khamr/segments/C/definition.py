@@ -186,16 +186,6 @@ maker(
     )
 
 maker(
-    ('vn', (1, 3)),
-    baca.bar_extent_persistent((-2, 0)),
-    )
-
-maker(
-    ('cb', (1, 3)),
-    baca.bar_extent_persistent((0, 2)),
-    )
-
-maker(
     (['vn', 'va', 'vc'], (1, 15)),
     baca.staff_position(0),
     )
