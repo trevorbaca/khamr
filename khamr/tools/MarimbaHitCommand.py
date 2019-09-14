@@ -45,8 +45,8 @@ class MarimbaHitCommand(baca.Command):
         for i, plt in enumerate(baca.select(argument).plts()):
             if i not in self.indices:
                 continue
-            staff_lines = baca.StaffLines(line_count=5)
-            abjad.attach(baca.StaffLines(line_count=5), plt.head, tag=tag)
+            staff_lines = baca.StaffLines(5)
+            abjad.attach(baca.StaffLines(5), plt.head, tag=tag)
             if self.attach_first_markup and not found_first:
                 string = "marimba + woodblock"
                 markup = abjad.Markup(string, direction=abjad.Up)
@@ -63,7 +63,7 @@ class MarimbaHitCommand(baca.Command):
             abjad.attach(abjad.Clef("treble"), plt.head, tag=tag)
             next_leaf = abjad.inspect(plt.tail).leaf(1)
             if next_leaf is not None:
-                abjad.attach(baca.StaffLines(line_count=1), next_leaf, tag=tag)
+                abjad.attach(baca.StaffLines(1), next_leaf, tag=tag)
                 abjad.attach(abjad.Clef("percussion"), next_leaf, tag=tag)
 
     ### PUBLIC PROPERTIES ###
