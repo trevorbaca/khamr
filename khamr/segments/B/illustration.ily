@@ -7322,7 +7322,7 @@ B_Percussion_Music_Voice = {                                                   %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 
     % [B Percussion_Music_Voice measure 79 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7335,38 +7335,38 @@ B_Percussion_Music_Voice = {                                                   %
         }                                                                      %! baca.markup:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 80 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 81 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 82 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2.
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 84 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -7378,285 +7378,285 @@ B_Percussion_Music_Voice = {                                                   %
                 castanets                                                      %! baca.markup:IndicatorCommand
         }                                                                      %! baca.markup:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 85 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 86 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 87 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 88 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 89 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 90 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 91 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 92 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 93 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 94 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 95 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 96 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 97 / measure 23]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 98 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 99 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 100 / measure 26]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 103 / measure 29]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes
     - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 104 / measure 30]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7669,56 +7669,56 @@ B_Percussion_Music_Voice = {                                                   %
         }                                                                      %! baca.markup:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 105 / measure 31]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 106 / measure 32]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2.
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 107 / measure 33]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 108 / measure 34]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 109 / measure 35]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 110 / measure 36]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2.
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 111 / measure 37]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \baca-unpitched-music-warning                                              %! baca.SegmentMaker._color_unpitched_notes()
+    \baca-unpitched-music-warning                                              %! NOT_YET_PITCHED:baca.SegmentMaker._color_unpitched_notes()
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
