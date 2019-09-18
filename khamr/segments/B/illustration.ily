@@ -7815,7 +7815,7 @@ B_Violin_Music_Voice = {                                                       %
         % [B Violin_Music_Voice measure 79 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
         bff'!2.                                                                %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \glissando                                                             %! baca.glissando
@@ -7860,7 +7860,7 @@ B_Violin_Music_Voice = {                                                       %
 
         aff'!2.                                                                %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
@@ -8166,7 +8166,7 @@ B_Viola_Music_Voice = {                                                        %
     % [B Viola_Music_Voice measure 79 / measure 5]                             %! baca.SegmentMaker._comment_measure_numbers()
     ff'!1                                                                      %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca.glissando
@@ -8202,7 +8202,7 @@ B_Viola_Music_Voice = {                                                        %
 
         aff'!2                                                                 %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
@@ -8505,7 +8505,7 @@ B_Cello_Music_Voice = {                                                        %
     % [B Cello_Music_Voice measure 79 / measure 5]                             %! baca.SegmentMaker._comment_measure_numbers()
     dff'!1                                                                     %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca.glissando
@@ -8540,7 +8540,7 @@ B_Cello_Music_Voice = {                                                        %
 
         aff'!2                                                                 %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
@@ -8835,7 +8835,7 @@ B_Contrabass_Music_Voice = {                                                   %
     % [B Contrabass_Music_Voice measure 79 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
     <gs,,! as,!>1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -8856,7 +8856,7 @@ B_Contrabass_Music_Voice = {                                                   %
     % [B Contrabass_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
     <gs,,! as,!>1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 84 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -8986,7 +8986,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 111 / measure 37]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2.                                                                        %! baca.make_repeat_tied_notes
-    \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
+    \stopTrillSpan                                                             %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 

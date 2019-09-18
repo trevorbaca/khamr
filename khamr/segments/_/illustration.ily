@@ -1054,7 +1054,7 @@ i_Flute_Music_Voice = {                                                        %
 
     a''2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
@@ -1075,7 +1075,7 @@ i_Flute_Music_Voice = {                                                        %
     \repeatTie
 
     r8                                                                         %! khamr.fused_wind
-    \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
+    \stopTrillSpan                                                             %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
 
     a''4.
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
@@ -1087,11 +1087,11 @@ i_Flute_Music_Voice = {                                                        %
     % [_ Flute_Music_Voice measure 44]                                         %! baca.SegmentMaker._comment_measure_numbers()
     a''1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
 
     r2                                                                         %! khamr.fused_wind
-    \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
+    \stopTrillSpan                                                             %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -4085,7 +4085,7 @@ i_Violin_Music_Voice = {                                                       %
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     g'2                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \markup { "emphasize multiphonics and unstable harmonics prominently throughout" } %! baca.markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "[“Vn.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -4115,13 +4115,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 4]                                     %! baca.SegmentMaker._comment_measure_numbers()
         g'2.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         af'!4                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4130,13 +4130,13 @@ i_Violin_Music_Voice = {                                                       %
     % [_ Violin_Music_Voice measure 5]                                         %! baca.SegmentMaker._comment_measure_numbers()
     af'!2.                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     gqs'!4                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4149,13 +4149,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 7]                                     %! baca.SegmentMaker._comment_measure_numbers()
         gqs'!1                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4181,13 +4181,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 11]                                    %! baca.SegmentMaker._comment_measure_numbers()
         a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando
 
         bqf'!4                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4199,14 +4199,14 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 12]                                    %! baca.SegmentMaker._comment_measure_numbers()
         bqf'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         - \tweak direction #up                                                 %! khamr.opening_glissandi
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         af'!4                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4221,13 +4221,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 14]                                    %! baca.SegmentMaker._comment_measure_numbers()
         af'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs'!8                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4254,13 +4254,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 18]                                    %! baca.SegmentMaker._comment_measure_numbers()
         gqs'!2.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando
 
         a'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4271,13 +4271,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 19]                                    %! baca.SegmentMaker._comment_measure_numbers()
         a'1                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         g'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4292,13 +4292,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 21]                                    %! baca.SegmentMaker._comment_measure_numbers()
         g'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4321,13 +4321,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 25]                                    %! baca.SegmentMaker._comment_measure_numbers()
         a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b'8                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4338,13 +4338,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 26]                                    %! baca.SegmentMaker._comment_measure_numbers()
         b'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         aqs'!8                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4357,13 +4357,13 @@ i_Violin_Music_Voice = {                                                       %
     % [_ Violin_Music_Voice measure 28]                                        %! baca.SegmentMaker._comment_measure_numbers()
     aqs'!2.                                                                    %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     bf'!4                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4386,14 +4386,14 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 32]                                    %! baca.SegmentMaker._comment_measure_numbers()
         bf'!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         - \tweak direction #up                                                 %! khamr.opening_glissandi
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         g'2.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4402,13 +4402,13 @@ i_Violin_Music_Voice = {                                                       %
     % [_ Violin_Music_Voice measure 33]                                        %! baca.SegmentMaker._comment_measure_numbers()
     g'2                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     a'4                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4421,13 +4421,13 @@ i_Violin_Music_Voice = {                                                       %
         % [_ Violin_Music_Voice measure 35]                                    %! baca.SegmentMaker._comment_measure_numbers()
         a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4439,7 +4439,7 @@ i_Violin_Music_Voice = {                                                       %
 
     b'2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
@@ -4460,7 +4460,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -4479,7 +4479,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gqf'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -4497,7 +4497,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -4515,7 +4515,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -4535,7 +4535,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -4554,7 +4554,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -4572,7 +4572,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         eqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! khamr.trill_tuplets
         \startTrillSpan fqs'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -4591,7 +4591,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         e'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan f'                                                     %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -4612,7 +4612,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         eqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan fqs'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -4631,7 +4631,7 @@ i_Violin_Music_Voice = {                                                       %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -4647,7 +4647,7 @@ i_Violin_Music_Voice = {                                                       %
             % [_ Violin_Music_Voice measure 45]                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -4700,7 +4700,7 @@ i_Viola_Music_Voice = {                                                        %
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     g'4.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \markup { "emphasize multiphonics and unstable harmonics prominently throughout" } %! baca.markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "[“Va.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -4717,7 +4717,7 @@ i_Viola_Music_Voice = {                                                        %
 
     af'!8                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4738,13 +4738,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 5]                                      %! baca.SegmentMaker._comment_measure_numbers()
         af'!1                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs'!2                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4753,13 +4753,13 @@ i_Viola_Music_Voice = {                                                        %
     % [_ Viola_Music_Voice measure 6]                                          %! baca.SegmentMaker._comment_measure_numbers()
     gqs'!2                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     a'4                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4773,13 +4773,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 8]                                      %! baca.SegmentMaker._comment_measure_numbers()
         a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bqf'!4                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4800,13 +4800,13 @@ i_Viola_Music_Voice = {                                                        %
     % [_ Viola_Music_Voice measure 12]                                         %! baca.SegmentMaker._comment_measure_numbers()
     bqf'!1                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     af'!4                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4816,13 +4816,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 13]                                     %! baca.SegmentMaker._comment_measure_numbers()
         af'!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs'!4                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4838,13 +4838,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 15]                                     %! baca.SegmentMaker._comment_measure_numbers()
         gqs'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4870,13 +4870,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 19]                                     %! baca.SegmentMaker._comment_measure_numbers()
         a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando
 
         g'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4888,13 +4888,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 20]                                     %! baca.SegmentMaker._comment_measure_numbers()
         g'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4909,13 +4909,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 22]                                     %! baca.SegmentMaker._comment_measure_numbers()
         a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b'8                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4936,13 +4936,13 @@ i_Viola_Music_Voice = {                                                        %
     % [_ Viola_Music_Voice measure 26]                                         %! baca.SegmentMaker._comment_measure_numbers()
     b'4.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     aqs'!8                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4952,13 +4952,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 27]                                     %! baca.SegmentMaker._comment_measure_numbers()
         aqs'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bf'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -4971,13 +4971,13 @@ i_Viola_Music_Voice = {                                                        %
     % [_ Viola_Music_Voice measure 29]                                         %! baca.SegmentMaker._comment_measure_numbers()
     bf'!2                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     g'4                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5002,13 +5002,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 33]                                     %! baca.SegmentMaker._comment_measure_numbers()
         g'2.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando
 
         a'8                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5019,13 +5019,13 @@ i_Viola_Music_Voice = {                                                        %
         % [_ Viola_Music_Voice measure 34]                                     %! baca.SegmentMaker._comment_measure_numbers()
         a'1                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5038,13 +5038,13 @@ i_Viola_Music_Voice = {                                                        %
     % [_ Viola_Music_Voice measure 36]                                         %! baca.SegmentMaker._comment_measure_numbers()
     b'1                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     aqs'!4                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     % [_ Viola_Music_Voice measure 37]                                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -5065,7 +5065,7 @@ i_Viola_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5086,7 +5086,7 @@ i_Viola_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gqf'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -5105,7 +5105,7 @@ i_Viola_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -5126,7 +5126,7 @@ i_Viola_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5146,7 +5146,7 @@ i_Viola_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5166,7 +5166,7 @@ i_Viola_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5187,7 +5187,7 @@ i_Viola_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         eqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan fqs'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -5204,7 +5204,7 @@ i_Viola_Music_Voice = {                                                        %
             % [_ Viola_Music_Voice measure 45]                                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -5257,7 +5257,7 @@ i_Cello_Music_Voice = {                                                        %
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     g2                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \markup { "emphasize multiphonics and unstable harmonics prominently throughout" } %! baca.markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "[“Vc.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -5278,13 +5278,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 2]                                      %! baca.SegmentMaker._comment_measure_numbers()
         g2                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         af!4                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5308,13 +5308,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 6]                                      %! baca.SegmentMaker._comment_measure_numbers()
         af!2.                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs!8                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5325,13 +5325,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 7]                                      %! baca.SegmentMaker._comment_measure_numbers()
         gqs!1                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a4                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5349,13 +5349,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 9]                                      %! baca.SegmentMaker._comment_measure_numbers()
         a1                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando
 
         bqf!4                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5379,13 +5379,13 @@ i_Cello_Music_Voice = {                                                        %
     % [_ Cello_Music_Voice measure 13]                                         %! baca.SegmentMaker._comment_measure_numbers()
     bqf!2                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca.glissando
 
     af!4                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5394,13 +5394,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 14]                                     %! baca.SegmentMaker._comment_measure_numbers()
         af!2                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         gqs!4                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5415,13 +5415,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 16]                                     %! baca.SegmentMaker._comment_measure_numbers()
         gqs!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a8                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5447,13 +5447,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 20]                                     %! baca.SegmentMaker._comment_measure_numbers()
         a1.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando
 
         g4.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5464,13 +5464,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 21]                                     %! baca.SegmentMaker._comment_measure_numbers()
         g2                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a8                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5486,13 +5486,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 23]                                     %! baca.SegmentMaker._comment_measure_numbers()
         a2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b4                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5513,13 +5513,13 @@ i_Cello_Music_Voice = {                                                        %
     % [_ Cello_Music_Voice measure 27]                                         %! baca.SegmentMaker._comment_measure_numbers()
     b1                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     aqs!2                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5528,13 +5528,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 28]                                     %! baca.SegmentMaker._comment_measure_numbers()
         aqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bf!4                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5550,13 +5550,13 @@ i_Cello_Music_Voice = {                                                        %
         % [_ Cello_Music_Voice measure 30]                                     %! baca.SegmentMaker._comment_measure_numbers()
         bf!2.                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         g8                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5580,26 +5580,26 @@ i_Cello_Music_Voice = {                                                        %
     % [_ Cello_Music_Voice measure 34]                                         %! baca.SegmentMaker._comment_measure_numbers()
     g2.                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca.glissando
 
     a4                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [_ Cello_Music_Voice measure 35]                                         %! baca.SegmentMaker._comment_measure_numbers()
     a2.                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     b4                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5609,7 +5609,7 @@ i_Cello_Music_Voice = {                                                        %
 
     b2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
@@ -5634,7 +5634,7 @@ i_Cello_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5652,7 +5652,7 @@ i_Cello_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! khamr.trill_tuplets
         \startTrillSpan gqf'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -5678,7 +5678,7 @@ i_Cello_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! khamr.trill_tuplets
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
@@ -5699,7 +5699,7 @@ i_Cello_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         fqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5719,7 +5719,7 @@ i_Cello_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5736,7 +5736,7 @@ i_Cello_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
+        \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! khamr.trill_tuplets
@@ -5752,7 +5752,7 @@ i_Cello_Music_Voice = {                                                        %
             % [_ Cello_Music_Voice measure 45]                                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.trill_spanner:SpannerIndicatorCommand(2)
+            \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:baca.trill_spanner:SpannerIndicatorCommand(2)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -5883,7 +5883,7 @@ i_Contrabass_Music_Voice = {                                                   %
 
     cqs'!4                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5892,13 +5892,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 11]                                %! baca.SegmentMaker._comment_measure_numbers()
         cqs'!1                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bf!2                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5917,13 +5917,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 13]                                %! baca.SegmentMaker._comment_measure_numbers()
         bf!2.                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando
 
         aqs!8                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5944,13 +5944,13 @@ i_Contrabass_Music_Voice = {                                                   %
     % [_ Contrabass_Music_Voice measure 17]                                    %! baca.SegmentMaker._comment_measure_numbers()
     aqs!1                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     b4                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5959,13 +5959,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 18]                                %! baca.SegmentMaker._comment_measure_numbers()
         b2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         a8.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -5981,13 +5981,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 20]                                %! baca.SegmentMaker._comment_measure_numbers()
         a1.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b2                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6010,13 +6010,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 24]                                %! baca.SegmentMaker._comment_measure_numbers()
         b1                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         cs'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6027,13 +6027,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 25]                                %! baca.SegmentMaker._comment_measure_numbers()
         cs'!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         bqs!8                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6049,13 +6049,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 27]                                %! baca.SegmentMaker._comment_measure_numbers()
         bqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         c'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6076,13 +6076,13 @@ i_Contrabass_Music_Voice = {                                                   %
     % [_ Contrabass_Music_Voice measure 31]                                    %! baca.SegmentMaker._comment_measure_numbers()
     c'2.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     a4                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6092,13 +6092,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 32]                                %! baca.SegmentMaker._comment_measure_numbers()
         a2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         b4                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6113,13 +6113,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 34]                                %! baca.SegmentMaker._comment_measure_numbers()
         b1                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         cs'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6145,13 +6145,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 38]                                %! baca.SegmentMaker._comment_measure_numbers()
         cs'!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando
 
         bqs!8                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6163,13 +6163,13 @@ i_Contrabass_Music_Voice = {                                                   %
         % [_ Contrabass_Music_Voice measure 39]                                %! baca.SegmentMaker._comment_measure_numbers()
         bqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         \repeatTie                                                             %! khamr.opening_glissandi
         \glissando                                                             %! baca.glissando
 
         dqf'!4                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6182,13 +6182,13 @@ i_Contrabass_Music_Voice = {                                                   %
     % [_ Contrabass_Music_Voice measure 41]                                    %! baca.SegmentMaker._comment_measure_numbers()
     dqf'!1                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \glissando                                                                 %! baca.glissando
 
     c'4                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
@@ -6203,7 +6203,7 @@ i_Contrabass_Music_Voice = {                                                   %
     % [_ Contrabass_Music_Voice measure 44]                                    %! baca.SegmentMaker._comment_measure_numbers()
     c'1.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! khamr.opening_glissandi
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
