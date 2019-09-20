@@ -24,6 +24,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.const.LOCAL_MEASURE_NUMBER,
         ],
+    check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
     final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -183,6 +184,11 @@ maker(
     baca.dynamic('fff'),
     baca.markup('snare drum', boxed=True),
     baca.stem_tremolo(selector=baca.pleaves()),
+    )
+
+maker(
+    ("perc", (1, 15)),
+    baca.staff_position(0),
     )
 
 maker(
