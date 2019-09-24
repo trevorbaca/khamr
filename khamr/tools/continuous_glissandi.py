@@ -26,5 +26,5 @@ def continuous_glissandi(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        tag="khamr.continuous_glissandi",
+        tag=abjad.Tag("khamr.continuous_glissandi"),
     )

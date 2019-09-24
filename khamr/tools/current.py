@@ -21,5 +21,5 @@ def current(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=baca.sequence().map(quarters),
-        tag="khamr.current",
+        tag=abjad.Tag("khamr.current"),
     )

@@ -20,8 +20,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         >>> abjad.f(lilypond_file[abjad.Score], strict=89)
-        \context Score = "Score"                                                                 %! khamr.ScoreTemplate.__call__
-        <<                                                                                       %! khamr.ScoreTemplate.__call__
+        \context Score = "Score"                                                                 %! khamr.ScoreTemplate.__call__()
+        <<                                                                                       %! khamr.ScoreTemplate.__call__()
             \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context()
             <<                                                                                   %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context()
@@ -33,116 +33,116 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>                                                                                   %! abjad.ScoreTemplate._make_global_context()
             \context MusicContext = "Music_Context"                                              %! baca.ScoreTemplate.make_music_context()
             <<                                                                                   %! baca.ScoreTemplate.make_music_context()
-                \context WindSectionStaffGroup = "Wind_Section_Staff_Group"                      %! khamr.ScoreTemplate.__call__
-                <<                                                                               %! khamr.ScoreTemplate.__call__
+                \context WindSectionStaffGroup = "Wind_Section_Staff_Group"                      %! khamr.ScoreTemplate.__call__()
+                <<                                                                               %! khamr.ScoreTemplate.__call__()
                     \tag Flute                                                                   %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "Flute_Music_Staff"                                         %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Flute_Music_Voice"                                     %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "Flute_Music_Staff"                                         %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Flute_Music_Voice"                                     %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
                     \tag Oboe                                                                    %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "OboeMusicStaff"                                            %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Oboe_Music_Voice"                                      %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "OboeMusicStaff"                                            %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Oboe_Music_Voice"                                      %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
                     \tag Clarinet                                                                %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "Clarinet_Music_Staff"                                      %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Clarinet_Music_Voice"                                  %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "Clarinet_Music_Staff"                                      %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Clarinet_Music_Voice"                                  %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
                     \tag Saxophone                                                               %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "Saxophone_Music_Staff"                                     %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Saxophone_Music_Voice"                                 %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "Saxophone_Music_Staff"                                     %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Saxophone_Music_Voice"                                 %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
-                >>                                                                               %! khamr.ScoreTemplate.__call__
-                \context PercussionSectionStaffGroup = "Percussion_Section_Staff_Group"          %! khamr.ScoreTemplate.__call__
-                <<                                                                               %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
+                >>                                                                               %! khamr.ScoreTemplate.__call__()
+                \context PercussionSectionStaffGroup = "Percussion_Section_Staff_Group"          %! khamr.ScoreTemplate.__call__()
+                <<                                                                               %! khamr.ScoreTemplate.__call__()
                     \tag Guitar                                                                  %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "Guitar_Music_Staff"                                        %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Guitar_Music_Voice"                                    %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "Guitar_Music_Staff"                                        %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Guitar_Music_Voice"                                    %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
                     \tag Piano                                                                   %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "Piano_Music_Staff"                                         %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Piano_Music_Voice"                                     %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "Piano_Music_Staff"                                         %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Piano_Music_Voice"                                     %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
                     \tag Percussion                                                              %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "PercussionMusicStaff"                                      %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Percussion_Music_Voice"                                %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "PercussionMusicStaff"                                      %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Percussion_Music_Voice"                                %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "percussion"                                                   %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
-                >>                                                                               %! khamr.ScoreTemplate.__call__
-                \context StringSectionStaffGroup = "String_Section_Staff_Group"                  %! khamr.ScoreTemplate.__call__
-                <<                                                                               %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
+                >>                                                                               %! khamr.ScoreTemplate.__call__()
+                \context StringSectionStaffGroup = "String_Section_Staff_Group"                  %! khamr.ScoreTemplate.__call__()
+                <<                                                                               %! khamr.ScoreTemplate.__call__()
                     \tag Violin                                                                  %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "Violin_Music_Staff"                                        %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Violin_Music_Voice"                                    %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "Violin_Music_Staff"                                        %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Violin_Music_Voice"                                    %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
                     \tag Viola                                                                   %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "Viola_Music_Staff"                                         %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Viola_Music_Voice"                                     %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "Viola_Music_Staff"                                         %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Viola_Music_Voice"                                     %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "alto"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
                     \tag Cello                                                                   %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "CelloMusicStaff"                                           %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Cello_Music_Voice"                                     %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "CelloMusicStaff"                                           %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Cello_Music_Voice"                                     %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
                     \tag Contrabass                                                              %! baca.ScoreTemplate._attach_liypond_tag()
-                    \context Staff = "Contrabass_Music_Staff"                                    %! khamr.ScoreTemplate.__call__
-                    {                                                                            %! khamr.ScoreTemplate.__call__
-                        \context Voice = "Contrabass_Music_Voice"                                %! khamr.ScoreTemplate.__call__
-                        {                                                                        %! khamr.ScoreTemplate.__call__
+                    \context Staff = "Contrabass_Music_Staff"                                    %! khamr.ScoreTemplate.__call__()
+                    {                                                                            %! khamr.ScoreTemplate.__call__()
+                        \context Voice = "Contrabass_Music_Voice"                                %! khamr.ScoreTemplate.__call__()
+                        {                                                                        %! khamr.ScoreTemplate.__call__()
                             \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! khamr.ScoreTemplate.__call__
-                    }                                                                            %! khamr.ScoreTemplate.__call__
-                >>                                                                               %! khamr.ScoreTemplate.__call__
+                        }                                                                        %! khamr.ScoreTemplate.__call__()
+                    }                                                                            %! khamr.ScoreTemplate.__call__()
+                >>                                                                               %! khamr.ScoreTemplate.__call__()
             >>                                                                                   %! baca.ScoreTemplate.make_music_context()
-        >>                                                                                       %! khamr.ScoreTemplate.__call__
+        >>                                                                                       %! khamr.ScoreTemplate.__call__()
 
     """
 
@@ -180,7 +180,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         """
         Calls score template.
         """
-        tag = "khamr.ScoreTemplate.__call__"
+        site = "khamr.ScoreTemplate.__call__()"
+        tag = abjad.Tag(site)
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 

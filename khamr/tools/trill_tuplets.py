@@ -22,5 +22,5 @@ def trill_tuplets(
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=baca.sequence().fuse().quarters(),
-        tag="khamr.trill_tuplets",
+        tag=abjad.Tag("khamr.trill_tuplets"),
     )

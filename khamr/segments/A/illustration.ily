@@ -808,7 +808,7 @@ A_Flute_Music_Staff = <<                                                       %
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
     \A_Global_Rests                                                            %! abjad.Path.extern()
 
-    \context Voice = "Flute_Music_Voice"                                       %! khamr.ScoreTemplate.__call__
+    \context Voice = "Flute_Music_Voice"                                       %! khamr.ScoreTemplate.__call__()
     \A_Flute_Music_Voice                                                       %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1029,7 +1029,7 @@ A_Oboe_Music_Voice = {                                                         %
 
 A_OboeMusicStaff = {                                                           %! abjad.Path.extern()
 
-    \context Voice = "Oboe_Music_Voice"                                        %! khamr.ScoreTemplate.__call__
+    \context Voice = "Oboe_Music_Voice"                                        %! khamr.ScoreTemplate.__call__()
     \A_Oboe_Music_Voice                                                        %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1236,7 +1236,7 @@ A_Clarinet_Music_Voice = {                                                     %
 
 A_Clarinet_Music_Staff = {                                                     %! abjad.Path.extern()
 
-    \context Voice = "Clarinet_Music_Voice"                                    %! khamr.ScoreTemplate.__call__
+    \context Voice = "Clarinet_Music_Voice"                                    %! khamr.ScoreTemplate.__call__()
     \A_Clarinet_Music_Voice                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1454,7 +1454,7 @@ A_Saxophone_Music_Voice = {                                                    %
 
 A_Saxophone_Music_Staff = {                                                    %! abjad.Path.extern()
 
-    \context Voice = "Saxophone_Music_Voice"                                   %! khamr.ScoreTemplate.__call__
+    \context Voice = "Saxophone_Music_Voice"                                   %! khamr.ScoreTemplate.__call__()
     \A_Saxophone_Music_Voice                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1704,7 +1704,7 @@ A_Guitar_Music_Voice = {                                                       %
 
 A_Guitar_Music_Staff = {                                                       %! abjad.Path.extern()
 
-    \context Voice = "Guitar_Music_Voice"                                      %! khamr.ScoreTemplate.__call__
+    \context Voice = "Guitar_Music_Voice"                                      %! khamr.ScoreTemplate.__call__()
     \A_Guitar_Music_Voice                                                      %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2051,7 +2051,7 @@ A_Piano_Music_Voice = {                                                        %
 
 A_Piano_Music_Staff = {                                                        %! abjad.Path.extern()
 
-    \context Voice = "Piano_Music_Voice"                                       %! khamr.ScoreTemplate.__call__
+    \context Voice = "Piano_Music_Voice"                                       %! khamr.ScoreTemplate.__call__()
     \A_Piano_Music_Voice                                                       %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2601,7 +2601,7 @@ A_Percussion_Music_Voice = {                                                   %
 
 A_PercussionMusicStaff = {                                                     %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Music_Voice"                                  %! khamr.ScoreTemplate.__call__
+    \context Voice = "Percussion_Music_Voice"                                  %! khamr.ScoreTemplate.__call__()
     \A_Percussion_Music_Voice                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3041,7 +3041,7 @@ A_Violin_Music_Voice = {                                                       %
 
 A_Violin_Music_Staff = {                                                       %! abjad.Path.extern()
 
-    \context Voice = "Violin_Music_Voice"                                      %! khamr.ScoreTemplate.__call__
+    \context Voice = "Violin_Music_Voice"                                      %! khamr.ScoreTemplate.__call__()
     \A_Violin_Music_Voice                                                      %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3418,7 +3418,7 @@ A_Viola_Music_Voice = {                                                        %
 
 A_Viola_Music_Staff = {                                                        %! abjad.Path.extern()
 
-    \context Voice = "Viola_Music_Voice"                                       %! khamr.ScoreTemplate.__call__
+    \context Voice = "Viola_Music_Voice"                                       %! khamr.ScoreTemplate.__call__()
     \A_Viola_Music_Voice                                                       %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3705,7 +3705,7 @@ A_Cello_Music_Voice = {                                                        %
 
 A_CelloMusicStaff = {                                                          %! abjad.Path.extern()
 
-    \context Voice = "Cello_Music_Voice"                                       %! khamr.ScoreTemplate.__call__
+    \context Voice = "Cello_Music_Voice"                                       %! khamr.ScoreTemplate.__call__()
     \A_Cello_Music_Voice                                                       %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3943,7 +3943,7 @@ A_Contrabass_Music_Voice = {                                                   %
 
 A_Contrabass_Music_Staff = {                                                   %! abjad.Path.extern()
 
-    \context Voice = "Contrabass_Music_Voice"                                  %! khamr.ScoreTemplate.__call__
+    \context Voice = "Contrabass_Music_Voice"                                  %! khamr.ScoreTemplate.__call__()
     \A_Contrabass_Music_Voice                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
