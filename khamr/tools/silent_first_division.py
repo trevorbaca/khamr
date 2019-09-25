@@ -16,5 +16,5 @@ def silent_first_division() -> baca.RhythmCommand:
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=baca.sequence().map(quarters),
-        tag=abjad.Tag("khamr.silent_first_division"),
+        tag=abjad.Tag("khamr.silent_first_division()"),
     )

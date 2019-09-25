@@ -40,7 +40,7 @@ class MarimbaHitCommand(baca.Command):
         Returns none.
         """
         self._runtime = runtime
-        tag = abjad.Tag("khamr.MarimbaHitCommand")
+        tag = abjad.Tag("khamr.MarimbaHitCommand.__call__()")
         found_first = False
         for i, plt in enumerate(baca.select(argument).plts()):
             if i not in self.indices:

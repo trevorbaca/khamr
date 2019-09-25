@@ -17,5 +17,5 @@ def aviary(
         preprocessor=baca.sequence()
         .fuse()
         .split_divisions([duration], cyclic=True),
-        tag=abjad.Tag("khamr.aviary"),
+        tag=abjad.Tag("khamr.aviary()"),
     )
