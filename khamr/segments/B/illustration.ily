@@ -752,7 +752,7 @@ B_Flute_Music_Voice = {                                                        %
 
             % [B Flute_Music_Voice measure 77 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/2                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -792,987 +792,987 @@ B_Flute_Music_Voice = {                                                        %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
         % [B Flute_Music_Voice measure 84 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
         % [B Flute_Music_Voice measure 86 / measure 12]                        %! baca.SegmentMaker._comment_measure_numbers()
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
         % [B Flute_Music_Voice measure 100 / measure 26]                       %! baca.SegmentMaker._comment_measure_numbers()
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 7/8 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 7/8 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 4/5 {                                                               %! khamr.aviary
+    \times 4/5 {                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1781,7 +1781,7 @@ B_Flute_Music_Voice = {                                                        %
 
             % [B Flute_Music_Voice measure 104 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1831,7 +1831,7 @@ B_Flute_Music_Voice = {                                                        %
     bf'!2...
     \repeatTie
 
-    r16                                                                        %! khamr.fused_wind
+    r16                                                                        %! khamr.fused_wind()
 
     % [B Flute_Music_Voice measure 110 / measure 36]                           %! baca.SegmentMaker._comment_measure_numbers()
     bf'!2.
@@ -1849,7 +1849,7 @@ B_Flute_Music_Voice = {                                                        %
     bf'!16
     \repeatTie
 
-    r16                                                                        %! khamr.fused_wind
+    r16                                                                        %! khamr.fused_wind()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1858,7 +1858,7 @@ B_Flute_Music_Voice = {                                                        %
 
             % [B Flute_Music_Voice measure 112 / measure 38]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1942,7 +1942,7 @@ B_Oboe_Music_Voice = {                                                         %
 
             % [B Oboe_Music_Voice measure 77 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            g'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            g'1 * 3/2                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1982,1151 +1982,1151 @@ B_Oboe_Music_Voice = {                                                         %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
         % [B Oboe_Music_Voice measure 84 / measure 10]                         %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         ^ \baca-explicit-indicator-markup "(“Oboe”)"                           %! EXPLICIT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
         % [B Oboe_Music_Voice measure 88 / measure 14]                         %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
         % [B Oboe_Music_Voice measure 91 / measure 17]                         %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
         % [B Oboe_Music_Voice measure 92 / measure 18]                         %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
         % [B Oboe_Music_Voice measure 96 / measure 22]                         %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
         % [B Oboe_Music_Voice measure 98 / measure 24]                         %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/6 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/6 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 4/5 {                                                               %! khamr.aviary
+    \times 4/5 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -3135,7 +3135,7 @@ B_Oboe_Music_Voice = {                                                         %
 
             % [B Oboe_Music_Voice measure 104 / measure 30]                    %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -3181,7 +3181,7 @@ B_Oboe_Music_Voice = {                                                         %
     r1
 
     % [B Oboe_Music_Voice measure 110 / measure 36]                            %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.fused_wind
+    r2                                                                         %! khamr.fused_wind()
 
     c'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3198,7 +3198,7 @@ B_Oboe_Music_Voice = {                                                         %
     c'16
     \repeatTie
 
-    r16                                                                        %! khamr.fused_wind
+    r16                                                                        %! khamr.fused_wind()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -3207,7 +3207,7 @@ B_Oboe_Music_Voice = {                                                         %
 
             % [B Oboe_Music_Voice measure 112 / measure 38]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -3284,7 +3284,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
             % [B Clarinet_Music_Voice measure 77 / measure 3]                  %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            d''1 * 3/2                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
+            d''1 * 3/2                                                         %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -3324,909 +3324,909 @@ B_Clarinet_Music_Voice = {                                                     %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 84 / measure 10]                     %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         ^ \baca-explicit-indicator-markup "(“Clarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 87 / measure 13]                     %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 92 / measure 18]                     %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 98 / measure 24]                     %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 99 / measure 25]                     %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 100 / measure 26]                    %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 101 / measure 27]                    %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 102 / measure 28]                    %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary
+    \times 8/9 {                                                               %! khamr.aviary()
 
         % [B Clarinet_Music_Voice measure 103 / measure 29]                    %! baca.SegmentMaker._comment_measure_numbers()
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 4/5 {                                                               %! khamr.aviary
+    \times 4/5 {                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        es'''!16                                                               %! khamr.aviary
+        es'''!16                                                               %! khamr.aviary()
 
-        g'''16                                                                 %! khamr.aviary
+        g'''16                                                                 %! khamr.aviary()
 
-        gs'''!16                                                               %! khamr.aviary
+        gs'''!16                                                               %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -4235,7 +4235,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
             % [B Clarinet_Music_Voice measure 104 / measure 30]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            d'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            d'1 * 3/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -4293,7 +4293,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
             % [B Clarinet_Music_Voice measure 112 / measure 38]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            d''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            d''1 * 1/4                                                         %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -4370,7 +4370,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
             % [B Saxophone_Music_Voice measure 77 / measure 3]                 %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            a''1 * 3/2                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
+            a''1 * 3/2                                                         %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -4410,1063 +4410,1063 @@ B_Saxophone_Music_Voice = {                                                    %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
         % [B Saxophone_Music_Voice measure 84 / measure 10]                    %! baca.SegmentMaker._comment_measure_numbers()
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         ^ \baca-explicit-indicator-markup "(“SopraninoSaxophone”)"             %! EXPLICIT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
         % [B Saxophone_Music_Voice measure 85 / measure 11]                    %! baca.SegmentMaker._comment_measure_numbers()
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
         % [B Saxophone_Music_Voice measure 87 / measure 13]                    %! baca.SegmentMaker._comment_measure_numbers()
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
         % [B Saxophone_Music_Voice measure 88 / measure 14]                    %! baca.SegmentMaker._comment_measure_numbers()
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
         % [B Saxophone_Music_Voice measure 92 / measure 18]                    %! baca.SegmentMaker._comment_measure_numbers()
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
         % [B Saxophone_Music_Voice measure 93 / measure 19]                    %! baca.SegmentMaker._comment_measure_numbers()
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
         % [B Saxophone_Music_Voice measure 96 / measure 22]                    %! baca.SegmentMaker._comment_measure_numbers()
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
         % [B Saxophone_Music_Voice measure 99 / measure 25]                    %! baca.SegmentMaker._comment_measure_numbers()
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 6/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 6/7 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        bs''!16                                                                %! khamr.aviary
+        bs''!16                                                                %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \times 2/3 {                                                               %! khamr.aviary
+    \times 2/3 {                                                               %! khamr.aviary()
 
-        a''16                                                                  %! khamr.aviary
+        a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        as''!16                                                                %! khamr.aviary
+        as''!16                                                                %! khamr.aviary()
 
-        b''16                                                                  %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        b''16                                                                  %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -5475,7 +5475,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
             % [B Saxophone_Music_Voice measure 104 / measure 30]               %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            a1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container()
+            a1 * 3/4                                                           %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -5527,10 +5527,10 @@ B_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [B Saxophone_Music_Voice measure 110 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
-    c'2...                                                                     %! khamr.fused_wind
+    c'2...                                                                     %! khamr.fused_wind()
     \repeatTie
 
-    r16                                                                        %! khamr.fused_wind
+    r16                                                                        %! khamr.fused_wind()
 
     c'4
 
@@ -5544,7 +5544,7 @@ B_Saxophone_Music_Voice = {                                                    %
     c'16
     \repeatTie
 
-    r16                                                                        %! khamr.fused_wind
+    r16                                                                        %! khamr.fused_wind()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -5553,7 +5553,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
             % [B Saxophone_Music_Voice measure 112 / measure 38]               %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            a1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            a1 * 1/4                                                           %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -5630,7 +5630,7 @@ B_Guitar_Music_Voice = {                                                       %
 
             % [B Guitar_Music_Voice measure 77 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c''1 * 3/2                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c''1 * 3/2                                                         %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -5786,7 +5786,7 @@ B_Guitar_Music_Voice = {                                                       %
 
             % [B Guitar_Music_Voice measure 104 / measure 30]                  %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c''1 * 3/4                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c''1 * 3/4                                                         %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -5837,7 +5837,7 @@ B_Guitar_Music_Voice = {                                                       %
 
             % [B Guitar_Music_Voice measure 112 / measure 38]                  %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -5894,7 +5894,7 @@ B_Piano_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    df''''!16                                                                  %! khamr.current
+    df''''!16                                                                  %! khamr.current()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-ancora                                                           %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -5909,1349 +5909,1349 @@ B_Piano_Music_Voice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    d''''16                                                                    %! khamr.current
+    d''''16                                                                    %! khamr.current()
 
-    f''''16                                                                    %! khamr.current
+    f''''16                                                                    %! khamr.current()
 
-    c''''16                                                                    %! khamr.current
+    c''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    af'''!16                                                                   %! khamr.current
+    af'''!16                                                                   %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    g'''16                                                                     %! khamr.current
+    g'''16                                                                     %! khamr.current()
 
-    e''''16                                                                    %! khamr.current
+    e''''16                                                                    %! khamr.current()
 
-    c''''16                                                                    %! khamr.current
+    c''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [B Piano_Music_Voice measure 76 / measure 2]                             %! baca.SegmentMaker._comment_measure_numbers()
-    b'''16                                                                     %! khamr.current
+    b'''16                                                                     %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    df''''!16                                                                  %! khamr.current
+    df''''!16                                                                  %! khamr.current()
 
-    ef''''!16                                                                  %! khamr.current
+    ef''''!16                                                                  %! khamr.current()
 
-    f''''16                                                                    %! khamr.current
+    f''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current
+    \times 2/3 {                                                               %! khamr.current()
 
-        e''''8                                                                 %! khamr.current
+        e''''8                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        fs'''!8                                                                %! khamr.current
+        fs'''!8                                                                %! khamr.current()
 
-        bf'''!8                                                                %! khamr.current
+        bf'''!8                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
         % [B Piano_Music_Voice measure 77 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-        a'''16.                                                                %! khamr.current
+        a'''16.                                                                %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        c''''16.                                                               %! khamr.current
+        c''''16.                                                               %! khamr.current()
 
-        af'''!16.                                                              %! khamr.current
+        af'''!16.                                                              %! khamr.current()
 
-        g'''16.                                                                %! khamr.current
+        g'''16.                                                                %! khamr.current()
 
-        e''''16.                                                               %! khamr.current
-        ]                                                                      %! khamr.current
+        e''''16.                                                               %! khamr.current()
+        ]                                                                      %! khamr.current()
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
-        f''''16.                                                               %! khamr.current
-        [                                                                      %! khamr.current
+        f''''16.                                                               %! khamr.current()
+        [                                                                      %! khamr.current()
 
-        b'''16.                                                                %! khamr.current
+        b'''16.                                                                %! khamr.current()
 
-        df''''!16.                                                             %! khamr.current
+        df''''!16.                                                             %! khamr.current()
 
-        ef''''!16.                                                             %! khamr.current
+        ef''''!16.                                                             %! khamr.current()
 
-        a'''16.                                                                %! khamr.current
+        a'''16.                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
-        e''''16.                                                               %! khamr.current
+        e''''16.                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        fs'''!16.                                                              %! khamr.current
+        fs'''!16.                                                              %! khamr.current()
 
-        bf'''!16.                                                              %! khamr.current
+        bf'''!16.                                                              %! khamr.current()
 
-        c''''16.                                                               %! khamr.current
+        c''''16.                                                               %! khamr.current()
 
-        df''''!16.                                                             %! khamr.current
-        ]                                                                      %! khamr.current
+        df''''!16.                                                             %! khamr.current()
+        ]                                                                      %! khamr.current()
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    d''''8                                                                     %! khamr.current
+    d''''8                                                                     %! khamr.current()
 
-    f''''8                                                                     %! khamr.current
+    f''''8                                                                     %! khamr.current()
 
-    ef''''!8                                                                   %! khamr.current
+    ef''''!8                                                                   %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current
+    \times 2/3 {                                                               %! khamr.current()
 
         % [B Piano_Music_Voice measure 78 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
-        f''''8                                                                 %! khamr.current
+        f''''8                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        b'''8                                                                  %! khamr.current
+        b'''8                                                                  %! khamr.current()
 
-        df''''!8                                                               %! khamr.current
+        df''''!8                                                               %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    bf'''!16                                                                   %! khamr.current
+    bf'''!16                                                                   %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    a'''16                                                                     %! khamr.current
+    a'''16                                                                     %! khamr.current()
 
-    e''''16                                                                    %! khamr.current
+    e''''16                                                                    %! khamr.current()
 
-    fs'''!16                                                                   %! khamr.current
+    fs'''!16                                                                   %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    f''''16                                                                    %! khamr.current
+    f''''16                                                                    %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    c''''16                                                                    %! khamr.current
+    c''''16                                                                    %! khamr.current()
 
-    df''''!16                                                                  %! khamr.current
+    df''''!16                                                                  %! khamr.current()
 
-    d''''16                                                                    %! khamr.current
+    d''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current
+    \times 2/3 {                                                               %! khamr.current()
 
         % [B Piano_Music_Voice measure 79 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
-        e''''8                                                                 %! khamr.current
+        e''''8                                                                 %! khamr.current()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ffff                                                                  %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        c''''8                                                                 %! khamr.current
+        c''''8                                                                 %! khamr.current()
 
-        af'''!8                                                                %! khamr.current
+        af'''!8                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 2/3 {                                                               %! khamr.current
+    \times 2/3 {                                                               %! khamr.current()
 
-        g'''8                                                                  %! khamr.current
+        g'''8                                                                  %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        fs'''!8                                                                %! khamr.current
+        fs'''!8                                                                %! khamr.current()
 
-        bf'''!8                                                                %! khamr.current
+        bf'''!8                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
-        a'''16                                                                 %! khamr.current
+        a'''16                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        e''''16                                                                %! khamr.current
+        e''''16                                                                %! khamr.current()
 
-        d''''16                                                                %! khamr.current
+        d''''16                                                                %! khamr.current()
 
-        f''''16                                                                %! khamr.current
+        f''''16                                                                %! khamr.current()
 
-        c''''16                                                                %! khamr.current
+        c''''16                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
-        df''''!16                                                              %! khamr.current
+        df''''!16                                                              %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        g'''16                                                                 %! khamr.current
+        g'''16                                                                 %! khamr.current()
 
-        e''''16                                                                %! khamr.current
+        e''''16                                                                %! khamr.current()
 
-        c''''16                                                                %! khamr.current
+        c''''16                                                                %! khamr.current()
 
-        af'''!16                                                               %! khamr.current
+        af'''!16                                                               %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
         % [B Piano_Music_Voice measure 80 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
-        df''''!16.                                                             %! khamr.current
+        df''''!16.                                                             %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        ef''''!16.                                                             %! khamr.current
+        ef''''!16.                                                             %! khamr.current()
 
-        f''''16.                                                               %! khamr.current
+        f''''16.                                                               %! khamr.current()
 
-        b'''16.                                                                %! khamr.current
+        b'''16.                                                                %! khamr.current()
 
-        df''''!16.                                                             %! khamr.current
+        df''''!16.                                                             %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
-        d''''16.                                                               %! khamr.current
+        d''''16.                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        f''''16.                                                               %! khamr.current
+        f''''16.                                                               %! khamr.current()
 
-        c''''16.                                                               %! khamr.current
+        c''''16.                                                               %! khamr.current()
 
-        af'''!16.                                                              %! khamr.current
+        af'''!16.                                                              %! khamr.current()
 
-        g'''16.                                                                %! khamr.current
+        g'''16.                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
         % [B Piano_Music_Voice measure 81 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
-        e''''16                                                                %! khamr.current
+        e''''16                                                                %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        c''''16                                                                %! khamr.current
+        c''''16                                                                %! khamr.current()
 
-        b'''16                                                                 %! khamr.current
+        b'''16                                                                 %! khamr.current()
 
-        df''''!16                                                              %! khamr.current
+        df''''!16                                                              %! khamr.current()
 
-        ef''''!16                                                              %! khamr.current
+        ef''''!16                                                              %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    f''''16                                                                    %! khamr.current
+    f''''16                                                                    %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    e''''16                                                                    %! khamr.current
+    e''''16                                                                    %! khamr.current()
 
-    fs'''!16                                                                   %! khamr.current
+    fs'''!16                                                                   %! khamr.current()
 
-    bf'''!16                                                                   %! khamr.current
+    bf'''!16                                                                   %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    a'''16                                                                     %! khamr.current
+    a'''16                                                                     %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    c''''16                                                                    %! khamr.current
+    c''''16                                                                    %! khamr.current()
 
-    af'''!16                                                                   %! khamr.current
+    af'''!16                                                                   %! khamr.current()
 
-    g'''16                                                                     %! khamr.current
+    g'''16                                                                     %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    e''''16                                                                    %! khamr.current
+    e''''16                                                                    %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    f''''16                                                                    %! khamr.current
+    f''''16                                                                    %! khamr.current()
 
-    b'''16                                                                     %! khamr.current
+    b'''16                                                                     %! khamr.current()
 
-    df''''!16                                                                  %! khamr.current
+    df''''!16                                                                  %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current
+    \times 2/3 {                                                               %! khamr.current()
 
         % [B Piano_Music_Voice measure 82 / measure 8]                         %! baca.SegmentMaker._comment_measure_numbers()
-        ef''''!8                                                               %! khamr.current
+        ef''''!8                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        a'''8                                                                  %! khamr.current
+        a'''8                                                                  %! khamr.current()
 
-        e''''8                                                                 %! khamr.current
-        ]                                                                      %! khamr.current
+        e''''8                                                                 %! khamr.current()
+        ]                                                                      %! khamr.current()
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
-        fs'''!16                                                               %! khamr.current
-        [                                                                      %! khamr.current
+        fs'''!16                                                               %! khamr.current()
+        [                                                                      %! khamr.current()
 
-        bf'''!16                                                               %! khamr.current
+        bf'''!16                                                               %! khamr.current()
 
-        c''''16                                                                %! khamr.current
+        c''''16                                                                %! khamr.current()
 
-        df''''!16                                                              %! khamr.current
+        df''''!16                                                              %! khamr.current()
 
-        d''''16                                                                %! khamr.current
-        ]                                                                      %! khamr.current
+        d''''16                                                                %! khamr.current()
+        ]                                                                      %! khamr.current()
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
-        f''''16                                                                %! khamr.current
-        [                                                                      %! khamr.current
+        f''''16                                                                %! khamr.current()
+        [                                                                      %! khamr.current()
 
-        ef''''!16                                                              %! khamr.current
+        ef''''!16                                                              %! khamr.current()
 
-        f''''16                                                                %! khamr.current
+        f''''16                                                                %! khamr.current()
 
-        b'''16                                                                 %! khamr.current
+        b'''16                                                                 %! khamr.current()
 
-        df''''!16                                                              %! khamr.current
+        df''''!16                                                              %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current
+    \times 4/5 {                                                               %! khamr.current()
 
-        bf'''!16                                                               %! khamr.current
+        bf'''!16                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        a'''16                                                                 %! khamr.current
+        a'''16                                                                 %! khamr.current()
 
-        e''''16                                                                %! khamr.current
+        e''''16                                                                %! khamr.current()
 
-        fs'''!16                                                               %! khamr.current
+        fs'''!16                                                               %! khamr.current()
 
-        f''''16                                                                %! khamr.current
-        ]                                                                      %! khamr.current
+        f''''16                                                                %! khamr.current()
+        ]                                                                      %! khamr.current()
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 2/3 {                                                               %! khamr.current
+    \times 2/3 {                                                               %! khamr.current()
 
-        c''''8                                                                 %! khamr.current
-        [                                                                      %! khamr.current
+        c''''8                                                                 %! khamr.current()
+        [                                                                      %! khamr.current()
 
-        df''''!8                                                               %! khamr.current
+        df''''!8                                                               %! khamr.current()
 
-        d''''8                                                                 %! khamr.current
+        d''''8                                                                 %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \times 2/3 {                                                               %! khamr.current
+    \times 2/3 {                                                               %! khamr.current()
 
         % [B Piano_Music_Voice measure 83 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
-        e''''8                                                                 %! khamr.current
+        e''''8                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        c''''8                                                                 %! khamr.current
+        c''''8                                                                 %! khamr.current()
 
-        af'''!8                                                                %! khamr.current
+        af'''!8                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    g'''16                                                                     %! khamr.current
+    g'''16                                                                     %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    fs'''!16                                                                   %! khamr.current
+    fs'''!16                                                                   %! khamr.current()
 
-    bf'''!16                                                                   %! khamr.current
+    bf'''!16                                                                   %! khamr.current()
 
-    a'''16                                                                     %! khamr.current
+    a'''16                                                                     %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    e''''16                                                                    %! khamr.current
+    e''''16                                                                    %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    d''''16                                                                    %! khamr.current
+    d''''16                                                                    %! khamr.current()
 
-    f''''16                                                                    %! khamr.current
+    f''''16                                                                    %! khamr.current()
 
-    c''''16                                                                    %! khamr.current
+    c''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current
+    \times 2/3 {                                                               %! khamr.current()
 
-        df''''!8                                                               %! khamr.current
+        df''''!8                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        g'''8                                                                  %! khamr.current
+        g'''8                                                                  %! khamr.current()
 
-        e''''8                                                                 %! khamr.current
+        e''''8                                                                 %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \ottava 0                                                              %! baca.ottava():SpannerIndicatorCommand(2)
 
-    }                                                                          %! khamr.current
+    }                                                                          %! khamr.current()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
         % [B Piano_Music_Voice measure 84 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
         % [B Piano_Music_Voice measure 96 / measure 22]                        %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
         % [B Piano_Music_Voice measure 99 / measure 25]                        %! baca.SegmentMaker._comment_measure_numbers()
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 9/11 {                                                              %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 9/11 {                                                              %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
 
-        cs'''!16                                                               %! khamr.aviary
+        cs'''!16                                                               %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary
-    \times 5/7 {                                                               %! khamr.aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
+    \times 5/7 {                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
-        [                                                                      %! khamr.aviary
+        [                                                                      %! khamr.aviary()
 
-        d'''16                                                                 %! khamr.aviary
+        d'''16                                                                 %! khamr.aviary()
 
-        ds'''!16                                                               %! khamr.aviary
+        ds'''!16                                                               %! khamr.aviary()
 
-        e'''16                                                                 %! khamr.aviary
+        e'''16                                                                 %! khamr.aviary()
 
-        f'''16                                                                 %! khamr.aviary
+        f'''16                                                                 %! khamr.aviary()
 
-        fs'''!16                                                               %! khamr.aviary
+        fs'''!16                                                               %! khamr.aviary()
 
-        c'''16                                                                 %! khamr.aviary
-        ]                                                                      %! khamr.aviary
+        c'''16                                                                 %! khamr.aviary()
+        ]                                                                      %! khamr.aviary()
 
-    }                                                                          %! khamr.aviary
+    }                                                                          %! khamr.aviary()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -7260,7 +7260,7 @@ B_Piano_Music_Voice = {                                                        %
 
             % [B Piano_Music_Voice measure 104 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -7311,7 +7311,7 @@ B_Piano_Music_Voice = {                                                        %
 
             % [B Piano_Music_Voice measure 112 / measure 38]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -7374,7 +7374,7 @@ B_Percussion_Music_Voice = {                                                   %
         %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
             \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-            c'1 * 1/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/2                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \sfz                                                               %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
             ^ \baca-reapplied-indicator-markup "[“Perc.”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -7741,7 +7741,7 @@ B_Percussion_Music_Voice = {                                                   %
 
             % [B Percussion_Music_Voice measure 112 / measure 38]              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -7813,125 +7813,125 @@ B_Violin_Music_Voice = {                                                       %
 
     % [B Violin_Music_Voice measure 77 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
-    gff'!1.                                                                    %! khamr.continuous_glissandi
+    gff'!1.                                                                    %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \markup { "estr. sul pont." }                                            %! baca.markup():baca.IndicatorCommand._call()
     \glissando                                                                 %! baca.glissando()
 
     % [B Violin_Music_Voice measure 78 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
-    gf'!2.                                                                     %! khamr.continuous_glissandi
+    gf'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 79 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!2.                                                                %! khamr.continuous_glissandi
+        bff'!2.                                                                %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
         \glissando                                                             %! baca.glissando()
 
-        ff'!2                                                                  %! khamr.continuous_glissandi
+        ff'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Violin_Music_Voice measure 80 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
-    dff'!2.                                                                    %! khamr.continuous_glissandi
+    dff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 81 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-        cf'!1                                                                  %! khamr.continuous_glissandi
+        cf'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af'!2                                                                  %! khamr.continuous_glissandi
+        af'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 5/9 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 5/9 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 82 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-        ff'!2.                                                                 %! khamr.continuous_glissandi
+        ff'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ef'!1.                                                                 %! khamr.continuous_glissandi
+        ef'!1.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!1                                                                 %! khamr.continuous_glissandi
+        gff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aff'!2.                                                                %! khamr.continuous_glissandi
+        aff'!2.                                                                %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Violin_Music_Voice measure 84 / measure 10]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bff'!2.                                                                    %! khamr.continuous_glissandi
+    bff'!2.                                                                    %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     \glissando                                                                 %! baca.glissando()
 
     % [B Violin_Music_Voice measure 85 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1                                                                      %! khamr.continuous_glissandi
+    af'!1                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Violin_Music_Voice measure 86 / measure 12]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf!2                                                                       %! khamr.continuous_glissandi
+    bf!2                                                                       %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    eff'!2.                                                                    %! khamr.continuous_glissandi
+    eff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Violin_Music_Voice measure 87 / measure 13]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df'!2.                                                                     %! khamr.continuous_glissandi
+    df'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 88 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
-        ff'!4                                                                  %! khamr.continuous_glissandi
+        ff'!4                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        dff'!2                                                                 %! khamr.continuous_glissandi
+        dff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 6/7 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 6/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 89 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
-        cf'!1                                                                  %! khamr.continuous_glissandi
+        cf'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af'!2.                                                                 %! khamr.continuous_glissandi
+        af'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 90 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!4.                                                                %! khamr.continuous_glissandi
+        bff'!4.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ef'!2                                                                  %! khamr.continuous_glissandi
+        ef'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Violin_Music_Voice measure 91 / measure 17]                           %! baca.SegmentMaker._comment_measure_numbers()
     gff'!2.
@@ -7941,103 +7941,103 @@ B_Violin_Music_Voice = {                                                       %
     \glissando                                                                 %! baca.glissando()
 
     % [B Violin_Music_Voice measure 92 / measure 18]                           %! baca.SegmentMaker._comment_measure_numbers()
-    aff'!2.                                                                    %! khamr.continuous_glissandi
+    aff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 93 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
-        df'!1                                                                  %! khamr.continuous_glissandi
+        df'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af'!2                                                                  %! khamr.continuous_glissandi
+        af'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Violin_Music_Voice measure 94 / measure 20]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf!1.                                                                      %! khamr.continuous_glissandi
+    bf!1.                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 95 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
-        eff'!2                                                                 %! khamr.continuous_glissandi
+        eff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ff'!4.                                                                 %! khamr.continuous_glissandi
+        ff'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 96 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!4.                                                                %! khamr.continuous_glissandi
+        gff'!4.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        gf'!2                                                                  %! khamr.continuous_glissandi
+        gf'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 3/5 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 3/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 97 / measure 23]                       %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!2.                                                                %! khamr.continuous_glissandi
+        bff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aff'!2                                                                 %! khamr.continuous_glissandi
+        aff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Violin_Music_Voice measure 98 / measure 24]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bff'!1                                                                     %! khamr.continuous_glissandi
+    bff'!1                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Violin_Music_Voice measure 99 / measure 25]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ef'!2                                                                      %! khamr.continuous_glissandi
+    ef'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 100 / measure 26]                      %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!4                                                                 %! khamr.continuous_glissandi
+        gff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        eff'!2                                                                 %! khamr.continuous_glissandi
+        eff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Violin_Music_Voice measure 101 / measure 27]                          %! baca.SegmentMaker._comment_measure_numbers()
-    df'!1.                                                                     %! khamr.continuous_glissandi
+    df'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 102 / measure 28]                      %! baca.SegmentMaker._comment_measure_numbers()
-        af'!2.                                                                 %! khamr.continuous_glissandi
+        af'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        bf!1                                                                   %! khamr.continuous_glissandi
+        bf!1                                                                   %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 3/5 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 3/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Violin_Music_Voice measure 103 / measure 29]                      %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!2.                                                                %! khamr.continuous_glissandi
+        bff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ff'!2                                                                  %! khamr.continuous_glissandi
+        ff'!2                                                                  %! khamr.continuous_glissandi()
         \revert NoteHead.style                                                 %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -8046,7 +8046,7 @@ B_Violin_Music_Voice = {                                                       %
 
             % [B Violin_Music_Voice measure 104 / measure 30]                  %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -8097,7 +8097,7 @@ B_Violin_Music_Voice = {                                                       %
 
             % [B Violin_Music_Voice measure 112 / measure 38]                  %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -8167,28 +8167,28 @@ B_Viola_Music_Voice = {                                                        %
     gs'!2                                                                      %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 3/5 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 3/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 77 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
         \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
-        gff'!1.                                                                %! khamr.continuous_glissandi
+        gff'!1.                                                                %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         ^ \markup { "estr. sul pont." }                                        %! baca.markup():baca.IndicatorCommand._call()
         \glissando                                                             %! baca.glissando()
 
-        gf'!1                                                                  %! khamr.continuous_glissandi
+        gf'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Viola_Music_Voice measure 78 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
-    bff'!2.                                                                    %! khamr.continuous_glissandi
+    bff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Viola_Music_Voice measure 79 / measure 5]                             %! baca.SegmentMaker._comment_measure_numbers()
-    ff'!1                                                                      %! khamr.continuous_glissandi
+    ff'!1                                                                      %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -8196,57 +8196,57 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando()
 
     % [B Viola_Music_Voice measure 80 / measure 6]                             %! baca.SegmentMaker._comment_measure_numbers()
-    dff'!4                                                                     %! khamr.continuous_glissandi
+    dff'!4                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    cf'!2                                                                      %! khamr.continuous_glissandi
+    cf'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Viola_Music_Voice measure 81 / measure 7]                             %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1                                                                      %! khamr.continuous_glissandi
+    af'!1                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 5/7 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 5/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 82 / measure 8]                         %! baca.SegmentMaker._comment_measure_numbers()
-        ff'!2.                                                                 %! khamr.continuous_glissandi
+        ff'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ef'!1                                                                  %! khamr.continuous_glissandi
+        ef'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 83 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!2.                                                                %! khamr.continuous_glissandi
+        gff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aff'!2                                                                 %! khamr.continuous_glissandi
+        aff'!2                                                                 %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 3/5 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 3/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 84 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!2                                                                 %! khamr.continuous_glissandi
+        bff'!2                                                                 %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         \glissando                                                             %! baca.glissando()
 
-        af'!2.                                                                 %! khamr.continuous_glissandi
+        af'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Viola_Music_Voice measure 85 / measure 11]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf!1                                                                       %! khamr.continuous_glissandi
+    bf!1                                                                       %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Viola_Music_Voice measure 86 / measure 12]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -8256,139 +8256,139 @@ B_Viola_Music_Voice = {                                                        %
     \repeatTie
     \glissando                                                                 %! baca.glissando()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 6/7 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 6/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 87 / measure 13]                        %! baca.SegmentMaker._comment_measure_numbers()
-        df'!2                                                                  %! khamr.continuous_glissandi
+        df'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ff'!4.                                                                 %! khamr.continuous_glissandi
+        ff'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Viola_Music_Voice measure 88 / measure 14]                            %! baca.SegmentMaker._comment_measure_numbers()
-    dff'!2                                                                     %! khamr.continuous_glissandi
+    dff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 3/5 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 3/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 89 / measure 15]                        %! baca.SegmentMaker._comment_measure_numbers()
-        cf'!1.                                                                 %! khamr.continuous_glissandi
+        cf'!1.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af'!1                                                                  %! khamr.continuous_glissandi
+        af'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 90 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!4                                                                 %! khamr.continuous_glissandi
+        bff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ef'!4.                                                                 %! khamr.continuous_glissandi
+        ef'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 5/9 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 5/9 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 91 / measure 17]                        %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!1.                                                                %! khamr.continuous_glissandi
+        gff'!1.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aff'!2.                                                                %! khamr.continuous_glissandi
+        aff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Viola_Music_Voice measure 92 / measure 18]                            %! baca.SegmentMaker._comment_measure_numbers()
-    df'!2.                                                                     %! khamr.continuous_glissandi
+    df'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Viola_Music_Voice measure 93 / measure 19]                            %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1                                                                      %! khamr.continuous_glissandi
+    af'!1                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 6/7 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 6/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 94 / measure 20]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bf!2.                                                                  %! khamr.continuous_glissandi
+        bf!2.                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        eff'!1                                                                 %! khamr.continuous_glissandi
+        eff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Viola_Music_Voice measure 95 / measure 21]                            %! baca.SegmentMaker._comment_measure_numbers()
-    ff'!2                                                                      %! khamr.continuous_glissandi
+    ff'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 96 / measure 22]                        %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!4                                                                 %! khamr.continuous_glissandi
+        gff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        gf'!4.                                                                 %! khamr.continuous_glissandi
+        gf'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Viola_Music_Voice measure 97 / measure 23]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bff'!2                                                                     %! khamr.continuous_glissandi
+    bff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    aff'!4                                                                     %! khamr.continuous_glissandi
+    aff'!4                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 98 / measure 24]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!2                                                                 %! khamr.continuous_glissandi
+        bff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ef'!1                                                                  %! khamr.continuous_glissandi
+        ef'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Viola_Music_Voice measure 99 / measure 25]                            %! baca.SegmentMaker._comment_measure_numbers()
-    gff'!2                                                                     %! khamr.continuous_glissandi
+    gff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Viola_Music_Voice measure 100 / measure 26]                           %! baca.SegmentMaker._comment_measure_numbers()
-    eff'!2                                                                     %! khamr.continuous_glissandi
+    eff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 3/5 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 3/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Viola_Music_Voice measure 101 / measure 27]                       %! baca.SegmentMaker._comment_measure_numbers()
-        df'!1.                                                                 %! khamr.continuous_glissandi
+        df'!1.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af'!1                                                                  %! khamr.continuous_glissandi
+        af'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Viola_Music_Voice measure 102 / measure 28]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf!1                                                                       %! khamr.continuous_glissandi
+    bf!1                                                                       %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Viola_Music_Voice measure 103 / measure 29]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bff'!2                                                                     %! khamr.continuous_glissandi
+    bff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    ff'!4                                                                      %! khamr.continuous_glissandi
+    ff'!4                                                                      %! khamr.continuous_glissandi()
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -8398,7 +8398,7 @@ B_Viola_Music_Voice = {                                                        %
 
             % [B Viola_Music_Voice measure 104 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -8449,7 +8449,7 @@ B_Viola_Music_Voice = {                                                        %
 
             % [B Viola_Music_Voice measure 112 / measure 38]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -8521,24 +8521,24 @@ B_Cello_Music_Voice = {                                                        %
 
     % [B Cello_Music_Voice measure 77 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
-    gff'!1                                                                     %! khamr.continuous_glissandi
+    gff'!1                                                                     %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \markup { "estr. sul pont." }                                            %! baca.markup():baca.IndicatorCommand._call()
     \glissando                                                                 %! baca.glissando()
 
-    gf'!2                                                                      %! khamr.continuous_glissandi
+    gf'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Cello_Music_Voice measure 78 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
-    bff'!4                                                                     %! khamr.continuous_glissandi
+    bff'!4                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    ff'!2                                                                      %! khamr.continuous_glissandi
+    ff'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Cello_Music_Voice measure 79 / measure 5]                             %! baca.SegmentMaker._comment_measure_numbers()
-    dff'!1                                                                     %! khamr.continuous_glissandi
+    dff'!1                                                                     %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -8546,19 +8546,19 @@ B_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando()
 
     % [B Cello_Music_Voice measure 80 / measure 6]                             %! baca.SegmentMaker._comment_measure_numbers()
-    cf'!2.                                                                     %! khamr.continuous_glissandi
+    cf'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 81 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
-        af'!2.                                                                 %! khamr.continuous_glissandi
+        af'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ff'!2                                                                  %! khamr.continuous_glissandi
+        ff'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Cello_Music_Voice measure 82 / measure 8]                             %! baca.SegmentMaker._comment_measure_numbers()
     ef'!2.
@@ -8567,38 +8567,38 @@ B_Cello_Music_Voice = {                                                        %
     \repeatTie
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 83 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!1                                                                 %! khamr.continuous_glissandi
+        gff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aff'!2                                                                 %! khamr.continuous_glissandi
+        aff'!2                                                                 %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Cello_Music_Voice measure 84 / measure 10]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bff'!4                                                                     %! khamr.continuous_glissandi
+    bff'!4                                                                     %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     \glissando                                                                 %! baca.glissando()
 
-    af'!2                                                                      %! khamr.continuous_glissandi
+    af'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 85 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bf!1                                                                   %! khamr.continuous_glissandi
+        bf!1                                                                   %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        eff'!2.                                                                %! khamr.continuous_glissandi
+        eff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Cello_Music_Voice measure 86 / measure 12]                            %! baca.SegmentMaker._comment_measure_numbers()
     df'!2.
@@ -8608,137 +8608,137 @@ B_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando()
 
     % [B Cello_Music_Voice measure 87 / measure 13]                            %! baca.SegmentMaker._comment_measure_numbers()
-    ff'!2.                                                                     %! khamr.continuous_glissandi
+    ff'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 88 / measure 14]                        %! baca.SegmentMaker._comment_measure_numbers()
-        dff'!4                                                                 %! khamr.continuous_glissandi
+        dff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        cf'!4.                                                                 %! khamr.continuous_glissandi
+        cf'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Cello_Music_Voice measure 89 / measure 15]                            %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1.                                                                     %! khamr.continuous_glissandi
+    af'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 90 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!4                                                                 %! khamr.continuous_glissandi
+        bff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ef'!2                                                                  %! khamr.continuous_glissandi
+        ef'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 5/7 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 5/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 91 / measure 17]                        %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!1                                                                 %! khamr.continuous_glissandi
+        gff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aff'!2.                                                                %! khamr.continuous_glissandi
+        aff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 6/7 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 6/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 92 / measure 18]                        %! baca.SegmentMaker._comment_measure_numbers()
-        df'!4.                                                                 %! khamr.continuous_glissandi
+        df'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af'!2                                                                  %! khamr.continuous_glissandi
+        af'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Cello_Music_Voice measure 93 / measure 19]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf!1                                                                       %! khamr.continuous_glissandi
+    bf!1                                                                       %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Cello_Music_Voice measure 94 / measure 20]                            %! baca.SegmentMaker._comment_measure_numbers()
-    eff'!1.                                                                    %! khamr.continuous_glissandi
+    eff'!1.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 95 / measure 21]                        %! baca.SegmentMaker._comment_measure_numbers()
-        ff'!2                                                                  %! khamr.continuous_glissandi
+        ff'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        gff'!4                                                                 %! khamr.continuous_glissandi
+        gff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Cello_Music_Voice measure 96 / measure 22]                            %! baca.SegmentMaker._comment_measure_numbers()
-    gf'!2                                                                      %! khamr.continuous_glissandi
+    gf'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
-    \times 6/7 {                                                               %! khamr.continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
+    \times 6/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 97 / measure 23]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!2                                                                 %! khamr.continuous_glissandi
+        bff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aff'!4.                                                                %! khamr.continuous_glissandi
+        aff'!4.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 98 / measure 24]                        %! baca.SegmentMaker._comment_measure_numbers()
-        bff'!2.                                                                %! khamr.continuous_glissandi
+        bff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        ef'!1                                                                  %! khamr.continuous_glissandi
+        ef'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 99 / measure 25]                        %! baca.SegmentMaker._comment_measure_numbers()
-        gff'!4.                                                                %! khamr.continuous_glissandi
+        gff'!4.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        eff'!4                                                                 %! khamr.continuous_glissandi
+        eff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Cello_Music_Voice measure 100 / measure 26]                           %! baca.SegmentMaker._comment_measure_numbers()
-    df'!2                                                                      %! khamr.continuous_glissandi
+    df'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
     % [B Cello_Music_Voice measure 101 / measure 27]                           %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1.                                                                     %! khamr.continuous_glissandi
+    af'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi()
 
         % [B Cello_Music_Voice measure 102 / measure 28]                       %! baca.SegmentMaker._comment_measure_numbers()
-        bf!2                                                                   %! khamr.continuous_glissandi
+        bf!2                                                                   %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        bff'!1                                                                 %! khamr.continuous_glissandi
+        bff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! khamr.continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi()
 
     % [B Cello_Music_Voice measure 103 / measure 29]                           %! baca.SegmentMaker._comment_measure_numbers()
-    ff'!2.                                                                     %! khamr.continuous_glissandi
+    ff'!2.                                                                     %! khamr.continuous_glissandi()
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -8748,7 +8748,7 @@ B_Cello_Music_Voice = {                                                        %
 
             % [B Cello_Music_Voice measure 104 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 3/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -8799,7 +8799,7 @@ B_Cello_Music_Voice = {                                                        %
 
             % [B Cello_Music_Voice measure 112 / measure 38]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -9041,7 +9041,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
             % [B Contrabass_Music_Voice measure 112 / measure 38]              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c''1 * 1/4                                                         %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()

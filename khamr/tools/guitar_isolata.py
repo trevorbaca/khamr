@@ -30,5 +30,5 @@ def guitar_isolata(*commands) -> baca.RhythmCommand:
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=baca.sequence().fuse().quarters(),
-        tag=abjad.Tag("khamr.guitar_isolata"),
+        tag=abjad.Tag("khamr.guitar_isolata()"),
     )

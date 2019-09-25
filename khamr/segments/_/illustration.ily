@@ -858,7 +858,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>4.
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     <g' g''>4
 
@@ -877,7 +877,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>8
     \repeatTie
 
-    r4.                                                                        %! khamr.fused_wind
+    r4.                                                                        %! khamr.fused_wind()
 
     % [_ Flute_Music_Voice measure 8]                                          %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -898,7 +898,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     <g' g''>4
 
@@ -916,7 +916,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>4
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Flute_Music_Voice measure 14]                                         %! baca.SegmentMaker._comment_measure_numbers()
     r2
@@ -948,7 +948,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     <gs'! gs''!>2.
 
@@ -964,7 +964,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>8
     \repeatTie
 
-    r4.                                                                        %! khamr.fused_wind
+    r4.                                                                        %! khamr.fused_wind()
 
     % [_ Flute_Music_Voice measure 23]                                         %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -992,7 +992,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Flute_Music_Voice measure 28]                                         %! baca.SegmentMaker._comment_measure_numbers()
     <gs'! gs''!>1
@@ -1005,7 +1005,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>4
     \repeatTie
 
-    r2                                                                         %! khamr.fused_wind
+    r2                                                                         %! khamr.fused_wind()
 
     % [_ Flute_Music_Voice measure 31]                                         %! baca.SegmentMaker._comment_measure_numbers()
     r1
@@ -1026,7 +1026,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     <gs'! gs''!>4
 
@@ -1041,7 +1041,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>4.
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Flute_Music_Voice measure 37]                                         %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1074,7 +1074,7 @@ i_Flute_Music_Voice = {                                                        %
     a''4
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
     \stopTrillSpan                                                             %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
 
     a''4.
@@ -1090,7 +1090,7 @@ i_Flute_Music_Voice = {                                                        %
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
     \repeatTie
 
-    r2                                                                         %! khamr.fused_wind
+    r2                                                                         %! khamr.fused_wind()
     \stopTrillSpan                                                             %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1100,7 +1100,7 @@ i_Flute_Music_Voice = {                                                        %
 
             % [_ Flute_Music_Voice measure 45]                                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c''1 * 1/4                                                         %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1197,7 +1197,7 @@ i_Oboe_Music_Voice = {                                                         %
     c'8
     \repeatTie
 
-    r2..                                                                       %! khamr.fused_wind
+    r2..                                                                       %! khamr.fused_wind()
 
     % [_ Oboe_Music_Voice measure 6]                                           %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1215,10 +1215,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 9]                                           %! baca.SegmentMaker._comment_measure_numbers()
-    c'4.                                                                       %! khamr.fused_wind
+    c'4.                                                                       %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     c'2
 
@@ -1235,7 +1235,7 @@ i_Oboe_Music_Voice = {                                                         %
     c'8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     r2
 
@@ -1253,10 +1253,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 16]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    c'4.                                                                       %! khamr.fused_wind
+    c'4.                                                                       %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Oboe_Music_Voice measure 17]                                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -1274,10 +1274,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 20]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    c'4                                                                        %! khamr.fused_wind
+    c'4                                                                        %! khamr.fused_wind()
     \repeatTie
 
-    r2                                                                         %! khamr.fused_wind
+    r2                                                                         %! khamr.fused_wind()
 
     r2.
 
@@ -1299,10 +1299,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 25]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    c'4.                                                                       %! khamr.fused_wind
+    c'4.                                                                       %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Oboe_Music_Voice measure 26]                                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -1313,10 +1313,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 28]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    c'2..                                                                      %! khamr.fused_wind
+    c'2..                                                                      %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Oboe_Music_Voice measure 29]                                          %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1336,7 +1336,7 @@ i_Oboe_Music_Voice = {                                                         %
     c'4.
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Oboe_Music_Voice measure 33]                                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -1355,7 +1355,7 @@ i_Oboe_Music_Voice = {                                                         %
     c'8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     r2
 
@@ -1399,7 +1399,7 @@ i_Oboe_Music_Voice = {                                                         %
     <e'' b''>4.
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     <e'' b''>2.
     - \flageolet                                                               %! baca.flageolet():baca.IndicatorCommand._call()
@@ -1416,7 +1416,7 @@ i_Oboe_Music_Voice = {                                                         %
     <e'' b''>4
     \repeatTie
 
-    r2                                                                         %! khamr.fused_wind
+    r2                                                                         %! khamr.fused_wind()
 
     r2.
 
@@ -1427,7 +1427,7 @@ i_Oboe_Music_Voice = {                                                         %
 
             % [_ Oboe_Music_Voice measure 45]                                  %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            g'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            g'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1511,7 +1511,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Clarinet_Music_Voice measure 4]                                       %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1530,13 +1530,13 @@ i_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [_ Clarinet_Music_Voice measure 8]                                       %! baca.SegmentMaker._comment_measure_numbers()
-    b2                                                                         %! khamr.fused_wind
+    b2                                                                         %! khamr.fused_wind()
     \repeatTie
 
-    b8                                                                         %! khamr.fused_wind
+    b8                                                                         %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     r2
 
@@ -1557,7 +1557,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     b2
 
@@ -1576,7 +1576,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     b2.
 
@@ -1588,7 +1588,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b2..
     \repeatTie
 
-    r4.                                                                        %! khamr.fused_wind
+    r4.                                                                        %! khamr.fused_wind()
 
     % [_ Clarinet_Music_Voice measure 18]                                      %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1614,7 +1614,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     r2
 
@@ -1636,7 +1636,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b4.
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     b2
 
@@ -1649,10 +1649,10 @@ i_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [_ Clarinet_Music_Voice measure 31]                                      %! baca.SegmentMaker._comment_measure_numbers()
-    b8                                                                         %! khamr.fused_wind
+    b8                                                                         %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     b2.
 
@@ -1663,7 +1663,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b4.
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Clarinet_Music_Voice measure 33]                                      %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1681,10 +1681,10 @@ i_Clarinet_Music_Voice = {                                                     %
     b2.
     \repeatTie
 
-    b4.                                                                        %! khamr.fused_wind
+    b4.                                                                        %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Clarinet_Music_Voice measure 37]                                      %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1712,7 +1712,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b4
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     b4.
 
@@ -1724,14 +1724,14 @@ i_Clarinet_Music_Voice = {                                                     %
     b1
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     b8
 
     b8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1740,7 +1740,7 @@ i_Clarinet_Music_Voice = {                                                     %
 
             % [_ Clarinet_Music_Voice measure 45]                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            d''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            d''1 * 1/4                                                         %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1829,7 +1829,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''8
     \repeatTie
 
-    r4.                                                                        %! khamr.fused_wind
+    r4.                                                                        %! khamr.fused_wind()
 
     % [_ Saxophone_Music_Voice measure 6]                                      %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1850,7 +1850,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''2..
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Saxophone_Music_Voice measure 10]                                     %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -1875,7 +1875,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''4.
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Saxophone_Music_Voice measure 15]                                     %! baca.SegmentMaker._comment_measure_numbers()
     e''1.
@@ -1885,10 +1885,10 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [_ Saxophone_Music_Voice measure 17]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    e''4.                                                                      %! khamr.fused_wind
+    e''4.                                                                      %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     e''2.
 
@@ -1905,10 +1905,10 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [_ Saxophone_Music_Voice measure 21]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    e''8                                                                       %! khamr.fused_wind
+    e''8                                                                       %! khamr.fused_wind()
     \repeatTie
 
-    r4.                                                                        %! khamr.fused_wind
+    r4.                                                                        %! khamr.fused_wind()
 
     % [_ Saxophone_Music_Voice measure 22]                                     %! baca.SegmentMaker._comment_measure_numbers()
     r2
@@ -1928,13 +1928,13 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [_ Saxophone_Music_Voice measure 27]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    e''2                                                                       %! khamr.fused_wind
+    e''2                                                                       %! khamr.fused_wind()
     \repeatTie
 
-    e''8                                                                       %! khamr.fused_wind
+    e''8                                                                       %! khamr.fused_wind()
     \repeatTie
 
-    r2..                                                                       %! khamr.fused_wind
+    r2..                                                                       %! khamr.fused_wind()
 
     % [_ Saxophone_Music_Voice measure 28]                                     %! baca.SegmentMaker._comment_measure_numbers()
     r1
@@ -1951,10 +1951,10 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [_ Saxophone_Music_Voice measure 32]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    e''8                                                                       %! khamr.fused_wind
+    e''8                                                                       %! khamr.fused_wind()
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     e''1
 
@@ -1966,7 +1966,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''8
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     e''2.
 
@@ -1994,7 +1994,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''4
     \repeatTie
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     % [_ Saxophone_Music_Voice measure 38]                                     %! baca.SegmentMaker._comment_measure_numbers()
     r2
@@ -2022,7 +2022,7 @@ i_Saxophone_Music_Voice = {                                                    %
     <d'' eqs''!>8
     \repeatTie
 
-    r2..                                                                       %! khamr.fused_wind
+    r2..                                                                       %! khamr.fused_wind()
 
     % [_ Saxophone_Music_Voice measure 44]                                     %! baca.SegmentMaker._comment_measure_numbers()
     r2.
@@ -2036,7 +2036,7 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    r8                                                                         %! khamr.fused_wind
+    r8                                                                         %! khamr.fused_wind()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2045,7 +2045,7 @@ i_Saxophone_Music_Voice = {                                                    %
 
             % [_ Saxophone_Music_Voice measure 45]                             %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            a''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            a''1 * 1/4                                                         %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -2098,7 +2098,7 @@ i_Guitar_Music_Voice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    cs'!4                                                                      %! khamr.guitar_isolata
+    cs'!4                                                                      %! khamr.guitar_isolata()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-default-indicator-markup "(“Guitar”)"                              %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2113,232 +2113,232 @@ i_Guitar_Music_Voice = {                                                       %
             Gt.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):baca.margin_markup():-PARTS:baca.IndicatorCommand._call()
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):baca.margin_markup():-PARTS:baca.IndicatorCommand._call()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 2]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 3]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r1.                                                                        %! khamr.guitar_isolata
+    r1.                                                                        %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 4]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 5]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r8                                                                         %! khamr.guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata()
 
-    c'16                                                                       %! khamr.guitar_isolata
+    c'16                                                                       %! khamr.guitar_isolata()
 
-    r16                                                                        %! khamr.guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata()
 
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 6]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
-    r16                                                                        %! khamr.guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata()
 
-    a'16                                                                       %! khamr.guitar_isolata
+    a'16                                                                       %! khamr.guitar_isolata()
 
-    r4.                                                                        %! khamr.guitar_isolata
+    r4.                                                                        %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 7]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
-    r8                                                                         %! khamr.guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata()
 
-    d'16                                                                       %! khamr.guitar_isolata
+    d'16                                                                       %! khamr.guitar_isolata()
 
-    r16                                                                        %! khamr.guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 8]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
 
-    \times 4/5 {                                                               %! khamr.guitar_isolata
+    \times 4/5 {                                                               %! khamr.guitar_isolata()
 
-        r8.                                                                    %! khamr.guitar_isolata
+        r8.                                                                    %! khamr.guitar_isolata()
 
-        fs'!16                                                                 %! khamr.guitar_isolata
+        fs'!16                                                                 %! khamr.guitar_isolata()
 
-        r16                                                                    %! khamr.guitar_isolata
+        r16                                                                    %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 9]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
-    \times 4/5 {                                                               %! khamr.guitar_isolata
+    \times 4/5 {                                                               %! khamr.guitar_isolata()
 
-        r8.                                                                    %! khamr.guitar_isolata
+        r8.                                                                    %! khamr.guitar_isolata()
 
-        g'16                                                                   %! khamr.guitar_isolata
+        g'16                                                                   %! khamr.guitar_isolata()
 
-        r16                                                                    %! khamr.guitar_isolata
+        r16                                                                    %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 10]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
         % [_ Guitar_Music_Voice measure 11]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        bf'!4                                                                  %! khamr.guitar_isolata
+        bf'!4                                                                  %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
         % [_ Guitar_Music_Voice measure 12]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        d'8                                                                    %! khamr.guitar_isolata
+        d'8                                                                    %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r1                                                                         %! khamr.guitar_isolata
+    r1                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 13]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r8                                                                         %! khamr.guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata()
 
-    ef'!16                                                                     %! khamr.guitar_isolata
+    ef'!16                                                                     %! khamr.guitar_isolata()
 
-    r8.                                                                        %! khamr.guitar_isolata
+    r8.                                                                        %! khamr.guitar_isolata()
 
     r4.
 
     % [_ Guitar_Music_Voice measure 14]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        cs'!8                                                                  %! khamr.guitar_isolata
+        cs'!8                                                                  %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 15]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
 
-    r4.                                                                        %! khamr.guitar_isolata
+    r4.                                                                        %! khamr.guitar_isolata()
 
-    b'16                                                                       %! khamr.guitar_isolata
+    b'16                                                                       %! khamr.guitar_isolata()
 
-    r16                                                                        %! khamr.guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 16]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 17]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r16                                                                        %! khamr.guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata()
 
-    a'16                                                                       %! khamr.guitar_isolata
+    a'16                                                                       %! khamr.guitar_isolata()
 
-    r8                                                                         %! khamr.guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata()
 
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
-    \times 4/5 {                                                               %! khamr.guitar_isolata
+    \times 4/5 {                                                               %! khamr.guitar_isolata()
 
         % [_ Guitar_Music_Voice measure 18]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        r8.                                                                    %! khamr.guitar_isolata
+        r8.                                                                    %! khamr.guitar_isolata()
 
-        bf'!16                                                                 %! khamr.guitar_isolata
+        bf'!16                                                                 %! khamr.guitar_isolata()
 
-        r16                                                                    %! khamr.guitar_isolata
+        r16                                                                    %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 19]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
-    \times 4/5 {                                                               %! khamr.guitar_isolata
+    \times 4/5 {                                                               %! khamr.guitar_isolata()
 
-        r8.                                                                    %! khamr.guitar_isolata
+        r8.                                                                    %! khamr.guitar_isolata()
 
-        af'!16                                                                 %! khamr.guitar_isolata
+        af'!16                                                                 %! khamr.guitar_isolata()
 
-        r16                                                                    %! khamr.guitar_isolata
+        r16                                                                    %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 20]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        e8                                                                     %! khamr.guitar_isolata
+        e8                                                                     %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
         % [_ Guitar_Music_Voice measure 21]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        f4                                                                     %! khamr.guitar_isolata
+        f4                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 22]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 23]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        d'8                                                                    %! khamr.guitar_isolata
+        d'8                                                                    %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 24]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
-    r8                                                                         %! khamr.guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata()
 
-    fs'!16                                                                     %! khamr.guitar_isolata
+    fs'!16                                                                     %! khamr.guitar_isolata()
 
-    r16                                                                        %! khamr.guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     \override TupletNumber.text = \markup {
         \scale
@@ -2379,27 +2379,27 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 25]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.staff-padding = #4                             %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
         \once \override Beam.grow-direction = #right
-        cs''!16 * 117/16                                                       %! khamr.guitar_accelerandi
+        cs''!16 * 117/16                                                       %! khamr.guitar_accelerandi()
         ^ \markup { "move towards (and then back away from) the bridge at the center of each accelerando" } %! baca.markup():baca.IndicatorCommand._call()
     %@% ^ \baca-duration-multiplier-markup #"117" #"16"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        [                                                                      %! khamr.guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        c''16 * 73/16                                                          %! khamr.guitar_accelerandi
+        c''16 * 73/16                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"73" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a''16 * 73/32                                                          %! khamr.guitar_accelerandi
+        a''16 * 73/32                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"73" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''16 * 59/32                                                          %! khamr.guitar_accelerandi
+        d''16 * 59/32                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"59" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2441,35 +2441,35 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 27]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
-        d''16 * 115/64                                                         %! khamr.guitar_accelerandi
+        d''16 * 115/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"115" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        fs''!16 * 121/64                                                       %! khamr.guitar_accelerandi
+        fs''!16 * 121/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"121" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        g''16 * 139/64                                                         %! khamr.guitar_accelerandi
+        g''16 * 139/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"139" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf''!16 * 87/32                                                        %! khamr.guitar_accelerandi
+        bf''!16 * 87/32                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"87" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''16 * 117/32                                                         %! khamr.guitar_accelerandi
+        d''16 * 117/32                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"117" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        ef''!16 * 81/16                                                        %! khamr.guitar_accelerandi
+        ef''!16 * 81/16                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"81" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        cs''!16 * 429/64                                                       %! khamr.guitar_accelerandi
+        cs''!16 * 429/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"429" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2511,35 +2511,35 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 28]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
-        cs''!16 * 487/64                                                       %! khamr.guitar_accelerandi
+        cs''!16 * 487/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"487" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        b''16 * 209/32                                                         %! khamr.guitar_accelerandi
+        b''16 * 209/32                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"209" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a''16 * 143/32                                                         %! khamr.guitar_accelerandi
+        a''16 * 143/32                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"143" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf''!16 * 197/64                                                       %! khamr.guitar_accelerandi
+        bf''!16 * 197/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"197" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        af''!16 * 19/8                                                         %! khamr.guitar_accelerandi
+        af''!16 * 19/8                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"19" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        e''16 * 65/32                                                          %! khamr.guitar_accelerandi
+        e''16 * 65/32                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"65" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        f''16 * 61/32                                                          %! khamr.guitar_accelerandi
+        f''16 * 61/32                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"61" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2581,26 +2581,26 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 30]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
-        f''16 * 13/8                                                           %! khamr.guitar_accelerandi
+        f''16 * 13/8                                                           %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"13" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        d''16 * 125/64                                                         %! khamr.guitar_accelerandi
+        d''16 * 125/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"125" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        fs''!16 * 49/16                                                        %! khamr.guitar_accelerandi
+        fs''!16 * 49/16                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"49" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        g''16 * 343/64                                                         %! khamr.guitar_accelerandi
+        g''16 * 343/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"343" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2644,41 +2644,41 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 31]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
-        g''16 * 123/16                                                         %! khamr.guitar_accelerandi
+        g''16 * 123/16                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"123" #"16"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        bf''!16 * 449/64                                                       %! khamr.guitar_accelerandi
+        bf''!16 * 449/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"449" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a''16 * 351/64                                                         %! khamr.guitar_accelerandi
+        a''16 * 351/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"351" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        ef''!16 * 65/16                                                        %! khamr.guitar_accelerandi
+        ef''!16 * 65/16                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"65" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        cs''!16 * 199/64                                                       %! khamr.guitar_accelerandi
+        cs''!16 * 199/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"199" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        b''16 * 81/32                                                          %! khamr.guitar_accelerandi
+        b''16 * 81/32                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"81" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        f''16 * 35/16                                                          %! khamr.guitar_accelerandi
+        f''16 * 35/16                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"35" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf''!16 * 2                                                            %! khamr.guitar_accelerandi
+        bf''!16 * 2                                                            %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"2" #"1"                           %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        af''!16 * 123/64                                                       %! khamr.guitar_accelerandi
+        af''!16 * 123/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"123" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2720,26 +2720,26 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 33]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
-        af''!16 * 13/8                                                         %! khamr.guitar_accelerandi
+        af''!16 * 13/8                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"13" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        e''16 * 125/64                                                         %! khamr.guitar_accelerandi
+        e''16 * 125/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"125" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''16 * 49/16                                                          %! khamr.guitar_accelerandi
+        d''16 * 49/16                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"49" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        cs''!16 * 343/64                                                       %! khamr.guitar_accelerandi
+        cs''!16 * 343/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"343" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2781,38 +2781,38 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 34]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
-        cs''!16 * 245/32                                                       %! khamr.guitar_accelerandi
+        cs''!16 * 245/32                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"245" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        c''16 * 109/16                                                         %! khamr.guitar_accelerandi
+        c''16 * 109/16                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"109" #"16"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a''16 * 161/32                                                         %! khamr.guitar_accelerandi
+        a''16 * 161/32                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"161" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        b''16 * 115/32                                                         %! khamr.guitar_accelerandi
+        b''16 * 115/32                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"115" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a''16 * 175/64                                                         %! khamr.guitar_accelerandi
+        a''16 * 175/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"175" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        ef''!16 * 9/4                                                          %! khamr.guitar_accelerandi
+        ef''!16 * 9/4                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"9" #"4"                           %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        cs''!16 * 129/64                                                       %! khamr.guitar_accelerandi
+        cs''!16 * 129/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"129" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        e''16 * 61/32                                                          %! khamr.guitar_accelerandi
+        e''16 * 61/32                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"61" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2856,32 +2856,32 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 36]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
-        e''16 * 113/64                                                         %! khamr.guitar_accelerandi
+        e''16 * 113/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"113" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        f''16 * 121/64                                                         %! khamr.guitar_accelerandi
+        f''16 * 121/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"121" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf''!16 * 147/64                                                       %! khamr.guitar_accelerandi
+        bf''!16 * 147/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"147" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        af''!16 * 25/8                                                         %! khamr.guitar_accelerandi
+        af''!16 * 25/8                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"25" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a''16 * 145/32                                                         %! khamr.guitar_accelerandi
+        a''16 * 145/32                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"145" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''16 * 409/64                                                         %! khamr.guitar_accelerandi
+        d''16 * 409/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"409" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2925,29 +2925,29 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 37]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
-        d''16 * 477/64                                                         %! khamr.guitar_accelerandi
+        d''16 * 477/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"477" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        cs''!16 * 353/64                                                       %! khamr.guitar_accelerandi
+        cs''!16 * 353/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"353" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        c''16 * 97/32                                                          %! khamr.guitar_accelerandi
+        c''16 * 97/32                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"97" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf''!16 * 17/8                                                         %! khamr.guitar_accelerandi
+        bf''!16 * 17/8                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"17" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''16 * 15/8                                                           %! khamr.guitar_accelerandi
+        d''16 * 15/8                                                           %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"15" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2989,98 +2989,98 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 39]                                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
-        d''16 * 115/64                                                         %! khamr.guitar_accelerandi
+        d''16 * 115/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"115" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        fs''!16 * 121/64                                                       %! khamr.guitar_accelerandi
+        fs''!16 * 121/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"121" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        g''16 * 139/64                                                         %! khamr.guitar_accelerandi
+        g''16 * 139/64                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"139" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        af''!16 * 87/32                                                        %! khamr.guitar_accelerandi
+        af''!16 * 87/32                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"87" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        e''16 * 117/32                                                         %! khamr.guitar_accelerandi
+        e''16 * 117/32                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"117" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        f''16 * 81/16                                                          %! khamr.guitar_accelerandi
+        f''16 * 81/16                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"81" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf''!16 * 429/64                                                       %! khamr.guitar_accelerandi
+        bf''!16 * 429/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"429" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.guitar_accelerandi
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.guitar_accelerandi()
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Guitar_Music_Voice measure 40]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        bf''!2                                                                 %! khamr.guitar_accelerandi
-        \repeatTie                                                             %! khamr.guitar_accelerandi
+        bf''!2                                                                 %! khamr.guitar_accelerandi()
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
         % [_ Guitar_Music_Voice measure 41]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        c''8                                                                   %! khamr.guitar_isolata
+        c''8                                                                   %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        a''4                                                                   %! khamr.guitar_isolata
+        a''4                                                                   %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 42]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 43]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        d''8                                                                   %! khamr.guitar_isolata
+        d''8                                                                   %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
     % [_ Guitar_Music_Voice measure 44]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    r4.                                                                        %! khamr.guitar_isolata
+    r4.                                                                        %! khamr.guitar_isolata()
 
-    cs''!16                                                                    %! khamr.guitar_isolata
+    cs''!16                                                                    %! khamr.guitar_isolata()
     \revert NoteHead.style                                                     %! baca.note_head_style_cross():baca.OverrideCommand._call(2)
 
-    r16                                                                        %! khamr.guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
-    r2.                                                                        %! khamr.guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata()
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -3090,7 +3090,7 @@ i_Guitar_Music_Voice = {                                                       %
 
             % [_ Guitar_Music_Voice measure 45]                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c''1 * 1/4                                                         %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -3324,7 +3324,7 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Piano_Music_Voice measure 25]                                     %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():baca.staff_lines():baca.IndicatorCommand._call()
@@ -3339,43 +3339,43 @@ i_Piano_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef():baca.IndicatorCommand._call()
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        cs''''!16 * 247/32                                                     %! khamr.guitar_accelerandi
+        cs''''!16 * 247/32                                                     %! khamr.guitar_accelerandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-mf-ancora                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         ^ \markup { "match dynamic levels of guitar" }                         %! baca.markup():baca.IndicatorCommand._call()
     %@% ^ \baca-duration-multiplier-markup #"247" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        [                                                                      %! khamr.guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi()
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-        c''''16 * 459/64                                                       %! khamr.guitar_accelerandi
+        c''''16 * 459/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"459" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a'''16 * 187/32                                                        %! khamr.guitar_accelerandi
+        a'''16 * 187/32                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"187" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''''16 * 287/64                                                       %! khamr.guitar_accelerandi
+        d''''16 * 287/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"287" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        fs'''!16 * 223/64                                                      %! khamr.guitar_accelerandi
+        fs'''!16 * 223/64                                                      %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"223" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        g'''16 * 181/64                                                        %! khamr.guitar_accelerandi
+        g'''16 * 181/64                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"181" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf'''!16 * 153/64                                                      %! khamr.guitar_accelerandi
+        bf'''!16 * 153/64                                                      %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"153" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''''16 * 137/64                                                       %! khamr.guitar_accelerandi
+        d''''16 * 137/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"137" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        ef''''!16 * 2                                                          %! khamr.guitar_accelerandi
+        ef''''!16 * 2                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"2" #"1"                           %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        cs''''!16 * 31/16                                                      %! khamr.guitar_accelerandi
+        cs''''!16 * 31/16                                                      %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"31" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3417,38 +3417,38 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Piano_Music_Voice measure 28]                                     %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
-        cs''''!16 * 117/64                                                     %! khamr.guitar_accelerandi
+        cs''''!16 * 117/64                                                     %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"117" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        b'''16 * 121/64                                                        %! khamr.guitar_accelerandi
+        b'''16 * 121/64                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"121" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a'''16 * 135/64                                                        %! khamr.guitar_accelerandi
+        a'''16 * 135/64                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"135" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf'''!16 * 5/2                                                         %! khamr.guitar_accelerandi
+        bf'''!16 * 5/2                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"5" #"2"                           %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        af'''!16 * 201/64                                                      %! khamr.guitar_accelerandi
+        af'''!16 * 201/64                                                      %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"201" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        e''''16 * 33/8                                                         %! khamr.guitar_accelerandi
+        e''''16 * 33/8                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"33" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        f''''16 * 11/2                                                         %! khamr.guitar_accelerandi
+        f''''16 * 11/2                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"11" #"2"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''''16 * 221/32                                                       %! khamr.guitar_accelerandi
+        d''''16 * 221/32                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"221" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3490,50 +3490,50 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Piano_Music_Voice measure 30]                                     %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
-        d''''16 * 497/64                                                       %! khamr.guitar_accelerandi
+        d''''16 * 497/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"497" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        fs'''!16 * 59/8                                                        %! khamr.guitar_accelerandi
+        fs'''!16 * 59/8                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"59" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        g'''16 * 51/8                                                          %! khamr.guitar_accelerandi
+        g'''16 * 51/8                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"51" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf'''!16 * 333/64                                                      %! khamr.guitar_accelerandi
+        bf'''!16 * 333/64                                                      %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"333" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a'''16 * 67/16                                                         %! khamr.guitar_accelerandi
+        a'''16 * 67/16                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"67" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        ef''''!16 * 219/64                                                     %! khamr.guitar_accelerandi
+        ef''''!16 * 219/64                                                     %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"219" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        cs''''!16 * 185/64                                                     %! khamr.guitar_accelerandi
+        cs''''!16 * 185/64                                                     %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"185" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        b'''16 * 5/2                                                           %! khamr.guitar_accelerandi
+        b'''16 * 5/2                                                           %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"5" #"2"                           %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        f''''16 * 9/4                                                          %! khamr.guitar_accelerandi
+        f''''16 * 9/4                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"9" #"4"                           %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf'''!16 * 133/64                                                      %! khamr.guitar_accelerandi
+        bf'''!16 * 133/64                                                      %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"133" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        af'''!16 * 127/64                                                      %! khamr.guitar_accelerandi
+        af'''!16 * 127/64                                                      %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"127" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        e''''16 * 63/32                                                        %! khamr.guitar_accelerandi
+        e''''16 * 63/32                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"63" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3575,38 +3575,38 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Piano_Music_Voice measure 33]                                     %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
-        e''''16 * 117/64                                                       %! khamr.guitar_accelerandi
+        e''''16 * 117/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"117" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        d''''16 * 121/64                                                       %! khamr.guitar_accelerandi
+        d''''16 * 121/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"121" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        cs''''!16 * 135/64                                                     %! khamr.guitar_accelerandi
+        cs''''!16 * 135/64                                                     %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"135" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        c''''16 * 5/2                                                          %! khamr.guitar_accelerandi
+        c''''16 * 5/2                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"5" #"2"                           %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a'''16 * 201/64                                                        %! khamr.guitar_accelerandi
+        a'''16 * 201/64                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"201" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        b'''16 * 33/8                                                          %! khamr.guitar_accelerandi
+        b'''16 * 33/8                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"33" #"8"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a'''16 * 11/2                                                          %! khamr.guitar_accelerandi
+        a'''16 * 11/2                                                          %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"11" #"2"                          %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        ef''''!16 * 221/32                                                     %! khamr.guitar_accelerandi
+        ef''''!16 * 221/32                                                     %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"221" #"32"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3650,85 +3650,85 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [_ Piano_Music_Voice measure 35]                                     %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
-        ef''''!16 * 123/16                                                     %! khamr.guitar_accelerandi
+        ef''''!16 * 123/16                                                     %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"123" #"16"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        \repeatTie                                                             %! khamr.guitar_accelerandi
-        [                                                                      %! khamr.guitar_accelerandi
+        \repeatTie                                                             %! khamr.guitar_accelerandi()
+        [                                                                      %! khamr.guitar_accelerandi()
 
-        cs''''!16 * 449/64                                                     %! khamr.guitar_accelerandi
+        cs''''!16 * 449/64                                                     %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"449" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        e''''16 * 351/64                                                       %! khamr.guitar_accelerandi
+        e''''16 * 351/64                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"351" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        f''''16 * 65/16                                                        %! khamr.guitar_accelerandi
+        f''''16 * 65/16                                                        %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"65" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        bf'''!16 * 199/64                                                      %! khamr.guitar_accelerandi
+        bf'''!16 * 199/64                                                      %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"199" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        af'''!16 * 81/32                                                       %! khamr.guitar_accelerandi
+        af'''!16 * 81/32                                                       %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"81" #"32"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        a'''16 * 35/16                                                         %! khamr.guitar_accelerandi
+        a'''16 * 35/16                                                         %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"35" #"16"                         %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        d''''16 * 2                                                            %! khamr.guitar_accelerandi
+        d''''16 * 2                                                            %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"2" #"1"                           %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
-        cs''''!16 * 123/64                                                     %! khamr.guitar_accelerandi
+        cs''''!16 * 123/64                                                     %! khamr.guitar_accelerandi()
     %@% ^ \baca-duration-multiplier-markup #"123" #"64"                        %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-        ]                                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi()
 
-    }                                                                          %! khamr.guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi()
     \revert TupletNumber.text
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
         % [_ Piano_Music_Voice measure 37]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        c''''8                                                                 %! khamr.guitar_isolata
+        c''''8                                                                 %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
     % [_ Piano_Music_Voice measure 38]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        bf'''!4                                                                %! khamr.guitar_isolata
+        bf'''!4                                                                %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
     % [_ Piano_Music_Voice measure 39]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! khamr.guitar_isolata
+    r1                                                                         %! khamr.guitar_isolata()
 
-    \times 2/3 {                                                               %! khamr.guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata()
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-        d''''8                                                                 %! khamr.guitar_isolata
+        d''''8                                                                 %! khamr.guitar_isolata()
         \ottava 0                                                              %! baca.ottava():SpannerIndicatorCommand(2)
 
-        r8                                                                     %! khamr.guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata()
 
-    }                                                                          %! khamr.guitar_isolata
+    }                                                                          %! khamr.guitar_isolata()
 
-    r4                                                                         %! khamr.guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata()
 
     % [_ Piano_Music_Voice measure 40]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! khamr.guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata()
 
     % [_ Piano_Music_Voice measure 41]                                         %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():baca.staff_lines():baca.IndicatorCommand._call()
@@ -3799,7 +3799,7 @@ i_Piano_Music_Voice = {                                                        %
 
             % [_ Piano_Music_Voice measure 45]                                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -3949,25 +3949,25 @@ i_Percussion_Music_Voice = {                                                   %
     c'2.
     \repeatTie
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \clef "treble"                                                             %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):khamr.MarimbaHitCommand.__call__()
     af''!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    - \marcato                                                                 %! khamr.MarimbaHitCommand
-    ^ \markup {                                                                %! khamr.MarimbaHitCommand
-        \larger                                                                %! khamr.MarimbaHitCommand
-            \override                                                          %! khamr.MarimbaHitCommand
-                #'(box-padding . 0.75)                                         %! khamr.MarimbaHitCommand
-                \box                                                           %! khamr.MarimbaHitCommand
-                    "marimba + woodblock"                                      %! khamr.MarimbaHitCommand
-        }                                                                      %! khamr.MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    - \marcato                                                                 %! khamr.MarimbaHitCommand.__call__()
+    ^ \markup {                                                                %! khamr.MarimbaHitCommand.__call__()
+        \larger                                                                %! khamr.MarimbaHitCommand.__call__()
+            \override                                                          %! khamr.MarimbaHitCommand.__call__()
+                #'(box-padding . 0.75)                                         %! khamr.MarimbaHitCommand.__call__()
+                \box                                                           %! khamr.MarimbaHitCommand.__call__()
+                    "marimba + woodblock"                                      %! khamr.MarimbaHitCommand.__call__()
+        }                                                                      %! khamr.MarimbaHitCommand.__call__()
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [_ Percussion_Music_Voice measure 16]                                    %! baca.SegmentMaker._comment_measure_numbers()
@@ -3975,16 +3975,16 @@ i_Percussion_Music_Voice = {                                                   %
     \repeatTie
 
     % [_ Percussion_Music_Voice measure 17]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
     \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_17:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():baca.OverrideCommand._call(1)
     \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_17:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():baca.OverrideCommand._call(1)
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):khamr.MarimbaHitCommand.__call__()
     c'2.
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4061,31 +4061,31 @@ i_Percussion_Music_Voice = {                                                   %
     c'4
     \repeatTie
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \clef "treble"                                                             %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):khamr.MarimbaHitCommand
-    af''!1                                                                     %! khamr.fused_expanse
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):khamr.MarimbaHitCommand.__call__()
+    af''!1                                                                     %! khamr.fused_expanse()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    - \marcato                                                                 %! khamr.MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    - \marcato                                                                 %! khamr.MarimbaHitCommand.__call__()
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [_ Percussion_Music_Voice measure 33]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
     \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_33:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():baca.OverrideCommand._call(1)
     \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_33:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():baca.OverrideCommand._call(1)
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():khamr.MarimbaHitCommand.__call__()
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):khamr.MarimbaHitCommand.__call__()
     c'2.
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4124,7 +4124,7 @@ i_Percussion_Music_Voice = {                                                   %
     \repeatTie
 
     % [_ Percussion_Music_Voice measure 41]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    c'2                                                                        %! khamr.fused_expanse
+    c'2                                                                        %! khamr.fused_expanse()
     \repeatTie
 
     c'2.
@@ -4152,7 +4152,7 @@ i_Percussion_Music_Voice = {                                                   %
 
             % [_ Percussion_Music_Voice measure 45]                            %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -4205,7 +4205,7 @@ i_Violin_Music_Voice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    g'2                                                                        %! khamr.opening_glissandi
+    g'2                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -4224,64 +4224,64 @@ i_Violin_Music_Voice = {                                                       %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):baca.margin_markup():-PARTS:baca.IndicatorCommand._call()
 
     % [_ Violin_Music_Voice measure 2]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    g'2                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    g'2                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 3]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    g'1.                                                                       %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    g'1.                                                                       %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 3/4 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 3/4 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 4]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        g'2.                                                                   %! khamr.opening_glissandi
+        g'2.                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af'!4                                                                  %! khamr.opening_glissandi
+        af'!4                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 5]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    af'!2.                                                                     %! khamr.opening_glissandi
+    af'!2.                                                                     %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    gqs'!4                                                                     %! khamr.opening_glissandi
+    gqs'!4                                                                     %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
     % [_ Violin_Music_Voice measure 6]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    gqs'!2.                                                                    %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    gqs'!2.                                                                    %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 7]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        gqs'!1                                                                 %! khamr.opening_glissandi
+        gqs'!1                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        a'2                                                                    %! khamr.opening_glissandi
+        a'2                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 8]                                         %! baca.SegmentMaker._comment_measure_numbers()
     a'2.
@@ -4291,76 +4291,76 @@ i_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     % [_ Violin_Music_Voice measure 9]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! khamr.opening_glissandi
+    a'1                                                                        %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Violin_Music_Voice measure 10]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    a'2.                                                                       %! khamr.opening_glissandi
+    a'2.                                                                       %! khamr.opening_glissandi()
     \repeatTie
 
-    \times 4/7 {                                                               %! khamr.opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 11]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        a'1.                                                                   %! khamr.opening_glissandi
+        a'1.                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando()
 
-        bqf'!4                                                                 %! khamr.opening_glissandi
+        bqf'!4                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 5/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 5/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 12]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        bqf'!1.                                                                %! khamr.opening_glissandi
+        bqf'!1.                                                                %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        - \tweak direction #up                                                 %! khamr.opening_glissandi
-        \repeatTie                                                             %! khamr.opening_glissandi
+        - \tweak direction #up                                                 %! khamr.opening_glissandi()
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af'!4                                                                  %! khamr.opening_glissandi
+        af'!4                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 13]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    af'!2.                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    af'!2.                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 14]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        af'!2                                                                  %! khamr.opening_glissandi
+        af'!2                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        gqs'!8                                                                 %! khamr.opening_glissandi
+        gqs'!8                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 15]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    gqs'!1.                                                                    %! khamr.opening_glissandi
+    gqs'!1.                                                                    %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Violin_Music_Voice measure 16]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    gqs'!2                                                                     %! khamr.opening_glissandi
+    gqs'!2                                                                     %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Violin_Music_Voice measure 17]                                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -4370,190 +4370,190 @@ i_Violin_Music_Voice = {                                                       %
     gqs'!2
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 3/4 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 3/4 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 18]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        gqs'!2.                                                                %! khamr.opening_glissandi
+        gqs'!2.                                                                %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando()
 
-        a'4                                                                    %! khamr.opening_glissandi
+        a'4                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 19]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        a'1                                                                    %! khamr.opening_glissandi
+        a'1                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        g'2                                                                    %! khamr.opening_glissandi
+        g'2                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 20]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    g'1.                                                                       %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    g'1.                                                                       %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 21]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        g'2                                                                    %! khamr.opening_glissandi
+        g'2                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        a'4                                                                    %! khamr.opening_glissandi
+        a'4                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 22]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    a'2                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a'2                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 23]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    a'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a'2.                                                                       %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 24]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a'1                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 25]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        a'2                                                                    %! khamr.opening_glissandi
+        a'2                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        b'8                                                                    %! khamr.opening_glissandi
+        b'8                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 26]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        b'2                                                                    %! khamr.opening_glissandi
+        b'2                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aqs'!8                                                                 %! khamr.opening_glissandi
+        aqs'!8                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 27]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    aqs'!1.                                                                    %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    aqs'!1.                                                                    %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 28]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    aqs'!2.                                                                    %! khamr.opening_glissandi
+    aqs'!2.                                                                    %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    bf'!4                                                                      %! khamr.opening_glissandi
+    bf'!4                                                                      %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
     % [_ Violin_Music_Voice measure 29]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2.                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bf'!2.                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 30]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2.                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bf'!2.                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 31]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!1                                                                      %! khamr.opening_glissandi
-    - \tweak direction #up                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bf'!1                                                                      %! khamr.opening_glissandi()
+    - \tweak direction #up                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 5/9 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 5/9 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 32]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        bf'!1.                                                                 %! khamr.opening_glissandi
+        bf'!1.                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        - \tweak direction #up                                                 %! khamr.opening_glissandi
-        \repeatTie                                                             %! khamr.opening_glissandi
+        - \tweak direction #up                                                 %! khamr.opening_glissandi()
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        g'2.                                                                   %! khamr.opening_glissandi
+        g'2.                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 33]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    g'2                                                                        %! khamr.opening_glissandi
+    g'2                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    a'4                                                                        %! khamr.opening_glissandi
+    a'4                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
     % [_ Violin_Music_Voice measure 34]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a'1                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 4/7 {                                                               %! khamr.opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Violin_Music_Voice measure 35]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        a'1.                                                                   %! khamr.opening_glissandi
+        a'1.                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        b'4                                                                    %! khamr.opening_glissandi
+        b'4                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Violin_Music_Voice measure 36]                                        %! baca.SegmentMaker._comment_measure_numbers()
     b'2.
@@ -4567,198 +4567,198 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 37]                                        %! baca.SegmentMaker._comment_measure_numbers()
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    f'2                                                                        %! khamr.trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \markup { "molto flautando e pont." }                                    %! baca.markup():baca.IndicatorCommand._call()
     \startTrillSpan gf'                                                        %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        f'16                                                                   %! khamr.trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fs'!4                                                                  %! khamr.trill_tuplets
+        fs'!4                                                                  %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
     % [_ Violin_Music_Voice measure 38]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!2                                                                      %! khamr.trill_tuplets
+    fs'!2                                                                      %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
         % [_ Violin_Music_Voice measure 39]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        fs'!8                                                                  %! khamr.trill_tuplets
+        fs'!8                                                                  %! khamr.trill_tuplets()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fqs'!8.                                                                %! khamr.trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gqf'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    fqs'!2                                                                     %! khamr.trill_tuplets
+    fqs'!2                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        fqs'!8.                                                                %! khamr.trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        f'8                                                                    %! khamr.trill_tuplets
+        f'8                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gf'                                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    f'2                                                                        %! khamr.trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
         % [_ Violin_Music_Voice measure 40]                                    %! baca.SegmentMaker._comment_measure_numbers()
-        f'4                                                                    %! khamr.trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fqs'!16                                                                %! khamr.trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    fqs'!4                                                                     %! khamr.trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Violin_Music_Voice measure 41]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    fqs'!4                                                                     %! khamr.trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        fqs'!16                                                                %! khamr.trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        f'4                                                                    %! khamr.trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    f'4                                                                        %! khamr.trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    f'4                                                                        %! khamr.trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        f'16                                                                   %! khamr.trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        e'4                                                                    %! khamr.trill_tuplets
+        e'4                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
     % [_ Violin_Music_Voice measure 42]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    e'2                                                                        %! khamr.trill_tuplets
+    e'2                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        e'8                                                                    %! khamr.trill_tuplets
+        e'8                                                                    %! khamr.trill_tuplets()
         \repeatTie
-        [                                                                      %! khamr.trill_tuplets
+        [                                                                      %! khamr.trill_tuplets()
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        eqs'!8.                                                                %! khamr.trill_tuplets
+        eqs'!8.                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
-        ]                                                                      %! khamr.trill_tuplets
+        ]                                                                      %! khamr.trill_tuplets()
         \startTrillSpan fqs'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
     % [_ Violin_Music_Voice measure 43]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    eqs'!2                                                                     %! khamr.trill_tuplets
+    eqs'!2                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        eqs'!8.                                                                %! khamr.trill_tuplets
+        eqs'!8.                                                                %! khamr.trill_tuplets()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        e'8                                                                    %! khamr.trill_tuplets
+        e'8                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan f'                                                     %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    e'4                                                                        %! khamr.trill_tuplets
+    e'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Violin_Music_Voice measure 44]                                        %! baca.SegmentMaker._comment_measure_numbers()
-    e'4                                                                        %! khamr.trill_tuplets
+    e'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        e'4                                                                    %! khamr.trill_tuplets
+        e'4                                                                    %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        eqs'!16                                                                %! khamr.trill_tuplets
+        eqs'!16                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan fqs'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    eqs'!4                                                                     %! khamr.trill_tuplets
+    eqs'!4                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
-    eqs'!4                                                                     %! khamr.trill_tuplets
+    eqs'!4                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        eqs'!16                                                                %! khamr.trill_tuplets
+        eqs'!16                                                                %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        f'4                                                                    %! khamr.trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    f'4                                                                        %! khamr.trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -4768,7 +4768,7 @@ i_Violin_Music_Voice = {                                                       %
 
             % [_ Violin_Music_Voice measure 45]                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
             \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
 
@@ -4822,7 +4822,7 @@ i_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    g'4.                                                                       %! khamr.opening_glissandi
+    g'4.                                                                       %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -4839,143 +4839,143 @@ i_Viola_Music_Voice = {                                                        %
             Va.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):baca.margin_markup():-PARTS:baca.IndicatorCommand._call()
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):baca.margin_markup():-PARTS:baca.IndicatorCommand._call()
 
-    af'!8                                                                      %! khamr.opening_glissandi
+    af'!8                                                                      %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
     % [_ Viola_Music_Voice measure 2]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    af'!2                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    af'!2                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 3]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1.                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    af'!1.                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 4]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    af'!2.                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    af'!2.                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 5]                                      %! baca.SegmentMaker._comment_measure_numbers()
-        af'!1                                                                  %! khamr.opening_glissandi
+        af'!1                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        gqs'!2                                                                 %! khamr.opening_glissandi
+        gqs'!2                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 6]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    gqs'!2                                                                     %! khamr.opening_glissandi
+    gqs'!2                                                                     %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    a'4                                                                        %! khamr.opening_glissandi
+    a'4                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
     % [_ Viola_Music_Voice measure 7]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a'1                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 5/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 5/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 8]                                      %! baca.SegmentMaker._comment_measure_numbers()
-        a'1.                                                                   %! khamr.opening_glissandi
+        a'1.                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        bqf'!4                                                                 %! khamr.opening_glissandi
+        bqf'!4                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 9]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    bqf'!1                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bqf'!1                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 10]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bqf'!2.                                                                    %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bqf'!2.                                                                    %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 11]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bqf'!1                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bqf'!1                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 12]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bqf'!1                                                                     %! khamr.opening_glissandi
+    bqf'!1                                                                     %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    af'!4                                                                      %! khamr.opening_glissandi
+    af'!4                                                                      %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 3/4 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 3/4 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 13]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        af'!2.                                                                 %! khamr.opening_glissandi
+        af'!2.                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        gqs'!4                                                                 %! khamr.opening_glissandi
+        gqs'!4                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 14]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    gqs'!2                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    gqs'!2                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 3/4 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 3/4 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 15]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        gqs'!1.                                                                %! khamr.opening_glissandi
+        gqs'!1.                                                                %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        a'2                                                                    %! khamr.opening_glissandi
+        a'2                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 16]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    a'2                                                                        %! khamr.opening_glissandi
+    a'2                                                                        %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Viola_Music_Voice measure 17]                                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -4986,131 +4986,131 @@ i_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     % [_ Viola_Music_Voice measure 18]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    a'2.                                                                       %! khamr.opening_glissandi
+    a'2.                                                                       %! khamr.opening_glissandi()
     \repeatTie
 
-    \times 4/7 {                                                               %! khamr.opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 19]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        a'1.                                                                   %! khamr.opening_glissandi
+        a'1.                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando()
 
-        g'4                                                                    %! khamr.opening_glissandi
+        g'4                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 6/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 6/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 20]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        g'1.                                                                   %! khamr.opening_glissandi
+        g'1.                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        a'4                                                                    %! khamr.opening_glissandi
+        a'4                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 21]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    a'2                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a'2                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 22]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        a'2                                                                    %! khamr.opening_glissandi
+        a'2                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        b'8                                                                    %! khamr.opening_glissandi
+        b'8                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 23]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b'2.                                                                       %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 24]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b'1                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b'1                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 25]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b'2                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b'2                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 26]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b'4.                                                                       %! khamr.opening_glissandi
+    b'4.                                                                       %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    aqs'!8                                                                     %! khamr.opening_glissandi
+    aqs'!8                                                                     %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 3/4 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 3/4 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 27]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        aqs'!1.                                                                %! khamr.opening_glissandi
+        aqs'!1.                                                                %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        bf'!2                                                                  %! khamr.opening_glissandi
+        bf'!2                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 28]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!1                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bf'!1                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 29]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2                                                                      %! khamr.opening_glissandi
+    bf'!2                                                                      %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    g'4                                                                        %! khamr.opening_glissandi
+    g'4                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
     % [_ Viola_Music_Voice measure 30]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    g'2.                                                                       %! khamr.opening_glissandi
+    g'2.                                                                       %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Viola_Music_Voice measure 31]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    g'1                                                                        %! khamr.opening_glissandi
+    g'1                                                                        %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Viola_Music_Voice measure 32]                                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -5120,204 +5120,204 @@ i_Viola_Music_Voice = {                                                        %
     g'2
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 6/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 6/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 33]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        g'2.                                                                   %! khamr.opening_glissandi
+        g'2.                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando()
 
-        a'8                                                                    %! khamr.opening_glissandi
+        a'8                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Viola_Music_Voice measure 34]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        a'1                                                                    %! khamr.opening_glissandi
+        a'1                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        b'4                                                                    %! khamr.opening_glissandi
+        b'4                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 35]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b'1                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b'1                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Viola_Music_Voice measure 36]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b'1                                                                        %! khamr.opening_glissandi
+    b'1                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    aqs'!4                                                                     %! khamr.opening_glissandi
+    aqs'!4                                                                     %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REDUNDANT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
     % [_ Viola_Music_Voice measure 37]                                         %! baca.SegmentMaker._comment_measure_numbers()
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    f'2.                                                                       %! khamr.trill_tuplets
+    f'2.                                                                       %! khamr.trill_tuplets()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \markup { "molto flautando e pont." }                                    %! baca.markup():baca.IndicatorCommand._call()
     \startTrillSpan gf'                                                        %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
         % [_ Viola_Music_Voice measure 38]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        f'16                                                                   %! khamr.trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fs'!4                                                                  %! khamr.trill_tuplets
+        fs'!4                                                                  %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    fs'!4                                                                      %! khamr.trill_tuplets
+    fs'!4                                                                      %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Viola_Music_Voice measure 39]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!2                                                                      %! khamr.trill_tuplets
+    fs'!2                                                                      %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        fs'!8                                                                  %! khamr.trill_tuplets
+        fs'!8                                                                  %! khamr.trill_tuplets()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fqs'!8.                                                                %! khamr.trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gqf'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    fqs'!2.                                                                    %! khamr.trill_tuplets
+    fqs'!2.                                                                    %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
         % [_ Viola_Music_Voice measure 40]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        fqs'!8.                                                                %! khamr.trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        f'8                                                                    %! khamr.trill_tuplets
+        f'8                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan gf'                                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    f'4                                                                        %! khamr.trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Viola_Music_Voice measure 41]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    f'2                                                                        %! khamr.trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        f'4                                                                    %! khamr.trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fqs'!16                                                                %! khamr.trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    fqs'!2                                                                     %! khamr.trill_tuplets
+    fqs'!2                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Viola_Music_Voice measure 42]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    fqs'!4                                                                     %! khamr.trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        fqs'!16                                                                %! khamr.trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        f'4                                                                    %! khamr.trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    f'4                                                                        %! khamr.trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Viola_Music_Voice measure 43]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    f'2                                                                        %! khamr.trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        f'16                                                                   %! khamr.trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        e'4                                                                    %! khamr.trill_tuplets
+        e'4                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    e'4                                                                        %! khamr.trill_tuplets
+    e'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Viola_Music_Voice measure 44]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    e'2                                                                        %! khamr.trill_tuplets
+    e'2                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        e'8                                                                    %! khamr.trill_tuplets
+        e'8                                                                    %! khamr.trill_tuplets()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        eqs'!8.                                                                %! khamr.trill_tuplets
+        eqs'!8.                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \startTrillSpan fqs'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    eqs'!2.                                                                    %! khamr.trill_tuplets
+    eqs'!2.                                                                    %! khamr.trill_tuplets()
     \repeatTie
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -5327,7 +5327,7 @@ i_Viola_Music_Voice = {                                                        %
 
             % [_ Viola_Music_Voice measure 45]                                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
             \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
 
@@ -5381,7 +5381,7 @@ i_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    g2                                                                         %! khamr.opening_glissandi
+    g2                                                                         %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -5399,69 +5399,69 @@ i_Cello_Music_Voice = {                                                        %
             Vc.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):baca.margin_markup():-PARTS:baca.IndicatorCommand._call()
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):baca.margin_markup():-PARTS:baca.IndicatorCommand._call()
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 2]                                      %! baca.SegmentMaker._comment_measure_numbers()
-        g2                                                                     %! khamr.opening_glissandi
+        g2                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        af!4                                                                   %! khamr.opening_glissandi
+        af!4                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 3]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    af!1.                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    af!1.                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 4]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    af!2.                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    af!2.                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 5]                                          %! baca.SegmentMaker._comment_measure_numbers()
-    af!1                                                                       %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    af!1                                                                       %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 6/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 6/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 6]                                      %! baca.SegmentMaker._comment_measure_numbers()
-        af!2.                                                                  %! khamr.opening_glissandi
+        af!2.                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        gqs!8                                                                  %! khamr.opening_glissandi
+        gqs!8                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 7]                                      %! baca.SegmentMaker._comment_measure_numbers()
-        gqs!1                                                                  %! khamr.opening_glissandi
+        gqs!1                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        a4                                                                     %! khamr.opening_glissandi
+        a4                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 8]                                          %! baca.SegmentMaker._comment_measure_numbers()
     a2.
@@ -5470,29 +5470,29 @@ i_Cello_Music_Voice = {                                                        %
     a2
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 9]                                      %! baca.SegmentMaker._comment_measure_numbers()
-        a1                                                                     %! khamr.opening_glissandi
+        a1                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando()
 
-        bqf!4                                                                  %! khamr.opening_glissandi
+        bqf!4                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 10]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bqf!2.                                                                     %! khamr.opening_glissandi
+    bqf!2.                                                                     %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 11]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bqf!1                                                                      %! khamr.opening_glissandi
+    bqf!1                                                                      %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 12]                                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -5503,55 +5503,55 @@ i_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [_ Cello_Music_Voice measure 13]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bqf!2                                                                      %! khamr.opening_glissandi
+    bqf!2                                                                      %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca.glissando()
 
-    af!4                                                                       %! khamr.opening_glissandi
+    af!4                                                                       %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 14]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        af!2                                                                   %! khamr.opening_glissandi
+        af!2                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        gqs!4                                                                  %! khamr.opening_glissandi
+        gqs!4                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 15]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    gqs!1.                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    gqs!1.                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 4/7 {                                                               %! khamr.opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 16]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        gqs!2.                                                                 %! khamr.opening_glissandi
+        gqs!2.                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        a8                                                                     %! khamr.opening_glissandi
+        a8                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 17]                                         %! baca.SegmentMaker._comment_measure_numbers()
     a2.
@@ -5561,135 +5561,135 @@ i_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [_ Cello_Music_Voice measure 18]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    a2.                                                                        %! khamr.opening_glissandi
+    a2.                                                                        %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 19]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    a1                                                                         %! khamr.opening_glissandi
+    a1                                                                         %! khamr.opening_glissandi()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 20]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        a1.                                                                    %! khamr.opening_glissandi
+        a1.                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando()
 
-        g4.                                                                    %! khamr.opening_glissandi
+        g4.                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 21]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        g2                                                                     %! khamr.opening_glissandi
+        g2                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        a8                                                                     %! khamr.opening_glissandi
+        a8                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 22]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    a2                                                                         %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a2                                                                         %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 3/4 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 3/4 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 23]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        a2.                                                                    %! khamr.opening_glissandi
+        a2.                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        b4                                                                     %! khamr.opening_glissandi
+        b4                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 24]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b1                                                                         %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 25]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b2                                                                         %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 26]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b2                                                                         %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 27]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! khamr.opening_glissandi
+    b1                                                                         %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    aqs!2                                                                      %! khamr.opening_glissandi
+    aqs!2                                                                      %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    \times 4/7 {                                                               %! khamr.opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 28]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        aqs!1.                                                                 %! khamr.opening_glissandi
+        aqs!1.                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        bf!4                                                                   %! khamr.opening_glissandi
+        bf!4                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 29]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    bf!2.                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bf!2.                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 6/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 6/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Cello_Music_Voice measure 30]                                     %! baca.SegmentMaker._comment_measure_numbers()
-        bf!2.                                                                  %! khamr.opening_glissandi
+        bf!2.                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        g8                                                                     %! khamr.opening_glissandi
+        g8                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Cello_Music_Voice measure 31]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    g1                                                                         %! khamr.opening_glissandi
+    g1                                                                         %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 32]                                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -5700,30 +5700,30 @@ i_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [_ Cello_Music_Voice measure 33]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    g2.                                                                        %! khamr.opening_glissandi
+    g2.                                                                        %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 34]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    g2.                                                                        %! khamr.opening_glissandi
+    g2.                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca.glissando()
 
-    a4                                                                         %! khamr.opening_glissandi
+    a4                                                                         %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
     % [_ Cello_Music_Voice measure 35]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    a2.                                                                        %! khamr.opening_glissandi
+    a2.                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    b4                                                                         %! khamr.opening_glissandi
+    b4                                                                         %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5741,7 +5741,7 @@ i_Cello_Music_Voice = {                                                        %
 
     % [_ Cello_Music_Voice measure 37]                                         %! baca.SegmentMaker._comment_measure_numbers()
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    f'2.                                                                       %! khamr.trill_tuplets
+    f'2.                                                                       %! khamr.trill_tuplets()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
@@ -5749,125 +5749,125 @@ i_Cello_Music_Voice = {                                                        %
     \startTrillSpan gf'                                                        %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
     % [_ Cello_Music_Voice measure 38]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    f'4                                                                        %! khamr.trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        f'16                                                                   %! khamr.trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fs'!4                                                                  %! khamr.trill_tuplets
+        fs'!4                                                                  %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
     % [_ Cello_Music_Voice measure 39]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1                                                                      %! khamr.trill_tuplets
+    fs'!1                                                                      %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        fs'!8                                                                  %! khamr.trill_tuplets
+        fs'!8                                                                  %! khamr.trill_tuplets()
         \repeatTie
-        [                                                                      %! khamr.trill_tuplets
+        [                                                                      %! khamr.trill_tuplets()
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fqs'!8.                                                                %! khamr.trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
-        ]                                                                      %! khamr.trill_tuplets
+        ]                                                                      %! khamr.trill_tuplets()
         \startTrillSpan gqf'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    fqs'!4                                                                     %! khamr.trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 40]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    fqs'!2                                                                     %! khamr.trill_tuplets
+    fqs'!2                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 41]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    fqs'!4                                                                     %! khamr.trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        fqs'!8.                                                                %! khamr.trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets()
         \repeatTie
-        [                                                                      %! khamr.trill_tuplets
+        [                                                                      %! khamr.trill_tuplets()
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        f'8                                                                    %! khamr.trill_tuplets
+        f'8                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
-        ]                                                                      %! khamr.trill_tuplets
+        ]                                                                      %! khamr.trill_tuplets()
         \startTrillSpan gf'                                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    f'2.                                                                       %! khamr.trill_tuplets
+    f'2.                                                                       %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 42]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    f'4                                                                        %! khamr.trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        f'4                                                                    %! khamr.trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        fqs'!16                                                                %! khamr.trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    fqs'!4                                                                     %! khamr.trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets()
     \repeatTie
 
     % [_ Cello_Music_Voice measure 43]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    fqs'!2.                                                                    %! khamr.trill_tuplets
+    fqs'!2.                                                                    %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        fqs'!16                                                                %! khamr.trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        f'4                                                                    %! khamr.trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
     % [_ Cello_Music_Voice measure 44]                                         %! baca.SegmentMaker._comment_measure_numbers()
-    f'1                                                                        %! khamr.trill_tuplets
+    f'1                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
-    \times 4/5 {                                                               %! khamr.trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets()
 
-        f'16                                                                   %! khamr.trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets()
         \repeatTie
 
         \pitchedTrill                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        e'4                                                                    %! khamr.trill_tuplets
+        e'4                                                                    %! khamr.trill_tuplets()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         \stopTrillSpan                                                         %! SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca.trill_spanner():SpannerIndicatorCommand(1)
 
-    }                                                                          %! khamr.trill_tuplets
+    }                                                                          %! khamr.trill_tuplets()
 
-    e'4                                                                        %! khamr.trill_tuplets
+    e'4                                                                        %! khamr.trill_tuplets()
     \repeatTie
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -5877,7 +5877,7 @@ i_Cello_Music_Voice = {                                                        %
 
             % [_ Cello_Music_Voice measure 45]                                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
             \stopTrillSpan                                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:baca.trill_spanner():SpannerIndicatorCommand(2)
 
@@ -5931,7 +5931,7 @@ i_Contrabass_Music_Voice = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    a2                                                                         %! khamr.opening_glissandi
+    a2                                                                         %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-default-indicator-markup "(“Contrabass”)"                          %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -5948,49 +5948,49 @@ i_Contrabass_Music_Voice = {                                                   %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):baca.margin_markup():-PARTS:baca.IndicatorCommand._call()
 
     % [_ Contrabass_Music_Voice measure 2]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    a2                                                                         %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a2                                                                         %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 6/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 6/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
-        a1.                                                                    %! khamr.opening_glissandi
-        \repeatTie                                                             %! khamr.opening_glissandi
+        a1.                                                                    %! khamr.opening_glissandi()
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        bf!4                                                                   %! khamr.opening_glissandi
+        bf!4                                                                   %! khamr.opening_glissandi()
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
-        bf!2.                                                                  %! khamr.opening_glissandi
-        \repeatTie                                                             %! khamr.opening_glissandi
+        bf!2.                                                                  %! khamr.opening_glissandi()
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        aqs!8.                                                                 %! khamr.opening_glissandi
+        aqs!8.                                                                 %! khamr.opening_glissandi()
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 5]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    aqs!1                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    aqs!1                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 6]                                 %! baca.SegmentMaker._comment_measure_numbers()
-        aqs!2.                                                                 %! khamr.opening_glissandi
-        \repeatTie                                                             %! khamr.opening_glissandi
+        aqs!2.                                                                 %! khamr.opening_glissandi()
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        b8.                                                                    %! khamr.opening_glissandi
+        b8.                                                                    %! khamr.opening_glissandi()
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 7]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! khamr.opening_glissandi
+    b1                                                                         %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 8]                                     %! baca.SegmentMaker._comment_measure_numbers()
@@ -6001,36 +6001,36 @@ i_Contrabass_Music_Voice = {                                                   %
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 9]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! khamr.opening_glissandi
+    b1                                                                         %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 10]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    b2                                                                         %! khamr.opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi()
     \repeatTie
     \glissando                                                                 %! baca.glissando()
 
-    cqs'!4                                                                     %! khamr.opening_glissandi
+    cqs'!4                                                                     %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 11]                                %! baca.SegmentMaker._comment_measure_numbers()
-        cqs'!1                                                                 %! khamr.opening_glissandi
+        cqs'!1                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        bf!2                                                                   %! khamr.opening_glissandi
+        bf!2                                                                   %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 12]                                    %! baca.SegmentMaker._comment_measure_numbers()
     bf!2.
@@ -6039,222 +6039,222 @@ i_Contrabass_Music_Voice = {                                                   %
     bf!2
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 6/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 6/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 13]                                %! baca.SegmentMaker._comment_measure_numbers()
-        bf!2.                                                                  %! khamr.opening_glissandi
+        bf!2.                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando()
 
-        aqs!8                                                                  %! khamr.opening_glissandi
+        aqs!8                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 14]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    aqs!2                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    aqs!2                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 15]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    aqs!1.                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    aqs!1.                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 16]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    aqs!2                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    aqs!2                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 17]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    aqs!1                                                                      %! khamr.opening_glissandi
+    aqs!1                                                                      %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    b4                                                                         %! khamr.opening_glissandi
+    b4                                                                         %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    \times 4/5 {                                                               %! khamr.opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 18]                                %! baca.SegmentMaker._comment_measure_numbers()
-        b2.                                                                    %! khamr.opening_glissandi
+        b2.                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        a8.                                                                    %! khamr.opening_glissandi
+        a8.                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 19]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    a1                                                                         %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    a1                                                                         %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 3/4 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 3/4 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 20]                                %! baca.SegmentMaker._comment_measure_numbers()
-        a1.                                                                    %! khamr.opening_glissandi
+        a1.                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        b2                                                                     %! khamr.opening_glissandi
+        b2                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 21]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    b2                                                                         %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 22]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    b2                                                                         %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 23]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    b2.                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b2.                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 24]                                %! baca.SegmentMaker._comment_measure_numbers()
-        b1                                                                     %! khamr.opening_glissandi
+        b1                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        cs'!2                                                                  %! khamr.opening_glissandi
+        cs'!2                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \times 4/7 {                                                               %! khamr.opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 25]                                %! baca.SegmentMaker._comment_measure_numbers()
-        cs'!2.                                                                 %! khamr.opening_glissandi
+        cs'!2.                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        bqs!8                                                                  %! khamr.opening_glissandi
+        bqs!8                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 26]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    bqs!2                                                                      %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    bqs!2                                                                      %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 6/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 6/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 27]                                %! baca.SegmentMaker._comment_measure_numbers()
-        bqs!1.                                                                 %! khamr.opening_glissandi
+        bqs!1.                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        c'4                                                                    %! khamr.opening_glissandi
+        c'4                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 28]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    c'1                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    c'1                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 29]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    c'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    c'2.                                                                       %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 30]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    c'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    c'2.                                                                       %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 31]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    c'2.                                                                       %! khamr.opening_glissandi
+    c'2.                                                                       %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    a4                                                                         %! khamr.opening_glissandi
+    a4                                                                         %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 5/4 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 5/4 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 32]                                %! baca.SegmentMaker._comment_measure_numbers()
-        a2.                                                                    %! khamr.opening_glissandi
+        a2.                                                                    %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        b4                                                                     %! khamr.opening_glissandi
+        b4                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 33]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    b2.                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    b2.                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
-    \times 2/3 {                                                               %! khamr.opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 34]                                %! baca.SegmentMaker._comment_measure_numbers()
-        b1                                                                     %! khamr.opening_glissandi
+        b1                                                                     %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        cs'!2                                                                  %! khamr.opening_glissandi
+        cs'!2                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 35]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!1                                                                      %! khamr.opening_glissandi
+    cs'!1                                                                      %! khamr.opening_glissandi()
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 36]                                    %! baca.SegmentMaker._comment_measure_numbers()
@@ -6265,74 +6265,74 @@ i_Contrabass_Music_Voice = {                                                   %
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 37]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!2.                                                                     %! khamr.opening_glissandi
+    cs'!2.                                                                     %! khamr.opening_glissandi()
     \repeatTie
 
-    \times 4/7 {                                                               %! khamr.opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 38]                                %! baca.SegmentMaker._comment_measure_numbers()
-        cs'!2.                                                                 %! khamr.opening_glissandi
+        cs'!2.                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca.glissando()
 
-        bqs!8                                                                  %! khamr.opening_glissandi
+        bqs!8                                                                  %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
-    \times 6/7 {                                                               %! khamr.opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi()
+    \times 6/7 {                                                               %! khamr.opening_glissandi()
 
         % [_ Contrabass_Music_Voice measure 39]                                %! baca.SegmentMaker._comment_measure_numbers()
-        bqs!1.                                                                 %! khamr.opening_glissandi
+        bqs!1.                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-        \repeatTie                                                             %! khamr.opening_glissandi
+        \repeatTie                                                             %! khamr.opening_glissandi()
         \glissando                                                             %! baca.glissando()
 
-        dqf'!4                                                                 %! khamr.opening_glissandi
+        dqf'!4                                                                 %! khamr.opening_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
-    }                                                                          %! khamr.opening_glissandi
+    }                                                                          %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 40]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    dqf'!2                                                                     %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    dqf'!2                                                                     %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 41]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    dqf'!1                                                                     %! khamr.opening_glissandi
+    dqf'!1                                                                     %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \glissando                                                                 %! baca.glissando()
 
-    c'4                                                                        %! khamr.opening_glissandi
+    c'4                                                                        %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
 
     % [_ Contrabass_Music_Voice measure 42]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    c'2.                                                                       %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    c'2.                                                                       %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 43]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    c'1                                                                        %! khamr.opening_glissandi
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    c'1                                                                        %! khamr.opening_glissandi()
+    \repeatTie                                                                 %! khamr.opening_glissandi()
 
     % [_ Contrabass_Music_Voice measure 44]                                    %! baca.SegmentMaker._comment_measure_numbers()
-    c'1.                                                                       %! khamr.opening_glissandi
+    c'1.                                                                       %! khamr.opening_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
-    \repeatTie                                                                 %! khamr.opening_glissandi
+    \repeatTie                                                                 %! khamr.opening_glissandi()
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -6342,7 +6342,7 @@ i_Contrabass_Music_Voice = {                                                   %
 
             % [_ Contrabass_Music_Voice measure 45]                            %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c''1 * 1/4                                                         %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
