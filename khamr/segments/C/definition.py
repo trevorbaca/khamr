@@ -230,3 +230,14 @@ maker(
     (["vn", "va", "vc", "cb"], (8, 15)),
     baca.hairpin("p > ppp"),
 )
+
+maker(
+    ("cb", -1),
+    baca.chunk(
+        baca.mark(r"\khamr-colophon-markup"),
+        baca.rehearsal_mark_down(),
+        baca.rehearsal_mark_padding(6),
+        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        selector=baca.leaves().rleak()[-1],
+    ),
+)

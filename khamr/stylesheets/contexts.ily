@@ -58,15 +58,6 @@
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 
-        \override RehearsalMark.X-extent = #'(0 . 0)
-        \override RehearsalMark.Y-extent = #'(0 . 0)
-        \override RehearsalMark.break-align-symbols = #'(time-signature)
-        \override RehearsalMark.break-visibility = #end-of-line-invisible
-        \override RehearsalMark.font-name = "Didot"
-        \override RehearsalMark.font-size = 10
-        \override RehearsalMark.outside-staff-priority = 200
-        \override RehearsalMark.self-alignment-X = #center
-
         % prevents StaffSymbol from starting too early after cut-away measures:
         %\override TimeSignature.X-extent = #'(0 . 0)
         \override TimeSignature.X-extent = ##f
@@ -149,7 +140,6 @@
         \accepts GlobalContext
         \accepts MusicContext
         \remove Bar_number_engraver
-        \remove Mark_engraver
         \remove System_start_delimiter_engraver
 
         \override BarLine.hair-thickness = 0.5
