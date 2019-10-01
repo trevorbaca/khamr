@@ -5914,7 +5914,7 @@ B_Piano_Music_Voice = {                                                        %
             #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Pf.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \ottava 1                                                                  %! baca.ottava():SpannerIndicatorCommand(1)
+    \ottava 1                                                                  %! baca.ottava():baca.SpannerIndicatorCommand._call(1)
     \clef "treble"                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
@@ -6319,7 +6319,7 @@ B_Piano_Music_Voice = {                                                        %
 
         e''''8                                                                 %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        \ottava 0                                                              %! baca.ottava():SpannerIndicatorCommand(2)
+        \ottava 0                                                              %! baca.ottava():baca.SpannerIndicatorCommand._call(2)
 
     }                                                                          %! khamr.current()
 
@@ -9043,13 +9043,13 @@ B_Contrabass_Music_Voice = {                                                   %
     r1                                                                         %! baca.make_repeat_tied_notes()
 
     % [B Contrabass_Music_Voice measure 106 / measure 32]                      %! baca.SegmentMaker._comment_measure_numbers()
-    \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
     g,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" }    %! baca.markup():baca.IndicatorCommand._call()
-    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #})) %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan f                                                          %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #})) %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan f                                                          %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     g,,2
     \repeatTie
@@ -9075,7 +9075,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 111 / measure 37]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2.                                                                        %! baca.make_repeat_tied_notes()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
