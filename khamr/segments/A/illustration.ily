@@ -3802,7 +3802,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 47 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
         <g, a>1.
         \repeatTie                                                             %! khamr.opening_glissandi()
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
         <af,! bf!>4
 
@@ -3813,7 +3813,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 48 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
         <af,! bf!>2.
         \repeatTie                                                             %! khamr.opening_glissandi()
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
         <gqs,! aqs!>8.
 
@@ -3828,7 +3828,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 50 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         <gqs,! aqs!>2.
         \repeatTie                                                             %! khamr.opening_glissandi()
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
         <a, b>8.
 
@@ -3852,7 +3852,7 @@ A_Contrabass_Music_Voice = {                                                   %
     % [A Contrabass_Music_Voice measure 54 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
     <a, b>2
     \repeatTie
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     <bqf,! cqs'!>4
 
@@ -3861,7 +3861,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 55 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         <bqf,! cqs'!>1
         \repeatTie                                                             %! khamr.opening_glissandi()
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
         <af,! bf!>2
 
@@ -3880,7 +3880,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 57 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         <af,! bf!>2.
         \repeatTie
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
         <gqs,! aqs!>8
         \revert NoteHead.style                                                 %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
