@@ -429,7 +429,10 @@ maker(
     ("cb", (32, 37)),
     baca.dynamic("mp"),
     baca.pitch("G0"),
-    baca.trill_spanner("F3", harmonic=True),
+    baca.trill_spanner(
+        alteration="F3",
+        harmonic=True,
+    ),
     baca.markup(
         khamr.markup.scodanibbio(),
     ),
