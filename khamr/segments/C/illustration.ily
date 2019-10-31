@@ -449,6 +449,8 @@ C_Flute_Music_Voice = {                                                        %
     \pp                                                                        %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Flute”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -459,105 +461,143 @@ C_Flute_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [C Flute_Music_Voice measure 113 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2
+    bf'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 114 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2.
+    bf'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    bf'!2
+    bf'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    bf'!8.
+    bf'8.
     \repeatTie
 
     r16                                                                        %! khamr.fused_wind()
 
     % [C Flute_Music_Voice measure 115 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
     bf'!2.
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 116 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!1
+    bf'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 117 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!4
+    bf'4
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    bf'!16                                                                     %! khamr.fused_wind()
+    bf'16                                                                      %! khamr.fused_wind()
     \repeatTie
 
     r16                                                                        %! khamr.fused_wind()
 
     bf'!4.
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 118 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!1
+    bf'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 119 / measure 8]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2
+    bf'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    bf'!8.
+    bf'8.
     \repeatTie
 
     r16                                                                        %! khamr.fused_wind()
 
     bf'!2
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 120 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!1
+    bf'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 121 / measure 10]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!4..
+    bf'4..
     \repeatTie
 
     r16                                                                        %! khamr.fused_wind()
 
     bf'!4
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 122 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!1
+    bf'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 123 / measure 12]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2
+    bf'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    bf'!8.
+    bf'8.
     \repeatTie
 
     r16                                                                        %! khamr.fused_wind()
 
     bf'!2
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 124 / measure 13]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2.
+    bf'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 125 / measure 14]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2
+    bf'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Flute_Music_Voice measure 126 / measure 15]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf'!2
+    bf'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    bf'!8.
+    bf'8.
     \repeatTie
 
     r16                                                                        %! khamr.fused_wind()
 
     bf'!2                                                                      %! khamr.fused_wind()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    bf'!8.                                                                     %! khamr.fused_wind()
+    bf'8.                                                                      %! khamr.fused_wind()
     \repeatTie
 
     r16                                                                        %! khamr.fused_wind()
@@ -675,6 +715,8 @@ C_Oboe_Music_Voice = {                                                         %
     \pp                                                                        %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
     ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                          %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Oboe”)"                              %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -687,11 +729,15 @@ C_Oboe_Music_Voice = {                                                         %
     % [C Oboe_Music_Voice measure 113 / measure 2]                             %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 114 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
     c'1.
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 115 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
     c'4..
@@ -700,19 +746,27 @@ C_Oboe_Music_Voice = {                                                         %
     r16                                                                        %! khamr.fused_wind()
 
     c'4
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 116 / measure 5]                             %! baca.SegmentMaker._comment_measure_numbers()
     c'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 117 / measure 6]                             %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 118 / measure 7]                             %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! khamr.fused_wind()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'8.                                                                       %! khamr.fused_wind()
     \repeatTie
@@ -720,13 +774,19 @@ C_Oboe_Music_Voice = {                                                         %
     r16                                                                        %! khamr.fused_wind()
 
     c'4
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 119 / measure 8]                             %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 120 / measure 9]                             %! baca.SegmentMaker._comment_measure_numbers()
     c'2...
@@ -736,15 +796,21 @@ C_Oboe_Music_Voice = {                                                         %
 
     % [C Oboe_Music_Voice measure 121 / measure 10]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 122 / measure 11]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 123 / measure 12]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'8.
     \repeatTie
@@ -752,21 +818,31 @@ C_Oboe_Music_Voice = {                                                         %
     r16                                                                        %! khamr.fused_wind()
 
     c'2
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 124 / measure 13]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 125 / measure 14]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Oboe_Music_Voice measure 126 / measure 15]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'8.                                                                       %! khamr.fused_wind()
     \repeatTie
@@ -885,6 +961,8 @@ C_Clarinet_Music_Voice = {                                                     %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -897,60 +975,90 @@ C_Clarinet_Music_Voice = {                                                     %
     % [C Clarinet_Music_Voice measure 113 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     a2                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 114 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     a1.                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 115 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
     a2.                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 116 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
     a1                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 117 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
     a2.                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 118 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
     a1                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 119 / measure 8]                         %! baca.SegmentMaker._comment_measure_numbers()
     a2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     a2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 120 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
     a1                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 121 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
     a2.                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 122 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
     a1                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 123 / measure 12]                        %! baca.SegmentMaker._comment_measure_numbers()
     a2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     a2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 124 / measure 13]                        %! baca.SegmentMaker._comment_measure_numbers()
     a2.                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 125 / measure 14]                        %! baca.SegmentMaker._comment_measure_numbers()
     a2                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Clarinet_Music_Voice measure 126 / measure 15]                        %! baca.SegmentMaker._comment_measure_numbers()
     a1.                                                                        %! baca.make_repeat_tied_notes()
@@ -1068,6 +1176,8 @@ C_Saxophone_Music_Voice = {                                                    %
     \pp                                                                        %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
     ^ \baca-reapplied-indicator-markup "[“Bar. sax.”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“SopraninoSaxophone”)"                %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -1080,15 +1190,21 @@ C_Saxophone_Music_Voice = {                                                    %
     % [C Saxophone_Music_Voice measure 113 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 114 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'1.
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 115 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 116 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'8.
@@ -1097,19 +1213,27 @@ C_Saxophone_Music_Voice = {                                                    %
     r16                                                                        %! khamr.fused_wind()
 
     c'2.
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 117 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 118 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 119 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'8.                                                                       %! khamr.fused_wind()
     \repeatTie
@@ -1117,19 +1241,27 @@ C_Saxophone_Music_Voice = {                                                    %
     r16                                                                        %! khamr.fused_wind()
 
     c'2
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 120 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 121 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 122 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'8.
     \repeatTie
@@ -1137,25 +1269,37 @@ C_Saxophone_Music_Voice = {                                                    %
     r16                                                                        %! khamr.fused_wind()
 
     c'4
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 123 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 124 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 125 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Saxophone_Music_Voice measure 126 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'8.
     \repeatTie
@@ -1163,6 +1307,8 @@ C_Saxophone_Music_Voice = {                                                    %
     r16                                                                        %! khamr.fused_wind()
 
     c'2                                                                        %! khamr.fused_wind()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'8.                                                                       %! khamr.fused_wind()
     \repeatTie
@@ -1323,6 +1469,8 @@ C_Guitar_Music_Voice = {                                                       %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c''2
     \repeatTie
@@ -1362,14 +1510,20 @@ C_Guitar_Music_Voice = {                                                       %
     c''4
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     - \flageolet                                                               %! baca.flageolet():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Guitar_Music_Voice measure 129 / measure 18]                          %! baca.SegmentMaker._comment_measure_numbers()
     c''2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Guitar_Music_Voice measure 130 / measure 19]                          %! baca.SegmentMaker._comment_measure_numbers()
     c''1
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Guitar_Music_Voice measure 131 / measure 20]                          %! baca.SegmentMaker._comment_measure_numbers()
     c''1
@@ -1493,8 +1647,10 @@ C_Piano_Music_Voice = {                                                        %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    as'!2
+    as'2
     \repeatTie
 
     % [C Piano_Music_Voice measure 120 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1530,17 +1686,23 @@ C_Piano_Music_Voice = {                                                        %
 
     as'!4
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Piano_Music_Voice measure 129 / measure 18]                           %! baca.SegmentMaker._comment_measure_numbers()
-    as'!2.
+    as'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Piano_Music_Voice measure 130 / measure 19]                           %! baca.SegmentMaker._comment_measure_numbers()
-    as'!1
+    as'1
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Piano_Music_Voice measure 131 / measure 20]                           %! baca.SegmentMaker._comment_measure_numbers()
-    as'!1
+    as'1
     \repeatTie
 
     r2                                                                         %! khamr.closing()
@@ -1625,6 +1787,8 @@ C_Percussion_Music_Voice = {                                                   %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -1638,12 +1802,16 @@ C_Percussion_Music_Voice = {                                                   %
     c'2                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 114 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'1.                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 115 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2.                                                                       %! baca.make_repeat_tied_notes()
@@ -1702,46 +1870,64 @@ C_Percussion_Music_Voice = {                                                   %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 120 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 121 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2.                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 122 / measure 11]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 123 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 124 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2.                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 125 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Percussion_Music_Voice measure 126 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'1.                                                                       %! baca.make_repeat_tied_notes()
@@ -1871,6 +2057,8 @@ C_Violin_Music_Voice = {                                                       %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -1883,6 +2071,8 @@ C_Violin_Music_Voice = {                                                       %
     % [C Violin_Music_Voice measure 113 / measure 2]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 114 / measure 3]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -1890,10 +2080,14 @@ C_Violin_Music_Voice = {                                                       %
 
     c'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 115 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 116 / measure 5]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'4
@@ -1901,10 +2095,14 @@ C_Violin_Music_Voice = {                                                       %
 
     c'2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 117 / measure 6]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 118 / measure 7]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'4
@@ -1912,6 +2110,8 @@ C_Violin_Music_Voice = {                                                       %
 
     c'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 119 / measure 8]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'1
@@ -1924,11 +2124,15 @@ C_Violin_Music_Voice = {                                                       %
 
     c'4
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 120 / measure 9]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 121 / measure 10]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -1936,11 +2140,15 @@ C_Violin_Music_Voice = {                                                       %
 
     c'4
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 122 / measure 11]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 123 / measure 12]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -1948,10 +2156,14 @@ C_Violin_Music_Voice = {                                                       %
 
     c'2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 124 / measure 13]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 125 / measure 14]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'4
@@ -1959,6 +2171,8 @@ C_Violin_Music_Voice = {                                                       %
 
     c'4
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Violin_Music_Voice measure 126 / measure 15]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'1.
@@ -2088,6 +2302,8 @@ C_Viola_Music_Voice = {                                                        %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -2100,6 +2316,8 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 113 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 114 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -2107,6 +2325,8 @@ C_Viola_Music_Voice = {                                                        %
 
     c'1
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 115 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -2114,11 +2334,15 @@ C_Viola_Music_Voice = {                                                        %
 
     c'4
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 116 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'1
     - \tweak direction #up
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 117 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'4
@@ -2126,6 +2350,8 @@ C_Viola_Music_Voice = {                                                        %
 
     c'2
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 118 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'1
@@ -2139,9 +2365,13 @@ C_Viola_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 120 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'4
@@ -2149,6 +2379,8 @@ C_Viola_Music_Voice = {                                                        %
 
     c'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 121 / measure 10]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -2157,6 +2389,8 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 122 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'1
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 123 / measure 12]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -2164,6 +2398,8 @@ C_Viola_Music_Voice = {                                                        %
 
     c'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 124 / measure 13]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -2172,6 +2408,8 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 125 / measure 14]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Viola_Music_Voice measure 126 / measure 15]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'1
@@ -2304,6 +2542,8 @@ C_Cello_Music_Voice = {                                                        %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -2316,6 +2556,8 @@ C_Cello_Music_Voice = {                                                        %
     % [C Cello_Music_Voice measure 113 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Cello_Music_Voice measure 114 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'4                                                                        %! baca.make_repeated_duration_notes()
@@ -2323,6 +2565,8 @@ C_Cello_Music_Voice = {                                                        %
 
     c'2
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2.
     \repeatTie
@@ -2330,6 +2574,8 @@ C_Cello_Music_Voice = {                                                        %
     % [C Cello_Music_Voice measure 115 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Cello_Music_Voice measure 116 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -2337,6 +2583,8 @@ C_Cello_Music_Voice = {                                                        %
 
     c'2
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Cello_Music_Voice measure 117 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -2345,6 +2593,8 @@ C_Cello_Music_Voice = {                                                        %
     % [C Cello_Music_Voice measure 118 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeated_duration_notes()
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Cello_Music_Voice measure 119 / measure 8]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'4                                                                        %! baca.make_repeated_duration_notes()
@@ -2356,6 +2606,8 @@ C_Cello_Music_Voice = {                                                        %
 
     c'1                                                                        %! baca.make_repeated_duration_notes()
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Cello_Music_Voice measure 120 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
     c'4                                                                        %! baca.make_repeated_duration_notes()
@@ -2363,6 +2615,8 @@ C_Cello_Music_Voice = {                                                        %
 
     c'2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Cello_Music_Voice measure 121 / measure 10]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -2370,6 +2624,8 @@ C_Cello_Music_Voice = {                                                        %
 
     c'4
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Cello_Music_Voice measure 122 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'1
@@ -2379,6 +2635,8 @@ C_Cello_Music_Voice = {                                                        %
     % [C Cello_Music_Voice measure 123 / measure 12]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2
     \repeatTie
@@ -2386,6 +2644,8 @@ C_Cello_Music_Voice = {                                                        %
     % [C Cello_Music_Voice measure 124 / measure 13]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Cello_Music_Voice measure 125 / measure 14]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -2394,6 +2654,8 @@ C_Cello_Music_Voice = {                                                        %
     % [C Cello_Music_Voice measure 126 / measure 15]                           %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     c'2
     \repeatTie
@@ -2525,6 +2787,8 @@ C_Contrabass_Music_Voice = {                                                   %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -2544,6 +2808,8 @@ C_Contrabass_Music_Voice = {                                                   %
 
     c'2
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Contrabass_Music_Voice measure 115 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2
@@ -2551,6 +2817,8 @@ C_Contrabass_Music_Voice = {                                                   %
 
     c'4
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Contrabass_Music_Voice measure 116 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -2558,6 +2826,8 @@ C_Contrabass_Music_Voice = {                                                   %
 
     c'4
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Contrabass_Music_Voice measure 117 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -2577,6 +2847,8 @@ C_Contrabass_Music_Voice = {                                                   %
 
     c'4
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Contrabass_Music_Voice measure 120 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -2584,6 +2856,8 @@ C_Contrabass_Music_Voice = {                                                   %
 
     c'4
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Contrabass_Music_Voice measure 121 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -2599,6 +2873,8 @@ C_Contrabass_Music_Voice = {                                                   %
 
     c'4
     - \upbow                                                                   %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Contrabass_Music_Voice measure 124 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2.
@@ -2607,6 +2883,8 @@ C_Contrabass_Music_Voice = {                                                   %
     % [C Contrabass_Music_Voice measure 125 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [C Contrabass_Music_Voice measure 126 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2
