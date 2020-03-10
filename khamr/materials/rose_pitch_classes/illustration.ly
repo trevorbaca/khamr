@@ -1,4 +1,4 @@
-\version "2.19.83"                                                                       %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.84"                                                                       %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                                      %! abjad.LilyPondFile._get_format_pieces()
 
 \header {                                                                                %! abjad.LilyPondFile._get_formatted_blocks()
