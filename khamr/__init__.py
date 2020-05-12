@@ -8,6 +8,7 @@ if not (
     raise ImportError("Requires Python 3.7.")
 del distutils
 del platform
+from khamr.ScoreTemplate import ScoreTemplate
 
 from khamr.tools import *
 from khamr.tools import MarkupLibrary as markup
