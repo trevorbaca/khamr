@@ -1,7 +1,6 @@
 import abjad
 import baca
 
-
 percussion_instruments = abjad.OrderedDict(
     [
         (

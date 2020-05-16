@@ -1,6 +1,7 @@
+import typing
+
 import abjad
 import baca
-import typing
 from abjadext import rmakers
 from khamr.materials import margin_markups
 

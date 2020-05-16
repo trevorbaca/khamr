@@ -1,7 +1,6 @@
 import abjad
 import baca
 
-
 rose_pitch_classes = baca.sequence(
     [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
 )
