@@ -1,6 +1,5 @@
 import abjad
 
-
 string = r"""
     A2 Bb2 A+2 B2 C+3 Bb2 A+2 B2
     A2 B2 C#3 B+2 C3 A2 B2 C#3 B+2 D~3 C3 D3

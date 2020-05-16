@@ -1,7 +1,6 @@
 import abjad
 import baca
 
-
 # 108 seconds / segment
 #   = 226.8 beats at 126 MM
 #   = 151.2 beats at 84 MM
