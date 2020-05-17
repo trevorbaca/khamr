@@ -69,6 +69,9 @@ before_install:
     - pwd
     - which baca-doctest
     - which mypy
+    - which black-check
+    - which isort-check
+    - which flake8-check
     - which prime-parser-tables
 
 install:
@@ -77,9 +80,7 @@ install:
     - prime-parser-tables
     
 script:
-    - BLACK_OPTS="--target-version=py36 --line-length=79 --check --diff"
-    - BLACK_EXCLUDE="__metadata__.py|__persist__.py|segments|layout.py"
-    - black $BLACK_OPTS --exclude $BLACK_EXCLUDE $PACKAGE
+    - black-check $PACKAGE
     - mypy --ignore-missing-imports $PACKAGE
     - coverage run -a `which baca-doctest` $PACKAGE
     - coverage run -a `which py.test` -rf $PACKAGE/test.py
