@@ -4,12 +4,11 @@ Al-kitab al-khamr
 [![Build Status](
     https://travis-ci.org/trevorbaca/khamr.svg)](
     https://travis-ci.org/trevorbaca/khamr)
-[![Coverage Status](
-    https://coveralls.io/repos/github/trevorbaca/khamr/badge.svg)](
-    https://coveralls.io/github/trevorbaca/khamr)
+<!---
 [![Code style: black](
     https://img.shields.io/badge/code%20style-black-000000.svg)](
     https://github.com/ambv/black)
+-->
 
 Al-kitab al-khamr (2015) for eleven players.
 
