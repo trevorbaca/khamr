@@ -23,7 +23,7 @@ stage_markup = (
 maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
     final_segment=True,
@@ -138,7 +138,7 @@ maker(
 
 maker(
     ("fl", (1, 15)),
-    baca.pitch("Bb4"), # (sounds B3)
+    baca.pitch("Bb4"),  # (sounds B3)
 )
 
 maker(

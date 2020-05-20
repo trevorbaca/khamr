@@ -1,20 +1,83 @@
 import distutils.version
 import platform
 
-from khamr.ScoreTemplate import ScoreTemplate
-from khamr.materials.cello_halo_pitches.definition import cello_halo_pitches
-from khamr.materials.color_trill_pitches.definition import color_trill_pitches
-from khamr.materials.contrabass_halo_pitches.definition import contrabass_halo_pitches
-from khamr.materials.double_stop_halo_pitches.definition import double_stop_halo_pitches
-from khamr.materials.instruments.definition import instruments
-from khamr.materials.margin_markups.definition import margin_markups
-from khamr.materials.metronome_marks.definition import metronome_marks
-from khamr.materials.percussion_instruments.definition import percussion_instruments
-from khamr.materials.rose_pitch_classes.definition import rose_pitch_classes
-from khamr.materials.time_signatures.definition import time_signatures
-from khamr.materials.violin_halo_pitches.definition import violin_halo_pitches
-from khamr.tools import MarkupLibrary as markup
-from khamr.tools import *
+from .ScoreTemplate import ScoreTemplate
+from .materials import (
+    cello_halo_pitches,
+    color_trill_pitches,
+    contrabass_halo_pitches,
+    double_stop_halo_pitches,
+    instruments,
+    margin_markups,
+    metronome_marks,
+    percussion_instruments,
+    rose_pitch_classes,
+    time_signatures,
+    violin_halo_pitches,
+)
+from .tools import MarimbaHitCommand
+from .tools import MarkupLibrary as markup
+from .tools import (
+    alternate_divisions,
+    aviary,
+    closing,
+    continuous_glissandi,
+    current,
+    fused_expanse,
+    fused_wind,
+    guitar_accelerandi,
+    guitar_isolata,
+    halo_hairpins,
+    margin_markup,
+    narrow_fourth_octave,
+    narrow_sixth_octave,
+    opening_glissandi,
+    quarter_hits,
+    silent_first_division,
+    sixth_octave,
+    string_tuplet_ratios,
+    trill_tuplets,
+    weiss_multiphonic,
+    wide_third_octave,
+)
+
+__all__ = [
+    "ScoreTemplate",
+    "cello_halo_pitches",
+    "color_trill_pitches",
+    "contrabass_halo_pitches",
+    "double_stop_halo_pitches",
+    "instruments",
+    "margin_markups",
+    "metronome_marks",
+    "percussion_instruments",
+    "rose_pitch_classes",
+    "time_signatures",
+    "violin_halo_pitches",
+    "markup",
+    "MarimbaHitCommand",
+    "alternate_divisions",
+    "aviary",
+    "closing",
+    "continuous_glissandi",
+    "current",
+    "fused_expanse",
+    "fused_wind",
+    "guitar_accelerandi",
+    "guitar_isolata",
+    "halo_hairpins",
+    "margin_markup",
+    "narrow_fourth_octave",
+    "narrow_sixth_octave",
+    "opening_glissandi",
+    "quarter_hits",
+    "silent_first_division",
+    "sixth_octave",
+    "string_tuplet_ratios",
+    "trill_tuplets",
+    "weiss_multiphonic",
+    "wide_third_octave",
+]
 
 if not (
     distutils.version.LooseVersion("3.7")
