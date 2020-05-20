@@ -20,7 +20,7 @@ stage_markup = (
 maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -43,7 +43,7 @@ maker(
 stage_5_silence_pattern = abjad.index([
     0, 2, 4, 5, 7, 8, 9, 11, 13,
     15, 16, 17, 19, 20, 21, 23, 24, 26,
-    ])
+])
 
 # fl
 
@@ -191,7 +191,7 @@ maker(
         -3,
         rmakers.repeat_tie(
             baca.tuplets().get([0, 1, 4, 6], 7).map(baca.leaves()[1:]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
     ),
 )

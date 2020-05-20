@@ -9,3 +9,17 @@ from .percussion_instruments.definition import percussion_instruments
 from .rose_pitch_classes.definition import rose_pitch_classes
 from .time_signatures.definition import time_signatures
 from .violin_halo_pitches.definition import violin_halo_pitches
+
+__all__ = [
+    "cello_halo_pitches",
+    "color_trill_pitches",
+    "contrabass_halo_pitches",
+    "double_stop_halo_pitches",
+    "instruments",
+    "margin_markups",
+    "metronome_marks",
+    "percussion_instruments",
+    "rose_pitch_classes",
+    "time_signatures",
+    "violin_halo_pitches",
+]

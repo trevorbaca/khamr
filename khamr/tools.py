@@ -96,7 +96,7 @@ class MarkupLibrary(object):
     def sparse_piano_clicks():
         string = r"sparse, individual clicks with credit card"
         string += r" on C \hspace #-0.5 \raise #1 \sharp"
-        string += " \hspace #-0.5 1 string"
+        string += r" \hspace #-0.5 1 string"
         first_line = abjad.MarkupList([string]).line()
         string = " (1-2/sec. in irregular rhythm)"
         second_line = abjad.MarkupList([string]).line()
@@ -159,7 +159,6 @@ class MarimbaHitCommand(baca.Command):
         for i, plt in enumerate(baca.select(argument).plts()):
             if i not in self.indices:
                 continue
-            staff_lines = baca.StaffLines(5)
             abjad.attach(baca.StaffLines(5), plt.head, tag=tag)
             if self.attach_first_markup and not found_first:
                 string = "marimba + woodblock"
@@ -681,7 +680,7 @@ def weiss_multiphonic(number: int) -> baca.Markup:
     Makes Weiss multiphonic.
     """
     string = f"W.{number}"
-    return baca.Markup(number).boxed()
+    return baca.Markup(string).boxed()
 
 
 def wide_third_octave() -> baca.RegisterCommand:

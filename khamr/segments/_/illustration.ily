@@ -2275,7 +2275,7 @@ i_Saxophone_Music_Voice = {                                                    %
         \override                                                              %! baca.markup():baca.IndicatorCommand._call()
             #'(box-padding . 0.5)                                              %! baca.markup():baca.IndicatorCommand._call()
             \box                                                               %! baca.markup():baca.IndicatorCommand._call()
-                77                                                             %! baca.markup():baca.IndicatorCommand._call()
+                W.77                                                           %! baca.markup():baca.IndicatorCommand._call()
         }                                                                      %! baca.markup():baca.IndicatorCommand._call()
     \repeatTie
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
