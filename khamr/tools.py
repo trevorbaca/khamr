@@ -3,117 +3,268 @@ import typing
 import abjad
 import baca
 from abjadext import rmakers
-from khamr.materials import margin_markups
+
+# instruments
+
+instruments = abjad.OrderedDict(
+    [
+        ("BaritoneSaxophone", abjad.BaritoneSaxophone()),
+        ("BassClarinet", abjad.BassClarinet()),
+        ("BassFlute", abjad.BassFlute()),
+        ("Cello", abjad.Cello()),
+        ("Clarinet", abjad.ClarinetInBFlat()),
+        ("Contrabass", abjad.Contrabass(pitch_range="[G0, +inf]")),
+        ("EnglishHorn", abjad.EnglishHorn()),
+        ("Flute", abjad.Flute()),
+        ("Guitar", abjad.Guitar()),
+        ("Oboe", abjad.Oboe()),
+        (
+            "Percussion",
+            abjad.Percussion(
+                allowable_clefs=[
+                    abjad.Clef("percussion"),
+                    abjad.Clef("treble"),
+                ]
+            ),
+        ),
+        ("Piano", abjad.Piano(context="Staff")),
+        ("Piccolo", abjad.Piccolo()),
+        ("SopraninoSaxophone", abjad.SopraninoSaxophone()),
+        ("Viola", abjad.Viola()),
+        ("Violin", abjad.Violin()),
+    ]
+)
+
+percussion_instruments = abjad.OrderedDict(
+    [
+        (
+            "almglocken",
+            abjad.Percussion(
+                markup=baca.markups.instrument("almglocken"),
+                short_markup=baca.markups.short_instrument("alm."),
+            ),
+        ),
+        (
+            "bass drum",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Bass drum"),
+                short_markup=baca.markups.short_instrument("BD"),
+            ),
+        ),
+        (
+            "castanets",
+            abjad.Percussion(
+                markup=baca.markups.instrument("castanets"),
+                short_markup=baca.markups.short_instrument("cast."),
+            ),
+        ),
+        (
+            "caxixi",
+            abjad.Percussion(
+                markup=baca.markups.instrument("caxixi"),
+                short_markup=baca.markups.short_instrument("cxi."),
+            ),
+        ),
+        (
+            "guiro",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Guiro"),
+                short_markup=baca.markups.short_instrument("gro."),
+            ),
+        ),
+        (
+            "large China cymbal",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Large China cymbal"),
+                short_markup=baca.markups.short_instrument("Ch. cym. (L)"),
+            ),
+        ),
+        (
+            "large tam-tam",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Large tam-tam"),
+                short_markup=baca.markups.short_instrument("tam. (L)"),
+            ),
+        ),
+        (
+            "maracas",
+            abjad.Percussion(
+                markup=baca.markups.instrument("maracas"),
+                short_markup=baca.markups.short_instrument("mrcs."),
+            ),
+        ),
+        (
+            "marimba",
+            abjad.Marimba(
+                markup=baca.markups.instrument("Marimba"),
+                short_markup=baca.markups.short_instrument("Mb."),
+            ),
+        ),
+        (
+            "snare drum",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Snare drum"),
+                short_markup=baca.markups.short_instrument("SD"),
+            ),
+        ),
+        (
+            "Tibetan bowl",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Tibetan bowl"),
+                short_markup=baca.markups.short_instrument("Tib. bowl"),
+            ),
+        ),
+        (
+            "triangle",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Triangle"),
+                short_markup=baca.markups.short_instrument("tri."),
+            ),
+        ),
+        (
+            "very large China cymbal",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Very large China cymbal"),
+                short_markup=baca.markups.short_instrument("Ch. cym. (XL)"),
+            ),
+        ),
+        (
+            "very large tam-tam",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Very large tam-tam"),
+                short_markup=baca.markups.short_instrument("tam. (XL)"),
+            ),
+        ),
+        (
+            "whirly tube",
+            abjad.Percussion(
+                markup=baca.markups.instrument("Whirly tube"),
+                short_markup=baca.markups.short_instrument("whr. tube"),
+            ),
+        ),
+    ]
+)
+
+# margin markups
 
 
-class MarkupLibrary(object):
+def _make_margin_markup(markup):
+    return abjad.MarginMarkup(
+        markup=baca.markups.instrument(markup, hcenter_in=16)
+    )
+
+
+margin_markups = abjad.OrderedDict(
+    [
+        ("B. cl.", _make_margin_markup("B. cl.")),
+        ("Bar. sax.", _make_margin_markup("Bar. sax.")),
+        ("B. fl.", _make_margin_markup("B. fl.")),
+        ("Cb.", _make_margin_markup("Cb.")),
+        ("Cl.", _make_margin_markup("Cl.")),
+        ("Eng. hn.", _make_margin_markup("Eng. hn.")),
+        ("Fl.", _make_margin_markup("Fl.")),
+        ("Gt.", _make_margin_markup("Gt.")),
+        ("Ob.", _make_margin_markup("Ob.")),
+        ("Perc.", _make_margin_markup("Perc.")),
+        ("Pf.", _make_margin_markup("Pf.")),
+        ("Picc.", _make_margin_markup("Picc.")),
+        ("Spnino. sax.", _make_margin_markup("Spnino. sax.")),
+        ("Va.", _make_margin_markup("Va.")),
+        ("Vc.", _make_margin_markup("Vc.")),
+        ("Vn.", _make_margin_markup("Vn.")),
+    ]
+)
+
+# metronome marks
+
+metronome_marks = abjad.OrderedDict(
+    [
+        ("32", abjad.MetronomeMark((1, 4), 32)),
+        ("42", abjad.MetronomeMark((1, 4), 42)),
+        ("63", abjad.MetronomeMark((1, 4), 63)),
+        ("84", abjad.MetronomeMark((1, 4), 84)),
+        ("126", abjad.MetronomeMark((1, 4), 126)),
+    ]
+)
+
+# time signatures
+
+# 108 seconds / segment
+#   = 226.8 beats at 126 MM
+#   = 151.2 beats at 84 MM
+#   = 113.4 beats at 63 MM
+#   = 75.6 beats at 42 MM
+numerators = baca.sequence([[2, 2, 3], [2, 4], [3, 4, 5]])
+numerators = numerators.helianthate(-1, -1)
+pairs = baca.sequence(
+    [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
+)
+pairs = pairs.helianthate(-1, -1)
+pairs = pairs.flatten()
+time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]
+time_signatures = abjad.CyclicTuple(time_signatures_)
+
+# contrabass halo pitches
+
+string = r"""
+    A2 Bb2 A+2 B2 C+3 Bb2 A+2 B2
+    A2 B2 C#3 B+2 C3 A2 B2 C#3 B+2 D~3 C3 D3
+    A2 D3 C+3 D+3 E3 C#3 D3 E~3 F3 D3 E~3 F~3 E3
     """
-    Markup library.
+
+strings = string.split()
+assert len(strings) == 33
+pitches = [abjad.NamedPitch(_) for _ in strings]
+contrabass_halo_pitches = abjad.CyclicTuple(pitches)
+
+# cello halo pitches
+
+cello_halo_pitches = []
+for halo_pitch in contrabass_halo_pitches:
+    cello_halo_pitch = halo_pitch + abjad.NamedInterval("m7")
+    cello_halo_pitches.append(cello_halo_pitch)
+
+# double stop halo pitches
+
+double_stop_halo_pitches = []
+for halo_pitch in contrabass_halo_pitches:
+    lower_pitch = halo_pitch - abjad.NamedInterval("M9")
+    named_pitches = (lower_pitch, halo_pitch)
+    named_pitch_segment = abjad.PitchSegment(
+        items=named_pitches, item_class=abjad.NamedPitch
+    )
+    double_stop_halo_pitches.append(named_pitch_segment)
+
+# violin halo pitches
+
+violin_halo_pitches = []
+for halo_pitch in contrabass_halo_pitches:
+    violin_halo_pitch = halo_pitch + abjad.NamedInterval("m14")
+    violin_halo_pitches.append(violin_halo_pitch)
+
+# color trill pitches
+
+string = r"""
+    F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4
     """
+strings = string.split()
+named_pitches = [abjad.NamedPitch(_) for _ in strings]
+color_trill_pitches = baca.PitchSegment(named_pitches, abjad.NamedPitch)
+assert len(color_trill_pitches) == 18
 
-    ### CLASS VARIABLES ###
+# rose pitch-classes
 
-    __slots__ = ()
+rose_pitch_classes = baca.sequence(
+    [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
+)
+rose_pitch_classes = rose_pitch_classes.helianthate(-1, 1)
+rose_pitch_classes = baca.sequence(rose_pitch_classes).flatten()
+assert len(rose_pitch_classes) == 64
 
-    ### PUBLIC METHODS ###
-
-    @staticmethod
-    def airtone_without_reed():
-        string = "airtone without reed: mix inhales and exhales ad lib."
-        return baca.Markup(string)
-
-    @staticmethod
-    def covered_flute_airtone():
-        first_line = abjad.MarkupList(
-            ["airtone with lips covering mouthplate"]
-        ).line()
-        second_line = abjad.MarkupList(["(sounds major 7th lower)"]).line()
-        markup = abjad.Markup.column(
-            [first_line, second_line], direction=abjad.Up
-        )
-        return baca.Markup(contents=markup.contents)
-
-    @staticmethod
-    def emphasize_multiphonics(selector=baca.pleaf(0)):
-        string = "emphasize multiphonics and unstable harmonics"
-        string += " prominently throughout"
-        return baca.Markup(string)
-
-    @staticmethod
-    def guitar_with_screw():
-        string = "draw metal screw back and forth slowly across string;"
-        first_line = abjad.MarkupList([string]).line()
-        second_line = abjad.MarkupList(["continuous loud sound"]).line()
-        markup = abjad.MarkupList([first_line, second_line])
-        markup = markup.column(direction=abjad.Up)
-        return baca.Markup(contents=markup.contents)
-
-    @staticmethod
-    def half_harmonics_explanation():
-        string = "cross noteheads indicate half-harmonics"
-        return baca.Markup(string)
-
-    @staticmethod
-    def match_guitar_dynamic_levels():
-        string = "match dynamic levels of guitar"
-        return baca.Markup(string)
-
-    @staticmethod
-    def move_towards_the_bridge():
-        string = "move towards (and then back away from) the bridge"
-        string += " at the center of each accelerando"
-        return baca.Markup(string)
-
-    @staticmethod
-    def scodanibbio():
-        string = "Shape trill dynamics beautifully. (Thank you, Stefano.)"
-        return baca.Markup(string)
-
-    @staticmethod
-    def sparse_cello_clicks():
-        string = "sparse, individual clicks with extremely slow bow"
-        first_line = abjad.MarkupList([string]).line()
-        second_line = abjad.MarkupList(
-            ["(1-2/sec. in irregular rhythm)"]
-        ).line()
-        markup = abjad.MarkupList([first_line, second_line])
-        markup = markup.column(direction=abjad.Up)
-        return baca.Markup(contents=markup.contents)
-
-    @staticmethod
-    def sparse_guitar_clicks():
-        string = "sparse, individual clicks"
-        string += " with nail or pick laterally up string"
-        first_line = abjad.MarkupList([string]).line()
-        second_line = abjad.MarkupList(
-            ["(1-2/sec. in irregular rhythm)"]
-        ).line()
-        markup = abjad.MarkupList([first_line, second_line])
-        markup = markup.column(direction=abjad.Up)
-        return baca.Markup(contents=markup.contents)
-
-    @staticmethod
-    def sparse_piano_clicks():
-        string = r"sparse, individual clicks with credit card"
-        string += r" on C \hspace #-0.5 \raise #1 \sharp"
-        string += r" \hspace #-0.5 1 string"
-        first_line = abjad.MarkupList([string]).line()
-        string = " (1-2/sec. in irregular rhythm)"
-        second_line = abjad.MarkupList([string]).line()
-        markup = abjad.MarkupList([first_line, second_line])
-        markup = markup.column(direction=abjad.Up)
-        return baca.Markup(contents=markup.contents)
-
-    @staticmethod
-    def strike_lowest_strings():
-        string = "tamburo: strike lowest strings with palm inside piano"
-        string += " and let vibrate (pedal down throughout)"
-        return baca.Markup(string)
-
-    @staticmethod
-    def XL_tam_tam():
-        string = "XL tam-tam"
-        return baca.Markup(string)
+rose_pitch_classes = [abjad.NamedPitch(_) for _ in rose_pitch_classes]
+rose_pitch_classes = abjad.PitchSegment(
+    items=rose_pitch_classes, item_class=abjad.NamedPitch
+)
 
 
 class MarimbaHitCommand(baca.Command):
