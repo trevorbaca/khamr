@@ -81,18 +81,6 @@ class MarkupLibrary(object):
         return baca.Markup(contents=markup.contents)
 
     @staticmethod
-    def sparse_piano_clicks():
-        string = r"sparse, individual clicks with credit card"
-        string += r" on C \hspace #-0.5 \raise #1 \sharp"
-        string += r" \hspace #-0.5 1 string"
-        first_line = abjad.MarkupList([string]).line()
-        string = " (1-2/sec. in irregular rhythm)"
-        second_line = abjad.MarkupList([string]).line()
-        markup = abjad.MarkupList([first_line, second_line])
-        markup = markup.column(direction=abjad.Up)
-        return baca.Markup(contents=markup.contents)
-
-    @staticmethod
     def strike_lowest_strings():
         string = "tamburo: strike lowest strings with palm inside piano"
         string += " and let vibrate (pedal down throughout)"

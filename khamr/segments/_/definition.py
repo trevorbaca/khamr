@@ -405,7 +405,8 @@ maker(
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.markup(
-        khamr.markup.sparse_piano_clicks(),
+        r"\khamr-sparse-piano-clicks-markup",
+        literal=True,
     ),
 )
 
