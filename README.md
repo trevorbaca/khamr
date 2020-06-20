@@ -2,8 +2,8 @@ Al-kitab al-khamr
 =================
 
 [![Build Status](
-    https://travis-ci.org/trevorbaca/khamr.svg)](
-    https://travis-ci.org/trevorbaca/khamr)
+    https://api.travis-ci.org/trevorbaca/khamr.svg)](
+    https://api.travis-ci.org/trevorbaca/khamr)
 <!---
 [![Code style: black](
     https://img.shields.io/badge/code%20style-black-000000.svg)](
