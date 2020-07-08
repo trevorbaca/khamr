@@ -1,5 +1,3 @@
-import os
-
 import abjad
 import baca
 import khamr
@@ -23,7 +21,7 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
-    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    segment_directory=abjad.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=khamr.time_signatures[:30],
     transpose_score=True,
