@@ -1,4 +1,4 @@
-C_Global_Skips = {                                                             %! abjad.Path.extern()
+C_Global_Skips = {                                                             %! ide.Path.extern()
 
     % [C Global_Skips measure 112 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
@@ -353,10 +353,10 @@ C_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
     \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Global_Rests = {                                                             %! abjad.Path.extern()
+C_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [C Global_Rests measure 112 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
@@ -421,10 +421,10 @@ C_Global_Rests = {                                                             %
     % [C Global_Rests measure 132 / measure 21]                                %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Flute_Music_Voice = {                                                        %! abjad.Path.extern()
+C_Flute_Music_Voice = {                                                        %! ide.Path.extern()
 
     % [C Flute_Music_Voice measure 112 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -672,21 +672,21 @@ C_Flute_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Flute_Music_Staff = <<                                                       %! abjad.Path.extern()
+C_Flute_Music_Staff = <<                                                       %! ide.Path.extern()
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
-    \C_Global_Rests                                                            %! abjad.Path.extern()
+    \C_Global_Rests                                                            %! ide.Path.extern()
 
     \context Voice = "Flute_Music_Voice"                                       %! khamr.ScoreTemplate.__call__()
-    \C_Flute_Music_Voice                                                       %! abjad.Path.extern()
+    \C_Flute_Music_Voice                                                       %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-C_Oboe_Music_Voice = {                                                         %! abjad.Path.extern()
+C_Oboe_Music_Voice = {                                                         %! ide.Path.extern()
 
     % [C Oboe_Music_Voice measure 112 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -919,18 +919,18 @@ C_Oboe_Music_Voice = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_OboeMusicStaff = {                                                           %! abjad.Path.extern()
+C_OboeMusicStaff = {                                                           %! ide.Path.extern()
 
     \context Voice = "Oboe_Music_Voice"                                        %! khamr.ScoreTemplate.__call__()
-    \C_Oboe_Music_Voice                                                        %! abjad.Path.extern()
+    \C_Oboe_Music_Voice                                                        %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Clarinet_Music_Voice = {                                                     %! abjad.Path.extern()
+C_Clarinet_Music_Voice = {                                                     %! ide.Path.extern()
 
     % [C Clarinet_Music_Voice measure 112 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1135,18 +1135,18 @@ C_Clarinet_Music_Voice = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Clarinet_Music_Staff = {                                                     %! abjad.Path.extern()
+C_Clarinet_Music_Staff = {                                                     %! ide.Path.extern()
 
     \context Voice = "Clarinet_Music_Voice"                                    %! khamr.ScoreTemplate.__call__()
-    \C_Clarinet_Music_Voice                                                    %! abjad.Path.extern()
+    \C_Clarinet_Music_Voice                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Saxophone_Music_Voice = {                                                    %! abjad.Path.extern()
+C_Saxophone_Music_Voice = {                                                    %! ide.Path.extern()
 
     % [C Saxophone_Music_Voice measure 112 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1385,18 +1385,18 @@ C_Saxophone_Music_Voice = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Saxophone_Music_Staff = {                                                    %! abjad.Path.extern()
+C_Saxophone_Music_Staff = {                                                    %! ide.Path.extern()
 
     \context Voice = "Saxophone_Music_Voice"                                   %! khamr.ScoreTemplate.__call__()
-    \C_Saxophone_Music_Voice                                                   %! abjad.Path.extern()
+    \C_Saxophone_Music_Voice                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Guitar_Music_Voice = {                                                       %! abjad.Path.extern()
+C_Guitar_Music_Voice = {                                                       %! ide.Path.extern()
 
     % [C Guitar_Music_Voice measure 112 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1561,18 +1561,18 @@ C_Guitar_Music_Voice = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Guitar_Music_Staff = {                                                       %! abjad.Path.extern()
+C_Guitar_Music_Staff = {                                                       %! ide.Path.extern()
 
     \context Voice = "Guitar_Music_Voice"                                      %! khamr.ScoreTemplate.__call__()
-    \C_Guitar_Music_Voice                                                      %! abjad.Path.extern()
+    \C_Guitar_Music_Voice                                                      %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Piano_Music_Voice = {                                                        %! abjad.Path.extern()
+C_Piano_Music_Voice = {                                                        %! ide.Path.extern()
 
     % [C Piano_Music_Voice measure 112 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1737,18 +1737,18 @@ C_Piano_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Piano_Music_Staff = {                                                        %! abjad.Path.extern()
+C_Piano_Music_Staff = {                                                        %! ide.Path.extern()
 
     \context Voice = "Piano_Music_Voice"                                       %! khamr.ScoreTemplate.__call__()
-    \C_Piano_Music_Voice                                                       %! abjad.Path.extern()
+    \C_Piano_Music_Voice                                                       %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Percussion_Music_Voice = {                                                   %! abjad.Path.extern()
+C_Percussion_Music_Voice = {                                                   %! ide.Path.extern()
 
     % [C Percussion_Music_Voice measure 112 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2006,18 +2006,18 @@ C_Percussion_Music_Voice = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_PercussionMusicStaff = {                                                     %! abjad.Path.extern()
+C_PercussionMusicStaff = {                                                     %! ide.Path.extern()
 
     \context Voice = "Percussion_Music_Voice"                                  %! khamr.ScoreTemplate.__call__()
-    \C_Percussion_Music_Voice                                                  %! abjad.Path.extern()
+    \C_Percussion_Music_Voice                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Violin_Music_Voice = {                                                       %! abjad.Path.extern()
+C_Violin_Music_Voice = {                                                       %! ide.Path.extern()
 
     % [C Violin_Music_Voice measure 112 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2252,18 +2252,18 @@ C_Violin_Music_Voice = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Violin_Music_Staff = {                                                       %! abjad.Path.extern()
+C_Violin_Music_Staff = {                                                       %! ide.Path.extern()
 
     \context Voice = "Violin_Music_Voice"                                      %! khamr.ScoreTemplate.__call__()
-    \C_Violin_Music_Voice                                                      %! abjad.Path.extern()
+    \C_Violin_Music_Voice                                                      %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Viola_Music_Voice = {                                                        %! abjad.Path.extern()
+C_Viola_Music_Voice = {                                                        %! ide.Path.extern()
 
     % [C Viola_Music_Voice measure 112 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2492,18 +2492,18 @@ C_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Viola_Music_Staff = {                                                        %! abjad.Path.extern()
+C_Viola_Music_Staff = {                                                        %! ide.Path.extern()
 
     \context Voice = "Viola_Music_Voice"                                       %! khamr.ScoreTemplate.__call__()
-    \C_Viola_Music_Voice                                                       %! abjad.Path.extern()
+    \C_Viola_Music_Voice                                                       %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Cello_Music_Voice = {                                                        %! abjad.Path.extern()
+C_Cello_Music_Voice = {                                                        %! ide.Path.extern()
 
     % [C Cello_Music_Voice measure 112 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2736,18 +2736,18 @@ C_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_CelloMusicStaff = {                                                          %! abjad.Path.extern()
+C_CelloMusicStaff = {                                                          %! ide.Path.extern()
 
     \context Voice = "Cello_Music_Voice"                                       %! khamr.ScoreTemplate.__call__()
-    \C_Cello_Music_Voice                                                       %! abjad.Path.extern()
+    \C_Cello_Music_Voice                                                       %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Contrabass_Music_Voice = {                                                   %! abjad.Path.extern()
+C_Contrabass_Music_Voice = {                                                   %! ide.Path.extern()
 
     % [C Contrabass_Music_Voice measure 112 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2970,12 +2970,12 @@ C_Contrabass_Music_Voice = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Contrabass_Music_Staff = {                                                   %! abjad.Path.extern()
+C_Contrabass_Music_Staff = {                                                   %! ide.Path.extern()
 
     \context Voice = "Contrabass_Music_Voice"                                  %! khamr.ScoreTemplate.__call__()
-    \C_Contrabass_Music_Voice                                                  %! abjad.Path.extern()
+    \C_Contrabass_Music_Voice                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
