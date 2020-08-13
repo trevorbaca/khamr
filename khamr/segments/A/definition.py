@@ -261,7 +261,7 @@ maker(
     baca.dynamic("fff"),
     baca.pitch(
         "G#2",
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
