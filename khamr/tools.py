@@ -325,7 +325,7 @@ class MarimbaHitCommand(baca.Command):
             abjad.attach(abjad.Articulation("marcato"), plt.head, tag=tag)
             abjad.detach(abjad.Clef, plt.head)
             abjad.attach(abjad.Clef("treble"), plt.head, tag=tag)
-            next_leaf = abjad.inspect(plt.tail).leaf(1)
+            next_leaf = abjad.inspectx.leaf(plt.tail, 1)
             if next_leaf is not None:
                 abjad.attach(baca.StaffLines(1), next_leaf, tag=tag)
                 abjad.attach(abjad.Clef("percussion"), next_leaf, tag=tag)
