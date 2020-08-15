@@ -1,7 +1,6 @@
 import distutils.version
 import platform
 
-from .MarkupLibrary import MarkupLibrary as markup
 from .ScoreTemplate import ScoreTemplate
 from .tools import (
     MarimbaHitCommand,
@@ -52,7 +51,6 @@ __all__ = [
     "rose_pitch_classes",
     "time_signatures",
     "violin_halo_pitches",
-    "markup",
     "MarimbaHitCommand",
     "alternate_divisions",
     "aviary",
