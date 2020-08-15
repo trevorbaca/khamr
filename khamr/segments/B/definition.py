@@ -224,7 +224,8 @@ maker(
     baca.dynamic("pp"),
     baca.pitch("Bb4"),  # (sounds B3)
     baca.markup(
-        khamr.markup.covered_flute_airtone(),
+        r"\khamr-covered-flute-airtone",
+        literal=True,
     ),
 )
 
@@ -247,7 +248,8 @@ maker(
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.markup(
-        khamr.markup.airtone_without_reed(),
+        r"\khamr-airtone-without-reed",
+        literal=True,
     ),
 )
 
@@ -431,6 +433,7 @@ maker(
         harmonic=True,
     ),
     baca.markup(
-        khamr.markup.scodanibbio(),
+        r"\khamr-scodanibbio",
+        literal=True,
     ),
 )

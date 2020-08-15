@@ -301,7 +301,8 @@ maker(
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.markup(
-        khamr.markup.airtone_without_reed(),
+        r"\khamr-airtone-without-reed",
+        literal=True,
     ),
 )
 
@@ -345,7 +346,8 @@ maker(
     baca.dynamic("f"),
     baca.pitches(khamr.rose_pitch_classes),
     baca.markup(
-        khamr.markup.half_harmonics_explanation(),
+        r"\khamr-half-harmonics-explanation",
+        literal=True,
     ),
     khamr.wide_third_octave(),
 )
@@ -354,7 +356,8 @@ maker(
     ("gt", (25, 44)),
     baca.tuplet_bracket_staff_padding(4),
     baca.markup(
-        khamr.markup.move_towards_the_bridge(),
+        r"\khamr-move-towards-the-bridge",
+        literal=True,
     ),
     khamr.narrow_fourth_octave(),
 )
@@ -379,7 +382,10 @@ maker(
     baca.accent(selector=baca.pheads()),
     baca.clef("percussion"),
     baca.dynamic("mf"),
-    baca.markup(khamr.markup.strike_lowest_strings()),
+    baca.markup(
+        r"\khamr-strike-lowest-strings",
+        literal=True,
+    ),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -391,7 +397,8 @@ maker(
     baca.ottava(),
     baca.staff_lines(5),
     baca.markup(
-        khamr.markup.match_guitar_dynamic_levels(),
+        r"\khamr-match-guitar-dynamic-levels",
+        literal=True,
     ),
     khamr.sixth_octave(),
 )
@@ -517,7 +524,8 @@ maker(
 maker(
     ["vn", "va", "vc", "cb"],
     baca.markup(
-        khamr.markup.emphasize_multiphonics(),
+        r"\khamr-emphasize-multiphonics",
+        literal=True,
     ),
 )
 
