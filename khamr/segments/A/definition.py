@@ -276,7 +276,8 @@ maker(
     baca.dynamic("mf"),
     baca.pitch("F#2"),
     baca.markup(
-        khamr.markup.sparse_guitar_clicks(),
+        r"\khamr-sparse-guitar-clicks",
+        literal=True,
     ),
 )
 
@@ -285,7 +286,8 @@ maker(
     baca.dynamic("ff"),
     baca.pitch("G2"),
     baca.markup(
-        khamr.markup.guitar_with_screw(),
+        r"\khamr-guitar-with-screw",
+        literal=True,
     ),
 )
 
@@ -405,7 +407,8 @@ maker(
     baca.dynamic("mf"),
     baca.pitch("F#3"),
     baca.markup(
-        khamr.markup.sparse_cello_clicks(),
+        r"\khamr-sparse-cello-clicks",
+        literal=True,
     ),
 )
 

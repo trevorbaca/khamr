@@ -1824,19 +1824,7 @@ B_Flute_Music_Voice = {                                                        %
     bf'!1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \column                                                                %! baca.markup():baca.IndicatorCommand._call()
-            {                                                                  %! baca.markup():baca.IndicatorCommand._call()
-                \line                                                          %! baca.markup():baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():baca.IndicatorCommand._call()
-                        "airtone with lips covering mouthplate"                %! baca.markup():baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():baca.IndicatorCommand._call()
-                \line                                                          %! baca.markup():baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():baca.IndicatorCommand._call()
-                        "(sounds major 7th lower)"                             %! baca.markup():baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():baca.IndicatorCommand._call()
-            }                                                                  %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \khamr-covered-flute-airtone                                             %! baca.markup():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
@@ -3222,7 +3210,7 @@ B_Oboe_Music_Voice = {                                                         %
     c'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "airtone without reed: mix inhales and exhales ad lib." }      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \khamr-airtone-without-reed                                              %! baca.markup():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
@@ -9378,7 +9366,7 @@ B_Contrabass_Music_Voice = {                                                   %
     g,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" }    %! baca.markup():baca.IndicatorCommand._call()
+    ^ \khamr-scodanibbio                                                       %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START

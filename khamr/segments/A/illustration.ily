@@ -1693,19 +1693,7 @@ A_Guitar_Music_Voice = {                                                       %
     fs!1                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \column                                                                %! baca.markup():baca.IndicatorCommand._call()
-            {                                                                  %! baca.markup():baca.IndicatorCommand._call()
-                \line                                                          %! baca.markup():baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():baca.IndicatorCommand._call()
-                        "sparse, individual clicks with nail or pick laterally up string" %! baca.markup():baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():baca.IndicatorCommand._call()
-                \line                                                          %! baca.markup():baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():baca.IndicatorCommand._call()
-                        "(1-2/sec. in irregular rhythm)"                       %! baca.markup():baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():baca.IndicatorCommand._call()
-            }                                                                  %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \khamr-sparse-guitar-clicks                                              %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -1779,19 +1767,7 @@ A_Guitar_Music_Voice = {                                                       %
     g1.                                                                        %! khamr.alternate_divisions()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \column                                                                %! baca.markup():baca.IndicatorCommand._call()
-            {                                                                  %! baca.markup():baca.IndicatorCommand._call()
-                \line                                                          %! baca.markup():baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():baca.IndicatorCommand._call()
-                        "draw metal screw back and forth slowly across string;" %! baca.markup():baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():baca.IndicatorCommand._call()
-                \line                                                          %! baca.markup():baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():baca.IndicatorCommand._call()
-                        "continuous loud sound"                                %! baca.markup():baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():baca.IndicatorCommand._call()
-            }                                                                  %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \khamr-guitar-with-screw                                                 %! baca.markup():baca.IndicatorCommand._call()
 
     % [A Guitar_Music_Voice measure 60 / measure 16]                           %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! khamr.alternate_divisions()
@@ -4047,19 +4023,7 @@ A_Cello_Music_Voice = {                                                        %
     fs!1                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \column                                                                %! baca.markup():baca.IndicatorCommand._call()
-            {                                                                  %! baca.markup():baca.IndicatorCommand._call()
-                \line                                                          %! baca.markup():baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():baca.IndicatorCommand._call()
-                        "sparse, individual clicks with extremely slow bow"    %! baca.markup():baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():baca.IndicatorCommand._call()
-                \line                                                          %! baca.markup():baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():baca.IndicatorCommand._call()
-                        "(1-2/sec. in irregular rhythm)"                       %! baca.markup():baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():baca.IndicatorCommand._call()
-            }                                                                  %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \khamr-sparse-cello-clicks                                               %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
