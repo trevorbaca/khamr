@@ -510,8 +510,9 @@ maker(
         baca.glissando(),
     ),
     baca.markup(
-        baca.markups.string_number(3),
+        r"\baca-string-iii",
         direction=abjad.Down,
+        literal=True,
     ),
     baca.note_head_style_harmonic(),
 )
