@@ -6752,7 +6752,7 @@ i_Contrabass_Music_Voice = {                                                   %
     ^ \baca-default-indicator-markup "(“Contrabass”)"                          %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \khamr-emphasize-multiphonics                                            %! baca.markup():baca.IndicatorCommand._call()
     ^ \baca-explicit-indicator-markup "[“Cb.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    _ \markup { III }                                                          %! baca.markup():baca.IndicatorCommand._call()
+    _ \baca-string-iii                                                         %! baca.markup():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'violet)                          %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
