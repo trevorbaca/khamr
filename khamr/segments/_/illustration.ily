@@ -804,16 +804,7 @@ i_Flute_Music_Voice = {                                                        %
 
     % [_ Flute_Music_Voice measure 1]                                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. fl."          %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            \center-column                                                     %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                {                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                    Bass                                                       %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                    flute                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                }                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Bass" \hcenter-in #16 "flute" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -1209,16 +1200,7 @@ i_Oboe_Music_Voice = {                                                         %
 
     % [_ Oboe_Music_Voice measure 1]                                           %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."        %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            \center-column                                                     %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                {                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                    English                                                    %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                    horn                                                       %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                }                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "English" \hcenter-in #16 "horn" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \stopStaff                                                                 %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1                           %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \startStaff                                                                %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -1589,16 +1571,7 @@ i_Clarinet_Music_Voice = {                                                     %
 
     % [_ Clarinet_Music_Voice measure 1]                                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."          %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            \center-column                                                     %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                {                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                    Bass                                                       %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                    clarinet                                                   %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                }                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Bass" \hcenter-in #16 "clarinet" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -1972,16 +1945,7 @@ i_Saxophone_Music_Voice = {                                                    %
 
     % [_ Saxophone_Music_Voice measure 1]                                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bar. sax."       %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            \center-column                                                     %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                {                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                    Baritone                                                   %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                    saxophone                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-                }                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Baritone" \hcenter-in #16 "saxophone" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -2343,12 +2307,7 @@ i_Guitar_Music_Voice = {                                                       %
 
     % [_ Guitar_Music_Voice measure 1]                                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Gt."             %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Guitar                                                             %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Guitar"               %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \override NoteHead.style = #'cross                                         %! baca.note_head_style_cross():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
@@ -3400,12 +3359,7 @@ i_Piano_Music_Voice = {                                                        %
 
     % [_ Piano_Music_Voice measure 1]                                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."             %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Piano                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Piano"                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \stopStaff                                                                 %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1                           %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \startStaff                                                                %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -4146,12 +4100,7 @@ i_Percussion_Music_Voice = {                                                   %
 
     % [_ Percussion_Music_Voice measure 1]                                     %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."           %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Percussion                                                         %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Percussion"           %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! -PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_BAR_EXTENT
     \stopStaff                                                                 %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1                           %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -4577,12 +4526,7 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 1]                                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vn."             %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Violin                                                             %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Violin"               %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
@@ -5310,12 +5254,7 @@ i_Viola_Music_Voice = {                                                        %
 
     % [_ Viola_Music_Voice measure 1]                                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Va."             %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Viola                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Viola"                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
     \clef "alto"                                                               %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
@@ -5973,12 +5912,7 @@ i_Cello_Music_Voice = {                                                        %
 
     % [_ Cello_Music_Voice measure 1]                                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."             %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Cello                                                              %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Cello"                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
     \clef "bass"                                                               %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
@@ -6629,12 +6563,7 @@ i_Contrabass_Music_Voice = {                                                   %
 
     % [_ Contrabass_Music_Voice measure 1]                                     %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."             %! baca.margin_markup():-PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \markup {                                                                  %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        \hcenter-in                                                            %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            #16                                                                %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-            Contrabass                                                         %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Contrabass"           %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
     \clef "bass"                                                               %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
