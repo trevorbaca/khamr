@@ -326,7 +326,7 @@ maker(
 maker(
     ("perc", (5, 9)),
     baca.dynamic("pp"),
-    baca.markup("bass drum", boxed=True),
+    baca.markup(r'\baca-boxed-markup "bass drum"', literal=True),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
 
@@ -334,13 +334,13 @@ maker(
     ("perc", (10, 29)),
     baca.double_staccato(selector=baca.pheads()),
     baca.dynamic("fff"),
-    baca.markup("castanets", boxed=True),
+    baca.markup(r"\baca-boxed-markup castanets", literal=True),
 )
 
 maker(
     ("perc", (30, 37)),
     baca.dynamic("ppp"),
-    baca.markup("bass drum", boxed=True),
+    baca.markup(r'\baca-boxed-markup "bass drum"', literal=True),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
 

@@ -814,12 +814,7 @@ i_Flute_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \baca-default-indicator-markup "(“BassFlute”)"                           %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():baca.IndicatorCommand._call()
-                L.17                                                           %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup "L.17"                                                %! baca.markup():baca.IndicatorCommand._call()
     ^ \baca-explicit-indicator-markup "[“B. fl.”]"                             %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -938,12 +933,7 @@ i_Flute_Music_Voice = {                                                        %
 
     % [_ Flute_Music_Voice measure 17]                                         %! baca.SegmentMaker._comment_measure_numbers()
     <g' g''>2.
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():baca.IndicatorCommand._call()
-                L.22                                                           %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup "L.22"                                                %! baca.markup():baca.IndicatorCommand._call()
     \repeatTie
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -1467,12 +1457,7 @@ i_Oboe_Music_Voice = {                                                         %
     \set Staff.forceClef = ##t                                                 %! baca.clef():baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():EXPLICIT_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_STAFF_LINES_COLOR
     r2.
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():baca.IndicatorCommand._call()
-                "put reed back in"                                             %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup "put reed back in"                                    %! baca.markup():baca.IndicatorCommand._call()
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
     % [_ Oboe_Music_Voice measure 38]                                          %! baca.SegmentMaker._comment_measure_numbers()
@@ -2195,12 +2180,7 @@ i_Saxophone_Music_Voice = {                                                    %
 
     % [_ Saxophone_Music_Voice measure 37]                                     %! baca.SegmentMaker._comment_measure_numbers()
     e''4.
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():baca.IndicatorCommand._call()
-                W.77                                                           %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup "W.77"                                                %! baca.markup():baca.IndicatorCommand._call()
     \repeatTie
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -4117,12 +4097,7 @@ i_Percussion_Music_Voice = {                                                   %
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-default-indicator-markup "(“Percussion”)"                          %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():baca.IndicatorCommand._call()
-                "XL tam-tam"                                                   %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup "XL tam-tam"                                          %! baca.markup():baca.IndicatorCommand._call()
     ^ \baca-explicit-indicator-markup "[“Perc.”]"                              %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
