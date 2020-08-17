@@ -181,7 +181,7 @@ maker(
 maker(
     ("perc", (8, 15)),
     baca.dynamic("fff"),
-    baca.markup("snare drum", boxed=True),
+    baca.markup(r'\baca-boxed-markup "snare drum"', literal=True),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
 

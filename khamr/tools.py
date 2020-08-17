@@ -714,12 +714,11 @@ def trill_tuplets(
     )
 
 
-def weiss_multiphonic(number: int) -> baca.Markup:
+def weiss_multiphonic(number: int) -> abjad.Markup:
     """
     Makes Weiss multiphonic.
     """
-    string = f"W.{number}"
-    return baca.Markup(string).boxed()
+    return abjad.Markup(rf'\baca-boxed-markup "W.{number}"', literal=True)
 
 
 def wide_third_octave() -> baca.RegisterCommand:

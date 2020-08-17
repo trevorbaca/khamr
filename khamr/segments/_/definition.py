@@ -312,8 +312,8 @@ maker(
     baca.dynamic("pp"),
     baca.flageolet(selector=baca.pheads()),
     baca.markup(
-        "put reed back in",
-        boxed=True,
+        r'\baca-boxed-markup "put reed back in"',
+        literal=True,
         selector=baca.leaf(0),
     ),
     baca.pitch("<A4 E5>"),
@@ -423,7 +423,7 @@ maker(
     baca.staff_lines(1),
     baca.stem_down(),
     khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
-    baca.markup("XL tam-tam", boxed=True),
+    baca.markup(r'\baca-boxed-markup "XL tam-tam"', literal=True),
 )
 
 maker(
