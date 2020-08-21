@@ -200,10 +200,9 @@ class MarimbaHitCommand(baca.Command):
                 continue
             abjad.attach(baca.StaffLines(5), plt.head, tag=tag)
             if self.attach_first_markup and not found_first:
-                string = "marimba + woodblock"
-                markup = abjad.Markup(string, direction=abjad.Up)
-                markup = markup.box().override(("box-padding", 0.75))
-                markup = markup.larger()
+                string = r"""\markup \larger \box \override #'(box-padding . 0.75)"""
+                string += """ "marimba + woodblock" """
+                markup = abjad.Markup(string, literal=True)
                 abjad.attach(markup, plt.head, tag=tag)
                 found_first = True
             abjad.detach(abjad.Articulation, plt.head)
