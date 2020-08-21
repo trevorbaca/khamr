@@ -4158,13 +4158,7 @@ i_Percussion_Music_Voice = {                                                   %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! khamr.MarimbaHitCommand.__call__():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \marcato                                                                 %! khamr.MarimbaHitCommand.__call__()
-    ^ \markup {                                                                %! khamr.MarimbaHitCommand.__call__()
-        \larger                                                                %! khamr.MarimbaHitCommand.__call__()
-            \override                                                          %! khamr.MarimbaHitCommand.__call__()
-                #'(box-padding . 0.75)                                         %! khamr.MarimbaHitCommand.__call__()
-                \box                                                           %! khamr.MarimbaHitCommand.__call__()
-                    "marimba + woodblock"                                      %! khamr.MarimbaHitCommand.__call__()
-        }                                                                      %! khamr.MarimbaHitCommand.__call__()
+    - \markup \larger \box \override #'(box-padding . 0.75) "marimba + woodblock" %! khamr.MarimbaHitCommand.__call__()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
