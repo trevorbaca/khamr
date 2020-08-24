@@ -223,7 +223,10 @@ maker(
     ("fl", (15, 30)),
     baca.dynamic("fff"),
     baca.instrument(khamr.instruments["Flute"]),
-    baca.markup("fluttertongue"),
+    baca.markup(
+        r"\baca-fluttertongue-markup",
+        literal=True,
+    ),
     baca.pitch("B5"),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
@@ -357,7 +360,10 @@ maker(
 maker(
     ("vn", (15, 30)),
     baca.dynamic("fff"),
-    baca.markup("arco ordinario"),
+    baca.markup(
+        r"\baca-arco-ordinario-markup",
+        literal=True,
+    ),
     baca.pitch("A4"),
 )
 
@@ -388,7 +394,10 @@ maker(
 maker(
     ("va", (15, 30)),
     baca.dynamic("fff"),
-    baca.markup("arco ordinario"),
+    baca.markup(
+        r"\baca-arco-ordinario-markup",
+        literal=True,
+    ),
     baca.pitch("G#4"),
 )
 
@@ -415,7 +424,10 @@ maker(
 maker(
     ("vc", (15, 30)),
     baca.dynamic("fff"),
-    baca.markup("arco ordinario"),
+    baca.markup(
+        r"\baca-arco-ordinario-markup",
+        literal=True,
+    ),
     baca.pitch("G3"),
 )
 
@@ -428,8 +440,9 @@ maker(
         baca.glissando(),
     ),
     baca.markup(
-        "III+IV",
+        r"\baca-strings-iii-plus-iv-markup",
         direction=abjad.Down,
+        literal=True,
     ),
     baca.note_head_style_harmonic(),
 )
@@ -437,6 +450,9 @@ maker(
 maker(
     ("cb", (15, 30)),
     baca.dynamic("fff"),
-    baca.markup("arco ordinario"),
+    baca.markup(
+        r"\baca-arco-ordinario-markup",
+        literal=True,
+    ),
     baca.pitch("<G0 A1>"),
 )

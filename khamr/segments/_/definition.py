@@ -269,7 +269,9 @@ maker(
     baca.dynamic("mp"),
     baca.pitch("<G3 G4>"),
     baca.markup(
+        # TODO: make \baca-levine-multiphonic-markup function
         baca.levine_multiphonic(17),
+        literal=True,
     ),
 )
 
@@ -278,6 +280,7 @@ maker(
     baca.pitch("<G#3 G#4>"),
     baca.markup(
         baca.levine_multiphonic(22),
+        literal=True,
     ),
 )
 
@@ -312,7 +315,7 @@ maker(
     baca.dynamic("pp"),
     baca.flageolet(selector=baca.pheads()),
     baca.markup(
-        r'\baca-boxed-markup "put reed back in"',
+        r"\baca-put-reed-back-in-markup",
         literal=True,
         selector=baca.leaf(0),
     ),
@@ -337,7 +340,9 @@ maker(
     baca.dynamic("p"),
     baca.pitch("<F3 G+3>"),
     baca.markup(
+        # TODO: make \baca-weiss-multiphonic-markup function
         khamr.weiss_multiphonic(77),
+        literal=True,
     ),
 )
 
@@ -423,7 +428,10 @@ maker(
     baca.staff_lines(1),
     baca.stem_down(),
     khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
-    baca.markup(r'\baca-boxed-markup "XL tam-tam"', literal=True),
+    baca.markup(
+        r"\baca-xl-tam-tam-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -434,8 +442,9 @@ maker(
         baca.glissando(),
     ),
     baca.markup(
-        "IV",
+        r"\baca-string-iv-markup",
         direction=abjad.Down,
+        literal=True,
     ),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
@@ -448,7 +457,10 @@ maker(
         baca.trill_spanner(alteration="m2"),
         map=baca.plts(),
     ),
-    baca.markup("molto flautando e pont."),
+    baca.markup(
+        r"\baca-molto-flautando-markup",
+        literal=True,
+    ),
     baca.pitches(khamr.color_trill_pitches),
 )
 
@@ -459,8 +471,9 @@ maker(
         baca.glissando(),
     ),
     baca.markup(
-        "III",
+        r"\baca-string-iii-markup",
         direction=abjad.Down,
+        literal=True,
     ),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
@@ -473,7 +486,10 @@ maker(
         baca.trill_spanner(alteration="m2"),
         map=baca.plts(),
     ),
-    baca.markup("molto flautando e pont."),
+    baca.markup(
+        r"\baca-molto-flautando-markup",
+        literal=True,
+    ),
     baca.pitches(khamr.color_trill_pitches),
 )
 
@@ -484,8 +500,9 @@ maker(
         baca.glissando(),
     ),
     baca.markup(
-        "III",
+        r"\baca-string-iii-markup",
         direction=abjad.Down,
+        literal=True,
     ),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
@@ -498,7 +515,10 @@ maker(
         baca.trill_spanner(alteration="m2"),
         map=baca.plts(),
     ),
-    baca.markup("molto flautando e pont."),
+    baca.markup(
+        r"\baca-molto-flautando-markup",
+        literal=True,
+    ),
     baca.pitches(khamr.color_trill_pitches),
 )
 
@@ -510,7 +530,7 @@ maker(
         baca.glissando(),
     ),
     baca.markup(
-        r"\baca-string-iii",
+        r"\baca-string-iii-markup",
         direction=abjad.Down,
         literal=True,
     ),

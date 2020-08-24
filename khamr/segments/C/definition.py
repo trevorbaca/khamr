@@ -181,7 +181,10 @@ maker(
 maker(
     ("perc", (8, 15)),
     baca.dynamic("fff"),
-    baca.markup(r'\baca-boxed-markup "snare drum"', literal=True),
+    baca.markup(
+        r"\baca-snare-drum-markup",
+        literal=True,
+    ),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
 
@@ -212,12 +215,18 @@ maker(
 
 maker(
     (["vn", "va"], (1, 15)),
-    baca.markup("bow on wooden mute"),
+    baca.markup(
+        r"\baca-bow-on-wooden-mute-markup",
+        literal=True,
+    ),
 )
 
 maker(
     (["vc", "cb"], (1, 15)),
-    baca.markup("bow on tailpiece"),
+    baca.markup(
+        r"\baca-bow-on-tailpiece-markup",
+        literal=True,
+    ),
 )
 
 maker(

@@ -696,7 +696,7 @@ A_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { fluttertongue }                                                %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-fluttertongue-markup                                               %! baca.markup():baca.IndicatorCommand._call()
     ^ \baca-explicit-indicator-markup "(“Flute”)"                              %! EXPLICIT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
 
     % [A Flute_Music_Voice measure 60 / measure 16]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -3147,7 +3147,7 @@ A_Violin_Music_Voice = {                                                       %
     a'1.                                                                       %! khamr.alternate_divisions()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "arco ordinario" }                                             %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-arco-ordinario-markup                                              %! baca.markup():baca.IndicatorCommand._call()
 
     % [A Violin_Music_Voice measure 60 / measure 16]                           %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! khamr.alternate_divisions()
@@ -3591,7 +3591,7 @@ A_Viola_Music_Voice = {                                                        %
     gs'!1.                                                                     %! khamr.alternate_divisions()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "arco ordinario" }                                             %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-arco-ordinario-markup                                              %! baca.markup():baca.IndicatorCommand._call()
 
     % [A Viola_Music_Voice measure 60 / measure 16]                            %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! khamr.alternate_divisions()
@@ -3918,7 +3918,7 @@ A_Cello_Music_Voice = {                                                        %
     g1.                                                                        %! khamr.alternate_divisions()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "arco ordinario" }                                             %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-arco-ordinario-markup                                              %! baca.markup():baca.IndicatorCommand._call()
 
     % [A Cello_Music_Voice measure 60 / measure 16]                            %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! khamr.alternate_divisions()
@@ -4056,7 +4056,7 @@ A_Contrabass_Music_Voice = {                                                   %
     \mf                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \baca-reapplied-indicator-markup "[“Cb.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                        %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    _ \markup { III+IV }                                                       %! baca.markup():baca.IndicatorCommand._call()
+    _ \baca-strings-iii-plus-iv-markup                                         %! baca.markup():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -4191,7 +4191,7 @@ A_Contrabass_Music_Voice = {                                                   %
     <g,, a,>1.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup { "arco ordinario" }                                             %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-arco-ordinario-markup                                              %! baca.markup():baca.IndicatorCommand._call()
 
     % [A Contrabass_Music_Voice measure 60 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! khamr.alternate_divisions()

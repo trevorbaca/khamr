@@ -287,7 +287,10 @@ maker(
     ("sax", (34, 37)),
     baca.clef("percussion"),
     baca.dynamic("pp"),
-    baca.markup("airtone"),
+    baca.markup(
+        r"\baca-airtone-markup",
+        literal=True,
+    ),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -326,7 +329,10 @@ maker(
 maker(
     ("perc", (5, 9)),
     baca.dynamic("pp"),
-    baca.markup(r'\baca-boxed-markup "bass drum"', literal=True),
+    baca.markup(
+        r"\baca-bass-drum-markup",
+        literal=True,
+    ),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
 
@@ -334,13 +340,19 @@ maker(
     ("perc", (10, 29)),
     baca.double_staccato(selector=baca.pheads()),
     baca.dynamic("fff"),
-    baca.markup(r"\baca-boxed-markup castanets", literal=True),
+    baca.markup(
+        r"\baca-castanets-markup",
+        literal=True,
+    ),
 )
 
 maker(
     ("perc", (30, 37)),
     baca.dynamic("ppp"),
-    baca.markup(r'\baca-boxed-markup "bass drum"', literal=True),
+    baca.markup(
+        r"\baca-bass-drum-markup",
+        literal=True,
+    ),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
 
@@ -358,7 +370,10 @@ maker(
     (["vn", "va", "vc"], (3, 29)),
     baca.pitches(khamr.rose_pitch_classes.invert().transpose(6)),
     baca.glissando(),
-    baca.markup("estr. sul pont."),
+    baca.markup(
+        r"\baca-estr-sul-pont-markup",
+        literal=True,
+    ),
     baca.note_head_style_harmonic(),
     khamr.narrow_fourth_octave(),
 )
@@ -416,12 +431,18 @@ maker(
 maker(
     ("cb", (10, 25)),
     baca.dynamic("fff"),
-    baca.markup("estr. sul pont."),
+    baca.markup(
+        r"\baca-estr-sul-pont-markup",
+        literal=True,
+    ),
 )
 
 maker(
     ("cb", (26, 37)),
-    baca.markup("arco ordinario"),
+    baca.markup(
+        r"\baca-arco-ordinario-markup",
+        literal=True,
+    ),
 )
 
 maker(
