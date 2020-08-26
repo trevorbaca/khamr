@@ -38,10 +38,28 @@ maker(
     baca.rehearsal_mark("A"),
 )
 
-stage_5_silence_pattern = abjad.index([
-    0, 2, 4, 5, 7, 8, 9, 11, 13,
-    15, 16, 17, 19, 20, 21, 23, 24, 26,
-])
+stage_5_silence_pattern = abjad.index(
+    [
+        0,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        23,
+        24,
+        26,
+    ]
+)
 
 # fl
 
