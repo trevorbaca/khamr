@@ -69,7 +69,7 @@
 
         \override VerticalAxisGroup.default-staff-staff-spacing = #'(
             (basic-distance . 0)
-            (minimum-distance . 12) % distance below time signature context
+            (minimum-distance . 12)
             (padding . 0)
             (stretchability . 0)
         )
