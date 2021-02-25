@@ -451,7 +451,7 @@ maker(
     baca.dynamic("mp"),
     baca.pitch("G0"),
     baca.trill_spanner(
-        alteration="F3",
+        alteration="F2",
         harmonic=True,
     ),
     baca.markup(
