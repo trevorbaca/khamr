@@ -2536,7 +2536,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2546,14 +2546,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2569,7 +2569,7 @@ a_Guitar_Music_Voice = {                                                       %
     \times 1/1 {                                                               %! khamr.guitar_accelerandi()
 
         % [01 Guitar_Music_Voice measure 25]                                   %! baca.SegmentMaker._comment_measure_numbers()
-        \override TupletBracket.staff-padding = #4                             %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
+        \override TupletBracket.staff-padding = 4                              %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
         \once \override Beam.grow-direction = #right
         cs''!16 * 117/16                                                       %! khamr.guitar_accelerandi()
         ^ \khamr-move-towards-the-bridge                                       %! baca.markup():baca.IndicatorCommand._call()
@@ -2596,7 +2596,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2606,14 +2606,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2664,7 +2664,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2674,14 +2674,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2732,7 +2732,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2742,14 +2742,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2791,7 +2791,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2801,14 +2801,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2867,7 +2867,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2877,14 +2877,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2926,7 +2926,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2936,14 +2936,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2997,7 +2997,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -3007,14 +3007,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -3064,7 +3064,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -3074,14 +3074,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -3128,7 +3128,7 @@ a_Guitar_Music_Voice = {                                                       %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -3138,14 +3138,14 @@ a_Guitar_Music_Voice = {                                                       %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -3496,7 +3496,7 @@ a_Piano_Music_Voice = {                                                        %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -3506,14 +3506,14 @@ a_Piano_Music_Voice = {                                                        %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -3589,7 +3589,7 @@ a_Piano_Music_Voice = {                                                        %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -3599,14 +3599,14 @@ a_Piano_Music_Voice = {                                                        %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -3660,7 +3660,7 @@ a_Piano_Music_Voice = {                                                        %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -3670,14 +3670,14 @@ a_Piano_Music_Voice = {                                                        %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -3743,7 +3743,7 @@ a_Piano_Music_Voice = {                                                        %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -3753,14 +3753,14 @@ a_Piano_Music_Voice = {                                                        %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -3814,7 +3814,7 @@ a_Piano_Music_Voice = {                                                        %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -3824,14 +3824,14 @@ a_Piano_Music_Voice = {                                                        %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -3943,9 +3943,9 @@ a_Piano_Music_Voice = {                                                        %
     ^ \khamr-sparse-piano-clicks-markup                                        %! baca.markup():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
