@@ -1,6 +1,95 @@
-% Al-kitab al-khamr (2015)
-\include "/Users/trevorbaca/baca/lilypond/baca.ily"
+#(set-default-paper-size "11x17" 'portrait)
+#(set-global-staff-size 11)
 
+\include "/Users/trevorbaca/baca/lilypond/baca.ily"
+\include "contexts.ily"
+\include "markups.ily"
+
+\paper {
+    %bottom-margin = 10\mm
+    evenFooterMarkup = \markup \fill-line {
+        " "
+        \concat {
+            \bold \fontsize #3
+            \on-the-fly #print-page-number-check-first
+            \fromproperty #'page:page-number-string
+        }
+        " "
+    }
+    evenHeaderMarkup = \markup \fill-line { " " }
+    left-margin = 30\mm
+    oddFooterMarkup = \markup \fill-line {
+        " "
+        \concat {
+            \bold \fontsize #3
+            \on-the-fly #print-page-number-check-first
+            \fromproperty #'page:page-number-string
+        }
+        " "
+    }
+    oddHeaderMarkup = \markup \fill-line { " " }
+    print-first-page-number = ##f
+    print-page-number = ##t
+    ragged-bottom = ##t
+    ragged-last-bottom = ##t
+    right-margin = 20\mm
+    markup-system-spacing = #'(
+        (basic-distance . 0)
+        (minimum-distance . 40)
+        (padding . 0)
+        (stretchability . 0)
+    )
+    system-system-spacing = #'(
+        (basic-distance . 0)
+        (minimum-distance . 14)
+        (padding . 0)
+        (stretchability . 0)
+    )
+    %top-markup-spacing = #'(
+    %    (basic-distance . 0)
+    %    (minimum-distance . 0)
+    %    (padding . 8)
+    %    (stretchability . 0)
+    %)
+    top-system-spacing = #'(
+        (basic-distance . 0)
+        (minimum-distance . 26)
+        (padding . 0)
+        (stretchability . 0)
+    )
+    top-margin = 15\mm
+}
+
+\header {
+    composer = \markup {
+        \override #'(font-name . "Palatino")
+        \fontsize #3 "Trevor Bača"
+    }
+    tagline = \markup { "" }
+    title = \markup \column {
+        \center-align {
+            \override #'(font-name . "Palatino")
+            \fontsize #14 {
+               \line { AL-KITAB AL-KHAMR }
+            }
+            " "
+            \override #'(font-name . "Palatino Italic")
+            \fontsize #3 {
+               " for Ensemble Dal Niente "
+            }
+        }
+    }
+}
+
+\layout {
+    \accidentalStyle neo-modern
+    indent = 5
+    ragged-bottom = ##t
+    ragged-last = ##t
+    ragged-right = ##t
+}
+
+%%% CONTEXTS
 
 \layout {
 
@@ -192,3 +281,74 @@
         tupletFullLength = ##t
     }
 }
+
+%%% COLOPHON %%%
+
+khamr-colophon-markup = \markup {
+    \override #'(font-name . "Palatino")
+    \with-color #black
+    \override #'(baseline-skip . 4)
+    \right-column {
+        \line { Cambridge, Mass. }
+        \line { Jan. \hspace #0.75 – \hspace #0.75 Apr. 2015. }
+        }
+    }
+
+%%% DIRECTIVES %%%
+
+khamr-airtone-without-reed = \markup
+    "airtone without reed: mix inhales and exhales ad lib."
+
+khamr-covered-flute-airtone = \markup
+    \column {
+        "airtone with lips covering mouthplate"
+        "(sounds major 7th lower)"
+    }
+
+khamr-emphasize-multiphonics = \markup
+    "emphasize multiphonics and unstable harmonics prominently throughout"
+
+khamr-guitar-with-screw = \markup
+    \column {
+      "draw metal screw back and forth slowly across string;"
+      "continuous loud sound"
+    }
+
+khamr-half-harmonics-explanation = \markup
+    "cross noteheads indicate half-harmonics"
+
+khamr-match-guitar-dynamic-levels = \markup
+    "match dynamic levels of guitar"
+
+khamr-move-towards-the-bridge = \markup
+    "move towards (and then back away from) the bridge at the center of each accelerando"
+
+khamr-scodanibbio = \markup
+    "Shape trill dynamics beautifully. (Thank you, Stefano.)"
+
+khamr-sparse-cello-clicks = \markup
+    \column {
+      "sparse, individual clicks with extremely slow bow"
+      "(1-2/sec. in irregular rhythm)"
+    }
+
+khamr-sparse-guitar-clicks = \markup
+    \column {
+      "sparse, individual clicks with nail or pick laterally up string"
+      "(1-2/sec. in irregular rhythm)"
+    }
+
+khamr-sparse-piano-clicks-markup = \markup
+  \column {
+    \line {
+      sparse, individual clicks with credit card on C
+      \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string
+    }
+    \line { "(1-2/sec. in irregular rhythm)" }
+  }
+
+khamr-strike-lowest-strings = \markup
+    "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)"
+
+khamr-XL-tam-tam = \markup
+    "XL tam-tam"
