@@ -1,9 +1,9 @@
 import distutils.version
 import platform
 
-from .ScoreTemplate import ScoreTemplate
 from .tools import (
     MarimbaHitCommand,
+    ScoreTemplate,
     alternate_divisions,
     aviary,
     cello_halo_pitches,
