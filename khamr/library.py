@@ -720,6 +720,9 @@ def wide_third_octave() -> baca.RegisterCommand:
 class ScoreTemplate(baca.ScoreTemplate):
     """
     Score template.
+
+    >>> import khamr
+
     """
 
     ### CLASS VARIABLES ###

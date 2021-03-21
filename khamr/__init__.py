@@ -1,7 +1,7 @@
 import distutils.version
 import platform
 
-from .tools import (
+from .library import (
     MarimbaHitCommand,
     ScoreTemplate,
     alternate_divisions,
