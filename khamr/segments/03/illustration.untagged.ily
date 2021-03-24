@@ -513,7 +513,8 @@ c_Flute_Music_Voice = {
     R1 * 1
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [03 Flute_Music_Voice measure 84 / measure 10]
         d'''16
@@ -540,7 +541,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -564,7 +566,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -588,7 +591,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -612,7 +616,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [03 Flute_Music_Voice measure 86 / measure 12]
         d'''16
@@ -637,7 +642,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -661,7 +667,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -685,7 +692,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -709,7 +717,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -733,7 +742,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -757,7 +767,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -781,7 +792,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -805,7 +817,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -829,7 +842,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -853,7 +867,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -877,7 +892,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -901,7 +917,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -925,7 +942,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -949,7 +967,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -973,7 +992,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -997,7 +1017,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1021,7 +1042,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1045,7 +1067,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1069,7 +1092,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1093,7 +1117,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1117,7 +1142,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1141,7 +1167,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1165,7 +1192,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1189,7 +1217,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1213,7 +1242,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1237,7 +1267,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1261,7 +1292,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1285,7 +1317,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [03 Flute_Music_Voice measure 100 / measure 26]
         d'''16
@@ -1310,7 +1343,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1334,7 +1368,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1358,7 +1393,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1382,7 +1418,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1406,7 +1443,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1430,7 +1468,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1454,7 +1493,8 @@ c_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         d'''16
         - \accent
@@ -1477,7 +1517,8 @@ c_Flute_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         d'''16
         - \accent
@@ -1682,7 +1723,8 @@ c_Oboe_Music_Voice = {
     R1 * 1
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [03 Oboe_Music_Voice measure 84 / measure 10]
         c'''16
@@ -1706,7 +1748,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1726,7 +1769,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1746,7 +1790,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1766,7 +1811,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1786,7 +1832,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1806,7 +1853,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1826,7 +1874,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1846,7 +1895,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1866,7 +1916,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1886,7 +1937,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1906,7 +1958,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1926,7 +1979,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [03 Oboe_Music_Voice measure 88 / measure 14]
         c'''16
@@ -1947,7 +2001,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1967,7 +2022,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -1987,7 +2043,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2007,7 +2064,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2027,7 +2085,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2047,7 +2106,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2067,7 +2127,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2087,7 +2148,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [03 Oboe_Music_Voice measure 91 / measure 17]
         c'''16
@@ -2108,7 +2170,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2128,7 +2191,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2148,7 +2212,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2168,7 +2233,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [03 Oboe_Music_Voice measure 92 / measure 18]
         c'''16
@@ -2189,7 +2255,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2209,7 +2276,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2229,7 +2297,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2249,7 +2318,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2269,7 +2339,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2289,7 +2360,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2309,7 +2381,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2329,7 +2402,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2349,7 +2423,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2369,7 +2444,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2389,7 +2465,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2409,7 +2486,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [03 Oboe_Music_Voice measure 96 / measure 22]
         c'''16
@@ -2430,7 +2508,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2450,7 +2529,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2470,7 +2550,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2490,7 +2571,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [03 Oboe_Music_Voice measure 98 / measure 24]
         c'''16
@@ -2511,7 +2593,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2531,7 +2614,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2551,7 +2635,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2571,7 +2656,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2591,7 +2677,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2611,7 +2698,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2631,7 +2719,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2651,7 +2740,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2671,7 +2761,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2691,7 +2782,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2711,7 +2803,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2731,7 +2824,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2751,7 +2845,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2771,7 +2866,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2791,7 +2887,8 @@ c_Oboe_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         c'''16
         - \accent
@@ -2810,7 +2907,8 @@ c_Oboe_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         c'''16
         - \accent
@@ -3009,7 +3107,8 @@ c_Clarinet_Music_Voice = {
     % [03 Clarinet_Music_Voice measure 83 / measure 9]
     R1 * 1
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 84 / measure 10]
         e'''16
@@ -3038,7 +3137,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3063,7 +3163,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3088,7 +3189,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3113,7 +3215,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3138,7 +3241,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3163,7 +3267,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 87 / measure 13]
         e'''16
@@ -3189,7 +3294,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3214,7 +3320,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3239,7 +3346,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3264,7 +3372,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3289,7 +3398,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3314,7 +3424,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3339,7 +3450,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3364,7 +3476,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3389,7 +3502,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 92 / measure 18]
         e'''16
@@ -3415,7 +3529,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3440,7 +3555,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3465,7 +3581,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3490,7 +3607,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3515,7 +3633,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3540,7 +3659,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3565,7 +3685,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3590,7 +3711,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3615,7 +3737,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3640,7 +3763,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 98 / measure 24]
         e'''16
@@ -3666,7 +3790,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3691,7 +3816,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 99 / measure 25]
         e'''16
@@ -3717,7 +3843,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 100 / measure 26]
         e'''16
@@ -3743,7 +3870,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 101 / measure 27]
         e'''16
@@ -3769,7 +3897,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3794,7 +3923,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3819,7 +3949,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 102 / measure 28]
         e'''16
@@ -3845,7 +3976,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         e'''16
         - \accent
@@ -3870,7 +4002,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [03 Clarinet_Music_Voice measure 103 / measure 29]
         e'''16
@@ -3896,7 +4029,8 @@ c_Clarinet_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         e'''16
         - \accent
@@ -4098,7 +4232,8 @@ c_Saxophone_Music_Voice = {
     R1 * 1
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Saxophone_Music_Voice measure 84 / measure 10]
         a''16
@@ -4124,7 +4259,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4146,7 +4282,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Saxophone_Music_Voice measure 85 / measure 11]
         a''16
@@ -4169,7 +4306,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4191,7 +4329,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4213,7 +4352,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4235,7 +4375,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4257,7 +4398,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4279,7 +4421,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Saxophone_Music_Voice measure 87 / measure 13]
         a''16
@@ -4302,7 +4445,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4324,7 +4468,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Saxophone_Music_Voice measure 88 / measure 14]
         a''16
@@ -4347,7 +4492,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4369,7 +4515,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4391,7 +4538,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4413,7 +4561,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4435,7 +4584,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4457,7 +4607,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4479,7 +4630,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4501,7 +4653,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4523,7 +4676,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4545,7 +4699,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Saxophone_Music_Voice measure 92 / measure 18]
         a''16
@@ -4568,7 +4723,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4590,7 +4746,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Saxophone_Music_Voice measure 93 / measure 19]
         a''16
@@ -4613,7 +4770,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4635,7 +4793,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4657,7 +4816,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4679,7 +4839,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4701,7 +4862,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4723,7 +4885,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4745,7 +4908,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4767,7 +4931,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Saxophone_Music_Voice measure 96 / measure 22]
         a''16
@@ -4790,7 +4955,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4812,7 +4978,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4834,7 +5001,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4856,7 +5024,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4878,7 +5047,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4900,7 +5070,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Saxophone_Music_Voice measure 99 / measure 25]
         a''16
@@ -4923,7 +5094,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4945,7 +5117,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4967,7 +5140,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -4989,7 +5163,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -5011,7 +5186,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -5033,7 +5209,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -5055,7 +5232,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -5077,7 +5255,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -5099,7 +5278,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -5121,7 +5301,8 @@ c_Saxophone_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         a''16
         - \accent
@@ -5142,7 +5323,8 @@ c_Saxophone_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''16
         - \accent
@@ -5637,7 +5819,8 @@ c_Piano_Music_Voice = {
     f''''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''''8
         [
@@ -5649,7 +5832,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Piano_Music_Voice measure 77 / measure 3]
         a'''16.
@@ -5666,7 +5850,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f''''16.
         [
@@ -5682,7 +5867,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         e''''16.
         [
@@ -5705,7 +5891,8 @@ c_Piano_Music_Voice = {
     ef''''!8
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Piano_Music_Voice measure 78 / measure 4]
         f''''8
@@ -5738,7 +5925,8 @@ c_Piano_Music_Voice = {
     d''''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Piano_Music_Voice measure 79 / measure 5]
         e''''8
@@ -5753,7 +5941,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g'''8
         [
@@ -5765,7 +5954,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         a'''16
         [
@@ -5781,7 +5971,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         df''''!16
         [
@@ -5797,7 +5988,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Piano_Music_Voice measure 80 / measure 6]
         df''''!16.
@@ -5814,7 +6006,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         d''''16.
         [
@@ -5830,7 +6023,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Piano_Music_Voice measure 81 / measure 7]
         e''''16
@@ -5877,7 +6071,8 @@ c_Piano_Music_Voice = {
     df''''!16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Piano_Music_Voice measure 82 / measure 8]
         ef''''!8
@@ -5890,7 +6085,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fs'''!16
         [
@@ -5906,7 +6102,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f''''16
         [
@@ -5922,7 +6119,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         bf'''!16
         [
@@ -5938,7 +6136,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''''8
         [
@@ -5950,7 +6149,8 @@ c_Piano_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Piano_Music_Voice measure 83 / measure 9]
         e''''8
@@ -5983,7 +6183,8 @@ c_Piano_Music_Voice = {
     c''''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         df''''!8
         [
@@ -5997,7 +6198,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         % [03 Piano_Music_Voice measure 84 / measure 10]
         c'''16
@@ -6030,7 +6232,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6060,7 +6263,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6090,7 +6294,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6120,7 +6325,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6150,7 +6356,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6180,7 +6387,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6210,7 +6418,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6240,7 +6449,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6270,7 +6480,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6300,7 +6511,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6330,7 +6542,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6360,7 +6573,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6390,7 +6604,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6420,7 +6635,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6450,7 +6666,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6480,7 +6697,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6510,7 +6728,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6540,7 +6759,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6570,7 +6790,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6600,7 +6821,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         % [03 Piano_Music_Voice measure 96 / measure 22]
         c'''16
@@ -6631,7 +6853,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6661,7 +6884,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6691,7 +6915,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6721,7 +6946,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         % [03 Piano_Music_Voice measure 99 / measure 25]
         c'''16
@@ -6752,7 +6978,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6782,7 +7009,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6812,7 +7040,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6842,7 +7071,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6872,7 +7102,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6902,7 +7133,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    \times 9/11
+    {
 
         c'''16
         - \accent
@@ -6932,7 +7164,8 @@ c_Piano_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 5/7
+    {
 
         c'''16
         - \accent
@@ -7526,7 +7759,8 @@ c_Violin_Music_Voice = {
     gf'!2.
     \glissando
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Violin_Music_Voice measure 79 / measure 5]
         bff'!2.
@@ -7545,7 +7779,8 @@ c_Violin_Music_Voice = {
     dff'!2.
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Violin_Music_Voice measure 81 / measure 7]
         cf'!1
@@ -7557,7 +7792,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/9 {
+    \times 5/9
+    {
 
         % [03 Violin_Music_Voice measure 82 / measure 8]
         ff'!2.
@@ -7568,7 +7804,8 @@ c_Violin_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [03 Violin_Music_Voice measure 83 / measure 9]
         gff'!1
@@ -7602,7 +7839,8 @@ c_Violin_Music_Voice = {
     df'!2.
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Violin_Music_Voice measure 88 / measure 14]
         ff'!4
@@ -7614,7 +7852,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Violin_Music_Voice measure 89 / measure 15]
         cf'!1
@@ -7625,7 +7864,8 @@ c_Violin_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [03 Violin_Music_Voice measure 90 / measure 16]
         bff'!4.
@@ -7649,7 +7889,8 @@ c_Violin_Music_Voice = {
     aff'!2.
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Violin_Music_Voice measure 93 / measure 19]
         df'!1
@@ -7664,7 +7905,8 @@ c_Violin_Music_Voice = {
     bf!1.
     \glissando
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [03 Violin_Music_Voice measure 95 / measure 21]
         eff'!2
@@ -7675,7 +7917,8 @@ c_Violin_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [03 Violin_Music_Voice measure 96 / measure 22]
         gff'!4.
@@ -7687,7 +7930,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [03 Violin_Music_Voice measure 97 / measure 23]
         bff'!2.
@@ -7706,7 +7950,8 @@ c_Violin_Music_Voice = {
     ef'!2
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Violin_Music_Voice measure 100 / measure 26]
         gff'!4
@@ -7721,7 +7966,8 @@ c_Violin_Music_Voice = {
     df'!1.
     \glissando
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [03 Violin_Music_Voice measure 102 / measure 28]
         af'!2.
@@ -7733,7 +7979,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [03 Violin_Music_Voice measure 103 / measure 29]
         bff'!2.
@@ -7856,7 +8103,8 @@ c_Viola_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [03 Viola_Music_Voice measure 77 / measure 3]
         \override NoteHead.style = #'harmonic
@@ -7895,7 +8143,8 @@ c_Viola_Music_Voice = {
     \glissando
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 5/7
+    {
 
         % [03 Viola_Music_Voice measure 82 / measure 8]
         ff'!2.
@@ -7906,7 +8155,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Viola_Music_Voice measure 83 / measure 9]
         gff'!2.
@@ -7920,7 +8170,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [03 Viola_Music_Voice measure 84 / measure 10]
         bff'!2
@@ -7947,7 +8198,8 @@ c_Viola_Music_Voice = {
     \glissando
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Viola_Music_Voice measure 87 / measure 13]
         df'!2
@@ -7963,7 +8215,8 @@ c_Viola_Music_Voice = {
     \glissando
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [03 Viola_Music_Voice measure 89 / measure 15]
         cf'!1.
@@ -7974,7 +8227,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Viola_Music_Voice measure 90 / measure 16]
         bff'!4
@@ -7986,7 +8240,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/9 {
+    \times 5/9
+    {
 
         % [03 Viola_Music_Voice measure 91 / measure 17]
         gff'!1.
@@ -8006,7 +8261,8 @@ c_Viola_Music_Voice = {
     \glissando
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Viola_Music_Voice measure 94 / measure 20]
         bf!2.
@@ -8021,7 +8277,8 @@ c_Viola_Music_Voice = {
     ff'!2
     \glissando
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Viola_Music_Voice measure 96 / measure 22]
         gff'!4
@@ -8039,7 +8296,8 @@ c_Viola_Music_Voice = {
     aff'!4
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 98 / measure 24]
         bff'!2
@@ -8059,7 +8317,8 @@ c_Viola_Music_Voice = {
     \glissando
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [03 Viola_Music_Voice measure 101 / measure 27]
         df'!1.
@@ -8222,7 +8481,8 @@ c_Cello_Music_Voice = {
     cf'!2.
     \glissando
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Cello_Music_Voice measure 81 / measure 7]
         af'!2.
@@ -8242,7 +8502,8 @@ c_Cello_Music_Voice = {
     \repeatTie
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Cello_Music_Voice measure 83 / measure 9]
         gff'!1
@@ -8264,7 +8525,8 @@ c_Cello_Music_Voice = {
     af'!2
     \glissando
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [03 Cello_Music_Voice measure 85 / measure 11]
         bf!1
@@ -8288,7 +8550,8 @@ c_Cello_Music_Voice = {
     ff'!2.
     \glissando
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Cello_Music_Voice measure 88 / measure 14]
         dff'!4
@@ -8303,7 +8566,8 @@ c_Cello_Music_Voice = {
     af'!1.
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Cello_Music_Voice measure 90 / measure 16]
         bff'!4
@@ -8315,7 +8579,8 @@ c_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 5/7
+    {
 
         % [03 Cello_Music_Voice measure 91 / measure 17]
         gff'!1
@@ -8327,7 +8592,8 @@ c_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Cello_Music_Voice measure 92 / measure 18]
         df'!4.
@@ -8346,7 +8612,8 @@ c_Cello_Music_Voice = {
     eff'!1.
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Cello_Music_Voice measure 95 / measure 21]
         ff'!2
@@ -8362,7 +8629,8 @@ c_Cello_Music_Voice = {
     \glissando
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [03 Cello_Music_Voice measure 97 / measure 23]
         bff'!2
@@ -8373,7 +8641,8 @@ c_Cello_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [03 Cello_Music_Voice measure 98 / measure 24]
         bff'!2.
@@ -8384,7 +8653,8 @@ c_Cello_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Cello_Music_Voice measure 99 / measure 25]
         gff'!4.
@@ -8403,7 +8673,8 @@ c_Cello_Music_Voice = {
     af'!1.
     \glissando
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Cello_Music_Voice measure 102 / measure 28]
         bf!2

@@ -787,7 +787,8 @@ c_Flute_Music_Voice = {                                                        %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Flute_Music_Voice measure 84 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
         d'''16                                                                 %! khamr.aviary()
@@ -814,7 +815,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -838,7 +840,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -862,7 +865,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -886,7 +890,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Flute_Music_Voice measure 86 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
         d'''16                                                                 %! khamr.aviary()
@@ -911,7 +916,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -935,7 +941,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -959,7 +966,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -983,7 +991,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1007,7 +1016,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1031,7 +1041,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1055,7 +1066,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1079,7 +1091,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1103,7 +1116,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1127,7 +1141,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1151,7 +1166,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1175,7 +1191,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1199,7 +1216,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1223,7 +1241,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1247,7 +1266,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1271,7 +1291,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1295,7 +1316,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1319,7 +1341,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1343,7 +1366,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1367,7 +1391,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1391,7 +1416,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1415,7 +1441,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1439,7 +1466,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1463,7 +1491,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1487,7 +1516,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1511,7 +1541,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1535,7 +1566,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1559,7 +1591,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Flute_Music_Voice measure 100 / measure 26]                      %! baca.SegmentMaker._comment_measure_numbers()
         d'''16                                                                 %! khamr.aviary()
@@ -1584,7 +1617,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1608,7 +1642,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1632,7 +1667,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1656,7 +1692,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1680,7 +1717,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1704,7 +1742,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1728,7 +1767,8 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 7/8 {                                                               %! khamr.aviary()
+    \times 7/8                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1751,7 +1791,8 @@ c_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.aviary()
 
-    \times 4/5 {                                                               %! khamr.aviary()
+    \times 4/5                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -1975,7 +2016,8 @@ c_Oboe_Music_Voice = {                                                         %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 84 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -1999,7 +2041,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2019,7 +2062,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2039,7 +2083,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2059,7 +2104,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2079,7 +2125,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2099,7 +2146,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2119,7 +2167,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2139,7 +2188,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2159,7 +2209,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2179,7 +2230,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2199,7 +2251,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2219,7 +2272,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 88 / measure 14]                        %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -2240,7 +2294,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2260,7 +2315,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2280,7 +2336,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2300,7 +2357,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2320,7 +2378,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2340,7 +2399,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2360,7 +2420,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2380,7 +2441,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 91 / measure 17]                        %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -2401,7 +2463,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2421,7 +2484,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2441,7 +2505,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2461,7 +2526,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 92 / measure 18]                        %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -2482,7 +2548,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2502,7 +2569,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2522,7 +2590,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2542,7 +2611,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2562,7 +2632,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2582,7 +2653,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2602,7 +2674,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2622,7 +2695,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2642,7 +2716,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2662,7 +2737,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2682,7 +2758,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2702,7 +2779,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 96 / measure 22]                        %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -2723,7 +2801,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2743,7 +2822,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2763,7 +2843,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2783,7 +2864,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 98 / measure 24]                        %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -2804,7 +2886,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2824,7 +2907,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2844,7 +2928,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2864,7 +2949,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2884,7 +2970,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2904,7 +2991,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2924,7 +3012,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2944,7 +3033,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2964,7 +3054,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -2984,7 +3075,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3004,7 +3096,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3024,7 +3117,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3044,7 +3138,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3064,7 +3159,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3084,7 +3180,8 @@ c_Oboe_Music_Voice = {                                                         %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/6 {                                                               %! khamr.aviary()
+    \times 5/6                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3103,7 +3200,8 @@ c_Oboe_Music_Voice = {                                                         %
 
     }                                                                          %! khamr.aviary()
 
-    \times 4/5 {                                                               %! khamr.aviary()
+    \times 4/5                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3322,7 +3420,8 @@ c_Clarinet_Music_Voice = {                                                     %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 84 / measure 10]                    %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -3351,7 +3450,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3376,7 +3476,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3401,7 +3502,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3426,7 +3528,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3451,7 +3554,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3476,7 +3580,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 87 / measure 13]                    %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -3502,7 +3607,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3527,7 +3633,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3552,7 +3659,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3577,7 +3685,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3602,7 +3711,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3627,7 +3737,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3652,7 +3763,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3677,7 +3789,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3702,7 +3815,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 92 / measure 18]                    %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -3728,7 +3842,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3753,7 +3868,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3778,7 +3894,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3803,7 +3920,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3828,7 +3946,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3853,7 +3972,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3878,7 +3998,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3903,7 +4024,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3928,7 +4050,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -3953,7 +4076,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 98 / measure 24]                    %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -3979,7 +4103,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4004,7 +4129,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 99 / measure 25]                    %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -4030,7 +4156,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 100 / measure 26]                   %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -4056,7 +4183,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 101 / measure 27]                   %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -4082,7 +4210,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4107,7 +4236,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4132,7 +4262,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 102 / measure 28]                   %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -4158,7 +4289,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4183,7 +4315,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 8/9 {                                                               %! khamr.aviary()
+    \times 8/9                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 103 / measure 29]                   %! baca.SegmentMaker._comment_measure_numbers()
         e'''16                                                                 %! khamr.aviary()
@@ -4209,7 +4342,8 @@ c_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! khamr.aviary()
 
-    \times 4/5 {                                                               %! khamr.aviary()
+    \times 4/5                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4428,7 +4562,8 @@ c_Saxophone_Music_Voice = {                                                    %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 84 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         a''16                                                                  %! khamr.aviary()
@@ -4454,7 +4589,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4476,7 +4612,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 85 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         a''16                                                                  %! khamr.aviary()
@@ -4499,7 +4636,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4521,7 +4659,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4543,7 +4682,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4565,7 +4705,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4587,7 +4728,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4609,7 +4751,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 87 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         a''16                                                                  %! khamr.aviary()
@@ -4632,7 +4775,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4654,7 +4798,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 88 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         a''16                                                                  %! khamr.aviary()
@@ -4677,7 +4822,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4699,7 +4845,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4721,7 +4868,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4743,7 +4891,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4765,7 +4914,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4787,7 +4937,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4809,7 +4960,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4831,7 +4983,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4853,7 +5006,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4875,7 +5029,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 92 / measure 18]                   %! baca.SegmentMaker._comment_measure_numbers()
         a''16                                                                  %! khamr.aviary()
@@ -4898,7 +5053,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4920,7 +5076,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 93 / measure 19]                   %! baca.SegmentMaker._comment_measure_numbers()
         a''16                                                                  %! khamr.aviary()
@@ -4943,7 +5100,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4965,7 +5123,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -4987,7 +5146,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5009,7 +5169,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5031,7 +5192,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5053,7 +5215,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5075,7 +5238,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5097,7 +5261,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 96 / measure 22]                   %! baca.SegmentMaker._comment_measure_numbers()
         a''16                                                                  %! khamr.aviary()
@@ -5120,7 +5285,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5142,7 +5308,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5164,7 +5331,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5186,7 +5354,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5208,7 +5377,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5230,7 +5400,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 99 / measure 25]                   %! baca.SegmentMaker._comment_measure_numbers()
         a''16                                                                  %! khamr.aviary()
@@ -5253,7 +5424,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5275,7 +5447,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5297,7 +5470,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5319,7 +5493,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5341,7 +5516,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5363,7 +5539,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5385,7 +5562,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5407,7 +5585,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5429,7 +5608,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5451,7 +5631,8 @@ c_Saxophone_Music_Voice = {                                                    %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 6/7 {                                                               %! khamr.aviary()
+    \times 6/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -5472,7 +5653,8 @@ c_Saxophone_Music_Voice = {                                                    %
 
     }                                                                          %! khamr.aviary()
 
-    \times 2/3 {                                                               %! khamr.aviary()
+    \times 2/3                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6001,7 +6183,8 @@ c_Piano_Music_Voice = {                                                        %
     f''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current()
+    \times 2/3                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         e''''8                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6013,7 +6196,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 77 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
         a'''16.                                                                %! khamr.current()
@@ -6030,7 +6214,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         f''''16.                                                               %! khamr.current()
         [                                                                      %! khamr.current()
@@ -6046,7 +6231,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         e''''16.                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6069,7 +6255,8 @@ c_Piano_Music_Voice = {                                                        %
     ef''''!8                                                                   %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current()
+    \times 2/3                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 78 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
         f''''8                                                                 %! khamr.current()
@@ -6102,7 +6289,8 @@ c_Piano_Music_Voice = {                                                        %
     d''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current()
+    \times 2/3                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 79 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
         e''''8                                                                 %! khamr.current()
@@ -6117,7 +6305,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 2/3 {                                                               %! khamr.current()
+    \times 2/3                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         g'''8                                                                  %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6129,7 +6318,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         a'''16                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6145,7 +6335,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         df''''!16                                                              %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6161,7 +6352,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 80 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
         df''''!16.                                                             %! khamr.current()
@@ -6178,7 +6370,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         d''''16.                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6194,7 +6387,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 81 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
         e''''16                                                                %! khamr.current()
@@ -6241,7 +6435,8 @@ c_Piano_Music_Voice = {                                                        %
     df''''!16                                                                  %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current()
+    \times 2/3                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 82 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
         ef''''!8                                                               %! khamr.current()
@@ -6254,7 +6449,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         fs'''!16                                                               %! khamr.current()
         [                                                                      %! khamr.current()
@@ -6270,7 +6466,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         f''''16                                                                %! khamr.current()
         [                                                                      %! khamr.current()
@@ -6286,7 +6483,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 4/5 {                                                               %! khamr.current()
+    \times 4/5                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         bf'''!16                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6302,7 +6500,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 2/3 {                                                               %! khamr.current()
+    \times 2/3                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         c''''8                                                                 %! khamr.current()
         [                                                                      %! khamr.current()
@@ -6314,7 +6513,8 @@ c_Piano_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.current()
 
-    \times 2/3 {                                                               %! khamr.current()
+    \times 2/3                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
         e''''8                                                                 %! khamr.current()
@@ -6347,7 +6547,8 @@ c_Piano_Music_Voice = {                                                        %
     c''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! khamr.current()
+    \times 2/3                                                                 %! khamr.current()
+    {                                                                          %! khamr.current()
 
         df''''!8                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6361,7 +6562,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.current()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Piano_Music_Voice measure 84 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -6394,7 +6596,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6424,7 +6627,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6454,7 +6658,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6484,7 +6689,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6514,7 +6720,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6544,7 +6751,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6574,7 +6782,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6604,7 +6813,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6634,7 +6844,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6664,7 +6875,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6694,7 +6906,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6724,7 +6937,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6754,7 +6968,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6784,7 +6999,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6814,7 +7030,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6844,7 +7061,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6874,7 +7092,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6904,7 +7123,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6934,7 +7154,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -6964,7 +7185,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Piano_Music_Voice measure 96 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -6995,7 +7217,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7025,7 +7248,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7055,7 +7279,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7085,7 +7310,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         % [03 Piano_Music_Voice measure 99 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
         c'''16                                                                 %! khamr.aviary()
@@ -7116,7 +7342,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7146,7 +7373,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7176,7 +7404,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7206,7 +7435,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7236,7 +7466,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7266,7 +7497,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 9/11 {                                                              %! khamr.aviary()
+    \times 9/11                                                                %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7296,7 +7528,8 @@ c_Piano_Music_Voice = {                                                        %
     }                                                                          %! khamr.aviary()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.aviary()
-    \times 5/7 {                                                               %! khamr.aviary()
+    \times 5/7                                                                 %! khamr.aviary()
+    {                                                                          %! khamr.aviary()
 
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
@@ -7914,7 +8147,8 @@ c_Violin_Music_Voice = {                                                       %
     gf'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi()
+    \times 4/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 79 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
         bff'!2.                                                                %! khamr.continuous_glissandi()
@@ -7933,7 +8167,8 @@ c_Violin_Music_Voice = {                                                       %
     dff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 81 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         cf'!1                                                                  %! khamr.continuous_glissandi()
@@ -7945,7 +8180,8 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! khamr.continuous_glissandi()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 5/9 {                                                               %! khamr.continuous_glissandi()
+    \times 5/9                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 82 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
         ff'!2.                                                                 %! khamr.continuous_glissandi()
@@ -7956,7 +8192,8 @@ c_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi()
+    \times 4/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 83 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
         gff'!1                                                                 %! khamr.continuous_glissandi()
@@ -7990,7 +8227,8 @@ c_Violin_Music_Voice = {                                                       %
     df'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 88 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
         ff'!4                                                                  %! khamr.continuous_glissandi()
@@ -8002,7 +8240,8 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! khamr.continuous_glissandi()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 6/7 {                                                               %! khamr.continuous_glissandi()
+    \times 6/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 89 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
         cf'!1                                                                  %! khamr.continuous_glissandi()
@@ -8013,7 +8252,8 @@ c_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi()
+    \times 4/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 90 / measure 16]                      %! baca.SegmentMaker._comment_measure_numbers()
         bff'!4.                                                                %! khamr.continuous_glissandi()
@@ -8037,7 +8277,8 @@ c_Violin_Music_Voice = {                                                       %
     aff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 93 / measure 19]                      %! baca.SegmentMaker._comment_measure_numbers()
         df'!1                                                                  %! khamr.continuous_glissandi()
@@ -8052,7 +8293,8 @@ c_Violin_Music_Voice = {                                                       %
     bf!1.                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi()
+    \times 4/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 95 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
         eff'!2                                                                 %! khamr.continuous_glissandi()
@@ -8063,7 +8305,8 @@ c_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi()
+    \times 4/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 96 / measure 22]                      %! baca.SegmentMaker._comment_measure_numbers()
         gff'!4.                                                                %! khamr.continuous_glissandi()
@@ -8075,7 +8318,8 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! khamr.continuous_glissandi()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 3/5 {                                                               %! khamr.continuous_glissandi()
+    \times 3/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 97 / measure 23]                      %! baca.SegmentMaker._comment_measure_numbers()
         bff'!2.                                                                %! khamr.continuous_glissandi()
@@ -8094,7 +8338,8 @@ c_Violin_Music_Voice = {                                                       %
     ef'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 100 / measure 26]                     %! baca.SegmentMaker._comment_measure_numbers()
         gff'!4                                                                 %! khamr.continuous_glissandi()
@@ -8109,7 +8354,8 @@ c_Violin_Music_Voice = {                                                       %
     df'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi()
+    \times 4/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 102 / measure 28]                     %! baca.SegmentMaker._comment_measure_numbers()
         af'!2.                                                                 %! khamr.continuous_glissandi()
@@ -8121,7 +8367,8 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! khamr.continuous_glissandi()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 3/5 {                                                               %! khamr.continuous_glissandi()
+    \times 3/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 103 / measure 29]                     %! baca.SegmentMaker._comment_measure_numbers()
         bff'!2.                                                                %! khamr.continuous_glissandi()
@@ -8258,7 +8505,8 @@ c_Viola_Music_Voice = {                                                        %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 3/5 {                                                               %! khamr.continuous_glissandi()
+    \times 3/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 77 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
         \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
@@ -8297,7 +8545,8 @@ c_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 5/7 {                                                               %! khamr.continuous_glissandi()
+    \times 5/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 82 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
         ff'!2.                                                                 %! khamr.continuous_glissandi()
@@ -8308,7 +8557,8 @@ c_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi()
+    \times 4/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
         gff'!2.                                                                %! khamr.continuous_glissandi()
@@ -8322,7 +8572,8 @@ c_Viola_Music_Voice = {                                                        %
     }                                                                          %! khamr.continuous_glissandi()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 3/5 {                                                               %! khamr.continuous_glissandi()
+    \times 3/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 84 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
         bff'!2                                                                 %! khamr.continuous_glissandi()
@@ -8349,7 +8600,8 @@ c_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 6/7 {                                                               %! khamr.continuous_glissandi()
+    \times 6/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 87 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
         df'!2                                                                  %! khamr.continuous_glissandi()
@@ -8365,7 +8617,8 @@ c_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 3/5 {                                                               %! khamr.continuous_glissandi()
+    \times 3/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 89 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
         cf'!1.                                                                 %! khamr.continuous_glissandi()
@@ -8376,7 +8629,8 @@ c_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi()
+    \times 4/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 90 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
         bff'!4                                                                 %! khamr.continuous_glissandi()
@@ -8388,7 +8642,8 @@ c_Viola_Music_Voice = {                                                        %
     }                                                                          %! khamr.continuous_glissandi()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 5/9 {                                                               %! khamr.continuous_glissandi()
+    \times 5/9                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 91 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
         gff'!1.                                                                %! khamr.continuous_glissandi()
@@ -8408,7 +8663,8 @@ c_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 6/7 {                                                               %! khamr.continuous_glissandi()
+    \times 6/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 94 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
         bf!2.                                                                  %! khamr.continuous_glissandi()
@@ -8423,7 +8679,8 @@ c_Viola_Music_Voice = {                                                        %
     ff'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi()
+    \times 4/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 96 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
         gff'!4                                                                 %! khamr.continuous_glissandi()
@@ -8441,7 +8698,8 @@ c_Viola_Music_Voice = {                                                        %
     aff'!4                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 98 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
         bff'!2                                                                 %! khamr.continuous_glissandi()
@@ -8461,7 +8719,8 @@ c_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 3/5 {                                                               %! khamr.continuous_glissandi()
+    \times 3/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 101 / measure 27]                      %! baca.SegmentMaker._comment_measure_numbers()
         df'!1.                                                                 %! khamr.continuous_glissandi()
@@ -8638,7 +8897,8 @@ c_Cello_Music_Voice = {                                                        %
     cf'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi()
+    \times 4/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 81 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
         af'!2.                                                                 %! khamr.continuous_glissandi()
@@ -8658,7 +8918,8 @@ c_Cello_Music_Voice = {                                                        %
     \repeatTie
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
         gff'!1                                                                 %! khamr.continuous_glissandi()
@@ -8680,7 +8941,8 @@ c_Cello_Music_Voice = {                                                        %
     af'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi()
+    \times 4/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 85 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
         bf!1                                                                   %! khamr.continuous_glissandi()
@@ -8704,7 +8966,8 @@ c_Cello_Music_Voice = {                                                        %
     ff'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi()
+    \times 4/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 88 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
         dff'!4                                                                 %! khamr.continuous_glissandi()
@@ -8719,7 +8982,8 @@ c_Cello_Music_Voice = {                                                        %
     af'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 90 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
         bff'!4                                                                 %! khamr.continuous_glissandi()
@@ -8731,7 +8995,8 @@ c_Cello_Music_Voice = {                                                        %
     }                                                                          %! khamr.continuous_glissandi()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 5/7 {                                                               %! khamr.continuous_glissandi()
+    \times 5/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 91 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
         gff'!1                                                                 %! khamr.continuous_glissandi()
@@ -8743,7 +9008,8 @@ c_Cello_Music_Voice = {                                                        %
     }                                                                          %! khamr.continuous_glissandi()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 6/7 {                                                               %! khamr.continuous_glissandi()
+    \times 6/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 92 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
         df'!4.                                                                 %! khamr.continuous_glissandi()
@@ -8762,7 +9028,8 @@ c_Cello_Music_Voice = {                                                        %
     eff'!1.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 95 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
         ff'!2                                                                  %! khamr.continuous_glissandi()
@@ -8778,7 +9045,8 @@ c_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi()
-    \times 6/7 {                                                               %! khamr.continuous_glissandi()
+    \times 6/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 97 / measure 23]                       %! baca.SegmentMaker._comment_measure_numbers()
         bff'!2                                                                 %! khamr.continuous_glissandi()
@@ -8789,7 +9057,8 @@ c_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/7 {                                                               %! khamr.continuous_glissandi()
+    \times 4/7                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 98 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
         bff'!2.                                                                %! khamr.continuous_glissandi()
@@ -8800,7 +9069,8 @@ c_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! khamr.continuous_glissandi()
 
-    \times 4/5 {                                                               %! khamr.continuous_glissandi()
+    \times 4/5                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 99 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
         gff'!4.                                                                %! khamr.continuous_glissandi()
@@ -8819,7 +9089,8 @@ c_Cello_Music_Voice = {                                                        %
     af'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \times 2/3 {                                                               %! khamr.continuous_glissandi()
+    \times 2/3                                                                 %! khamr.continuous_glissandi()
+    {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 102 / measure 28]                      %! baca.SegmentMaker._comment_measure_numbers()
         bf!2                                                                   %! khamr.continuous_glissandi()

@@ -1309,7 +1309,8 @@ b_Saxophone_Music_Staff = {
 
 b_Guitar_Music_Voice = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [02 Guitar_Music_Voice measure 45 / measure 1]
         \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Gt."
@@ -1339,7 +1340,8 @@ b_Guitar_Music_Voice = {
     % [02 Guitar_Music_Voice measure 46 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [02 Guitar_Music_Voice measure 47 / measure 3]
         r8
@@ -1352,7 +1354,8 @@ b_Guitar_Music_Voice = {
 
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -1729,7 +1732,8 @@ b_Piano_Music_Voice = {
     r4
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         \ottava 1
         cf''''!8
@@ -1773,7 +1777,8 @@ b_Piano_Music_Voice = {
     % [02 Piano_Music_Voice measure 68 / measure 24]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef''''!8
         [
@@ -1801,7 +1806,8 @@ b_Piano_Music_Voice = {
     % [02 Piano_Music_Voice measure 70 / measure 26]
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f''''16
         [
@@ -1841,7 +1847,8 @@ b_Piano_Music_Voice = {
     % [02 Piano_Music_Voice measure 72 / measure 28]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af'''!8
         [
@@ -1856,7 +1863,8 @@ b_Piano_Music_Voice = {
     % [02 Piano_Music_Voice measure 73 / measure 29]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''''8
         [
@@ -2482,7 +2490,8 @@ b_Violin_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vn."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [02 Violin_Music_Voice measure 46 / measure 2]
         gf'16
@@ -2509,7 +2518,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'8
         \repeatTie
@@ -2536,7 +2546,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gqf'8.
         \repeatTie
@@ -2564,7 +2575,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gf'4
         \repeatTie
@@ -2590,7 +2602,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gqf'16
         \repeatTie
@@ -2610,7 +2623,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [02 Violin_Music_Voice measure 50 / measure 6]
         g'16
@@ -2631,7 +2645,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [02 Violin_Music_Voice measure 51 / measure 7]
         gs'8
@@ -2654,7 +2669,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gqs'8.
         \repeatTie
@@ -2677,7 +2693,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'4
         \repeatTie
@@ -2697,7 +2714,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [02 Violin_Music_Voice measure 53 / measure 9]
         gqs'16
@@ -2718,7 +2736,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         af'16
         \repeatTie
@@ -2739,7 +2758,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         a'8
         \repeatTie
@@ -2762,7 +2782,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         aqf'8.
         \repeatTie
@@ -2790,7 +2811,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         af'4
         \repeatTie
@@ -2815,7 +2837,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         aqf'16
         \repeatTie
@@ -2836,7 +2859,8 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         af'16
         \repeatTie
@@ -3005,7 +3029,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'16
         \repeatTie
@@ -3026,7 +3051,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fs'8
         \repeatTie
@@ -3054,7 +3080,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fqs'8.
         \repeatTie
@@ -3082,7 +3109,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'4
         \repeatTie
@@ -3108,7 +3136,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gf'16
         \repeatTie
@@ -3129,7 +3158,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         \repeatTie
@@ -3150,7 +3180,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gqf'8
         \repeatTie
@@ -3178,7 +3209,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gf'8.
         \repeatTie
@@ -3206,7 +3238,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'4
         \repeatTie
@@ -3227,7 +3260,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gs'16
         \repeatTie
@@ -3248,7 +3282,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gqs'16
         \repeatTie
@@ -3274,7 +3309,8 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'8
         \repeatTie
@@ -3445,7 +3481,8 @@ b_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [02 Cello_Music_Voice measure 47 / measure 3]
         f'16
@@ -3471,7 +3508,8 @@ b_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fs'8
         \repeatTie
@@ -3500,7 +3538,8 @@ b_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fqs'8.
         \repeatTie
@@ -3528,7 +3567,8 @@ b_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'4
         \repeatTie
@@ -3549,7 +3589,8 @@ b_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [02 Cello_Music_Voice measure 52 / measure 8]
         fqs'16
@@ -3768,7 +3809,8 @@ b_Contrabass_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [02 Contrabass_Music_Voice measure 47 / measure 3]
         <g, a>1.
@@ -3781,7 +3823,8 @@ b_Contrabass_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [02 Contrabass_Music_Voice measure 48 / measure 4]
         <af, bf>2.
@@ -3800,7 +3843,8 @@ b_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [02 Contrabass_Music_Voice measure 50 / measure 6]
         <gqs, aqs>2.
@@ -3845,7 +3889,8 @@ b_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [02 Contrabass_Music_Voice measure 55 / measure 11]
         <bqf, cqs'>1
@@ -3870,7 +3915,8 @@ b_Contrabass_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [02 Contrabass_Music_Voice measure 57 / measure 13]
         <af, bf>2.
