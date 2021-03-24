@@ -2035,7 +2035,8 @@ a_Guitar_Music_Voice = {
     % [01 Guitar_Music_Voice measure 8]
     r2.
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r8.
 
@@ -2050,7 +2051,8 @@ a_Guitar_Music_Voice = {
     % [01 Guitar_Music_Voice measure 9]
     r2
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r8.
 
@@ -2065,7 +2067,8 @@ a_Guitar_Music_Voice = {
     % [01 Guitar_Music_Voice measure 10]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Guitar_Music_Voice measure 11]
         r8
@@ -2076,7 +2079,8 @@ a_Guitar_Music_Voice = {
 
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Guitar_Music_Voice measure 12]
         r8
@@ -2101,7 +2105,8 @@ a_Guitar_Music_Voice = {
     % [01 Guitar_Music_Voice measure 14]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2136,7 +2141,8 @@ a_Guitar_Music_Voice = {
 
     r2
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Guitar_Music_Voice measure 18]
         r8.
@@ -2152,7 +2158,8 @@ a_Guitar_Music_Voice = {
     % [01 Guitar_Music_Voice measure 19]
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r8.
 
@@ -2167,7 +2174,8 @@ a_Guitar_Music_Voice = {
     % [01 Guitar_Music_Voice measure 20]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2179,7 +2187,8 @@ a_Guitar_Music_Voice = {
 
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Guitar_Music_Voice measure 21]
         r8
@@ -2196,7 +2205,8 @@ a_Guitar_Music_Voice = {
     % [01 Guitar_Music_Voice measure 23]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2255,7 +2265,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 25]
         \override TupletBracket.staff-padding = 4
@@ -2312,7 +2323,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 27]
         \once \override Beam.grow-direction = #left
@@ -2374,7 +2386,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 28]
         \once \override Beam.grow-direction = #right
@@ -2436,7 +2449,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 30]
         \once \override Beam.grow-direction = #left
@@ -2494,7 +2508,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 31]
         \once \override Beam.grow-direction = #right
@@ -2560,7 +2575,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 33]
         \once \override Beam.grow-direction = #left
@@ -2616,7 +2632,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 34]
         \once \override Beam.grow-direction = #right
@@ -2682,7 +2699,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 36]
         \once \override Beam.grow-direction = #left
@@ -2744,7 +2762,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 37]
         \once \override Beam.grow-direction = #right
@@ -2802,7 +2821,8 @@ a_Guitar_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 39]
         \once \override Beam.grow-direction = #left
@@ -2829,7 +2849,8 @@ a_Guitar_Music_Voice = {
     \revert TupletNumber.text
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Guitar_Music_Voice measure 40]
         bf''2
@@ -2837,7 +2858,8 @@ a_Guitar_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Guitar_Music_Voice measure 41]
         r8
@@ -2852,7 +2874,8 @@ a_Guitar_Music_Voice = {
 
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2866,7 +2889,8 @@ a_Guitar_Music_Voice = {
     % [01 Guitar_Music_Voice measure 43]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3162,7 +3186,8 @@ a_Piano_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Piano_Music_Voice measure 25]
         \stopStaff
@@ -3243,7 +3268,8 @@ a_Piano_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Piano_Music_Voice measure 28]
         \once \override Beam.grow-direction = #left
@@ -3307,7 +3333,8 @@ a_Piano_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Piano_Music_Voice measure 30]
         \once \override Beam.grow-direction = #right
@@ -3379,7 +3406,8 @@ a_Piano_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Piano_Music_Voice measure 33]
         \once \override Beam.grow-direction = #left
@@ -3445,7 +3473,8 @@ a_Piano_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 Piano_Music_Voice measure 35]
         \once \override Beam.grow-direction = #right
@@ -3473,7 +3502,8 @@ a_Piano_Music_Voice = {
     }
     \revert TupletNumber.text
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Piano_Music_Voice measure 37]
         r8
@@ -3489,7 +3519,8 @@ a_Piano_Music_Voice = {
     % [01 Piano_Music_Voice measure 38]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3500,7 +3531,8 @@ a_Piano_Music_Voice = {
     % [01 Piano_Music_Voice measure 39]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -4047,7 +4079,8 @@ a_Violin_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [01 Violin_Music_Voice measure 4]
         g'2.
@@ -4087,7 +4120,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Violin_Music_Voice measure 7]
         gqs'1
@@ -4129,7 +4163,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Violin_Music_Voice measure 11]
         a'1.
@@ -4149,7 +4184,8 @@ a_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 5/7
+    {
 
         % [01 Violin_Music_Voice measure 12]
         bqf'1.
@@ -4175,7 +4211,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Violin_Music_Voice measure 14]
         af'2
@@ -4218,7 +4255,8 @@ a_Violin_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [01 Violin_Music_Voice measure 18]
         gqs'2.
@@ -4237,7 +4275,8 @@ a_Violin_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Violin_Music_Voice measure 19]
         a'1
@@ -4262,7 +4301,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Violin_Music_Voice measure 21]
         g'2
@@ -4299,7 +4339,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Violin_Music_Voice measure 25]
         a'2
@@ -4318,7 +4359,8 @@ a_Violin_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Violin_Music_Voice measure 26]
         b'2
@@ -4378,7 +4420,8 @@ a_Violin_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/9 {
+    \times 5/9
+    {
 
         % [01 Violin_Music_Voice measure 32]
         bf'1.
@@ -4419,7 +4462,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Violin_Music_Voice measure 35]
         a'1.
@@ -4461,7 +4505,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'16
         \repeatTie
@@ -4482,7 +4527,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Violin_Music_Voice measure 39]
         fs'8
@@ -4505,7 +4551,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fqs'8.
         \repeatTie
@@ -4527,7 +4574,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Violin_Music_Voice measure 40]
         f'4
@@ -4554,7 +4602,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fqs'16
         \repeatTie
@@ -4579,7 +4628,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'16
         \repeatTie
@@ -4600,7 +4650,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         e'8
         \repeatTie
@@ -4623,7 +4674,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         eqs'8.
         \repeatTie
@@ -4651,7 +4703,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         e'4
         \repeatTie
@@ -4676,7 +4729,8 @@ a_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         eqs'16
         \repeatTie
@@ -4781,7 +4835,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Viola_Music_Voice measure 5]
         af'1
@@ -4822,7 +4877,8 @@ a_Viola_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 5/7
+    {
 
         % [01 Viola_Music_Voice measure 8]
         a'1.
@@ -4875,7 +4931,8 @@ a_Viola_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [01 Viola_Music_Voice measure 13]
         af'2.
@@ -4901,7 +4958,8 @@ a_Viola_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [01 Viola_Music_Voice measure 15]
         gqs'1.
@@ -4943,7 +5001,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Viola_Music_Voice measure 19]
         a'1.
@@ -4963,7 +5022,8 @@ a_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [01 Viola_Music_Voice measure 20]
         g'1.
@@ -4988,7 +5048,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Viola_Music_Voice measure 22]
         a'2
@@ -5041,7 +5102,8 @@ a_Viola_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [01 Viola_Music_Voice measure 27]
         aqs'1.
@@ -5105,7 +5167,8 @@ a_Viola_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [01 Viola_Music_Voice measure 33]
         g'2.
@@ -5124,7 +5187,8 @@ a_Viola_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Viola_Music_Voice measure 34]
         a'1
@@ -5172,7 +5236,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Viola_Music_Voice measure 38]
         f'16
@@ -5199,7 +5264,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fs'8
         \repeatTie
@@ -5221,7 +5287,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Viola_Music_Voice measure 40]
         fqs'8.
@@ -5250,7 +5317,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'4
         \repeatTie
@@ -5276,7 +5344,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fqs'16
         \repeatTie
@@ -5302,7 +5371,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'16
         \repeatTie
@@ -5328,7 +5398,8 @@ a_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         e'8
         \repeatTie
@@ -5412,7 +5483,8 @@ a_Cello_Music_Voice = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Cello_Music_Voice measure 2]
         g2
@@ -5450,7 +5522,8 @@ a_Cello_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [01 Cello_Music_Voice measure 6]
         af2.
@@ -5469,7 +5542,8 @@ a_Cello_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Cello_Music_Voice measure 7]
         gqs1
@@ -5499,7 +5573,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Cello_Music_Voice measure 9]
         a1
@@ -5556,7 +5631,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Cello_Music_Voice measure 14]
         af2
@@ -5581,7 +5657,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Cello_Music_Voice measure 16]
         gqs2.
@@ -5623,7 +5700,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Cello_Music_Voice measure 20]
         a1.
@@ -5642,7 +5720,8 @@ a_Cello_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Cello_Music_Voice measure 21]
         g2
@@ -5668,7 +5747,8 @@ a_Cello_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [01 Cello_Music_Voice measure 23]
         a2.
@@ -5720,7 +5800,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Cello_Music_Voice measure 28]
         aqs1.
@@ -5746,7 +5827,8 @@ a_Cello_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [01 Cello_Music_Voice measure 30]
         bf2.
@@ -5847,7 +5929,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'16
         \repeatTie
@@ -5868,7 +5951,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fs'8
         \repeatTie
@@ -5902,7 +5986,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fqs'8.
         \repeatTie
@@ -5930,7 +6015,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'4
         \repeatTie
@@ -5956,7 +6042,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         fqs'16
         \repeatTie
@@ -5977,7 +6064,8 @@ a_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         f'16
         \repeatTie
@@ -6064,7 +6152,8 @@ a_Contrabass_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [01 Contrabass_Music_Voice measure 3]
         a1.
@@ -6077,7 +6166,8 @@ a_Contrabass_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Contrabass_Music_Voice measure 4]
         bf2.
@@ -6096,7 +6186,8 @@ a_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Contrabass_Music_Voice measure 6]
         aqs2.
@@ -6145,7 +6236,8 @@ a_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Contrabass_Music_Voice measure 11]
         cqs'1
@@ -6176,7 +6268,8 @@ a_Contrabass_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [01 Contrabass_Music_Voice measure 13]
         bf2.
@@ -6228,7 +6321,8 @@ a_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Contrabass_Music_Voice measure 18]
         b2.
@@ -6254,7 +6348,8 @@ a_Contrabass_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [01 Contrabass_Music_Voice measure 20]
         a1.
@@ -6291,7 +6386,8 @@ a_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Contrabass_Music_Voice measure 24]
         b1
@@ -6310,7 +6406,8 @@ a_Contrabass_Music_Voice = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Contrabass_Music_Voice measure 25]
         cs'2.
@@ -6336,7 +6433,8 @@ a_Contrabass_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [01 Contrabass_Music_Voice measure 27]
         bqs1.
@@ -6389,7 +6487,8 @@ a_Contrabass_Music_Voice = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [01 Contrabass_Music_Voice measure 32]
         a2.
@@ -6414,7 +6513,8 @@ a_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Contrabass_Music_Voice measure 34]
         b1
@@ -6456,7 +6556,8 @@ a_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Contrabass_Music_Voice measure 38]
         cs'2.
@@ -6476,7 +6577,8 @@ a_Contrabass_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [01 Contrabass_Music_Voice measure 39]
         bqs1.
