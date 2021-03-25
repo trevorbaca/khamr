@@ -4,6 +4,7 @@ c_Global_Skips = {                                                             %
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \bar ""                                                                    %! EMPTY_START_BAR:+SEGMENT:baca.SegmentMaker._make_global_skips(4)
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     - \baca-rehearsal-mark-markup "B" #10                                      %! baca.rehearsal_mark():baca.IndicatorCommand._call()
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -22,6 +23,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 76 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -36,6 +38,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 77 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -53,6 +56,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 78 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -67,6 +71,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 79 / measure 5]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -91,6 +96,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 80 / measure 6]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/8                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -105,6 +111,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 81 / measure 7]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -119,6 +126,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 82 / measure 8]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 5/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 5/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -136,6 +144,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 83 / measure 9]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -150,6 +159,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 84 / measure 10]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -174,6 +184,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 85 / measure 11]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -188,6 +199,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 86 / measure 12]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 5/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 5/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -202,6 +214,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 87 / measure 13]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/8                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -216,6 +229,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 88 / measure 14]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -230,6 +244,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 89 / measure 15]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -244,6 +259,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 90 / measure 16]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -258,6 +274,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 91 / measure 17]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 5/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 5/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -272,6 +289,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 92 / measure 18]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/8                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -286,6 +304,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 93 / measure 19]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -300,6 +319,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 94 / measure 20]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -314,6 +334,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 95 / measure 21]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -326,6 +347,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 96 / measure 22]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -340,6 +362,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 97 / measure 23]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -354,6 +377,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 98 / measure 24]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -368,6 +392,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 99 / measure 25]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -380,6 +405,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 100 / measure 26]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -404,6 +430,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 101 / measure 27]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -418,6 +445,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 102 / measure 28]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -432,6 +460,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 103 / measure 29]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -446,6 +475,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 104 / measure 30]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/8                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -470,6 +500,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 105 / measure 31]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -484,6 +515,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 106 / measure 32]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 5/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 5/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -501,6 +533,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 107 / measure 33]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -515,6 +548,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 108 / measure 34]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -530,6 +564,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 109 / measure 35]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -544,6 +579,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 110 / measure 36]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 5/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 5/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -558,6 +594,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 111 / measure 37]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/8                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -572,6 +609,8 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 112 / measure 38]                               %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
     \time 1/4                                                                  %! baca.SegmentMaker._make_global_skips(3):PHANTOM:baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._style_phantom_measures(1)
     \baca-time-signature-transparent                                           %! baca.SegmentMaker._style_phantom_measures(2):PHANTOM
+    %! baca.SegmentMaker._make_global_skips(3)
+    %! PHANTOM
     s1 * 1/4                                                                   %! baca.SegmentMaker._make_global_skips(3):PHANTOM
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
@@ -587,117 +626,156 @@ c_Global_Skips = {                                                             %
 c_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [03 Global_Rests measure 75 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 76 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 77 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 78 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 79 / measure 5]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 80 / measure 6]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 81 / measure 7]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 82 / measure 8]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 83 / measure 9]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 84 / measure 10]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 85 / measure 11]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 86 / measure 12]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 87 / measure 13]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 88 / measure 14]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 89 / measure 15]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 90 / measure 16]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 91 / measure 17]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 92 / measure 18]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 93 / measure 19]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 94 / measure 20]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 95 / measure 21]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 96 / measure 22]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 97 / measure 23]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 98 / measure 24]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 99 / measure 25]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 100 / measure 26]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 101 / measure 27]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 102 / measure 28]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 103 / measure 29]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 104 / measure 30]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 105 / measure 31]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 106 / measure 32]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 107 / measure 33]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 108 / measure 34]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 109 / measure 35]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 110 / measure 36]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 111 / measure 37]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 112 / measure 38]                               %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
+    %! baca.SegmentMaker._make_global_rests(2)
+    %! PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
 }                                                                              %! ide.Path.extern()
@@ -713,6 +791,7 @@ c_Flute_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
+    %! baca.make_repeat_tied_notes()
     b''2                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -732,6 +811,7 @@ c_Flute_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Flute_Music_Voice measure 76 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b''2                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -746,6 +826,9 @@ c_Flute_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -755,6 +838,9 @@ c_Flute_Music_Voice = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Flute_Rest_Voice measure 77 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/2                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -763,26 +849,32 @@ c_Flute_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Flute_Music_Voice measure 78 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 79 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 80 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 81 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 82 / measure 8]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 83 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -791,24 +883,32 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! khamr.aviary()
 
         % [03 Flute_Music_Voice measure 84 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -818,22 +918,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -843,22 +951,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -868,22 +984,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -894,22 +1018,30 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! khamr.aviary()
 
         % [03 Flute_Music_Voice measure 86 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -919,22 +1051,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -944,22 +1084,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -969,22 +1117,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -994,22 +1150,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1019,22 +1183,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1044,22 +1216,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1069,22 +1249,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1094,22 +1282,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1119,22 +1315,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1144,22 +1348,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1169,22 +1381,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1194,22 +1414,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1219,22 +1447,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1244,22 +1480,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1269,22 +1513,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1294,22 +1546,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1319,22 +1579,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1344,22 +1612,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1369,22 +1645,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1394,22 +1678,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1419,22 +1711,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1444,22 +1744,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1469,22 +1777,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1494,22 +1810,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1519,22 +1843,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1544,22 +1876,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1569,22 +1909,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1595,22 +1943,30 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! khamr.aviary()
 
         % [03 Flute_Music_Voice measure 100 / measure 26]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1620,22 +1976,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1645,22 +2009,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1670,22 +2042,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1695,22 +2075,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1720,22 +2108,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1745,22 +2141,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1770,22 +2174,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 7/8                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1794,16 +2206,21 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -1818,6 +2235,9 @@ c_Flute_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -1827,6 +2247,9 @@ c_Flute_Music_Voice = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Flute_Rest_Voice measure 104 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -1835,14 +2258,17 @@ c_Flute_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Flute_Music_Voice measure 105 / measure 31]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 106 / measure 32]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 107 / measure 33]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -1858,6 +2284,7 @@ c_Flute_Music_Voice = {                                                        %
     bf'2...
     \repeatTie
 
+    %! khamr.fused_wind()
     r16                                                                        %! khamr.fused_wind()
 
     % [03 Flute_Music_Voice measure 110 / measure 36]                          %! baca.SegmentMaker._comment_measure_numbers()
@@ -1884,6 +2311,7 @@ c_Flute_Music_Voice = {                                                        %
     bf'16
     \repeatTie
 
+    %! khamr.fused_wind()
     r16                                                                        %! khamr.fused_wind()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
@@ -1895,6 +2323,10 @@ c_Flute_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             b'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -1909,6 +2341,10 @@ c_Flute_Music_Voice = {                                                        %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -1944,6 +2380,7 @@ c_Oboe_Music_Voice = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! baca.make_repeat_tied_notes()
     ds'!2                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -1962,6 +2399,7 @@ c_Oboe_Music_Voice = {                                                         %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Oboe_Music_Voice measure 76 / measure 2]                             %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ds'2                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -1975,6 +2413,9 @@ c_Oboe_Music_Voice = {                                                         %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -1984,6 +2425,9 @@ c_Oboe_Music_Voice = {                                                         %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Oboe_Rest_Voice measure 77 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/2                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -1992,26 +2436,32 @@ c_Oboe_Music_Voice = {                                                         %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Oboe_Music_Voice measure 78 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Oboe_Music_Voice measure 79 / measure 5]                             %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Oboe_Music_Voice measure 80 / measure 6]                             %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Oboe_Music_Voice measure 81 / measure 7]                             %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Oboe_Music_Voice measure 82 / measure 8]                             %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Oboe_Music_Voice measure 83 / measure 9]                             %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -2020,6 +2470,7 @@ c_Oboe_Music_Voice = {                                                         %
     {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 84 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2027,14 +2478,19 @@ c_Oboe_Music_Voice = {                                                         %
         ^ \baca-explicit-indicator-markup "(“Oboe”)"                           %! EXPLICIT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2044,18 +2500,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2065,18 +2527,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2086,18 +2554,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2107,18 +2581,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2128,18 +2608,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2149,18 +2635,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2170,18 +2662,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2191,18 +2689,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2212,18 +2716,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2233,18 +2743,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2254,18 +2770,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2276,18 +2798,24 @@ c_Oboe_Music_Voice = {                                                         %
     {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 88 / measure 14]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2297,18 +2825,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2318,18 +2852,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2339,18 +2879,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2360,18 +2906,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2381,18 +2933,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2402,18 +2960,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2423,18 +2987,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2445,18 +3015,24 @@ c_Oboe_Music_Voice = {                                                         %
     {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 91 / measure 17]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2466,18 +3042,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2487,18 +3069,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2508,18 +3096,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2530,18 +3124,24 @@ c_Oboe_Music_Voice = {                                                         %
     {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 92 / measure 18]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2551,18 +3151,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2572,18 +3178,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2593,18 +3205,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2614,18 +3232,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2635,18 +3259,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2656,18 +3286,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2677,18 +3313,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2698,18 +3340,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2719,18 +3367,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2740,18 +3394,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2761,18 +3421,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2783,18 +3449,24 @@ c_Oboe_Music_Voice = {                                                         %
     {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 96 / measure 22]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2804,18 +3476,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2825,18 +3503,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2846,18 +3530,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2868,18 +3558,24 @@ c_Oboe_Music_Voice = {                                                         %
     {                                                                          %! khamr.aviary()
 
         % [03 Oboe_Music_Voice measure 98 / measure 24]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2889,18 +3585,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2910,18 +3612,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2931,18 +3639,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2952,18 +3666,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2973,18 +3693,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -2994,18 +3720,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3015,18 +3747,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3036,18 +3774,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3057,18 +3801,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3078,18 +3828,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3099,18 +3855,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3120,18 +3882,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3141,18 +3909,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3162,18 +3936,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3183,18 +3963,24 @@ c_Oboe_Music_Voice = {                                                         %
     \times 5/6                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3203,16 +3989,21 @@ c_Oboe_Music_Voice = {                                                         %
     \times 4/5                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3227,6 +4018,9 @@ c_Oboe_Music_Voice = {                                                         %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -3236,6 +4030,9 @@ c_Oboe_Music_Voice = {                                                         %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Oboe_Rest_Voice measure 104 / measure 30]                    %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -3244,14 +4041,17 @@ c_Oboe_Music_Voice = {                                                         %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Oboe_Music_Voice measure 105 / measure 31]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Oboe_Music_Voice measure 106 / measure 32]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Oboe_Music_Voice measure 107 / measure 33]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -3273,6 +4073,7 @@ c_Oboe_Music_Voice = {                                                         %
     r1
 
     % [03 Oboe_Music_Voice measure 110 / measure 36]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.fused_wind()
     r2                                                                         %! khamr.fused_wind()
 
     c'2.
@@ -3296,6 +4097,7 @@ c_Oboe_Music_Voice = {                                                         %
     c'16
     \repeatTie
 
+    %! khamr.fused_wind()
     r16                                                                        %! khamr.fused_wind()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
@@ -3307,6 +4109,10 @@ c_Oboe_Music_Voice = {                                                         %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -3321,6 +4127,10 @@ c_Oboe_Music_Voice = {                                                         %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -3349,6 +4159,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
+    %! baca.make_repeat_tied_notes()
     gs!2                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -3367,6 +4178,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Clarinet_Music_Voice measure 76 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     gs2                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -3380,6 +4192,9 @@ c_Clarinet_Music_Voice = {                                                     %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -3389,6 +4204,9 @@ c_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Clarinet_Rest_Voice measure 77 / measure 3]                  %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/2                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -3397,26 +4215,32 @@ c_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Clarinet_Music_Voice measure 78 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 79 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 80 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 81 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 82 / measure 8]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 83 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -3424,6 +4248,7 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 84 / measure 10]                    %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -3431,20 +4256,28 @@ c_Clarinet_Music_Voice = {                                                     %
         ^ \baca-explicit-indicator-markup "(“Clarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3453,24 +4286,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3479,24 +4321,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3505,24 +4356,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3531,24 +4391,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3557,24 +4426,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3584,24 +4462,33 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 87 / measure 13]                    %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3610,24 +4497,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3636,24 +4532,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3662,24 +4567,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3688,24 +4602,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3714,24 +4637,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3740,24 +4672,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3766,24 +4707,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3792,24 +4742,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3819,24 +4778,33 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 92 / measure 18]                    %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3845,24 +4813,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3871,24 +4848,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3897,24 +4883,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3923,24 +4918,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3949,24 +4953,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -3975,24 +4988,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4001,24 +5023,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4027,24 +5058,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4053,24 +5093,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4080,24 +5129,33 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 98 / measure 24]                    %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4106,24 +5164,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4133,24 +5200,33 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 99 / measure 25]                    %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4160,24 +5236,33 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 100 / measure 26]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4187,24 +5272,33 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 101 / measure 27]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4213,24 +5307,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4239,24 +5342,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4266,24 +5378,33 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 102 / measure 28]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4292,24 +5413,33 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 8/9                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4319,24 +5449,33 @@ c_Clarinet_Music_Voice = {                                                     %
     {                                                                          %! khamr.aviary()
 
         % [03 Clarinet_Music_Voice measure 103 / measure 29]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4345,16 +5484,21 @@ c_Clarinet_Music_Voice = {                                                     %
     \times 4/5                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         es'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         g'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         gs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4369,6 +5513,9 @@ c_Clarinet_Music_Voice = {                                                     %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -4378,6 +5525,9 @@ c_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Clarinet_Rest_Voice measure 104 / measure 30]                %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -4386,6 +5536,7 @@ c_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Clarinet_Music_Voice measure 105 / measure 31]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -4409,18 +5560,21 @@ c_Clarinet_Music_Voice = {                                                     %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Clarinet_Music_Voice measure 107 / measure 33]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     a2.                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Clarinet_Music_Voice measure 108 / measure 34]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     a1                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Clarinet_Music_Voice measure 109 / measure 35]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     a1                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -4436,6 +5590,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [03 Clarinet_Music_Voice measure 111 / measure 37]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     r2.                                                                        %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
@@ -4448,6 +5603,10 @@ c_Clarinet_Music_Voice = {                                                     %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             b'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -4462,6 +5621,10 @@ c_Clarinet_Music_Voice = {                                                     %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -4490,6 +5653,7 @@ c_Saxophone_Music_Voice = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
+    %! baca.make_repeat_tied_notes()
     es'!2                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -4508,6 +5672,7 @@ c_Saxophone_Music_Voice = {                                                    %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Saxophone_Music_Voice measure 76 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     es'2                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -4521,6 +5686,9 @@ c_Saxophone_Music_Voice = {                                                    %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -4530,6 +5698,9 @@ c_Saxophone_Music_Voice = {                                                    %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Saxophone_Rest_Voice measure 77 / measure 3]                 %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/2                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -4538,26 +5709,32 @@ c_Saxophone_Music_Voice = {                                                    %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Saxophone_Music_Voice measure 78 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Saxophone_Music_Voice measure 79 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Saxophone_Music_Voice measure 80 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Saxophone_Music_Voice measure 81 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Saxophone_Music_Voice measure 82 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Saxophone_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -4566,6 +5743,7 @@ c_Saxophone_Music_Voice = {                                                    %
     {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 84 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4573,16 +5751,22 @@ c_Saxophone_Music_Voice = {                                                    %
         ^ \baca-explicit-indicator-markup "(“SopraninoSaxophone”)"             %! EXPLICIT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4592,20 +5776,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4616,20 +5807,27 @@ c_Saxophone_Music_Voice = {                                                    %
     {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 85 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4639,20 +5837,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4662,20 +5867,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4685,20 +5897,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4708,20 +5927,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4731,20 +5957,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4755,20 +5988,27 @@ c_Saxophone_Music_Voice = {                                                    %
     {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 87 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4778,20 +6018,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4802,20 +6049,27 @@ c_Saxophone_Music_Voice = {                                                    %
     {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 88 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4825,20 +6079,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4848,20 +6109,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4871,20 +6139,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4894,20 +6169,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4917,20 +6199,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4940,20 +6229,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4963,20 +6259,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -4986,20 +6289,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5009,20 +6319,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5033,20 +6350,27 @@ c_Saxophone_Music_Voice = {                                                    %
     {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 92 / measure 18]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5056,20 +6380,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5080,20 +6411,27 @@ c_Saxophone_Music_Voice = {                                                    %
     {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 93 / measure 19]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5103,20 +6441,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5126,20 +6471,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5149,20 +6501,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5172,20 +6531,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5195,20 +6561,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5218,20 +6591,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5241,20 +6621,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5265,20 +6652,27 @@ c_Saxophone_Music_Voice = {                                                    %
     {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 96 / measure 22]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5288,20 +6682,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5311,20 +6712,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5334,20 +6742,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5357,20 +6772,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5380,20 +6802,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5404,20 +6833,27 @@ c_Saxophone_Music_Voice = {                                                    %
     {                                                                          %! khamr.aviary()
 
         % [03 Saxophone_Music_Voice measure 99 / measure 25]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5427,20 +6863,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5450,20 +6893,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5473,20 +6923,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5496,20 +6953,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5519,20 +6983,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5542,20 +7013,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5565,20 +7043,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5588,20 +7073,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5611,20 +7103,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5634,20 +7133,27 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 6/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         bs''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5656,12 +7162,15 @@ c_Saxophone_Music_Voice = {                                                    %
     \times 2/3                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         a''16                                                                  %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         as''!16                                                                %! khamr.aviary()
 
+        %! khamr.aviary()
         b''16                                                                  %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -5676,6 +7185,9 @@ c_Saxophone_Music_Voice = {                                                    %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -5685,6 +7197,9 @@ c_Saxophone_Music_Voice = {                                                    %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Saxophone_Rest_Voice measure 104 / measure 30]               %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -5693,14 +7208,17 @@ c_Saxophone_Music_Voice = {                                                    %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Saxophone_Music_Voice measure 105 / measure 31]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Saxophone_Music_Voice measure 106 / measure 32]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Saxophone_Music_Voice measure 107 / measure 33]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -5732,9 +7250,11 @@ c_Saxophone_Music_Voice = {                                                    %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Saxophone_Music_Voice measure 110 / measure 36]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.fused_wind()
     c'2...                                                                     %! khamr.fused_wind()
     \repeatTie
 
+    %! khamr.fused_wind()
     r16                                                                        %! khamr.fused_wind()
 
     c'4
@@ -5755,6 +7275,7 @@ c_Saxophone_Music_Voice = {                                                    %
     c'16
     \repeatTie
 
+    %! khamr.fused_wind()
     r16                                                                        %! khamr.fused_wind()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
@@ -5766,6 +7287,10 @@ c_Saxophone_Music_Voice = {                                                    %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -5780,6 +7305,10 @@ c_Saxophone_Music_Voice = {                                                    %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -5808,6 +7337,7 @@ c_Guitar_Music_Voice = {                                                       %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
+    %! baca.make_repeat_tied_notes()
     g'2                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -5826,6 +7356,7 @@ c_Guitar_Music_Voice = {                                                       %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Guitar_Music_Voice measure 76 / measure 2]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g'2                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -5839,6 +7370,9 @@ c_Guitar_Music_Voice = {                                                       %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -5848,6 +7382,9 @@ c_Guitar_Music_Voice = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Guitar_Rest_Voice measure 77 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/2                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -5856,30 +7393,37 @@ c_Guitar_Music_Voice = {                                                       %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Guitar_Music_Voice measure 78 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 79 / measure 5]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 80 / measure 6]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 81 / measure 7]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 82 / measure 8]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 83 / measure 9]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 84 / measure 10]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''!2.                                                                    %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5894,6 +7438,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 85 / measure 11]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''1                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5914,6 +7459,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 87 / measure 13]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2.                                                                     %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5921,6 +7467,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 88 / measure 14]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5928,6 +7475,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 89 / measure 15]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''1.                                                                     %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5935,6 +7483,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 90 / measure 16]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5955,6 +7504,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 92 / measure 18]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2.                                                                     %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5962,6 +7512,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 93 / measure 19]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''1                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5969,6 +7520,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 94 / measure 20]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''1.                                                                     %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5976,6 +7528,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 95 / measure 21]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5983,6 +7536,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 96 / measure 22]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5990,6 +7544,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 97 / measure 23]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2.                                                                     %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -5997,6 +7552,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 98 / measure 24]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''1                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -6004,6 +7560,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 99 / measure 25]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -6011,6 +7568,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 100 / measure 26]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -6018,6 +7576,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 101 / measure 27]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''1.                                                                     %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -6025,6 +7584,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 102 / measure 28]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''1                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -6032,6 +7592,7 @@ c_Guitar_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Guitar_Music_Voice measure 103 / measure 29]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     af''2.                                                                     %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -6046,6 +7607,9 @@ c_Guitar_Music_Voice = {                                                       %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -6055,6 +7619,9 @@ c_Guitar_Music_Voice = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Guitar_Rest_Voice measure 104 / measure 30]                  %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -6063,30 +7630,37 @@ c_Guitar_Music_Voice = {                                                       %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Guitar_Music_Voice measure 105 / measure 31]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 106 / measure 32]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 107 / measure 33]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 108 / measure 34]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 109 / measure 35]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 110 / measure 36]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Guitar_Music_Voice measure 111 / measure 37]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -6098,6 +7672,10 @@ c_Guitar_Music_Voice = {                                                       %
             % [03 Guitar_Music_Voice measure 112 / measure 38]                 %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -6112,6 +7690,10 @@ c_Guitar_Music_Voice = {                                                       %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -6145,6 +7727,7 @@ c_Piano_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! khamr.current()
     df''''!16                                                                  %! khamr.current()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-ancora                                                           %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -6155,42 +7738,56 @@ c_Piano_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
+    %! khamr.current()
     d''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     f''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     c''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     af'''!16                                                                   %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     g'''16                                                                     %! khamr.current()
 
+    %! khamr.current()
     e''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     c''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [03 Piano_Music_Voice measure 76 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.current()
     b'''16                                                                     %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     df''''!16                                                                  %! khamr.current()
 
+    %! khamr.current()
     ef''''!16                                                                  %! khamr.current()
 
+    %! khamr.current()
     f''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 2/3                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         e''''8                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         fs'''!8                                                                %! khamr.current()
 
+        %! khamr.current()
         bf'''!8                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6200,15 +7797,20 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 77 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.current()
         a'''16.                                                                %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         c''''16.                                                               %! khamr.current()
 
+        %! khamr.current()
         af'''!16.                                                              %! khamr.current()
 
+        %! khamr.current()
         g'''16.                                                                %! khamr.current()
 
+        %! khamr.current()
         e''''16.                                                               %! khamr.current()
         ]                                                                      %! khamr.current()
 
@@ -6217,15 +7819,20 @@ c_Piano_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         f''''16.                                                               %! khamr.current()
         [                                                                      %! khamr.current()
 
+        %! khamr.current()
         b'''16.                                                                %! khamr.current()
 
+        %! khamr.current()
         df''''!16.                                                             %! khamr.current()
 
+        %! khamr.current()
         ef''''!16.                                                             %! khamr.current()
 
+        %! khamr.current()
         a'''16.                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6234,24 +7841,32 @@ c_Piano_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         e''''16.                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         fs'''!16.                                                              %! khamr.current()
 
+        %! khamr.current()
         bf'''!16.                                                              %! khamr.current()
 
+        %! khamr.current()
         c''''16.                                                               %! khamr.current()
 
+        %! khamr.current()
         df''''!16.                                                             %! khamr.current()
         ]                                                                      %! khamr.current()
 
     }                                                                          %! khamr.current()
 
+    %! khamr.current()
     d''''8                                                                     %! khamr.current()
 
+    %! khamr.current()
     f''''8                                                                     %! khamr.current()
 
+    %! khamr.current()
     ef''''!8                                                                   %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -6259,33 +7874,44 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 78 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.current()
         f''''8                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         b'''8                                                                  %! khamr.current()
 
+        %! khamr.current()
         df''''!8                                                               %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current()
 
+    %! khamr.current()
     bf'''!16                                                                   %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     a'''16                                                                     %! khamr.current()
 
+    %! khamr.current()
     e''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     fs'''!16                                                                   %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     f''''16                                                                    %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     c''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     df''''!16                                                                  %! khamr.current()
 
+    %! khamr.current()
     d''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -6293,13 +7919,16 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 79 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.current()
         e''''8                                                                 %! khamr.current()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ffff                                                                  %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         c''''8                                                                 %! khamr.current()
 
+        %! khamr.current()
         af'''!8                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6308,11 +7937,14 @@ c_Piano_Music_Voice = {                                                        %
     \times 2/3                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         g'''8                                                                  %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         fs'''!8                                                                %! khamr.current()
 
+        %! khamr.current()
         bf'''!8                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6321,15 +7953,20 @@ c_Piano_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         a'''16                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         e''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         d''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         f''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         c''''16                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6338,15 +7975,20 @@ c_Piano_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         df''''!16                                                              %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         g'''16                                                                 %! khamr.current()
 
+        %! khamr.current()
         e''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         c''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         af'''!16                                                               %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6356,15 +7998,20 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 80 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.current()
         df''''!16.                                                             %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         ef''''!16.                                                             %! khamr.current()
 
+        %! khamr.current()
         f''''16.                                                               %! khamr.current()
 
+        %! khamr.current()
         b'''16.                                                                %! khamr.current()
 
+        %! khamr.current()
         df''''!16.                                                             %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6373,15 +8020,20 @@ c_Piano_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         d''''16.                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         f''''16.                                                               %! khamr.current()
 
+        %! khamr.current()
         c''''16.                                                               %! khamr.current()
 
+        %! khamr.current()
         af'''!16.                                                              %! khamr.current()
 
+        %! khamr.current()
         g'''16.                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6391,47 +8043,64 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 81 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.current()
         e''''16                                                                %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         c''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         b'''16                                                                 %! khamr.current()
 
+        %! khamr.current()
         df''''!16                                                              %! khamr.current()
 
+        %! khamr.current()
         ef''''!16                                                              %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current()
 
+    %! khamr.current()
     f''''16                                                                    %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     e''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     fs'''!16                                                                   %! khamr.current()
 
+    %! khamr.current()
     bf'''!16                                                                   %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     a'''16                                                                     %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     c''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     af'''!16                                                                   %! khamr.current()
 
+    %! khamr.current()
     g'''16                                                                     %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     e''''16                                                                    %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     f''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     b'''16                                                                     %! khamr.current()
 
+    %! khamr.current()
     df''''!16                                                                  %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -6439,11 +8108,14 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 82 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.current()
         ef''''!8                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         a'''8                                                                  %! khamr.current()
 
+        %! khamr.current()
         e''''8                                                                 %! khamr.current()
         ]                                                                      %! khamr.current()
 
@@ -6452,15 +8124,20 @@ c_Piano_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         fs'''!16                                                               %! khamr.current()
         [                                                                      %! khamr.current()
 
+        %! khamr.current()
         bf'''!16                                                               %! khamr.current()
 
+        %! khamr.current()
         c''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         df''''!16                                                              %! khamr.current()
 
+        %! khamr.current()
         d''''16                                                                %! khamr.current()
         ]                                                                      %! khamr.current()
 
@@ -6469,15 +8146,20 @@ c_Piano_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         f''''16                                                                %! khamr.current()
         [                                                                      %! khamr.current()
 
+        %! khamr.current()
         ef''''!16                                                              %! khamr.current()
 
+        %! khamr.current()
         f''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         b'''16                                                                 %! khamr.current()
 
+        %! khamr.current()
         df''''!16                                                              %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6486,15 +8168,20 @@ c_Piano_Music_Voice = {                                                        %
     \times 4/5                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         bf'''!16                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         a'''16                                                                 %! khamr.current()
 
+        %! khamr.current()
         e''''16                                                                %! khamr.current()
 
+        %! khamr.current()
         fs'''!16                                                               %! khamr.current()
 
+        %! khamr.current()
         f''''16                                                                %! khamr.current()
         ]                                                                      %! khamr.current()
 
@@ -6503,11 +8190,14 @@ c_Piano_Music_Voice = {                                                        %
     \times 2/3                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         c''''8                                                                 %! khamr.current()
         [                                                                      %! khamr.current()
 
+        %! khamr.current()
         df''''!8                                                               %! khamr.current()
 
+        %! khamr.current()
         d''''8                                                                 %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -6517,44 +8207,58 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.current()
 
         % [03 Piano_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.current()
         e''''8                                                                 %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         c''''8                                                                 %! khamr.current()
 
+        %! khamr.current()
         af'''!8                                                                %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! khamr.current()
 
+    %! khamr.current()
     g'''16                                                                     %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     fs'''!16                                                                   %! khamr.current()
 
+    %! khamr.current()
     bf'''!16                                                                   %! khamr.current()
 
+    %! khamr.current()
     a'''16                                                                     %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     e''''16                                                                    %! khamr.current()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! khamr.current()
     d''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     f''''16                                                                    %! khamr.current()
 
+    %! khamr.current()
     c''''16                                                                    %! khamr.current()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 2/3                                                                 %! khamr.current()
     {                                                                          %! khamr.current()
 
+        %! khamr.current()
         df''''!8                                                               %! khamr.current()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! khamr.current()
         g'''8                                                                  %! khamr.current()
 
+        %! khamr.current()
         e''''8                                                                 %! khamr.current()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \ottava 0                                                              %! baca.ottava():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
@@ -6566,30 +8270,41 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.aviary()
 
         % [03 Piano_Music_Voice measure 84 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6599,28 +8314,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6630,28 +8356,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6661,28 +8398,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6692,28 +8440,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6723,28 +8482,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6754,28 +8524,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6785,28 +8566,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6816,28 +8608,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6847,28 +8650,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6878,28 +8692,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6909,28 +8734,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6940,28 +8776,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -6971,28 +8818,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7002,28 +8860,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7033,28 +8902,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7064,28 +8944,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7095,28 +8986,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7126,28 +9028,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7157,28 +9070,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7189,28 +9113,39 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.aviary()
 
         % [03 Piano_Music_Voice measure 96 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7220,28 +9155,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7251,28 +9197,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7282,28 +9239,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7314,28 +9282,39 @@ c_Piano_Music_Voice = {                                                        %
     {                                                                          %! khamr.aviary()
 
         % [03 Piano_Music_Voice measure 99 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7345,28 +9324,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7376,28 +9366,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7407,28 +9408,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7438,28 +9450,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7469,28 +9492,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7500,28 +9534,39 @@ c_Piano_Music_Voice = {                                                        %
     \times 9/11                                                                %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         cs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7531,20 +9576,27 @@ c_Piano_Music_Voice = {                                                        %
     \times 5/7                                                                 %! khamr.aviary()
     {                                                                          %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         [                                                                      %! khamr.aviary()
 
+        %! khamr.aviary()
         d'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         ds'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         e'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         f'''16                                                                 %! khamr.aviary()
 
+        %! khamr.aviary()
         fs'''!16                                                               %! khamr.aviary()
 
+        %! khamr.aviary()
         c'''16                                                                 %! khamr.aviary()
         ]                                                                      %! khamr.aviary()
 
@@ -7559,6 +9611,9 @@ c_Piano_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -7568,6 +9623,9 @@ c_Piano_Music_Voice = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Piano_Rest_Voice measure 104 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -7576,30 +9634,37 @@ c_Piano_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Piano_Music_Voice measure 105 / measure 31]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_Music_Voice measure 106 / measure 32]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_Music_Voice measure 107 / measure 33]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_Music_Voice measure 108 / measure 34]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_Music_Voice measure 109 / measure 35]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_Music_Voice measure 110 / measure 36]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_Music_Voice measure 111 / measure 37]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -7611,6 +9676,10 @@ c_Piano_Music_Voice = {                                                        %
             % [03 Piano_Music_Voice measure 112 / measure 38]                  %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -7625,6 +9694,10 @@ c_Piano_Music_Voice = {                                                        %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -7666,6 +9739,9 @@ c_Percussion_Music_Voice = {                                                   %
         %@% \override Staff.Clef.color = ##f                                   %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
             \set Staff.forceClef = ##t                                         %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             c'1 * 1/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \sfz                                                               %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -7682,6 +9758,9 @@ c_Percussion_Music_Voice = {                                                   %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Percussion_Rest_Voice measure 75 / measure 1]                %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/2                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"2"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -7690,18 +9769,22 @@ c_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Percussion_Music_Voice measure 76 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 77 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 78 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 79 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7717,6 +9800,7 @@ c_Percussion_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 80 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'2.                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -7724,6 +9808,7 @@ c_Percussion_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 81 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
@@ -7745,6 +9830,7 @@ c_Percussion_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 83 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
@@ -7752,6 +9838,7 @@ c_Percussion_Music_Voice = {                                                   %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 Percussion_Music_Voice measure 84 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7764,188 +9851,244 @@ c_Percussion_Music_Voice = {                                                   %
     - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 85 / measure 11]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 86 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 87 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 88 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 89 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 90 / measure 16]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 91 / measure 17]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 92 / measure 18]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 93 / measure 19]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 94 / measure 20]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 95 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 96 / measure 22]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 97 / measure 23]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 98 / measure 24]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 99 / measure 25]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4                                                                        %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 Percussion_Music_Voice measure 100 / measure 26]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -7955,36 +10098,46 @@ c_Percussion_Music_Voice = {                                                   %
     - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
     % [03 Percussion_Music_Voice measure 103 / measure 29]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
 
+    %! baca.make_repeated_duration_notes()
     c'4.                                                                       %! baca.make_repeated_duration_notes()
     - \baca-staccati #2                                                        %! baca.double_staccato():baca.IndicatorCommand._call()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 Percussion_Music_Voice measure 104 / measure 30]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'2.                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -8000,6 +10153,7 @@ c_Percussion_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 105 / measure 31]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
@@ -8021,6 +10175,7 @@ c_Percussion_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 107 / measure 33]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'2.                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -8028,6 +10183,7 @@ c_Percussion_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 108 / measure 34]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
@@ -8036,6 +10192,7 @@ c_Percussion_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 109 / measure 35]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
@@ -8057,6 +10214,7 @@ c_Percussion_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 111 / measure 37]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     c'2.                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -8071,6 +10229,10 @@ c_Percussion_Music_Voice = {                                                   %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -8085,6 +10247,10 @@ c_Percussion_Music_Voice = {                                                   %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -8113,6 +10279,7 @@ c_Violin_Music_Voice = {                                                       %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
+    %! baca.make_repeat_tied_notes()
     a'2                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -8131,12 +10298,14 @@ c_Violin_Music_Voice = {                                                       %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Violin_Music_Voice measure 76 / measure 2]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     a'2                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 Violin_Music_Voice measure 77 / measure 3]                           %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
+    %! khamr.continuous_glissandi()
     gff'!1.                                                                    %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8144,6 +10313,7 @@ c_Violin_Music_Voice = {                                                       %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Violin_Music_Voice measure 78 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     gf'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8151,6 +10321,7 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 79 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!2.                                                                %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8158,12 +10329,14 @@ c_Violin_Music_Voice = {                                                       %
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ff'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Violin_Music_Voice measure 80 / measure 6]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     dff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8171,9 +10344,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 81 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         cf'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         af'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8184,9 +10359,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 82 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         ff'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ef'!1.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8196,9 +10373,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 83 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         aff'!2.                                                                %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8207,23 +10386,28 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Violin_Music_Voice measure 84 / measure 10]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bff'!2.                                                                    %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Violin_Music_Voice measure 85 / measure 11]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     af'!1                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Violin_Music_Voice measure 86 / measure 12]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bf!2                                                                       %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
+    %! khamr.continuous_glissandi()
     eff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Violin_Music_Voice measure 87 / measure 13]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     df'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8231,9 +10415,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 88 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         ff'!4                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         dff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8244,9 +10430,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 89 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         cf'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         af'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8256,9 +10444,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 90 / measure 16]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!4.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ef'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8274,6 +10464,7 @@ c_Violin_Music_Voice = {                                                       %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Violin_Music_Voice measure 92 / measure 18]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     aff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8281,15 +10472,18 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 93 / measure 19]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         df'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         af'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Violin_Music_Voice measure 94 / measure 20]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bf!1.                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8297,9 +10491,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 95 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         eff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ff'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8309,9 +10505,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 96 / measure 22]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!4.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         gf'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8322,19 +10520,23 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 97 / measure 23]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         aff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Violin_Music_Voice measure 98 / measure 24]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bff'!1                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Violin_Music_Voice measure 99 / measure 25]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     ef'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8342,15 +10544,18 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 100 / measure 26]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         eff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Violin_Music_Voice measure 101 / measure 27]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     df'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8358,9 +10563,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 102 / measure 28]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         af'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         bf!1                                                                   %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8371,9 +10578,11 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Violin_Music_Voice measure 103 / measure 29]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ff'!2                                                                  %! khamr.continuous_glissandi()
         \revert NoteHead.style                                                 %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
@@ -8388,6 +10597,9 @@ c_Violin_Music_Voice = {                                                       %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -8397,6 +10609,9 @@ c_Violin_Music_Voice = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Violin_Rest_Voice measure 104 / measure 30]                  %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -8405,30 +10620,37 @@ c_Violin_Music_Voice = {                                                       %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Violin_Music_Voice measure 105 / measure 31]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 106 / measure 32]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 107 / measure 33]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 108 / measure 34]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 109 / measure 35]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 110 / measure 36]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 111 / measure 37]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -8440,6 +10662,10 @@ c_Violin_Music_Voice = {                                                       %
             % [03 Violin_Music_Voice measure 112 / measure 38]                 %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -8454,6 +10680,10 @@ c_Violin_Music_Voice = {                                                       %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -8482,6 +10712,7 @@ c_Viola_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
+    %! baca.make_repeat_tied_notes()
     gs'!2                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -8500,6 +10731,7 @@ c_Viola_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Viola_Music_Voice measure 76 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     gs'2                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -8510,22 +10742,26 @@ c_Viola_Music_Voice = {                                                        %
 
         % [03 Viola_Music_Voice measure 77 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
         \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
+        %! khamr.continuous_glissandi()
         gff'!1.                                                                %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         ^ \baca-estr-sul-pont-markup                                           %! baca.markup():baca.IndicatorCommand._call()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         gf'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Viola_Music_Voice measure 78 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bff'!2.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Viola_Music_Voice measure 79 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     ff'!1                                                                      %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8534,13 +10770,16 @@ c_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Viola_Music_Voice measure 80 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     dff'!4                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
+    %! khamr.continuous_glissandi()
     cf'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Viola_Music_Voice measure 81 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     af'!1                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8549,9 +10788,11 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 82 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         ff'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ef'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8561,9 +10802,11 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         aff'!2                                                                 %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8576,17 +10819,20 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 84 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!2                                                                 %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         af'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Viola_Music_Voice measure 85 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bf!1                                                                       %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8604,15 +10850,18 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 87 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         df'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ff'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Viola_Music_Voice measure 88 / measure 14]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     dff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8621,9 +10870,11 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 89 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         cf'!1.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         af'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8633,9 +10884,11 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 90 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ef'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8646,19 +10899,23 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 91 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!1.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         aff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Viola_Music_Voice measure 92 / measure 18]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     df'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Viola_Music_Voice measure 93 / measure 19]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     af'!1                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8667,15 +10924,18 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 94 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bf!2.                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         eff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Viola_Music_Voice measure 95 / measure 21]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     ff'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8683,18 +10943,22 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 96 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         gf'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Viola_Music_Voice measure 97 / measure 23]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
+    %! khamr.continuous_glissandi()
     aff'!4                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8702,19 +10966,23 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 98 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ef'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Viola_Music_Voice measure 99 / measure 25]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     gff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Viola_Music_Voice measure 100 / measure 26]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     eff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8723,22 +10991,27 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Viola_Music_Voice measure 101 / measure 27]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         df'!1.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         af'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Viola_Music_Voice measure 102 / measure 28]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bf!1                                                                       %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Viola_Music_Voice measure 103 / measure 29]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bff'!2                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
+    %! khamr.continuous_glissandi()
     ff'!4                                                                      %! khamr.continuous_glissandi()
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
@@ -8751,6 +11024,9 @@ c_Viola_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -8760,6 +11036,9 @@ c_Viola_Music_Voice = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Viola_Rest_Voice measure 104 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -8768,30 +11047,37 @@ c_Viola_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Viola_Music_Voice measure 105 / measure 31]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Viola_Music_Voice measure 106 / measure 32]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Viola_Music_Voice measure 107 / measure 33]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Viola_Music_Voice measure 108 / measure 34]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Viola_Music_Voice measure 109 / measure 35]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Viola_Music_Voice measure 110 / measure 36]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Viola_Music_Voice measure 111 / measure 37]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -8803,6 +11089,10 @@ c_Viola_Music_Voice = {                                                        %
             % [03 Viola_Music_Voice measure 112 / measure 38]                  %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -8817,6 +11107,10 @@ c_Viola_Music_Voice = {                                                        %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -8845,6 +11139,7 @@ c_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -8863,29 +11158,35 @@ c_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Cello_Music_Voice measure 76 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 Cello_Music_Voice measure 77 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
+    %! khamr.continuous_glissandi()
     gff'!1                                                                     %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \baca-estr-sul-pont-markup                                               %! baca.markup():baca.IndicatorCommand._call()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
+    %! khamr.continuous_glissandi()
     gf'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Cello_Music_Voice measure 78 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bff'!4                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
+    %! khamr.continuous_glissandi()
     ff'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Cello_Music_Voice measure 79 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     dff'!1                                                                     %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8894,6 +11195,7 @@ c_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Cello_Music_Voice measure 80 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     cf'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8901,9 +11203,11 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 81 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         af'!2.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ff'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8922,9 +11226,11 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 83 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         aff'!2                                                                 %! khamr.continuous_glissandi()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8933,11 +11239,13 @@ c_Cello_Music_Voice = {                                                        %
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Cello_Music_Voice measure 84 / measure 10]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bff'!4                                                                     %! khamr.continuous_glissandi()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
+    %! khamr.continuous_glissandi()
     af'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8945,9 +11253,11 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 85 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bf!1                                                                   %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         eff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8963,6 +11273,7 @@ c_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Cello_Music_Voice measure 87 / measure 13]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     ff'!2.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8970,15 +11281,18 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 88 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         dff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         cf'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Cello_Music_Voice measure 89 / measure 15]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     af'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -8986,9 +11300,11 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 90 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ef'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -8999,9 +11315,11 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 91 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         aff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -9012,19 +11330,23 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 92 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         df'!4.                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         af'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Cello_Music_Voice measure 93 / measure 19]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     bf!1                                                                       %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Cello_Music_Voice measure 94 / measure 20]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     eff'!1.                                                                    %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -9032,15 +11354,18 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 95 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         ff'!2                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         gff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Cello_Music_Voice measure 96 / measure 22]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     gf'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -9049,9 +11374,11 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 97 / measure 23]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!2                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         aff'!4.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -9061,9 +11388,11 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 98 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bff'!2.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         ef'!1                                                                  %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -9073,19 +11402,23 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 99 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         gff'!4.                                                                %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         eff'!4                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Cello_Music_Voice measure 100 / measure 26]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     df'!2                                                                      %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [03 Cello_Music_Voice measure 101 / measure 27]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     af'!1.                                                                     %! khamr.continuous_glissandi()
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -9093,15 +11426,18 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! khamr.continuous_glissandi()
 
         % [03 Cello_Music_Voice measure 102 / measure 28]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! khamr.continuous_glissandi()
         bf!2                                                                   %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
+        %! khamr.continuous_glissandi()
         bff'!1                                                                 %! khamr.continuous_glissandi()
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }                                                                          %! khamr.continuous_glissandi()
 
     % [03 Cello_Music_Voice measure 103 / measure 29]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! khamr.continuous_glissandi()
     ff'!2.                                                                     %! khamr.continuous_glissandi()
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
@@ -9114,6 +11450,9 @@ c_Cello_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             d1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -9123,6 +11462,9 @@ c_Cello_Music_Voice = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Cello_Rest_Voice measure 104 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -9131,30 +11473,37 @@ c_Cello_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Cello_Music_Voice measure 105 / measure 31]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Cello_Music_Voice measure 106 / measure 32]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Cello_Music_Voice measure 107 / measure 33]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Cello_Music_Voice measure 108 / measure 34]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Cello_Music_Voice measure 109 / measure 35]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Cello_Music_Voice measure 110 / measure 36]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 5/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"5" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Cello_Music_Voice measure 111 / measure 37]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -9166,6 +11515,10 @@ c_Cello_Music_Voice = {                                                        %
             % [03 Cello_Music_Voice measure 112 / measure 38]                  %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -9180,6 +11533,10 @@ c_Cello_Music_Voice = {                                                        %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -9449,6 +11806,7 @@ c_Contrabass_Music_Voice = {                                                   %
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     % [03 Contrabass_Music_Voice measure 105 / measure 31]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     r1                                                                         %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
@@ -9475,18 +11833,21 @@ c_Contrabass_Music_Voice = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Contrabass_Music_Voice measure 107 / measure 33]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g,,2.                                                                      %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Contrabass_Music_Voice measure 108 / measure 34]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g,,1                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Contrabass_Music_Voice measure 109 / measure 35]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g,,1                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -9502,6 +11863,7 @@ c_Contrabass_Music_Voice = {                                                   %
     \repeatTie
 
     % [03 Contrabass_Music_Voice measure 111 / measure 37]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     r2.                                                                        %! baca.make_repeat_tied_notes()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -9515,6 +11877,10 @@ c_Contrabass_Music_Voice = {                                                   %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             d1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -9529,6 +11895,10 @@ c_Contrabass_Music_Voice = {                                                   %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
