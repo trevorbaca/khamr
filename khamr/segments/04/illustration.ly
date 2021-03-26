@@ -1,5 +1,11 @@
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_format_pieces()
 \version "2.23.1"                                                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_format_pieces()
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                            %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_format_pieces()
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheet.ily"                                                %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
 \include "illustration.ily"                                                    %! ide.Path.extern()
 
@@ -8,7 +14,12 @@
 \paper { print-first-page-number = ##t }                                       %! baca.SegmentMaker._make_lilypond_file()
 \paper { first-page-number = #34 }                                             %! __make_segment_pdf__
 
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_formatted_blocks()
+
 \score                                                                         %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_blocks()
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_formatted_blocks()
 {                                                                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_blocks()
 
     %! baca.SegmentMaker._make_lilypond_file()
@@ -16,6 +27,7 @@
 
         %! baca.SegmentMaker._make_lilypond_file()
         {                                                                      %! baca.SegmentMaker._make_lilypond_file()
+            %! baca.SegmentMaker._make_lilypond_file()
             \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file()
         %! baca.SegmentMaker._make_lilypond_file()
         }                                                                      %! baca.SegmentMaker._make_lilypond_file()
@@ -48,24 +60,28 @@
                 %! khamr.ScoreTemplate.__call__()
                 <<                                                             %! khamr.ScoreTemplate.__call__()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Flute                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "Flute_Music_Staff"                       %! khamr.ScoreTemplate.__call__()
                     %! khamr.ScoreTemplate.__call__()
                     \d_Flute_Music_Staff                                       %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Oboe                                                  %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "OboeMusicStaff"                          %! khamr.ScoreTemplate.__call__()
                     %! khamr.ScoreTemplate.__call__()
                     \d_OboeMusicStaff                                          %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Clarinet                                              %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "Clarinet_Music_Staff"                    %! khamr.ScoreTemplate.__call__()
                     %! khamr.ScoreTemplate.__call__()
                     \d_Clarinet_Music_Staff                                    %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Saxophone                                             %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "Saxophone_Music_Staff"                   %! khamr.ScoreTemplate.__call__()
@@ -80,18 +96,21 @@
                 %! khamr.ScoreTemplate.__call__()
                 <<                                                             %! khamr.ScoreTemplate.__call__()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Guitar                                                %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "Guitar_Music_Staff"                      %! khamr.ScoreTemplate.__call__()
                     %! khamr.ScoreTemplate.__call__()
                     \d_Guitar_Music_Staff                                      %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Piano                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "Piano_Music_Staff"                       %! khamr.ScoreTemplate.__call__()
                     %! khamr.ScoreTemplate.__call__()
                     \d_Piano_Music_Staff                                       %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Percussion                                            %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "PercussionMusicStaff"                    %! khamr.ScoreTemplate.__call__()
@@ -106,24 +125,28 @@
                 %! khamr.ScoreTemplate.__call__()
                 <<                                                             %! khamr.ScoreTemplate.__call__()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Violin                                                %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "Violin_Music_Staff"                      %! khamr.ScoreTemplate.__call__()
                     %! khamr.ScoreTemplate.__call__()
                     \d_Violin_Music_Staff                                      %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Viola                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "Viola_Music_Staff"                       %! khamr.ScoreTemplate.__call__()
                     %! khamr.ScoreTemplate.__call__()
                     \d_Viola_Music_Staff                                       %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Cello                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "CelloMusicStaff"                         %! khamr.ScoreTemplate.__call__()
                     %! khamr.ScoreTemplate.__call__()
                     \d_CelloMusicStaff                                         %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Contrabass                                            %! baca.ScoreTemplate._attach_liypond_tag()
                     %! khamr.ScoreTemplate.__call__()
                     \context Staff = "Contrabass_Music_Staff"                  %! khamr.ScoreTemplate.__call__()
@@ -142,4 +165,6 @@
     %! baca.SegmentMaker._make_lilypond_file()
     >>                                                                         %! baca.SegmentMaker._make_lilypond_file()
 
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_formatted_blocks()
 }                                                                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_blocks()
