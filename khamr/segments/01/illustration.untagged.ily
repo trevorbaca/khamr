@@ -3774,7 +3774,7 @@ a_Percussion_Music_Voice = {
     - \tweak color #(x11-color 'blue)
     \sfz
     - \marcato
-    - \markup \larger \box \override #'(box-padding . 0.75) "marimba + woodblock"
+    - \markup \larger \box \override #'(box-padding . 0.75) "marimba + woodblock" 
     - \tweak stencil ##f
     ~
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
