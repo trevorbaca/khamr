@@ -82,9 +82,9 @@ metronome_marks = abjad.OrderedDict(
 #   = 151.2 beats at 84 MM
 #   = 113.4 beats at 63 MM
 #   = 75.6 beats at 42 MM
-numerators = baca.sequence([[2, 2, 3], [2, 4], [3, 4, 5]])
+numerators = baca.Sequence([[2, 2, 3], [2, 4], [3, 4, 5]])
 numerators = numerators.helianthate(-1, -1)
-pairs = baca.sequence(
+pairs = baca.Sequence(
     [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
 )
 pairs = pairs.helianthate(-1, -1)
@@ -142,11 +142,11 @@ assert len(color_trill_pitches) == 18
 
 # rose pitch-classes
 
-rose_pitch_classes = baca.sequence(
+rose_pitch_classes = baca.Sequence(
     [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
 )
 rose_pitch_classes = rose_pitch_classes.helianthate(-1, 1)
-rose_pitch_classes = baca.sequence(rose_pitch_classes).flatten()
+rose_pitch_classes = baca.Sequence(rose_pitch_classes).flatten()
 assert len(rose_pitch_classes) == 64
 
 rose_pitch_classes = [abjad.NamedPitch(_) for _ in rose_pitch_classes]
@@ -266,10 +266,16 @@ def aviary(
     Makes aviary rhythm.
     """
 
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.fuse()
+        divisions = divisions.split_divisions([duration], cyclic=True)
+        return divisions
+
     return baca.rhythm(
         rmakers.even_division([16], extra_counts=extra_counts),
         rmakers.beam(),
-        preprocessor=baca.sequence().fuse().split_divisions([duration], cyclic=True),
+        preprocessor=preprocessor,
         tag=abjad.Tag("khamr.aviary()"),
     )
 
@@ -278,8 +284,12 @@ def closing() -> baca.RhythmCommand:
     """
     Makes closing rhythm.
     """
-    divisions_ = [(2, 4), (4, 4), (12, 4)]
-    divisions = baca.sequence().fuse().split_divisions(divisions_, cyclic=True)
+
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.fuse()
+        divisions = divisions.split_divisions([(2, 4), (4, 4), (12, 4)], cyclic=True)
+        return divisions
 
     return baca.rhythm(
         rmakers.note(),
@@ -287,7 +297,7 @@ def closing() -> baca.RhythmCommand:
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=divisions,
+        preprocessor=preprocessor,
         tag=abjad.Tag("khamr.closing()"),
     )
 
@@ -298,7 +308,7 @@ def continuous_glissandi(
     """
     Makes continuous glissandi rhythm.
     """
-    tuplet_ratios = baca.sequence([(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)])
+    tuplet_ratios = baca.Sequence([(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)])
     tuplet_ratio_rotation *= 2
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
 
@@ -323,7 +333,11 @@ def current(
     Makes current rhythm.
     """
     tuplet_ratios = [_ * (1,) for _ in counts]
-    quarters = baca.sequence().quarters(compound=(3, 2))
+
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
+        return divisions
 
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
@@ -333,7 +347,7 @@ def current(
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=baca.sequence().map(quarters),
+        preprocessor=preprocessor,
         tag=abjad.Tag("khamr.current()"),
     )
 
@@ -342,16 +356,22 @@ def fused_expanse(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     """
     Makes fused expanse rhythm.
     """
-    quarters = baca.sequence().quarters(compound=(3, 2))
-    divisions = baca.sequence().map(quarters).flatten(depth=-1)
-    divisions = divisions.fuse(counts, cyclic=True)
+
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
+        divisions = divisions.flatten(depth=-1)
+        divisions = divisions.fuse(counts, cyclic=True)
+        divisions = divisions.flatten(depth=-1)
+        return divisions
 
     return baca.rhythm(
         rmakers.note(),
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=divisions.flatten(depth=-1),
+        # preprocessor=divisions.flatten(depth=-1),
+        preprocessor=preprocessor,
         tag=abjad.Tag("khamr.fused_expanse()"),
     )
 
@@ -362,9 +382,13 @@ def fused_wind(
     """
     Makes fused wind rhythm.
     """
-    quarters = baca.sequence().quarters(compound=(3, 2))
-    divisions = baca.sequence().map(quarters).flatten(depth=-1)
-    divisions = divisions.fuse(counts, cyclic=True)
+
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
+        divisions = divisions.flatten(depth=-1)
+        divisions = divisions.fuse(counts, cyclic=True)
+        return divisions
 
     return baca.rhythm(
         rmakers.incised(
@@ -379,7 +403,7 @@ def fused_wind(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=divisions,
+        preprocessor=preprocessor,
         tag=abjad.Tag("khamr.fused_wind()"),
     )
 
@@ -395,7 +419,7 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
         rmakers.duration_bracket(baca.tuplets().filter_length(">", 1)),
         rmakers.feather_beam(),
         rmakers.force_repeat_tie(),
-        preprocessor=baca.sequence().fuse(counts, cyclic=True),
+        preprocessor=lambda _: baca.Sequence(_).fuse(counts, cyclic=True),
         tag=abjad.Tag("khamr.guitar_accelerandi()"),
     )
 
@@ -425,7 +449,7 @@ def guitar_isolata(*commands) -> baca.RhythmCommand:
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=baca.sequence().fuse().quarters(),
+        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
         tag=abjad.Tag("khamr.guitar_isolata()"),
     )
 
@@ -495,7 +519,7 @@ def opening_glissandi(
     """
     Makes opening glissandi rhythm.
     """
-    tuplet_ratios = baca.sequence(
+    tuplet_ratios = baca.Sequence(
         [
             (4, 1),
             (4, 1),
@@ -535,7 +559,11 @@ def quarter_hits(
     """
     Makes quarter hits.
     """
-    quarters = baca.sequence().quarters(compound=(3, 2))
+
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
+        return divisions
 
     return baca.rhythm(
         rmakers.note(),
@@ -543,7 +571,7 @@ def quarter_hits(
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=baca.sequence().map(quarters),
+        preprocessor=preprocessor,
         tag=abjad.Tag("khamr.quarter_hits()"),
     )
 
@@ -552,7 +580,11 @@ def silent_first_division() -> baca.RhythmCommand:
     """
     Makes repeat-tied durations with silent first division.
     """
-    quarters = baca.sequence().quarters(compound=(3, 2))
+
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
+        return divisions
 
     return baca.rhythm(
         rmakers.note(),
@@ -560,7 +592,7 @@ def silent_first_division() -> baca.RhythmCommand:
         rmakers.force_rest(baca.note(0)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=baca.sequence().map(quarters),
+        preprocessor=preprocessor,
         tag=abjad.Tag("khamr.silent_first_division()"),
     )
 
@@ -696,7 +728,7 @@ def trill_tuplets(tuplet_ratios: int, *commands: rmakers.Command) -> baca.Rhythm
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=baca.sequence().fuse().quarters(),
+        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
         tag=abjad.Tag("khamr.trill_tuplets()"),
     )
 
