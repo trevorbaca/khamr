@@ -1,5 +1,3 @@
-import typing
-
 import abjad
 import baca
 from abjadext import rmakers
@@ -156,9 +154,6 @@ rose_pitch_classes = abjad.PitchSegment(
 
 
 class MarimbaHitCommand(baca.Command):
-    """
-    Marimba hit command.
-    """
 
     ### CLASS VARIABLES ##
 
@@ -185,11 +180,6 @@ class MarimbaHitCommand(baca.Command):
     ### SPECIAL METHODS ###
 
     def __call__(self, argument=None, runtime=None):
-        """
-        Calls command on `argument`.
-
-        Returns none.
-        """
         self._runtime = runtime
         tag = abjad.Tag("khamr.MarimbaHitCommand.__call__()")
         found_first = False
@@ -238,10 +228,7 @@ class MarimbaHitCommand(baca.Command):
         return self._indices
 
 
-def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
-    """
-    Makes repeat-tied alternate divisions.
-    """
+def alternate_divisions(detach_ties=None):
     commands = []
     if detach_ties is True:
         specifier = rmakers.untie()
@@ -259,13 +246,7 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
     )
 
 
-def aviary(
-    duration: abjad.DurationTyping, *, extra_counts: abjad.IntegerSequence
-) -> baca.RhythmCommand:
-    """
-    Makes aviary rhythm.
-    """
-
+def aviary(duration, *, extra_counts):
     def preprocessor(divisions):
         divisions = baca.Sequence(divisions)
         divisions = divisions.fuse()
@@ -280,11 +261,7 @@ def aviary(
     )
 
 
-def closing() -> baca.RhythmCommand:
-    """
-    Makes closing rhythm.
-    """
-
+def closing():
     def preprocessor(divisions):
         divisions = baca.Sequence(divisions)
         divisions = divisions.fuse()
@@ -302,16 +279,10 @@ def closing() -> baca.RhythmCommand:
     )
 
 
-def continuous_glissandi(
-    tuplet_ratio_rotation: int, *commands: rmakers.Command
-) -> baca.RhythmCommand:
-    """
-    Makes continuous glissandi rhythm.
-    """
+def continuous_glissandi(tuplet_ratio_rotation, *commands):
     tuplet_ratios = baca.Sequence([(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)])
     tuplet_ratio_rotation *= 2
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
-
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
         *commands,
@@ -326,12 +297,7 @@ def continuous_glissandi(
     )
 
 
-def current(
-    counts: abjad.IntegerSequence, *commands: rmakers.Command
-) -> baca.RhythmCommand:
-    """
-    Makes current rhythm.
-    """
+def current(counts, *commands):
     tuplet_ratios = [_ * (1,) for _ in counts]
 
     def preprocessor(divisions):
@@ -352,11 +318,7 @@ def current(
     )
 
 
-def fused_expanse(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
-    """
-    Makes fused expanse rhythm.
-    """
-
+def fused_expanse(counts):
     def preprocessor(divisions):
         divisions = baca.Sequence(divisions)
         divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
@@ -370,19 +332,12 @@ def fused_expanse(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        # preprocessor=divisions.flatten(depth=-1),
         preprocessor=preprocessor,
         tag=abjad.Tag("khamr.fused_expanse()"),
     )
 
 
-def fused_wind(
-    counts: abjad.IntegerSequence, *commands, denominator: int = 8
-) -> baca.RhythmCommand:
-    """
-    Makes fused wind rhythm.
-    """
-
+def fused_wind(counts, *commands, denominator=8):
     def preprocessor(divisions):
         divisions = baca.Sequence(divisions)
         divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
@@ -408,14 +363,10 @@ def fused_wind(
     )
 
 
-def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
-    """
-    Makes guitar accelerandi.
-    """
-
+def guitar_accelerandi(counts):
     return baca.rhythm(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
-        rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
+        rmakers.repeat_tie(baca.pleaf_in_each_tuplet(0, (1, None))),
         rmakers.duration_bracket(baca.tuplets().filter_length(">", 1)),
         rmakers.feather_beam(),
         rmakers.force_repeat_tie(),
@@ -424,11 +375,7 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     )
 
 
-def guitar_isolata(*commands) -> baca.RhythmCommand:
-    """
-    Makes guitar isolata.
-    """
-
+def guitar_isolata(*commands):
     return baca.rhythm(
         rmakers.tuplet(
             [
@@ -454,10 +401,7 @@ def guitar_isolata(*commands) -> baca.RhythmCommand:
     )
 
 
-def halo_hairpins() -> baca.Suite:
-    """
-    Makes halo hairpins.
-    """
+def halo_hairpins():
     hairpins = [
         "pp > ppp",
         "ppp < pp",
@@ -479,15 +423,7 @@ def halo_hairpins() -> baca.Suite:
     return baca.chunk(*commands)
 
 
-def margin_markup(
-    key: str,
-    alert: baca.IndicatorCommand = None,
-    context: str = "Staff",
-    selector: abjad.Expression = baca.leaf(0),
-) -> baca.CommandTyping:
-    """
-    Makes tagged margin markup indicator command.
-    """
+def margin_markup(key, alert=None, context="Staff", selector=baca.leaf(0)):
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
         margin_markup, alert=alert, context=context, selector=selector
@@ -495,30 +431,19 @@ def margin_markup(
     return baca.not_parts(command)
 
 
-def narrow_fourth_octave() -> baca.RegisterCommand:
-    """
-    Makes narrow fourth octave register command.
-    """
+def narrow_fourth_octave():
     return baca.RegisterCommand(
         registration=baca.Registration([("[A0, F#4)", -2), ("[F#4, C8]", 1)])
     )
 
 
-def narrow_sixth_octave() -> baca.RegisterCommand:
-    """
-    Makes narrow sixth octave register command.
-    """
+def narrow_sixth_octave():
     return baca.RegisterCommand(
         registration=baca.Registration([("[A0, F#4)", 22), ("[F#4, C8]", 25)])
     )
 
 
-def opening_glissandi(
-    tuplet_ratio_rotation: int, *commands: rmakers.Command
-) -> baca.RhythmCommand:
-    """
-    Makes opening glissandi rhythm.
-    """
+def opening_glissandi(tuplet_ratio_rotation, *commands):
     tuplet_ratios = baca.Sequence(
         [
             (4, 1),
@@ -537,10 +462,9 @@ def opening_glissandi(
     )
     tuplet_ratio_rotation *= 3
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
-
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
-        rmakers.repeat_tie(baca.tuplets()[1:].map(baca.pleaf(0))),
+        rmakers.repeat_tie(baca.pleaf_in_each_tuplet(0, (1, None))),
         *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
@@ -553,13 +477,7 @@ def opening_glissandi(
     )
 
 
-def quarter_hits(
-    *commands: rmakers.Command,
-) -> baca.RhythmCommand:
-    """
-    Makes quarter hits.
-    """
-
+def quarter_hits(*commands):
     def preprocessor(divisions):
         divisions = baca.Sequence(divisions)
         divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
@@ -576,11 +494,7 @@ def quarter_hits(
     )
 
 
-def silent_first_division() -> baca.RhythmCommand:
-    """
-    Makes repeat-tied durations with silent first division.
-    """
-
+def silent_first_division():
     def preprocessor(divisions):
         divisions = baca.Sequence(divisions)
         divisions = divisions.map(lambda _: baca.Sequence(_).quarters(compound=(3, 2)))
@@ -597,17 +511,11 @@ def silent_first_division() -> baca.RhythmCommand:
     )
 
 
-def sixth_octave() -> baca.RegisterCommand:
-    """
-    Makes sixth octave register command.
-    """
+def sixth_octave():
     return baca.RegisterCommand(registration=baca.Registration([("[A0, C8)", 30)]))
 
 
-def string_tuplet_ratios(number: int) -> typing.List[typing.Tuple]:
-    """
-    Makes string tuplet ratios.
-    """
+def string_tuplet_ratios(number):
     if number == 1:
         return [
             (1,),
@@ -714,13 +622,10 @@ def string_tuplet_ratios(number: int) -> typing.List[typing.Tuple]:
         raise ValueError(number)
 
 
-def trill_tuplets(tuplet_ratios: int, *commands: rmakers.Command) -> baca.RhythmCommand:
-    """
-    Makes trill tuplet rhythm.
-    """
+def trill_tuplets(tuplet_ratios, *commands):
     return baca.rhythm(
         rmakers.tuplet(string_tuplet_ratios(tuplet_ratios)),
-        rmakers.tie(baca.tuplets()[:-1].map(baca.ptail(-1))),
+        rmakers.tie(baca.ptail_in_each_tuplet(-1, (None, -1))),
         *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
@@ -733,17 +638,11 @@ def trill_tuplets(tuplet_ratios: int, *commands: rmakers.Command) -> baca.Rhythm
     )
 
 
-def weiss_multiphonic(number: int) -> abjad.Markup:
-    """
-    Makes Weiss multiphonic.
-    """
+def weiss_multiphonic(number):
     return abjad.Markup(rf'\baca-boxed-markup "W.{number}"', literal=True)
 
 
-def wide_third_octave() -> baca.RegisterCommand:
-    """
-    Makes wide third octave register command.
-    """
+def wide_third_octave():
     return baca.RegisterCommand(
         registration=baca.Registration([("[A0, F#4)", -20), ("[F#4, C8]", -6)])
     )
@@ -788,9 +687,6 @@ class ScoreTemplate(baca.ScoreTemplate):
     ### SPECIAL METHODS ###
 
     def __call__(self) -> abjad.Score:
-        """
-        Calls score template.
-        """
         site = "khamr.ScoreTemplate.__call__()"
         tag = abjad.Tag(site)
         # GLOBAL CONTEXT

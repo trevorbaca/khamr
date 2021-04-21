@@ -42,6 +42,26 @@ maker(
     baca.rehearsal_mark("B"),
 )
 
+
+def leaf_in_each_top_tuplet(n):
+    def selector(argument):
+        selection = baca.Selection(argument).top().tuplets()
+        return baca.Selection(baca.Selection(_).leaf(n) for _ in selection)
+
+    return selector
+
+
+def ptails_in_get_tuplets(pattern, pair):
+    start, stop = pair
+
+    def selector(argument):
+        selection = baca.Selection(argument).tuplets()
+        selection = selection.get(*pattern)
+        return baca.Selection(baca.Selection(_).ptails()[start:stop] for _ in selection)
+
+    return selector
+
+
 maker(
     ("fl", (1, 2)),
     baca.make_repeat_tied_notes(),
@@ -162,7 +182,7 @@ maker(
     khamr.continuous_glissandi(
         0,
         rmakers.tie(
-            baca.tuplets().get([0, 1, 3], 7).map(baca.ptails()[:-1]),
+            ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
         ),
     ),
 )
@@ -177,7 +197,7 @@ maker(
     khamr.continuous_glissandi(
         -1,
         rmakers.tie(
-            baca.tuplets().get([1, 2, 4], 7).map(baca.ptails()[:-1]),
+            ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
         ),
     ),
 )
@@ -192,7 +212,7 @@ maker(
     khamr.continuous_glissandi(
         -2,
         rmakers.tie(
-            baca.tuplets().get([2, 3, 5], 7).map(baca.ptails()[:-1]),
+            ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
         ),
     ),
 )
@@ -215,7 +235,7 @@ maker(
 
 maker(
     ("fl", (10, 29)),
-    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
     baca.dynamic("fff-ancora"),
     baca.pitches("D6 E6 F#6 C6 C#6 D6 D#6 F6"),
 )
@@ -237,7 +257,7 @@ maker(
 
 maker(
     ("ob", (10, 29)),
-    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
     baca.dynamic("fff-ancora"),
     baca.pitches("C6 C#6 D#6 E6 F6 F#6"),
 )
@@ -261,7 +281,7 @@ maker(
 
 maker(
     ("cl", (10, 29)),
-    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
     baca.dynamic("fff-ancora"),
     baca.pitches("D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6"),
 )
@@ -279,7 +299,7 @@ maker(
 
 maker(
     ("sax", (10, 29)),
-    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
     baca.dynamic("fff-ancora"),
     baca.pitches("C6 C#6 D6 F6 F#6 D#6 E6"),
 )
@@ -322,7 +342,7 @@ maker(
 
 maker(
     ("pf", (10, 29)),
-    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
     baca.dynamic("fff"),
     baca.pitches("C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6"),
 )

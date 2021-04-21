@@ -215,7 +215,7 @@ maker(
     khamr.opening_glissandi(
         0,
         rmakers.repeat_tie(
-            baca.tuplets().get([0, 1, 2, 5], 7).map(baca.leaves()[1:]),
+            baca.leaves_in_get_tuplets(([0, 1, 2, 5], 7), (1, None)),
         ),
     ),
 )
@@ -230,7 +230,7 @@ maker(
     khamr.opening_glissandi(
         -1,
         rmakers.tie(
-            baca.tuplets().get([1, 2, 3, 6], 7).map(baca.leaves()[:-1]),
+            baca.leaves_in_get_tuplets(([1, 2, 3, 6], 7), (None, -1)),
         ),
     ),
 )
@@ -245,7 +245,7 @@ maker(
     khamr.opening_glissandi(
         -2,
         rmakers.tie(
-            baca.tuplets().get([0, 2, 3, 4], 7).map(baca.leaves()[:-1]),
+            baca.leaves_in_get_tuplets(([0, 2, 3, 4], 7), (None, -1)),
         ),
     ),
 )
@@ -260,7 +260,7 @@ maker(
     khamr.opening_glissandi(
         -3,
         rmakers.tie(
-            baca.tuplets().get([0, 1, 4, 6], 7).map(baca.leaves()[:-1]),
+            baca.leaves_in_get_tuplets(([0, 1, 4, 6], 7), (None, -1)),
         ),
     ),
 )
