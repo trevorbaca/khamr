@@ -233,7 +233,7 @@ maker(
     ),
     baca.new(
         baca.trill_spanner(),
-        map=baca.qruns(),
+        map=baca.selectors.qruns(),
     ),
     baca.pitch("Bb4"),
 )
