@@ -207,7 +207,7 @@ maker(
     khamr.opening_glissandi(
         -3,
         rmakers.repeat_tie(
-            baca.leaves_in_get_tuplets(([0, 1, 4, 6], 7), (1, None)),
+            baca.selectors.leaves_in_get_tuplets(([0, 1, 4, 6], 7), (1, None)),
         ),
         rmakers.force_rest(baca.tuplet(-1)),
     ),

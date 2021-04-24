@@ -366,7 +366,7 @@ def fused_wind(counts, *commands, denominator=8):
 def guitar_accelerandi(counts):
     return baca.rhythm(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
-        rmakers.repeat_tie(baca.pleaf_in_each_tuplet(0, (1, None))),
+        rmakers.repeat_tie(baca.selectors.pleaf_in_each_tuplet(0, (1, None))),
         rmakers.duration_bracket(baca.tuplets().filter_length(">", 1)),
         rmakers.feather_beam(),
         rmakers.force_repeat_tie(),
@@ -464,7 +464,7 @@ def opening_glissandi(tuplet_ratio_rotation, *commands):
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
-        rmakers.repeat_tie(baca.pleaf_in_each_tuplet(0, (1, None))),
+        rmakers.repeat_tie(baca.selectors.pleaf_in_each_tuplet(0, (1, None))),
         *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
@@ -625,7 +625,7 @@ def string_tuplet_ratios(number):
 def trill_tuplets(tuplet_ratios, *commands):
     return baca.rhythm(
         rmakers.tuplet(string_tuplet_ratios(tuplet_ratios)),
-        rmakers.tie(baca.ptail_in_each_tuplet(-1, (None, -1))),
+        rmakers.tie(baca.selectors.ptail_in_each_tuplet(-1, (None, -1))),
         *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
