@@ -33,10 +33,10 @@ maker = baca.SegmentMaker(
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("126", selector=baca.leaf(1 - 1)),
-    baca.metronome_mark("63", selector=baca.leaf(25 - 1)),
-    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(25 - 1)),
-    baca.metronome_mark("84", selector=baca.leaf(37 - 1)),
+    baca.metronome_mark("126", selector=baca.selectors.leaf(1 - 1)),
+    baca.metronome_mark("63", selector=baca.selectors.leaf(25 - 1)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.selectors.leaf(25 - 1)),
+    baca.metronome_mark("84", selector=baca.selectors.leaf(37 - 1)),
 )
 
 maker(
@@ -338,7 +338,7 @@ maker(
     baca.markup(
         r"\baca-put-reed-back-in-markup",
         literal=True,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
     baca.pitch("<A4 E5>"),
     baca.staff_lines(5),
