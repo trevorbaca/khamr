@@ -334,7 +334,7 @@ maker(
     ("ob", (37, 44)),
     baca.clef("treble"),
     baca.dynamic("pp"),
-    baca.flageolet(selector=baca.pheads()),
+    baca.flageolet(selector=baca.selectors.pheads()),
     baca.markup(
         r"\baca-put-reed-back-in-markup",
         literal=True,
@@ -405,7 +405,7 @@ maker(
 
 maker(
     ("pf", (1, 24)),
-    baca.accent(selector=baca.pheads()),
+    baca.accent(selector=baca.selectors.pheads()),
     baca.clef("percussion"),
     baca.dynamic("mf"),
     baca.markup(
@@ -443,7 +443,7 @@ maker(
 
 maker(
     "perc",
-    baca.accent(selector=baca.pheads()),
+    baca.accent(selector=baca.selectors.pheads()),
     baca.dynamic("mp"),
     baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
     baca.staff_lines(1),
@@ -573,5 +573,5 @@ maker(
 
 maker(
     (["vn", "va", "vc"], (37, 44)),
-    baca.accent(selector=baca.pheads()),
+    baca.accent(selector=baca.selectors.pheads()),
 )

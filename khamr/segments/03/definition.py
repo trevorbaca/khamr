@@ -230,7 +230,7 @@ maker(
 maker(
     ("fl", (1, 2)),
     baca.pitch("B5"),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 maker(
@@ -325,7 +325,7 @@ maker(
     ("gt", (10, 29)),
     baca.dynamic("fff"),
     baca.pitch("Ab4"),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 maker(
@@ -354,12 +354,12 @@ maker(
         r"\baca-bass-drum-markup",
         literal=True,
     ),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 maker(
     ("perc", (10, 29)),
-    baca.double_staccato(selector=baca.pheads()),
+    baca.double_staccato(selector=baca.selectors.pheads()),
     baca.dynamic("fff"),
     baca.markup(
         r"\baca-castanets-markup",
@@ -374,7 +374,7 @@ maker(
         r"\baca-bass-drum-markup",
         literal=True,
     ),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 maker(
