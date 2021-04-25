@@ -270,7 +270,9 @@ def closing():
 
     return baca.rhythm(
         rmakers.note(),
-        rmakers.force_rest(baca.lts().get([0, -1])),
+        rmakers.force_rest(
+            baca.lts().get([0, -1]),
+        ),
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
@@ -367,7 +369,9 @@ def guitar_accelerandi(counts):
     return baca.rhythm(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
         rmakers.repeat_tie(baca.selectors.pleaf_in_each_tuplet(0, (1, None))),
-        rmakers.duration_bracket(baca.tuplets().filter_length(">", 1)),
+        rmakers.duration_bracket(
+            lambda _: baca.Selection(_).tuplets().filter_length(">", 1),
+        ),
         rmakers.feather_beam(),
         rmakers.force_repeat_tie(),
         preprocessor=lambda _: baca.Sequence(_).fuse(counts, cyclic=True),
@@ -503,7 +507,7 @@ def silent_first_division():
     return baca.rhythm(
         rmakers.note(),
         rmakers.repeat_tie(baca.ptails()[1:]),
-        rmakers.force_rest(baca.note(0)),
+        rmakers.force_rest(baca.selectors.note(0)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,

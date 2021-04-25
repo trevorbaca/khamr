@@ -92,7 +92,7 @@ maker(
     ("ob", (34, 37)),
     khamr.fused_wind(
         [10],
-        rmakers.force_rest(baca.tuplet(0)),
+        rmakers.force_rest(baca.selectors.tuplet(0)),
         denominator=16,
     ),
 )
@@ -112,7 +112,7 @@ maker(
     ("cl", (32, 37)),
     baca.instrument(khamr.instruments["BassClarinet"]),
     baca.make_repeat_tied_notes(
-        rmakers.force_rest(baca.lt(-1)),
+        rmakers.force_rest(baca.selectors.lt(-1)),
     ),
 )
 
@@ -224,7 +224,7 @@ maker(
 
 maker(
     ("cb", [(30, 31), (32, 37)]),
-    baca.make_repeat_tied_notes(rmakers.force_rest(baca.lt(-1))),
+    baca.make_repeat_tied_notes(rmakers.force_rest(baca.selectors.lt(-1))),
 )
 
 maker(
