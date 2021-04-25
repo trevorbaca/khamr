@@ -309,7 +309,7 @@ maker(
     ("fl", (37, 44)),
     baca.hairpin(
         "mp > pp",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.new(
         baca.trill_spanner(),

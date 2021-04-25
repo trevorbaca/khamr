@@ -182,7 +182,7 @@ maker(
     ("perc", (1, 5)),
     baca.hairpin(
         "pp > ppp",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
