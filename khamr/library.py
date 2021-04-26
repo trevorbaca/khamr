@@ -236,7 +236,9 @@ def alternate_divisions(detach_ties=None):
 
     return baca.rhythm(
         rmakers.note(),
-        rmakers.tie(baca.ptails()[:-1]),
+        rmakers.tie(
+            baca.selectors.ptails((None, -1)),
+        ),
         rmakers.force_rest(baca.leaves().group_by_measure().get([1], 2)),
         *commands,
         rmakers.beam(baca.plts()),
@@ -506,7 +508,9 @@ def silent_first_division():
 
     return baca.rhythm(
         rmakers.note(),
-        rmakers.repeat_tie(baca.ptails()[1:]),
+        rmakers.repeat_tie(
+            baca.selectors.ptails((1, None)),
+        ),
         rmakers.force_rest(baca.selectors.note(0)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
