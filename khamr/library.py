@@ -432,7 +432,10 @@ def halo_hairpins():
 def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf(0)):
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
-        margin_markup, alert=alert, context=context, selector=selector
+        margin_markup,
+        alert=alert,
+        context=context,
+        selector=selector,
     )
     return baca.not_parts(command)
 

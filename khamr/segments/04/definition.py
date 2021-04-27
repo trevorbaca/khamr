@@ -35,10 +35,19 @@ maker = baca.SegmentMaker(
 
 maker(
     "Global_Skips",
-    baca.metronome_mark(baca.Accelerando(), selector=baca.selectors.leaf(8 - 1)),
-    baca.metronome_mark("84", selector=baca.selectors.leaf(16 - 1)),
+    baca.metronome_mark(
+        baca.Accelerando(),
+        selector=baca.selectors.leaf(8 - 1),
+    ),
+    baca.metronome_mark(
+        "84",
+        selector=baca.selectors.leaf(16 - 1),
+    ),
     baca.rehearsal_mark("C"),
-    baca.bar_line("|.", baca.selectors.skip(-1)),
+    baca.bar_line(
+        "|.",
+        baca.selectors.skip(-1),
+    ),
 )
 
 maker(
