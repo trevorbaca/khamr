@@ -239,7 +239,9 @@ def alternate_divisions(detach_ties=None):
         rmakers.tie(
             baca.selectors.ptails((None, -1)),
         ),
-        rmakers.force_rest(baca.leaves().group_by_measure().get([1], 2)),
+        rmakers.force_rest(
+            lambda _: baca.Selection(_).leaves().group_by_measure().get([1], 2),
+        ),
         *commands,
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),
