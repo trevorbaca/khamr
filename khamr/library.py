@@ -275,7 +275,7 @@ def closing():
     return baca.rhythm(
         rmakers.note(),
         rmakers.force_rest(
-            baca.lts().get([0, -1]),
+            baca.selectors.lts([0, -1]),
         ),
         rmakers.beam(baca.plts()),
         rmakers.rewrite_meter(),

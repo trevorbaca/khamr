@@ -182,7 +182,7 @@ maker(
     ("perc", (15, 20)),
     khamr.quarter_hits(
         rmakers.force_rest(
-            baca.lts().get(indices),
+            baca.selectors.lts(indices),
         ),
     ),
 )
@@ -191,7 +191,7 @@ maker(
     ("perc", (21, 30)),
     khamr.quarter_hits(
         rmakers.force_rest(
-            baca.lts().get(stage_5_silence_pattern),
+            baca.selectors.lts(stage_5_silence_pattern),
         ),
     ),
 )

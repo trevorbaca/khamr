@@ -74,7 +74,7 @@ maker(
     ("gt", (1, 7)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
-            baca.lts()[:-1],
+            baca.selectors.lts((None, -1)),
         ),
     ),
 )
@@ -83,7 +83,7 @@ maker(
     ("gt", (8, 15)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
-            baca.lts()[1:],
+            baca.selectors.lts((1, None)),
         ),
     ),
 )
@@ -97,7 +97,7 @@ maker(
     ("pf", (1, 7)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
-            baca.lts()[:-1],
+            baca.selectors.lts((None, -1)),
         ),
     ),
 )
@@ -106,7 +106,7 @@ maker(
     ("pf", (8, 15)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
-            baca.lts()[1:],
+            baca.selectors.lts((1, None)),
         ),
     ),
 )
