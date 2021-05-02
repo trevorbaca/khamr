@@ -322,7 +322,7 @@ maker(
     baca.dynamic("fff"),
     baca.pitch(
         "G#2",
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -411,7 +411,7 @@ maker(
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
 )
 
@@ -445,7 +445,7 @@ maker(
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
 )
 
@@ -464,7 +464,7 @@ maker(
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     baca.pitches(khamr.color_trill_pitches),
 )

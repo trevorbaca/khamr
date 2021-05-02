@@ -488,7 +488,7 @@ maker(
     baca.dynamic("ppp"),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     baca.markup(
         r"\baca-molto-flautando-markup",
@@ -517,7 +517,7 @@ maker(
     baca.dynamic("ppp"),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     baca.markup(
         r"\baca-molto-flautando-markup",
@@ -546,7 +546,7 @@ maker(
     baca.dynamic("ppp"),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     baca.markup(
         r"\baca-molto-flautando-markup",
