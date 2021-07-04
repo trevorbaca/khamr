@@ -1,9 +1,7 @@
 #(set-default-paper-size "11x17" 'portrait)
 #(set-global-staff-size 11)
 
-\include "/Users/trevorbaca/baca/lilypond/baca.ily"
-\include "contexts.ily"
-\include "markups.ily"
+\include "baca.ily"
 
 \paper {
     %bottom-margin = 10\mm
