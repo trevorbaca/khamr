@@ -1,6 +1,4 @@
-import abjad
-
-metadata = abjad.OrderedDict(
+abjad.OrderedDict(
     [
         ("paper_size", "tabloid"),
         ("price", "\\$84 / \\euro 66"),
