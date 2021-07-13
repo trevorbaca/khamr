@@ -5,22 +5,22 @@
 
 #(ly:set-option 'relative-includes #t)
 \include "stylesheet.ily"
-\include "_segments/segment--.ily"
-\include "_segments/segment-A.ily"
-\include "_segments/segment-B.ily"
-\include "_segments/segment-C.ily"
+\include "_segments/segment-01.ily"
+\include "_segments/segment-02.ily"
+\include "_segments/segment-03.ily"
+\include "_segments/segment-04.ily"
 
 
 \score {
     <<
         {
-        \include "layout.ly"
+        %\include "layout.ly"
         }
         {
-        \include "_segments/segment--.ly"
-        \include "_segments/segment-A.ly"
-        \include "_segments/segment-B.ly"
-        \include "_segments/segment-C.ly"
+        \include "_segments/segment-01.ly"
+        \include "_segments/segment-02.ly"
+        \include "_segments/segment-03.ly"
+        \include "_segments/segment-04.ly"
         }
     >>
 }
