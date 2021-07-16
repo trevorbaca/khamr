@@ -29,7 +29,6 @@ maker = baca.SegmentMaker(
     stage_markup=stage_markup,
     time_signatures=khamr.time_signatures[:37],
     transpose_score=True,
-    validate_measure_count=37,
 )
 
 maker(
