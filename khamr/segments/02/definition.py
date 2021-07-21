@@ -515,3 +515,6 @@ maker(
     ),
     baca.pitch("<G0 A1>"),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)
