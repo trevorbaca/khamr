@@ -1,12 +1,7 @@
 \version "2.23.1"
 \language "english"
 \include "../../stylesheet.ily"
-\include "illustration.ily"
-
-\header { composer = ##f poet = ##f title = ##f }
-\layout { indent = 0 }
-\paper { print-first-page-number = ##t }
-\paper { first-page-number = #14 }
+\include "music.ily"
 
 \score
 {
@@ -24,7 +19,7 @@
             <<
 
                 \context GlobalSkips = "Global_Skips"
-                \b_Global_Skips
+                \a_Global_Skips
 
             >>
 
@@ -36,19 +31,19 @@
 
                     \tag Flute
                     \context Staff = "Flute_Music_Staff"
-                    \b_Flute_Music_Staff
+                    \a_Flute_Music_Staff
 
                     \tag Oboe
                     \context Staff = "OboeMusicStaff"
-                    \b_OboeMusicStaff
+                    \a_OboeMusicStaff
 
                     \tag Clarinet
                     \context Staff = "Clarinet_Music_Staff"
-                    \b_Clarinet_Music_Staff
+                    \a_Clarinet_Music_Staff
 
                     \tag Saxophone
                     \context Staff = "Saxophone_Music_Staff"
-                    \b_Saxophone_Music_Staff
+                    \a_Saxophone_Music_Staff
 
                 >>
 
@@ -57,15 +52,15 @@
 
                     \tag Guitar
                     \context Staff = "Guitar_Music_Staff"
-                    \b_Guitar_Music_Staff
+                    \a_Guitar_Music_Staff
 
                     \tag Piano
                     \context Staff = "Piano_Music_Staff"
-                    \b_Piano_Music_Staff
+                    \a_Piano_Music_Staff
 
                     \tag Percussion
                     \context Staff = "PercussionMusicStaff"
-                    \b_PercussionMusicStaff
+                    \a_PercussionMusicStaff
 
                 >>
 
@@ -74,19 +69,19 @@
 
                     \tag Violin
                     \context Staff = "Violin_Music_Staff"
-                    \b_Violin_Music_Staff
+                    \a_Violin_Music_Staff
 
                     \tag Viola
                     \context Staff = "Viola_Music_Staff"
-                    \b_Viola_Music_Staff
+                    \a_Viola_Music_Staff
 
                     \tag Cello
                     \context Staff = "CelloMusicStaff"
-                    \b_CelloMusicStaff
+                    \a_CelloMusicStaff
 
                     \tag Contrabass
                     \context Staff = "Contrabass_Music_Staff"
-                    \b_Contrabass_Music_Staff
+                    \a_Contrabass_Music_Staff
 
                 >>
 
