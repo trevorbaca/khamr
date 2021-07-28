@@ -3,7 +3,7 @@ import pathlib
 import baca
 from abjadext import rmakers
 
-import khamr
+from khamr import library as khamr
 
 ###############################################################################
 ##################################### [B] #####################################
