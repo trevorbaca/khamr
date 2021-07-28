@@ -4,7 +4,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-import khamr
+from khamr import library as khamr
 
 ###############################################################################
 ##################################### [C] #####################################

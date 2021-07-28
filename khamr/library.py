@@ -893,7 +893,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> score_template = khamr.ScoreTemplate()
+            >>> score_template = khamr.library.ScoreTemplate()
             >>> string = abjad.storage(score_template.voice_abbreviations)
             >>> print(string)
             abjad.OrderedDict(
