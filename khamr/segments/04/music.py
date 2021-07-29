@@ -26,6 +26,7 @@ maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
     final_segment=True,
+    score_template=khamr.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=khamr.time_signatures[:20],
     transpose_score=True,
