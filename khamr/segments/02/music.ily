@@ -1,6 +1,6 @@
 b_Global_Skips = {
 
-    % [02 Global_Skips measure 45 / measure 1]
+    % [Global_Skips measure 45 / measure 1]
     \time 2/4
     \bar ""
     \baca-time-signature-color #'blue
@@ -12,13 +12,13 @@ b_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "42" #'blue
     \bacaStartTextSpanMM
 
-    % [02 Global_Skips measure 46 / measure 2]
+    % [Global_Skips measure 46 / measure 2]
     s1 * 1/2
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "2"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 47 / measure 3]
+    % [Global_Skips measure 47 / measure 3]
     \time 6/4
     \baca-time-signature-color #'blue
     s1 * 3/2
@@ -26,7 +26,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "3"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 48 / measure 4]
+    % [Global_Skips measure 48 / measure 4]
     \time 3/4
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -34,7 +34,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "4"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 49 / measure 5]
+    % [Global_Skips measure 49 / measure 5]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -46,7 +46,7 @@ b_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "84" #'blue
     \bacaStartTextSpanMM
 
-    % [02 Global_Skips measure 50 / measure 6]
+    % [Global_Skips measure 50 / measure 6]
     \time 6/8
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -54,7 +54,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "6"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 51 / measure 7]
+    % [Global_Skips measure 51 / measure 7]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -62,7 +62,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "7"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 52 / measure 8]
+    % [Global_Skips measure 52 / measure 8]
     \time 5/4
     \baca-time-signature-color #'blue
     s1 * 5/4
@@ -70,7 +70,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "8"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 53 / measure 9]
+    % [Global_Skips measure 53 / measure 9]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -82,7 +82,7 @@ b_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "42" #'blue
     \bacaStartTextSpanMM
 
-    % [02 Global_Skips measure 54 / measure 10]
+    % [Global_Skips measure 54 / measure 10]
     \time 3/4
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -90,7 +90,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "10"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 55 / measure 11]
+    % [Global_Skips measure 55 / measure 11]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -98,7 +98,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "11"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 56 / measure 12]
+    % [Global_Skips measure 56 / measure 12]
     \time 5/4
     \baca-time-signature-color #'blue
     s1 * 5/4
@@ -106,7 +106,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "12"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 57 / measure 13]
+    % [Global_Skips measure 57 / measure 13]
     \time 6/8
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -114,7 +114,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "13"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 58 / measure 14]
+    % [Global_Skips measure 58 / measure 14]
     \time 2/4
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -122,7 +122,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "14"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 59 / measure 15]
+    % [Global_Skips measure 59 / measure 15]
     \time 6/4
     \baca-time-signature-color #'blue
     s1 * 3/2
@@ -130,7 +130,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "15"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 60 / measure 16]
+    % [Global_Skips measure 60 / measure 16]
     \time 2/4
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -138,7 +138,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "16"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 61 / measure 17]
+    % [Global_Skips measure 61 / measure 17]
     \time 5/4
     \baca-time-signature-color #'blue
     s1 * 5/4
@@ -146,7 +146,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "17"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 62 / measure 18]
+    % [Global_Skips measure 62 / measure 18]
     \time 6/8
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -154,7 +154,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "18"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 63 / measure 19]
+    % [Global_Skips measure 63 / measure 19]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -162,7 +162,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "19"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 64 / measure 20]
+    % [Global_Skips measure 64 / measure 20]
     \time 6/4
     \baca-time-signature-color #'blue
     s1 * 3/2
@@ -170,7 +170,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "20"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 65 / measure 21]
+    % [Global_Skips measure 65 / measure 21]
     \time 2/4
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -182,13 +182,13 @@ b_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "126" #'blue
     \bacaStartTextSpanMM
 
-    % [02 Global_Skips measure 66 / measure 22]
+    % [Global_Skips measure 66 / measure 22]
     s1 * 1/2
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "22"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 67 / measure 23]
+    % [Global_Skips measure 67 / measure 23]
     \time 3/4
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -196,7 +196,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "23"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 68 / measure 24]
+    % [Global_Skips measure 68 / measure 24]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -204,7 +204,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "24"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 69 / measure 25]
+    % [Global_Skips measure 69 / measure 25]
     \time 2/4
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -212,13 +212,13 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "25"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 70 / measure 26]
+    % [Global_Skips measure 70 / measure 26]
     s1 * 1/2
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "26"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 71 / measure 27]
+    % [Global_Skips measure 71 / measure 27]
     \time 6/4
     \baca-time-signature-color #'blue
     s1 * 3/2
@@ -226,7 +226,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "27"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 72 / measure 28]
+    % [Global_Skips measure 72 / measure 28]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -234,7 +234,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "28"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 73 / measure 29]
+    % [Global_Skips measure 73 / measure 29]
     \time 3/4
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -242,7 +242,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "29"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 74 / measure 30]
+    % [Global_Skips measure 74 / measure 30]
     \time 6/8
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -250,7 +250,7 @@ b_Global_Skips = {
     - \baca-start-lmn-left-only "30"
     \bacaStartTextSpanLMN
 
-    % [02 Global_Skips measure 75 / measure 31]
+    % [Global_Skips measure 75 / measure 31]
     \time 1/4
     \baca-time-signature-transparent
     s1 * 1/4
@@ -264,97 +264,97 @@ b_Global_Skips = {
 
 b_Global_Rests = {
 
-    % [02 Global_Rests measure 45 / measure 1]
+    % [Global_Rests measure 45 / measure 1]
     R1 * 1/2
 
-    % [02 Global_Rests measure 46 / measure 2]
+    % [Global_Rests measure 46 / measure 2]
     R1 * 1/2
 
-    % [02 Global_Rests measure 47 / measure 3]
+    % [Global_Rests measure 47 / measure 3]
     R1 * 3/2
 
-    % [02 Global_Rests measure 48 / measure 4]
+    % [Global_Rests measure 48 / measure 4]
     R1 * 3/4
 
-    % [02 Global_Rests measure 49 / measure 5]
+    % [Global_Rests measure 49 / measure 5]
     R1 * 1
 
-    % [02 Global_Rests measure 50 / measure 6]
+    % [Global_Rests measure 50 / measure 6]
     R1 * 3/4
 
-    % [02 Global_Rests measure 51 / measure 7]
+    % [Global_Rests measure 51 / measure 7]
     R1 * 1
 
-    % [02 Global_Rests measure 52 / measure 8]
+    % [Global_Rests measure 52 / measure 8]
     R1 * 5/4
 
-    % [02 Global_Rests measure 53 / measure 9]
+    % [Global_Rests measure 53 / measure 9]
     R1 * 1
 
-    % [02 Global_Rests measure 54 / measure 10]
+    % [Global_Rests measure 54 / measure 10]
     R1 * 3/4
 
-    % [02 Global_Rests measure 55 / measure 11]
+    % [Global_Rests measure 55 / measure 11]
     R1 * 1
 
-    % [02 Global_Rests measure 56 / measure 12]
+    % [Global_Rests measure 56 / measure 12]
     R1 * 5/4
 
-    % [02 Global_Rests measure 57 / measure 13]
+    % [Global_Rests measure 57 / measure 13]
     R1 * 3/4
 
-    % [02 Global_Rests measure 58 / measure 14]
+    % [Global_Rests measure 58 / measure 14]
     R1 * 1/2
 
-    % [02 Global_Rests measure 59 / measure 15]
+    % [Global_Rests measure 59 / measure 15]
     R1 * 3/2
 
-    % [02 Global_Rests measure 60 / measure 16]
+    % [Global_Rests measure 60 / measure 16]
     R1 * 1/2
 
-    % [02 Global_Rests measure 61 / measure 17]
+    % [Global_Rests measure 61 / measure 17]
     R1 * 5/4
 
-    % [02 Global_Rests measure 62 / measure 18]
+    % [Global_Rests measure 62 / measure 18]
     R1 * 3/4
 
-    % [02 Global_Rests measure 63 / measure 19]
+    % [Global_Rests measure 63 / measure 19]
     R1 * 1
 
-    % [02 Global_Rests measure 64 / measure 20]
+    % [Global_Rests measure 64 / measure 20]
     R1 * 3/2
 
-    % [02 Global_Rests measure 65 / measure 21]
+    % [Global_Rests measure 65 / measure 21]
     R1 * 1/2
 
-    % [02 Global_Rests measure 66 / measure 22]
+    % [Global_Rests measure 66 / measure 22]
     R1 * 1/2
 
-    % [02 Global_Rests measure 67 / measure 23]
+    % [Global_Rests measure 67 / measure 23]
     R1 * 3/4
 
-    % [02 Global_Rests measure 68 / measure 24]
+    % [Global_Rests measure 68 / measure 24]
     R1 * 1
 
-    % [02 Global_Rests measure 69 / measure 25]
+    % [Global_Rests measure 69 / measure 25]
     R1 * 1/2
 
-    % [02 Global_Rests measure 70 / measure 26]
+    % [Global_Rests measure 70 / measure 26]
     R1 * 1/2
 
-    % [02 Global_Rests measure 71 / measure 27]
+    % [Global_Rests measure 71 / measure 27]
     R1 * 3/2
 
-    % [02 Global_Rests measure 72 / measure 28]
+    % [Global_Rests measure 72 / measure 28]
     R1 * 1
 
-    % [02 Global_Rests measure 73 / measure 29]
+    % [Global_Rests measure 73 / measure 29]
     R1 * 3/4
 
-    % [02 Global_Rests measure 74 / measure 30]
+    % [Global_Rests measure 74 / measure 30]
     R1 * 3/4
 
-    % [02 Global_Rests measure 75 / measure 31]
+    % [Global_Rests measure 75 / measure 31]
     R1 * 1/4
 
 }
@@ -362,7 +362,7 @@ b_Global_Rests = {
 
 b_Flute_Music_Voice = {
 
-    % [02 Flute_Music_Voice measure 45 / measure 1]
+    % [Flute_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. fl."
     \set Staff.instrumentName = \markup \hcenter-in #16 "B. fl."
     \clef "treble"
@@ -383,19 +383,19 @@ b_Flute_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. fl."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Flute_Music_Voice measure 46 / measure 2]
+    % [Flute_Music_Voice measure 46 / measure 2]
     bf''2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 47 / measure 3]
+    % [Flute_Music_Voice measure 47 / measure 3]
     bf''1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 48 / measure 4]
+    % [Flute_Music_Voice measure 48 / measure 4]
     bf''4.
     \repeatTie
 
@@ -407,19 +407,19 @@ b_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 49 / measure 5]
+    % [Flute_Music_Voice measure 49 / measure 5]
     bf''1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 50 / measure 6]
+    % [Flute_Music_Voice measure 50 / measure 6]
     bf''2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 51 / measure 7]
+    % [Flute_Music_Voice measure 51 / measure 7]
     bf''2
     \repeatTie
     - \tweak stencil ##f
@@ -433,7 +433,7 @@ b_Flute_Music_Voice = {
     r4.
     \stopTrillSpan
 
-    % [02 Flute_Music_Voice measure 52 / measure 8]
+    % [Flute_Music_Voice measure 52 / measure 8]
     r2.
 
     r2
@@ -443,7 +443,7 @@ b_Flute_Music_Voice = {
         \context Voice = "Flute_Music_Voice"
         {
 
-            % [02 Flute_Music_Voice measure 53 / measure 9]
+            % [Flute_Music_Voice measure 53 / measure 9]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1
@@ -453,29 +453,29 @@ b_Flute_Music_Voice = {
         \context Voice = "Flute_Rest_Voice"
         {
 
-            % [02 Flute_Rest_Voice measure 53 / measure 9]
+            % [Flute_Rest_Voice measure 53 / measure 9]
             R1 * 1
 
         }
 
     >>
 
-    % [02 Flute_Music_Voice measure 54 / measure 10]
+    % [Flute_Music_Voice measure 54 / measure 10]
     R1 * 3/4
 
-    % [02 Flute_Music_Voice measure 55 / measure 11]
+    % [Flute_Music_Voice measure 55 / measure 11]
     R1 * 1
 
-    % [02 Flute_Music_Voice measure 56 / measure 12]
+    % [Flute_Music_Voice measure 56 / measure 12]
     R1 * 5/4
 
-    % [02 Flute_Music_Voice measure 57 / measure 13]
+    % [Flute_Music_Voice measure 57 / measure 13]
     R1 * 3/4
 
-    % [02 Flute_Music_Voice measure 58 / measure 14]
+    % [Flute_Music_Voice measure 58 / measure 14]
     R1 * 1/2
 
-    % [02 Flute_Music_Voice measure 59 / measure 15]
+    % [Flute_Music_Voice measure 59 / measure 15]
     b''1.
     :32
     - \tweak color #(x11-color 'blue)
@@ -483,10 +483,10 @@ b_Flute_Music_Voice = {
     ^ \baca-fluttertongue-markup
     ^ \baca-explicit-indicator-markup "(“Flute”)"
 
-    % [02 Flute_Music_Voice measure 60 / measure 16]
+    % [Flute_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Flute_Music_Voice measure 61 / measure 17]
+    % [Flute_Music_Voice measure 61 / measure 17]
     b''2.
     :32
     - \tweak stencil ##f
@@ -496,17 +496,17 @@ b_Flute_Music_Voice = {
     :32
     \repeatTie
 
-    % [02 Flute_Music_Voice measure 62 / measure 18]
+    % [Flute_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Flute_Music_Voice measure 63 / measure 19]
+    % [Flute_Music_Voice measure 63 / measure 19]
     b''1
     :32
 
-    % [02 Flute_Music_Voice measure 64 / measure 20]
+    % [Flute_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Flute_Music_Voice measure 65 / measure 21]
+    % [Flute_Music_Voice measure 65 / measure 21]
     r4
 
     b''4
@@ -514,63 +514,63 @@ b_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 66 / measure 22]
+    % [Flute_Music_Voice measure 66 / measure 22]
     b''2
     :32
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 67 / measure 23]
+    % [Flute_Music_Voice measure 67 / measure 23]
     b''2.
     :32
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 68 / measure 24]
+    % [Flute_Music_Voice measure 68 / measure 24]
     b''1
     :32
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 69 / measure 25]
+    % [Flute_Music_Voice measure 69 / measure 25]
     b''2
     :32
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 70 / measure 26]
+    % [Flute_Music_Voice measure 70 / measure 26]
     b''2
     :32
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 71 / measure 27]
+    % [Flute_Music_Voice measure 71 / measure 27]
     b''1.
     :32
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 72 / measure 28]
+    % [Flute_Music_Voice measure 72 / measure 28]
     b''1
     :32
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 73 / measure 29]
+    % [Flute_Music_Voice measure 73 / measure 29]
     b''2.
     :32
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Flute_Music_Voice measure 74 / measure 30]
+    % [Flute_Music_Voice measure 74 / measure 30]
     b''2.
     :32
     \repeatTie
@@ -580,7 +580,7 @@ b_Flute_Music_Voice = {
         \context Voice = "Flute_Music_Voice"
         {
 
-            % [02 Flute_Music_Voice measure 75 / measure 31]
+            % [Flute_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -590,7 +590,7 @@ b_Flute_Music_Voice = {
         \context Voice = "Flute_Rest_Voice"
         {
 
-            % [02 Flute_Rest_Voice measure 75 / measure 31]
+            % [Flute_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -618,7 +618,7 @@ b_Flute_Music_Staff = <<
 
 b_Oboe_Music_Voice = {
 
-    % [02 Oboe_Music_Voice measure 45 / measure 1]
+    % [Oboe_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
@@ -641,34 +641,34 @@ b_Oboe_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Oboe_Music_Voice measure 46 / measure 2]
+    % [Oboe_Music_Voice measure 46 / measure 2]
     <e'' b''>2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 47 / measure 3]
+    % [Oboe_Music_Voice measure 47 / measure 3]
     <e'' b''>1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 48 / measure 4]
+    % [Oboe_Music_Voice measure 48 / measure 4]
     <e'' b''>2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 49 / measure 5]
+    % [Oboe_Music_Voice measure 49 / measure 5]
     <e'' b''>8
     \repeatTie
 
     r2..
 
-    % [02 Oboe_Music_Voice measure 50 / measure 6]
+    % [Oboe_Music_Voice measure 50 / measure 6]
     r2.
 
-    % [02 Oboe_Music_Voice measure 51 / measure 7]
+    % [Oboe_Music_Voice measure 51 / measure 7]
     r4
 
     <e'' b''>2.
@@ -676,7 +676,7 @@ b_Oboe_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 52 / measure 8]
+    % [Oboe_Music_Voice measure 52 / measure 8]
     <e'' b''>2.
     \repeatTie
     - \tweak stencil ##f
@@ -692,7 +692,7 @@ b_Oboe_Music_Voice = {
         \context Voice = "Oboe_Music_Voice"
         {
 
-            % [02 Oboe_Music_Voice measure 53 / measure 9]
+            % [Oboe_Music_Voice measure 53 / measure 9]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1
@@ -702,37 +702,37 @@ b_Oboe_Music_Voice = {
         \context Voice = "Oboe_Rest_Voice"
         {
 
-            % [02 Oboe_Rest_Voice measure 53 / measure 9]
+            % [Oboe_Rest_Voice measure 53 / measure 9]
             R1 * 1
 
         }
 
     >>
 
-    % [02 Oboe_Music_Voice measure 54 / measure 10]
+    % [Oboe_Music_Voice measure 54 / measure 10]
     R1 * 3/4
 
-    % [02 Oboe_Music_Voice measure 55 / measure 11]
+    % [Oboe_Music_Voice measure 55 / measure 11]
     R1 * 1
 
-    % [02 Oboe_Music_Voice measure 56 / measure 12]
+    % [Oboe_Music_Voice measure 56 / measure 12]
     R1 * 5/4
 
-    % [02 Oboe_Music_Voice measure 57 / measure 13]
+    % [Oboe_Music_Voice measure 57 / measure 13]
     R1 * 3/4
 
-    % [02 Oboe_Music_Voice measure 58 / measure 14]
+    % [Oboe_Music_Voice measure 58 / measure 14]
     R1 * 1/2
 
-    % [02 Oboe_Music_Voice measure 59 / measure 15]
+    % [Oboe_Music_Voice measure 59 / measure 15]
     ds'!1.
     - \tweak color #(x11-color 'blue)
     \fff
 
-    % [02 Oboe_Music_Voice measure 60 / measure 16]
+    % [Oboe_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Oboe_Music_Voice measure 61 / measure 17]
+    % [Oboe_Music_Voice measure 61 / measure 17]
     ds'!2.
     - \tweak stencil ##f
     ~
@@ -740,71 +740,71 @@ b_Oboe_Music_Voice = {
     ds'2
     \repeatTie
 
-    % [02 Oboe_Music_Voice measure 62 / measure 18]
+    % [Oboe_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Oboe_Music_Voice measure 63 / measure 19]
+    % [Oboe_Music_Voice measure 63 / measure 19]
     ds'!1
 
-    % [02 Oboe_Music_Voice measure 64 / measure 20]
+    % [Oboe_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Oboe_Music_Voice measure 65 / measure 21]
+    % [Oboe_Music_Voice measure 65 / measure 21]
     r4
 
     ds'!4
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 66 / measure 22]
+    % [Oboe_Music_Voice measure 66 / measure 22]
     ds'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 67 / measure 23]
+    % [Oboe_Music_Voice measure 67 / measure 23]
     ds'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 68 / measure 24]
+    % [Oboe_Music_Voice measure 68 / measure 24]
     ds'1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 69 / measure 25]
+    % [Oboe_Music_Voice measure 69 / measure 25]
     ds'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 70 / measure 26]
+    % [Oboe_Music_Voice measure 70 / measure 26]
     ds'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 71 / measure 27]
+    % [Oboe_Music_Voice measure 71 / measure 27]
     ds'1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 72 / measure 28]
+    % [Oboe_Music_Voice measure 72 / measure 28]
     ds'1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 73 / measure 29]
+    % [Oboe_Music_Voice measure 73 / measure 29]
     ds'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Oboe_Music_Voice measure 74 / measure 30]
+    % [Oboe_Music_Voice measure 74 / measure 30]
     ds'2.
     \repeatTie
 
@@ -813,7 +813,7 @@ b_Oboe_Music_Voice = {
         \context Voice = "Oboe_Music_Voice"
         {
 
-            % [02 Oboe_Music_Voice measure 75 / measure 31]
+            % [Oboe_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -823,7 +823,7 @@ b_Oboe_Music_Voice = {
         \context Voice = "Oboe_Rest_Voice"
         {
 
-            % [02 Oboe_Rest_Voice measure 75 / measure 31]
+            % [Oboe_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -848,7 +848,7 @@ b_OboeMusicStaff = {
 
 b_Clarinet_Music_Voice = {
 
-    % [02 Clarinet_Music_Voice measure 45 / measure 1]
+    % [Clarinet_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
     \set Staff.instrumentName = \markup \hcenter-in #16 "B. cl."
     \clef "treble"
@@ -866,13 +866,13 @@ b_Clarinet_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Clarinet_Music_Voice measure 46 / measure 2]
+    % [Clarinet_Music_Voice measure 46 / measure 2]
     a2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 47 / measure 3]
+    % [Clarinet_Music_Voice measure 47 / measure 3]
     a2.
     \repeatTie
     - \tweak stencil ##f
@@ -888,29 +888,29 @@ b_Clarinet_Music_Voice = {
 
     r8
 
-    % [02 Clarinet_Music_Voice measure 48 / measure 4]
+    % [Clarinet_Music_Voice measure 48 / measure 4]
     r2.
 
-    % [02 Clarinet_Music_Voice measure 49 / measure 5]
+    % [Clarinet_Music_Voice measure 49 / measure 5]
     r2.
 
     a4
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 50 / measure 6]
+    % [Clarinet_Music_Voice measure 50 / measure 6]
     a2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 51 / measure 7]
+    % [Clarinet_Music_Voice measure 51 / measure 7]
     a1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 52 / measure 8]
+    % [Clarinet_Music_Voice measure 52 / measure 8]
     a2
     \repeatTie
     - \tweak stencil ##f
@@ -923,21 +923,21 @@ b_Clarinet_Music_Voice = {
 
     r2
 
-    % [02 Clarinet_Music_Voice measure 53 / measure 9]
+    % [Clarinet_Music_Voice measure 53 / measure 9]
     r1
 
-    % [02 Clarinet_Music_Voice measure 54 / measure 10]
+    % [Clarinet_Music_Voice measure 54 / measure 10]
     a2.
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 55 / measure 11]
+    % [Clarinet_Music_Voice measure 55 / measure 11]
     a1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 56 / measure 12]
+    % [Clarinet_Music_Voice measure 56 / measure 12]
     a2
     \repeatTie
     - \tweak stencil ##f
@@ -950,21 +950,21 @@ b_Clarinet_Music_Voice = {
 
     r2
 
-    % [02 Clarinet_Music_Voice measure 57 / measure 13]
+    % [Clarinet_Music_Voice measure 57 / measure 13]
     r2.
 
-    % [02 Clarinet_Music_Voice measure 58 / measure 14]
+    % [Clarinet_Music_Voice measure 58 / measure 14]
     r2
 
-    % [02 Clarinet_Music_Voice measure 59 / measure 15]
+    % [Clarinet_Music_Voice measure 59 / measure 15]
     gs!1.
     - \tweak color #(x11-color 'blue)
     \fff
 
-    % [02 Clarinet_Music_Voice measure 60 / measure 16]
+    % [Clarinet_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Clarinet_Music_Voice measure 61 / measure 17]
+    % [Clarinet_Music_Voice measure 61 / measure 17]
     gs!2.
     - \tweak stencil ##f
     ~
@@ -972,71 +972,71 @@ b_Clarinet_Music_Voice = {
     gs2
     \repeatTie
 
-    % [02 Clarinet_Music_Voice measure 62 / measure 18]
+    % [Clarinet_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Clarinet_Music_Voice measure 63 / measure 19]
+    % [Clarinet_Music_Voice measure 63 / measure 19]
     gs!1
 
-    % [02 Clarinet_Music_Voice measure 64 / measure 20]
+    % [Clarinet_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Clarinet_Music_Voice measure 65 / measure 21]
+    % [Clarinet_Music_Voice measure 65 / measure 21]
     r4
 
     gs!4
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 66 / measure 22]
+    % [Clarinet_Music_Voice measure 66 / measure 22]
     gs2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 67 / measure 23]
+    % [Clarinet_Music_Voice measure 67 / measure 23]
     gs2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 68 / measure 24]
+    % [Clarinet_Music_Voice measure 68 / measure 24]
     gs1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 69 / measure 25]
+    % [Clarinet_Music_Voice measure 69 / measure 25]
     gs2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 70 / measure 26]
+    % [Clarinet_Music_Voice measure 70 / measure 26]
     gs2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 71 / measure 27]
+    % [Clarinet_Music_Voice measure 71 / measure 27]
     gs1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 72 / measure 28]
+    % [Clarinet_Music_Voice measure 72 / measure 28]
     gs1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 73 / measure 29]
+    % [Clarinet_Music_Voice measure 73 / measure 29]
     gs2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Clarinet_Music_Voice measure 74 / measure 30]
+    % [Clarinet_Music_Voice measure 74 / measure 30]
     gs2.
     \repeatTie
 
@@ -1045,7 +1045,7 @@ b_Clarinet_Music_Voice = {
         \context Voice = "Clarinet_Music_Voice"
         {
 
-            % [02 Clarinet_Music_Voice measure 75 / measure 31]
+            % [Clarinet_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1055,7 +1055,7 @@ b_Clarinet_Music_Voice = {
         \context Voice = "Clarinet_Rest_Voice"
         {
 
-            % [02 Clarinet_Rest_Voice measure 75 / measure 31]
+            % [Clarinet_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1080,7 +1080,7 @@ b_Clarinet_Music_Staff = {
 
 b_Saxophone_Music_Voice = {
 
-    % [02 Saxophone_Music_Voice measure 45 / measure 1]
+    % [Saxophone_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bar. sax."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Bar. sax."
     \clef "treble"
@@ -1098,25 +1098,25 @@ b_Saxophone_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bar. sax."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Saxophone_Music_Voice measure 46 / measure 2]
+    % [Saxophone_Music_Voice measure 46 / measure 2]
     <d'' eqs''>2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 47 / measure 3]
+    % [Saxophone_Music_Voice measure 47 / measure 3]
     <d'' eqs''>1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 48 / measure 4]
+    % [Saxophone_Music_Voice measure 48 / measure 4]
     <d'' eqs''>2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 49 / measure 5]
+    % [Saxophone_Music_Voice measure 49 / measure 5]
     <d'' eqs''>2
     \repeatTie
     - \tweak stencil ##f
@@ -1127,17 +1127,17 @@ b_Saxophone_Music_Voice = {
 
     r4.
 
-    % [02 Saxophone_Music_Voice measure 50 / measure 6]
+    % [Saxophone_Music_Voice measure 50 / measure 6]
     r2.
 
-    % [02 Saxophone_Music_Voice measure 51 / measure 7]
+    % [Saxophone_Music_Voice measure 51 / measure 7]
     r2.
 
     <d'' eqs''!>4
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 52 / measure 8]
+    % [Saxophone_Music_Voice measure 52 / measure 8]
     <d'' eqs''>2.
     \repeatTie
     - \tweak stencil ##f
@@ -1153,7 +1153,7 @@ b_Saxophone_Music_Voice = {
         \context Voice = "Saxophone_Music_Voice"
         {
 
-            % [02 Saxophone_Music_Voice measure 53 / measure 9]
+            % [Saxophone_Music_Voice measure 53 / measure 9]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1
@@ -1163,37 +1163,37 @@ b_Saxophone_Music_Voice = {
         \context Voice = "Saxophone_Rest_Voice"
         {
 
-            % [02 Saxophone_Rest_Voice measure 53 / measure 9]
+            % [Saxophone_Rest_Voice measure 53 / measure 9]
             R1 * 1
 
         }
 
     >>
 
-    % [02 Saxophone_Music_Voice measure 54 / measure 10]
+    % [Saxophone_Music_Voice measure 54 / measure 10]
     R1 * 3/4
 
-    % [02 Saxophone_Music_Voice measure 55 / measure 11]
+    % [Saxophone_Music_Voice measure 55 / measure 11]
     R1 * 1
 
-    % [02 Saxophone_Music_Voice measure 56 / measure 12]
+    % [Saxophone_Music_Voice measure 56 / measure 12]
     R1 * 5/4
 
-    % [02 Saxophone_Music_Voice measure 57 / measure 13]
+    % [Saxophone_Music_Voice measure 57 / measure 13]
     R1 * 3/4
 
-    % [02 Saxophone_Music_Voice measure 58 / measure 14]
+    % [Saxophone_Music_Voice measure 58 / measure 14]
     R1 * 1/2
 
-    % [02 Saxophone_Music_Voice measure 59 / measure 15]
+    % [Saxophone_Music_Voice measure 59 / measure 15]
     es'!1.
     - \tweak color #(x11-color 'blue)
     \fff
 
-    % [02 Saxophone_Music_Voice measure 60 / measure 16]
+    % [Saxophone_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Saxophone_Music_Voice measure 61 / measure 17]
+    % [Saxophone_Music_Voice measure 61 / measure 17]
     es'!2.
     - \tweak stencil ##f
     ~
@@ -1201,71 +1201,71 @@ b_Saxophone_Music_Voice = {
     es'2
     \repeatTie
 
-    % [02 Saxophone_Music_Voice measure 62 / measure 18]
+    % [Saxophone_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Saxophone_Music_Voice measure 63 / measure 19]
+    % [Saxophone_Music_Voice measure 63 / measure 19]
     es'!1
 
-    % [02 Saxophone_Music_Voice measure 64 / measure 20]
+    % [Saxophone_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Saxophone_Music_Voice measure 65 / measure 21]
+    % [Saxophone_Music_Voice measure 65 / measure 21]
     r4
 
     es'!4
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 66 / measure 22]
+    % [Saxophone_Music_Voice measure 66 / measure 22]
     es'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 67 / measure 23]
+    % [Saxophone_Music_Voice measure 67 / measure 23]
     es'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 68 / measure 24]
+    % [Saxophone_Music_Voice measure 68 / measure 24]
     es'1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 69 / measure 25]
+    % [Saxophone_Music_Voice measure 69 / measure 25]
     es'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 70 / measure 26]
+    % [Saxophone_Music_Voice measure 70 / measure 26]
     es'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 71 / measure 27]
+    % [Saxophone_Music_Voice measure 71 / measure 27]
     es'1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 72 / measure 28]
+    % [Saxophone_Music_Voice measure 72 / measure 28]
     es'1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 73 / measure 29]
+    % [Saxophone_Music_Voice measure 73 / measure 29]
     es'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Saxophone_Music_Voice measure 74 / measure 30]
+    % [Saxophone_Music_Voice measure 74 / measure 30]
     es'2.
     \repeatTie
 
@@ -1274,7 +1274,7 @@ b_Saxophone_Music_Voice = {
         \context Voice = "Saxophone_Music_Voice"
         {
 
-            % [02 Saxophone_Music_Voice measure 75 / measure 31]
+            % [Saxophone_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1284,7 +1284,7 @@ b_Saxophone_Music_Voice = {
         \context Voice = "Saxophone_Rest_Voice"
         {
 
-            % [02 Saxophone_Rest_Voice measure 75 / measure 31]
+            % [Saxophone_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1312,7 +1312,7 @@ b_Guitar_Music_Voice = {
     \times 2/3
     {
 
-        % [02 Guitar_Music_Voice measure 45 / measure 1]
+        % [Guitar_Music_Voice measure 45 / measure 1]
         \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Gt."
         \set Staff.instrumentName = \markup \hcenter-in #16 "Gt."
         \clef "treble"
@@ -1337,13 +1337,13 @@ b_Guitar_Music_Voice = {
 
     r4
 
-    % [02 Guitar_Music_Voice measure 46 / measure 2]
+    % [Guitar_Music_Voice measure 46 / measure 2]
     r2
 
     \times 2/3
     {
 
-        % [02 Guitar_Music_Voice measure 47 / measure 3]
+        % [Guitar_Music_Voice measure 47 / measure 3]
         r8
 
         fs''!4
@@ -1366,10 +1366,10 @@ b_Guitar_Music_Voice = {
 
     }
 
-    % [02 Guitar_Music_Voice measure 48 / measure 4]
+    % [Guitar_Music_Voice measure 48 / measure 4]
     r2.
 
-    % [02 Guitar_Music_Voice measure 49 / measure 5]
+    % [Guitar_Music_Voice measure 49 / measure 5]
     fs!1
     - \tweak color #(x11-color 'blue)
     \mf
@@ -1383,19 +1383,19 @@ b_Guitar_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 50 / measure 6]
+    % [Guitar_Music_Voice measure 50 / measure 6]
     fs2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 51 / measure 7]
+    % [Guitar_Music_Voice measure 51 / measure 7]
     fs1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 52 / measure 8]
+    % [Guitar_Music_Voice measure 52 / measure 8]
     fs2.
     \repeatTie
     - \tweak stencil ##f
@@ -1406,25 +1406,25 @@ b_Guitar_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 53 / measure 9]
+    % [Guitar_Music_Voice measure 53 / measure 9]
     fs1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 54 / measure 10]
+    % [Guitar_Music_Voice measure 54 / measure 10]
     fs2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 55 / measure 11]
+    % [Guitar_Music_Voice measure 55 / measure 11]
     fs1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 56 / measure 12]
+    % [Guitar_Music_Voice measure 56 / measure 12]
     fs2.
     \repeatTie
     - \tweak stencil ##f
@@ -1435,24 +1435,24 @@ b_Guitar_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 57 / measure 13]
+    % [Guitar_Music_Voice measure 57 / measure 13]
     fs2.
     \repeatTie
 
-    % [02 Guitar_Music_Voice measure 58 / measure 14]
+    % [Guitar_Music_Voice measure 58 / measure 14]
     r2
     <> \bacaStopTextSpanRhythmAnnotation
 
-    % [02 Guitar_Music_Voice measure 59 / measure 15]
+    % [Guitar_Music_Voice measure 59 / measure 15]
     g1.
     - \tweak color #(x11-color 'blue)
     \ff
     ^ \khamr-guitar-with-screw
 
-    % [02 Guitar_Music_Voice measure 60 / measure 16]
+    % [Guitar_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Guitar_Music_Voice measure 61 / measure 17]
+    % [Guitar_Music_Voice measure 61 / measure 17]
     g2.
     - \tweak stencil ##f
     ~
@@ -1460,71 +1460,71 @@ b_Guitar_Music_Voice = {
     g2
     \repeatTie
 
-    % [02 Guitar_Music_Voice measure 62 / measure 18]
+    % [Guitar_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Guitar_Music_Voice measure 63 / measure 19]
+    % [Guitar_Music_Voice measure 63 / measure 19]
     g1
 
-    % [02 Guitar_Music_Voice measure 64 / measure 20]
+    % [Guitar_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Guitar_Music_Voice measure 65 / measure 21]
+    % [Guitar_Music_Voice measure 65 / measure 21]
     r4
 
     g4
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 66 / measure 22]
+    % [Guitar_Music_Voice measure 66 / measure 22]
     g2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 67 / measure 23]
+    % [Guitar_Music_Voice measure 67 / measure 23]
     g2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 68 / measure 24]
+    % [Guitar_Music_Voice measure 68 / measure 24]
     g1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 69 / measure 25]
+    % [Guitar_Music_Voice measure 69 / measure 25]
     g2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 70 / measure 26]
+    % [Guitar_Music_Voice measure 70 / measure 26]
     g2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 71 / measure 27]
+    % [Guitar_Music_Voice measure 71 / measure 27]
     g1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 72 / measure 28]
+    % [Guitar_Music_Voice measure 72 / measure 28]
     g1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 73 / measure 29]
+    % [Guitar_Music_Voice measure 73 / measure 29]
     g2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Guitar_Music_Voice measure 74 / measure 30]
+    % [Guitar_Music_Voice measure 74 / measure 30]
     g2.
     \repeatTie
 
@@ -1533,7 +1533,7 @@ b_Guitar_Music_Voice = {
         \context Voice = "Guitar_Music_Voice"
         {
 
-            % [02 Guitar_Music_Voice measure 75 / measure 31]
+            % [Guitar_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1543,7 +1543,7 @@ b_Guitar_Music_Voice = {
         \context Voice = "Guitar_Rest_Voice"
         {
 
-            % [02 Guitar_Rest_Voice measure 75 / measure 31]
+            % [Guitar_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1568,7 +1568,7 @@ b_Guitar_Music_Staff = {
 
 b_Piano_Music_Voice = {
 
-    % [02 Piano_Music_Voice measure 45 / measure 1]
+    % [Piano_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
@@ -1596,46 +1596,46 @@ b_Piano_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Piano_Music_Voice measure 46 / measure 2]
+    % [Piano_Music_Voice measure 46 / measure 2]
     c'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 47 / measure 3]
+    % [Piano_Music_Voice measure 47 / measure 3]
     c'1.
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 48 / measure 4]
+    % [Piano_Music_Voice measure 48 / measure 4]
     c'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 49 / measure 5]
+    % [Piano_Music_Voice measure 49 / measure 5]
     c'1
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 50 / measure 6]
+    % [Piano_Music_Voice measure 50 / measure 6]
     c'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 51 / measure 7]
+    % [Piano_Music_Voice measure 51 / measure 7]
     c'1
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 52 / measure 8]
+    % [Piano_Music_Voice measure 52 / measure 8]
     c'2.
     \repeatTie
     - \tweak stencil ##f
@@ -1646,27 +1646,27 @@ b_Piano_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 53 / measure 9]
+    % [Piano_Music_Voice measure 53 / measure 9]
     c'1
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 54 / measure 10]
+    % [Piano_Music_Voice measure 54 / measure 10]
     c'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 55 / measure 11]
+    % [Piano_Music_Voice measure 55 / measure 11]
     c'1
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 56 / measure 12]
+    % [Piano_Music_Voice measure 56 / measure 12]
     c'2.
     \repeatTie
     - \tweak stencil ##f
@@ -1677,15 +1677,15 @@ b_Piano_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Piano_Music_Voice measure 57 / measure 13]
+    % [Piano_Music_Voice measure 57 / measure 13]
     c'2.
     \repeatTie
 
-    % [02 Piano_Music_Voice measure 58 / measure 14]
+    % [Piano_Music_Voice measure 58 / measure 14]
     r2
     <> \bacaStopTextSpanRhythmAnnotation
 
-    % [02 Piano_Music_Voice measure 59 / measure 15]
+    % [Piano_Music_Voice measure 59 / measure 15]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -1702,28 +1702,28 @@ b_Piano_Music_Voice = {
     \fff
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Piano_Music_Voice measure 60 / measure 16]
+    % [Piano_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Piano_Music_Voice measure 61 / measure 17]
+    % [Piano_Music_Voice measure 61 / measure 17]
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
     :32
 
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>4
     :32
 
-    % [02 Piano_Music_Voice measure 62 / measure 18]
+    % [Piano_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Piano_Music_Voice measure 63 / measure 19]
+    % [Piano_Music_Voice measure 63 / measure 19]
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
     :32
     \ottava 0
 
-    % [02 Piano_Music_Voice measure 64 / measure 20]
+    % [Piano_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Piano_Music_Voice measure 65 / measure 21]
+    % [Piano_Music_Voice measure 65 / measure 21]
     \once \override Staff.Clef.X-extent = ##f
     \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     \clef "treble"
@@ -1748,7 +1748,7 @@ b_Piano_Music_Voice = {
 
     }
 
-    % [02 Piano_Music_Voice measure 66 / measure 22]
+    % [Piano_Music_Voice measure 66 / measure 22]
     r4
 
     bf'''!16
@@ -1761,7 +1761,7 @@ b_Piano_Music_Voice = {
     d''''16
     ]
 
-    % [02 Piano_Music_Voice measure 67 / measure 23]
+    % [Piano_Music_Voice measure 67 / measure 23]
     r2
 
     bf'''!16
@@ -1774,7 +1774,7 @@ b_Piano_Music_Voice = {
     df''''!16
     ]
 
-    % [02 Piano_Music_Voice measure 68 / measure 24]
+    % [Piano_Music_Voice measure 68 / measure 24]
     r2.
 
     \times 2/3
@@ -1790,7 +1790,7 @@ b_Piano_Music_Voice = {
 
     }
 
-    % [02 Piano_Music_Voice measure 69 / measure 25]
+    % [Piano_Music_Voice measure 69 / measure 25]
     r4
 
     af'''!16
@@ -1803,7 +1803,7 @@ b_Piano_Music_Voice = {
     gf'''!16
     ]
 
-    % [02 Piano_Music_Voice measure 70 / measure 26]
+    % [Piano_Music_Voice measure 70 / measure 26]
     r4
 
     \times 4/5
@@ -1823,7 +1823,7 @@ b_Piano_Music_Voice = {
 
     }
 
-    % [02 Piano_Music_Voice measure 71 / measure 27]
+    % [Piano_Music_Voice measure 71 / measure 27]
     r2.
 
     r4.
@@ -1844,7 +1844,7 @@ b_Piano_Music_Voice = {
     e''''16.
     ]
 
-    % [02 Piano_Music_Voice measure 72 / measure 28]
+    % [Piano_Music_Voice measure 72 / measure 28]
     r2.
 
     \times 2/3
@@ -1860,7 +1860,7 @@ b_Piano_Music_Voice = {
 
     }
 
-    % [02 Piano_Music_Voice measure 73 / measure 29]
+    % [Piano_Music_Voice measure 73 / measure 29]
     r2
 
     \times 2/3
@@ -1876,7 +1876,7 @@ b_Piano_Music_Voice = {
 
     }
 
-    % [02 Piano_Music_Voice measure 74 / measure 30]
+    % [Piano_Music_Voice measure 74 / measure 30]
     r4.
 
     ef''''!16.
@@ -1901,7 +1901,7 @@ b_Piano_Music_Voice = {
         \context Voice = "Piano_Music_Voice"
         {
 
-            % [02 Piano_Music_Voice measure 75 / measure 31]
+            % [Piano_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1911,7 +1911,7 @@ b_Piano_Music_Voice = {
         \context Voice = "Piano_Rest_Voice"
         {
 
-            % [02 Piano_Rest_Voice measure 75 / measure 31]
+            % [Piano_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1936,7 +1936,7 @@ b_Piano_Music_Staff = {
 
 b_Percussion_Music_Voice = {
 
-    % [02 Percussion_Music_Voice measure 45 / measure 1]
+    % [Percussion_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     \stopStaff
@@ -1961,44 +1961,44 @@ b_Percussion_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Percussion_Music_Voice measure 46 / measure 2]
+    % [Percussion_Music_Voice measure 46 / measure 2]
     c'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 47 / measure 3]
+    % [Percussion_Music_Voice measure 47 / measure 3]
     c'1.
     - \tweak direction #up
     \repeatTie
 
-    % [02 Percussion_Music_Voice measure 48 / measure 4]
+    % [Percussion_Music_Voice measure 48 / measure 4]
     c'2.
     - \accent
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 49 / measure 5]
+    % [Percussion_Music_Voice measure 49 / measure 5]
     c'1
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 50 / measure 6]
+    % [Percussion_Music_Voice measure 50 / measure 6]
     c'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 51 / measure 7]
+    % [Percussion_Music_Voice measure 51 / measure 7]
     c'1
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 52 / measure 8]
+    % [Percussion_Music_Voice measure 52 / measure 8]
     c'2.
     \repeatTie
     - \tweak stencil ##f
@@ -2009,7 +2009,7 @@ b_Percussion_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 53 / measure 9]
+    % [Percussion_Music_Voice measure 53 / measure 9]
     c'2
     \repeatTie
 
@@ -2028,7 +2028,7 @@ b_Percussion_Music_Voice = {
     ~
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 54 / measure 10]
+    % [Percussion_Music_Voice measure 54 / measure 10]
     af''2
     \repeatTie
 
@@ -2045,14 +2045,14 @@ b_Percussion_Music_Voice = {
     ~
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 55 / measure 11]
+    % [Percussion_Music_Voice measure 55 / measure 11]
     c'1
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 56 / measure 12]
+    % [Percussion_Music_Voice measure 56 / measure 12]
     c'2.
     \repeatTie
     - \tweak stencil ##f
@@ -2063,21 +2063,21 @@ b_Percussion_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 57 / measure 13]
+    % [Percussion_Music_Voice measure 57 / measure 13]
     c'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Percussion_Music_Voice measure 58 / measure 14]
+    % [Percussion_Music_Voice measure 58 / measure 14]
     c'2
     \repeatTie
     \revert Stem.direction
 
-    % [02 Percussion_Music_Voice measure 59 / measure 15]
+    % [Percussion_Music_Voice measure 59 / measure 15]
     r1.
 
-    % [02 Percussion_Music_Voice measure 60 / measure 16]
+    % [Percussion_Music_Voice measure 60 / measure 16]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -2104,12 +2104,12 @@ b_Percussion_Music_Voice = {
     r4
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 61 / measure 17]
+    % [Percussion_Music_Voice measure 61 / measure 17]
     r2.
 
     r2
 
-    % [02 Percussion_Music_Voice measure 62 / measure 18]
+    % [Percussion_Music_Voice measure 62 / measure 18]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -2135,10 +2135,10 @@ b_Percussion_Music_Voice = {
     r4.
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 63 / measure 19]
+    % [Percussion_Music_Voice measure 63 / measure 19]
     r1
 
-    % [02 Percussion_Music_Voice measure 64 / measure 20]
+    % [Percussion_Music_Voice measure 64 / measure 20]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
     \startStaff
@@ -2166,7 +2166,7 @@ b_Percussion_Music_Voice = {
 
     r2.
 
-    % [02 Percussion_Music_Voice measure 65 / measure 21]
+    % [Percussion_Music_Voice measure 65 / measure 21]
     r4
 
     \stopStaff
@@ -2182,7 +2182,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 66 / measure 22]
+    % [Percussion_Music_Voice measure 66 / measure 22]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2208,7 +2208,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 67 / measure 23]
+    % [Percussion_Music_Voice measure 67 / measure 23]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2234,7 +2234,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 68 / measure 24]
+    % [Percussion_Music_Voice measure 68 / measure 24]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2260,7 +2260,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 69 / measure 25]
+    % [Percussion_Music_Voice measure 69 / measure 25]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2286,7 +2286,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 70 / measure 26]
+    % [Percussion_Music_Voice measure 70 / measure 26]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2312,7 +2312,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 71 / measure 27]
+    % [Percussion_Music_Voice measure 71 / measure 27]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2340,7 +2340,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 72 / measure 28]
+    % [Percussion_Music_Voice measure 72 / measure 28]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2366,7 +2366,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 73 / measure 29]
+    % [Percussion_Music_Voice measure 73 / measure 29]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2392,7 +2392,7 @@ b_Percussion_Music_Voice = {
     - \marcato
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    % [02 Percussion_Music_Voice measure 74 / measure 30]
+    % [Percussion_Music_Voice measure 74 / measure 30]
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
     \startStaff
@@ -2424,7 +2424,7 @@ b_Percussion_Music_Voice = {
         \context Voice = "Percussion_Music_Voice"
         {
 
-            % [02 Percussion_Music_Voice measure 75 / measure 31]
+            % [Percussion_Music_Voice measure 75 / measure 31]
             \stopStaff
             \once \override Staff.StaffSymbol.line-count = 1
             \startStaff
@@ -2444,7 +2444,7 @@ b_Percussion_Music_Voice = {
         \context Voice = "Percussion_Rest_Voice"
         {
 
-            % [02 Percussion_Rest_Voice measure 75 / measure 31]
+            % [Percussion_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -2469,7 +2469,7 @@ b_PercussionMusicStaff = {
 
 b_Violin_Music_Voice = {
 
-    % [02 Violin_Music_Voice measure 45 / measure 1]
+    % [Violin_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vn."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vn."
     \clef "treble"
@@ -2493,7 +2493,7 @@ b_Violin_Music_Voice = {
     \times 4/5
     {
 
-        % [02 Violin_Music_Voice measure 46 / measure 2]
+        % [Violin_Music_Voice measure 46 / measure 2]
         gf'16
         \repeatTie
 
@@ -2512,7 +2512,7 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 47 / measure 3]
+    % [Violin_Music_Voice measure 47 / measure 3]
     g'4
     \repeatTie
     - \tweak stencil ##f
@@ -2569,7 +2569,7 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 48 / measure 4]
+    % [Violin_Music_Voice measure 48 / measure 4]
     gf'4
     \repeatTie
     - \tweak stencil ##f
@@ -2596,7 +2596,7 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 49 / measure 5]
+    % [Violin_Music_Voice measure 49 / measure 5]
     gqf'4
     \repeatTie
     - \tweak stencil ##f
@@ -2626,7 +2626,7 @@ b_Violin_Music_Voice = {
     \times 4/5
     {
 
-        % [02 Violin_Music_Voice measure 50 / measure 6]
+        % [Violin_Music_Voice measure 50 / measure 6]
         g'16
         \repeatTie
 
@@ -2648,7 +2648,7 @@ b_Violin_Music_Voice = {
     \times 4/5
     {
 
-        % [02 Violin_Music_Voice measure 51 / measure 7]
+        % [Violin_Music_Voice measure 51 / measure 7]
         gs'8
         \repeatTie
         [
@@ -2687,7 +2687,7 @@ b_Violin_Music_Voice = {
 
     }
 
-    % [02 Violin_Music_Voice measure 52 / measure 8]
+    % [Violin_Music_Voice measure 52 / measure 8]
     g'2
     \repeatTie
     - \tweak stencil ##f
@@ -2717,7 +2717,7 @@ b_Violin_Music_Voice = {
     \times 4/5
     {
 
-        % [02 Violin_Music_Voice measure 53 / measure 9]
+        % [Violin_Music_Voice measure 53 / measure 9]
         gqs'16
         \repeatTie
 
@@ -2752,7 +2752,7 @@ b_Violin_Music_Voice = {
 
     }
 
-    % [02 Violin_Music_Voice measure 54 / measure 10]
+    % [Violin_Music_Voice measure 54 / measure 10]
     a'2
     \repeatTie
     - \tweak stencil ##f
@@ -2776,7 +2776,7 @@ b_Violin_Music_Voice = {
 
     }
 
-    % [02 Violin_Music_Voice measure 55 / measure 11]
+    % [Violin_Music_Voice measure 55 / measure 11]
     aqf'2
     \repeatTie
     - \tweak stencil ##f
@@ -2805,7 +2805,7 @@ b_Violin_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 56 / measure 12]
+    % [Violin_Music_Voice measure 56 / measure 12]
     af'4
     \repeatTie
     - \tweak stencil ##f
@@ -2853,7 +2853,7 @@ b_Violin_Music_Voice = {
 
     }
 
-    % [02 Violin_Music_Voice measure 57 / measure 13]
+    % [Violin_Music_Voice measure 57 / measure 13]
     af'2
     \repeatTie
     - \tweak stencil ##f
@@ -2873,20 +2873,20 @@ b_Violin_Music_Voice = {
 
     }
 
-    % [02 Violin_Music_Voice measure 58 / measure 14]
+    % [Violin_Music_Voice measure 58 / measure 14]
     r2
     \stopTrillSpan
 
-    % [02 Violin_Music_Voice measure 59 / measure 15]
+    % [Violin_Music_Voice measure 59 / measure 15]
     a'1.
     - \tweak color #(x11-color 'blue)
     \fff
     ^ \baca-arco-ordinario-markup
 
-    % [02 Violin_Music_Voice measure 60 / measure 16]
+    % [Violin_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Violin_Music_Voice measure 61 / measure 17]
+    % [Violin_Music_Voice measure 61 / measure 17]
     a'2.
     - \tweak stencil ##f
     ~
@@ -2894,71 +2894,71 @@ b_Violin_Music_Voice = {
     a'2
     \repeatTie
 
-    % [02 Violin_Music_Voice measure 62 / measure 18]
+    % [Violin_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Violin_Music_Voice measure 63 / measure 19]
+    % [Violin_Music_Voice measure 63 / measure 19]
     a'1
 
-    % [02 Violin_Music_Voice measure 64 / measure 20]
+    % [Violin_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Violin_Music_Voice measure 65 / measure 21]
+    % [Violin_Music_Voice measure 65 / measure 21]
     r4
 
     a'4
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 66 / measure 22]
+    % [Violin_Music_Voice measure 66 / measure 22]
     a'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 67 / measure 23]
+    % [Violin_Music_Voice measure 67 / measure 23]
     a'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 68 / measure 24]
+    % [Violin_Music_Voice measure 68 / measure 24]
     a'1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 69 / measure 25]
+    % [Violin_Music_Voice measure 69 / measure 25]
     a'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 70 / measure 26]
+    % [Violin_Music_Voice measure 70 / measure 26]
     a'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 71 / measure 27]
+    % [Violin_Music_Voice measure 71 / measure 27]
     a'1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 72 / measure 28]
+    % [Violin_Music_Voice measure 72 / measure 28]
     a'1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 73 / measure 29]
+    % [Violin_Music_Voice measure 73 / measure 29]
     a'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Violin_Music_Voice measure 74 / measure 30]
+    % [Violin_Music_Voice measure 74 / measure 30]
     a'2.
     \repeatTie
 
@@ -2967,7 +2967,7 @@ b_Violin_Music_Voice = {
         \context Voice = "Violin_Music_Voice"
         {
 
-            % [02 Violin_Music_Voice measure 75 / measure 31]
+            % [Violin_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -2977,7 +2977,7 @@ b_Violin_Music_Voice = {
         \context Voice = "Violin_Rest_Voice"
         {
 
-            % [02 Violin_Rest_Voice measure 75 / measure 31]
+            % [Violin_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -3002,7 +3002,7 @@ b_Violin_Music_Staff = {
 
 b_Viola_Music_Voice = {
 
-    % [02 Viola_Music_Voice measure 45 / measure 1]
+    % [Viola_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Va."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Va."
     \clef "alto"
@@ -3023,7 +3023,7 @@ b_Viola_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Va."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Viola_Music_Voice measure 46 / measure 2]
+    % [Viola_Music_Voice measure 46 / measure 2]
     f'4
     \repeatTie
     - \tweak stencil ##f
@@ -3045,7 +3045,7 @@ b_Viola_Music_Voice = {
 
     }
 
-    % [02 Viola_Music_Voice measure 47 / measure 3]
+    % [Viola_Music_Voice measure 47 / measure 3]
     fs'2.
     \repeatTie
     - \tweak stencil ##f
@@ -3074,7 +3074,7 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 48 / measure 4]
+    % [Viola_Music_Voice measure 48 / measure 4]
     fqs'4
     \repeatTie
     - \tweak stencil ##f
@@ -3103,7 +3103,7 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 49 / measure 5]
+    % [Viola_Music_Voice measure 49 / measure 5]
     f'2
     \repeatTie
     - \tweak stencil ##f
@@ -3130,7 +3130,7 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 50 / measure 6]
+    % [Viola_Music_Voice measure 50 / measure 6]
     gf'2
     \repeatTie
     - \tweak stencil ##f
@@ -3152,7 +3152,7 @@ b_Viola_Music_Voice = {
 
     }
 
-    % [02 Viola_Music_Voice measure 51 / measure 7]
+    % [Viola_Music_Voice measure 51 / measure 7]
     g'2.
     \repeatTie
     - \tweak stencil ##f
@@ -3174,7 +3174,7 @@ b_Viola_Music_Voice = {
 
     }
 
-    % [02 Viola_Music_Voice measure 52 / measure 8]
+    % [Viola_Music_Voice measure 52 / measure 8]
     gqf'2.
     \repeatTie
     - \tweak stencil ##f
@@ -3203,7 +3203,7 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 53 / measure 9]
+    % [Viola_Music_Voice measure 53 / measure 9]
     gf'2
     \repeatTie
     - \tweak stencil ##f
@@ -3232,7 +3232,7 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 54 / measure 10]
+    % [Viola_Music_Voice measure 54 / measure 10]
     g'2
     \repeatTie
     - \tweak stencil ##f
@@ -3254,7 +3254,7 @@ b_Viola_Music_Voice = {
 
     }
 
-    % [02 Viola_Music_Voice measure 55 / measure 11]
+    % [Viola_Music_Voice measure 55 / measure 11]
     gs'2.
     \repeatTie
     - \tweak stencil ##f
@@ -3276,7 +3276,7 @@ b_Viola_Music_Voice = {
 
     }
 
-    % [02 Viola_Music_Voice measure 56 / measure 12]
+    % [Viola_Music_Voice measure 56 / measure 12]
     gqs'2.
     \repeatTie
     - \tweak stencil ##f
@@ -3303,7 +3303,7 @@ b_Viola_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 57 / measure 13]
+    % [Viola_Music_Voice measure 57 / measure 13]
     g'2
     \repeatTie
     - \tweak stencil ##f
@@ -3325,20 +3325,20 @@ b_Viola_Music_Voice = {
 
     }
 
-    % [02 Viola_Music_Voice measure 58 / measure 14]
+    % [Viola_Music_Voice measure 58 / measure 14]
     r2
     \stopTrillSpan
 
-    % [02 Viola_Music_Voice measure 59 / measure 15]
+    % [Viola_Music_Voice measure 59 / measure 15]
     gs'!1.
     - \tweak color #(x11-color 'blue)
     \fff
     ^ \baca-arco-ordinario-markup
 
-    % [02 Viola_Music_Voice measure 60 / measure 16]
+    % [Viola_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Viola_Music_Voice measure 61 / measure 17]
+    % [Viola_Music_Voice measure 61 / measure 17]
     gs'!2.
     - \tweak stencil ##f
     ~
@@ -3346,71 +3346,71 @@ b_Viola_Music_Voice = {
     gs'2
     \repeatTie
 
-    % [02 Viola_Music_Voice measure 62 / measure 18]
+    % [Viola_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Viola_Music_Voice measure 63 / measure 19]
+    % [Viola_Music_Voice measure 63 / measure 19]
     gs'!1
 
-    % [02 Viola_Music_Voice measure 64 / measure 20]
+    % [Viola_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Viola_Music_Voice measure 65 / measure 21]
+    % [Viola_Music_Voice measure 65 / measure 21]
     r4
 
     gs'!4
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 66 / measure 22]
+    % [Viola_Music_Voice measure 66 / measure 22]
     gs'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 67 / measure 23]
+    % [Viola_Music_Voice measure 67 / measure 23]
     gs'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 68 / measure 24]
+    % [Viola_Music_Voice measure 68 / measure 24]
     gs'1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 69 / measure 25]
+    % [Viola_Music_Voice measure 69 / measure 25]
     gs'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 70 / measure 26]
+    % [Viola_Music_Voice measure 70 / measure 26]
     gs'2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 71 / measure 27]
+    % [Viola_Music_Voice measure 71 / measure 27]
     gs'1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 72 / measure 28]
+    % [Viola_Music_Voice measure 72 / measure 28]
     gs'1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 73 / measure 29]
+    % [Viola_Music_Voice measure 73 / measure 29]
     gs'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Viola_Music_Voice measure 74 / measure 30]
+    % [Viola_Music_Voice measure 74 / measure 30]
     gs'2.
     \repeatTie
 
@@ -3419,7 +3419,7 @@ b_Viola_Music_Voice = {
         \context Voice = "Viola_Music_Voice"
         {
 
-            % [02 Viola_Music_Voice measure 75 / measure 31]
+            % [Viola_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -3429,7 +3429,7 @@ b_Viola_Music_Voice = {
         \context Voice = "Viola_Rest_Voice"
         {
 
-            % [02 Viola_Rest_Voice measure 75 / measure 31]
+            % [Viola_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -3454,7 +3454,7 @@ b_Viola_Music_Staff = {
 
 b_Cello_Music_Voice = {
 
-    % [02 Cello_Music_Voice measure 45 / measure 1]
+    % [Cello_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vc."
     \clef "bass"
@@ -3475,7 +3475,7 @@ b_Cello_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Cello_Music_Voice measure 46 / measure 2]
+    % [Cello_Music_Voice measure 46 / measure 2]
     f'2
     \repeatTie
     - \tweak stencil ##f
@@ -3484,7 +3484,7 @@ b_Cello_Music_Voice = {
     \times 4/5
     {
 
-        % [02 Cello_Music_Voice measure 47 / measure 3]
+        % [Cello_Music_Voice measure 47 / measure 3]
         f'16
         \repeatTie
 
@@ -3526,13 +3526,13 @@ b_Cello_Music_Voice = {
 
     }
 
-    % [02 Cello_Music_Voice measure 48 / measure 4]
+    % [Cello_Music_Voice measure 48 / measure 4]
     fqs'2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 49 / measure 5]
+    % [Cello_Music_Voice measure 49 / measure 5]
     fqs'4
     \repeatTie
     - \tweak stencil ##f
@@ -3561,7 +3561,7 @@ b_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 50 / measure 6]
+    % [Cello_Music_Voice measure 50 / measure 6]
     f'2
     \repeatTie
     - \tweak stencil ##f
@@ -3583,7 +3583,7 @@ b_Cello_Music_Voice = {
 
     }
 
-    % [02 Cello_Music_Voice measure 51 / measure 7]
+    % [Cello_Music_Voice measure 51 / measure 7]
     fqs'1
     \repeatTie
     - \tweak stencil ##f
@@ -3592,7 +3592,7 @@ b_Cello_Music_Voice = {
     \times 4/5
     {
 
-        % [02 Cello_Music_Voice measure 52 / measure 8]
+        % [Cello_Music_Voice measure 52 / measure 8]
         fqs'16
         \repeatTie
 
@@ -3612,7 +3612,7 @@ b_Cello_Music_Voice = {
     r2
     \stopTrillSpan
 
-    % [02 Cello_Music_Voice measure 53 / measure 9]
+    % [Cello_Music_Voice measure 53 / measure 9]
     fs!1
     - \tweak color #(x11-color 'blue)
     \mf
@@ -3626,19 +3626,19 @@ b_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 54 / measure 10]
+    % [Cello_Music_Voice measure 54 / measure 10]
     fs2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 55 / measure 11]
+    % [Cello_Music_Voice measure 55 / measure 11]
     fs1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 56 / measure 12]
+    % [Cello_Music_Voice measure 56 / measure 12]
     fs2.
     \repeatTie
     - \tweak stencil ##f
@@ -3649,24 +3649,24 @@ b_Cello_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 57 / measure 13]
+    % [Cello_Music_Voice measure 57 / measure 13]
     fs2.
     \repeatTie
 
-    % [02 Cello_Music_Voice measure 58 / measure 14]
+    % [Cello_Music_Voice measure 58 / measure 14]
     r2
     <> \bacaStopTextSpanRhythmAnnotation
 
-    % [02 Cello_Music_Voice measure 59 / measure 15]
+    % [Cello_Music_Voice measure 59 / measure 15]
     g1.
     - \tweak color #(x11-color 'blue)
     \fff
     ^ \baca-arco-ordinario-markup
 
-    % [02 Cello_Music_Voice measure 60 / measure 16]
+    % [Cello_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Cello_Music_Voice measure 61 / measure 17]
+    % [Cello_Music_Voice measure 61 / measure 17]
     g2.
     - \tweak stencil ##f
     ~
@@ -3674,71 +3674,71 @@ b_Cello_Music_Voice = {
     g2
     \repeatTie
 
-    % [02 Cello_Music_Voice measure 62 / measure 18]
+    % [Cello_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Cello_Music_Voice measure 63 / measure 19]
+    % [Cello_Music_Voice measure 63 / measure 19]
     g1
 
-    % [02 Cello_Music_Voice measure 64 / measure 20]
+    % [Cello_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Cello_Music_Voice measure 65 / measure 21]
+    % [Cello_Music_Voice measure 65 / measure 21]
     r4
 
     g4
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 66 / measure 22]
+    % [Cello_Music_Voice measure 66 / measure 22]
     g2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 67 / measure 23]
+    % [Cello_Music_Voice measure 67 / measure 23]
     g2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 68 / measure 24]
+    % [Cello_Music_Voice measure 68 / measure 24]
     g1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 69 / measure 25]
+    % [Cello_Music_Voice measure 69 / measure 25]
     g2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 70 / measure 26]
+    % [Cello_Music_Voice measure 70 / measure 26]
     g2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 71 / measure 27]
+    % [Cello_Music_Voice measure 71 / measure 27]
     g1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 72 / measure 28]
+    % [Cello_Music_Voice measure 72 / measure 28]
     g1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 73 / measure 29]
+    % [Cello_Music_Voice measure 73 / measure 29]
     g2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Cello_Music_Voice measure 74 / measure 30]
+    % [Cello_Music_Voice measure 74 / measure 30]
     g2.
     \repeatTie
 
@@ -3747,7 +3747,7 @@ b_Cello_Music_Voice = {
         \context Voice = "Cello_Music_Voice"
         {
 
-            % [02 Cello_Music_Voice measure 75 / measure 31]
+            % [Cello_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
@@ -3757,7 +3757,7 @@ b_Cello_Music_Voice = {
         \context Voice = "Cello_Rest_Voice"
         {
 
-            % [02 Cello_Rest_Voice measure 75 / measure 31]
+            % [Cello_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -3782,7 +3782,7 @@ b_CelloMusicStaff = {
 
 b_Contrabass_Music_Voice = {
 
-    % [02 Contrabass_Music_Voice measure 45 / measure 1]
+    % [Contrabass_Music_Voice measure 45 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Cb."
     \override NoteHead.style = #'harmonic
@@ -3802,7 +3802,7 @@ b_Contrabass_Music_Voice = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [02 Contrabass_Music_Voice measure 46 / measure 2]
+    % [Contrabass_Music_Voice measure 46 / measure 2]
     <g, a>2
     \repeatTie
     - \tweak stencil ##f
@@ -3812,7 +3812,7 @@ b_Contrabass_Music_Voice = {
     \times 6/7
     {
 
-        % [02 Contrabass_Music_Voice measure 47 / measure 3]
+        % [Contrabass_Music_Voice measure 47 / measure 3]
         <g, a>1.
         \repeatTie
         \glissando
@@ -3826,7 +3826,7 @@ b_Contrabass_Music_Voice = {
     \times 4/5
     {
 
-        % [02 Contrabass_Music_Voice measure 48 / measure 4]
+        % [Contrabass_Music_Voice measure 48 / measure 4]
         <af, bf>2.
         \repeatTie
         \glissando
@@ -3837,7 +3837,7 @@ b_Contrabass_Music_Voice = {
 
     }
 
-    % [02 Contrabass_Music_Voice measure 49 / measure 5]
+    % [Contrabass_Music_Voice measure 49 / measure 5]
     <gqs, aqs>1
     \repeatTie
     - \tweak stencil ##f
@@ -3846,7 +3846,7 @@ b_Contrabass_Music_Voice = {
     \times 4/5
     {
 
-        % [02 Contrabass_Music_Voice measure 50 / measure 6]
+        % [Contrabass_Music_Voice measure 50 / measure 6]
         <gqs, aqs>2.
         \repeatTie
         \glissando
@@ -3857,13 +3857,13 @@ b_Contrabass_Music_Voice = {
 
     }
 
-    % [02 Contrabass_Music_Voice measure 51 / measure 7]
+    % [Contrabass_Music_Voice measure 51 / measure 7]
     <a, b>1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 52 / measure 8]
+    % [Contrabass_Music_Voice measure 52 / measure 8]
     <a, b>2.
     \repeatTie
     - \tweak stencil ##f
@@ -3874,13 +3874,13 @@ b_Contrabass_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 53 / measure 9]
+    % [Contrabass_Music_Voice measure 53 / measure 9]
     <a, b>1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 54 / measure 10]
+    % [Contrabass_Music_Voice measure 54 / measure 10]
     <a, b>2
     \repeatTie
     \glissando
@@ -3892,7 +3892,7 @@ b_Contrabass_Music_Voice = {
     \times 2/3
     {
 
-        % [02 Contrabass_Music_Voice measure 55 / measure 11]
+        % [Contrabass_Music_Voice measure 55 / measure 11]
         <bqf, cqs'>1
         \repeatTie
         \glissando
@@ -3903,7 +3903,7 @@ b_Contrabass_Music_Voice = {
 
     }
 
-    % [02 Contrabass_Music_Voice measure 56 / measure 12]
+    % [Contrabass_Music_Voice measure 56 / measure 12]
     <af, bf>2.
     \repeatTie
     - \tweak stencil ##f
@@ -3918,7 +3918,7 @@ b_Contrabass_Music_Voice = {
     \times 6/7
     {
 
-        % [02 Contrabass_Music_Voice measure 57 / measure 13]
+        % [Contrabass_Music_Voice measure 57 / measure 13]
         <af, bf>2.
         \repeatTie
         \glissando
@@ -3928,19 +3928,19 @@ b_Contrabass_Music_Voice = {
 
     }
 
-    % [02 Contrabass_Music_Voice measure 58 / measure 14]
+    % [Contrabass_Music_Voice measure 58 / measure 14]
     r2
 
-    % [02 Contrabass_Music_Voice measure 59 / measure 15]
+    % [Contrabass_Music_Voice measure 59 / measure 15]
     <g,, a,>1.
     - \tweak color #(x11-color 'blue)
     \fff
     ^ \baca-arco-ordinario-markup
 
-    % [02 Contrabass_Music_Voice measure 60 / measure 16]
+    % [Contrabass_Music_Voice measure 60 / measure 16]
     r2
 
-    % [02 Contrabass_Music_Voice measure 61 / measure 17]
+    % [Contrabass_Music_Voice measure 61 / measure 17]
     <g,, a,>2.
     - \tweak stencil ##f
     ~
@@ -3948,71 +3948,71 @@ b_Contrabass_Music_Voice = {
     <g,, a,>2
     \repeatTie
 
-    % [02 Contrabass_Music_Voice measure 62 / measure 18]
+    % [Contrabass_Music_Voice measure 62 / measure 18]
     r2.
 
-    % [02 Contrabass_Music_Voice measure 63 / measure 19]
+    % [Contrabass_Music_Voice measure 63 / measure 19]
     <g,, a,>1
 
-    % [02 Contrabass_Music_Voice measure 64 / measure 20]
+    % [Contrabass_Music_Voice measure 64 / measure 20]
     r1.
 
-    % [02 Contrabass_Music_Voice measure 65 / measure 21]
+    % [Contrabass_Music_Voice measure 65 / measure 21]
     r4
 
     <g,, a,>4
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 66 / measure 22]
+    % [Contrabass_Music_Voice measure 66 / measure 22]
     <g,, a,>2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 67 / measure 23]
+    % [Contrabass_Music_Voice measure 67 / measure 23]
     <g,, a,>2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 68 / measure 24]
+    % [Contrabass_Music_Voice measure 68 / measure 24]
     <g,, a,>1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 69 / measure 25]
+    % [Contrabass_Music_Voice measure 69 / measure 25]
     <g,, a,>2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 70 / measure 26]
+    % [Contrabass_Music_Voice measure 70 / measure 26]
     <g,, a,>2
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 71 / measure 27]
+    % [Contrabass_Music_Voice measure 71 / measure 27]
     <g,, a,>1.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 72 / measure 28]
+    % [Contrabass_Music_Voice measure 72 / measure 28]
     <g,, a,>1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 73 / measure 29]
+    % [Contrabass_Music_Voice measure 73 / measure 29]
     <g,, a,>2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [02 Contrabass_Music_Voice measure 74 / measure 30]
+    % [Contrabass_Music_Voice measure 74 / measure 30]
     <g,, a,>2.
     \repeatTie
 
@@ -4021,7 +4021,7 @@ b_Contrabass_Music_Voice = {
         \context Voice = "Contrabass_Music_Voice"
         {
 
-            % [02 Contrabass_Music_Voice measure 75 / measure 31]
+            % [Contrabass_Music_Voice measure 75 / measure 31]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
@@ -4031,7 +4031,7 @@ b_Contrabass_Music_Voice = {
         \context Voice = "Contrabass_Rest_Voice"
         {
 
-            % [02 Contrabass_Rest_Voice measure 75 / measure 31]
+            % [Contrabass_Rest_Voice measure 75 / measure 31]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
