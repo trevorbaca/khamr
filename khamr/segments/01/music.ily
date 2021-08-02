@@ -1,4 +1,4 @@
-a_Global_Skips = {
+segment.01.Global.Skips = {
 
     % [Global_Skips measure 1]
     \time 2/4
@@ -366,7 +366,7 @@ a_Global_Skips = {
 }
 
 
-a_Global_Rests = {
+segment.01.Global.Rests = {
 
     % [Global_Rests measure 1]
     R1 * 1/2
@@ -506,7 +506,7 @@ a_Global_Rests = {
 }
 
 
-a_Flute_Music_Voice = {
+segment.01.Flute.Music.Voice = {
 
     % [Flute_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. fl."
@@ -877,18 +877,18 @@ a_Flute_Music_Voice = {
 }
 
 
-a_Flute_Music_Staff = <<
+segment.01.Flute.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \a_Global_Rests
+    { \segment.01.Global.Rests }
 
     \context Voice = "Flute_Music_Voice"
-    \a_Flute_Music_Voice
+    { \segment.01.Flute.Music.Voice }
 
 >>
 
 
-a_Oboe_Music_Voice = {
+segment.01.Oboe.Music.Voice = {
 
     % [Oboe_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
@@ -1241,15 +1241,15 @@ a_Oboe_Music_Voice = {
 }
 
 
-a_OboeMusicStaff = {
+segment.01.OboeMusicStaff = {
 
     \context Voice = "Oboe_Music_Voice"
-    \a_Oboe_Music_Voice
+    { \segment.01.Oboe.Music.Voice }
 
 }
 
 
-a_Clarinet_Music_Voice = {
+segment.01.Clarinet.Music.Voice = {
 
     % [Clarinet_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
@@ -1611,15 +1611,15 @@ a_Clarinet_Music_Voice = {
 }
 
 
-a_Clarinet_Music_Staff = {
+segment.01.Clarinet.Music.Staff = {
 
     \context Voice = "Clarinet_Music_Voice"
-    \a_Clarinet_Music_Voice
+    { \segment.01.Clarinet.Music.Voice }
 
 }
 
 
-a_Saxophone_Music_Voice = {
+segment.01.Saxophone.Music.Voice = {
 
     % [Saxophone_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bar. sax."
@@ -1964,15 +1964,15 @@ a_Saxophone_Music_Voice = {
 }
 
 
-a_Saxophone_Music_Staff = {
+segment.01.Saxophone.Music.Staff = {
 
     \context Voice = "Saxophone_Music_Voice"
-    \a_Saxophone_Music_Voice
+    { \segment.01.Saxophone.Music.Voice }
 
 }
 
 
-a_Guitar_Music_Voice = {
+segment.01.Guitar.Music.Voice = {
 
     % [Guitar_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Gt."
@@ -2945,15 +2945,15 @@ a_Guitar_Music_Voice = {
 }
 
 
-a_Guitar_Music_Staff = {
+segment.01.Guitar.Music.Staff = {
 
     \context Voice = "Guitar_Music_Voice"
-    \a_Guitar_Music_Voice
+    { \segment.01.Guitar.Music.Voice }
 
 }
 
 
-a_Piano_Music_Voice = {
+segment.01.Piano.Music.Voice = {
 
     % [Piano_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
@@ -3626,15 +3626,15 @@ a_Piano_Music_Voice = {
 }
 
 
-a_Piano_Music_Staff = {
+segment.01.Piano.Music.Staff = {
 
     \context Voice = "Piano_Music_Voice"
-    \a_Piano_Music_Voice
+    { \segment.01.Piano.Music.Voice }
 
 }
 
 
-a_Percussion_Music_Voice = {
+segment.01.Percussion.Music.Voice = {
 
     % [Percussion_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
@@ -4033,15 +4033,15 @@ a_Percussion_Music_Voice = {
 }
 
 
-a_PercussionMusicStaff = {
+segment.01.PercussionMusicStaff = {
 
     \context Voice = "Percussion_Music_Voice"
-    \a_Percussion_Music_Voice
+    { \segment.01.Percussion.Music.Voice }
 
 }
 
 
-a_Violin_Music_Voice = {
+segment.01.Violin.Music.Voice = {
 
     % [Violin_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vn."
@@ -4779,15 +4779,15 @@ a_Violin_Music_Voice = {
 }
 
 
-a_Violin_Music_Staff = {
+segment.01.Violin.Music.Staff = {
 
     \context Voice = "Violin_Music_Voice"
-    \a_Violin_Music_Voice
+    { \segment.01.Violin.Music.Voice }
 
 }
 
 
-a_Viola_Music_Voice = {
+segment.01.Viola.Music.Voice = {
 
     % [Viola_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Va."
@@ -5450,15 +5450,15 @@ a_Viola_Music_Voice = {
 }
 
 
-a_Viola_Music_Staff = {
+segment.01.Viola.Music.Staff = {
 
     \context Voice = "Viola_Music_Voice"
-    \a_Viola_Music_Voice
+    { \segment.01.Viola.Music.Voice }
 
 }
 
 
-a_Cello_Music_Voice = {
+segment.01.Cello.Music.Voice = {
 
     % [Cello_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
@@ -6114,15 +6114,15 @@ a_Cello_Music_Voice = {
 }
 
 
-a_CelloMusicStaff = {
+segment.01.CelloMusicStaff = {
 
     \context Voice = "Cello_Music_Voice"
-    \a_Cello_Music_Voice
+    { \segment.01.Cello.Music.Voice }
 
 }
 
 
-a_Contrabass_Music_Voice = {
+segment.01.Contrabass.Music.Voice = {
 
     % [Contrabass_Music_Voice measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
@@ -6667,9 +6667,9 @@ a_Contrabass_Music_Voice = {
 }
 
 
-a_Contrabass_Music_Staff = {
+segment.01.Contrabass.Music.Staff = {
 
     \context Voice = "Contrabass_Music_Voice"
-    \a_Contrabass_Music_Voice
+    { \segment.01.Contrabass.Music.Voice }
 
 }

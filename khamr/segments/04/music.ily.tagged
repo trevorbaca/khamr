@@ -1,5 +1,5 @@
-%! baca.Path.extern()
-d_Global_Skips = {
+%! baca.path.extern()
+segment.04.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 112 / measure 1]
@@ -977,12 +977,12 @@ d_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Global_Rests = {
+%! baca.path.extern()
+segment.04.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 112 / measure 1]
@@ -1093,12 +1093,12 @@ d_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Flute_Music_Voice = {
+%! baca.path.extern()
+segment.04.Flute.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Flute_Music_Voice measure 112 / measure 1]
@@ -1548,32 +1548,32 @@ d_Flute_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Flute_Music_Staff = <<
+%! baca.path.extern()
+segment.04.Flute.Music.Staff = <<
 
     %! abjad.ScoreTemplate._make_global_context()
     \context GlobalRests = "Global_Rests"
     %! abjad.ScoreTemplate._make_global_context()
-    %! baca.Path.extern()
-    \d_Global_Rests
+    %! baca.path.extern()
+    { \segment.04.Global.Rests }
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Flute_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Flute_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Flute.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-d_Oboe_Music_Voice = {
+%! baca.path.extern()
+segment.04.Oboe.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Oboe_Music_Voice measure 112 / measure 1]
@@ -2013,26 +2013,26 @@ d_Oboe_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_OboeMusicStaff = {
+%! baca.path.extern()
+segment.04.OboeMusicStaff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Oboe_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Oboe_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Oboe.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Clarinet_Music_Voice = {
+%! baca.path.extern()
+segment.04.Clarinet.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 112 / measure 1]
@@ -2479,26 +2479,26 @@ d_Clarinet_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Clarinet_Music_Staff = {
+%! baca.path.extern()
+segment.04.Clarinet.Music.Staff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Clarinet_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Clarinet_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Clarinet.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Saxophone_Music_Voice = {
+%! baca.path.extern()
+segment.04.Saxophone.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 112 / measure 1]
@@ -2951,26 +2951,26 @@ d_Saxophone_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Saxophone_Music_Staff = {
+%! baca.path.extern()
+segment.04.Saxophone.Music.Staff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Saxophone_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Saxophone_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Saxophone.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Guitar_Music_Voice = {
+%! baca.path.extern()
+segment.04.Guitar.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Guitar_Music_Voice measure 112 / measure 1]
@@ -3364,26 +3364,26 @@ d_Guitar_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Guitar_Music_Staff = {
+%! baca.path.extern()
+segment.04.Guitar.Music.Staff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Guitar_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Guitar_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Guitar.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Piano_Music_Voice = {
+%! baca.path.extern()
+segment.04.Piano.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Piano_Music_Voice measure 112 / measure 1]
@@ -3780,26 +3780,26 @@ d_Piano_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Piano_Music_Staff = {
+%! baca.path.extern()
+segment.04.Piano.Music.Staff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Piano_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Piano_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Piano.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Percussion_Music_Voice = {
+%! baca.path.extern()
+segment.04.Percussion.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Music_Voice measure 112 / measure 1]
@@ -4438,26 +4438,26 @@ d_Percussion_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_PercussionMusicStaff = {
+%! baca.path.extern()
+segment.04.PercussionMusicStaff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Percussion_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Percussion_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Percussion.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Violin_Music_Voice = {
+%! baca.path.extern()
+segment.04.Violin.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_Music_Voice measure 112 / measure 1]
@@ -4991,26 +4991,26 @@ d_Violin_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Violin_Music_Staff = {
+%! baca.path.extern()
+segment.04.Violin.Music.Staff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Violin_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Violin_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Violin.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Viola_Music_Voice = {
+%! baca.path.extern()
+segment.04.Viola.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Music_Voice measure 112 / measure 1]
@@ -5535,26 +5535,26 @@ d_Viola_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Viola_Music_Staff = {
+%! baca.path.extern()
+segment.04.Viola.Music.Staff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Viola_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Viola_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Viola.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Cello_Music_Voice = {
+%! baca.path.extern()
+segment.04.Cello.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Music_Voice measure 112 / measure 1]
@@ -6092,26 +6092,26 @@ d_Cello_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_CelloMusicStaff = {
+%! baca.path.extern()
+segment.04.CelloMusicStaff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Cello_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Cello_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Cello.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Contrabass_Music_Voice = {
+%! baca.path.extern()
+segment.04.Contrabass.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 112 / measure 1]
@@ -6655,19 +6655,19 @@ d_Contrabass_Music_Voice = {
     >>
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-d_Contrabass_Music_Staff = {
+%! baca.path.extern()
+segment.04.Contrabass.Music.Staff = {
 
     %! khamr.ScoreTemplate.__call__()
     \context Voice = "Contrabass_Music_Voice"
     %! khamr.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \d_Contrabass_Music_Voice
+    %! baca.path.extern()
+    { \segment.04.Contrabass.Music.Voice }
 
 %! khamr.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }

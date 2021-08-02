@@ -24,7 +24,7 @@
             <<
 
                 \context GlobalSkips = "Global_Skips"
-                \c_Global_Skips
+                { \segment.03.Global.Skips }
 
             >>
 
@@ -36,19 +36,19 @@
 
                     \tag Flute
                     \context Staff = "Flute_Music_Staff"
-                    \c_Flute_Music_Staff
+                    { \segment.03.Flute.Music.Staff }
 
                     \tag Oboe
                     \context Staff = "OboeMusicStaff"
-                    \c_OboeMusicStaff
+                    { \segment.03.OboeMusicStaff }
 
                     \tag Clarinet
                     \context Staff = "Clarinet_Music_Staff"
-                    \c_Clarinet_Music_Staff
+                    { \segment.03.Clarinet.Music.Staff }
 
                     \tag Saxophone
                     \context Staff = "Saxophone_Music_Staff"
-                    \c_Saxophone_Music_Staff
+                    { \segment.03.Saxophone.Music.Staff }
 
                 >>
 
@@ -57,15 +57,15 @@
 
                     \tag Guitar
                     \context Staff = "Guitar_Music_Staff"
-                    \c_Guitar_Music_Staff
+                    { \segment.03.Guitar.Music.Staff }
 
                     \tag Piano
                     \context Staff = "Piano_Music_Staff"
-                    \c_Piano_Music_Staff
+                    { \segment.03.Piano.Music.Staff }
 
                     \tag Percussion
                     \context Staff = "PercussionMusicStaff"
-                    \c_PercussionMusicStaff
+                    { \segment.03.PercussionMusicStaff }
 
                 >>
 
@@ -74,19 +74,19 @@
 
                     \tag Violin
                     \context Staff = "Violin_Music_Staff"
-                    \c_Violin_Music_Staff
+                    { \segment.03.Violin.Music.Staff }
 
                     \tag Viola
                     \context Staff = "Viola_Music_Staff"
-                    \c_Viola_Music_Staff
+                    { \segment.03.Viola.Music.Staff }
 
                     \tag Cello
                     \context Staff = "CelloMusicStaff"
-                    \c_CelloMusicStaff
+                    { \segment.03.CelloMusicStaff }
 
                     \tag Contrabass
                     \context Staff = "Contrabass_Music_Staff"
-                    \c_Contrabass_Music_Staff
+                    { \segment.03.Contrabass.Music.Staff }
 
                 >>
 
