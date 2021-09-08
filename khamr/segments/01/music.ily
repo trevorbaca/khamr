@@ -5198,14 +5198,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -5284,14 +5284,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -5384,14 +5384,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -5484,14 +5484,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -5566,14 +5566,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -5680,14 +5680,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -5762,14 +5762,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -5868,14 +5868,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -5964,14 +5964,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -6054,14 +6054,14 @@ segment.01.Guitar.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -6736,14 +6736,14 @@ segment.01.Piano.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -6923,14 +6923,14 @@ segment.01.Piano.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -7029,14 +7029,14 @@ segment.01.Piano.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -7159,14 +7159,14 @@ segment.01.Piano.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
@@ -7265,14 +7265,14 @@ segment.01.Piano.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
-            \new Score
+            \context Score = "Score"
             \with
             {
                 \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
-                \new RhythmicStaff
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
                     \remove Time_signature_engraver
