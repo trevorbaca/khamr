@@ -23,7 +23,7 @@ maker = baca.SegmentMaker(
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
     ],
-    check_all_are_pitched=True,
+    error_on_not_yet_pitched=True,
     final_segment=True,
     ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
