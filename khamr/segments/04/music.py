@@ -21,16 +21,11 @@ stage_markup = (
 
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
-    final_segment=True,
-    ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
     margin_markups=khamr.margin_markups,
     metronome_marks=khamr.metronome_marks,
     score_template=khamr.ScoreTemplate(),
-    stage_markup=stage_markup,
     time_signatures=khamr.time_signatures[:20],
-    transpose_score=True,
 )
 
 maker(
@@ -275,4 +270,8 @@ if __name__ == "__main__":
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
         ],
+        error_on_not_yet_pitched=True,
+        final_segment=True,
+        stage_markup=stage_markup,
+        transpose_score=True,
     )
