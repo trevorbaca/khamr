@@ -16,7 +16,7 @@ stage_markup = (
     ("[A.5]", 21),
 )
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=khamr.instruments,
     margin_markups=khamr.margin_markups,
