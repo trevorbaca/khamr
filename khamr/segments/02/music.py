@@ -16,7 +16,7 @@ stage_markup = (
     ("[A.5]", 21),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=khamr.instruments,
     margin_markups=khamr.margin_markups,
@@ -25,7 +25,7 @@ maker = baca.CommandAccumulator(
     time_signatures=khamr.time_signatures[:30],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "42",
@@ -75,7 +75,7 @@ stage_5_silence_pattern = abjad.index(
 
 # fl
 
-maker(
+commands(
     ("fl", (1, 8)),
     khamr.fused_wind(
         [10, 10, 6, 8, 6],
@@ -87,7 +87,7 @@ maker(
 
 # ob
 
-maker(
+commands(
     ("ob", (1, 8)),
     khamr.fused_wind(
         [12, 6, 10, 10, 6, 8],
@@ -99,7 +99,7 @@ maker(
 
 # cl
 
-maker(
+commands(
     ("cl", (1, 14)),
     khamr.fused_wind(
         [8, 6, 10, 6, 10, 8],
@@ -114,7 +114,7 @@ maker(
 
 # sax
 
-maker(
+commands(
     ("sax", (1, 8)),
     khamr.fused_wind(
         [14, 6, 10, 6, 10, 8],
@@ -126,7 +126,7 @@ maker(
 
 # gt
 
-maker(
+commands(
     ("gt", (1, 4)),
     khamr.guitar_isolata(
         rmakers.force_rest(
@@ -135,7 +135,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("gt", (5, 14)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(baca.selectors.lt(-1)),
@@ -144,19 +144,19 @@ maker(
 
 # pf
 
-maker(
+commands(
     ("pf", (1, 14)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(baca.selectors.lt(-1)),
     ),
 )
 
-maker(
+commands(
     ("pf", (15, 20)),
     khamr.alternate_divisions(detach_ties=True),
 )
 
-maker(
+commands(
     ("pf", (21, 30)),
     khamr.current(
         [4, 3, 5],
@@ -168,13 +168,13 @@ maker(
 
 # perc
 
-maker(
+commands(
     ("perc", (1, 14)),
     khamr.fused_expanse([8, 20, 4, 20]),
 )
 
 indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
-maker(
+commands(
     ("perc", (15, 20)),
     khamr.quarter_hits(
         rmakers.force_rest(
@@ -183,7 +183,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc", (21, 30)),
     khamr.quarter_hits(
         rmakers.force_rest(
@@ -194,7 +194,7 @@ maker(
 
 # vn
 
-maker(
+commands(
     ("vn", (1, 14)),
     khamr.trill_tuplets(
         4,
@@ -206,7 +206,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 14)),
     khamr.trill_tuplets(
         3,
@@ -218,7 +218,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", (1, 8)),
     khamr.trill_tuplets(
         2,
@@ -228,7 +228,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (9, 14)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(baca.selectors.lt(-1)),
@@ -237,7 +237,7 @@ maker(
 
 # cb
 
-maker(
+commands(
     ("cb", (1, 14)),
     khamr.opening_glissandi(
         -3,
@@ -250,17 +250,17 @@ maker(
 
 winds_guitar_strings = ["fl", "ob", "cl", "sax", "gt", "vn", "va", "vc", "cb"]
 
-maker(
+commands(
     (winds_guitar_strings, (15, 20)),
     khamr.alternate_divisions(),
 )
 
-maker(
+commands(
     (winds_guitar_strings, (21, 30)),
     khamr.silent_first_division(),
 )
 
-maker(
+commands(
     ("fl", (1, 8)),
     baca.hairpin(
         "mp > pp",
@@ -273,7 +273,7 @@ maker(
     baca.pitch("Bb4"),
 )
 
-maker(
+commands(
     ("fl", (15, 30)),
     baca.dynamic("fff"),
     baca.instrument(khamr.instruments["Flute"]),
@@ -285,35 +285,35 @@ maker(
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     ("ob", (1, 8)),
     baca.flageolet(selector=baca.selectors.pheads()),
     baca.pitch("<A4 E5>"),
 )
 
-maker(
+commands(
     ("ob", (15, 30)),
     baca.dynamic("fff"),
     baca.pitch("G#3"),
 )
 
-maker(
+commands(
     ("cl", (1, 14)),
     baca.pitch("G2"),
 )
 
-maker(
+commands(
     ("cl", (15, 30)),
     baca.dynamic("fff"),
     baca.pitch("F#2"),
 )
 
-maker(
+commands(
     ("sax", (1, 8)),
     baca.pitch("<F3 G+3>"),
 )
 
-maker(
+commands(
     ("sax", (15, 30)),
     baca.dynamic("fff"),
     baca.pitch(
@@ -322,13 +322,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("gt", (1, 4)),
     baca.note_head_style_cross(),
     baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
 )
 
-maker(
+commands(
     ("gt", (5, 14)),
     baca.dynamic("mf"),
     baca.pitch("F#2"),
@@ -338,7 +338,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("gt", (15, 30)),
     baca.dynamic("ff"),
     baca.pitch("G2"),
@@ -348,12 +348,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("pf", (1, 14)),
     baca.staff_position(0),
 )
 
-maker(
+commands(
     ("pf", (15, 20)),
     baca.clef("bass"),
     baca.dynamic("fff"),
@@ -363,7 +363,7 @@ maker(
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     ("pf", (21, 30)),
     baca.clef("treble"),
     baca.dynamic("fff-ancora"),
@@ -372,7 +372,7 @@ maker(
     khamr.sixth_octave(),
 )
 
-maker(
+commands(
     ("perc", (1, 14)),
     baca.accent(selector=baca.selectors.pheads()),
     baca.pitches("C4 C4 Ab5 C4 C4 C4", allow_repeats=True),
@@ -380,29 +380,29 @@ maker(
     khamr.MarimbaHitCommand(indices=[2]),
 )
 
-maker(
+commands(
     ("perc", (15, 30)),
     baca.pitch("Ab5"),
     baca.stem_down(),
     khamr.MarimbaHitCommand([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
 )
 
-maker(
+commands(
     ("vn", (1, 4)),
     baca.pitches(khamr.color_trill_pitches.transpose(1)),
 )
 
-maker(
+commands(
     ("vn", (5, 8)),
     baca.pitches(khamr.color_trill_pitches.transpose(2)),
 )
 
-maker(
+commands(
     ("vn", (9, 14)),
     baca.pitches(khamr.color_trill_pitches.transpose(3)),
 )
 
-maker(
+commands(
     ("vn", (1, 14)),
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
@@ -411,7 +411,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", (15, 30)),
     baca.dynamic("fff"),
     baca.markup(
@@ -421,22 +421,22 @@ maker(
     baca.pitch("A4"),
 )
 
-maker(
+commands(
     ("va", (1, 4)),
     baca.pitches(khamr.color_trill_pitches),
 )
 
-maker(
+commands(
     ("va", (5, 8)),
     baca.pitches(khamr.color_trill_pitches.transpose(1)),
 )
 
-maker(
+commands(
     ("va", (9, 14)),
     baca.pitches(khamr.color_trill_pitches.transpose(2)),
 )
 
-maker(
+commands(
     ("va", (1, 14)),
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
@@ -445,7 +445,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (15, 30)),
     baca.dynamic("fff"),
     baca.markup(
@@ -455,7 +455,7 @@ maker(
     baca.pitch("G#4"),
 )
 
-maker(
+commands(
     ("vc", (1, 8)),
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
@@ -465,7 +465,7 @@ maker(
     baca.pitches(khamr.color_trill_pitches),
 )
 
-maker(
+commands(
     ("vc", (9, 14)),
     baca.dynamic("mf"),
     baca.pitch("F#3"),
@@ -475,7 +475,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (15, 30)),
     baca.dynamic("fff"),
     baca.markup(
@@ -485,7 +485,7 @@ maker(
     baca.pitch("G3"),
 )
 
-maker(
+commands(
     ("cb", (1, 14)),
     baca.dynamic("mf"),
     baca.suite(
@@ -501,7 +501,7 @@ maker(
     baca.note_head_style_harmonic(),
 )
 
-maker(
+commands(
     ("cb", (15, 30)),
     baca.dynamic("fff"),
     baca.markup(
@@ -513,7 +513,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

@@ -19,7 +19,7 @@ stage_markup = (
     ("[C.8]", 16),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=khamr.instruments,
     margin_markups=khamr.margin_markups,
@@ -28,7 +28,7 @@ maker = baca.CommandAccumulator(
     time_signatures=khamr.time_signatures[:20],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         baca.Accelerando(),
@@ -45,27 +45,27 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("fl", (1, 15)),
     khamr.fused_wind([8], denominator=16),
 )
 
-maker(
+commands(
     ("ob", (1, 15)),
     khamr.fused_wind([10], denominator=16),
 )
 
-maker(
+commands(
     ("cl", (1, 15)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("sax", (1, 15)),
     khamr.fused_wind([12], denominator=16),
 )
 
-maker(
+commands(
     ("gt", (1, 7)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
@@ -74,7 +74,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("gt", (8, 15)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
@@ -83,12 +83,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("gt", (16, 20)),
     khamr.closing(),
 )
 
-maker(
+commands(
     ("pf", (1, 7)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
@@ -97,7 +97,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("pf", (8, 15)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
@@ -106,68 +106,68 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("pf", (16, 20)),
     khamr.closing(),
 )
 
-maker(
+commands(
     ("perc", (1, 5)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(baca.selectors.lt(-1)),
     ),
 )
 
-maker(
+commands(
     ("perc", (8, 15)),
     baca.make_repeat_tied_notes(),
 )
 
-maker(
+commands(
     ("vn", (1, 15)),
     baca.clef("percussion"),
     baca.make_repeated_duration_notes([(7, 4)]),
 )
 
-maker(
+commands(
     ("va", (1, 15)),
     baca.clef("percussion"),
     baca.make_repeated_duration_notes([(6, 4)]),
 )
 
-maker(
+commands(
     ("vc", (1, 15)),
     baca.clef("percussion"),
     baca.make_repeated_duration_notes([(5, 4)]),
 )
 
-maker(
+commands(
     ("cb", (1, 15)),
     baca.clef("percussion"),
     baca.make_repeated_duration_notes([(4, 4)]),
 )
 
-maker(
+commands(
     ("fl", (1, 15)),
     baca.pitch("Bb4"),  # (sounds B3)
 )
 
-maker(
+commands(
     ("ob", (1, 15)),
     baca.staff_position(0),
 )
 
-maker(
+commands(
     ("cl", (1, 15)),
     baca.pitch("G2"),
 )
 
-maker(
+commands(
     ("sax", (1, 15)),
     baca.staff_position(0),
 )
 
-maker(
+commands(
     "gt",
     baca.accent(selector=baca.selectors.pheads()),
     baca.dynamic("mf"),
@@ -175,14 +175,14 @@ maker(
     baca.pitch("C4"),
 )
 
-maker(
+commands(
     "pf",
     baca.accent(selector=baca.selectors.pheads()),
     baca.dynamic("mf"),
     baca.pitch("A#4"),
 )
 
-maker(
+commands(
     ("perc", (1, 5)),
     baca.hairpin(
         "pp > ppp",
@@ -191,7 +191,7 @@ maker(
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     ("perc", (8, 15)),
     baca.dynamic("fff"),
     baca.markup(
@@ -201,32 +201,32 @@ maker(
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     ("perc", (1, 15)),
     baca.staff_position(0),
 )
 
-maker(
+commands(
     (["vn", "va", "vc"], (1, 15)),
     baca.staff_position(0),
 )
 
-maker(
+commands(
     ("cb", (1, 15)),
     baca.staff_position(0),
 )
 
-maker(
+commands(
     (["vn", "va", "vc", "cb"], (1, 15)),
     baca.staff_lines(1),
 )
 
-maker(
+commands(
     (["vn", "va", "vc", "cb"], (1, 15)),
     baca.alternate_bow_strokes(),
 )
 
-maker(
+commands(
     (["vn", "va"], (1, 15)),
     baca.markup(
         r"\baca-bow-on-wooden-mute-markup",
@@ -234,7 +234,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["vc", "cb"], (1, 15)),
     baca.markup(
         r"\baca-bow-on-tailpiece-markup",
@@ -242,17 +242,17 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["vn", "va", "vc", "cb"], (1, 7)),
     baca.dynamic("p"),
 )
 
-maker(
+commands(
     (["vn", "va", "vc", "cb"], (8, 15)),
     baca.hairpin("p > ppp"),
 )
 
-maker(
+commands(
     ("cb", -1),
     baca.chunk(
         baca.mark(r"\khamr-colophon-markup"),
@@ -265,7 +265,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
