@@ -892,20 +892,20 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> score_template = khamr.library.ScoreTemplate()
             >>> string = abjad.storage(score_template.voice_abbreviations)
             >>> print(string)
-            abjad.OrderedDict(
-                [
-                    ('fl', 'Flute_Music_Voice'),
-                    ('ob', 'Oboe_Music_Voice'),
-                    ('cl', 'Clarinet_Music_Voice'),
-                    ('sax', 'Saxophone_Music_Voice'),
-                    ('pf', 'Piano_Music_Voice'),
-                    ('perc', 'Percussion_Music_Voice'),
-                    ('gt', 'Guitar_Music_Voice'),
-                    ('vn', 'Violin_Music_Voice'),
-                    ('va', 'Viola_Music_Voice'),
-                    ('vc', 'Cello_Music_Voice'),
-                    ('cb', 'Contrabass_Music_Voice'),
-                    ]
+            dict(
+                {
+                    'cb': 'Contrabass_Music_Voice',
+                    'cl': 'Clarinet_Music_Voice',
+                    'fl': 'Flute_Music_Voice',
+                    'gt': 'Guitar_Music_Voice',
+                    'ob': 'Oboe_Music_Voice',
+                    'perc': 'Percussion_Music_Voice',
+                    'pf': 'Piano_Music_Voice',
+                    'sax': 'Saxophone_Music_Voice',
+                    'va': 'Viola_Music_Voice',
+                    'vc': 'Cello_Music_Voice',
+                    'vn': 'Violin_Music_Voice',
+                    }
                 )
 
         """
