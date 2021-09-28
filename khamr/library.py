@@ -157,8 +157,6 @@ class MarimbaHitCommand(baca.Command):
 
     ### CLASS VARIABLES ##
 
-    __documentation_section__ = None
-
     __slots__ = ("_attach_first_markup", "_indices")
 
     ### INITIALIZER ###
@@ -670,8 +668,6 @@ class ScoreTemplate(baca.ScoreTemplate):
     """
 
     ### CLASS VARIABLES ###
-
-    __documentation_section__ = None
 
     _always_make_global_rests = True
 
