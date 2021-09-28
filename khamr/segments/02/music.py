@@ -21,8 +21,9 @@ commands = baca.CommandAccumulator(
     instruments=khamr.instruments,
     margin_markups=khamr.margin_markups,
     metronome_marks=khamr.metronome_marks,
-    score_template=khamr.ScoreTemplate(),
+    score_template=khamr.make_empty_score,
     time_signatures=khamr.time_signatures[:30],
+    voice_abbreviations=khamr.voice_abbreviations,
 )
 
 commands(
@@ -519,6 +520,8 @@ if __name__ == "__main__":
             baca.tags.LOCAL_MEASURE_NUMBER,
         ],
         error_on_not_yet_pitched=True,
+        always_make_global_rests=True,
+        global_rests_in_topmost_staff=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )
