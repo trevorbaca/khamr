@@ -4,9 +4,9 @@ from abjadext import rmakers
 
 from khamr import library as khamr
 
-###############################################################################
-##################################### [_] #####################################
-###############################################################################
+#########################################################################################
+######################################### 01 [_] ########################################
+#########################################################################################
 
 stage_markup = (
     ("[_.1]", 1),
@@ -18,14 +18,17 @@ stage_markup = (
     ("[_.7]", 41),
 )
 
+score = khamr.make_empty_score()
+voice_names = baca.accumulator.get_voice_names(score)
+
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=khamr.instruments,
     margin_markups=khamr.margin_markups,
     metronome_marks=khamr.metronome_marks,
-    score_template=khamr.make_empty_score,
     time_signatures=khamr.time_signatures[:44],
     voice_abbreviations=khamr.voice_abbreviations,
+    voice_names=voice_names,
 )
 
 commands(
@@ -595,6 +598,7 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         global_rests_in_topmost_staff=True,
         error_on_not_yet_pitched=True,
+        score=score,
         stage_markup=stage_markup,
         transpose_score=True,
     )
