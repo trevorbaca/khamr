@@ -33,9 +33,9 @@
         %! baca._make_lilypond_file()
         }
 
-        %! khamr.ScoreTemplate.__call__()
+        %! khamr.make_empty_score()
         \context Score = "Score"
-        %! khamr.ScoreTemplate.__call__()
+        %! khamr.make_empty_score()
         <<
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -57,122 +57,122 @@
             %! baca.ScoreTemplate.make_music_context()
             <<
 
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 \context WindSectionStaffGroup = "Wind_Section_Staff_Group"
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 <<
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Flute
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "Flute_Music_Staff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.Flute.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Oboe
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "OboeMusicStaff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.OboeMusicStaff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Clarinet
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "Clarinet_Music_Staff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.Clarinet.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Saxophone
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "Saxophone_Music_Staff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.Saxophone.Music.Staff }
 
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 >>
 
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 \context PercussionSectionStaffGroup = "Percussion_Section_Staff_Group"
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 <<
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Guitar
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "Guitar_Music_Staff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.Guitar.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Piano
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "Piano_Music_Staff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.Piano.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Percussion
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "PercussionMusicStaff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.PercussionMusicStaff }
 
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 >>
 
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 \context StringSectionStaffGroup = "String_Section_Staff_Group"
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 <<
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Violin
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "Violin_Music_Staff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.Violin.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Viola
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "Viola_Music_Staff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.Viola.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Cello
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "CelloMusicStaff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.CelloMusicStaff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Contrabass
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     \context Staff = "Contrabass_Music_Staff"
-                    %! khamr.ScoreTemplate.__call__()
+                    %! khamr.make_empty_score()
                     %! baca.path.extern()
                     { \segment.02.Contrabass.Music.Staff }
 
-                %! khamr.ScoreTemplate.__call__()
+                %! khamr.make_empty_score()
                 >>
 
             %! baca.ScoreTemplate.make_music_context()
             >>
 
-        %! khamr.ScoreTemplate.__call__()
+        %! khamr.make_empty_score()
         >>
 
     %! baca._make_lilypond_file()
