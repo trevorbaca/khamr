@@ -589,18 +589,26 @@ commands(
 )
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(
-        commands,
+    keywords = baca.interpret.make_keyword_dictionary(
         **baca.segment_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
-        lilypond_file_keywords=baca.make_lilypond_file_dictionary(
-            include_layout_ly=True,
-            includes=["../../stylesheet.ily"],
-        ),
         score=score,
         stage_markup=stage_markup,
         transpose_score=True,
     )
+    lilypond_file_keywords = baca.make_lilypond_file_dictionary(
+        include_layout_ly=True,
+        includes=["../../stylesheet.ily"],
+    )
+    metadata, persist, score, timing = baca.build.interpret_segment_revised(
+        commands,
+        **keywords,
+    )
+    lilypond_file = baca.build.make_segment_lilypond_file(
+        score,
+        lilypond_file_keywords=lilypond_file_keywords,
+    )
+    baca.build.make_segment_pdf_revised(lilypond_file, metadata, persist, timing)
