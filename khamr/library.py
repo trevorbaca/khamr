@@ -183,7 +183,7 @@ class MarimbaHitCommand(baca.Command):
         self._runtime = runtime
         tag = abjad.Tag("khamr.MarimbaHitCommand.__call__()")
         found_first = False
-        for i, plt in enumerate(baca.select(argument).plts()):
+        for i, plt in enumerate(baca.Selection(argument).plts()):
             if i not in self.indices:
                 continue
             abjad.attach(baca.StaffLines(5), plt.head, tag=tag)
