@@ -259,10 +259,7 @@ commands(
     ("fl", (34, 37)),
     baca.dynamic("pp"),
     baca.pitch("Bb4"),  # (sounds B3)
-    baca.markup(
-        r"\khamr-covered-flute-airtone",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-covered-flute-airtone"),
 )
 
 commands(
@@ -283,10 +280,7 @@ commands(
     baca.dynamic("pp"),
     baca.staff_lines(1),
     baca.staff_position(0),
-    baca.markup(
-        r"\khamr-airtone-without-reed",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-airtone-without-reed"),
 )
 
 commands(
@@ -323,10 +317,7 @@ commands(
     ("sax", (34, 37)),
     baca.clef("percussion"),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-airtone-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-airtone-markup"),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -365,10 +356,7 @@ commands(
 commands(
     ("perc", (5, 9)),
     baca.dynamic("pp"),
-    baca.markup(
-        r"\baca-bass-drum-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-bass-drum-markup"),
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
@@ -376,19 +364,13 @@ commands(
     ("perc", (10, 29)),
     baca.double_staccato(selector=baca.selectors.pheads()),
     baca.dynamic("fff"),
-    baca.markup(
-        r"\baca-castanets-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-castanets-markup"),
 )
 
 commands(
     ("perc", (30, 37)),
     baca.dynamic("ppp"),
-    baca.markup(
-        r"\baca-bass-drum-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-bass-drum-markup"),
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
@@ -406,10 +388,7 @@ commands(
     (["vn", "va", "vc"], (3, 29)),
     baca.pitches(khamr.rose_pitch_classes.invert().transpose(6)),
     baca.glissando(),
-    baca.markup(
-        r"\baca-estr-sul-pont-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-estr-sul-pont-markup"),
     baca.note_head_style_harmonic(),
     khamr.narrow_fourth_octave(),
 )
@@ -467,18 +446,12 @@ commands(
 commands(
     ("cb", (10, 25)),
     baca.dynamic("fff"),
-    baca.markup(
-        r"\baca-estr-sul-pont-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-estr-sul-pont-markup"),
 )
 
 commands(
     ("cb", (26, 37)),
-    baca.markup(
-        r"\baca-arco-ordinario-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-arco-ordinario-markup"),
 )
 
 commands(
@@ -489,10 +462,7 @@ commands(
         alteration="F2",
         harmonic=True,
     ),
-    baca.markup(
-        r"\khamr-scodanibbio",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-scodanibbio"),
 )
 
 if __name__ == "__main__":

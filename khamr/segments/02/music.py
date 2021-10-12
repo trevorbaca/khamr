@@ -281,10 +281,7 @@ commands(
     ("fl", (15, 30)),
     baca.dynamic("fff"),
     baca.instrument(khamr.instruments["Flute"]),
-    baca.markup(
-        r"\baca-fluttertongue-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-fluttertongue-markup"),
     baca.pitch("B5"),
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
@@ -336,20 +333,14 @@ commands(
     ("gt", (5, 14)),
     baca.dynamic("mf"),
     baca.pitch("F#2"),
-    baca.markup(
-        r"\khamr-sparse-guitar-clicks",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-sparse-guitar-clicks"),
 )
 
 commands(
     ("gt", (15, 30)),
     baca.dynamic("ff"),
     baca.pitch("G2"),
-    baca.markup(
-        r"\khamr-guitar-with-screw",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-guitar-with-screw"),
 )
 
 commands(
@@ -418,10 +409,7 @@ commands(
 commands(
     ("vn", (15, 30)),
     baca.dynamic("fff"),
-    baca.markup(
-        r"\baca-arco-ordinario-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-arco-ordinario-markup"),
     baca.pitch("A4"),
 )
 
@@ -452,10 +440,7 @@ commands(
 commands(
     ("va", (15, 30)),
     baca.dynamic("fff"),
-    baca.markup(
-        r"\baca-arco-ordinario-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-arco-ordinario-markup"),
     baca.pitch("G#4"),
 )
 
@@ -473,19 +458,13 @@ commands(
     ("vc", (9, 14)),
     baca.dynamic("mf"),
     baca.pitch("F#3"),
-    baca.markup(
-        r"\khamr-sparse-cello-clicks",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-sparse-cello-clicks"),
 )
 
 commands(
     ("vc", (15, 30)),
     baca.dynamic("fff"),
-    baca.markup(
-        r"\baca-arco-ordinario-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-arco-ordinario-markup"),
     baca.pitch("G3"),
 )
 
@@ -500,7 +479,6 @@ commands(
     baca.markup(
         r"\baca-strings-iii-plus-iv-markup",
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
 )
@@ -508,10 +486,7 @@ commands(
 commands(
     ("cb", (15, 30)),
     baca.dynamic("fff"),
-    baca.markup(
-        r"\baca-arco-ordinario-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-arco-ordinario-markup"),
     baca.pitch("<G0 A1>"),
 )
 
