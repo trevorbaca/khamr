@@ -198,10 +198,7 @@ commands(
 commands(
     ("perc", (8, 15)),
     baca.dynamic("fff"),
-    baca.markup(
-        r"\baca-snare-drum-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-snare-drum-markup"),
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
@@ -232,18 +229,12 @@ commands(
 
 commands(
     (["vn", "va"], (1, 15)),
-    baca.markup(
-        r"\baca-bow-on-wooden-mute-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-bow-on-wooden-mute-markup"),
 )
 
 commands(
     (["vc", "cb"], (1, 15)),
-    baca.markup(
-        r"\baca-bow-on-tailpiece-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-bow-on-tailpiece-markup"),
 )
 
 commands(

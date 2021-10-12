@@ -304,7 +304,6 @@ commands(
     baca.markup(
         # TODO: make \baca-levine-multiphonic-markup function
         baca.levine_multiphonic(17),
-        literal=True,
     ),
 )
 
@@ -313,7 +312,6 @@ commands(
     baca.pitch("<G#3 G#4>"),
     baca.markup(
         baca.levine_multiphonic(22),
-        literal=True,
     ),
 )
 
@@ -336,10 +334,7 @@ commands(
     baca.dynamic("p"),
     baca.staff_lines(1),
     baca.staff_position(0),
-    baca.markup(
-        r"\khamr-airtone-without-reed",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-airtone-without-reed"),
 )
 
 commands(
@@ -349,7 +344,6 @@ commands(
     baca.flageolet(selector=baca.selectors.pheads()),
     baca.markup(
         r"\baca-put-reed-back-in-markup",
-        literal=True,
         selector=baca.selectors.leaf(0),
     ),
     baca.pitch("<A4 E5>"),
@@ -375,7 +369,6 @@ commands(
     baca.markup(
         # TODO: make \baca-weiss-multiphonic-markup function
         khamr.weiss_multiphonic(77),
-        literal=True,
     ),
 )
 
@@ -383,20 +376,14 @@ commands(
     ("gt", (1, 24)),
     baca.dynamic("f"),
     baca.pitches(khamr.rose_pitch_classes),
-    baca.markup(
-        r"\khamr-half-harmonics-explanation",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-half-harmonics-explanation"),
     khamr.wide_third_octave(),
 )
 
 commands(
     ("gt", (25, 44)),
     baca.tuplet_bracket_staff_padding(4),
-    baca.markup(
-        r"\khamr-move-towards-the-bridge",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-move-towards-the-bridge"),
     khamr.narrow_fourth_octave(),
 )
 
@@ -420,10 +407,7 @@ commands(
     baca.accent(selector=baca.selectors.pheads()),
     baca.clef("percussion"),
     baca.dynamic("mf"),
-    baca.markup(
-        r"\khamr-strike-lowest-strings",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-strike-lowest-strings"),
     baca.staff_lines(1),
     baca.staff_position(0),
 )
@@ -434,10 +418,7 @@ commands(
     baca.dynamic("mf-ancora"),
     baca.ottava(),
     baca.staff_lines(5),
-    baca.markup(
-        r"\khamr-match-guitar-dynamic-levels",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-match-guitar-dynamic-levels"),
     khamr.sixth_octave(),
 )
 
@@ -447,10 +428,7 @@ commands(
     baca.dynamic("mp"),
     baca.staff_lines(1),
     baca.staff_position(0),
-    baca.markup(
-        r"\khamr-sparse-piano-clicks-markup",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-sparse-piano-clicks-markup"),
 )
 
 commands(
@@ -461,10 +439,7 @@ commands(
     baca.staff_lines(1),
     baca.stem_down(),
     khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
-    baca.markup(
-        r"\baca-xl-tam-tam-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-xl-tam-tam-markup"),
 )
 
 commands(
@@ -477,7 +452,6 @@ commands(
     baca.markup(
         r"\baca-string-iv-markup",
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
@@ -490,10 +464,7 @@ commands(
         baca.trill_spanner(alteration="m2"),
         map=baca.selectors.plts(),
     ),
-    baca.markup(
-        r"\baca-molto-flautando-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-molto-flautando-markup"),
     baca.pitches(khamr.color_trill_pitches),
 )
 
@@ -506,7 +477,6 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
@@ -519,10 +489,7 @@ commands(
         baca.trill_spanner(alteration="m2"),
         map=baca.selectors.plts(),
     ),
-    baca.markup(
-        r"\baca-molto-flautando-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-molto-flautando-markup"),
     baca.pitches(khamr.color_trill_pitches),
 )
 
@@ -535,7 +502,6 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
@@ -548,10 +514,7 @@ commands(
         baca.trill_spanner(alteration="m2"),
         map=baca.selectors.plts(),
     ),
-    baca.markup(
-        r"\baca-molto-flautando-markup",
-        literal=True,
-    ),
+    baca.markup(r"\baca-molto-flautando-markup"),
     baca.pitches(khamr.color_trill_pitches),
 )
 
@@ -565,7 +528,6 @@ commands(
     baca.markup(
         r"\baca-string-iii-markup",
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
 )
@@ -577,10 +539,7 @@ commands(
 
 commands(
     ["vn", "va", "vc", "cb"],
-    baca.markup(
-        r"\khamr-emphasize-multiphonics",
-        literal=True,
-    ),
+    baca.markup(r"\khamr-emphasize-multiphonics"),
 )
 
 commands(

@@ -190,7 +190,7 @@ class MarimbaHitCommand(baca.Command):
             if self.attach_first_markup and not found_first:
                 string = r"""\markup \larger \box \override #'(box-padding . 0.75)"""
                 string += """ "marimba + woodblock" """
-                markup = abjad.Markup(string, literal=True)
+                markup = abjad.Markup(string)
                 abjad.attach(markup, plt.head, tag=tag)
                 found_first = True
             abjad.detach(abjad.Articulation, plt.head)
@@ -652,7 +652,7 @@ def trill_tuplets(tuplet_ratios, *commands):
 
 
 def weiss_multiphonic(number):
-    return abjad.Markup(rf'\baca-boxed-markup "W.{number}"', literal=True)
+    return abjad.Markup(rf'\baca-boxed-markup "W.{number}"')
 
 
 def wide_third_octave():
