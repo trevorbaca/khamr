@@ -3,7 +3,6 @@
 \version "2.19.17"
 \language "english"
 
-#(ly:set-option 'relative-includes #t)
 \include "../stylesheet.ily"
 #(set-default-paper-size "11x17landscape")
 #(set-global-staff-size 14)
