@@ -1,7 +1,6 @@
 % Al-kitab al-khamr (2015) for eleven players
 
 \version "2.19.82"
-\language "english"
 
 \include "stylesheet.ily"
 \include "_segments/01.ily"

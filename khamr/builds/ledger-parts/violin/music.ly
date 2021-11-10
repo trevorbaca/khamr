@@ -1,7 +1,6 @@
 % Al-kitab al-khamr (2015) for eleven players
 
 \version "2.19.17"
-\language "english"
 
 \include "../stylesheet.ily"
 #(set-default-paper-size "11x17landscape")
