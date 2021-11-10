@@ -9,5 +9,5 @@ Al-kitab al-khamr
 
 Al-kitab al-khamr (2015) for eleven players.
 
-World premiere 16 May 2015 by Ensemble Dal Niente in Paine Hall on the campus
-of Harvard University.
+World premiere 16 May 2015 by Ensemble Dal Niente in Paine Hall on the campus of Harvard
+University.
