@@ -3,7 +3,7 @@
 \version "2.19.17"
 
 \include "../stylesheet.ily"
-#(set-default-paper-size "11x17landscape")
+#(set-default-paper-size "ledger")
 #(set-global-staff-size 14)
 
 \paper{
