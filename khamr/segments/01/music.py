@@ -564,4 +564,4 @@ if __name__ == "__main__":
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
     )
-    baca.build.make_segment_pdf(lilypond_file, metadata, persist, timing)
+    baca.build.persist(lilypond_file, metadata, persist, timing)
