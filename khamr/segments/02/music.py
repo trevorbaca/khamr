@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from khamr import library as khamr
+from khamr import library
 
 #########################################################################################
 ######################################### 02 [A] ########################################
@@ -16,16 +16,16 @@ stage_markup = (
     ("[A.5]", 21),
 )
 
-score = khamr.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=khamr.instruments,
-    margin_markups=khamr.margin_markups,
-    metronome_marks=khamr.metronome_marks,
-    time_signatures=khamr.time_signatures[:30],
-    voice_abbreviations=khamr.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[:30],
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -81,7 +81,7 @@ stage_5_silence_pattern = abjad.index(
 
 commands(
     ("fl", (1, 8)),
-    khamr.fused_wind(
+    library.fused_wind(
         [10, 10, 6, 8, 6],
         rmakers.force_rest(
             baca.selectors.tuplets(([2, 5], 6)),
@@ -93,7 +93,7 @@ commands(
 
 commands(
     ("ob", (1, 8)),
-    khamr.fused_wind(
+    library.fused_wind(
         [12, 6, 10, 10, 6, 8],
         rmakers.force_rest(
             baca.selectors.tuplets(([1, 4], 6)),
@@ -105,7 +105,7 @@ commands(
 
 commands(
     ("cl", (1, 14)),
-    khamr.fused_wind(
+    library.fused_wind(
         [8, 6, 10, 6, 10, 8],
         rmakers.force_rest(
             baca.selectors.tuplets(([1, 3], 6)),
@@ -120,7 +120,7 @@ commands(
 
 commands(
     ("sax", (1, 8)),
-    khamr.fused_wind(
+    library.fused_wind(
         [14, 6, 10, 6, 10, 8],
         rmakers.force_rest(
             baca.selectors.tuplets(([1, 3], 6)),
@@ -132,7 +132,7 @@ commands(
 
 commands(
     ("gt", (1, 4)),
-    khamr.guitar_isolata(
+    library.guitar_isolata(
         rmakers.force_rest(
             baca.selectors.tuplets(([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
@@ -157,12 +157,12 @@ commands(
 
 commands(
     ("pf", (15, 20)),
-    khamr.alternate_divisions(detach_ties=True),
+    library.alternate_divisions(detach_ties=True),
 )
 
 commands(
     ("pf", (21, 30)),
-    khamr.current(
+    library.current(
         [4, 3, 5],
         rmakers.force_rest(
             baca.selectors.tuplets(stage_5_silence_pattern),
@@ -174,13 +174,13 @@ commands(
 
 commands(
     ("perc", (1, 14)),
-    khamr.fused_expanse([8, 20, 4, 20]),
+    library.fused_expanse([8, 20, 4, 20]),
 )
 
 indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
 commands(
     ("perc", (15, 20)),
-    khamr.quarter_hits(
+    library.quarter_hits(
         rmakers.force_rest(
             baca.selectors.lts(indices),
         ),
@@ -189,7 +189,7 @@ commands(
 
 commands(
     ("perc", (21, 30)),
-    khamr.quarter_hits(
+    library.quarter_hits(
         rmakers.force_rest(
             baca.selectors.lts(stage_5_silence_pattern),
         ),
@@ -200,7 +200,7 @@ commands(
 
 commands(
     ("vn", (1, 14)),
-    khamr.trill_tuplets(
+    library.trill_tuplets(
         4,
         rmakers.force_rest(
             baca.selectors.tuplets((-2, None)),
@@ -212,7 +212,7 @@ commands(
 
 commands(
     ("va", (1, 14)),
-    khamr.trill_tuplets(
+    library.trill_tuplets(
         3,
         rmakers.force_rest(
             baca.selectors.tuplets((-2, None)),
@@ -224,7 +224,7 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    khamr.trill_tuplets(
+    library.trill_tuplets(
         2,
         rmakers.force_rest(
             baca.selectors.tuplets((-2, None)),
@@ -243,7 +243,7 @@ commands(
 
 commands(
     ("cb", (1, 14)),
-    khamr.opening_glissandi(
+    library.opening_glissandi(
         -3,
         rmakers.repeat_tie(
             baca.selectors.leaves_in_get_tuplets(([0, 1, 4, 6], 7), (1, None)),
@@ -256,12 +256,12 @@ winds_guitar_strings = ["fl", "ob", "cl", "sax", "gt", "vn", "va", "vc", "cb"]
 
 commands(
     (winds_guitar_strings, (15, 20)),
-    khamr.alternate_divisions(),
+    library.alternate_divisions(),
 )
 
 commands(
     (winds_guitar_strings, (21, 30)),
-    khamr.silent_first_division(),
+    library.silent_first_division(),
 )
 
 commands(
@@ -280,7 +280,7 @@ commands(
 commands(
     ("fl", (15, 30)),
     baca.dynamic("fff"),
-    baca.instrument(khamr.instruments["Flute"]),
+    baca.instrument(library.instruments["Flute"]),
     baca.markup(r"\baca-fluttertongue-markup"),
     baca.pitch("B5"),
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
@@ -326,7 +326,7 @@ commands(
 commands(
     ("gt", (1, 4)),
     baca.note_head_style_cross(),
-    baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
+    baca.pitches(library.rose_pitch_classes.rotate(-16)),
 )
 
 commands(
@@ -363,8 +363,8 @@ commands(
     baca.clef("treble"),
     baca.dynamic("fff-ancora"),
     baca.ottava(),
-    baca.pitches(khamr.rose_pitch_classes.invert()),
-    khamr.sixth_octave(),
+    baca.pitches(library.rose_pitch_classes.invert()),
+    library.sixth_octave(),
 )
 
 commands(
@@ -372,29 +372,29 @@ commands(
     baca.accent(selector=baca.selectors.pheads()),
     baca.pitches("C4 C4 Ab5 C4 C4 C4", allow_repeats=True),
     baca.stem_down(),
-    khamr.MarimbaHitCommand(indices=[2]),
+    library.MarimbaHitCommand(indices=[2]),
 )
 
 commands(
     ("perc", (15, 30)),
     baca.pitch("Ab5"),
     baca.stem_down(),
-    khamr.MarimbaHitCommand([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+    library.MarimbaHitCommand([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
 )
 
 commands(
     ("vn", (1, 4)),
-    baca.pitches(khamr.color_trill_pitches.transpose(1)),
+    baca.pitches(library.color_trill_pitches.transpose(1)),
 )
 
 commands(
     ("vn", (5, 8)),
-    baca.pitches(khamr.color_trill_pitches.transpose(2)),
+    baca.pitches(library.color_trill_pitches.transpose(2)),
 )
 
 commands(
     ("vn", (9, 14)),
-    baca.pitches(khamr.color_trill_pitches.transpose(3)),
+    baca.pitches(library.color_trill_pitches.transpose(3)),
 )
 
 commands(
@@ -415,17 +415,17 @@ commands(
 
 commands(
     ("va", (1, 4)),
-    baca.pitches(khamr.color_trill_pitches),
+    baca.pitches(library.color_trill_pitches),
 )
 
 commands(
     ("va", (5, 8)),
-    baca.pitches(khamr.color_trill_pitches.transpose(1)),
+    baca.pitches(library.color_trill_pitches.transpose(1)),
 )
 
 commands(
     ("va", (9, 14)),
-    baca.pitches(khamr.color_trill_pitches.transpose(2)),
+    baca.pitches(library.color_trill_pitches.transpose(2)),
 )
 
 commands(
@@ -451,7 +451,7 @@ commands(
         baca.trill_spanner(alteration="m2"),
         map=baca.selectors.plts(),
     ),
-    baca.pitches(khamr.color_trill_pitches),
+    baca.pitches(library.color_trill_pitches),
 )
 
 commands(
@@ -473,7 +473,7 @@ commands(
     baca.dynamic("mf"),
     baca.suite(
         # TODO: release need to cast chord prior to glissando indicators
-        baca.pitches(khamr.double_stop_halo_pitches),
+        baca.pitches(library.double_stop_halo_pitches),
         baca.glissando(),
     ),
     baca.markup(

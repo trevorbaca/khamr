@@ -1,7 +1,7 @@
 import baca
 from abjadext import rmakers
 
-from khamr import library as khamr
+from khamr import library
 
 #########################################################################################
 ######################################### 03 [B] ########################################
@@ -19,16 +19,16 @@ stage_markup = (
     ("[B.9]", 34),
 )
 
-score = khamr.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=khamr.instruments,
-    margin_markups=khamr.margin_markups,
-    metronome_marks=khamr.metronome_marks,
-    time_signatures=khamr.time_signatures[:37],
-    voice_abbreviations=khamr.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[:37],
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -84,12 +84,12 @@ commands(
 
 commands(
     ("fl", (10, 29)),
-    khamr.aviary((7, 16), extra_counts=[1]),
+    library.aviary((7, 16), extra_counts=[1]),
 )
 
 commands(
     ("fl", (34, 37)),
-    khamr.fused_wind([8], denominator=16),
+    library.fused_wind([8], denominator=16),
 )
 
 commands(
@@ -99,13 +99,13 @@ commands(
 
 commands(
     ("ob", (10, 29)),
-    baca.instrument(khamr.instruments["Oboe"]),
-    khamr.aviary((5, 16), extra_counts=[1]),
+    baca.instrument(library.instruments["Oboe"]),
+    library.aviary((5, 16), extra_counts=[1]),
 )
 
 commands(
     ("ob", (34, 37)),
-    khamr.fused_wind(
+    library.fused_wind(
         [10],
         rmakers.force_rest(baca.selectors.tuplet(0)),
         denominator=16,
@@ -119,13 +119,13 @@ commands(
 
 commands(
     ("cl", (10, 29)),
-    baca.instrument(khamr.instruments["Clarinet"]),
-    khamr.aviary((8, 16), extra_counts=[1]),
+    baca.instrument(library.instruments["Clarinet"]),
+    library.aviary((8, 16), extra_counts=[1]),
 )
 
 commands(
     ("cl", (32, 37)),
-    baca.instrument(khamr.instruments["BassClarinet"]),
+    baca.instrument(library.instruments["BassClarinet"]),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(baca.selectors.lt(-1)),
     ),
@@ -138,13 +138,13 @@ commands(
 
 commands(
     ("sax", (10, 29)),
-    baca.instrument(khamr.instruments["SopraninoSaxophone"]),
-    khamr.aviary((6, 16), extra_counts=[1]),
+    baca.instrument(library.instruments["SopraninoSaxophone"]),
+    library.aviary((6, 16), extra_counts=[1]),
 )
 
 commands(
     ("sax", (34, 37)),
-    khamr.fused_wind([12], denominator=16),
+    library.fused_wind([12], denominator=16),
 )
 
 commands(
@@ -159,12 +159,12 @@ commands(
 
 commands(
     ("pf", (1, 9)),
-    khamr.current([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
+    library.current([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
 )
 
 commands(
     ("pf", (10, 29)),
-    khamr.aviary((9, 16), extra_counts=[2]),
+    library.aviary((9, 16), extra_counts=[2]),
 )
 
 commands(
@@ -194,7 +194,7 @@ commands(
 
 commands(
     ("vn", (3, 29)),
-    khamr.continuous_glissandi(
+    library.continuous_glissandi(
         0,
         rmakers.tie(
             ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
@@ -209,7 +209,7 @@ commands(
 
 commands(
     ("va", (3, 29)),
-    khamr.continuous_glissandi(
+    library.continuous_glissandi(
         -1,
         rmakers.tie(
             ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
@@ -224,7 +224,7 @@ commands(
 
 commands(
     ("vc", (3, 29)),
-    khamr.continuous_glissandi(
+    library.continuous_glissandi(
         -2,
         rmakers.tie(
             ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
@@ -336,9 +336,9 @@ commands(
 
 commands(
     ("pf", (1, 9)),
-    baca.pitches(khamr.rose_pitch_classes.invert().transpose(2)),
+    baca.pitches(library.rose_pitch_classes.invert().transpose(2)),
     baca.ottava(),
-    khamr.sixth_octave(),
+    library.sixth_octave(),
 )
 
 commands(
@@ -386,11 +386,11 @@ commands(
 
 commands(
     (["vn", "va", "vc"], (3, 29)),
-    baca.pitches(khamr.rose_pitch_classes.invert().transpose(6)),
+    baca.pitches(library.rose_pitch_classes.invert().transpose(6)),
     baca.glissando(),
     baca.markup(r"\baca-estr-sul-pont-markup"),
     baca.note_head_style_harmonic(),
-    khamr.narrow_fourth_octave(),
+    library.narrow_fourth_octave(),
 )
 
 commands(
