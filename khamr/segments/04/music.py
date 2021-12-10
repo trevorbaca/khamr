@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from khamr import library as khamr
+from khamr import library
 
 #########################################################################################
 ######################################### 04 [C] ########################################
@@ -19,16 +19,16 @@ stage_markup = (
     ("[C.8]", 16),
 )
 
-score = khamr.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=khamr.instruments,
-    margin_markups=khamr.margin_markups,
-    metronome_marks=khamr.metronome_marks,
-    time_signatures=khamr.time_signatures[:20],
-    voice_abbreviations=khamr.voice_abbreviations,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[:20],
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -51,12 +51,12 @@ commands(
 
 commands(
     ("fl", (1, 15)),
-    khamr.fused_wind([8], denominator=16),
+    library.fused_wind([8], denominator=16),
 )
 
 commands(
     ("ob", (1, 15)),
-    khamr.fused_wind([10], denominator=16),
+    library.fused_wind([10], denominator=16),
 )
 
 commands(
@@ -66,7 +66,7 @@ commands(
 
 commands(
     ("sax", (1, 15)),
-    khamr.fused_wind([12], denominator=16),
+    library.fused_wind([12], denominator=16),
 )
 
 commands(
@@ -89,7 +89,7 @@ commands(
 
 commands(
     ("gt", (16, 20)),
-    khamr.closing(),
+    library.closing(),
 )
 
 commands(
@@ -112,7 +112,7 @@ commands(
 
 commands(
     ("pf", (16, 20)),
-    khamr.closing(),
+    library.closing(),
 )
 
 commands(
