@@ -58,27 +58,6 @@
     top-margin = 15\mm
 }
 
-\header {
-    composer = \markup {
-        \override #'(font-name . "Palatino")
-        \fontsize #3 "Trevor Bača"
-    }
-    tagline = \markup { "" }
-    title = \markup \column {
-        \center-align {
-            \override #'(font-name . "Palatino")
-            \fontsize #14 {
-               \line { AL-KITAB AL-KHAMR }
-            }
-            " "
-            \override #'(font-name . "Palatino Italic")
-            \fontsize #3 {
-               " for Ensemble Dal Niente "
-            }
-        }
-    }
-}
-
 \layout {
     \accidentalStyle neo-modern
     indent = 5
