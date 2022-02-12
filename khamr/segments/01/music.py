@@ -438,7 +438,7 @@ commands(
     baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
     baca.staff_lines(1),
     baca.stem_down(),
-    library.MarimbaHitCommand([3, 7], attach_first_markup=True),
+    library.MarimbaHitCommand(indices=[3, 7], attach_first_markup=True),
     baca.markup(r"\baca-xl-tam-tam-markup"),
 )
 

@@ -1,4 +1,6 @@
+import dataclasses
 import inspect
+import typing
 
 import abjad
 import baca
@@ -155,29 +157,17 @@ rose_pitch_classes = abjad.PitchSegment(
 )
 
 
+@dataclasses.dataclass
 class MarimbaHitCommand(baca.Command):
 
-    ### CLASS VARIABLES ##
+    attach_first_markup: bool = False
+    indices: typing.Any = None
 
-    __slots__ = ("_attach_first_markup", "_indices")
-
-    ### INITIALIZER ###
-
-    def __init__(
-        self,
-        indices=None,
-        attach_first_markup=False,
-        *,
-        match=None,
-        measures=None,
-        scope=None,
-    ):
-        baca.Command.__init__(self, match=match, measures=measures, scope=scope)
-        self._attach_first_markup = bool(attach_first_markup)
-        self._indices = indices
+    def __post_init__(self):
+        baca.Command.__post_init__(self)
+        self.indices = self.indices or ()
+        self.attach_first_markup = bool(self.attach_first_markup)
         self._measures = None
-
-    ### SPECIAL METHODS ###
 
     def __call__(self, argument=None, runtime=None):
         self._runtime = runtime
@@ -202,30 +192,6 @@ class MarimbaHitCommand(baca.Command):
             if next_leaf is not None:
                 abjad.attach(baca.StaffLines(1), next_leaf, tag=tag)
                 abjad.attach(abjad.Clef("percussion"), next_leaf, tag=tag)
-
-    ### PUBLIC PROPERTIES ###
-
-    @property
-    def attach_first_markup(self):
-        """
-        Is true when specifier should attach markup to first instance.
-
-        Defaults to false.
-
-        Set to true or false.
-
-        Returns true or false.
-        """
-        return self._attach_first_markup
-
-    @property
-    def indices(self):
-        """
-        Gets indices of marimba hit specifier.
-
-        Set to list of integers.
-        """
-        return self._indices
 
 
 def alternate_divisions(detach_ties=None):
