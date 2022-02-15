@@ -340,7 +340,7 @@ def guitar_accelerandi(counts):
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
         rmakers.repeat_tie(baca.selectors.pleaf_in_each_tuplet(0, (1, None))),
         rmakers.duration_bracket(
-            lambda _: baca.Selection(_).tuplets().filter_length(">", 1),
+            lambda _: baca.Selection(_).tuplets().filter(lambda _: len(_) > 1),
         ),
         rmakers.feather_beam(),
         rmakers.force_repeat_tie(),
