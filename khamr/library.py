@@ -85,11 +85,11 @@ metronome_marks = dict(
 #   = 113.4 beats at 63 MM
 #   = 75.6 beats at 42 MM
 numerators = baca.Sequence([[2, 2, 3], [2, 4], [3, 4, 5]])
-numerators = numerators.helianthate(-1, -1)
+numerators = baca.sequence.helianthate(numerators, -1, -1)
 pairs = baca.Sequence(
     [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
 )
-pairs = pairs.helianthate(-1, -1)
+pairs = baca.sequence.helianthate(pairs, -1, -1)
 pairs = pairs.flatten()
 time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]
 time_signatures = abjad.CyclicTuple(time_signatures_)
@@ -147,7 +147,7 @@ assert len(color_trill_pitches) == 18
 rose_pitch_classes = baca.Sequence(
     [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
 )
-rose_pitch_classes = rose_pitch_classes.helianthate(-1, 1)
+rose_pitch_classes = baca.sequence.helianthate(rose_pitch_classes, -1, 1)
 rose_pitch_classes = baca.Sequence(rose_pitch_classes).flatten()
 assert len(rose_pitch_classes) == 64
 
