@@ -272,7 +272,7 @@ def current(counts, *commands):
 
     def preprocessor(divisions):
         divisions = abjad.Sequence(divisions)
-        divisions = divisions.map(lambda _: baca.sequence.quarters(_, compound=(3, 2)))
+        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
         return divisions
 
     return baca.rhythm(
@@ -290,9 +290,8 @@ def current(counts, *commands):
 
 def fused_expanse(counts):
     def preprocessor(divisions):
-        divisions = abjad.Sequence(divisions)
-        divisions = divisions.map(lambda _: baca.sequence.quarters(_, compound=(3, 2)))
-        divisions = divisions.flatten(depth=-1)
+        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
+        divisions = abjad.Sequence(divisions).flatten(depth=-1)
         divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
         divisions = abjad.Sequence(divisions).flatten(depth=-1)
         return divisions
@@ -309,9 +308,8 @@ def fused_expanse(counts):
 
 def fused_wind(counts, *commands, denominator=8):
     def preprocessor(divisions):
-        divisions = abjad.Sequence(divisions)
-        divisions = divisions.map(lambda _: baca.sequence.quarters(_, compound=(3, 2)))
-        divisions = divisions.flatten(depth=-1)
+        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
+        divisions = abjad.Sequence(divisions).flatten(depth=-1)
         divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
         return divisions
 
@@ -460,7 +458,7 @@ def opening_glissandi(tuplet_ratio_rotation, *commands):
 def quarter_hits(*commands):
     def preprocessor(divisions):
         divisions = abjad.Sequence(divisions)
-        divisions = divisions.map(lambda _: baca.sequence.quarters(_, compound=(3, 2)))
+        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
         return divisions
 
     return baca.rhythm(
@@ -477,7 +475,7 @@ def quarter_hits(*commands):
 def silent_first_division():
     def preprocessor(divisions):
         divisions = abjad.Sequence(divisions)
-        divisions = divisions.map(lambda _: baca.sequence.quarters(_, compound=(3, 2)))
+        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
         return divisions
 
     return baca.rhythm(
