@@ -86,9 +86,7 @@ metronome_marks = dict(
 #   = 75.6 beats at 42 MM
 # numerators = [[2, 2, 3], [2, 4], [3, 4, 5]]
 # numerators = baca.sequence.helianthate(numerators, -1, -1)
-pairs = abjad.Sequence(
-    [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
-)
+pairs = [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
 pairs = baca.sequence.helianthate(pairs, -1, -1)
 pairs = abjad.sequence.flatten(pairs)
 time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]
@@ -250,7 +248,7 @@ def closing():
 
 
 def continuous_glissandi(tuplet_ratio_rotation, *commands):
-    tuplet_ratios = abjad.Sequence([(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)])
+    tuplet_ratios = [(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)]
     tuplet_ratio_rotation *= 2
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
     return baca.rhythm(
@@ -271,7 +269,6 @@ def current(counts, *commands):
     tuplet_ratios = [_ * (1,) for _ in counts]
 
     def preprocessor(divisions):
-        divisions = abjad.Sequence(divisions)
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
 
@@ -422,22 +419,20 @@ def narrow_sixth_octave():
 
 
 def opening_glissandi(tuplet_ratio_rotation, *commands):
-    tuplet_ratios = abjad.Sequence(
-        [
-            (4, 1),
-            (4, 1),
-            (4, 1),
-            (3, 1),
-            (3, 1),
-            (3, 1),
-            (2, 1),
-            (2, 1),
-            (2, 1),
-            (6, 1),
-            (6, 1),
-            (6, 1),
-        ]
-    )
+    tuplet_ratios = [
+        (4, 1),
+        (4, 1),
+        (4, 1),
+        (3, 1),
+        (3, 1),
+        (3, 1),
+        (2, 1),
+        (2, 1),
+        (2, 1),
+        (6, 1),
+        (6, 1),
+        (6, 1),
+    ]
     tuplet_ratio_rotation *= 3
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
     return baca.rhythm(
@@ -457,7 +452,6 @@ def opening_glissandi(tuplet_ratio_rotation, *commands):
 
 def quarter_hits(*commands):
     def preprocessor(divisions):
-        divisions = abjad.Sequence(divisions)
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
 
@@ -474,7 +468,6 @@ def quarter_hits(*commands):
 
 def silent_first_division():
     def preprocessor(divisions):
-        divisions = abjad.Sequence(divisions)
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
 
