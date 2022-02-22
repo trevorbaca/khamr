@@ -90,7 +90,7 @@ pairs = abjad.Sequence(
     [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
 )
 pairs = baca.sequence.helianthate(pairs, -1, -1)
-pairs = abjad.Sequence(pairs).flatten()
+pairs = abjad.sequence.flatten(pairs)
 time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]
 time_signatures = abjad.CyclicTuple(time_signatures_)
 
@@ -146,7 +146,7 @@ assert len(color_trill_pitches) == 18
 
 rose_pitch_classes = [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
 rose_pitch_classes = baca.sequence.helianthate(rose_pitch_classes, -1, 1)
-rose_pitch_classes = abjad.Sequence(rose_pitch_classes).flatten()
+rose_pitch_classes = abjad.sequence.flatten(rose_pitch_classes)
 assert len(rose_pitch_classes) == 64
 
 rose_pitch_classes = [abjad.NamedPitch(_) for _ in rose_pitch_classes]
@@ -252,7 +252,7 @@ def closing():
 def continuous_glissandi(tuplet_ratio_rotation, *commands):
     tuplet_ratios = abjad.Sequence([(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)])
     tuplet_ratio_rotation *= 2
-    tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
+    tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
         *commands,
@@ -272,7 +272,7 @@ def current(counts, *commands):
 
     def preprocessor(divisions):
         divisions = abjad.Sequence(divisions)
-        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
+        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
 
     return baca.rhythm(
@@ -290,10 +290,10 @@ def current(counts, *commands):
 
 def fused_expanse(counts):
     def preprocessor(divisions):
-        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
-        divisions = abjad.Sequence(divisions).flatten(depth=-1)
+        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
         divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
-        divisions = abjad.Sequence(divisions).flatten(depth=-1)
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
         return divisions
 
     return baca.rhythm(
@@ -308,8 +308,8 @@ def fused_expanse(counts):
 
 def fused_wind(counts, *commands, denominator=8):
     def preprocessor(divisions):
-        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
-        divisions = abjad.Sequence(divisions).flatten(depth=-1)
+        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+        divisions = abjad.sequence.flatten(divisions, depth=-1)
         divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
         return divisions
 
@@ -439,7 +439,7 @@ def opening_glissandi(tuplet_ratio_rotation, *commands):
         ]
     )
     tuplet_ratio_rotation *= 3
-    tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
+    tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
         rmakers.repeat_tie(baca.selectors.pleaf_in_each_tuplet(0, (1, None))),
@@ -458,7 +458,7 @@ def opening_glissandi(tuplet_ratio_rotation, *commands):
 def quarter_hits(*commands):
     def preprocessor(divisions):
         divisions = abjad.Sequence(divisions)
-        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
+        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
 
     return baca.rhythm(
@@ -475,7 +475,7 @@ def quarter_hits(*commands):
 def silent_first_division():
     def preprocessor(divisions):
         divisions = abjad.Sequence(divisions)
-        divisions = [baca.sequence.quarters(_, compound=(3, 2)) for _ in divisions]
+        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
 
     return baca.rhythm(
