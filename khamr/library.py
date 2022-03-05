@@ -169,7 +169,7 @@ class MarimbaHitCommand(baca.Command):
         self._runtime = runtime
         tag = abjad.Tag("khamr.MarimbaHitCommand.__call__()")
         found_first = False
-        for i, plt in enumerate(baca.Selection(argument).plts()):
+        for i, plt in enumerate(baca.select.plts(argument)):
             if i not in self.indices:
                 continue
             abjad.attach(baca.StaffLines(5), plt.head, tag=tag)
@@ -196,14 +196,18 @@ def alternate_divisions(detach_ties=None):
         specifier = rmakers.untie()
         commands.append(specifier)
 
+    def rests(argument):
+        result = abjad.select.leaves(argument)
+        result = abjad.select.group_by_measure(result)
+        result = abjad.select.get(result, [1], 2)
+        return result
+
     return baca.rhythm(
         rmakers.note(),
         rmakers.tie(
             baca.selectors.ptails((None, -1)),
         ),
-        rmakers.force_rest(
-            lambda _: baca.Selection(_).leaves().group_by_measure().get([1], 2),
-        ),
+        rmakers.force_rest(rests),
         *commands,
         rmakers.beam(baca.selectors.plts()),
         rmakers.rewrite_meter(),
@@ -329,12 +333,15 @@ def fused_wind(counts, *commands, denominator=8):
 
 
 def guitar_accelerandi(counts):
+    def nontrivial_tuplets(argument):
+        result = abjad.select.tuplets(argument)
+        result = [_ for _ in result if 1 < len(_)]
+        return result
+
     return baca.rhythm(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
         rmakers.repeat_tie(baca.selectors.pleaf_in_each_tuplet(0, (1, None))),
-        rmakers.duration_bracket(
-            lambda _: baca.Selection(_).tuplets().filter(lambda _: len(_) > 1),
-        ),
+        rmakers.duration_bracket(nontrivial_tuplets),
         rmakers.feather_beam(),
         rmakers.force_repeat_tie(),
         preprocessor=lambda _: baca.sequence.fuse(_, counts, cyclic=True),

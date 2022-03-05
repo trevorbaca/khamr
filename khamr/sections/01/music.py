@@ -194,7 +194,7 @@ commands(
             baca.selectors.tuplets((None, 1)),
         ),
         rmakers.tie(
-            lambda _: baca.Selection(_).tuplets()[:1].leaves()[:-1],
+            lambda _: abjad.select.leaves(abjad.select.tuplet(_, 0))[:-1],
         ),
     ),
 )

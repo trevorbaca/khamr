@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -60,8 +61,10 @@ commands(
 
 def leaf_in_each_top_tuplet(n):
     def selector(argument):
-        selection = baca.Selection(argument).top().tuplets()
-        return baca.Selection(baca.Selection(_).leaf(n) for _ in selection)
+        selection = abjad.select.top(argument)
+        selection = abjad.select.tuplets(selection)
+        result = [abjad.select.leaf(_, n) for _ in selection]
+        return result
 
     return selector
 
@@ -70,9 +73,10 @@ def ptails_in_get_tuplets(pattern, pair):
     start, stop = pair
 
     def selector(argument):
-        selection = baca.Selection(argument).tuplets()
-        selection = selection.get(*pattern)
-        return baca.Selection(baca.Selection(_).ptails()[start:stop] for _ in selection)
+        result = abjad.select.tuplets(argument)
+        result = abjad.select.get(result, *pattern)
+        result = [baca.select.ptails(_)[start:stop] for _ in result]
+        return result
 
     return selector
 
