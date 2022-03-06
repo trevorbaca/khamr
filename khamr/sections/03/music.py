@@ -340,7 +340,7 @@ commands(
 
 commands(
     ("pf", (1, 9)),
-    baca.pitches(library.rose_pitch_classes.invert().transpose(2)),
+    baca.pitches(library.rose_pitch_classes.invert().transpose("M2")),
     baca.ottava(),
     library.sixth_octave(),
 )
@@ -390,7 +390,7 @@ commands(
 
 commands(
     (["vn", "va", "vc"], (3, 29)),
-    baca.pitches(library.rose_pitch_classes.invert().transpose(6)),
+    baca.pitches(library.rose_pitch_classes.invert().transpose("A4")),
     baca.glissando(),
     baca.markup(r"\baca-estr-sul-pont-markup"),
     baca.note_head_style_harmonic(),
