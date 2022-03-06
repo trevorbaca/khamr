@@ -118,9 +118,7 @@ double_stop_halo_pitches = []
 for halo_pitch in contrabass_halo_pitches:
     lower_pitch = halo_pitch - abjad.NamedInterval("M9")
     named_pitches_pair = (lower_pitch, halo_pitch)
-    named_pitch_segment = abjad.PitchSegment(
-        items=named_pitches_pair, item_class=abjad.NamedPitch
-    )
+    named_pitch_segment = abjad.NamedPitchSegment(named_pitches_pair)
     double_stop_halo_pitches.append(named_pitch_segment)
 
 # violin halo pitches
@@ -148,9 +146,7 @@ rose_pitch_classes = abjad.sequence.flatten(rose_pitch_classes)
 assert len(rose_pitch_classes) == 64
 
 rose_pitch_classes = [abjad.NamedPitch(_) for _ in rose_pitch_classes]
-rose_pitch_classes = abjad.PitchSegment(
-    items=rose_pitch_classes, item_class=abjad.NamedPitch
-)
+rose_pitch_classes = abjad.NamedPitchSegment(rose_pitch_classes)
 
 
 @dataclasses.dataclass

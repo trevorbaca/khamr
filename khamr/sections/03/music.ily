@@ -15070,7 +15070,7 @@ segment.03.Violin.Music.Voice = {
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
     %! khamr.continuous_glissandi()
-    gff'!1.
+    f'1.
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
@@ -15093,7 +15093,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 4]
     %! khamr.continuous_glissandi()
-    gf'!2.
+    fs'!2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15106,7 +15106,7 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 5]
         %! khamr.continuous_glissandi()
-        bff'!2.
+        a'2.
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.hairpin()
@@ -15140,7 +15140,7 @@ segment.03.Violin.Music.Voice = {
         \glissando
 
         %! khamr.continuous_glissandi()
-        ff'!2
+        e'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15151,7 +15151,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 6]
     %! khamr.continuous_glissandi()
-    dff'!2.
+    c'2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15164,13 +15164,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 7]
         %! khamr.continuous_glissandi()
-        cf'!1
+        b1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        af'!2
+        gs'!2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15188,13 +15188,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 8]
         %! khamr.continuous_glissandi()
-        ff'!2.
+        e'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ef'!1.
+        ds'!1.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15210,13 +15210,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 9]
         %! khamr.continuous_glissandi()
-        gff'!1
+        f'1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        aff'!2.
+        g'2.
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.hairpin()
@@ -15241,7 +15241,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 10]
     %! khamr.continuous_glissandi()
-    bff'!2.
+    a'2.
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
@@ -15261,7 +15261,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 11]
     %! khamr.continuous_glissandi()
-    af'!1
+    gs'!1
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15269,13 +15269,13 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 12]
     %! khamr.continuous_glissandi()
-    bf!2
+    as!2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
 
     %! khamr.continuous_glissandi()
-    eff'!2.
+    d'2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15283,7 +15283,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 13]
     %! khamr.continuous_glissandi()
-    df'!2.
+    cs'!2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15296,13 +15296,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 14]
         %! khamr.continuous_glissandi()
-        ff'!4
+        e'4
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        dff'!2
+        c'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15320,13 +15320,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 15]
         %! khamr.continuous_glissandi()
-        cf'!1
+        b1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        af'!2.
+        gs'!2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15342,13 +15342,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 16]
         %! khamr.continuous_glissandi()
-        bff'!4.
+        a'4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ef'!2
+        ds'!2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15358,13 +15358,13 @@ segment.03.Violin.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 17]
-    gff'!2.
+    f'2.
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
 
-    gff'2
+    f'2
     \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
@@ -15373,7 +15373,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 18]
     %! khamr.continuous_glissandi()
-    aff'!2.
+    g'2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15386,13 +15386,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 19]
         %! khamr.continuous_glissandi()
-        df'!1
+        cs'!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        af'!2
+        gs'!2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15403,7 +15403,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 20]
     %! khamr.continuous_glissandi()
-    bf!1.
+    as!1.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15416,13 +15416,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 21]
         %! khamr.continuous_glissandi()
-        eff'!2
+        d'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ff'!4.
+        e'4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15438,13 +15438,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 22]
         %! khamr.continuous_glissandi()
-        gff'!4.
+        f'4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        gf'!2
+        fs'!2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15462,13 +15462,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 23]
         %! khamr.continuous_glissandi()
-        bff'!2.
+        a'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        aff'!2
+        g'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15479,7 +15479,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 24]
     %! khamr.continuous_glissandi()
-    bff'!1
+    a'1
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15487,7 +15487,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 25]
     %! khamr.continuous_glissandi()
-    ef'!2
+    ds'!2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15500,13 +15500,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 26]
         %! khamr.continuous_glissandi()
-        gff'!4
+        f'4
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        eff'!2
+        d'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15517,7 +15517,7 @@ segment.03.Violin.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 27]
     %! khamr.continuous_glissandi()
-    df'!1.
+    cs'!1.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15530,13 +15530,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 28]
         %! khamr.continuous_glissandi()
-        af'!2.
+        gs'!2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        bf!1
+        as!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15554,13 +15554,13 @@ segment.03.Violin.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 29]
         %! khamr.continuous_glissandi()
-        bff'!2.
+        a'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ff'!2
+        e'2
         %! baca.note_head_style_harmonic()
         %! baca.OverrideCommand._call(2)
         \revert NoteHead.style
@@ -15873,7 +15873,7 @@ segment.03.Viola.Music.Voice = {
         %! baca.OverrideCommand._call(1)
         \override NoteHead.style = #'harmonic
         %! khamr.continuous_glissandi()
-        gff'!1.
+        f'1.
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.dynamic()
@@ -15894,7 +15894,7 @@ segment.03.Viola.Music.Voice = {
         \glissando
 
         %! khamr.continuous_glissandi()
-        gf'!1
+        fs'!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -15905,7 +15905,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 4]
     %! khamr.continuous_glissandi()
-    bff'!2.
+    a'2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15913,7 +15913,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 5]
     %! khamr.continuous_glissandi()
-    ff'!1
+    e'1
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -15949,13 +15949,13 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 6]
     %! khamr.continuous_glissandi()
-    dff'!4
+    c'4
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
 
     %! khamr.continuous_glissandi()
-    cf'!2
+    b2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15963,7 +15963,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 7]
     %! khamr.continuous_glissandi()
-    af'!1
+    gs'!1
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -15978,13 +15978,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 8]
         %! khamr.continuous_glissandi()
-        ff'!2.
+        e'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ef'!1
+        ds'!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16000,13 +16000,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 9]
         %! khamr.continuous_glissandi()
-        gff'!2.
+        f'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        aff'!2
+        g'2
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.hairpin()
@@ -16038,7 +16038,7 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 10]
         %! khamr.continuous_glissandi()
-        bff'!2
+        a'2
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.dynamic()
@@ -16056,7 +16056,7 @@ segment.03.Viola.Music.Voice = {
         \glissando
 
         %! khamr.continuous_glissandi()
-        af'!2.
+        gs'!2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16067,20 +16067,20 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 11]
     %! khamr.continuous_glissandi()
-    bf!1
+    as!1
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 12]
-    eff'!2.
+    d'2.
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
 
-    eff'2
+    d'2
     \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
@@ -16096,13 +16096,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 13]
         %! khamr.continuous_glissandi()
-        df'!2
+        cs'!2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ff'!4.
+        e'4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16113,7 +16113,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 14]
     %! khamr.continuous_glissandi()
-    dff'!2
+    c'2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16128,13 +16128,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 15]
         %! khamr.continuous_glissandi()
-        cf'!1.
+        b1.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        af'!1
+        gs'!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16150,13 +16150,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 16]
         %! khamr.continuous_glissandi()
-        bff'!4
+        a'4
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ef'!4.
+        ds'!4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16174,13 +16174,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 17]
         %! khamr.continuous_glissandi()
-        gff'!1.
+        f'1.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        aff'!2.
+        g'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16191,7 +16191,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 18]
     %! khamr.continuous_glissandi()
-    df'!2.
+    cs'!2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16199,7 +16199,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 19]
     %! khamr.continuous_glissandi()
-    af'!1
+    gs'!1
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16214,13 +16214,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 20]
         %! khamr.continuous_glissandi()
-        bf!2.
+        as!2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        eff'!1
+        d'1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16231,7 +16231,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 21]
     %! khamr.continuous_glissandi()
-    ff'!2
+    e'2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16244,13 +16244,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 22]
         %! khamr.continuous_glissandi()
-        gff'!4
+        f'4
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        gf'!4.
+        fs'!4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16261,13 +16261,13 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 23]
     %! khamr.continuous_glissandi()
-    bff'!2
+    a'2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
 
     %! khamr.continuous_glissandi()
-    aff'!4
+    g'4
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16280,13 +16280,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 24]
         %! khamr.continuous_glissandi()
-        bff'!2
+        a'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ef'!1
+        ds'!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16297,7 +16297,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 25]
     %! khamr.continuous_glissandi()
-    gff'!2
+    f'2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16305,7 +16305,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 26]
     %! khamr.continuous_glissandi()
-    eff'!2
+    d'2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16320,13 +16320,13 @@ segment.03.Viola.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 27]
         %! khamr.continuous_glissandi()
-        df'!1.
+        cs'!1.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        af'!1
+        gs'!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16337,7 +16337,7 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 28]
     %! khamr.continuous_glissandi()
-    bf!1
+    as!1
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16345,13 +16345,13 @@ segment.03.Viola.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 29]
     %! khamr.continuous_glissandi()
-    bff'!2
+    a'2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
 
     %! khamr.continuous_glissandi()
-    ff'!4
+    e'4
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
@@ -16654,7 +16654,7 @@ segment.03.Cello.Music.Voice = {
     %! baca.OverrideCommand._call(1)
     \override NoteHead.style = #'harmonic
     %! khamr.continuous_glissandi()
-    gff'!1
+    f'1
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
@@ -16675,7 +16675,7 @@ segment.03.Cello.Music.Voice = {
     \glissando
 
     %! khamr.continuous_glissandi()
-    gf'!2
+    fs'!2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16683,13 +16683,13 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 4]
     %! khamr.continuous_glissandi()
-    bff'!4
+    a'4
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
 
     %! khamr.continuous_glissandi()
-    ff'!2
+    e'2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16697,7 +16697,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 5]
     %! khamr.continuous_glissandi()
-    dff'!1
+    c'1
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -16733,7 +16733,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 6]
     %! khamr.continuous_glissandi()
-    cf'!2.
+    b2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16746,13 +16746,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 7]
         %! khamr.continuous_glissandi()
-        af'!2.
+        gs'!2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ff'!2
+        e'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16762,13 +16762,13 @@ segment.03.Cello.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 8]
-    ef'!2.
+    ds'!2.
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
 
-    ef'2
+    ds'2
     \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
@@ -16782,13 +16782,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 9]
         %! khamr.continuous_glissandi()
-        gff'!1
+        f'1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        aff'!2
+        g'2
         %! EXPLICIT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.hairpin()
@@ -16813,7 +16813,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 10]
     %! khamr.continuous_glissandi()
-    bff'!4
+    a'4
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
@@ -16831,7 +16831,7 @@ segment.03.Cello.Music.Voice = {
     \glissando
 
     %! khamr.continuous_glissandi()
-    af'!2
+    gs'!2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16844,13 +16844,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 11]
         %! khamr.continuous_glissandi()
-        bf!1
+        as!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        eff'!2.
+        d'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16860,13 +16860,13 @@ segment.03.Cello.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 12]
-    df'!2.
+    cs'!2.
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
 
-    df'2
+    cs'2
     \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
@@ -16875,7 +16875,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 13]
     %! khamr.continuous_glissandi()
-    ff'!2.
+    e'2.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16888,13 +16888,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 14]
         %! khamr.continuous_glissandi()
-        dff'!4
+        c'4
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        cf'!4.
+        b4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16905,7 +16905,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 15]
     %! khamr.continuous_glissandi()
-    af'!1.
+    gs'!1.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16918,13 +16918,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 16]
         %! khamr.continuous_glissandi()
-        bff'!4
+        a'4
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ef'!2
+        ds'!2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16942,13 +16942,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 17]
         %! khamr.continuous_glissandi()
-        gff'!1
+        f'1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        aff'!2.
+        g'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16966,13 +16966,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 18]
         %! khamr.continuous_glissandi()
-        df'!4.
+        cs'!4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        af'!2
+        gs'!2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -16983,7 +16983,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 19]
     %! khamr.continuous_glissandi()
-    bf!1
+    as!1
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -16991,7 +16991,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 20]
     %! khamr.continuous_glissandi()
-    eff'!1.
+    d'1.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -17004,13 +17004,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 21]
         %! khamr.continuous_glissandi()
-        ff'!2
+        e'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        gff'!4
+        f'4
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -17021,7 +17021,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 22]
     %! khamr.continuous_glissandi()
-    gf'!2
+    fs'!2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -17036,13 +17036,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 23]
         %! khamr.continuous_glissandi()
-        bff'!2
+        a'2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        aff'!4.
+        g'4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -17058,13 +17058,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 24]
         %! khamr.continuous_glissandi()
-        bff'!2.
+        a'2.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        ef'!1
+        ds'!1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -17080,13 +17080,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 25]
         %! khamr.continuous_glissandi()
-        gff'!4.
+        f'4.
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        eff'!4
+        d'4
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -17097,7 +17097,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 26]
     %! khamr.continuous_glissandi()
-    df'!2
+    cs'!2
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -17105,7 +17105,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 27]
     %! khamr.continuous_glissandi()
-    af'!1.
+    gs'!1.
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
@@ -17118,13 +17118,13 @@ segment.03.Cello.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 28]
         %! khamr.continuous_glissandi()
-        bf!2
+        as!2
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
 
         %! khamr.continuous_glissandi()
-        bff'!1
+        a'1
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
@@ -17135,7 +17135,7 @@ segment.03.Cello.Music.Voice = {
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 29]
     %! khamr.continuous_glissandi()
-    ff'!2.
+    e'2.
     %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
     \revert NoteHead.style
