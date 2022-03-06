@@ -137,7 +137,7 @@ string = r"""
     """
 strings = string.split()
 named_pitches = [abjad.NamedPitch(_) for _ in strings]
-color_trill_pitches = baca.PitchSegment(named_pitches, abjad.NamedPitch)
+color_trill_pitches = abjad.PitchSegment(named_pitches, abjad.NamedPitch)
 assert len(color_trill_pitches) == 18
 
 # rose pitch-classes
