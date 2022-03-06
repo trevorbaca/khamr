@@ -384,17 +384,17 @@ commands(
 
 commands(
     ("vn", (1, 4)),
-    baca.pitches(library.color_trill_pitches.transpose(1)),
+    baca.pitches(library.color_trill_pitches.transpose("m2")),
 )
 
 commands(
     ("vn", (5, 8)),
-    baca.pitches(library.color_trill_pitches.transpose(2)),
+    baca.pitches(library.color_trill_pitches.transpose("M2")),
 )
 
 commands(
     ("vn", (9, 14)),
-    baca.pitches(library.color_trill_pitches.transpose(3)),
+    baca.pitches(library.color_trill_pitches.transpose("m3")),
 )
 
 commands(
@@ -420,12 +420,12 @@ commands(
 
 commands(
     ("va", (5, 8)),
-    baca.pitches(library.color_trill_pitches.transpose(1)),
+    baca.pitches(library.color_trill_pitches.transpose("m2")),
 )
 
 commands(
     ("va", (9, 14)),
-    baca.pitches(library.color_trill_pitches.transpose(2)),
+    baca.pitches(library.color_trill_pitches.transpose("M2")),
 )
 
 commands(

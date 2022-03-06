@@ -130,12 +130,9 @@ for halo_pitch in contrabass_halo_pitches:
 
 # color trill pitches
 
-string = r"""
-    F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4
-    """
-strings = string.split()
-named_pitches = [abjad.NamedPitch(_) for _ in strings]
-color_trill_pitches = abjad.PitchSegment(named_pitches, abjad.NamedPitch)
+color_trill_pitches = abjad.NamedPitchSegment(
+    "F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4"
+)
 assert len(color_trill_pitches) == 18
 
 # rose pitch-classes
