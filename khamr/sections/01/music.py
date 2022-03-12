@@ -465,7 +465,7 @@ commands(
         map=baca.selectors.plts(),
     ),
     baca.markup(r"\baca-molto-flautando-markup"),
-    baca.pitches(library.color_trill_pitches),
+    baca.pitches(library.color_trill_pitches()),
 )
 
 commands(
@@ -490,7 +490,7 @@ commands(
         map=baca.selectors.plts(),
     ),
     baca.markup(r"\baca-molto-flautando-markup"),
-    baca.pitches(library.color_trill_pitches),
+    baca.pitches(library.color_trill_pitches()),
 )
 
 commands(
@@ -515,7 +515,7 @@ commands(
         map=baca.selectors.plts(),
     ),
     baca.markup(r"\baca-molto-flautando-markup"),
-    baca.pitches(library.color_trill_pitches),
+    baca.pitches(library.color_trill_pitches()),
 )
 
 commands(
