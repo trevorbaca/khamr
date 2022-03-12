@@ -326,7 +326,7 @@ commands(
 commands(
     ("gt", (1, 4)),
     baca.note_head_style_cross(),
-    baca.pitches(library.rose_pitch_classes.rotate(-16)),
+    baca.pitches(abjad.sequence.rotate(library.rose_pitches, -16)),
 )
 
 commands(
@@ -363,7 +363,7 @@ commands(
     baca.clef("treble"),
     baca.dynamic("fff-ancora"),
     baca.ottava(),
-    baca.pitches(library.rose_pitch_classes.invert()),
+    baca.pitches([_.invert() for _ in library.rose_pitches]),
     library.sixth_octave(),
 )
 

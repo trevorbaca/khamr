@@ -375,7 +375,7 @@ commands(
 commands(
     ("gt", (1, 24)),
     baca.dynamic("f"),
-    baca.pitches(library.rose_pitch_classes),
+    baca.pitches(library.rose_pitches),
     baca.markup(r"\khamr-half-harmonics-explanation"),
     library.wide_third_octave(),
 )
@@ -394,12 +394,12 @@ commands(
 
 commands(
     ("gt", (25, 44)),
-    baca.pitches(library.rose_pitch_classes),
+    baca.pitches(library.rose_pitches),
 )
 
 commands(
     ("pf", (25, 40)),
-    baca.pitches(library.rose_pitch_classes),
+    baca.pitches(library.rose_pitches),
 )
 
 commands(
