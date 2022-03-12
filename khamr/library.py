@@ -118,8 +118,7 @@ double_stop_halo_pitches = []
 for halo_pitch in contrabass_halo_pitches:
     lower_pitch = halo_pitch - abjad.NamedInterval("M9")
     named_pitches_pair = (lower_pitch, halo_pitch)
-    named_pitch_segment = abjad.NamedPitchSegment(named_pitches_pair)
-    double_stop_halo_pitches.append(named_pitch_segment)
+    double_stop_halo_pitches.append(named_pitches_pair)
 
 # violin halo pitches
 
@@ -130,10 +129,15 @@ for halo_pitch in contrabass_halo_pitches:
 
 # color trill pitches
 
-color_trill_pitches = abjad.NamedPitchSegment(
-    "F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4"
-)
-assert len(color_trill_pitches) == 18
+
+def color_trill_pitches(transpose=None):
+    string = "F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4"
+    pitches = [abjad.NamedPitch(_) for _ in string.split()]
+    if transpose:
+        pitches = [_.transpose(n=transpose) for _ in pitches]
+    assert len(pitches) == 18
+    return pitches
+
 
 # rose pitch-classes
 
