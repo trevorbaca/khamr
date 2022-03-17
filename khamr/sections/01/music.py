@@ -451,7 +451,7 @@ commands(
     ),
     baca.markup(
         r"\baca-string-iv-markup",
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
     library.halo_hairpins(),
@@ -476,7 +476,7 @@ commands(
     ),
     baca.markup(
         r"\baca-string-iii-markup",
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
     library.halo_hairpins(),
@@ -501,7 +501,7 @@ commands(
     ),
     baca.markup(
         r"\baca-string-iii-markup",
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
     library.halo_hairpins(),
@@ -527,7 +527,7 @@ commands(
     ),
     baca.markup(
         r"\baca-string-iii-markup",
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
 )

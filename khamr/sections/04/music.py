@@ -253,7 +253,7 @@ commands(
         baca.mark(r"\khamr-colophon-markup"),
         baca.rehearsal_mark_down(),
         baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
         selector=baca.selectors.rleaf(-1),
     ),
 )
