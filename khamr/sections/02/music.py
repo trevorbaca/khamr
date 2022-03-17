@@ -478,7 +478,7 @@ commands(
     ),
     baca.markup(
         r"\baca-strings-iii-plus-iv-markup",
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.note_head_style_harmonic(),
 )
