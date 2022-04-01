@@ -1531,7 +1531,7 @@ segment.02.Flute.Music.Voice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     bf''!2
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -1551,7 +1551,7 @@ segment.02.Flute.Music.Voice = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -1656,7 +1656,7 @@ segment.02.Flute.Music.Voice = {
     %! khamr.fused_wind()
     bf''8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -1786,7 +1786,7 @@ segment.02.Flute.Music.Voice = {
     %! baca.IndicatorCommand._call()
     :32
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2144,7 +2144,7 @@ segment.02.Oboe.Music.Voice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     <e'' b''>2
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -2345,7 +2345,7 @@ segment.02.Oboe.Music.Voice = {
     %! khamr.alternate_divisions()
     ds'!1.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2637,7 +2637,7 @@ segment.02.Clarinet.Music.Voice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     a2
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -2802,7 +2802,7 @@ segment.02.Clarinet.Music.Voice = {
     %! khamr.alternate_divisions()
     gs!1.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -3094,7 +3094,7 @@ segment.02.Saxophone.Music.Voice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     <d'' eqs''!>2
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -3296,7 +3296,7 @@ segment.02.Saxophone.Music.Voice = {
     %! khamr.alternate_divisions()
     es'!1.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -3594,7 +3594,7 @@ segment.02.Guitar.Music.Voice = {
         %! khamr.guitar_isolata()
         r8
         %! REAPPLIED_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! REAPPLIED_DYNAMIC
@@ -3694,7 +3694,7 @@ segment.02.Guitar.Music.Voice = {
     %! baca.make_repeat_tied_notes()
     fs!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -3817,7 +3817,7 @@ segment.02.Guitar.Music.Voice = {
     %! khamr.alternate_divisions()
     g1.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4128,7 +4128,7 @@ segment.02.Piano.Music.Voice = {
     %! baca.make_repeat_tied_notes()
     c'2
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -4371,7 +4371,7 @@ segment.02.Piano.Music.Voice = {
     %! baca.IndicatorCommand._call()
     :32
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4473,7 +4473,7 @@ segment.02.Piano.Music.Voice = {
         %! khamr.current()
         cf''''!8
         %! EXPLICIT_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! baca.dynamic()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
@@ -4894,7 +4894,7 @@ segment.02.Percussion.Music.Voice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     c'2
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -5037,7 +5037,7 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     af''!2
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5201,7 +5201,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5307,7 +5307,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5410,7 +5410,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5502,7 +5502,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5600,7 +5600,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5698,7 +5698,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5796,7 +5796,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5894,7 +5894,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -5992,7 +5992,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -6093,7 +6093,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -6191,7 +6191,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -6289,7 +6289,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -6387,7 +6387,7 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.quarter_hits()
     af''!4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! khamr.MarimbaHitCommand.__call__()
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -6619,7 +6619,7 @@ segment.02.Violin.Music.Voice = {
     %! khamr.trill_tuplets()
     gf'!2
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -7428,7 +7428,7 @@ segment.02.Violin.Music.Voice = {
     %! khamr.alternate_divisions()
     a'1.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7728,7 +7728,7 @@ segment.02.Viola.Music.Voice = {
     %! khamr.trill_tuplets()
     f'2
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -8373,7 +8373,7 @@ segment.02.Viola.Music.Voice = {
     %! khamr.alternate_divisions()
     gs'!1.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -8673,7 +8673,7 @@ segment.02.Cello.Music.Voice = {
     %! khamr.trill_tuplets()
     f'2
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -8984,7 +8984,7 @@ segment.02.Cello.Music.Voice = {
     %! baca.make_repeat_tied_notes()
     fs!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -9058,7 +9058,7 @@ segment.02.Cello.Music.Voice = {
     %! khamr.alternate_divisions()
     g1.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -9356,7 +9356,7 @@ segment.02.Contrabass.Music.Voice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     <g, a>2
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -9603,7 +9603,7 @@ segment.02.Contrabass.Music.Voice = {
     % [Contrabass_Music_Voice measure 15]
     <g,, a,>1.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
