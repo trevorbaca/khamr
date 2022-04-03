@@ -6759,10 +6759,6 @@ segment.01.Piano.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_STAFF_LINES
         \startStaff
-        %! baca.ottava()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \ottava 1
         %! baca.clef_x_extent_false()
         %! baca.clef_shift()
         %! SHIFTED_CLEF
@@ -6775,6 +6771,10 @@ segment.01.Piano.Music.Voice = {
         %! MEASURE_25
         %! baca.OverrideCommand._call(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+        %! baca.ottava()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \ottava 1
         \once \override Beam.grow-direction = #right
         %! baca.clef()
         %! baca.IndicatorCommand._call()
