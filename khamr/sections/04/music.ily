@@ -4313,6 +4313,8 @@ segment.04.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
+    - \tweak direction #up
+    \repeatTie
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -4327,8 +4329,6 @@ segment.04.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    - \tweak direction #up
-    \repeatTie
 
     c'4
     %! baca.alternate_bow_strokes()
