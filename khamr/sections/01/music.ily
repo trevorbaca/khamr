@@ -2581,14 +2581,14 @@ segment.01.Flute.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! baca.trill_spanner()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \startTrillSpan
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    %! baca.trill_spanner()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \startTrillSpan
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 40]
@@ -2628,14 +2628,14 @@ segment.01.Flute.Music.Voice = {
     \stopTrillSpan
 
     a''4.
-    %! baca.trill_spanner()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \startTrillSpan
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    %! baca.trill_spanner()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \startTrillSpan
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 43]
@@ -9834,14 +9834,14 @@ segment.01.Violin.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-molto-flautando-markup
-    %! baca.trill_spanner()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \startTrillSpan gf'
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    %! baca.trill_spanner()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     \times 4/5
@@ -9865,14 +9865,14 @@ segment.01.Violin.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan g'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan g'
 
     %! khamr.trill_tuplets()
     }
@@ -9915,14 +9915,14 @@ segment.01.Violin.Music.Voice = {
         \stopTrillSpan
         %! rmakers.RewriteMeterCommand.__call__
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gqf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gqf'
 
     %! khamr.trill_tuplets()
     }
@@ -9961,14 +9961,14 @@ segment.01.Violin.Music.Voice = {
         \stopTrillSpan
         %! rmakers.RewriteMeterCommand.__call__
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     }
@@ -10005,14 +10005,14 @@ segment.01.Violin.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gqf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gqf'
 
     %! khamr.trill_tuplets()
     }
@@ -10057,14 +10057,14 @@ segment.01.Violin.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     }
@@ -10107,14 +10107,14 @@ segment.01.Violin.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan f'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan f'
 
     %! khamr.trill_tuplets()
     }
@@ -10155,14 +10155,14 @@ segment.01.Violin.Music.Voice = {
         \stopTrillSpan
         %! khamr.trill_tuplets()
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan fqs'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan fqs'
 
     %! khamr.trill_tuplets()
     }
@@ -10203,14 +10203,14 @@ segment.01.Violin.Music.Voice = {
         \stopTrillSpan
         %! rmakers.RewriteMeterCommand.__call__
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan f'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan f'
 
     %! khamr.trill_tuplets()
     }
@@ -10255,14 +10255,14 @@ segment.01.Violin.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan fqs'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan fqs'
 
     %! khamr.trill_tuplets()
     }
@@ -10305,14 +10305,14 @@ segment.01.Violin.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     }
@@ -11765,14 +11765,14 @@ segment.01.Viola.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-molto-flautando-markup
-    %! baca.trill_spanner()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \startTrillSpan gf'
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    %! baca.trill_spanner()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     \times 4/5
@@ -11798,14 +11798,14 @@ segment.01.Viola.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan g'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan g'
 
     %! khamr.trill_tuplets()
     }
@@ -11854,14 +11854,14 @@ segment.01.Viola.Music.Voice = {
         \stopTrillSpan
         %! rmakers.RewriteMeterCommand.__call__
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gqf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gqf'
 
     %! khamr.trill_tuplets()
     }
@@ -11902,14 +11902,14 @@ segment.01.Viola.Music.Voice = {
         \stopTrillSpan
         %! rmakers.RewriteMeterCommand.__call__
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     }
@@ -11954,14 +11954,14 @@ segment.01.Viola.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gqf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gqf'
 
     %! khamr.trill_tuplets()
     }
@@ -12006,14 +12006,14 @@ segment.01.Viola.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     }
@@ -12058,14 +12058,14 @@ segment.01.Viola.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan f'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan f'
 
     %! khamr.trill_tuplets()
     }
@@ -12114,14 +12114,14 @@ segment.01.Viola.Music.Voice = {
         \stopTrillSpan
         %! rmakers.RewriteMeterCommand.__call__
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan fqs'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan fqs'
 
     %! khamr.trill_tuplets()
     }
@@ -13595,14 +13595,14 @@ segment.01.Cello.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-molto-flautando-markup
-    %! baca.trill_spanner()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    \startTrillSpan gf'
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    %! baca.trill_spanner()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
+    \startTrillSpan gf'
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 38]
@@ -13636,14 +13636,14 @@ segment.01.Cello.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan g'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan g'
 
     %! khamr.trill_tuplets()
     }
@@ -13684,14 +13684,14 @@ segment.01.Cello.Music.Voice = {
         \stopTrillSpan
         %! khamr.trill_tuplets()
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gqf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gqf'
 
     %! khamr.trill_tuplets()
     }
@@ -13750,14 +13750,14 @@ segment.01.Cello.Music.Voice = {
         \stopTrillSpan
         %! khamr.trill_tuplets()
         ]
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     }
@@ -13802,14 +13802,14 @@ segment.01.Cello.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gqf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gqf'
 
     %! khamr.trill_tuplets()
     }
@@ -13854,14 +13854,14 @@ segment.01.Cello.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan gf'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan gf'
 
     %! khamr.trill_tuplets()
     }
@@ -13898,14 +13898,14 @@ segment.01.Cello.Music.Voice = {
         %! baca.SpannerIndicatorCommand._call(4)
         %! SPANNER_STOP
         \stopTrillSpan
-        %! baca.trill_spanner()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \startTrillSpan f'
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        %! baca.trill_spanner()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \startTrillSpan f'
 
     %! khamr.trill_tuplets()
     }
