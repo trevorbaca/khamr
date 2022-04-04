@@ -17792,6 +17792,10 @@ segment.03.Contrabass.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \khamr-scodanibbio
+    %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca._attach_shadow_tie_indicators()
+    ~
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -17800,10 +17804,6 @@ segment.03.Contrabass.Music.Voice = {
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \startTrillSpan f
-    %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca._attach_shadow_tie_indicators()
-    ~
 
     g,,2
     \repeatTie
