@@ -5304,9 +5304,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"115" #"64"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         fs''!16 * 121/64
@@ -5404,9 +5404,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"487" #"64"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         b''16 * 209/32
@@ -5504,9 +5504,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         d''16 * 125/64
@@ -5588,9 +5588,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"123" #"16"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         bf''!16 * 449/64
@@ -5700,9 +5700,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"13" #"8"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         e''16 * 125/64
@@ -5782,9 +5782,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"245" #"32"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         c''16 * 109/16
@@ -5890,9 +5890,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"113" #"64"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         f''16 * 121/64
@@ -5986,9 +5986,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"477" #"64"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         cs''!16 * 353/64
@@ -6074,9 +6074,9 @@ segment.01.Guitar.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"115" #"64"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         fs''!16 * 121/64
@@ -6936,9 +6936,9 @@ segment.01.Piano.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"117" #"64"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         b'''16 * 121/64
@@ -7042,9 +7042,9 @@ segment.01.Piano.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"497" #"64"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         fs'''!16 * 59/8
@@ -7172,9 +7172,9 @@ segment.01.Piano.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"117" #"64"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         d''''16 * 121/64
@@ -7280,9 +7280,9 @@ segment.01.Piano.Music.Voice = {
         %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"123" #"16"
         %! khamr.guitar_accelerandi()
-        \repeatTie
-        %! khamr.guitar_accelerandi()
         [
+        %! khamr.guitar_accelerandi()
+        \repeatTie
 
         %! khamr.guitar_accelerandi()
         cs''''!16 * 449/64
