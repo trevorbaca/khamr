@@ -2799,10 +2799,6 @@ segment.01.Oboe.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
-    %! baca.start_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "English" \hcenter-in #16 "horn" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2818,6 +2814,10 @@ segment.01.Oboe.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
+    %! baca.start_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "English" \hcenter-in #16 "horn" }
     %! baca.clef_x_extent_false()
     %! baca.clef_shift()
     %! SHIFTED_CLEF
@@ -6354,10 +6354,6 @@ segment.01.Piano.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
-    %! baca.start_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Piano"
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6373,6 +6369,10 @@ segment.01.Piano.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
+    %! baca.start_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Piano"
     %! baca.clef_x_extent_false()
     %! baca.clef_shift()
     %! SHIFTED_CLEF
@@ -7641,21 +7641,17 @@ segment.01.Percussion.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 1]
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.margin_markup()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
-    %! baca.start_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Percussion"
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7671,6 +7667,10 @@ segment.01.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
+    %! baca.start_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Percussion"
     %! baca.stem_down()
     %! baca.OverrideCommand._call(1)
     \override Stem.direction = #down
@@ -8618,11 +8618,11 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         af'!4
@@ -8680,11 +8680,11 @@ segment.01.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     gqs'!4
@@ -8755,11 +8755,11 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a'2
@@ -8858,10 +8858,10 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bqf'!4
@@ -9006,11 +9006,11 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         gqs'!8
@@ -9111,10 +9111,10 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \p
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a'4
@@ -9177,11 +9177,11 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         g'2
@@ -9255,11 +9255,11 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a'4
@@ -9355,11 +9355,11 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         b'8
@@ -9422,11 +9422,11 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         aqs'!8
@@ -9495,11 +9495,11 @@ segment.01.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \ppp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     bf'!4
@@ -9660,11 +9660,11 @@ segment.01.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     a'4
@@ -9735,11 +9735,11 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         b'4
@@ -10609,11 +10609,11 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         gqs'!2
@@ -10671,11 +10671,11 @@ segment.01.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \ppp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     a'4
@@ -10748,11 +10748,11 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bqf'!4
@@ -10843,11 +10843,11 @@ segment.01.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     af'!4
@@ -10909,11 +10909,11 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         gqs'!4
@@ -10989,11 +10989,11 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \p
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a'2
@@ -11092,10 +11092,10 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        \repeatTie
 
         %! khamr.opening_glissandi()
         g'4
@@ -11160,11 +11160,11 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a'4
@@ -11238,11 +11238,11 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         b'8
@@ -11333,11 +11333,11 @@ segment.01.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     aqs'!8
@@ -11399,11 +11399,11 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bf'!2
@@ -11472,11 +11472,11 @@ segment.01.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     g'4
@@ -11574,10 +11574,10 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \p
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a'8
@@ -11640,11 +11640,11 @@ segment.01.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         b'4
@@ -11713,11 +11713,11 @@ segment.01.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     aqs'!4
@@ -12365,11 +12365,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         af!4
@@ -12467,11 +12467,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         gqs!8
@@ -12534,11 +12534,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a4
@@ -12617,10 +12617,10 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bqf!4
@@ -12714,10 +12714,10 @@ segment.01.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    \repeatTie
 
     %! khamr.opening_glissandi()
     af!4
@@ -12777,11 +12777,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         gqs!4
@@ -12855,11 +12855,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \p
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a8
@@ -12958,10 +12958,10 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        \repeatTie
 
         %! khamr.opening_glissandi()
         g4.
@@ -13024,11 +13024,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a8
@@ -13104,11 +13104,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         b4
@@ -13199,11 +13199,11 @@ segment.01.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     aqs!2
@@ -13263,11 +13263,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bf!4
@@ -13343,11 +13343,11 @@ segment.01.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         g8
@@ -13441,10 +13441,10 @@ segment.01.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    \repeatTie
 
     %! khamr.opening_glissandi()
     a4
@@ -13499,11 +13499,11 @@ segment.01.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     b4
@@ -14132,11 +14132,11 @@ segment.01.Contrabass.Music.Voice = {
         % [Contrabass_Music_Voice measure 3]
         %! khamr.opening_glissandi()
         a1.
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bf!4
@@ -14157,11 +14157,11 @@ segment.01.Contrabass.Music.Voice = {
         % [Contrabass_Music_Voice measure 4]
         %! khamr.opening_glissandi()
         bf2.
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         aqs!8.
@@ -14193,11 +14193,11 @@ segment.01.Contrabass.Music.Voice = {
         % [Contrabass_Music_Voice measure 6]
         %! khamr.opening_glissandi()
         aqs2.
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         b8.
@@ -14249,10 +14249,10 @@ segment.01.Contrabass.Music.Voice = {
     % [Contrabass_Music_Voice measure 10]
     %! khamr.opening_glissandi()
     b2
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    \repeatTie
 
     %! khamr.opening_glissandi()
     cqs'!4
@@ -14312,11 +14312,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bf!2
@@ -14397,10 +14397,10 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        \repeatTie
 
         %! khamr.opening_glissandi()
         aqs!8
@@ -14491,11 +14491,11 @@ segment.01.Contrabass.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \ppp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     b4
@@ -14555,11 +14555,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         a8.
@@ -14635,11 +14635,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \p
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         b2
@@ -14735,11 +14735,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         cs'!2
@@ -14802,11 +14802,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \p
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bqs!8
@@ -14882,11 +14882,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         c'4
@@ -14977,11 +14977,11 @@ segment.01.Contrabass.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     a4
@@ -15043,11 +15043,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         b4
@@ -15121,11 +15121,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         cs'!2
@@ -15224,10 +15224,10 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \ppp
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        \repeatTie
 
         %! khamr.opening_glissandi()
         bqs!8
@@ -15292,11 +15292,11 @@ segment.01.Contrabass.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
-        %! khamr.opening_glissandi()
-        \repeatTie
         %! baca.glissando()
         %! abjad.glissando(7)
         \glissando
+        %! khamr.opening_glissandi()
+        \repeatTie
 
         %! khamr.opening_glissandi()
         dqf'!4
@@ -15365,11 +15365,11 @@ segment.01.Contrabass.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
-    %! khamr.opening_glissandi()
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    %! khamr.opening_glissandi()
+    \repeatTie
 
     %! khamr.opening_glissandi()
     c'4

@@ -3997,6 +3997,11 @@ segment.03.Oboe.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 1]
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -4009,11 +4014,6 @@ segment.03.Oboe.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Eng. hn."
     %! baca._reapply_persistent_indicators(3)
@@ -11480,6 +11480,11 @@ segment.03.Piano.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 1]
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -11492,11 +11497,6 @@ segment.03.Piano.Music.Voice = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
     %! baca.ottava()
@@ -14059,6 +14059,17 @@ segment.03.Percussion.Music.Voice = {
 
             %! baca._comment_measure_numbers()
             % [Percussion_Music_Voice measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_BAR_EXTENT
+            %! EXPLICIT_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
             %! REAPPLIED_STAFF_LINES
@@ -14071,17 +14082,6 @@ segment.03.Percussion.Music.Voice = {
             %! baca._set_status_tag()
             %! REAPPLIED_STAFF_LINES
             \startStaff
-            %! -PARTS
-            %! baca._reapply_persistent_indicators(3)
-            %! baca._set_status_tag()
-            %! REAPPLIED_MARGIN_MARKUP
-            \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
-            %! -PARTS
-            %! baca._reapply_persistent_indicators(3)
-            %! baca._set_status_tag()
-            %! REAPPLIED_BAR_EXTENT
-            %! EXPLICIT_BAR_EXTENT
-            \override Staff.BarLine.bar-extent = #'(0 . 2)
             %! baca._clone_segment_initial_short_instrument_name()
             \set Staff.instrumentName = \markup \hcenter-in #16 "Perc."
             %! baca._make_multimeasure_rest_container(2)
@@ -15365,10 +15365,10 @@ segment.03.Violin.Music.Voice = {
     ~
 
     f'2
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    \repeatTie
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 18]
@@ -16081,10 +16081,10 @@ segment.03.Viola.Music.Voice = {
     ~
 
     d'2
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    \repeatTie
 
     %! khamr.continuous_glissandi()
     \tweak text #tuplet-number::calc-fraction-text
@@ -16769,10 +16769,10 @@ segment.03.Cello.Music.Voice = {
     ~
 
     ds'2
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    \repeatTie
 
     %! khamr.continuous_glissandi()
     \times 2/3
@@ -16867,10 +16867,10 @@ segment.03.Cello.Music.Voice = {
     ~
 
     cs'2
-    \repeatTie
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando
+    \repeatTie
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 13]
