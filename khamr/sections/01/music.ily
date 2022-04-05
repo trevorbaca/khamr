@@ -4607,9 +4607,9 @@ segment.01.Saxophone.Music.Voice = {
     ~
 
     <d'' eqs''>8
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    \repeatTie
 
     %! khamr.fused_wind()
     r8
@@ -8926,13 +8926,13 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \p
+        %! baca.glissando()
+        %! abjad.glissando(7)
+        \glissando
         %! khamr.opening_glissandi()
         - \tweak direction #up
         %! khamr.opening_glissandi()
         \repeatTie
-        %! baca.glissando()
-        %! abjad.glissando(7)
-        \glissando
 
         %! khamr.opening_glissandi()
         af'!4
@@ -9596,13 +9596,13 @@ segment.01.Violin.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \pp
+        %! baca.glissando()
+        %! abjad.glissando(7)
+        \glissando
         %! khamr.opening_glissandi()
         - \tweak direction #up
         %! khamr.opening_glissandi()
         \repeatTie
-        %! baca.glissando()
-        %! abjad.glissando(7)
-        \glissando
 
         %! khamr.opening_glissandi()
         g'2.
@@ -9896,9 +9896,9 @@ segment.01.Violin.Music.Voice = {
         % [Violin_Music_Voice measure 39]
         %! khamr.trill_tuplets()
         fs'8
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
@@ -9942,9 +9942,9 @@ segment.01.Violin.Music.Voice = {
 
         %! khamr.trill_tuplets()
         fqs'8.
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
@@ -10136,9 +10136,9 @@ segment.01.Violin.Music.Voice = {
 
         %! khamr.trill_tuplets()
         e'8
-        \repeatTie
         %! khamr.trill_tuplets()
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
@@ -10184,9 +10184,9 @@ segment.01.Violin.Music.Voice = {
 
         %! khamr.trill_tuplets()
         eqs'8.
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
@@ -11835,9 +11835,9 @@ segment.01.Viola.Music.Voice = {
 
         %! khamr.trill_tuplets()
         fs'8
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
@@ -11883,9 +11883,9 @@ segment.01.Viola.Music.Voice = {
         % [Viola_Music_Voice measure 40]
         %! khamr.trill_tuplets()
         fqs'8.
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
@@ -12095,9 +12095,9 @@ segment.01.Viola.Music.Voice = {
 
         %! khamr.trill_tuplets()
         e'8
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
@@ -13665,9 +13665,9 @@ segment.01.Cello.Music.Voice = {
 
         %! khamr.trill_tuplets()
         fs'8
-        \repeatTie
         %! khamr.trill_tuplets()
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
@@ -13731,9 +13731,9 @@ segment.01.Cello.Music.Voice = {
 
         %! khamr.trill_tuplets()
         fqs'8.
-        \repeatTie
         %! khamr.trill_tuplets()
         [
+        \repeatTie
 
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
