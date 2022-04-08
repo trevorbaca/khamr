@@ -9,7 +9,7 @@
         " "
         \concat {
             \bold \fontsize #3
-            \on-the-fly #print-page-number-check-first
+            \if \should-print-page-number
             \fromproperty #'page:page-number-string
         }
         " "
@@ -20,7 +20,7 @@
         " "
         \concat {
             \bold \fontsize #3
-            \on-the-fly #print-page-number-check-first
+            \if \should-print-page-number
             \fromproperty #'page:page-number-string
         }
         " "
@@ -253,7 +253,7 @@
 
         autoBeaming = ##f
         barNumberFormatter = #baca-oval-bar-numbers
-        markFormatter = #format-mark-box-alphabet
+        rehearsalMarkFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
     }
