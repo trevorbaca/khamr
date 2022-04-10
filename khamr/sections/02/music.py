@@ -84,7 +84,7 @@ commands(
     library.fused_wind(
         [10, 10, 6, 8, 6],
         rmakers.force_rest(
-            baca.selectors.tuplets(([2, 5], 6)),
+            lambda _: baca.select.tuplets(_, ([2, 5], 6)),
         ),
     ),
 )
@@ -96,7 +96,7 @@ commands(
     library.fused_wind(
         [12, 6, 10, 10, 6, 8],
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 4], 6)),
+            lambda _: baca.select.tuplets(_, ([1, 4], 6)),
         ),
     ),
 )
@@ -108,10 +108,10 @@ commands(
     library.fused_wind(
         [8, 6, 10, 6, 10, 8],
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 3], 6)),
+            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
         rmakers.force_rest(
-            baca.selectors.tuplet(-1),
+            lambda _: baca.select.tuplet(_, -1),
         ),
     ),
 )
@@ -123,7 +123,7 @@ commands(
     library.fused_wind(
         [14, 6, 10, 6, 10, 8],
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 3], 6)),
+            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
     ),
 )
@@ -134,7 +134,7 @@ commands(
     ("gt", (1, 4)),
     library.guitar_isolata(
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 2, 3, 5, 6, 7, 8], 9)),
+            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
     ),
 )
@@ -165,7 +165,7 @@ commands(
     library.current(
         [4, 3, 5],
         rmakers.force_rest(
-            baca.selectors.tuplets(stage_5_silence_pattern),
+            lambda _: baca.select.tuplets(_, stage_5_silence_pattern),
         ),
     ),
 )
@@ -203,7 +203,7 @@ commands(
     library.trill_tuplets(
         4,
         rmakers.force_rest(
-            baca.selectors.tuplets((-2, None)),
+            lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
 )
@@ -215,7 +215,7 @@ commands(
     library.trill_tuplets(
         3,
         rmakers.force_rest(
-            baca.selectors.tuplets((-2, None)),
+            lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
 )
@@ -227,7 +227,7 @@ commands(
     library.trill_tuplets(
         2,
         rmakers.force_rest(
-            baca.selectors.tuplets((-2, None)),
+            lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
 )
@@ -248,7 +248,9 @@ commands(
         rmakers.repeat_tie(
             baca.selectors.leaves_in_get_tuplets(([0, 1, 4, 6], 7), (1, None)),
         ),
-        rmakers.force_rest(baca.selectors.tuplet(-1)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
     ),
 )
 
