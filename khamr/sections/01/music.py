@@ -146,7 +146,7 @@ commands(
     library.fused_wind(
         [10, 10, 6, 10, 8, 6],
         rmakers.force_rest(
-            baca.selectors.tuplets(([2, 5], 6)),
+            lambda _: baca.select.tuplets(_, ([2, 5], 6)),
         ),
     ),
 )
@@ -156,7 +156,7 @@ commands(
     library.fused_wind(
         [12, 6, 10, 10, 6, 8],
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 4], 6)),
+            lambda _: baca.select.tuplets(_, ([1, 4], 6)),
         ),
     ),
 )
@@ -166,7 +166,7 @@ commands(
     library.fused_wind(
         [8, 6, 10, 6, 10, 8],
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 3], 6)),
+            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
     ),
 )
@@ -176,7 +176,7 @@ commands(
     library.fused_wind(
         [14, 6, 10, 6, 10, 8],
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 3], 6)),
+            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
     ),
 )
@@ -185,13 +185,13 @@ commands(
     ("gt", (1, 24)),
     library.guitar_isolata(
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 2, 3, 5, 6, 7, 8], 9)),
+            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
         rmakers.force_rest(
-            baca.selectors.tuplets((None, 12)),
+            lambda _: baca.select.tuplets(_, (None, 12)),
         ),
         rmakers.force_note(
-            baca.selectors.tuplets((None, 1)),
+            lambda _: baca.select.tuplets(_, (None, 1)),
         ),
         rmakers.tie(
             lambda _: abjad.select.leaves(abjad.select.tuplet(_, 0))[:-1],
@@ -208,7 +208,7 @@ commands(
     ("gt", (41, 44)),
     library.guitar_isolata(
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 2, 3, 5, 6, 7, 8], 9)),
+            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
     ),
 )
@@ -227,7 +227,7 @@ commands(
     ("pf", (37, 40)),
     library.guitar_isolata(
         rmakers.force_rest(
-            baca.selectors.tuplets(([1, 2, 3, 5, 6, 7, 8], 9)),
+            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
     ),
 )
