@@ -388,6 +388,7 @@ def halo_hairpins():
         "ppp < pp",
     ]
     commands = []
+
     def make_plt_selector(i, hairpins):
         def selector(argument):
             result = baca.select.plts(argument)
