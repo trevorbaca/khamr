@@ -45,7 +45,7 @@ commands(
     baca.rehearsal_mark("C"),
     baca.bar_line(
         "|.",
-        baca.selectors.skip(-1),
+        lambda _: baca.select.skip(_, -1),
     ),
 )
 
