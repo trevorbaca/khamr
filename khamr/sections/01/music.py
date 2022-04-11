@@ -464,7 +464,7 @@ commands(
     baca.dynamic("ppp"),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     baca.markup(r"\baca-molto-flautando-markup"),
     baca.pitches(library.color_trill_pitches()),
@@ -489,7 +489,7 @@ commands(
     baca.dynamic("ppp"),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     baca.markup(r"\baca-molto-flautando-markup"),
     baca.pitches(library.color_trill_pitches()),
@@ -514,7 +514,7 @@ commands(
     baca.dynamic("ppp"),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     baca.markup(r"\baca-molto-flautando-markup"),
     baca.pitches(library.color_trill_pitches()),

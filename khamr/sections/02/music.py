@@ -323,7 +323,7 @@ commands(
     baca.dynamic("fff"),
     baca.pitch(
         "G#2",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -406,7 +406,7 @@ commands(
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -437,7 +437,7 @@ commands(
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -453,7 +453,7 @@ commands(
     baca.accent(selector=baca.selectors.pheads()),
     baca.new(
         baca.trill_spanner(alteration="m2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     baca.pitches(library.color_trill_pitches()),
 )

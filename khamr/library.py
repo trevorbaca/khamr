@@ -204,7 +204,7 @@ def alternate_divisions(detach_ties=None):
         ),
         rmakers.force_rest(rests),
         *commands,
-        rmakers.beam(baca.selectors.plts()),
+        rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         tag=abjad.Tag("khamr.alternate_divisions()"),
@@ -238,7 +238,7 @@ def closing():
         rmakers.force_rest(
             baca.selectors.lts([0, -1]),
         ),
-        rmakers.beam(baca.selectors.plts()),
+        rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
@@ -294,7 +294,7 @@ def fused_expanse(counts):
 
     return baca.rhythm(
         rmakers.note(),
-        rmakers.beam(baca.selectors.plts()),
+        rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
@@ -388,10 +388,18 @@ def halo_hairpins():
         "ppp < pp",
     ]
     commands = []
+    def make_plt_selector(i, hairpins):
+        def selector(argument):
+            result = baca.select.plts(argument)
+            result = abjad.select.get(result, [i], len(hairpins))
+            return result
+
+        return selector
+
     for i, hairpin in enumerate(hairpins):
         command = baca.new(
             baca.hairpin(hairpin, remove_length_1_spanner_start=True),
-            map=baca.selectors.plts(([i], len(hairpins))),
+            map=make_plt_selector(i, hairpins),
         )
         commands.append(command)
     return baca.chunk(*commands)
@@ -460,7 +468,7 @@ def quarter_hits(*commands):
     return baca.rhythm(
         rmakers.note(),
         *commands,
-        rmakers.beam(baca.selectors.plts()),
+        rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
