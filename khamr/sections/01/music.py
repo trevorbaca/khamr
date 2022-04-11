@@ -325,7 +325,7 @@ commands(
     ),
     baca.new(
         baca.trill_spanner(),
-        map=baca.selectors.qruns(),
+        map=lambda _: baca.select.qruns(_),
     ),
     baca.pitch("A4"),
 )
