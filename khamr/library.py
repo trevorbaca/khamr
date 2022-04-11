@@ -200,7 +200,7 @@ def alternate_divisions(detach_ties=None):
     return baca.rhythm(
         rmakers.note(),
         rmakers.tie(
-            baca.selectors.ptails((None, -1)),
+            lambda _: baca.select.ptails(_)[:-1],
         ),
         rmakers.force_rest(rests),
         *commands,
@@ -476,7 +476,7 @@ def silent_first_division():
     return baca.rhythm(
         rmakers.note(),
         rmakers.repeat_tie(
-            baca.selectors.ptails((1, None)),
+            lambda _: baca.select.ptails(_)[1:],
         ),
         rmakers.force_rest(baca.selectors.note(0)),
         rmakers.rewrite_meter(),
@@ -605,7 +605,7 @@ def trill_tuplets(tuplet_ratios, *commands):
 
     return baca.rhythm(
         rmakers.tuplet(string_tuplet_ratios(tuplet_ratios)),
-        rmakers.tie(baca.selectors.ptail_in_each_tuplet(-1, (None, -1))),
+        rmakers.tie(lambda _: baca.select.ptail_in_each_tuplet(_, -1, (None, -1))),
         *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
