@@ -190,7 +190,9 @@ commands(
     ("perc", (1, 5)),
     baca.hairpin(
         "pp > ppp",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
