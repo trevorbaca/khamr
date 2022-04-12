@@ -35,19 +35,19 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "126",
-        selector=baca.selectors.leaf(1 - 1),
+        selector=lambda _: abjad.select.leaf(_, 1 - 1),
     ),
     baca.metronome_mark(
         "63",
-        selector=baca.selectors.leaf(25 - 1),
+        selector=lambda _: abjad.select.leaf(_, 25 - 1),
     ),
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(25 - 1),
+        selector=lambda _: abjad.select.leaf(_, 25 - 1),
     ),
     baca.metronome_mark(
         "84",
-        selector=baca.selectors.leaf(37 - 1),
+        selector=lambda _: abjad.select.leaf(_, 37 - 1),
     ),
 )
 
@@ -346,7 +346,7 @@ commands(
     baca.flageolet(selector=lambda _: baca.select.pheads(_)),
     baca.markup(
         r"\baca-put-reed-back-in-markup",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.pitch("<A4 E5>"),
     baca.staff_lines(5),
