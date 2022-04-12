@@ -236,7 +236,7 @@ def closing():
     return baca.rhythm(
         rmakers.note(),
         rmakers.force_rest(
-            baca.selectors.lts([0, -1]),
+            lambda _: abjad.select.get(baca.select.lts(_), [0, -1]),
         ),
         rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.rewrite_meter(),

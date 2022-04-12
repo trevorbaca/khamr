@@ -182,7 +182,7 @@ commands(
     ("perc", (15, 20)),
     library.quarter_hits(
         rmakers.force_rest(
-            baca.selectors.lts(indices),
+            lambda _: abjad.select.get(baca.select.lts(_), indices),
         ),
     ),
 )
@@ -191,7 +191,7 @@ commands(
     ("perc", (21, 30)),
     library.quarter_hits(
         rmakers.force_rest(
-            baca.selectors.lts(stage_5_silence_pattern),
+            lambda _: abjad.select.get(baca.select.lts(_), stage_5_silence_pattern),
         ),
     ),
 )
