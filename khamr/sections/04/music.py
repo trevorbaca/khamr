@@ -118,7 +118,7 @@ commands(
 commands(
     ("perc", (1, 5)),
     baca.make_repeat_tied_notes(
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
 )
 
@@ -173,15 +173,15 @@ commands(
 
 commands(
     "gt",
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.dynamic("mf"),
-    baca.flageolet(selector=baca.selectors.pheads()),
+    baca.flageolet(selector=lambda _: baca.select.pheads(_)),
     baca.pitch("C4"),
 )
 
 commands(
     "pf",
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.dynamic("mf"),
     baca.pitch("A#4"),
 )
@@ -194,14 +194,14 @@ commands(
             _,
         ),
     ),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
     ("perc", (8, 15)),
     baca.dynamic("fff"),
     baca.markup(r"\baca-snare-drum-markup"),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
