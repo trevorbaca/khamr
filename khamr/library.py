@@ -335,7 +335,11 @@ def guitar_accelerandi(counts):
 
     return baca.rhythm(
         rmakers.accelerando([(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)]),
-        rmakers.repeat_tie(baca.selectors.pleaf_in_each_tuplet(0, (1, None))),
+        rmakers.repeat_tie(
+            lambda _: [
+                baca.select.pleaf(tuplet, 0) for tuplet in baca.select.tuplets(_)[1:]
+            ]
+        ),
         rmakers.duration_bracket(nontrivial_tuplets),
         rmakers.feather_beam(),
         rmakers.force_repeat_tie(),
@@ -450,7 +454,11 @@ def opening_glissandi(tuplet_ratio_rotation, *commands):
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
-        rmakers.repeat_tie(baca.selectors.pleaf_in_each_tuplet(0, (1, None))),
+        rmakers.repeat_tie(
+            lambda _: [
+                baca.select.pleaf(tuplet, 0) for tuplet in baca.select.tuplets(_)[1:]
+            ]
+        ),
         *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
