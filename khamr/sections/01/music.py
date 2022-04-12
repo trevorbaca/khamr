@@ -247,7 +247,9 @@ commands(
     library.opening_glissandi(
         0,
         rmakers.repeat_tie(
-            baca.selectors.leaves_in_get_tuplets(([0, 1, 2, 5], 7), (1, None)),
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([0, 1, 2, 5], 7), (1, None)
+            ),
         ),
     ),
 )
@@ -262,7 +264,9 @@ commands(
     library.opening_glissandi(
         -1,
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([1, 2, 3, 6], 7), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([1, 2, 3, 6], 7), (None, -1)
+            ),
         ),
     ),
 )
@@ -277,7 +281,9 @@ commands(
     library.opening_glissandi(
         -2,
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([0, 2, 3, 4], 7), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([0, 2, 3, 4], 7), (None, -1)
+            ),
         ),
     ),
 )
@@ -292,7 +298,9 @@ commands(
     library.opening_glissandi(
         -3,
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([0, 1, 4, 6], 7), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([0, 1, 4, 6], 7), (None, -1)
+            ),
         ),
     ),
 )

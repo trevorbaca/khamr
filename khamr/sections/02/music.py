@@ -246,7 +246,9 @@ commands(
     library.opening_glissandi(
         -3,
         rmakers.repeat_tie(
-            baca.selectors.leaves_in_get_tuplets(([0, 1, 4, 6], 7), (1, None)),
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([0, 1, 4, 6], 7), (1, None)
+            ),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
