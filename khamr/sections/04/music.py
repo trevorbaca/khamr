@@ -73,7 +73,7 @@ commands(
     ("gt", (1, 7)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
-            baca.selectors.lts((None, -1)),
+            lambda _: baca.select.lts(_)[:-1],
         ),
     ),
 )
@@ -82,7 +82,7 @@ commands(
     ("gt", (8, 15)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
-            baca.selectors.lts((1, None)),
+            lambda _: baca.select.lts(_)[1:],
         ),
     ),
 )
@@ -96,7 +96,7 @@ commands(
     ("pf", (1, 7)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
-            baca.selectors.lts((None, -1)),
+            lambda _: baca.select.lts(_)[:-1],
         ),
     ),
 )
@@ -105,7 +105,7 @@ commands(
     ("pf", (8, 15)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(
-            baca.selectors.lts((1, None)),
+            lambda _: baca.select.lts(_)[1:],
         ),
     ),
 )
