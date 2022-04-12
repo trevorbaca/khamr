@@ -406,7 +406,9 @@ def halo_hairpins():
     return baca.chunk(*commands)
 
 
-def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf(0)):
+def margin_markup(
+    key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
+):
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
         margin_markup,

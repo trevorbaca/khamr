@@ -33,23 +33,23 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "42",
-        selector=baca.selectors.leaf(1 - 1),
+        selector=lambda _: abjad.select.leaf(_, 1 - 1),
     ),
     baca.metronome_mark(
         baca.Accelerando(),
-        selector=baca.selectors.leaf(1 - 1),
+        selector=lambda _: abjad.select.leaf(_, 1 - 1),
     ),
     baca.metronome_mark(
         "84",
-        selector=baca.selectors.leaf(5 - 1),
+        selector=lambda _: abjad.select.leaf(_, 5 - 1),
     ),
     baca.metronome_mark(
         "42",
-        selector=baca.selectors.leaf(9 - 1),
+        selector=lambda _: abjad.select.leaf(_, 9 - 1),
     ),
     baca.metronome_mark(
         "126",
-        selector=baca.selectors.leaf(21 - 1),
+        selector=lambda _: abjad.select.leaf(_, 21 - 1),
     ),
     baca.rehearsal_mark("A"),
 )
