@@ -133,7 +133,7 @@ commands(
     ("cl", (32, 37)),
     baca.instrument(library.instruments["BassClarinet"]),
     baca.make_repeat_tied_notes(
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
 )
 
@@ -245,13 +245,13 @@ commands(
 
 commands(
     ("cb", [(30, 31), (32, 37)]),
-    baca.make_repeat_tied_notes(rmakers.force_rest(baca.selectors.lt(-1))),
+    baca.make_repeat_tied_notes(rmakers.force_rest(lambda _: baca.select.lt(_, -1))),
 )
 
 commands(
     ("fl", (1, 2)),
     baca.pitch("B5"),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
@@ -337,7 +337,7 @@ commands(
     ("gt", (10, 29)),
     baca.dynamic("fff"),
     baca.pitch("Ab4"),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
@@ -363,12 +363,12 @@ commands(
     ("perc", (5, 9)),
     baca.dynamic("pp"),
     baca.markup(r"\baca-bass-drum-markup"),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
     ("perc", (10, 29)),
-    baca.double_staccato(selector=baca.selectors.pheads()),
+    baca.double_staccato(selector=lambda _: baca.select.pheads(_)),
     baca.dynamic("fff"),
     baca.markup(r"\baca-castanets-markup"),
 )
@@ -377,7 +377,7 @@ commands(
     ("perc", (30, 37)),
     baca.dynamic("ppp"),
     baca.markup(r"\baca-bass-drum-markup"),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(

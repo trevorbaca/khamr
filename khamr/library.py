@@ -487,7 +487,7 @@ def silent_first_division():
         rmakers.repeat_tie(
             lambda _: baca.select.ptails(_)[1:],
         ),
-        rmakers.force_rest(baca.selectors.note(0)),
+        rmakers.force_rest(lambda _: abjad.select.note(_, 0)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,

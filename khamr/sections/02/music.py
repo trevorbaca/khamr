@@ -142,7 +142,7 @@ commands(
 commands(
     ("gt", (5, 14)),
     baca.make_repeat_tied_notes(
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
 )
 
@@ -151,7 +151,7 @@ commands(
 commands(
     ("pf", (1, 14)),
     baca.make_repeat_tied_notes(
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
 )
 
@@ -235,7 +235,7 @@ commands(
 commands(
     ("vc", (9, 14)),
     baca.make_repeat_tied_notes(
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
 )
 
@@ -287,12 +287,12 @@ commands(
     baca.instrument(library.instruments["Flute"]),
     baca.markup(r"\baca-fluttertongue-markup"),
     baca.pitch("B5"),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
     ("ob", (1, 8)),
-    baca.flageolet(selector=baca.selectors.pheads()),
+    baca.flageolet(selector=lambda _: baca.select.pheads(_)),
     baca.pitch("<A4 E5>"),
 )
 
@@ -359,7 +359,7 @@ commands(
     baca.ottava_bassa(),
     baca.pitch("<A0 B0 C1 D1 E1 F1 G1 A1>"),
     baca.staff_lines(5),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
@@ -373,7 +373,7 @@ commands(
 
 commands(
     ("perc", (1, 14)),
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.pitches("C4 C4 Ab5 C4 C4 C4", allow_repeats=True),
     baca.stem_down(),
     library.MarimbaHitCommand(indices=[2]),
@@ -403,7 +403,7 @@ commands(
 
 commands(
     ("vn", (1, 14)),
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.new(
         baca.trill_spanner(alteration="m2"),
         map=lambda _: baca.select.plts(_),
@@ -434,7 +434,7 @@ commands(
 
 commands(
     ("va", (1, 14)),
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.new(
         baca.trill_spanner(alteration="m2"),
         map=lambda _: baca.select.plts(_),
@@ -450,7 +450,7 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.new(
         baca.trill_spanner(alteration="m2"),
         map=lambda _: baca.select.plts(_),

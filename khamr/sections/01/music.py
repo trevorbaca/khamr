@@ -343,7 +343,7 @@ commands(
     ("ob", (37, 44)),
     baca.clef("treble"),
     baca.dynamic("pp"),
-    baca.flageolet(selector=baca.selectors.pheads()),
+    baca.flageolet(selector=lambda _: baca.select.pheads(_)),
     baca.markup(
         r"\baca-put-reed-back-in-markup",
         selector=baca.selectors.leaf(0),
@@ -406,7 +406,7 @@ commands(
 
 commands(
     ("pf", (1, 24)),
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.clef("percussion"),
     baca.dynamic("mf"),
     baca.markup(r"\khamr-strike-lowest-strings"),
@@ -435,7 +435,7 @@ commands(
 
 commands(
     "perc",
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.dynamic("mp"),
     baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
     baca.staff_lines(1),
@@ -546,7 +546,7 @@ commands(
 
 commands(
     (["vn", "va", "vc"], (37, 44)),
-    baca.accent(selector=baca.selectors.pheads()),
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
 )
 
 if __name__ == "__main__":
