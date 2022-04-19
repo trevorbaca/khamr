@@ -53,101 +53,16 @@ commands(
 
 commands(
     "fl",
-    baca.suite(
-        library.margin_markup("B. fl."),
-        baca.start_markup(["Bass", "flute"], hcenter_in=16),
-    ),
-)
-
-commands(
-    "ob",
-    baca.suite(
-        library.margin_markup("Eng. hn."),
-        baca.start_markup(["English", "horn"], hcenter_in=16),
-    ),
-)
-
-commands(
-    "cl",
-    baca.suite(
-        library.margin_markup("B. cl."),
-        baca.start_markup(["Bass", "clarinet"], hcenter_in=16),
-    ),
-)
-
-commands(
-    "sax",
-    baca.suite(
-        library.margin_markup("Bar. sax."),
-        baca.start_markup(["Baritone", "saxophone"], hcenter_in=16),
-    ),
-)
-
-commands(
-    "gt",
-    baca.suite(
-        library.margin_markup("Gt."),
-        baca.start_markup("Guitar", hcenter_in=16),
-    ),
-)
-
-commands(
-    "pf",
-    baca.suite(
-        library.margin_markup("Pf."),
-        baca.start_markup("Piano", hcenter_in=16),
-    ),
-)
-
-commands(
-    "perc",
-    baca.suite(
-        library.margin_markup("Perc."),
-        baca.start_markup("Percussion", hcenter_in=16),
-    ),
-)
-
-commands(
-    "vn",
-    baca.suite(
-        library.margin_markup("Vn."),
-        baca.start_markup("Violin", hcenter_in=16),
-    ),
-)
-
-commands(
-    "va",
-    baca.suite(
-        library.margin_markup("Va."),
-        baca.start_markup("Viola", hcenter_in=16),
-    ),
-)
-
-commands(
-    "vc",
-    baca.suite(
-        library.margin_markup("Vc."),
-        baca.start_markup("Cello", hcenter_in=16),
-    ),
-)
-
-commands(
-    "cb",
-    baca.suite(
-        library.margin_markup("Cb."),
-        baca.start_markup("Contrabass", hcenter_in=16),
-    ),
-)
-
-### end margin markup ###
-
-commands(
-    "fl",
     library.fused_wind(
         [10, 10, 6, 10, 8, 6],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([2, 5], 6)),
         ),
+    ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("B. fl."),
+        baca.start_markup(["Bass", "flute"], hcenter_in=16),
     ),
 )
 
@@ -159,6 +74,11 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 4], 6)),
         ),
     ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Eng. hn."),
+        baca.start_markup(["English", "horn"], hcenter_in=16),
+    ),
 )
 
 commands(
@@ -169,6 +89,11 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
     ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("B. cl."),
+        baca.start_markup(["Bass", "clarinet"], hcenter_in=16),
+    ),
 )
 
 commands(
@@ -178,6 +103,11 @@ commands(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
+    ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Bar. sax."),
+        baca.start_markup(["Baritone", "saxophone"], hcenter_in=16),
     ),
 )
 
@@ -196,6 +126,11 @@ commands(
         rmakers.tie(
             lambda _: abjad.select.leaves(abjad.select.tuplet(_, 0))[:-1],
         ),
+    ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Gt."),
+        baca.start_markup("Guitar", hcenter_in=16),
     ),
 )
 
@@ -216,6 +151,11 @@ commands(
 commands(
     ("pf", (1, 24)),
     library.fused_expanse([20, 8, 20, 4]),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Pf."),
+        baca.start_markup("Piano", hcenter_in=16),
+    ),
 )
 
 commands(
@@ -240,6 +180,11 @@ commands(
 commands(
     "perc",
     library.fused_expanse([20, 8, 20, 4]),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Perc."),
+        baca.start_markup("Percussion", hcenter_in=16),
+    ),
 )
 
 commands(
@@ -251,6 +196,11 @@ commands(
                 _, ([0, 1, 2, 5], 7), (1, None)
             ),
         ),
+    ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Vn."),
+        baca.start_markup("Violin", hcenter_in=16),
     ),
 )
 
@@ -269,6 +219,11 @@ commands(
             ),
         ),
     ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Va."),
+        baca.start_markup("Viola", hcenter_in=16),
+    ),
 )
 
 commands(
@@ -286,6 +241,11 @@ commands(
             ),
         ),
     ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Vc."),
+        baca.start_markup("Cello", hcenter_in=16),
+    ),
 )
 
 commands(
@@ -302,6 +262,11 @@ commands(
                 _, ([0, 1, 4, 6], 7), (None, -1)
             ),
         ),
+    ),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Cb."),
+        baca.start_markup("Contrabass", hcenter_in=16),
     ),
 )
 
