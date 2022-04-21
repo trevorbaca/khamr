@@ -87,6 +87,7 @@ commands(
             lambda _: baca.select.tuplets(_, ([2, 5], 6)),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 # ob
@@ -99,6 +100,7 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 4], 6)),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 # cl
@@ -114,6 +116,7 @@ commands(
             lambda _: baca.select.tuplet(_, -1),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 # sax
@@ -126,6 +129,7 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 # gt
@@ -137,6 +141,7 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -153,6 +158,7 @@ commands(
     baca.make_repeat_tied_notes(
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -175,6 +181,7 @@ commands(
 commands(
     ("perc", (1, 14)),
     library.fused_expanse([8, 20, 4, 20]),
+    baca.reapply_persistent_indicators(),
 )
 
 indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
@@ -206,6 +213,7 @@ commands(
             lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 # va
@@ -218,6 +226,7 @@ commands(
             lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 # vc
@@ -230,6 +239,7 @@ commands(
             lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -254,6 +264,7 @@ commands(
             lambda _: baca.select.tuplet(_, -1),
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 winds_guitar_strings = ["fl", "ob", "cl", "sax", "gt", "vn", "va", "vc", "cb"]
