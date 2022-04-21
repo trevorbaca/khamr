@@ -52,21 +52,25 @@ commands(
 commands(
     ("fl", (1, 15)),
     library.fused_wind([8], denominator=16),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("ob", (1, 15)),
     library.fused_wind([10], denominator=16),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("cl", (1, 15)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("sax", (1, 15)),
     library.fused_wind([12], denominator=16),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -76,6 +80,7 @@ commands(
             lambda _: baca.select.lts(_)[:-1],
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -99,6 +104,7 @@ commands(
             lambda _: baca.select.lts(_)[:-1],
         ),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -120,6 +126,7 @@ commands(
     baca.make_repeat_tied_notes(
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -129,26 +136,30 @@ commands(
 
 commands(
     ("vn", (1, 15)),
-    baca.clef("percussion"),
     baca.make_repeated_duration_notes([(7, 4)]),
+    baca.reapply_persistent_indicators(),
+    baca.clef("percussion"),
 )
 
 commands(
     ("va", (1, 15)),
-    baca.clef("percussion"),
     baca.make_repeated_duration_notes([(6, 4)]),
+    baca.reapply_persistent_indicators(),
+    baca.clef("percussion"),
 )
 
 commands(
     ("vc", (1, 15)),
-    baca.clef("percussion"),
     baca.make_repeated_duration_notes([(5, 4)]),
+    baca.reapply_persistent_indicators(),
+    baca.clef("percussion"),
 )
 
 commands(
     ("cb", (1, 15)),
-    baca.clef("percussion"),
     baca.make_repeated_duration_notes([(4, 4)]),
+    baca.reapply_persistent_indicators(),
+    baca.clef("percussion"),
 )
 
 commands(

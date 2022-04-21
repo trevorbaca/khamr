@@ -84,6 +84,7 @@ def ptails_in_get_tuplets(pattern, pair):
 commands(
     ("fl", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -99,6 +100,7 @@ commands(
 commands(
     ("ob", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -121,6 +123,7 @@ commands(
 commands(
     ("cl", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -140,6 +143,7 @@ commands(
 commands(
     ("sax", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -156,6 +160,7 @@ commands(
 commands(
     ("gt", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -166,11 +171,18 @@ commands(
 commands(
     ("pf", (1, 9)),
     library.current([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("pf", (10, 29)),
     library.aviary((9, 16), extra_counts=[2]),
+)
+
+commands(
+    ("perc", (1, 4)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -196,6 +208,7 @@ commands(
 commands(
     ("vn", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -211,6 +224,7 @@ commands(
 commands(
     ("va", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -226,6 +240,7 @@ commands(
 commands(
     ("vc", (1, 2)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -241,6 +256,10 @@ commands(
 commands(
     ("cb", [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]),
     baca.make_repeat_tied_notes(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
 )
 
 commands(
