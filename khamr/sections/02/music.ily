@@ -2189,12 +2189,12 @@ segment.02.Flute.Music.Voice = {
       %! baca.dynamic()
     \fff
     % MARKUP:
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \baca-fluttertongue-markup
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "(“Flute”)"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \baca-fluttertongue-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
