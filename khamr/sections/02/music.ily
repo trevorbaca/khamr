@@ -1,8 +1,12 @@
 %! baca.path.extern()
 segment.02.Global.Skips = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 1]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -16,9 +20,12 @@ segment.02.Global.Skips = {
     \time 2/4
     %! baca._make_global_skips(1)
     s1 * 1/2
+    % AFTER:
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "A" #10
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "1"
@@ -64,11 +71,15 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 2]
     %! baca._make_global_skips(1)
     s1 * 1/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -78,6 +89,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "2"
@@ -96,9 +108,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 3]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -108,6 +124,8 @@ segment.02.Global.Skips = {
     \time 6/4
     %! baca._make_global_skips(1)
     s1 * 3/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -117,6 +135,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "3"
@@ -135,9 +154,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 4]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -147,6 +170,8 @@ segment.02.Global.Skips = {
     \time 3/4
     %! baca._make_global_skips(1)
     s1 * 3/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -156,6 +181,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "4"
@@ -174,9 +200,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 5]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -186,6 +216,8 @@ segment.02.Global.Skips = {
     \time 4/4
     %! baca._make_global_skips(1)
     s1 * 1
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -200,6 +232,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "5"
@@ -245,9 +278,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 6]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -257,6 +294,8 @@ segment.02.Global.Skips = {
     \time 6/8
     %! baca._make_global_skips(1)
     s1 * 3/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -266,6 +305,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "6"
@@ -284,9 +324,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 7]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -296,6 +340,8 @@ segment.02.Global.Skips = {
     \time 4/4
     %! baca._make_global_skips(1)
     s1 * 1
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -305,6 +351,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "7"
@@ -323,9 +370,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 8]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -335,6 +386,8 @@ segment.02.Global.Skips = {
     \time 5/4
     %! baca._make_global_skips(1)
     s1 * 5/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -344,6 +397,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "8"
@@ -362,9 +416,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 9]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -374,6 +432,8 @@ segment.02.Global.Skips = {
     \time 4/4
     %! baca._make_global_skips(1)
     s1 * 1
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -388,6 +448,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "9"
@@ -433,9 +494,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 10]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -445,6 +510,8 @@ segment.02.Global.Skips = {
     \time 3/4
     %! baca._make_global_skips(1)
     s1 * 3/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -454,6 +521,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "10"
@@ -472,9 +540,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 11]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -484,6 +556,8 @@ segment.02.Global.Skips = {
     \time 4/4
     %! baca._make_global_skips(1)
     s1 * 1
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -493,6 +567,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "11"
@@ -511,9 +586,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 12]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -523,6 +602,8 @@ segment.02.Global.Skips = {
     \time 5/4
     %! baca._make_global_skips(1)
     s1 * 5/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -532,6 +613,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "12"
@@ -550,9 +632,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 13]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -562,6 +648,8 @@ segment.02.Global.Skips = {
     \time 6/8
     %! baca._make_global_skips(1)
     s1 * 3/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -571,6 +659,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "13"
@@ -589,9 +678,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 14]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -601,6 +694,8 @@ segment.02.Global.Skips = {
     \time 2/4
     %! baca._make_global_skips(1)
     s1 * 1/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -610,6 +705,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "14"
@@ -628,9 +724,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 15]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -640,6 +740,8 @@ segment.02.Global.Skips = {
     \time 6/4
     %! baca._make_global_skips(1)
     s1 * 3/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -652,6 +754,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "15"
@@ -676,9 +779,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 16]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -688,6 +795,8 @@ segment.02.Global.Skips = {
     \time 2/4
     %! baca._make_global_skips(1)
     s1 * 1/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -697,6 +806,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "16"
@@ -715,9 +825,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 17]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -727,6 +841,8 @@ segment.02.Global.Skips = {
     \time 5/4
     %! baca._make_global_skips(1)
     s1 * 5/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -736,6 +852,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "17"
@@ -754,9 +871,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 18]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -766,6 +887,8 @@ segment.02.Global.Skips = {
     \time 6/8
     %! baca._make_global_skips(1)
     s1 * 3/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -775,6 +898,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "18"
@@ -793,9 +917,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 19]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -805,6 +933,8 @@ segment.02.Global.Skips = {
     \time 4/4
     %! baca._make_global_skips(1)
     s1 * 1
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -814,6 +944,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "19"
@@ -832,9 +963,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 20]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -844,6 +979,8 @@ segment.02.Global.Skips = {
     \time 6/4
     %! baca._make_global_skips(1)
     s1 * 3/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -853,6 +990,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "20"
@@ -871,9 +1009,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 21]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -883,6 +1025,8 @@ segment.02.Global.Skips = {
     \time 2/4
     %! baca._make_global_skips(1)
     s1 * 1/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -897,6 +1041,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "21"
@@ -942,11 +1087,15 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 22]
     %! baca._make_global_skips(1)
     s1 * 1/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -956,6 +1105,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "22"
@@ -974,9 +1124,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 23]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -986,6 +1140,8 @@ segment.02.Global.Skips = {
     \time 3/4
     %! baca._make_global_skips(1)
     s1 * 3/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -995,6 +1151,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "23"
@@ -1013,9 +1170,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 24]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -1025,6 +1186,8 @@ segment.02.Global.Skips = {
     \time 4/4
     %! baca._make_global_skips(1)
     s1 * 1
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -1034,6 +1197,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "24"
@@ -1052,9 +1216,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 25]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -1064,6 +1232,8 @@ segment.02.Global.Skips = {
     \time 2/4
     %! baca._make_global_skips(1)
     s1 * 1/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -1073,6 +1243,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "25"
@@ -1091,11 +1262,15 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 26]
     %! baca._make_global_skips(1)
     s1 * 1/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -1105,6 +1280,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "26"
@@ -1123,9 +1299,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 27]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -1135,6 +1315,8 @@ segment.02.Global.Skips = {
     \time 6/4
     %! baca._make_global_skips(1)
     s1 * 3/2
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -1144,6 +1326,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "27"
@@ -1162,9 +1345,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 28]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -1174,6 +1361,8 @@ segment.02.Global.Skips = {
     \time 4/4
     %! baca._make_global_skips(1)
     s1 * 1
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -1183,6 +1372,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "28"
@@ -1201,9 +1391,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 29]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -1213,6 +1407,8 @@ segment.02.Global.Skips = {
     \time 3/4
     %! baca._make_global_skips(1)
     s1 * 3/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -1222,6 +1418,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "29"
@@ -1240,9 +1437,13 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 30]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -1252,6 +1453,8 @@ segment.02.Global.Skips = {
     \time 6/8
     %! baca._make_global_skips(1)
     s1 * 3/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     \bacaStopTextSpanLMN
@@ -1261,6 +1464,7 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     - \baca-start-lmn-left-only "30"
@@ -1279,11 +1483,15 @@ segment.02.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! PHANTOM
     %! baca._comment_measure_numbers()
     %! baca._style_phantom_measures(1)
     % [Global_Skips measure 31]
+    % OPENING:
+    % COMMANDS:
     %! PHANTOM
     %! baca._style_phantom_measures(2)
     \baca-time-signature-transparent
@@ -1296,6 +1504,8 @@ segment.02.Global.Skips = {
     %! PHANTOM
     %! baca._make_global_skips(3)
     s1 * 1/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! PHANTOM
     %! baca._label_measure_numbers()
@@ -1321,13 +1531,17 @@ segment.02.Global.Skips = {
     %! baca._label_clock_time()
     %! baca._style_phantom_measures(1)
     %@% \bacaStopTextSpanCT
+    % COMMANDS:
     %! PHANTOM
     %! baca._style_phantom_measures(3)
     \once \override Score.BarLine.transparent = ##t
     %! PHANTOM
     %! baca._style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! baca.make_global_context()
 %! baca.path.extern()
 }
@@ -1335,156 +1549,218 @@ segment.02.Global.Skips = {
 
 %! baca.path.extern()
 segment.02.Global.Rests = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 1]
     %! baca._make_global_rests(1)
     R1 * 1/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 2]
     %! baca._make_global_rests(1)
     R1 * 1/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 3]
     %! baca._make_global_rests(1)
     R1 * 3/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 4]
     %! baca._make_global_rests(1)
     R1 * 3/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 5]
     %! baca._make_global_rests(1)
     R1 * 1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 6]
     %! baca._make_global_rests(1)
     R1 * 3/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 7]
     %! baca._make_global_rests(1)
     R1 * 1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 8]
     %! baca._make_global_rests(1)
     R1 * 5/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 9]
     %! baca._make_global_rests(1)
     R1 * 1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 10]
     %! baca._make_global_rests(1)
     R1 * 3/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 11]
     %! baca._make_global_rests(1)
     R1 * 1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 12]
     %! baca._make_global_rests(1)
     R1 * 5/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 13]
     %! baca._make_global_rests(1)
     R1 * 3/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 14]
     %! baca._make_global_rests(1)
     R1 * 1/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 15]
     %! baca._make_global_rests(1)
     R1 * 3/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 16]
     %! baca._make_global_rests(1)
     R1 * 1/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 17]
     %! baca._make_global_rests(1)
     R1 * 5/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 18]
     %! baca._make_global_rests(1)
     R1 * 3/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 19]
     %! baca._make_global_rests(1)
     R1 * 1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 20]
     %! baca._make_global_rests(1)
     R1 * 3/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 21]
     %! baca._make_global_rests(1)
     R1 * 1/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 22]
     %! baca._make_global_rests(1)
     R1 * 1/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 23]
     %! baca._make_global_rests(1)
     R1 * 3/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 24]
     %! baca._make_global_rests(1)
     R1 * 1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 25]
     %! baca._make_global_rests(1)
     R1 * 1/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 26]
     %! baca._make_global_rests(1)
     R1 * 1/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 27]
     %! baca._make_global_rests(1)
     R1 * 3/2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 28]
     %! baca._make_global_rests(1)
     R1 * 1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 29]
     %! baca._make_global_rests(1)
     R1 * 3/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 30]
     %! baca._make_global_rests(1)
     R1 * 3/4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! PHANTOM
     %! baca._comment_measure_numbers()
@@ -1493,7 +1769,10 @@ segment.02.Global.Rests = {
     %! PHANTOM
     %! baca._make_global_rests(2)
     R1 * 1/4
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! baca.make_global_context()
 %! baca.path.extern()
 }
@@ -1501,9 +1780,13 @@ segment.02.Global.Rests = {
 
 %! baca.path.extern()
 segment.02.Flute.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "B. fl."
     %! -PARTS
@@ -1511,6 +1794,8 @@ segment.02.Flute.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. fl."
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -1530,6 +1815,8 @@ segment.02.Flute.Music.Voice = {
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     bf''!2
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -1544,12 +1831,14 @@ segment.02.Flute.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.hairpin()
     \mp
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“BassFlute”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"
+    % SPANNER_STARTS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -1568,10 +1857,13 @@ segment.02.Flute.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % TRILL_SPANNER_STARTS:
     %! SPANNER_START
     %! baca.SpannerIndicatorCommand._call(2)
     %! baca.trill_spanner()
     \startTrillSpan
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1584,77 +1876,114 @@ segment.02.Flute.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. fl."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 2]
     bf''2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 3]
     bf''1.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 4]
     bf''4.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r8
+    % AFTER:
+    % SPANNER_STOPS:
     %! SPANNER_STOP
     %! baca.SpannerIndicatorCommand._call(4)
     %! baca.trill_spanner()
     \stopTrillSpan
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     bf''!4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % TRILL_SPANNER_STARTS:
     %! SPANNER_START
     %! baca.SpannerIndicatorCommand._call(2)
     %! baca.trill_spanner()
     \startTrillSpan
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 5]
     bf''1
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 6]
     bf''2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 7]
     %! khamr.fused_wind()
     bf''2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     bf''8
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -1669,31 +1998,50 @@ segment.02.Flute.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.hairpin()
     \pp
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r4.
+    % AFTER:
+    % SPANNER_STOPS:
     %! SPANNER_STOP
     %! baca.SpannerIndicatorCommand._call(4)
     %! baca.trill_spanner()
     \stopTrillSpan
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 8]
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Flute_Music_Voice"
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Flute_Music_Voice measure 9]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
@@ -1706,19 +2054,29 @@ segment.02.Flute.Music.Voice = {
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Flute_Rest_Voice"
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Flute_Rest_Voice measure 9]
@@ -1726,65 +2084,98 @@ segment.02.Flute.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! REST_VOICE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 10]
     %! baca._make_measure_silences()
     R1 * 3/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 11]
     %! baca._make_measure_silences()
     R1 * 1
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 12]
     %! baca._make_measure_silences()
     R1 * 5/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"5" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 13]
     %! baca._make_measure_silences()
     R1 * 3/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 14]
     %! baca._make_measure_silences()
     R1 * 1/2
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"2"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 15]
     %! khamr.alternate_divisions()
     b''1.
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -1797,205 +2188,288 @@ segment.02.Flute.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     ^ \baca-fluttertongue-markup
     %! EXPLICIT_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "(“Flute”)"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 17]
     b''2.
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     b''2
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 19]
     %! khamr.alternate_divisions()
     b''1
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.silent_first_division()
     b''4
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 22]
     %! khamr.silent_first_division()
     b''2
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 23]
     %! khamr.silent_first_division()
     b''2.
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 24]
     %! khamr.silent_first_division()
     b''1
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 25]
     %! khamr.silent_first_division()
     b''2
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 26]
     %! khamr.silent_first_division()
     b''2
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 27]
     %! khamr.silent_first_division()
     b''1.
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 28]
     %! khamr.silent_first_division()
     b''1
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 29]
     %! khamr.silent_first_division()
     b''2.
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 30]
     %! khamr.silent_first_division()
     b''2.
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Flute_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Flute_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -2013,6 +2487,8 @@ segment.02.Flute.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -2020,22 +2496,32 @@ segment.02.Flute.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Flute_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Flute_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -2056,6 +2542,8 @@ segment.02.Flute.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -2063,15 +2551,24 @@ segment.02.Flute.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -2079,19 +2576,28 @@ segment.02.Flute.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.Flute.Music.Staff = <<
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.make_global_context()
     \context GlobalRests = "Global_Rests"
     %! baca.make_global_context()
     %! baca.path.extern()
     { \segment.02.Global.Rests }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Flute_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Flute.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 >>
@@ -2099,9 +2605,13 @@ segment.02.Flute.Music.Staff = <<
 
 %! baca.path.extern()
 segment.02.Oboe.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Eng. hn."
     %! -PARTS
@@ -2121,6 +2631,8 @@ segment.02.Oboe.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -2143,6 +2655,8 @@ segment.02.Oboe.Music.Voice = {
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     <e'' b''>2
+    % AFTER:
+    % ARTICULATIONS:
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! REAPPLIED_DYNAMIC
@@ -2156,16 +2670,20 @@ segment.02.Oboe.Music.Voice = {
     %! baca.IndicatorCommand._call()
     %! baca.flageolet()
     - \flageolet
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2178,84 +2696,131 @@ segment.02.Oboe.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 2]
     <e'' b''>2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 3]
     <e'' b''>1.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 4]
     <e'' b''>2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 5]
     <e'' b''>8
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r2..
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 6]
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 7]
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <e'' b''>2.
+    % AFTER:
+    % ARTICULATIONS:
     %! baca.IndicatorCommand._call()
     %! baca.flageolet()
     - \flageolet
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 8]
     <e'' b''>2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <e'' b''>4.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Oboe_Music_Voice"
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Oboe_Music_Voice measure 9]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
@@ -2268,19 +2833,29 @@ segment.02.Oboe.Music.Voice = {
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Oboe_Rest_Voice"
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Oboe_Rest_Voice measure 9]
@@ -2288,62 +2863,94 @@ segment.02.Oboe.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! REST_VOICE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 10]
     %! baca._make_measure_silences()
     R1 * 3/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 11]
     %! baca._make_measure_silences()
     R1 * 1
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 12]
     %! baca._make_measure_silences()
     R1 * 5/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"5" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 13]
     %! baca._make_measure_silences()
     R1 * 3/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 14]
     %! baca._make_measure_silences()
     R1 * 1/2
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"2"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 15]
     %! khamr.alternate_divisions()
     ds'!1.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -2356,160 +2963,228 @@ segment.02.Oboe.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 17]
     ds'!2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     ds'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 19]
     %! khamr.alternate_divisions()
     ds'!1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.silent_first_division()
     ds'!4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 22]
     %! khamr.silent_first_division()
     ds'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 23]
     %! khamr.silent_first_division()
     ds'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 24]
     %! khamr.silent_first_division()
     ds'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 25]
     %! khamr.silent_first_division()
     ds'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 26]
     %! khamr.silent_first_division()
     ds'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 27]
     %! khamr.silent_first_division()
     ds'1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 28]
     %! khamr.silent_first_division()
     ds'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 29]
     %! khamr.silent_first_division()
     ds'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 30]
     %! khamr.silent_first_division()
     ds'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Oboe_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Oboe_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -2527,6 +3202,8 @@ segment.02.Oboe.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -2534,22 +3211,32 @@ segment.02.Oboe.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Oboe_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Oboe_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -2570,6 +3257,8 @@ segment.02.Oboe.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -2577,15 +3266,24 @@ segment.02.Oboe.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -2593,13 +3291,19 @@ segment.02.Oboe.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.OboeMusicStaff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Oboe_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Oboe.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -2607,9 +3311,13 @@ segment.02.OboeMusicStaff = {
 
 %! baca.path.extern()
 segment.02.Clarinet.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "B. cl."
     %! -PARTS
@@ -2617,6 +3325,8 @@ segment.02.Clarinet.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -2636,6 +3346,8 @@ segment.02.Clarinet.Music.Voice = {
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     a2
+    % AFTER:
+    % ARTICULATIONS:
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! REAPPLIED_DYNAMIC
@@ -2646,16 +3358,20 @@ segment.02.Clarinet.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \pp
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“B. cl.”]"
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2668,139 +3384,215 @@ segment.02.Clarinet.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 2]
     a2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 3]
     a2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     a2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     a8
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 4]
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 5]
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     a4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 6]
     a2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 7]
     a1
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 8]
     %! khamr.fused_wind()
     a2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     a8
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 9]
     r1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 10]
     a2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 11]
     a1
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 12]
     a2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     a8
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 13]
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 14]
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 15]
     %! khamr.alternate_divisions()
     gs!1.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -2813,160 +3605,228 @@ segment.02.Clarinet.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 17]
     gs!2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     gs2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 19]
     %! khamr.alternate_divisions()
     gs!1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.silent_first_division()
     gs!4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 22]
     %! khamr.silent_first_division()
     gs2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 23]
     %! khamr.silent_first_division()
     gs2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 24]
     %! khamr.silent_first_division()
     gs1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 25]
     %! khamr.silent_first_division()
     gs2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 26]
     %! khamr.silent_first_division()
     gs2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 27]
     %! khamr.silent_first_division()
     gs1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 28]
     %! khamr.silent_first_division()
     gs1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 29]
     %! khamr.silent_first_division()
     gs2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 30]
     %! khamr.silent_first_division()
     gs2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Clarinet_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Clarinet_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -2984,6 +3844,8 @@ segment.02.Clarinet.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -2991,22 +3853,32 @@ segment.02.Clarinet.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Clarinet_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Clarinet_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -3027,6 +3899,8 @@ segment.02.Clarinet.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -3034,15 +3908,24 @@ segment.02.Clarinet.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -3050,13 +3933,19 @@ segment.02.Clarinet.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.Clarinet.Music.Staff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Clarinet_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Clarinet.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -3064,9 +3953,13 @@ segment.02.Clarinet.Music.Staff = {
 
 %! baca.path.extern()
 segment.02.Saxophone.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Bar. sax."
     %! -PARTS
@@ -3074,6 +3967,8 @@ segment.02.Saxophone.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bar. sax."
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -3093,6 +3988,8 @@ segment.02.Saxophone.Music.Voice = {
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     <d'' eqs''!>2
+    % AFTER:
+    % ARTICULATIONS:
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! REAPPLIED_DYNAMIC
@@ -3103,16 +4000,20 @@ segment.02.Saxophone.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \p
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“BaritoneSaxophone”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Bar. sax.”]"
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3125,88 +4026,138 @@ segment.02.Saxophone.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bar. sax."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 2]
     <d'' eqs''>2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 3]
     <d'' eqs''>1.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 4]
     <d'' eqs''>2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 5]
     <d'' eqs''>2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <d'' eqs''>8
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r4.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 6]
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 7]
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <d'' eqs''!>4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 8]
     <d'' eqs''>2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <d'' eqs''>4.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.fused_wind()
     r8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Saxophone_Music_Voice"
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Saxophone_Music_Voice measure 9]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
@@ -3219,19 +4170,29 @@ segment.02.Saxophone.Music.Voice = {
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Saxophone_Rest_Voice"
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Saxophone_Rest_Voice measure 9]
@@ -3239,62 +4200,94 @@ segment.02.Saxophone.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! REST_VOICE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 10]
     %! baca._make_measure_silences()
     R1 * 3/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 11]
     %! baca._make_measure_silences()
     R1 * 1
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 12]
     %! baca._make_measure_silences()
     R1 * 5/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"5" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 13]
     %! baca._make_measure_silences()
     R1 * 3/4
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 14]
     %! baca._make_measure_silences()
     R1 * 1/2
+    % AFTER:
+    % MARKUP:
     %! DURATION_MULTIPLIER
     %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"2"
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 15]
     %! khamr.alternate_divisions()
     es'!1.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -3307,160 +4300,228 @@ segment.02.Saxophone.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 17]
     es'!2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     es'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 19]
     %! khamr.alternate_divisions()
     es'!1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.silent_first_division()
     es'!4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 22]
     %! khamr.silent_first_division()
     es'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 23]
     %! khamr.silent_first_division()
     es'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 24]
     %! khamr.silent_first_division()
     es'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 25]
     %! khamr.silent_first_division()
     es'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 26]
     %! khamr.silent_first_division()
     es'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 27]
     %! khamr.silent_first_division()
     es'1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 28]
     %! khamr.silent_first_division()
     es'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 29]
     %! khamr.silent_first_division()
     es'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 30]
     %! khamr.silent_first_division()
     es'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Saxophone_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Saxophone_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -3478,6 +4539,8 @@ segment.02.Saxophone.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -3485,22 +4548,32 @@ segment.02.Saxophone.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Saxophone_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Saxophone_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -3521,6 +4594,8 @@ segment.02.Saxophone.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -3528,15 +4603,24 @@ segment.02.Saxophone.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -3544,13 +4628,19 @@ segment.02.Saxophone.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.Saxophone.Music.Staff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Saxophone_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Saxophone.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -3558,14 +4648,21 @@ segment.02.Saxophone.Music.Staff = {
 
 %! baca.path.extern()
 segment.02.Guitar.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.guitar_isolata()
     \times 2/3
     %! khamr.guitar_isolata()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Guitar_Music_Voice measure 1]
+        % BEFORE:
+        % COMMANDS:
         %! baca._clone_segment_initial_short_instrument_name()
         \set Staff.instrumentName = \markup \hcenter-in #16 "Gt."
         %! -PARTS
@@ -3573,6 +4670,8 @@ segment.02.Guitar.Music.Voice = {
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Gt."
+        % OPENING:
+        % COMMANDS:
         %! REAPPLIED_CLEF
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
@@ -3593,6 +4692,8 @@ segment.02.Guitar.Music.Voice = {
         \set Staff.forceClef = ##t
         %! khamr.guitar_isolata()
         r8
+        % AFTER:
+        % ARTICULATIONS:
         %! REAPPLIED_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! REAPPLIED_DYNAMIC
@@ -3603,12 +4704,15 @@ segment.02.Guitar.Music.Voice = {
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         \f
+        % MARKUP:
         %! REAPPLIED_INSTRUMENT_ALERT
         %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“Guitar”)"
         %! REAPPLIED_MARGIN_MARKUP_ALERT
         %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "[“Gt.”]"
+        % ABSOLUTE_AFTER:
+        % COMMANDS:
         %! REAPPLIED_CLEF_REDRAW_COLOR
         %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3621,78 +4725,125 @@ segment.02.Guitar.Music.Voice = {
         %! baca._set_status_tag()
         %! baca.treat_persistent_wrapper(3)
         \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Gt."
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % COMMANDS:
         %! baca.OverrideCommand._call(1)
         %! baca.note_head_style_cross()
         \override NoteHead.style = #'cross
         %! khamr.guitar_isolata()
         d''8
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.guitar_isolata()
         r8
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.guitar_isolata()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.guitar_isolata()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 2]
     %! khamr.guitar_isolata()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.guitar_isolata()
     \times 2/3
     %! khamr.guitar_isolata()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Guitar_Music_Voice measure 3]
         %! khamr.guitar_isolata()
         r8
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.guitar_isolata()
         fs''!4
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.guitar_isolata()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.guitar_isolata()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.guitar_isolata()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.guitar_isolata()
     \times 2/3
     %! khamr.guitar_isolata()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.guitar_isolata()
         r8
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.guitar_isolata()
         g''8
+        % AFTER:
+        % COMMANDS:
         %! baca.OverrideCommand._call(2)
         %! baca.note_head_style_cross()
         \revert NoteHead.style
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.guitar_isolata()
         r8
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.guitar_isolata()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 4]
     %! khamr.guitar_isolata()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 5]
     %! baca.make_repeat_tied_notes()
     fs!1
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -3705,117 +4856,165 @@ segment.02.Guitar.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \mf
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     ^ \khamr-sparse-guitar-clicks
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 6]
     %! baca.make_repeat_tied_notes()
     fs2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 7]
     %! baca.make_repeat_tied_notes()
     fs1
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 8]
     fs2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     fs2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 9]
     %! baca.make_repeat_tied_notes()
     fs1
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 10]
     %! baca.make_repeat_tied_notes()
     fs2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 11]
     %! baca.make_repeat_tied_notes()
     fs1
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 12]
     fs2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     fs2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 13]
     %! baca.make_repeat_tied_notes()
     fs2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 14]
     %! baca.make_repeat_tied_notes()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 15]
     %! khamr.alternate_divisions()
     g1.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -3828,163 +5027,232 @@ segment.02.Guitar.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \ff
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     ^ \khamr-guitar-with-screw
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 17]
     g2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     g2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 19]
     %! khamr.alternate_divisions()
     g1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.silent_first_division()
     g4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 22]
     %! khamr.silent_first_division()
     g2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 23]
     %! khamr.silent_first_division()
     g2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 24]
     %! khamr.silent_first_division()
     g1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 25]
     %! khamr.silent_first_division()
     g2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 26]
     %! khamr.silent_first_division()
     g2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 27]
     %! khamr.silent_first_division()
     g1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 28]
     %! khamr.silent_first_division()
     g1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 29]
     %! khamr.silent_first_division()
     g2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 30]
     %! khamr.silent_first_division()
     g2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -4002,6 +5270,8 @@ segment.02.Guitar.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -4009,22 +5279,32 @@ segment.02.Guitar.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -4045,6 +5325,8 @@ segment.02.Guitar.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -4052,15 +5334,24 @@ segment.02.Guitar.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -4068,13 +5359,19 @@ segment.02.Guitar.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.Guitar.Music.Staff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Guitar_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Guitar.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -4082,9 +5379,13 @@ segment.02.Guitar.Music.Staff = {
 
 %! baca.path.extern()
 segment.02.Piano.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
     %! -PARTS
@@ -4104,6 +5405,8 @@ segment.02.Piano.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -4127,6 +5430,8 @@ segment.02.Piano.Music.Voice = {
     \set Staff.forceClef = ##t
     %! baca.make_repeat_tied_notes()
     c'2
+    % AFTER:
+    % ARTICULATIONS:
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! REAPPLIED_DYNAMIC
@@ -4137,16 +5442,20 @@ segment.02.Piano.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \mp
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Piano”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4159,22 +5468,30 @@ segment.02.Piano.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 2]
     %! baca.make_repeat_tied_notes()
     c'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 3]
     %! baca.make_repeat_tied_notes()
     c'1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     - \tweak direction #up
     %! baca.make_repeat_tied_notes()
@@ -4183,22 +5500,30 @@ segment.02.Piano.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 4]
     %! baca.make_repeat_tied_notes()
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 5]
     %! baca.make_repeat_tied_notes()
     c'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     - \tweak direction #up
     %! baca.make_repeat_tied_notes()
@@ -4207,22 +5532,30 @@ segment.02.Piano.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 6]
     %! baca.make_repeat_tied_notes()
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 7]
     %! baca.make_repeat_tied_notes()
     c'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     - \tweak direction #up
     %! baca.make_repeat_tied_notes()
@@ -4231,27 +5564,39 @@ segment.02.Piano.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 8]
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     c'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 9]
     %! baca.make_repeat_tied_notes()
     c'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     - \tweak direction #up
     %! baca.make_repeat_tied_notes()
@@ -4260,22 +5605,30 @@ segment.02.Piano.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 10]
     %! baca.make_repeat_tied_notes()
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 11]
     %! baca.make_repeat_tied_notes()
     c'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     - \tweak direction #up
     %! baca.make_repeat_tied_notes()
@@ -4284,37 +5637,55 @@ segment.02.Piano.Music.Voice = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 12]
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     c'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 13]
     %! baca.make_repeat_tied_notes()
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 14]
     %! baca.make_repeat_tied_notes()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 15]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_59
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -4346,6 +5717,8 @@ segment.02.Piano.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.staff_lines()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4367,9 +5740,12 @@ segment.02.Piano.Music.Voice = {
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1.
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -4382,50 +5758,75 @@ segment.02.Piano.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 17]
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>4
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 19]
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
+    % AFTER:
+    % STEM_TREMOLOS:
     %! baca.IndicatorCommand._call()
     %! baca.stem_tremolo()
     :32
+    % COMMANDS:
     %! SPANNER_STOP
     %! baca.SpannerIndicatorCommand._call(4)
     %! baca.ottava_bassa()
     \ottava 0
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 21]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_65
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -4438,6 +5839,8 @@ segment.02.Piano.Music.Voice = {
     %! baca.clef_extra_offset()
     %! baca.clef_shift()
     \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4457,21 +5860,32 @@ segment.02.Piano.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.current()
     r4
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.current()
     \times 2/3
     %! khamr.current()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % COMMANDS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.ottava()
         \ottava 1
         %! khamr.current()
         cf''''!8
+        % AFTER:
+        % ARTICULATIONS:
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! EXPLICIT_DYNAMIC
@@ -4484,265 +5898,450 @@ segment.02.Piano.Music.Voice = {
         %! baca._set_status_tag()
         %! baca.dynamic()
         \baca-fff-ancora
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         c''''8
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         ef''''!8
+        % AFTER:
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.current()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 22]
     %! khamr.current()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     bf'''!16
+    % AFTER:
+    % START_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     [
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     gf'''!16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     f''''16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     d''''16
+    % AFTER:
+    % STOP_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 23]
     %! khamr.current()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     bf'''!16
+    % AFTER:
+    % START_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     [
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     a'''16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     cf''''!16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     df''''!16
+    % AFTER:
+    % STOP_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 24]
     %! khamr.current()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.current()
     \times 2/3
     %! khamr.current()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         ef''''!8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         d''''8
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         e''''8
+        % AFTER:
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.current()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 25]
     %! khamr.current()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     af'''!16
+    % AFTER:
+    % START_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     [
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     g'''16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     bf'''!16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     gf'''!16
+    % AFTER:
+    % STOP_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 26]
     %! khamr.current()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.current()
     \times 4/5
     %! khamr.current()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         f''''16
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         d''''16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         ef''''!16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         a'''16
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         cf''''!16
+        % AFTER:
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.current()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 27]
     %! khamr.current()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     r4.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     df''''!16.
+    % AFTER:
+    % START_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     [
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     g'''32
+    % AFTER:
+    % SPANNER_STARTS:
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     g'''16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     d''''16
+    % AFTER:
+    % SPANNER_STARTS:
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     d''''32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     e''''16.
+    % AFTER:
+    % STOP_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 28]
     %! khamr.current()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.current()
     \times 2/3
     %! khamr.current()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         af'''!8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         bf'''!8
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         cf''''!8
+        % AFTER:
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.current()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 29]
     %! khamr.current()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.current()
     \times 2/3
     %! khamr.current()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         c''''8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         ef''''!8
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.current()
         df''''!8
+        % AFTER:
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.current()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 30]
     %! khamr.current()
     r4.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     ef''''!16.
+    % AFTER:
+    % START_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     [
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     a'''32
+    % AFTER:
+    % SPANNER_STARTS:
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     a'''16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     cf''''!16
+    % AFTER:
+    % SPANNER_STARTS:
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     cf''''32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.current()
     af'''!16.
+    % AFTER:
+    % STOP_BEAM:
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    % COMMANDS:
     %! SPANNER_STOP
     %! baca.SpannerIndicatorCommand._call(4)
     %! baca.ottava()
     \ottava 0
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Piano_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Piano_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -4760,6 +6359,8 @@ segment.02.Piano.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -4767,22 +6368,32 @@ segment.02.Piano.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Piano_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Piano_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -4803,6 +6414,8 @@ segment.02.Piano.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -4810,15 +6423,24 @@ segment.02.Piano.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -4826,13 +6448,19 @@ segment.02.Piano.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.Piano.Music.Staff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Piano_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Piano.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -4840,9 +6468,13 @@ segment.02.Piano.Music.Staff = {
 
 %! baca.path.extern()
 segment.02.Percussion.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! -PARTS
     %! EXPLICIT_BAR_EXTENT
     %! REAPPLIED_BAR_EXTENT
@@ -4871,6 +6503,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -4893,6 +6527,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     c'2
+    % AFTER:
+    % ARTICULATIONS:
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! REAPPLIED_DYNAMIC
@@ -4906,16 +6542,20 @@ segment.02.Percussion.Music.Voice = {
     %! baca.IndicatorCommand._call()
     %! baca.accent()
     - \accent
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4928,83 +6568,124 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 2]
     c'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 3]
     c'1.
+    % AFTER:
+    % SPANNER_STARTS:
     - \tweak direction #up
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 4]
     c'2.
+    % AFTER:
+    % ARTICULATIONS:
     %! baca.IndicatorCommand._call()
     %! baca.accent()
     - \accent
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 5]
     c'1
+    % AFTER:
+    % SPANNER_STARTS:
     - \tweak direction #up
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 6]
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 7]
     c'1
+    % AFTER:
+    % SPANNER_STARTS:
     - \tweak direction #up
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 8]
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     c'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 9]
     c'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5017,6 +6698,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5036,6 +6719,8 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.MarimbaHitCommand.__call__()
     \set Staff.forceClef = ##t
     af''!2
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5048,19 +6733,30 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 10]
     af''2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5073,6 +6769,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5092,67 +6790,99 @@ segment.02.Percussion.Music.Voice = {
     %! khamr.MarimbaHitCommand.__call__()
     \set Staff.forceClef = ##t
     c'4
+    % AFTER:
+    % ARTICULATIONS:
     %! baca.IndicatorCommand._call()
     %! baca.accent()
     - \accent
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 11]
     c'1
+    % AFTER:
+    % SPANNER_STARTS:
     - \tweak direction #up
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 12]
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     c'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 13]
     c'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 14]
     c'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % COMMANDS:
     %! baca.OverrideCommand._call(2)
     %! baca.stem_down()
     \revert Stem.direction
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 15]
     %! khamr.quarter_hits()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 16]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_60
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -5180,6 +6910,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5200,6 +6932,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5212,10 +6946,16 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5228,6 +6968,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5248,20 +6990,30 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r4
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 17]
     %! khamr.quarter_hits()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.quarter_hits()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 18]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_62
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -5286,6 +7038,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5306,6 +7060,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5318,10 +7074,16 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5334,6 +7096,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5354,17 +7118,25 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r4.
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 19]
     %! khamr.quarter_hits()
     r1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 20]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_64
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -5389,6 +7161,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5409,6 +7183,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5421,10 +7197,16 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5437,6 +7219,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5457,18 +7241,28 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r4.
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.quarter_hits()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 21]
     %! khamr.quarter_hits()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5481,6 +7275,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5501,6 +7297,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5513,12 +7311,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 22]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_66
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -5543,6 +7347,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5563,10 +7369,16 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r4
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5579,6 +7391,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5599,6 +7413,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5611,12 +7427,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 23]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_67
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -5641,6 +7463,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5661,10 +7485,16 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r2
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5677,6 +7507,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5697,6 +7529,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5709,12 +7543,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 24]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_68
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -5739,6 +7579,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5759,10 +7601,16 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r2.
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5775,6 +7623,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5795,6 +7645,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5807,12 +7659,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 25]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_69
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -5837,6 +7695,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5857,10 +7717,16 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r4
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5873,6 +7739,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5893,6 +7761,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -5905,12 +7775,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 26]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_70
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -5935,6 +7811,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5955,10 +7833,16 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r4
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5971,6 +7855,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -5991,6 +7877,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -6003,12 +7891,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 27]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_71
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -6033,6 +7927,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6053,13 +7949,21 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r2.
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.quarter_hits()
     r4.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6072,6 +7976,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6092,6 +7998,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -6104,12 +8012,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 28]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_72
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -6134,6 +8048,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6154,10 +8070,16 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r2.
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6170,6 +8092,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6190,6 +8114,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -6202,12 +8128,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 29]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_73
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -6232,6 +8164,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6252,10 +8186,16 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r2
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6268,6 +8208,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6288,6 +8230,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -6300,12 +8244,18 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 30]
+    % BEFORE:
+    % COMMANDS:
     %! MEASURE_74
     %! SHIFTED_CLEF
     %! baca.OverrideCommand._call(1)
@@ -6330,6 +8280,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6350,10 +8302,16 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     r4.
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % BEFORE:
+    % COMMANDS:
     %! EXPLICIT_STAFF_LINES
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6366,6 +8324,8 @@ segment.02.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
     \startStaff
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_CLEF
     %! baca._set_status_tag()
     %! khamr.MarimbaHitCommand.__call__()
@@ -6386,6 +8346,8 @@ segment.02.Percussion.Music.Voice = {
     \set Staff.forceClef = ##t
     %! khamr.quarter_hits()
     af''!4.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -6398,28 +8360,41 @@ segment.02.Percussion.Music.Voice = {
     \sfz
     %! khamr.MarimbaHitCommand.__call__()
     - \marcato
+    % COMMANDS:
     %! baca.OverrideCommand._call(2)
     %! baca.stem_down()
     \revert Stem.direction
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! EXPLICIT_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Percussion_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Percussion_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -6466,6 +8441,8 @@ segment.02.Percussion.Music.Voice = {
             %! baca._style_phantom_measures(5)
             %! khamr.MarimbaHitCommand.__call__()
             \startStaff
+            % OPENING:
+            % COMMANDS:
             %! EXPLICIT_CLEF
             %! PHANTOM
             %! baca._set_status_tag()
@@ -6499,6 +8476,8 @@ segment.02.Percussion.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             c'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -6506,27 +8485,39 @@ segment.02.Percussion.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % ABSOLUTE_AFTER:
+            % COMMANDS:
             %! EXPLICIT_CLEF_REDRAW_COLOR
             %! PHANTOM
             %! baca._attach_color_literal(2)
             %! baca._style_phantom_measures(5)
             \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Percussion_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Percussion_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -6547,6 +8538,8 @@ segment.02.Percussion.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -6554,15 +8547,24 @@ segment.02.Percussion.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -6570,13 +8572,19 @@ segment.02.Percussion.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.PercussionMusicStaff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Percussion_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Percussion.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -6584,9 +8592,13 @@ segment.02.PercussionMusicStaff = {
 
 %! baca.path.extern()
 segment.02.Violin.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vn."
     %! -PARTS
@@ -6594,6 +8606,8 @@ segment.02.Violin.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vn."
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -6612,12 +8626,15 @@ segment.02.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
+    % PITCHED_TRILL:
     %! SPANNER_START
     %! baca.SpannerIndicatorCommand._call(2)
     %! baca.trill_spanner()
     \pitchedTrill
     %! khamr.trill_tuplets()
     gf'!2
+    % AFTER:
+    % ARTICULATIONS:
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! REAPPLIED_DYNAMIC
@@ -6631,20 +8648,25 @@ segment.02.Violin.Music.Voice = {
     %! baca.IndicatorCommand._call()
     %! baca.accent()
     - \accent
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vn.”]"
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % TRILL_SPANNER_STARTS:
     %! SPANNER_START
     %! baca.SpannerIndicatorCommand._call(2)
     %! baca.trill_spanner()
     \startTrillSpan aff'
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -6657,776 +8679,1183 @@ segment.02.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vn."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 2]
         %! khamr.trill_tuplets()
         gf'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         g'4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan af'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     g'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 3]
     %! khamr.trill_tuplets()
     g'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         g'8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gqf'!8.
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan atqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gqf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gqf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gqf'8.
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gf'!8
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan aff'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 4]
     %! khamr.trill_tuplets()
     gf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gf'4
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gqf'!16
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan atqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gqf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 5]
     %! khamr.trill_tuplets()
     gqf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gqf'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         g'4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan af'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     g'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 6]
         %! khamr.trill_tuplets()
         g'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gs'!4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan a'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gs'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 7]
         %! khamr.trill_tuplets()
         gs'8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gqs'!8.
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan aqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gqs'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gqs'8.
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         g'8
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan af'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 8]
     %! khamr.trill_tuplets()
     g'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         g'4
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gqs'!16
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan aqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gqs'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 9]
         %! khamr.trill_tuplets()
         gqs'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         af'!4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan bff'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     af'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         af'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         a'4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan bf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 10]
     %! khamr.trill_tuplets()
     a'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         a'8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         aqf'!8.
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan btqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 11]
     %! khamr.trill_tuplets()
     aqf'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         aqf'8.
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         af'!8
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan bff'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     af'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 12]
     %! khamr.trill_tuplets()
     af'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         af'4
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         aqf'!16
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan btqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     aqf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     aqf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         aqf'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         af'!4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan bff'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 13]
     %! khamr.trill_tuplets()
     af'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         af'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         g'4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan af'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 14]
     %! khamr.trill_tuplets()
     r2
+    % AFTER:
+    % SPANNER_STOPS:
     %! SPANNER_STOP
     %! baca.SpannerIndicatorCommand._call(4)
     %! baca.trill_spanner()
     \stopTrillSpan
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 15]
     %! khamr.alternate_divisions()
     a'1.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -7439,163 +9868,232 @@ segment.02.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     ^ \baca-arco-ordinario-markup
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 17]
     a'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     a'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 19]
     %! khamr.alternate_divisions()
     a'1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.silent_first_division()
     a'4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 22]
     %! khamr.silent_first_division()
     a'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 23]
     %! khamr.silent_first_division()
     a'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 24]
     %! khamr.silent_first_division()
     a'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 25]
     %! khamr.silent_first_division()
     a'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 26]
     %! khamr.silent_first_division()
     a'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 27]
     %! khamr.silent_first_division()
     a'1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 28]
     %! khamr.silent_first_division()
     a'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 29]
     %! khamr.silent_first_division()
     a'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 30]
     %! khamr.silent_first_division()
     a'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Violin_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Violin_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -7613,6 +10111,8 @@ segment.02.Violin.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -7620,22 +10120,32 @@ segment.02.Violin.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Violin_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Violin_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -7656,6 +10166,8 @@ segment.02.Violin.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -7663,15 +10175,24 @@ segment.02.Violin.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -7679,13 +10200,19 @@ segment.02.Violin.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.Violin.Music.Staff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Violin_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Violin.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -7693,9 +10220,13 @@ segment.02.Violin.Music.Staff = {
 
 %! baca.path.extern()
 segment.02.Viola.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Va."
     %! -PARTS
@@ -7703,6 +10234,8 @@ segment.02.Viola.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Va."
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -7721,12 +10254,15 @@ segment.02.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
+    % PITCHED_TRILL:
     %! SPANNER_START
     %! baca.SpannerIndicatorCommand._call(2)
     %! baca.trill_spanner()
     \pitchedTrill
     %! khamr.trill_tuplets()
     f'2
+    % AFTER:
+    % ARTICULATIONS:
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! REAPPLIED_DYNAMIC
@@ -7740,20 +10276,25 @@ segment.02.Viola.Music.Voice = {
     %! baca.IndicatorCommand._call()
     %! baca.accent()
     - \accent
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Va.”]"
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % TRILL_SPANNER_STARTS:
     %! SPANNER_START
     %! baca.SpannerIndicatorCommand._call(2)
     %! baca.trill_spanner()
     \startTrillSpan gf'
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -7766,612 +10307,929 @@ segment.02.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Va."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 2]
     %! khamr.trill_tuplets()
     f'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         f'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         fs'!4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan g'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 3]
     %! khamr.trill_tuplets()
     fs'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         fs'8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         fqs'!8.
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan gqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     fqs'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 4]
     %! khamr.trill_tuplets()
     fqs'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         fqs'8.
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         f'8
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan gf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     f'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 5]
     %! khamr.trill_tuplets()
     f'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         f'4
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gf'!16
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan aff'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 6]
     %! khamr.trill_tuplets()
     gf'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gf'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         g'4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan af'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 7]
     %! khamr.trill_tuplets()
     g'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         g'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gqf'!4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan atqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 8]
     %! khamr.trill_tuplets()
     gqf'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gqf'8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gf'!8.
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan aff'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     gf'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 9]
     %! khamr.trill_tuplets()
     gf'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gf'8.
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         g'8
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan af'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     g'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 10]
     %! khamr.trill_tuplets()
     g'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         g'4
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gs'!16
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan a'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 11]
     %! khamr.trill_tuplets()
     gs'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gs'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gqs'!4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan aqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 12]
     %! khamr.trill_tuplets()
     gqs'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         gqs'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         g'4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan af'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     g'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 13]
     %! khamr.trill_tuplets()
     g'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         g'8
+        % AFTER:
+        % START_BEAM:
         %! khamr.trill_tuplets()
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         gqs'!8.
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! khamr.trill_tuplets()
         ]
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan aqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 14]
     %! khamr.trill_tuplets()
     r2
+    % AFTER:
+    % SPANNER_STOPS:
     %! SPANNER_STOP
     %! baca.SpannerIndicatorCommand._call(4)
     %! baca.trill_spanner()
     \stopTrillSpan
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 15]
     %! khamr.alternate_divisions()
     gs'!1.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -8384,163 +11242,232 @@ segment.02.Viola.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     ^ \baca-arco-ordinario-markup
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 17]
     gs'!2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     gs'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 19]
     %! khamr.alternate_divisions()
     gs'!1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.silent_first_division()
     gs'!4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 22]
     %! khamr.silent_first_division()
     gs'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 23]
     %! khamr.silent_first_division()
     gs'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 24]
     %! khamr.silent_first_division()
     gs'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 25]
     %! khamr.silent_first_division()
     gs'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 26]
     %! khamr.silent_first_division()
     gs'2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 27]
     %! khamr.silent_first_division()
     gs'1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 28]
     %! khamr.silent_first_division()
     gs'1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 29]
     %! khamr.silent_first_division()
     gs'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 30]
     %! khamr.silent_first_division()
     gs'2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Viola_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Viola_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -8558,6 +11485,8 @@ segment.02.Viola.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             c'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -8565,22 +11494,32 @@ segment.02.Viola.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Viola_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Viola_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -8601,6 +11540,8 @@ segment.02.Viola.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -8608,15 +11549,24 @@ segment.02.Viola.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -8624,13 +11574,19 @@ segment.02.Viola.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.Viola.Music.Staff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Viola_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Viola.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -8638,9 +11594,13 @@ segment.02.Viola.Music.Staff = {
 
 %! baca.path.extern()
 segment.02.Cello.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vc."
     %! -PARTS
@@ -8648,6 +11608,8 @@ segment.02.Cello.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -8666,12 +11628,15 @@ segment.02.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
+    % PITCHED_TRILL:
     %! SPANNER_START
     %! baca.SpannerIndicatorCommand._call(2)
     %! baca.trill_spanner()
     \pitchedTrill
     %! khamr.trill_tuplets()
     f'2
+    % AFTER:
+    % ARTICULATIONS:
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! REAPPLIED_DYNAMIC
@@ -8685,20 +11650,25 @@ segment.02.Cello.Music.Voice = {
     %! baca.IndicatorCommand._call()
     %! baca.accent()
     - \accent
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % TRILL_SPANNER_STARTS:
     %! SPANNER_START
     %! baca.SpannerIndicatorCommand._call(2)
     %! baca.trill_spanner()
     \startTrillSpan gf'
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -8711,278 +11681,421 @@ segment.02.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 2]
     %! khamr.trill_tuplets()
     f'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 3]
         %! khamr.trill_tuplets()
         f'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         fs'!4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan g'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     fs'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     fs'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         fs'8
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         fqs'!8.
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan gqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 4]
     %! khamr.trill_tuplets()
     fqs'2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 5]
     %! khamr.trill_tuplets()
     fqs'4
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         fqs'8.
+        % AFTER:
+        % START_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         [
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         f'8
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % STOP_BEAM:
         %! rmakers.RewriteMeterCommand.__call__
         ]
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan gf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     f'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 6]
     %! khamr.trill_tuplets()
     f'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! khamr.trill_tuplets()
         f'4
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         fqs'!16
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan gqf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 7]
     %! khamr.trill_tuplets()
     fqs'1
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.trill_tuplets()
     \times 4/5
     %! khamr.trill_tuplets()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 8]
         %! khamr.trill_tuplets()
         fqs'16
+        % AFTER:
+        % SPANNER_STARTS:
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPENING:
+        % PITCHED_TRILL:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \pitchedTrill
         %! khamr.trill_tuplets()
         f'4
+        % AFTER:
+        % ARTICULATIONS:
         %! baca.IndicatorCommand._call()
         %! baca.accent()
         - \accent
+        % SPANNER_STOPS:
         %! SPANNER_STOP
         %! baca.SpannerIndicatorCommand._call(4)
         %! baca.trill_spanner()
         \stopTrillSpan
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % TRILL_SPANNER_STARTS:
         %! SPANNER_START
         %! baca.SpannerIndicatorCommand._call(2)
         %! baca.trill_spanner()
         \startTrillSpan gf'
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.trill_tuplets()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     f'2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.trill_tuplets()
     r2
+    % AFTER:
+    % SPANNER_STOPS:
     %! SPANNER_STOP
     %! baca.SpannerIndicatorCommand._call(4)
     %! baca.trill_spanner()
     \stopTrillSpan
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 9]
     %! baca.make_repeat_tied_notes()
     fs!1
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -8995,68 +12108,96 @@ segment.02.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \mf
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     ^ \khamr-sparse-cello-clicks
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 10]
     %! baca.make_repeat_tied_notes()
     fs2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 11]
     %! baca.make_repeat_tied_notes()
     fs1
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 12]
     fs2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     fs2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 13]
     %! baca.make_repeat_tied_notes()
     fs2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca.make_repeat_tied_notes()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 14]
     %! baca.make_repeat_tied_notes()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 15]
     %! khamr.alternate_divisions()
     g1.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -9069,163 +12210,232 @@ segment.02.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     ^ \baca-arco-ordinario-markup
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 17]
     g2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     g2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 19]
     %! khamr.alternate_divisions()
     g1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! khamr.silent_first_division()
     g4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 22]
     %! khamr.silent_first_division()
     g2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 23]
     %! khamr.silent_first_division()
     g2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 24]
     %! khamr.silent_first_division()
     g1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 25]
     %! khamr.silent_first_division()
     g2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 26]
     %! khamr.silent_first_division()
     g2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 27]
     %! khamr.silent_first_division()
     g1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 28]
     %! khamr.silent_first_division()
     g1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 29]
     %! khamr.silent_first_division()
     g2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 30]
     %! khamr.silent_first_division()
     g2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Cello_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Cello_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -9243,6 +12453,8 @@ segment.02.Cello.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             d1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -9250,22 +12462,32 @@ segment.02.Cello.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Cello_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Cello_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -9286,6 +12508,8 @@ segment.02.Cello.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -9293,15 +12517,24 @@ segment.02.Cello.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -9309,13 +12542,19 @@ segment.02.Cello.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.CelloMusicStaff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Cello_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Cello.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -9323,9 +12562,13 @@ segment.02.CelloMusicStaff = {
 
 %! baca.path.extern()
 segment.02.Contrabass.Music.Voice = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 1]
+    % BEFORE:
+    % COMMANDS:
     %! baca.OverrideCommand._call(1)
     %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
@@ -9336,6 +12579,8 @@ segment.02.Contrabass.Music.Voice = {
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
+    % OPENING:
+    % COMMANDS:
     %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -9355,6 +12600,8 @@ segment.02.Contrabass.Music.Voice = {
     %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     <g, a>2
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -9367,6 +12614,7 @@ segment.02.Contrabass.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \mf
+    % MARKUP:
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
@@ -9376,10 +12624,13 @@ segment.02.Contrabass.Music.Voice = {
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     _ \baca-strings-iii-plus-iv-markup
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_AFTER:
+    % COMMANDS:
     %! REAPPLIED_CLEF_REDRAW_COLOR
     %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -9392,216 +12643,332 @@ segment.02.Contrabass.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 2]
     <g, a>2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.opening_glissandi()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.opening_glissandi()
     \tweak text #tuplet-number::calc-fraction-text
     %! khamr.opening_glissandi()
     \times 6/7
     %! khamr.opening_glissandi()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Contrabass_Music_Voice measure 3]
         <g, a>1.
+        % AFTER:
+        % SPANNER_STARTS:
         %! abjad.glissando(7)
         %! baca.glissando()
         \glissando
         %! khamr.opening_glissandi()
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         <af,! bf!>4
+        % AFTER:
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.opening_glissandi()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.opening_glissandi()
     \times 4/5
     %! khamr.opening_glissandi()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Contrabass_Music_Voice measure 4]
         <af, bf>2.
+        % AFTER:
+        % SPANNER_STARTS:
         %! abjad.glissando(7)
         %! baca.glissando()
         \glissando
         %! khamr.opening_glissandi()
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         <gqs,! aqs!>8.
+        % AFTER:
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.opening_glissandi()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 5]
     <gqs, aqs>1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.opening_glissandi()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.opening_glissandi()
     \times 4/5
     %! khamr.opening_glissandi()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Contrabass_Music_Voice measure 6]
         <gqs, aqs>2.
+        % AFTER:
+        % SPANNER_STARTS:
         %! abjad.glissando(7)
         %! baca.glissando()
         \glissando
         %! khamr.opening_glissandi()
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         <a, b>8.
+        % AFTER:
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.opening_glissandi()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 7]
     <a, b>1
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 8]
     <a, b>2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <a, b>2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 9]
     <a, b>1
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 10]
     <a, b>2
+    % AFTER:
+    % SPANNER_STARTS:
     %! abjad.glissando(7)
     %! baca.glissando()
     \glissando
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <bqf,! cqs'!>4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.opening_glissandi()
     \times 2/3
     %! khamr.opening_glissandi()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Contrabass_Music_Voice measure 11]
         <bqf, cqs'>1
+        % AFTER:
+        % SPANNER_STARTS:
         %! abjad.glissando(7)
         %! baca.glissando()
         \glissando
         %! khamr.opening_glissandi()
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         <af,! bf!>2
+        % AFTER:
+        % SPANNER_STARTS:
         %! baca._attach_shadow_tie_indicators()
         - \tweak stencil ##f
         %! baca._attach_shadow_tie_indicators()
         ~
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.opening_glissandi()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 12]
     <af, bf>2.
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <af, bf>2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.opening_glissandi()
     \tweak text #tuplet-number::calc-fraction-text
     %! khamr.opening_glissandi()
     \times 6/7
     %! khamr.opening_glissandi()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         %! baca._comment_measure_numbers()
         % [Contrabass_Music_Voice measure 13]
         <af, bf>2.
+        % AFTER:
+        % SPANNER_STARTS:
         %! abjad.glissando(7)
         %! baca.glissando()
         \glissando
         \repeatTie
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
         <gqs,! aqs!>8
+        % AFTER:
+        % COMMANDS:
         %! baca.OverrideCommand._call(2)
         %! baca.note_head_style_harmonic()
         \revert NoteHead.style
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! khamr.opening_glissandi()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 14]
     %! khamr.opening_glissandi()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 15]
     <g,, a,>1.
+    % AFTER:
+    % ARTICULATIONS:
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! EXPLICIT_DYNAMIC
@@ -9614,152 +12981,221 @@ segment.02.Contrabass.Music.Voice = {
     %! baca._set_status_tag()
     %! baca.dynamic()
     \fff
+    % MARKUP:
     %! baca.IndicatorCommand._call()
     %! baca.markup()
     ^ \baca-arco-ordinario-markup
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 16]
     %! khamr.alternate_divisions()
     r2
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 17]
     <g,, a,>2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <g,, a,>2
+    % AFTER:
+    % SPANNER_STARTS:
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 18]
     %! khamr.alternate_divisions()
     r2.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 19]
     <g,, a,>1
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 20]
     %! khamr.alternate_divisions()
     r1.
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 21]
     %! khamr.silent_first_division()
     r4
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     <g,, a,>4
+    % AFTER:
+    % SPANNER_STARTS:
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 22]
     <g,, a,>2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 23]
     <g,, a,>2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 24]
     <g,, a,>1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 25]
     <g,, a,>2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 26]
     <g,, a,>2
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 27]
     <g,, a,>1.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 28]
     <g,, a,>1
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 29]
     <g,, a,>2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Contrabass_Music_Voice measure 30]
     <g,, a,>2.
+    % AFTER:
+    % SPANNER_STARTS:
     %! khamr.silent_first_division()
     \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Contrabass_Music_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Contrabass_Music_Voice measure 31]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -9777,6 +13213,8 @@ segment.02.Contrabass.Music.Voice = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             d1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -9784,22 +13222,32 @@ segment.02.Contrabass.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Contrabass_Rest_Voice"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Contrabass_Rest_Voice measure 31]
+            % OPENING:
+            % COMMANDS:
             %! PHANTOM
             %! baca._style_phantom_measures(7)
             \once \override MultiMeasureRest.transparent = ##t
@@ -9820,6 +13268,8 @@ segment.02.Contrabass.Music.Voice = {
             %! REST_VOICE
             %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
@@ -9827,15 +13277,24 @@ segment.02.Contrabass.Music.Voice = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
@@ -9843,13 +13302,19 @@ segment.02.Contrabass.Music.Voice = {
 
 %! baca.path.extern()
 segment.02.Contrabass.Music.Staff = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! khamr.make_empty_score()
     \context Voice = "Contrabass_Music_Voice"
     %! khamr.make_empty_score()
     %! baca.path.extern()
     { \segment.02.Contrabass.Music.Voice }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! khamr.make_empty_score()
 %! baca.path.extern()
 }
