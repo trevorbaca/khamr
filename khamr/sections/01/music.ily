@@ -2553,12 +2553,12 @@ segment.01.Flute.Music.Voice = {
       %! baca.dynamic()
     \mp
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“BassFlute”)"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-boxed-markup "L.17"
+      %! DEFAULT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-default-indicator-markup "(“BassFlute”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“B. fl.”]"
@@ -3593,12 +3593,12 @@ segment.01.Oboe.Music.Voice = {
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“EnglishHorn”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \khamr-airtone-without-reed
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Eng. hn.”]"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \khamr-airtone-without-reed
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -6376,12 +6376,12 @@ segment.01.Guitar.Music.Voice = {
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Guitar”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \khamr-half-harmonics-explanation
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Gt.”]"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \khamr-half-harmonics-explanation
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR
@@ -7054,12 +7054,12 @@ segment.01.Guitar.Music.Voice = {
         cs''!16 * 117/16
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \khamr-move-towards-the-bridge
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"117" #"16"
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
+        ^ \khamr-move-towards-the-bridge
         % START_BEAM:
           %! khamr.guitar_accelerandi()
         [
@@ -8772,12 +8772,12 @@ segment.01.Piano.Music.Voice = {
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Piano”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \khamr-strike-lowest-strings
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Pf.”]"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \khamr-strike-lowest-strings
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -9298,12 +9298,12 @@ segment.01.Piano.Music.Voice = {
           %! baca.dynamic()
         \baca-mf-ancora
         % MARKUP:
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \khamr-match-guitar-dynamic-levels
           %! DURATION_MULTIPLIER
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"247" #"32"
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
+        ^ \khamr-match-guitar-dynamic-levels
         % START_BEAM:
           %! khamr.guitar_accelerandi()
         [
@@ -10581,12 +10581,12 @@ segment.01.Percussion.Music.Voice = {
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Percussion”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \baca-xl-tam-tam-markup
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Perc.”]"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \baca-xl-tam-tam-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -11695,12 +11695,12 @@ segment.01.Violin.Music.Voice = {
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \khamr-emphasize-multiphonics
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vn.”]"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \khamr-emphasize-multiphonics
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     _ \baca-string-iv-markup
@@ -14288,12 +14288,12 @@ segment.01.Viola.Music.Voice = {
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Viola”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \khamr-emphasize-multiphonics
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Va.”]"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \khamr-emphasize-multiphonics
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     _ \baca-string-iii-markup
@@ -16648,12 +16648,12 @@ segment.01.Cello.Music.Voice = {
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Cello”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \khamr-emphasize-multiphonics
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc.”]"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \khamr-emphasize-multiphonics
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     _ \baca-string-iii-markup
@@ -18971,12 +18971,12 @@ segment.01.Contrabass.Music.Voice = {
       %! DEFAULT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Contrabass”)"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \khamr-emphasize-multiphonics
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cb.”]"
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \khamr-emphasize-multiphonics
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     _ \baca-string-iii-markup
