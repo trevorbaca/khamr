@@ -49,11 +49,26 @@ commands(
     ),
 )
 
+# fl
+
 commands(
     ("fl", (1, 15)),
     library.fused_wind([8], denominator=16),
     baca.reapply_persistent_indicators(),
 )
+
+commands(
+    ("fl", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("fl", (1, 15)),
+    baca.pitch("Bb4"),  # (sounds B3)
+)
+
+# ob
 
 commands(
     ("ob", (1, 15)),
@@ -62,16 +77,55 @@ commands(
 )
 
 commands(
+    ("ob", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("ob", (1, 15)),
+    baca.staff_position(0),
+)
+
+# cl
+
+commands(
     ("cl", (1, 15)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
+    ("cl", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("cl", (1, 15)),
+    baca.pitch("G2"),
+)
+
+# sax
+
+commands(
     ("sax", (1, 15)),
     library.fused_wind([12], denominator=16),
     baca.reapply_persistent_indicators(),
 )
+
+commands(
+    ("sax", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("sax", (1, 15)),
+    baca.staff_position(0),
+)
+
+# gt
 
 commands(
     ("gt", (1, 7)),
@@ -95,7 +149,18 @@ commands(
 commands(
     ("gt", (16, 20)),
     library.closing(),
+    baca.append_phantom_measure(),
 )
+
+commands(
+    "gt",
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
+    baca.dynamic("mf"),
+    baca.flageolet(selector=lambda _: baca.select.pheads(_)),
+    baca.pitch("C4"),
+)
+
+# pf
 
 commands(
     ("pf", (1, 7)),
@@ -119,7 +184,17 @@ commands(
 commands(
     ("pf", (16, 20)),
     library.closing(),
+    baca.append_phantom_measure(),
 )
+
+commands(
+    "pf",
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
+    baca.dynamic("mf"),
+    baca.pitch("A#4"),
+)
+
+# perc
 
 commands(
     ("perc", (1, 5)),
@@ -130,71 +205,19 @@ commands(
 )
 
 commands(
+    ("perc", (6, 7)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("perc", (8, 15)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("vn", (1, 15)),
-    baca.make_repeated_duration_notes([(7, 4)]),
-    baca.reapply_persistent_indicators(),
-    baca.clef("percussion"),
-)
-
-commands(
-    ("va", (1, 15)),
-    baca.make_repeated_duration_notes([(6, 4)]),
-    baca.reapply_persistent_indicators(),
-    baca.clef("percussion"),
-)
-
-commands(
-    ("vc", (1, 15)),
-    baca.make_repeated_duration_notes([(5, 4)]),
-    baca.reapply_persistent_indicators(),
-    baca.clef("percussion"),
-)
-
-commands(
-    ("cb", (1, 15)),
-    baca.make_repeated_duration_notes([(4, 4)]),
-    baca.reapply_persistent_indicators(),
-    baca.clef("percussion"),
-)
-
-commands(
-    ("fl", (1, 15)),
-    baca.pitch("Bb4"),  # (sounds B3)
-)
-
-commands(
-    ("ob", (1, 15)),
-    baca.staff_position(0),
-)
-
-commands(
-    ("cl", (1, 15)),
-    baca.pitch("G2"),
-)
-
-commands(
-    ("sax", (1, 15)),
-    baca.staff_position(0),
-)
-
-commands(
-    "gt",
-    baca.accent(selector=lambda _: baca.select.pheads(_)),
-    baca.dynamic("mf"),
-    baca.flageolet(selector=lambda _: baca.select.pheads(_)),
-    baca.pitch("C4"),
-)
-
-commands(
-    "pf",
-    baca.accent(selector=lambda _: baca.select.pheads(_)),
-    baca.dynamic("mf"),
-    baca.pitch("A#4"),
+    ("perc", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -220,44 +243,64 @@ commands(
     baca.staff_position(0),
 )
 
+# vn
+
 commands(
-    (["vn", "va", "vc"], (1, 15)),
-    baca.staff_position(0),
+    ("vn", (1, 15)),
+    baca.make_repeated_duration_notes([(7, 4)]),
+    baca.reapply_persistent_indicators(),
+    baca.clef("percussion"),
 )
+
+commands(
+    ("vn", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# va
+
+commands(
+    ("va", (1, 15)),
+    baca.make_repeated_duration_notes([(6, 4)]),
+    baca.reapply_persistent_indicators(),
+    baca.clef("percussion"),
+)
+
+commands(
+    ("va", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# vc
+
+commands(
+    ("vc", (1, 15)),
+    baca.make_repeated_duration_notes([(5, 4)]),
+    baca.reapply_persistent_indicators(),
+    baca.clef("percussion"),
+)
+
+commands(
+    ("vc", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# cb
 
 commands(
     ("cb", (1, 15)),
-    baca.staff_position(0),
+    baca.make_repeated_duration_notes([(4, 4)]),
+    baca.reapply_persistent_indicators(),
+    baca.clef("percussion"),
 )
 
 commands(
-    (["vn", "va", "vc", "cb"], (1, 15)),
-    baca.staff_lines(1),
-)
-
-commands(
-    (["vn", "va", "vc", "cb"], (1, 15)),
-    baca.alternate_bow_strokes(),
-)
-
-commands(
-    (["vn", "va"], (1, 15)),
-    baca.markup(r"\baca-bow-on-wooden-mute-markup"),
-)
-
-commands(
-    (["vc", "cb"], (1, 15)),
-    baca.markup(r"\baca-bow-on-tailpiece-markup"),
-)
-
-commands(
-    (["vn", "va", "vc", "cb"], (1, 7)),
-    baca.dynamic("p"),
-)
-
-commands(
-    (["vn", "va", "vc", "cb"], (8, 15)),
-    baca.hairpin("p > ppp"),
+    ("cb", (16, 20)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -271,6 +314,34 @@ commands(
     ),
 )
 
+# vn, va, vc, cb composites
+
+commands(
+    (["vn", "va", "vc", "cb"], (1, 15)),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    baca.alternate_bow_strokes(),
+    baca.new(
+        baca.markup(r"\baca-bow-on-wooden-mute-markup"),
+        match=[0, 1],
+    ),
+    baca.new(
+        baca.markup(r"\baca-bow-on-tailpiece-markup"),
+        match=[2, 3],
+    ),
+)
+
+commands(
+    (["vn", "va", "vc", "cb"], (1, 7)),
+    baca.dynamic("p"),
+)
+
+commands(
+    (["vn", "va", "vc", "cb"], (8, 15)),
+    baca.hairpin("p > ppp"),
+)
+
+
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -278,9 +349,12 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         final_segment=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )

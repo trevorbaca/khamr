@@ -81,10 +81,17 @@ def ptails_in_get_tuplets(pattern, pair):
     return selector
 
 
+# fl
+
 commands(
     ("fl", (1, 2)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("fl", (3, 9)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -93,9 +100,37 @@ commands(
 )
 
 commands(
+    ("fl", (30, 33)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("fl", (34, 37)),
     library.fused_wind([8], denominator=16),
+    baca.append_phantom_measure(),
 )
+
+commands(
+    ("fl", (1, 2)),
+    baca.pitch("B5"),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+)
+
+commands(
+    ("fl", (10, 29)),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
+    baca.dynamic("fff-ancora"),
+    baca.pitches("D6 E6 F#6 C6 C#6 D6 D#6 F6"),
+)
+
+commands(
+    ("fl", (34, 37)),
+    baca.dynamic("pp"),
+    baca.pitch("Bb4"),  # (sounds B3)
+    baca.markup(r"\khamr-covered-flute-airtone"),
+)
+
+# ob
 
 commands(
     ("ob", (1, 2)),
@@ -104,9 +139,18 @@ commands(
 )
 
 commands(
+    ("ob", (3, 9)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("ob", (10, 29)),
-    baca.instrument(library.instruments["Oboe"]),
     library.aviary((5, 16), extra_counts=[1]),
+)
+
+commands(
+    ("ob", (30, 33)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -118,7 +162,32 @@ commands(
         ),
         denominator=16,
     ),
+    baca.append_phantom_measure(),
 )
+
+commands(
+    ("ob", (1, 2)),
+    baca.pitch("G#3"),
+)
+
+commands(
+    ("ob", (10, 29)),
+    baca.instrument(library.instruments["Oboe"]),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
+    baca.dynamic("fff-ancora"),
+    baca.pitches("C6 C#6 D#6 E6 F6 F#6"),
+)
+
+commands(
+    ("ob", (34, 37)),
+    baca.clef("percussion"),
+    baca.dynamic("pp"),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    baca.markup(r"\khamr-airtone-without-reed"),
+)
+
+# cl
 
 commands(
     ("cl", (1, 2)),
@@ -127,18 +196,49 @@ commands(
 )
 
 commands(
+    ("cl", (3, 9)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (10, 29)),
+    library.aviary((8, 16), extra_counts=[1]),
+)
+
+commands(
+    ("cl", (30, 31)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (32, 37)),
+    baca.make_repeat_tied_notes(
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("cl", (1, 2)),
+    baca.pitch("F#2"),
+)
+
+commands(
     ("cl", (10, 29)),
     baca.instrument(library.instruments["Clarinet"]),
-    library.aviary((8, 16), extra_counts=[1]),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
+    baca.dynamic("fff-ancora"),
+    baca.pitches("D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6"),
 )
 
 commands(
     ("cl", (32, 37)),
     baca.instrument(library.instruments["BassClarinet"]),
-    baca.make_repeat_tied_notes(
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    ),
+    baca.dynamic("ppp"),
+    baca.pitch("G2"),
 )
+
+# sax
 
 commands(
     ("sax", (1, 2)),
@@ -147,15 +247,49 @@ commands(
 )
 
 commands(
+    ("sax", (3, 9)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("sax", (10, 29)),
-    baca.instrument(library.instruments["SopraninoSaxophone"]),
     library.aviary((6, 16), extra_counts=[1]),
+)
+
+commands(
+    ("sax", (30, 33)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("sax", (34, 37)),
     library.fused_wind([12], denominator=16),
+    baca.append_phantom_measure(),
 )
+
+commands(
+    ("sax", (1, 2)),
+    baca.pitch("G#2"),
+)
+
+commands(
+    ("sax", (10, 29)),
+    baca.instrument(library.instruments["SopraninoSaxophone"]),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
+    baca.dynamic("fff-ancora"),
+    baca.pitches("C6 C#6 D6 F6 F#6 D#6 E6"),
+)
+
+commands(
+    ("sax", (34, 37)),
+    baca.clef("percussion"),
+    baca.dynamic("pp"),
+    baca.markup(r"\baca-airtone-markup"),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+)
+
+# gt
 
 commands(
     ("gt", (1, 2)),
@@ -164,9 +298,34 @@ commands(
 )
 
 commands(
+    ("gt", (3, 9)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("gt", (10, 29)),
     baca.make_repeat_tied_notes(),
 )
+
+commands(
+    ("gt", (30, 37)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("gt", (1, 2)),
+    baca.pitch("G3"),
+)
+
+commands(
+    ("gt", (10, 29)),
+    baca.dynamic("fff"),
+    baca.pitch("Ab4"),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+)
+
+# pf
 
 commands(
     ("pf", (1, 9)),
@@ -178,6 +337,33 @@ commands(
     ("pf", (10, 29)),
     library.aviary((9, 16), extra_counts=[2]),
 )
+
+commands(
+    ("pf", (30, 37)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("pf", (1, 9)),
+    baca.pitches([_.invert().transpose("M2") for _ in library.rose_pitches]),
+    baca.ottava(),
+    library.sixth_octave(),
+)
+
+commands(
+    ("pf", (5, 9)),
+    baca.dynamic("ffff"),
+)
+
+commands(
+    ("pf", (10, 29)),
+    baca.accent(selector=leaf_in_each_top_tuplet(0)),
+    baca.dynamic("fff"),
+    baca.pitches("C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6"),
+)
+
+# perc
 
 commands(
     ("perc", (1, 4)),
@@ -203,179 +389,7 @@ commands(
 commands(
     ("perc", (30, 37)),
     baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vn", (1, 2)),
-    baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", (3, 29)),
-    library.continuous_glissandi(
-        0,
-        rmakers.tie(
-            ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
-        ),
-    ),
-)
-
-commands(
-    ("va", (1, 2)),
-    baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", (3, 29)),
-    library.continuous_glissandi(
-        -1,
-        rmakers.tie(
-            ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
-        ),
-    ),
-)
-
-commands(
-    ("vc", (1, 2)),
-    baca.make_repeat_tied_notes(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", (3, 29)),
-    library.continuous_glissandi(
-        -2,
-        rmakers.tie(
-            ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
-        ),
-    ),
-)
-
-commands(
-    ("cb", [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]),
-    baca.make_repeat_tied_notes(),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
-)
-
-commands(
-    ("cb", [(30, 31), (32, 37)]),
-    baca.make_repeat_tied_notes(rmakers.force_rest(lambda _: baca.select.lt(_, -1))),
-)
-
-commands(
-    ("fl", (1, 2)),
-    baca.pitch("B5"),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
-
-commands(
-    ("fl", (10, 29)),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff-ancora"),
-    baca.pitches("D6 E6 F#6 C6 C#6 D6 D#6 F6"),
-)
-
-commands(
-    ("fl", (34, 37)),
-    baca.dynamic("pp"),
-    baca.pitch("Bb4"),  # (sounds B3)
-    baca.markup(r"\khamr-covered-flute-airtone"),
-)
-
-commands(
-    ("ob", (1, 2)),
-    baca.pitch("G#3"),
-)
-
-commands(
-    ("ob", (10, 29)),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff-ancora"),
-    baca.pitches("C6 C#6 D#6 E6 F6 F#6"),
-)
-
-commands(
-    ("ob", (34, 37)),
-    baca.clef("percussion"),
-    baca.dynamic("pp"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    baca.markup(r"\khamr-airtone-without-reed"),
-)
-
-commands(
-    ("cl", (1, 2)),
-    baca.pitch("F#2"),
-)
-
-commands(
-    ("cl", (10, 29)),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff-ancora"),
-    baca.pitches("D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6"),
-)
-
-commands(
-    ("cl", (32, 37)),
-    baca.dynamic("ppp"),
-    baca.pitch("G2"),
-)
-
-commands(
-    ("sax", (1, 2)),
-    baca.pitch("G#2"),
-)
-
-commands(
-    ("sax", (10, 29)),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff-ancora"),
-    baca.pitches("C6 C#6 D6 F6 F#6 D#6 E6"),
-)
-
-commands(
-    ("sax", (34, 37)),
-    baca.clef("percussion"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-airtone-markup"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-)
-
-commands(
-    ("gt", (1, 2)),
-    baca.pitch("G3"),
-)
-
-commands(
-    ("gt", (10, 29)),
-    baca.dynamic("fff"),
-    baca.pitch("Ab4"),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
-
-commands(
-    ("pf", (1, 9)),
-    baca.pitches([_.invert().transpose("M2") for _ in library.rose_pitches]),
-    baca.ottava(),
-    library.sixth_octave(),
-)
-
-commands(
-    ("pf", (5, 9)),
-    baca.dynamic("ffff"),
-)
-
-commands(
-    ("pf", (10, 29)),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff"),
-    baca.pitches("C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6"),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -404,43 +418,98 @@ commands(
     baca.staff_position(0),
 )
 
+# vn
+
 commands(
     ("vn", (1, 2)),
-    baca.pitch("A4"),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
-    (["vn", "va", "vc"], (3, 29)),
-    baca.pitches([_.invert().transpose("A4") for _ in library.rose_pitches]),
-    baca.glissando(),
-    baca.markup(r"\baca-estr-sul-pont-markup"),
-    baca.note_head_style_harmonic(),
-    library.narrow_fourth_octave(),
+    ("vn", (3, 29)),
+    library.continuous_glissandi(
+        0,
+        rmakers.tie(
+            ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
+        ),
+    ),
 )
 
 commands(
-    (["vn", "va", "vc"], (3, 4)),
-    baca.dynamic("p"),
+    ("vn", (30, 37)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
-commands(
-    (["vn", "va", "vc"], (10, 25)),
-    baca.dynamic("fff"),
-)
-
-commands(
-    (["vn", "va", "vc"], (5, 9)),
-    baca.hairpin("pp < f"),
-)
+# va
 
 commands(
     ("va", (1, 2)),
-    baca.pitch("G#4"),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
+    ("va", (3, 29)),
+    library.continuous_glissandi(
+        -1,
+        rmakers.tie(
+            ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
+        ),
+    ),
+)
+
+commands(
+    ("va", (30, 37)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# vc
+
+commands(
     ("vc", (1, 2)),
-    baca.pitch("G3"),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", (3, 29)),
+    library.continuous_glissandi(
+        -2,
+        rmakers.tie(
+            ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (30, 37)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# cb
+
+commands(
+    ("cb", [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cb",
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("cb", [(30, 31), (32, 37)]),
+    baca.make_repeat_tied_notes(rmakers.force_rest(lambda _: baca.select.lt(_, -1))),
+)
+
+commands(
+    "cb",
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -490,6 +559,49 @@ commands(
     baca.markup(r"\khamr-scodanibbio"),
 )
 
+# vn, va, vc composites
+
+commands(
+    (["vn", "va", "vc"], (1, 2)),
+    baca.new(
+        baca.pitch("A4"),
+        match=0,
+    ),
+    baca.new(
+        baca.pitch("G#4"),
+        match=1,
+    ),
+    baca.new(
+        baca.pitch("G3"),
+        match=2,
+    ),
+)
+
+commands(
+    (["vn", "va", "vc"], (3, 29)),
+    baca.pitches([_.invert().transpose("A4") for _ in library.rose_pitches]),
+    baca.glissando(),
+    baca.markup(r"\baca-estr-sul-pont-markup"),
+    baca.note_head_style_harmonic(),
+    library.narrow_fourth_octave(),
+)
+
+commands(
+    (["vn", "va", "vc"], (3, 4)),
+    baca.dynamic("p"),
+)
+
+commands(
+    (["vn", "va", "vc"], (10, 25)),
+    baca.dynamic("fff"),
+)
+
+commands(
+    (["vn", "va", "vc"], (5, 9)),
+    baca.hairpin("pp < f"),
+)
+
+
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -497,8 +609,11 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )
