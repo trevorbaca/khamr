@@ -51,6 +51,8 @@ commands(
     ),
 )
 
+# fl
+
 commands(
     "fl",
     library.fused_wind(
@@ -59,214 +61,15 @@ commands(
             lambda _: baca.select.tuplets(_, ([2, 5], 6)),
         ),
     ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "fl",
     baca.attach_first_segment_default_indicators(),
     baca.suite(
         library.margin_markup("B. fl."),
         baca.start_markup(["Bass", "flute"], hcenter_in=16),
-    ),
-)
-
-commands(
-    "ob",
-    library.fused_wind(
-        [12, 6, 10, 10, 6, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 4], 6)),
-        ),
-    ),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Eng. hn."),
-        baca.start_markup(["English", "horn"], hcenter_in=16),
-    ),
-)
-
-commands(
-    "cl",
-    library.fused_wind(
-        [8, 6, 10, 6, 10, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
-        ),
-    ),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("B. cl."),
-        baca.start_markup(["Bass", "clarinet"], hcenter_in=16),
-    ),
-)
-
-commands(
-    "sax",
-    library.fused_wind(
-        [14, 6, 10, 6, 10, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
-        ),
-    ),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Bar. sax."),
-        baca.start_markup(["Baritone", "saxophone"], hcenter_in=16),
-    ),
-)
-
-commands(
-    ("gt", (1, 24)),
-    library.guitar_isolata(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (None, 12)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, (None, 1)),
-        ),
-        rmakers.tie(
-            lambda _: abjad.select.leaves(abjad.select.tuplet(_, 0))[:-1],
-        ),
-    ),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Gt."),
-        baca.start_markup("Guitar", hcenter_in=16),
-    ),
-)
-
-commands(
-    ("gt", (25, 40)),
-    library.guitar_accelerandi([2, 1]),
-)
-
-commands(
-    ("gt", (41, 44)),
-    library.guitar_isolata(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
-        ),
-    ),
-)
-
-commands(
-    ("pf", (1, 24)),
-    library.fused_expanse([20, 8, 20, 4]),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Pf."),
-        baca.start_markup("Piano", hcenter_in=16),
-    ),
-)
-
-commands(
-    ("pf", (25, 36)),
-    library.guitar_accelerandi([3, 2]),
-)
-
-commands(
-    ("pf", (37, 40)),
-    library.guitar_isolata(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
-        ),
-    ),
-)
-
-commands(
-    ("pf", (41, 44)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "perc",
-    library.fused_expanse([20, 8, 20, 4]),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Perc."),
-        baca.start_markup("Percussion", hcenter_in=16),
-    ),
-)
-
-commands(
-    ("vn", (1, 36)),
-    library.opening_glissandi(
-        0,
-        rmakers.repeat_tie(
-            lambda _: baca.select.leaves_in_get_tuplets(
-                _, ([0, 1, 2, 5], 7), (1, None)
-            ),
-        ),
-    ),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Vn."),
-        baca.start_markup("Violin", hcenter_in=16),
-    ),
-)
-
-commands(
-    ("vn", (37, 44)),
-    library.trill_tuplets(4),
-)
-
-commands(
-    ("va", (1, 36)),
-    library.opening_glissandi(
-        -1,
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(
-                _, ([1, 2, 3, 6], 7), (None, -1)
-            ),
-        ),
-    ),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Va."),
-        baca.start_markup("Viola", hcenter_in=16),
-    ),
-)
-
-commands(
-    ("va", (37, 44)),
-    library.trill_tuplets(3),
-)
-
-commands(
-    ("vc", (1, 36)),
-    library.opening_glissandi(
-        -2,
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(
-                _, ([0, 2, 3, 4], 7), (None, -1)
-            ),
-        ),
-    ),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Vc."),
-        baca.start_markup("Cello", hcenter_in=16),
-    ),
-)
-
-commands(
-    ("vc", (37, 44)),
-    library.trill_tuplets(2),
-)
-
-commands(
-    "cb",
-    library.opening_glissandi(
-        -3,
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(
-                _, ([0, 1, 4, 6], 7), (None, -1)
-            ),
-        ),
-    ),
-    baca.attach_first_segment_default_indicators(),
-    baca.suite(
-        library.margin_markup("Cb."),
-        baca.start_markup("Contrabass", hcenter_in=16),
     ),
 )
 
@@ -303,6 +106,28 @@ commands(
     baca.pitch("A4"),
 )
 
+# ob
+
+commands(
+    "ob",
+    library.fused_wind(
+        [12, 6, 10, 10, 6, 8],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 4], 6)),
+        ),
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "ob",
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Eng. hn."),
+        baca.start_markup(["English", "horn"], hcenter_in=16),
+    ),
+)
+
 commands(
     ("ob", (1, 36)),
     baca.clef("percussion"),
@@ -325,14 +150,50 @@ commands(
     baca.staff_lines(5),
 )
 
+# cl
+
 commands(
     "cl",
+    library.fused_wind(
+        [8, 6, 10, 6, 10, 8],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
+        ),
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "cl",
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("B. cl."),
+        baca.start_markup(["Bass", "clarinet"], hcenter_in=16),
+    ),
     baca.dynamic("pp"),
     baca.pitch("A2"),
 )
 
+# sax
+
+commands(
+    "sax",
+    library.fused_wind(
+        [14, 6, 10, 6, 10, 8],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
+        ),
+    ),
+    baca.append_phantom_measure(),
+)
+
 commands(
     ("sax", (1, 36)),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Bar. sax."),
+        baca.start_markup(["Baritone", "saxophone"], hcenter_in=16),
+    ),
     baca.dynamic("pp"),
     baca.pitch("G3"),
 )
@@ -344,6 +205,50 @@ commands(
     baca.markup(
         # TODO: make \baca-weiss-multiphonic-markup function
         library.weiss_multiphonic(77),
+    ),
+)
+
+# gt
+
+commands(
+    ("gt", (1, 24)),
+    library.guitar_isolata(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
+        ),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (None, 12)),
+        ),
+        rmakers.force_note(
+            lambda _: baca.select.tuplets(_, (None, 1)),
+        ),
+        rmakers.tie(
+            lambda _: abjad.select.leaves(abjad.select.tuplet(_, 0))[:-1],
+        ),
+    ),
+)
+
+commands(
+    ("gt", (25, 40)),
+    library.guitar_accelerandi([2, 1]),
+)
+
+commands(
+    ("gt", (41, 44)),
+    library.guitar_isolata(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
+        ),
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "gt",
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Gt."),
+        baca.start_markup("Guitar", hcenter_in=16),
     ),
 )
 
@@ -370,6 +275,47 @@ commands(
 commands(
     ("gt", (25, 44)),
     baca.pitches(library.rose_pitches),
+)
+
+# pf
+
+commands(
+    ("pf", (1, 24)),
+    library.fused_expanse([20, 8, 20, 4]),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Pf."),
+        baca.start_markup("Piano", hcenter_in=16),
+    ),
+)
+
+commands(
+    ("pf", (25, 36)),
+    library.guitar_accelerandi([3, 2]),
+)
+
+commands(
+    ("pf", (37, 40)),
+    library.guitar_isolata(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
+        ),
+    ),
+)
+
+commands(
+    ("pf", (41, 44)),
+    baca.make_repeat_tied_notes(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "pf",
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Pf."),
+        baca.start_markup("Piano", hcenter_in=16),
+    ),
 )
 
 commands(
@@ -406,8 +352,21 @@ commands(
     baca.markup(r"\khamr-sparse-piano-clicks-markup"),
 )
 
+# perc
+
 commands(
     "perc",
+    library.fused_expanse([20, 8, 20, 4]),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "perc",
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Perc."),
+        baca.start_markup("Percussion", hcenter_in=16),
+    ),
     baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.dynamic("mp"),
     baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
@@ -417,8 +376,33 @@ commands(
     baca.markup(r"\baca-xl-tam-tam-markup"),
 )
 
+# vn
+
 commands(
     ("vn", (1, 36)),
+    library.opening_glissandi(
+        0,
+        rmakers.repeat_tie(
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([0, 1, 2, 5], 7), (1, None)
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("vn", (37, 44)),
+    library.trill_tuplets(4),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vn", (1, 36)),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Vn."),
+        baca.start_markup("Violin", hcenter_in=16),
+    ),
     baca.suite(
         # TODO: release need to cast chords prior to glissando indicators
         baca.pitches(library.violin_halo_pitches),
@@ -443,8 +427,33 @@ commands(
     baca.pitches(library.color_trill_pitches()),
 )
 
+# va
+
 commands(
     ("va", (1, 36)),
+    library.opening_glissandi(
+        -1,
+        rmakers.tie(
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([1, 2, 3, 6], 7), (None, -1)
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("va", (37, 44)),
+    library.trill_tuplets(3),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", (1, 36)),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Va."),
+        baca.start_markup("Viola", hcenter_in=16),
+    ),
     baca.suite(
         baca.pitches(library.violin_halo_pitches),
         baca.glissando(),
@@ -468,8 +477,33 @@ commands(
     baca.pitches(library.color_trill_pitches()),
 )
 
+# vc
+
 commands(
     ("vc", (1, 36)),
+    library.opening_glissandi(
+        -2,
+        rmakers.tie(
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([0, 2, 3, 4], 7), (None, -1)
+            ),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (37, 44)),
+    library.trill_tuplets(2),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", (1, 36)),
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Vc."),
+        baca.start_markup("Cello", hcenter_in=16),
+    ),
     baca.suite(
         baca.pitches(library.cello_halo_pitches),
         baca.glissando(),
@@ -493,8 +527,28 @@ commands(
     baca.pitches(library.color_trill_pitches()),
 )
 
+# cb
+
 commands(
     "cb",
+    library.opening_glissandi(
+        -3,
+        rmakers.tie(
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([0, 1, 4, 6], 7), (None, -1)
+            ),
+        ),
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "cb",
+    baca.attach_first_segment_default_indicators(),
+    baca.suite(
+        library.margin_markup("Cb."),
+        baca.start_markup("Contrabass", hcenter_in=16),
+    ),
     baca.dynamic("f"),
     baca.suite(
         baca.pitches(library.contrabass_halo_pitches),
@@ -511,6 +565,8 @@ commands(
     ("cb", (9, 44)),
     library.halo_hairpins(),
 )
+
+# vn, va, vc, cb composites
 
 commands(
     ["vn", "va", "vc", "cb"],
@@ -529,8 +585,11 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )
