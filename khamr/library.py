@@ -207,7 +207,7 @@ def alternate_divisions(detach_ties=None):
         rmakers.beam(lambda _: baca.select.plts(_)),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        tag=abjad.Tag("khamr.alternate_divisions()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -221,7 +221,7 @@ def aviary(duration, *, extra_counts):
         rmakers.even_division([16], extra_counts=extra_counts),
         rmakers.beam(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.aviary()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -242,7 +242,7 @@ def closing():
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.closing()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -260,7 +260,7 @@ def continuous_glissandi(tuplet_ratio_rotation, *commands):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        tag=abjad.Tag("khamr.continuous_glissandi()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -280,7 +280,7 @@ def current(counts, *commands):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.current()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -298,7 +298,7 @@ def fused_expanse(counts):
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.fused_expanse()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -323,7 +323,7 @@ def fused_wind(counts, *commands, denominator=8):
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.fused_wind()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -344,7 +344,7 @@ def guitar_accelerandi(counts):
         rmakers.feather_beam(),
         rmakers.force_repeat_tie(),
         preprocessor=lambda _: baca.sequence.fuse(_, counts, cyclic=True),
-        tag=abjad.Tag("khamr.guitar_accelerandi()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -375,7 +375,7 @@ def guitar_isolata(*commands):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.guitar_isolata()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -467,7 +467,7 @@ def opening_glissandi(tuplet_ratio_rotation, *commands):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        tag=abjad.Tag("khamr.opening_glissandi()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -483,7 +483,7 @@ def quarter_hits(*commands):
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.quarter_hits()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -501,7 +501,7 @@ def silent_first_division():
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.silent_first_division()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
@@ -633,7 +633,7 @@ def trill_tuplets(tuplet_ratios, *commands):
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("khamr.trill_tuplets()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
