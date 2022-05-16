@@ -2458,18 +2458,18 @@ segment.03.Flute.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute_Music_Voice measure 10]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2489,67 +2489,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.dynamic()
         \baca-fff-ancora
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2557,67 +2557,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2625,67 +2625,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2693,69 +2693,69 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute_Music_Voice measure 12]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2763,67 +2763,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2831,67 +2831,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2899,67 +2899,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2967,67 +2967,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3035,67 +3035,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3103,67 +3103,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3171,67 +3171,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3239,67 +3239,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3307,67 +3307,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3375,67 +3375,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3443,67 +3443,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3511,67 +3511,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3579,67 +3579,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3647,67 +3647,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3715,67 +3715,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3783,67 +3783,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3851,67 +3851,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3919,67 +3919,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -3987,67 +3987,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4055,67 +4055,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4123,67 +4123,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4191,67 +4191,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4259,67 +4259,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4327,67 +4327,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4395,67 +4395,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4463,67 +4463,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4531,67 +4531,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4599,69 +4599,69 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute_Music_Voice measure 26]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4669,67 +4669,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4737,67 +4737,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4805,67 +4805,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4873,67 +4873,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -4941,67 +4941,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5009,67 +5009,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5077,67 +5077,67 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5145,65 +5145,65 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 4/5
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5211,37 +5211,37 @@ segment.03.Flute.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5405,7 +5405,7 @@ segment.03.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5464,7 +5464,7 @@ segment.03.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5891,18 +5891,18 @@ segment.03.Oboe.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe_Music_Voice measure 10]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5926,57 +5926,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca._attach_latent_indicator_alert()
         ^ \baca-explicit-indicator-markup "(“Oboe”)"
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5984,57 +5984,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6042,57 +6042,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6100,57 +6100,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6158,57 +6158,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6216,57 +6216,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6274,57 +6274,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6332,57 +6332,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6390,57 +6390,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6448,57 +6448,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6506,57 +6506,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6564,59 +6564,59 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe_Music_Voice measure 14]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6624,57 +6624,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6682,57 +6682,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6740,57 +6740,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6798,57 +6798,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6856,57 +6856,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6914,57 +6914,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -6972,57 +6972,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7030,59 +7030,59 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe_Music_Voice measure 17]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7090,57 +7090,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7148,57 +7148,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7206,57 +7206,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7264,59 +7264,59 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe_Music_Voice measure 18]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7324,57 +7324,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7382,57 +7382,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7440,57 +7440,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7498,57 +7498,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7556,57 +7556,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7614,57 +7614,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7672,57 +7672,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7730,57 +7730,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7788,57 +7788,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7846,57 +7846,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7904,57 +7904,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -7962,59 +7962,59 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe_Music_Voice measure 22]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8022,57 +8022,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8080,57 +8080,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8138,57 +8138,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8196,59 +8196,59 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe_Music_Voice measure 24]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8256,57 +8256,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8314,57 +8314,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8372,57 +8372,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8430,57 +8430,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8488,57 +8488,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8546,57 +8546,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8604,57 +8604,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8662,57 +8662,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8720,57 +8720,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8778,57 +8778,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8836,57 +8836,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8894,57 +8894,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -8952,57 +8952,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -9010,57 +9010,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -9068,57 +9068,57 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -9126,55 +9126,55 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 4/5
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -9182,37 +9182,37 @@ segment.03.Oboe.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9408,7 +9408,7 @@ segment.03.Oboe.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 36]
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9471,7 +9471,7 @@ segment.03.Oboe.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9874,16 +9874,16 @@ segment.03.Clarinet.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 10]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -9907,70 +9907,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca._attach_latent_indicator_alert()
         ^ \baca-explicit-indicator-markup "(“Clarinet”)"
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -9978,70 +9978,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10049,70 +10049,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10120,70 +10120,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10191,70 +10191,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10262,72 +10262,72 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 13]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10335,70 +10335,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10406,70 +10406,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10477,70 +10477,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10548,70 +10548,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10619,70 +10619,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10690,70 +10690,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10761,70 +10761,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10832,70 +10832,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10903,72 +10903,72 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 18]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -10976,70 +10976,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11047,70 +11047,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11118,70 +11118,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11189,70 +11189,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11260,70 +11260,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11331,70 +11331,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11402,70 +11402,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11473,70 +11473,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11544,70 +11544,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11615,72 +11615,72 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 24]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11688,70 +11688,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11759,72 +11759,72 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 25]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11832,72 +11832,72 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 26]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11905,72 +11905,72 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 27]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -11978,70 +11978,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12049,70 +12049,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12120,72 +12120,72 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 28]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12193,70 +12193,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12264,72 +12264,72 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 29]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12337,70 +12337,70 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 4/5
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -12408,37 +12408,37 @@ segment.03.Clarinet.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13050,18 +13050,18 @@ segment.03.Saxophone.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone_Music_Voice measure 10]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13085,62 +13085,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca._attach_latent_indicator_alert()
         ^ \baca-explicit-indicator-markup "(“SopraninoSaxophone”)"
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13148,64 +13148,64 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone_Music_Voice measure 11]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13213,62 +13213,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13276,62 +13276,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13339,62 +13339,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13402,62 +13402,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13465,62 +13465,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13528,64 +13528,64 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone_Music_Voice measure 13]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13593,62 +13593,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13656,64 +13656,64 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone_Music_Voice measure 14]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13721,62 +13721,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13784,62 +13784,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13847,62 +13847,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13910,62 +13910,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -13973,62 +13973,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14036,62 +14036,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14099,62 +14099,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14162,62 +14162,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14225,62 +14225,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14288,64 +14288,64 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone_Music_Voice measure 18]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14353,62 +14353,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14416,64 +14416,64 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone_Music_Voice measure 19]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14481,62 +14481,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14544,62 +14544,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14607,62 +14607,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14670,62 +14670,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14733,62 +14733,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14796,62 +14796,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14859,62 +14859,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14922,64 +14922,64 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone_Music_Voice measure 22]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -14987,62 +14987,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15050,62 +15050,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15113,62 +15113,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15176,62 +15176,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15239,62 +15239,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15302,64 +15302,64 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone_Music_Voice measure 25]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15367,62 +15367,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15430,62 +15430,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15493,62 +15493,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15556,62 +15556,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15619,62 +15619,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15682,62 +15682,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15745,62 +15745,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15808,62 +15808,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15871,62 +15871,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15934,62 +15934,62 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -15997,60 +15997,60 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 2/3
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -16058,27 +16058,27 @@ segment.03.Saxophone.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         b''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -16310,7 +16310,7 @@ segment.03.Saxophone.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Saxophone_Music_Voice measure 36]
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     c'2...
     % AFTER:
     % SPANNER_STARTS:
@@ -16318,7 +16318,7 @@ segment.03.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -16364,7 +16364,7 @@ segment.03.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17550,7 +17550,7 @@ segment.03.Piano.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     df''''!16
     % AFTER:
     % ARTICULATIONS:
@@ -17591,17 +17591,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     d''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     c''''16
     % AFTER:
     % STOP_BEAM:
@@ -17610,7 +17610,7 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     af'''!16
     % AFTER:
     % START_BEAM:
@@ -17619,17 +17619,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     g'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     c''''16
     % AFTER:
     % STOP_BEAM:
@@ -17640,7 +17640,7 @@ segment.03.Piano.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 2]
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     b'''16
     % AFTER:
     % START_BEAM:
@@ -17649,17 +17649,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     df''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     ef''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     f''''16
     % AFTER:
     % STOP_BEAM:
@@ -17669,14 +17669,14 @@ segment.03.Piano.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % START_BEAM:
@@ -17685,12 +17685,12 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         fs'''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         bf'''!8
         % AFTER:
         % STOP_BEAM:
@@ -17700,22 +17700,22 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 3]
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         a'''16.
         % AFTER:
         % START_BEAM:
@@ -17724,69 +17724,69 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         af'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         g'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         f''''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         b'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ef''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         a'''16.
         % AFTER:
         % STOP_BEAM:
@@ -17796,20 +17796,20 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''16.
         % AFTER:
         % START_BEAM:
@@ -17818,47 +17818,47 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         fs'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         bf'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     d''''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     f''''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     ef''''!8
     % AFTER:
     % STOP_BEAM:
@@ -17868,16 +17868,16 @@ segment.03.Piano.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 4]
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         f''''8
         % AFTER:
         % START_BEAM:
@@ -17886,12 +17886,12 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         b'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!8
         % AFTER:
         % STOP_BEAM:
@@ -17901,12 +17901,12 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     bf'''!16
     % AFTER:
     % START_BEAM:
@@ -17915,17 +17915,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     a'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     fs'''!16
     % AFTER:
     % STOP_BEAM:
@@ -17934,7 +17934,7 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     f''''16
     % AFTER:
     % START_BEAM:
@@ -17943,17 +17943,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     c''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     df''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     d''''16
     % AFTER:
     % STOP_BEAM:
@@ -17963,16 +17963,16 @@ segment.03.Piano.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 5]
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % ARTICULATIONS:
@@ -17994,12 +17994,12 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         af'''!8
         % AFTER:
         % STOP_BEAM:
@@ -18009,20 +18009,20 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         g'''8
         % AFTER:
         % START_BEAM:
@@ -18031,12 +18031,12 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         fs'''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         bf'''!8
         % AFTER:
         % STOP_BEAM:
@@ -18046,20 +18046,20 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         a'''16
         % AFTER:
         % START_BEAM:
@@ -18068,22 +18068,22 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         d''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         f''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''16
         % AFTER:
         % STOP_BEAM:
@@ -18093,20 +18093,20 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!16
         % AFTER:
         % START_BEAM:
@@ -18115,22 +18115,22 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         af'''!16
         % AFTER:
         % STOP_BEAM:
@@ -18140,22 +18140,22 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 6]
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!16.
         % AFTER:
         % START_BEAM:
@@ -18164,22 +18164,22 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ef''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         f''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         b'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!16.
         % AFTER:
         % STOP_BEAM:
@@ -18189,20 +18189,20 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         d''''16.
         % AFTER:
         % START_BEAM:
@@ -18211,22 +18211,22 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         f''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         af'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         g'''16.
         % AFTER:
         % STOP_BEAM:
@@ -18236,22 +18236,22 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 7]
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''16
         % AFTER:
         % START_BEAM:
@@ -18260,22 +18260,22 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ef''''!16
         % AFTER:
         % STOP_BEAM:
@@ -18285,12 +18285,12 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     f''''16
     % AFTER:
     % START_BEAM:
@@ -18299,17 +18299,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     fs'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     bf'''!16
     % AFTER:
     % STOP_BEAM:
@@ -18318,7 +18318,7 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     a'''16
     % AFTER:
     % START_BEAM:
@@ -18327,17 +18327,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     c''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     af'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     g'''16
     % AFTER:
     % STOP_BEAM:
@@ -18346,7 +18346,7 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     e''''16
     % AFTER:
     % START_BEAM:
@@ -18355,17 +18355,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     b'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     df''''!16
     % AFTER:
     % STOP_BEAM:
@@ -18375,16 +18375,16 @@ segment.03.Piano.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 8]
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ef''''!8
         % AFTER:
         % START_BEAM:
@@ -18393,106 +18393,106 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         a'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         fs'''!16
         % AFTER:
         % START_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         d''''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         f''''16
         % AFTER:
         % START_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ef''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         f''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!16
         % AFTER:
         % STOP_BEAM:
@@ -18502,20 +18502,20 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         bf'''!16
         % AFTER:
         % START_BEAM:
@@ -18524,59 +18524,59 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         a'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         f''''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         d''''8
         % AFTER:
         % STOP_BEAM:
@@ -18586,22 +18586,22 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 9]
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % START_BEAM:
@@ -18610,12 +18610,12 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         c''''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         af'''!8
         % AFTER:
         % STOP_BEAM:
@@ -18625,12 +18625,12 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     g'''16
     % AFTER:
     % START_BEAM:
@@ -18639,17 +18639,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     fs'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     bf'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     a'''16
     % AFTER:
     % STOP_BEAM:
@@ -18658,7 +18658,7 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     e''''16
     % AFTER:
     % START_BEAM:
@@ -18667,17 +18667,17 @@ segment.03.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     d''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     c''''16
     % AFTER:
     % STOP_BEAM:
@@ -18687,14 +18687,14 @@ segment.03.Piano.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         df''''!8
         % AFTER:
         % START_BEAM:
@@ -18703,12 +18703,12 @@ segment.03.Piano.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         g'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.current()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % STOP_BEAM:
@@ -18723,24 +18723,24 @@ segment.03.Piano.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.current()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 10]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -18760,82 +18760,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.dynamic()
         \fff
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -18843,82 +18843,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -18926,82 +18926,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19009,82 +19009,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19092,82 +19092,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19175,82 +19175,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19258,82 +19258,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19341,82 +19341,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19424,82 +19424,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19507,82 +19507,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19590,82 +19590,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19673,82 +19673,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19756,82 +19756,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19839,82 +19839,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -19922,82 +19922,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20005,82 +20005,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20088,82 +20088,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20171,82 +20171,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20254,82 +20254,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20337,84 +20337,84 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 22]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20422,82 +20422,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20505,82 +20505,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20588,82 +20588,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20671,84 +20671,84 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano_Music_Voice measure 25]
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20756,82 +20756,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20839,82 +20839,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -20922,82 +20922,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -21005,82 +21005,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -21088,82 +21088,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -21171,82 +21171,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -21254,82 +21254,82 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     \times 5/7
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -21337,47 +21337,47 @@ segment.03.Piano.Music.Voice = {
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.aviary()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.aviary()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23180,7 +23180,7 @@ segment.03.Violin.Music.Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     f'1.
     % AFTER:
     % ARTICULATIONS:
@@ -23209,7 +23209,7 @@ segment.03.Violin.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 4]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     fs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23220,16 +23220,16 @@ segment.03.Violin.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 5]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2.
         % AFTER:
         % ARTICULATIONS:
@@ -23268,7 +23268,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23279,14 +23279,14 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 6]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     c'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23297,16 +23297,16 @@ segment.03.Violin.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 7]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         b1
         % AFTER:
         % SPANNER_STARTS:
@@ -23316,7 +23316,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23327,24 +23327,24 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 5/9
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 8]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23354,7 +23354,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!1.
         % AFTER:
         % SPANNER_STARTS:
@@ -23365,22 +23365,22 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 9]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -23390,7 +23390,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2.
         % AFTER:
         % ARTICULATIONS:
@@ -23416,14 +23416,14 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 10]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     a'2.
     % AFTER:
     % ARTICULATIONS:
@@ -23448,7 +23448,7 @@ segment.03.Violin.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 11]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -23460,7 +23460,7 @@ segment.03.Violin.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 12]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     as!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23470,7 +23470,7 @@ segment.03.Violin.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23482,7 +23482,7 @@ segment.03.Violin.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 13]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     cs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23493,16 +23493,16 @@ segment.03.Violin.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 14]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23512,7 +23512,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         c'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23523,24 +23523,24 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 15]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         b1
         % AFTER:
         % SPANNER_STARTS:
@@ -23550,7 +23550,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23561,22 +23561,22 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 16]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23586,7 +23586,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23597,7 +23597,7 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23626,7 +23626,7 @@ segment.03.Violin.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 18]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     g'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23637,16 +23637,16 @@ segment.03.Violin.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 19]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         cs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -23656,7 +23656,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23667,14 +23667,14 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 20]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     as!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -23685,16 +23685,16 @@ segment.03.Violin.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 21]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         d'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23704,7 +23704,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23715,22 +23715,22 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 22]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23740,7 +23740,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         fs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23751,24 +23751,24 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 23]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23778,7 +23778,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23789,14 +23789,14 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 24]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     a'1
     % AFTER:
     % SPANNER_STARTS:
@@ -23808,7 +23808,7 @@ segment.03.Violin.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 25]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     ds'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23819,16 +23819,16 @@ segment.03.Violin.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 26]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23838,7 +23838,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         d'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23849,14 +23849,14 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 27]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     cs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -23867,16 +23867,16 @@ segment.03.Violin.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 28]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23886,7 +23886,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         as!1
         % AFTER:
         % SPANNER_STARTS:
@@ -23897,24 +23897,24 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin_Music_Voice measure 29]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23924,7 +23924,7 @@ segment.03.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2
         % AFTER:
         % COMMANDS:
@@ -23935,7 +23935,7 @@ segment.03.Violin.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24347,11 +24347,11 @@ segment.03.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -24363,7 +24363,7 @@ segment.03.Viola.Music.Voice = {
           %! baca.OverrideCommand._call(1)
           %! baca.note_head_style_harmonic()
         \override NoteHead.style = #'harmonic
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1.
         % AFTER:
         % ARTICULATIONS:
@@ -24390,7 +24390,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         fs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -24401,14 +24401,14 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 4]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     a'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -24420,7 +24420,7 @@ segment.03.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 5]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     e'1
     % AFTER:
     % ARTICULATIONS:
@@ -24461,7 +24461,7 @@ segment.03.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 6]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -24471,7 +24471,7 @@ segment.03.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     b2
     % AFTER:
     % SPANNER_STARTS:
@@ -24483,7 +24483,7 @@ segment.03.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 7]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -24494,18 +24494,18 @@ segment.03.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 5/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 8]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -24515,7 +24515,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -24526,22 +24526,22 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 9]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -24551,7 +24551,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2
         % AFTER:
         % ARTICULATIONS:
@@ -24577,24 +24577,24 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 10]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2
         % AFTER:
         % ARTICULATIONS:
@@ -24617,7 +24617,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -24628,14 +24628,14 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 11]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -24668,18 +24668,18 @@ segment.03.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 13]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         cs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -24689,7 +24689,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -24700,14 +24700,14 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 14]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -24718,18 +24718,18 @@ segment.03.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 15]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         b1.
         % AFTER:
         % SPANNER_STARTS:
@@ -24739,7 +24739,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -24750,22 +24750,22 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 16]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'4
         % AFTER:
         % SPANNER_STARTS:
@@ -24775,7 +24775,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -24786,24 +24786,24 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 5/9
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 17]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1.
         % AFTER:
         % SPANNER_STARTS:
@@ -24813,7 +24813,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -24824,14 +24824,14 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 18]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     cs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -24843,7 +24843,7 @@ segment.03.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 19]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -24854,18 +24854,18 @@ segment.03.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 20]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         as!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -24875,7 +24875,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         d'1
         % AFTER:
         % SPANNER_STARTS:
@@ -24886,14 +24886,14 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 21]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -24904,16 +24904,16 @@ segment.03.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 22]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -24923,7 +24923,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         fs'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -24934,14 +24934,14 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 23]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     a'2
     % AFTER:
     % SPANNER_STARTS:
@@ -24951,7 +24951,7 @@ segment.03.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     g'4
     % AFTER:
     % SPANNER_STARTS:
@@ -24962,16 +24962,16 @@ segment.03.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 24]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2
         % AFTER:
         % SPANNER_STARTS:
@@ -24981,7 +24981,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -24992,14 +24992,14 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 25]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -25011,7 +25011,7 @@ segment.03.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 26]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     d'2
     % AFTER:
     % SPANNER_STARTS:
@@ -25022,18 +25022,18 @@ segment.03.Viola.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 27]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         cs'!1.
         % AFTER:
         % SPANNER_STARTS:
@@ -25043,7 +25043,7 @@ segment.03.Viola.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -25054,14 +25054,14 @@ segment.03.Viola.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 28]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -25073,7 +25073,7 @@ segment.03.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 29]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     a'2
     % AFTER:
     % SPANNER_STARTS:
@@ -25083,7 +25083,7 @@ segment.03.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     e'4
     % AFTER:
     % COMMANDS:
@@ -25506,7 +25506,7 @@ segment.03.Cello.Music.Voice = {
       %! baca.OverrideCommand._call(1)
       %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     f'1
     % AFTER:
     % ARTICULATIONS:
@@ -25533,7 +25533,7 @@ segment.03.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     fs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -25545,7 +25545,7 @@ segment.03.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 4]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     a'4
     % AFTER:
     % SPANNER_STARTS:
@@ -25555,7 +25555,7 @@ segment.03.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -25567,7 +25567,7 @@ segment.03.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 5]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -25608,7 +25608,7 @@ segment.03.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 6]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     b2.
     % AFTER:
     % SPANNER_STARTS:
@@ -25619,16 +25619,16 @@ segment.03.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 7]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -25638,7 +25638,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -25649,7 +25649,7 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -25677,16 +25677,16 @@ segment.03.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 9]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -25696,7 +25696,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2
         % AFTER:
         % ARTICULATIONS:
@@ -25722,14 +25722,14 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 10]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     a'4
     % AFTER:
     % ARTICULATIONS:
@@ -25752,7 +25752,7 @@ segment.03.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -25763,16 +25763,16 @@ segment.03.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 11]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         as!1
         % AFTER:
         % SPANNER_STARTS:
@@ -25782,7 +25782,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         d'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -25793,7 +25793,7 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -25822,7 +25822,7 @@ segment.03.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 13]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     e'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -25833,16 +25833,16 @@ segment.03.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 14]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         c'4
         % AFTER:
         % SPANNER_STARTS:
@@ -25852,7 +25852,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         b4.
         % AFTER:
         % SPANNER_STARTS:
@@ -25863,14 +25863,14 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 15]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -25881,16 +25881,16 @@ segment.03.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 16]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'4
         % AFTER:
         % SPANNER_STARTS:
@@ -25900,7 +25900,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -25911,24 +25911,24 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 5/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 17]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -25938,7 +25938,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -25949,24 +25949,24 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 18]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         cs'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -25976,7 +25976,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -25987,14 +25987,14 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 19]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -26006,7 +26006,7 @@ segment.03.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 20]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     d'1.
     % AFTER:
     % SPANNER_STARTS:
@@ -26017,16 +26017,16 @@ segment.03.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 21]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -26036,7 +26036,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -26047,14 +26047,14 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 22]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     fs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -26065,18 +26065,18 @@ segment.03.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 23]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2
         % AFTER:
         % SPANNER_STARTS:
@@ -26086,7 +26086,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         g'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -26097,22 +26097,22 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 24]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -26122,7 +26122,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -26133,22 +26133,22 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 25]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -26158,7 +26158,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         d'4
         % AFTER:
         % SPANNER_STARTS:
@@ -26169,14 +26169,14 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 26]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     cs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -26188,7 +26188,7 @@ segment.03.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 27]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -26199,16 +26199,16 @@ segment.03.Cello.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello_Music_Voice measure 28]
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         as!2
         % AFTER:
         % SPANNER_STARTS:
@@ -26218,7 +26218,7 @@ segment.03.Cello.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.continuous_glissandi()
+          %! khamr.make_continuous_glissando_rhythm()
         a'1
         % AFTER:
         % SPANNER_STARTS:
@@ -26229,14 +26229,14 @@ segment.03.Cello.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 29]
-      %! khamr.continuous_glissandi()
+      %! khamr.make_continuous_glissando_rhythm()
     e'2.
     % AFTER:
     % COMMANDS:

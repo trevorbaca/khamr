@@ -83,12 +83,12 @@ stage_5_silence_pattern = abjad.index(
 def make_15_30(voice_name):
     commands(
         (voice_name, (15, 20)),
-        library.alternate_divisions(),
+        library.make_alternate_divisions(),
     )
 
     commands(
         (voice_name, (21, 30)),
-        library.silent_first_division(),
+        library.make_silent_first_division(),
     )
     commands(
         (voice_name, 30),
@@ -100,7 +100,7 @@ def make_15_30(voice_name):
 
 commands(
     ("fl", (1, 8)),
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [10, 10, 6, 8, 6],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([2, 5], 6)),
@@ -144,7 +144,7 @@ commands(
 
 commands(
     ("ob", (1, 8)),
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [12, 6, 10, 10, 6, 8],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 4], 6)),
@@ -176,7 +176,7 @@ commands(
 
 commands(
     ("cl", (1, 14)),
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [8, 6, 10, 6, 10, 8],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
@@ -205,7 +205,7 @@ commands(
 
 commands(
     ("sax", (1, 8)),
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [14, 6, 10, 6, 10, 8],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
@@ -239,7 +239,7 @@ commands(
 
 commands(
     ("gt", (1, 4)),
-    library.guitar_isolata(
+    library.make_guitar_isolata_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
@@ -288,12 +288,12 @@ commands(
 
 commands(
     ("pf", (15, 20)),
-    library.alternate_divisions(detach_ties=True),
+    library.make_alternate_divisions(detach_ties=True),
 )
 
 commands(
     ("pf", (21, 30)),
-    library.current(
+    library.make_current_rhythm(
         [4, 3, 5],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, stage_5_silence_pattern),
@@ -330,14 +330,14 @@ commands(
 
 commands(
     ("perc", (1, 14)),
-    library.fused_expanse([8, 20, 4, 20]),
+    library.make_fused_expanse_rhythm([8, 20, 4, 20]),
     baca.reapply_persistent_indicators(),
 )
 
 indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
 commands(
     ("perc", (15, 20)),
-    library.quarter_hits(
+    library.make_quarter_hits(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), indices),
         ),
@@ -346,7 +346,7 @@ commands(
 
 commands(
     ("perc", (21, 30)),
-    library.quarter_hits(
+    library.make_quarter_hits(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), stage_5_silence_pattern),
         ),
@@ -373,7 +373,7 @@ commands(
 
 commands(
     ("vn", (1, 14)),
-    library.trill_tuplets(
+    library.make_trill_tuplets(
         4,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, (-2, None)),
@@ -419,7 +419,7 @@ commands(
 
 commands(
     ("va", (1, 14)),
-    library.trill_tuplets(
+    library.make_trill_tuplets(
         3,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, (-2, None)),
@@ -465,7 +465,7 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    library.trill_tuplets(
+    library.make_trill_tuplets(
         2,
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, (-2, None)),
@@ -511,7 +511,7 @@ commands(
 
 commands(
     ("cb", (1, 14)),
-    library.opening_glissandi(
+    library.make_opening_glissando_rhythm(
         -3,
         rmakers.repeat_tie(
             lambda _: baca.select.leaves_in_get_tuplets(

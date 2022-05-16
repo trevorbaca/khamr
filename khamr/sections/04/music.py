@@ -53,7 +53,7 @@ commands(
 
 commands(
     ("fl", (1, 15)),
-    library.fused_wind([8], denominator=16),
+    library.make_fused_wind_rhythm([8], denominator=16),
     baca.reapply_persistent_indicators(),
 )
 
@@ -72,7 +72,7 @@ commands(
 
 commands(
     ("ob", (1, 15)),
-    library.fused_wind([10], denominator=16),
+    library.make_fused_wind_rhythm([10], denominator=16),
     baca.reapply_persistent_indicators(),
 )
 
@@ -110,7 +110,7 @@ commands(
 
 commands(
     ("sax", (1, 15)),
-    library.fused_wind([12], denominator=16),
+    library.make_fused_wind_rhythm([12], denominator=16),
     baca.reapply_persistent_indicators(),
 )
 
@@ -148,7 +148,7 @@ commands(
 
 commands(
     ("gt", (16, 20)),
-    library.closing(),
+    library.make_closing_rhythm(),
     baca.append_phantom_measure(),
 )
 
@@ -183,7 +183,7 @@ commands(
 
 commands(
     ("pf", (16, 20)),
-    library.closing(),
+    library.make_closing_rhythm(),
     baca.append_phantom_measure(),
 )
 

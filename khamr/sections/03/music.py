@@ -96,7 +96,7 @@ commands(
 
 commands(
     ("fl", (10, 29)),
-    library.aviary((7, 16), extra_counts=[1]),
+    library.make_aviary_rhythm((7, 16), extra_counts=[1]),
 )
 
 commands(
@@ -106,7 +106,7 @@ commands(
 
 commands(
     ("fl", (34, 37)),
-    library.fused_wind([8], denominator=16),
+    library.make_fused_wind_rhythm([8], denominator=16),
     baca.append_phantom_measure(),
 )
 
@@ -145,7 +145,7 @@ commands(
 
 commands(
     ("ob", (10, 29)),
-    library.aviary((5, 16), extra_counts=[1]),
+    library.make_aviary_rhythm((5, 16), extra_counts=[1]),
 )
 
 commands(
@@ -155,7 +155,7 @@ commands(
 
 commands(
     ("ob", (34, 37)),
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [10],
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, 0),
@@ -202,7 +202,7 @@ commands(
 
 commands(
     ("cl", (10, 29)),
-    library.aviary((8, 16), extra_counts=[1]),
+    library.make_aviary_rhythm((8, 16), extra_counts=[1]),
 )
 
 commands(
@@ -253,7 +253,7 @@ commands(
 
 commands(
     ("sax", (10, 29)),
-    library.aviary((6, 16), extra_counts=[1]),
+    library.make_aviary_rhythm((6, 16), extra_counts=[1]),
 )
 
 commands(
@@ -263,7 +263,7 @@ commands(
 
 commands(
     ("sax", (34, 37)),
-    library.fused_wind([12], denominator=16),
+    library.make_fused_wind_rhythm([12], denominator=16),
     baca.append_phantom_measure(),
 )
 
@@ -329,13 +329,13 @@ commands(
 
 commands(
     ("pf", (1, 9)),
-    library.current([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
+    library.make_current_rhythm([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("pf", (10, 29)),
-    library.aviary((9, 16), extra_counts=[2]),
+    library.make_aviary_rhythm((9, 16), extra_counts=[2]),
 )
 
 commands(
@@ -428,7 +428,7 @@ commands(
 
 commands(
     ("vn", (3, 29)),
-    library.continuous_glissandi(
+    library.make_continuous_glissando_rhythm(
         0,
         rmakers.tie(
             ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
@@ -452,7 +452,7 @@ commands(
 
 commands(
     ("va", (3, 29)),
-    library.continuous_glissandi(
+    library.make_continuous_glissando_rhythm(
         -1,
         rmakers.tie(
             ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
@@ -476,7 +476,7 @@ commands(
 
 commands(
     ("vc", (3, 29)),
-    library.continuous_glissandi(
+    library.make_continuous_glissando_rhythm(
         -2,
         rmakers.tie(
             ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
