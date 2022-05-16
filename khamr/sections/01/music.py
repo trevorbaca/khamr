@@ -61,6 +61,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([2, 5], 6)),
         ),
     ),
+)
+
+commands(
+    "fl",
     baca.append_phantom_measure(),
 )
 
@@ -116,6 +120,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 4], 6)),
         ),
     ),
+)
+
+commands(
+    "ob",
     baca.append_phantom_measure(),
 )
 
@@ -160,6 +168,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
     ),
+)
+
+commands(
+    "cl",
     baca.append_phantom_measure(),
 )
 
@@ -184,6 +196,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
     ),
+)
+
+commands(
+    "sax",
     baca.append_phantom_measure(),
 )
 
@@ -240,6 +256,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
     ),
+)
+
+commands(
+    ("gt", (41, 44)),
     baca.append_phantom_measure(),
 )
 
@@ -282,6 +302,10 @@ commands(
 commands(
     ("pf", (1, 24)),
     library.make_fused_expanse_rhythm([20, 8, 20, 4]),
+)
+
+commands(
+    ("pf", (1, 24)),
     baca.attach_first_segment_default_indicators(),
     baca.suite(
         library.margin_markup("Pf."),
@@ -306,6 +330,10 @@ commands(
 commands(
     ("pf", (41, 44)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("pf", (41, 44)),
     baca.append_phantom_measure(),
 )
 
@@ -357,6 +385,10 @@ commands(
 commands(
     "perc",
     library.make_fused_expanse_rhythm([20, 8, 20, 4]),
+)
+
+commands(
+    "perc",
     baca.append_phantom_measure(),
 )
 
@@ -393,6 +425,10 @@ commands(
 commands(
     ("vn", (37, 44)),
     library.make_trill_tuplets(4),
+)
+
+commands(
+    ("vn", (37, 44)),
     baca.append_phantom_measure(),
 )
 
@@ -444,6 +480,10 @@ commands(
 commands(
     ("va", (37, 44)),
     library.make_trill_tuplets(3),
+)
+
+commands(
+    ("va", (37, 44)),
     baca.append_phantom_measure(),
 )
 
@@ -494,6 +534,10 @@ commands(
 commands(
     ("vc", (37, 44)),
     library.make_trill_tuplets(2),
+)
+
+commands(
+    ("vc", (37, 44)),
     baca.append_phantom_measure(),
 )
 
@@ -539,6 +583,10 @@ commands(
             ),
         ),
     ),
+)
+
+commands(
+    "cb",
     baca.append_phantom_measure(),
 )
 

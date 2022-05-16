@@ -106,6 +106,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([2, 5], 6)),
         ),
     ),
+)
+
+commands(
+    ("fl", (1, 8)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -150,6 +154,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 4], 6)),
         ),
     ),
+)
+
+commands(
+    ("ob", (1, 8)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -185,6 +193,10 @@ commands(
             lambda _: baca.select.tuplet(_, -1),
         ),
     ),
+)
+
+commands(
+    ("cl", (1, 14)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -211,6 +223,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
         ),
     ),
+)
+
+commands(
+    ("sax", (1, 8)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -244,6 +260,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
     ),
+)
+
+commands(
+    ("gt", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -283,6 +303,10 @@ commands(
     baca.make_repeat_tied_notes(
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
+)
+
+commands(
+    ("pf", (1, 14)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -299,6 +323,10 @@ commands(
             lambda _: baca.select.tuplets(_, stage_5_silence_pattern),
         ),
     ),
+)
+
+commands(
+    ("pf", (21, 30)),
     baca.append_phantom_measure(),
 )
 
@@ -331,6 +359,10 @@ commands(
 commands(
     ("perc", (1, 14)),
     library.make_fused_expanse_rhythm([8, 20, 4, 20]),
+)
+
+commands(
+    ("perc", (1, 14)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -351,6 +383,10 @@ commands(
             lambda _: abjad.select.get(baca.select.lts(_), stage_5_silence_pattern),
         ),
     ),
+)
+
+commands(
+    ("perc", (21, 30)),
     baca.append_phantom_measure(),
 )
 
@@ -379,6 +415,10 @@ commands(
             lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
+)
+
+commands(
+    ("vn", (1, 14)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -425,6 +465,10 @@ commands(
             lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
+)
+
+commands(
+    ("va", (1, 14)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -471,6 +515,10 @@ commands(
             lambda _: baca.select.tuplets(_, (-2, None)),
         ),
     ),
+)
+
+commands(
+    ("vc", (1, 8)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -522,6 +570,10 @@ commands(
             lambda _: baca.select.tuplet(_, -1),
         ),
     ),
+)
+
+commands(
+    ("cb", (1, 14)),
     baca.reapply_persistent_indicators(),
 )
 
