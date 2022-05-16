@@ -49,7 +49,7 @@ commands(
     ),
 )
 
-# fl
+# FL
 
 commands(
     ("fl", (1, 15)),
@@ -57,26 +57,11 @@ commands(
 )
 
 commands(
-    ("fl", (1, 15)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("fl", (16, 20)),
     baca.make_mmrests(),
 )
 
-commands(
-    ("fl", (16, 20)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("fl", (1, 15)),
-    baca.pitch("Bb4"),  # (sounds B3)
-)
-
-# ob
+# OB
 
 commands(
     ("ob", (1, 15)),
@@ -84,26 +69,11 @@ commands(
 )
 
 commands(
-    ("ob", (1, 15)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("ob", (16, 20)),
     baca.make_mmrests(),
 )
 
-commands(
-    ("ob", (16, 20)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("ob", (1, 15)),
-    baca.staff_position(0),
-)
-
-# cl
+# CL
 
 commands(
     ("cl", (1, 15)),
@@ -111,26 +81,11 @@ commands(
 )
 
 commands(
-    ("cl", (1, 15)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("cl", (16, 20)),
     baca.make_mmrests(),
 )
 
-commands(
-    ("cl", (16, 20)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("cl", (1, 15)),
-    baca.pitch("G2"),
-)
-
-# sax
+# SAX
 
 commands(
     ("sax", (1, 15)),
@@ -138,26 +93,11 @@ commands(
 )
 
 commands(
-    ("sax", (1, 15)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("sax", (16, 20)),
     baca.make_mmrests(),
 )
 
-commands(
-    ("sax", (16, 20)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("sax", (1, 15)),
-    baca.staff_position(0),
-)
-
-# gt
+# GT
 
 commands(
     ("gt", (1, 7)),
@@ -166,11 +106,6 @@ commands(
             lambda _: baca.select.lts(_)[:-1],
         ),
     ),
-)
-
-commands(
-    ("gt", (1, 7)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -187,20 +122,7 @@ commands(
     library.make_closing_rhythm(),
 )
 
-commands(
-    ("gt", (16, 20)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    "gt",
-    baca.accent(selector=lambda _: baca.select.pheads(_)),
-    baca.dynamic("mf"),
-    baca.flageolet(selector=lambda _: baca.select.pheads(_)),
-    baca.pitch("C4"),
-)
-
-# pf
+# PF
 
 commands(
     ("pf", (1, 7)),
@@ -209,11 +131,6 @@ commands(
             lambda _: baca.select.lts(_)[:-1],
         ),
     ),
-)
-
-commands(
-    ("pf", (1, 7)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -230,30 +147,13 @@ commands(
     library.make_closing_rhythm(),
 )
 
-commands(
-    ("pf", (16, 20)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    "pf",
-    baca.accent(selector=lambda _: baca.select.pheads(_)),
-    baca.dynamic("mf"),
-    baca.pitch("A#4"),
-)
-
-# perc
+# PERC
 
 commands(
     ("perc", (1, 5)),
     baca.make_repeat_tied_notes(
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
-)
-
-commands(
-    ("perc", (1, 5)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -271,10 +171,112 @@ commands(
     baca.make_mmrests(),
 )
 
+# VN
+
 commands(
-    ("perc", (16, 20)),
-    baca.append_phantom_measure(),
+    ("vn", (1, 15)),
+    baca.make_repeated_duration_notes([(7, 4)]),
 )
+
+commands(
+    ("vn", (16, 20)),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 15)),
+    baca.make_repeated_duration_notes([(6, 4)]),
+)
+
+commands(
+    ("va", (16, 20)),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 15)),
+    baca.make_repeated_duration_notes([(5, 4)]),
+)
+
+commands(
+    ("vc", (16, 20)),
+    baca.make_mmrests(),
+)
+
+# CB
+
+commands(
+    ("cb", (1, 15)),
+    baca.make_repeated_duration_notes([(4, 4)]),
+)
+
+commands(
+    ("cb", (16, 20)),
+    baca.make_mmrests(),
+)
+
+# phantom & reapply
+
+music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    music_voice_names,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# fl
+
+commands(
+    ("fl", (1, 15)),
+    baca.pitch("Bb4"),  # (sounds B3)
+)
+
+# ob
+
+commands(
+    ("ob", (1, 15)),
+    baca.staff_position(0),
+)
+
+# cl
+
+commands(
+    ("cl", (1, 15)),
+    baca.pitch("G2"),
+)
+
+# sax
+
+commands(
+    ("sax", (1, 15)),
+    baca.staff_position(0),
+)
+
+# gt
+
+commands(
+    "gt",
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
+    baca.dynamic("mf"),
+    baca.flageolet(selector=lambda _: baca.select.pheads(_)),
+    baca.pitch("C4"),
+)
+
+# pf
+
+commands(
+    "pf",
+    baca.accent(selector=lambda _: baca.select.pheads(_)),
+    baca.dynamic("mf"),
+    baca.pitch("A#4"),
+)
+
+# perc
 
 commands(
     ("perc", (1, 5)),
@@ -303,92 +305,28 @@ commands(
 
 commands(
     ("vn", (1, 15)),
-    baca.make_repeated_duration_notes([(7, 4)]),
-)
-
-commands(
-    ("vn", (1, 15)),
-    baca.reapply_persistent_indicators(),
     baca.clef("percussion"),
-)
-
-commands(
-    ("vn", (16, 20)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vn", (16, 20)),
-    baca.append_phantom_measure(),
 )
 
 # va
 
 commands(
     ("va", (1, 15)),
-    baca.make_repeated_duration_notes([(6, 4)]),
-)
-
-commands(
-    ("va", (1, 15)),
-    baca.reapply_persistent_indicators(),
     baca.clef("percussion"),
-)
-
-commands(
-    ("va", (16, 20)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("va", (16, 20)),
-    baca.append_phantom_measure(),
 )
 
 # vc
 
 commands(
     ("vc", (1, 15)),
-    baca.make_repeated_duration_notes([(5, 4)]),
-)
-
-commands(
-    ("vc", (1, 15)),
-    baca.reapply_persistent_indicators(),
     baca.clef("percussion"),
-)
-
-commands(
-    ("vc", (16, 20)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", (16, 20)),
-    baca.append_phantom_measure(),
 )
 
 # cb
 
 commands(
     ("cb", (1, 15)),
-    baca.make_repeated_duration_notes([(4, 4)]),
-)
-
-commands(
-    ("cb", (1, 15)),
-    baca.reapply_persistent_indicators(),
     baca.clef("percussion"),
-)
-
-commands(
-    ("cb", (16, 20)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("cb", (16, 20)),
-    baca.append_phantom_measure(),
 )
 
 commands(

@@ -90,13 +90,7 @@ def make_15_30(voice_name):
         (voice_name, (21, 30)),
         library.make_silent_first_division(),
     )
-    commands(
-        (voice_name, 30),
-        baca.append_phantom_measure(),
-    )
 
-
-# fl
 
 commands(
     ("fl", (1, 8)),
@@ -108,10 +102,7 @@ commands(
     ),
 )
 
-commands(
-    ("fl", (1, 8)),
-    baca.reapply_persistent_indicators(),
-)
+# FL
 
 commands(
     ("fl", (9, 14)),
@@ -119,6 +110,211 @@ commands(
 )
 
 make_15_30("fl")
+
+# OB
+
+commands(
+    ("ob", (1, 8)),
+    library.make_fused_wind_rhythm(
+        [12, 6, 10, 10, 6, 8],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 4], 6)),
+        ),
+    ),
+)
+
+commands(
+    ("ob", (9, 14)),
+    baca.make_mmrests(),
+)
+
+make_15_30("ob")
+
+# CL
+
+commands(
+    ("cl", (1, 14)),
+    library.make_fused_wind_rhythm(
+        [8, 6, 10, 6, 10, 8],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
+        ),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+make_15_30("cl")
+
+# SAX
+
+commands(
+    ("sax", (1, 8)),
+    library.make_fused_wind_rhythm(
+        [14, 6, 10, 6, 10, 8],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
+        ),
+    ),
+)
+
+commands(
+    ("sax", (9, 14)),
+    baca.make_mmrests(),
+)
+
+make_15_30("sax")
+
+# GT
+
+commands(
+    ("gt", (1, 4)),
+    library.make_guitar_isolata_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
+        ),
+    ),
+)
+
+commands(
+    ("gt", (5, 14)),
+    baca.make_repeat_tied_notes(
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+    ),
+)
+
+make_15_30("gt")
+
+# PF
+
+commands(
+    ("pf", (1, 14)),
+    baca.make_repeat_tied_notes(
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+    ),
+)
+
+commands(
+    ("pf", (15, 20)),
+    library.make_alternate_divisions(detach_ties=True),
+)
+
+commands(
+    ("pf", (21, 30)),
+    library.make_current_rhythm(
+        [4, 3, 5],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, stage_5_silence_pattern),
+        ),
+    ),
+)
+
+# PERC
+
+commands(
+    ("perc", (1, 14)),
+    library.make_fused_expanse_rhythm([8, 20, 4, 20]),
+)
+
+indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
+commands(
+    ("perc", (15, 20)),
+    library.make_quarter_hits(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), indices),
+        ),
+    ),
+)
+
+commands(
+    ("perc", (21, 30)),
+    library.make_quarter_hits(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), stage_5_silence_pattern),
+        ),
+    ),
+)
+
+# VN
+
+commands(
+    ("vn", (1, 14)),
+    library.make_trill_tuplets(
+        4,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (-2, None)),
+        ),
+    ),
+)
+
+make_15_30("vn")
+
+# VA
+
+commands(
+    ("va", (1, 14)),
+    library.make_trill_tuplets(
+        3,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (-2, None)),
+        ),
+    ),
+)
+
+make_15_30("va")
+
+# VC
+
+commands(
+    ("vc", (1, 8)),
+    library.make_trill_tuplets(
+        2,
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (-2, None)),
+        ),
+    ),
+)
+
+commands(
+    ("vc", (9, 14)),
+    baca.make_repeat_tied_notes(
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+    ),
+)
+
+make_15_30("vc")
+
+# CB
+
+commands(
+    ("cb", (1, 14)),
+    library.make_opening_glissando_rhythm(
+        -3,
+        rmakers.repeat_tie(
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, ([0, 1, 4, 6], 7), (1, None)
+            ),
+        ),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
+)
+
+make_15_30("cb")
+
+# phantom & reapply
+
+music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    music_voice_names,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# fl
 
 commands(
     ("fl", (1, 8)),
@@ -148,28 +344,6 @@ commands(
 
 commands(
     ("ob", (1, 8)),
-    library.make_fused_wind_rhythm(
-        [12, 6, 10, 10, 6, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 4], 6)),
-        ),
-    ),
-)
-
-commands(
-    ("ob", (1, 8)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("ob", (9, 14)),
-    baca.make_mmrests(),
-)
-
-make_15_30("ob")
-
-commands(
-    ("ob", (1, 8)),
     baca.flageolet(selector=lambda _: baca.select.pheads(_)),
     baca.pitch("<A4 E5>"),
 )
@@ -181,26 +355,6 @@ commands(
 )
 
 # cl
-
-commands(
-    ("cl", (1, 14)),
-    library.make_fused_wind_rhythm(
-        [8, 6, 10, 6, 10, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
-    ("cl", (1, 14)),
-    baca.reapply_persistent_indicators(),
-)
-
-make_15_30("cl")
 
 commands(
     ("cl", (1, 14)),
@@ -217,28 +371,6 @@ commands(
 
 commands(
     ("sax", (1, 8)),
-    library.make_fused_wind_rhythm(
-        [14, 6, 10, 6, 10, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
-        ),
-    ),
-)
-
-commands(
-    ("sax", (1, 8)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("sax", (9, 14)),
-    baca.make_mmrests(),
-)
-
-make_15_30("sax")
-
-commands(
-    ("sax", (1, 8)),
     baca.pitch("<F3 G+3>"),
 )
 
@@ -252,29 +384,6 @@ commands(
 )
 
 # gt
-
-commands(
-    ("gt", (1, 4)),
-    library.make_guitar_isolata_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
-        ),
-    ),
-)
-
-commands(
-    ("gt", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("gt", (5, 14)),
-    baca.make_repeat_tied_notes(
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    ),
-)
-
-make_15_30("gt")
 
 commands(
     ("gt", (1, 4)),
@@ -297,38 +406,6 @@ commands(
 )
 
 # pf
-
-commands(
-    ("pf", (1, 14)),
-    baca.make_repeat_tied_notes(
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    ),
-)
-
-commands(
-    ("pf", (1, 14)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("pf", (15, 20)),
-    library.make_alternate_divisions(detach_ties=True),
-)
-
-commands(
-    ("pf", (21, 30)),
-    library.make_current_rhythm(
-        [4, 3, 5],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, stage_5_silence_pattern),
-        ),
-    ),
-)
-
-commands(
-    ("pf", (21, 30)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("pf", (1, 14)),
@@ -358,40 +435,6 @@ commands(
 
 commands(
     ("perc", (1, 14)),
-    library.make_fused_expanse_rhythm([8, 20, 4, 20]),
-)
-
-commands(
-    ("perc", (1, 14)),
-    baca.reapply_persistent_indicators(),
-)
-
-indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
-commands(
-    ("perc", (15, 20)),
-    library.make_quarter_hits(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), indices),
-        ),
-    ),
-)
-
-commands(
-    ("perc", (21, 30)),
-    library.make_quarter_hits(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), stage_5_silence_pattern),
-        ),
-    ),
-)
-
-commands(
-    ("perc", (21, 30)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("perc", (1, 14)),
     baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.pitches("C4 C4 Ab5 C4 C4 C4", allow_repeats=True),
     baca.stem_down(),
@@ -406,23 +449,6 @@ commands(
 )
 
 # vn
-
-commands(
-    ("vn", (1, 14)),
-    library.make_trill_tuplets(
-        4,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (-2, None)),
-        ),
-    ),
-)
-
-commands(
-    ("vn", (1, 14)),
-    baca.reapply_persistent_indicators(),
-)
-
-make_15_30("vn")
 
 commands(
     ("vn", (1, 4)),
@@ -456,23 +482,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", (1, 14)),
-    library.make_trill_tuplets(
-        3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (-2, None)),
-        ),
-    ),
-)
-
-commands(
-    ("va", (1, 14)),
-    baca.reapply_persistent_indicators(),
-)
-
-make_15_30("va")
 
 commands(
     ("va", (1, 4)),
@@ -509,30 +518,6 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    library.make_trill_tuplets(
-        2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (-2, None)),
-        ),
-    ),
-)
-
-commands(
-    ("vc", (1, 8)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", (9, 14)),
-    baca.make_repeat_tied_notes(
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    ),
-)
-
-make_15_30("vc")
-
-commands(
-    ("vc", (1, 8)),
     baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.new(
         baca.trill_spanner(alteration="m2"),
@@ -556,28 +541,6 @@ commands(
 )
 
 # cb
-
-commands(
-    ("cb", (1, 14)),
-    library.make_opening_glissando_rhythm(
-        -3,
-        rmakers.repeat_tie(
-            lambda _: baca.select.leaves_in_get_tuplets(
-                _, ([0, 1, 4, 6], 7), (1, None)
-            ),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
-)
-
-commands(
-    ("cb", (1, 14)),
-    baca.reapply_persistent_indicators(),
-)
-
-make_15_30("cb")
 
 commands(
     ("cb", (1, 14)),
