@@ -54,12 +54,20 @@ commands(
 commands(
     ("fl", (1, 15)),
     library.make_fused_wind_rhythm([8], denominator=16),
+)
+
+commands(
+    ("fl", (1, 15)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("fl", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -73,12 +81,20 @@ commands(
 commands(
     ("ob", (1, 15)),
     library.make_fused_wind_rhythm([10], denominator=16),
+)
+
+commands(
+    ("ob", (1, 15)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("ob", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("ob", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -92,12 +108,20 @@ commands(
 commands(
     ("cl", (1, 15)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cl", (1, 15)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("cl", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -111,12 +135,20 @@ commands(
 commands(
     ("sax", (1, 15)),
     library.make_fused_wind_rhythm([12], denominator=16),
+)
+
+commands(
+    ("sax", (1, 15)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("sax", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("sax", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -134,6 +166,10 @@ commands(
             lambda _: baca.select.lts(_)[:-1],
         ),
     ),
+)
+
+commands(
+    ("gt", (1, 7)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -149,6 +185,10 @@ commands(
 commands(
     ("gt", (16, 20)),
     library.make_closing_rhythm(),
+)
+
+commands(
+    ("gt", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -169,6 +209,10 @@ commands(
             lambda _: baca.select.lts(_)[:-1],
         ),
     ),
+)
+
+commands(
+    ("pf", (1, 7)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -184,6 +228,10 @@ commands(
 commands(
     ("pf", (16, 20)),
     library.make_closing_rhythm(),
+)
+
+commands(
+    ("pf", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -201,6 +249,10 @@ commands(
     baca.make_repeat_tied_notes(
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
+)
+
+commands(
+    ("perc", (1, 5)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -217,6 +269,10 @@ commands(
 commands(
     ("perc", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -248,6 +304,10 @@ commands(
 commands(
     ("vn", (1, 15)),
     baca.make_repeated_duration_notes([(7, 4)]),
+)
+
+commands(
+    ("vn", (1, 15)),
     baca.reapply_persistent_indicators(),
     baca.clef("percussion"),
 )
@@ -255,6 +315,10 @@ commands(
 commands(
     ("vn", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -263,6 +327,10 @@ commands(
 commands(
     ("va", (1, 15)),
     baca.make_repeated_duration_notes([(6, 4)]),
+)
+
+commands(
+    ("va", (1, 15)),
     baca.reapply_persistent_indicators(),
     baca.clef("percussion"),
 )
@@ -270,6 +338,10 @@ commands(
 commands(
     ("va", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -278,6 +350,10 @@ commands(
 commands(
     ("vc", (1, 15)),
     baca.make_repeated_duration_notes([(5, 4)]),
+)
+
+commands(
+    ("vc", (1, 15)),
     baca.reapply_persistent_indicators(),
     baca.clef("percussion"),
 )
@@ -285,6 +361,10 @@ commands(
 commands(
     ("vc", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (16, 20)),
     baca.append_phantom_measure(),
 )
 
@@ -293,6 +373,10 @@ commands(
 commands(
     ("cb", (1, 15)),
     baca.make_repeated_duration_notes([(4, 4)]),
+)
+
+commands(
+    ("cb", (1, 15)),
     baca.reapply_persistent_indicators(),
     baca.clef("percussion"),
 )
@@ -300,6 +384,10 @@ commands(
 commands(
     ("cb", (16, 20)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cb", (16, 20)),
     baca.append_phantom_measure(),
 )
 

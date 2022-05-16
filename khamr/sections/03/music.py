@@ -86,6 +86,10 @@ def ptails_in_get_tuplets(pattern, pair):
 commands(
     ("fl", (1, 2)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("fl", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -107,6 +111,10 @@ commands(
 commands(
     ("fl", (34, 37)),
     library.make_fused_wind_rhythm([8], denominator=16),
+)
+
+commands(
+    ("fl", (34, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -135,6 +143,10 @@ commands(
 commands(
     ("ob", (1, 2)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("ob", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -162,6 +174,10 @@ commands(
         ),
         denominator=16,
     ),
+)
+
+commands(
+    ("ob", (34, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -192,6 +208,10 @@ commands(
 commands(
     ("cl", (1, 2)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cl", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -215,6 +235,10 @@ commands(
     baca.make_repeat_tied_notes(
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     ),
+)
+
+commands(
+    ("cl", (32, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -243,6 +267,10 @@ commands(
 commands(
     ("sax", (1, 2)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("sax", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -264,6 +292,10 @@ commands(
 commands(
     ("sax", (34, 37)),
     library.make_fused_wind_rhythm([12], denominator=16),
+)
+
+commands(
+    ("sax", (34, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -294,6 +326,10 @@ commands(
 commands(
     ("gt", (1, 2)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("gt", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -310,6 +346,10 @@ commands(
 commands(
     ("gt", (30, 37)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("gt", (30, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -330,6 +370,10 @@ commands(
 commands(
     ("pf", (1, 9)),
     library.make_current_rhythm([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
+)
+
+commands(
+    ("pf", (1, 9)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -341,6 +385,10 @@ commands(
 commands(
     ("pf", (30, 37)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("pf", (30, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -368,6 +416,10 @@ commands(
 commands(
     ("perc", (1, 4)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -389,6 +441,10 @@ commands(
 commands(
     ("perc", (30, 37)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("perc", (30, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -423,6 +479,10 @@ commands(
 commands(
     ("vn", (1, 2)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vn", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -439,6 +499,10 @@ commands(
 commands(
     ("vn", (30, 37)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", (30, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -447,6 +511,10 @@ commands(
 commands(
     ("va", (1, 2)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -463,6 +531,10 @@ commands(
 commands(
     ("va", (30, 37)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", (30, 37)),
     baca.append_phantom_measure(),
 )
 
@@ -471,6 +543,10 @@ commands(
 commands(
     ("vc", (1, 2)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -487,6 +563,10 @@ commands(
 commands(
     ("vc", (30, 37)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (30, 37)),
     baca.append_phantom_measure(),
 )
 
