@@ -1399,7 +1399,7 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1443,7 +1443,7 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     bf'16
     % AFTER:
     % SPANNER_STARTS:
@@ -1451,7 +1451,7 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1500,7 +1500,7 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1538,7 +1538,7 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1587,7 +1587,7 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1648,12 +1648,12 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     bf'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -1664,7 +1664,7 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     bf'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -1672,7 +1672,7 @@ segment.04.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2095,7 +2095,7 @@ segment.04.Oboe.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2139,7 +2139,7 @@ segment.04.Oboe.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Oboe_Music_Voice measure 7]
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2151,7 +2151,7 @@ segment.04.Oboe.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -2159,7 +2159,7 @@ segment.04.Oboe.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2207,7 +2207,7 @@ segment.04.Oboe.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2258,7 +2258,7 @@ segment.04.Oboe.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2323,7 +2323,7 @@ segment.04.Oboe.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -2331,7 +2331,7 @@ segment.04.Oboe.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3347,7 +3347,7 @@ segment.04.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3402,7 +3402,7 @@ segment.04.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -3410,7 +3410,7 @@ segment.04.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3472,7 +3472,7 @@ segment.04.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3557,12 +3557,12 @@ segment.04.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -3573,7 +3573,7 @@ segment.04.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -3581,7 +3581,7 @@ segment.04.Saxophone.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.fused_wind()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4082,14 +4082,14 @@ segment.04.Guitar.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 16]
-      %! khamr.closing()
+      %! khamr.make_closing_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice measure 17]
-      %! khamr.closing()
+      %! khamr.make_closing_rhythm()
     c''1
     % AFTER:
     % ARTICULATIONS:
@@ -4154,7 +4154,7 @@ segment.04.Guitar.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.closing()
+      %! khamr.make_closing_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4534,14 +4534,14 @@ segment.04.Piano.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 16]
-      %! khamr.closing()
+      %! khamr.make_closing_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano_Music_Voice measure 17]
-      %! khamr.closing()
+      %! khamr.make_closing_rhythm()
     as'!1
     % AFTER:
     % ARTICULATIONS:
@@ -4600,7 +4600,7 @@ segment.04.Piano.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.closing()
+      %! khamr.make_closing_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:

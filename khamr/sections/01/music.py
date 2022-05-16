@@ -55,7 +55,7 @@ commands(
 
 commands(
     "fl",
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [10, 10, 6, 10, 8, 6],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([2, 5], 6)),
@@ -110,7 +110,7 @@ commands(
 
 commands(
     "ob",
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [12, 6, 10, 10, 6, 8],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 4], 6)),
@@ -154,7 +154,7 @@ commands(
 
 commands(
     "cl",
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [8, 6, 10, 6, 10, 8],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
@@ -178,7 +178,7 @@ commands(
 
 commands(
     "sax",
-    library.fused_wind(
+    library.make_fused_wind_rhythm(
         [14, 6, 10, 6, 10, 8],
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 3], 6)),
@@ -212,7 +212,7 @@ commands(
 
 commands(
     ("gt", (1, 24)),
-    library.guitar_isolata(
+    library.make_guitar_isolata_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
@@ -230,12 +230,12 @@ commands(
 
 commands(
     ("gt", (25, 40)),
-    library.guitar_accelerandi([2, 1]),
+    library.make_guitar_accelerando_rhythm([2, 1]),
 )
 
 commands(
     ("gt", (41, 44)),
-    library.guitar_isolata(
+    library.make_guitar_isolata_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
@@ -281,7 +281,7 @@ commands(
 
 commands(
     ("pf", (1, 24)),
-    library.fused_expanse([20, 8, 20, 4]),
+    library.make_fused_expanse_rhythm([20, 8, 20, 4]),
     baca.attach_first_segment_default_indicators(),
     baca.suite(
         library.margin_markup("Pf."),
@@ -291,12 +291,12 @@ commands(
 
 commands(
     ("pf", (25, 36)),
-    library.guitar_accelerandi([3, 2]),
+    library.make_guitar_accelerando_rhythm([3, 2]),
 )
 
 commands(
     ("pf", (37, 40)),
-    library.guitar_isolata(
+    library.make_guitar_isolata_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
         ),
@@ -356,7 +356,7 @@ commands(
 
 commands(
     "perc",
-    library.fused_expanse([20, 8, 20, 4]),
+    library.make_fused_expanse_rhythm([20, 8, 20, 4]),
     baca.append_phantom_measure(),
 )
 
@@ -380,7 +380,7 @@ commands(
 
 commands(
     ("vn", (1, 36)),
-    library.opening_glissandi(
+    library.make_opening_glissando_rhythm(
         0,
         rmakers.repeat_tie(
             lambda _: baca.select.leaves_in_get_tuplets(
@@ -392,7 +392,7 @@ commands(
 
 commands(
     ("vn", (37, 44)),
-    library.trill_tuplets(4),
+    library.make_trill_tuplets(4),
     baca.append_phantom_measure(),
 )
 
@@ -431,7 +431,7 @@ commands(
 
 commands(
     ("va", (1, 36)),
-    library.opening_glissandi(
+    library.make_opening_glissando_rhythm(
         -1,
         rmakers.tie(
             lambda _: baca.select.leaves_in_get_tuplets(
@@ -443,7 +443,7 @@ commands(
 
 commands(
     ("va", (37, 44)),
-    library.trill_tuplets(3),
+    library.make_trill_tuplets(3),
     baca.append_phantom_measure(),
 )
 
@@ -481,7 +481,7 @@ commands(
 
 commands(
     ("vc", (1, 36)),
-    library.opening_glissandi(
+    library.make_opening_glissando_rhythm(
         -2,
         rmakers.tie(
             lambda _: baca.select.leaves_in_get_tuplets(
@@ -493,7 +493,7 @@ commands(
 
 commands(
     ("vc", (37, 44)),
-    library.trill_tuplets(2),
+    library.make_trill_tuplets(2),
     baca.append_phantom_measure(),
 )
 
@@ -531,7 +531,7 @@ commands(
 
 commands(
     "cb",
-    library.opening_glissandi(
+    library.make_opening_glissando_rhythm(
         -3,
         rmakers.tie(
             lambda _: baca.select.leaves_in_get_tuplets(
