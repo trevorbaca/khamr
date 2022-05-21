@@ -57,7 +57,7 @@ commands(
 
 commands(
     ("fl", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # OB
@@ -69,7 +69,7 @@ commands(
 
 commands(
     ("ob", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # CL
@@ -81,7 +81,7 @@ commands(
 
 commands(
     ("cl", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # SAX
@@ -93,7 +93,7 @@ commands(
 
 commands(
     ("sax", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # GT
@@ -157,7 +157,7 @@ commands(
 
 commands(
     ("perc", (6, 7)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -167,7 +167,7 @@ commands(
 
 commands(
     ("perc", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # VN
@@ -179,7 +179,7 @@ commands(
 
 commands(
     ("vn", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # VA
@@ -191,7 +191,7 @@ commands(
 
 commands(
     ("va", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # VC
@@ -203,7 +203,7 @@ commands(
 
 commands(
     ("vc", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # CB
@@ -215,7 +215,7 @@ commands(
 
 commands(
     ("cb", (16, 20)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # phantom & reapply
