@@ -74,7 +74,7 @@
 
                 % OPEN_BRACKETS:
                   %! khamr.make_empty_score()
-                \context WindSectionStaffGroup = "Wind_Section_Staff_Group"
+                \context WindSectionStaffGroup = "Wind_Section.Staff_Group"
                   %! khamr.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -86,7 +86,7 @@
                     \tag Flute
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "Flute_Music_Staff"
+                    \context Staff = "Flute.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
                     { \segment.02.Flute.Music.Staff }
@@ -99,10 +99,10 @@
                     \tag Oboe
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "OboeMusicStaff"
+                    \context Staff = "Oboe.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.02.OboeMusicStaff }
+                    { \segment.02.Oboe.Music.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -112,7 +112,7 @@
                     \tag Clarinet
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "Clarinet_Music_Staff"
+                    \context Staff = "Clarinet.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
                     { \segment.02.Clarinet.Music.Staff }
@@ -125,7 +125,7 @@
                     \tag Saxophone
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "Saxophone_Music_Staff"
+                    \context Staff = "Saxophone.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
                     { \segment.02.Saxophone.Music.Staff }
@@ -140,7 +140,7 @@
 
                 % OPEN_BRACKETS:
                   %! khamr.make_empty_score()
-                \context PercussionSectionStaffGroup = "Percussion_Section_Staff_Group"
+                \context PercussionSectionStaffGroup = "Percussion_Section.Staff_Group"
                   %! khamr.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -152,7 +152,7 @@
                     \tag Guitar
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "Guitar_Music_Staff"
+                    \context Staff = "Guitar.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
                     { \segment.02.Guitar.Music.Staff }
@@ -165,7 +165,7 @@
                     \tag Piano
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "Piano_Music_Staff"
+                    \context Staff = "Piano.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
                     { \segment.02.Piano.Music.Staff }
@@ -193,7 +193,7 @@
 
                 % OPEN_BRACKETS:
                   %! khamr.make_empty_score()
-                \context StringSectionStaffGroup = "String_Section_Staff_Group"
+                \context StringSectionStaffGroup = "String_Section.Staff_Group"
                   %! khamr.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -205,7 +205,7 @@
                     \tag Violin
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "Violin_Music_Staff"
+                    \context Staff = "Violin.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
                     { \segment.02.Violin.Music.Staff }
@@ -218,7 +218,7 @@
                     \tag Viola
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "Viola_Music_Staff"
+                    \context Staff = "Viola.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
                     { \segment.02.Viola.Music.Staff }
@@ -231,10 +231,10 @@
                     \tag Cello
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "CelloMusicStaff"
+                    \context Staff = "Cello.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \segment.02.CelloMusicStaff }
+                    { \segment.02.Cello.Music.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -244,7 +244,7 @@
                     \tag Contrabass
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
-                    \context Staff = "Contrabass_Music_Staff"
+                    \context Staff = "Contrabass.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
                     { \segment.02.Contrabass.Music.Staff }
