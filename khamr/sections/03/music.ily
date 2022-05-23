@@ -1,5 +1,5 @@
   %! baca.path.extern()
-segment.03.Global.Skips = {
+segment.03.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1919,7 +1919,7 @@ segment.03.Global.Skips = {
 
 
   %! baca.path.extern()
-segment.03.Global.Rests = {
+segment.03.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2199,7 +2199,7 @@ segment.03.Global.Rests = {
 
 
   %! baca.path.extern()
-segment.03.Flute.Music.Voice = {
+segment.03.Flute_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5459,7 +5459,7 @@ segment.03.Flute.Music.Staff = <<
     \context GlobalRests = "Global_Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
-    { \segment.03.Global.Rests }
+    { \segment.03.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5468,7 +5468,7 @@ segment.03.Flute.Music.Staff = <<
     \context Voice = "Flute_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Flute.Music.Voice }
+    { \segment.03.Flute_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -5479,7 +5479,7 @@ segment.03.Flute.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.03.Oboe.Music.Voice = {
+segment.03.Oboe_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9320,7 +9320,7 @@ segment.03.OboeMusicStaff = {
     \context Voice = "Oboe_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Oboe.Music.Voice }
+    { \segment.03.Oboe_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -9331,7 +9331,7 @@ segment.03.OboeMusicStaff = {
 
 
   %! baca.path.extern()
-segment.03.Clarinet.Music.Voice = {
+segment.03.Clarinet_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -12350,7 +12350,7 @@ segment.03.Clarinet.Music.Staff = {
     \context Voice = "Clarinet_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Clarinet.Music.Voice }
+    { \segment.03.Clarinet_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -12361,7 +12361,7 @@ segment.03.Clarinet.Music.Staff = {
 
 
   %! baca.path.extern()
-segment.03.Saxophone.Music.Voice = {
+segment.03.Saxophone_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -15921,7 +15921,7 @@ segment.03.Saxophone.Music.Staff = {
     \context Voice = "Saxophone_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Saxophone.Music.Voice }
+    { \segment.03.Saxophone_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -15932,7 +15932,7 @@ segment.03.Saxophone.Music.Staff = {
 
 
   %! baca.path.extern()
-segment.03.Guitar.Music.Voice = {
+segment.03.Guitar_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -16751,7 +16751,7 @@ segment.03.Guitar.Music.Staff = {
     \context Voice = "Guitar_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Guitar.Music.Voice }
+    { \segment.03.Guitar_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -16762,7 +16762,7 @@ segment.03.Guitar.Music.Staff = {
 
 
   %! baca.path.extern()
-segment.03.Piano.Music.Voice = {
+segment.03.Piano_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -20881,7 +20881,7 @@ segment.03.Piano.Music.Staff = {
     \context Voice = "Piano_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Piano.Music.Voice }
+    { \segment.03.Piano_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -20892,7 +20892,7 @@ segment.03.Piano.Music.Staff = {
 
 
   %! baca.path.extern()
-segment.03.Percussion.Music.Voice = {
+segment.03.Percussion_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -22195,7 +22195,7 @@ segment.03.PercussionMusicStaff = {
     \context Voice = "Percussion_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Percussion.Music.Voice }
+    { \segment.03.Percussion_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -22206,7 +22206,7 @@ segment.03.PercussionMusicStaff = {
 
 
   %! baca.path.extern()
-segment.03.Violin.Music.Voice = {
+segment.03.Violin_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -23295,7 +23295,7 @@ segment.03.Violin.Music.Staff = {
     \context Voice = "Violin_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Violin.Music.Voice }
+    { \segment.03.Violin_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -23306,7 +23306,7 @@ segment.03.Violin.Music.Staff = {
 
 
   %! baca.path.extern()
-segment.03.Viola.Music.Voice = {
+segment.03.Viola_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -24375,7 +24375,7 @@ segment.03.Viola.Music.Staff = {
     \context Voice = "Viola_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Viola.Music.Voice }
+    { \segment.03.Viola_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -24386,7 +24386,7 @@ segment.03.Viola.Music.Staff = {
 
 
   %! baca.path.extern()
-segment.03.Cello.Music.Voice = {
+segment.03.Cello_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -25455,7 +25455,7 @@ segment.03.CelloMusicStaff = {
     \context Voice = "Cello_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Cello.Music.Voice }
+    { \segment.03.Cello_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -25466,7 +25466,7 @@ segment.03.CelloMusicStaff = {
 
 
   %! baca.path.extern()
-segment.03.Contrabass.Music.Voice = {
+segment.03.Contrabass_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -26296,7 +26296,7 @@ segment.03.Contrabass.Music.Staff = {
     \context Voice = "Contrabass_Music_Voice"
       %! khamr.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Contrabass.Music.Voice }
+    { \segment.03.Contrabass_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
