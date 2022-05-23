@@ -21,7 +21,7 @@
           %! baca.make_global_context()
         \context PageLayout = "Page_Layout"
           %! baca.make_global_context()
-        {   %*% Page.Layout
+        {   %*% Page_Layout
 
               %! baca._comment_measure_numbers()
             % [Page_Layout measure 1]
@@ -710,7 +710,7 @@
             \once \override Score.SpanBar.transparent = ##t
 
           %! baca.make_global_context()
-        }   %*% Page.Layout
+        }   %*% Page_Layout
 
       %! baca.make_global_context()
     >>
