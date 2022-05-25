@@ -23,9 +23,9 @@ commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
     instruments=library.instruments,
     margin_markups=library.margin_markups,
-    metronome_marks=library.metronome_marks,
-    time_signatures=library.time_signatures[:30],
-    voice_abbreviations=library.voice_abbreviations,
+    metronome_marks=library.metronome_marks(),
+    time_signatures=library.time_signatures()[:30],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -387,7 +387,7 @@ commands(
 commands(
     ("gt", (1, 4)),
     baca.note_head_style_cross(),
-    baca.pitches(abjad.sequence.rotate(library.rose_pitches, -16)),
+    baca.pitches(abjad.sequence.rotate(library.rose_pitches(), -16)),
 )
 
 commands(
@@ -426,7 +426,7 @@ commands(
     baca.clef("treble"),
     baca.dynamic("fff-ancora"),
     baca.ottava(),
-    baca.pitches([_.invert() for _ in library.rose_pitches]),
+    baca.pitches([_.invert() for _ in library.rose_pitches()]),
     library.sixth_octave(),
 )
 
@@ -546,7 +546,7 @@ commands(
     baca.dynamic("mf"),
     baca.suite(
         # TODO: release need to cast chord prior to glissando indicators
-        baca.pitches(library.double_stop_halo_pitches),
+        baca.pitches(library.double_stop_halo_pitches()),
         baca.glissando(),
     ),
     baca.markup(

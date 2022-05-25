@@ -27,9 +27,9 @@ commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
     instruments=library.instruments,
     margin_markups=library.margin_markups,
-    metronome_marks=library.metronome_marks,
-    time_signatures=library.time_signatures[:37],
-    voice_abbreviations=library.voice_abbreviations,
+    metronome_marks=library.metronome_marks(),
+    time_signatures=library.time_signatures()[:37],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -460,7 +460,7 @@ commands(
 
 commands(
     ("pf", (1, 9)),
-    baca.pitches([_.invert().transpose("M2") for _ in library.rose_pitches]),
+    baca.pitches([_.invert().transpose("M2") for _ in library.rose_pitches()]),
     baca.ottava(),
     library.sixth_octave(),
 )
@@ -580,7 +580,7 @@ commands(
 
 commands(
     (["vn", "va", "vc"], (3, 29)),
-    baca.pitches([_.invert().transpose("A4") for _ in library.rose_pitches]),
+    baca.pitches([_.invert().transpose("A4") for _ in library.rose_pitches()]),
     baca.glissando(),
     baca.markup(r"\baca-estr-sul-pont-markup"),
     baca.note_head_style_harmonic(),

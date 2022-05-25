@@ -61,55 +61,73 @@ margin_markups = dict(
     ]
 )
 
-metronome_marks = dict(
-    [
-        ("32", abjad.MetronomeMark((1, 4), 32)),
-        ("42", abjad.MetronomeMark((1, 4), 42)),
-        ("63", abjad.MetronomeMark((1, 4), 63)),
-        ("84", abjad.MetronomeMark((1, 4), 84)),
-        ("126", abjad.MetronomeMark((1, 4), 126)),
-    ]
-)
 
-# 108 seconds / section
-#   = 226.8 beats at 126 MM
-#   = 151.2 beats at 84 MM
-#   = 113.4 beats at 63 MM
-#   = 75.6 beats at 42 MM
-# numerators = [[2, 2, 3], [2, 4], [3, 4, 5]]
-# numerators = baca.sequence.helianthate(numerators, -1, -1)
-pairs = [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
-pairs = baca.sequence.helianthate(pairs, -1, -1)
-pairs = abjad.sequence.flatten(pairs)
-time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]
-time_signatures = abjad.CyclicTuple(time_signatures_)
+def metronome_marks():
+    return dict(
+        [
+            ("32", abjad.MetronomeMark((1, 4), 32)),
+            ("42", abjad.MetronomeMark((1, 4), 42)),
+            ("63", abjad.MetronomeMark((1, 4), 63)),
+            ("84", abjad.MetronomeMark((1, 4), 84)),
+            ("126", abjad.MetronomeMark((1, 4), 126)),
+        ]
+    )
 
-string = r"""
-    A2 Bb2 A+2 B2 C+3 Bb2 A+2 B2
-    A2 B2 C#3 B+2 C3 A2 B2 C#3 B+2 D~3 C3 D3
-    A2 D3 C+3 D+3 E3 C#3 D3 E~3 F3 D3 E~3 F~3 E3
+
+def time_signatures():
     """
+    # 108 seconds / section
+    #   = 226.8 beats at 126 MM
+    #   = 151.2 beats at 84 MM
+    #   = 113.4 beats at 63 MM
+    #   = 75.6 beats at 42 MM
+    """
+    # numerators = [[2, 2, 3], [2, 4], [3, 4, 5]]
+    # numerators = baca.sequence.helianthate(numerators, -1, -1)
+    pairs = [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
+    pairs = baca.sequence.helianthate(pairs, -1, -1)
+    pairs = abjad.sequence.flatten(pairs)
+    time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]
+    time_signatures = abjad.CyclicTuple(time_signatures_)
+    return time_signatures
 
-strings = string.split()
-assert len(strings) == 33
-pitches = [abjad.NamedPitch(_) for _ in strings]
-contrabass_halo_pitches = abjad.CyclicTuple(pitches)
 
-cello_halo_pitches = []
-for halo_pitch in contrabass_halo_pitches:
-    cello_halo_pitch = halo_pitch + abjad.NamedInterval("m7")
-    cello_halo_pitches.append(cello_halo_pitch)
+def contrabass_halo_pitches():
+    string = r"""
+        A2 Bb2 A+2 B2 C+3 Bb2 A+2 B2
+        A2 B2 C#3 B+2 C3 A2 B2 C#3 B+2 D~3 C3 D3
+        A2 D3 C+3 D+3 E3 C#3 D3 E~3 F3 D3 E~3 F~3 E3
+        """
+    strings = string.split()
+    assert len(strings) == 33
+    pitches = [abjad.NamedPitch(_) for _ in strings]
+    contrabass_halo_pitches = abjad.CyclicTuple(pitches)
+    return contrabass_halo_pitches
 
-double_stop_halo_pitches = []
-for halo_pitch in contrabass_halo_pitches:
-    lower_pitch = halo_pitch - abjad.NamedInterval("M9")
-    named_pitches_pair = (lower_pitch, halo_pitch)
-    double_stop_halo_pitches.append(named_pitches_pair)
 
-violin_halo_pitches = []
-for halo_pitch in contrabass_halo_pitches:
-    violin_halo_pitch = halo_pitch + abjad.NamedInterval("m14")
-    violin_halo_pitches.append(violin_halo_pitch)
+def cello_halo_pitches():
+    cello_halo_pitches = []
+    for halo_pitch in contrabass_halo_pitches():
+        cello_halo_pitch = halo_pitch + abjad.NamedInterval("m7")
+        cello_halo_pitches.append(cello_halo_pitch)
+    return cello_halo_pitches
+
+
+def double_stop_halo_pitches():
+    double_stop_halo_pitches = []
+    for halo_pitch in contrabass_halo_pitches():
+        lower_pitch = halo_pitch - abjad.NamedInterval("M9")
+        named_pitches_pair = (lower_pitch, halo_pitch)
+        double_stop_halo_pitches.append(named_pitches_pair)
+    return double_stop_halo_pitches
+
+
+def violin_halo_pitches():
+    violin_halo_pitches = []
+    for halo_pitch in contrabass_halo_pitches():
+        violin_halo_pitch = halo_pitch + abjad.NamedInterval("m14")
+        violin_halo_pitches.append(violin_halo_pitch)
+    return violin_halo_pitches
 
 
 def color_trill_pitches(transpose=None):
@@ -121,15 +139,20 @@ def color_trill_pitches(transpose=None):
     return pitches
 
 
-rose_pitch_classes = [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
-rose_pitch_classes = baca.sequence.helianthate(rose_pitch_classes, -1, 1)
-rose_pitch_classes = abjad.sequence.flatten(rose_pitch_classes)
-assert len(rose_pitch_classes) == 64
-rose_pitches = tuple(abjad.NamedPitch(_) for _ in rose_pitch_classes)
+def rose_pitches():
+    rose_pitch_classes = [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
+    rose_pitch_classes = baca.sequence.helianthate(rose_pitch_classes, -1, 1)
+    rose_pitch_classes = abjad.sequence.flatten(rose_pitch_classes)
+    assert len(rose_pitch_classes) == 64
+    rose_pitches = tuple(abjad.NamedPitch(_) for _ in rose_pitch_classes)
+    return rose_pitches
 
 
 @dataclasses.dataclass
 class MarimbaHitCommand(baca.Command):
+    """
+    Marimba hit command.
+    """
 
     attach_first_markup: bool = False
     indices: typing.Any = None
@@ -794,16 +817,17 @@ def wide_third_octave():
     )
 
 
-voice_abbreviations = {
-    "fl": "Flute.Music_Voice",
-    "ob": "Oboe.Music_Voice",
-    "cl": "Clarinet.Music_Voice",
-    "sax": "Saxophone.Music_Voice",
-    "pf": "Piano.Music_Voice",
-    "perc": "Percussion.Music_Voice",
-    "gt": "Guitar.Music_Voice",
-    "vn": "Violin.Music_Voice",
-    "va": "Viola.Music_Voice",
-    "vc": "Cello.Music_Voice",
-    "cb": "Contrabass.Music_Voice",
-}
+def voice_abbreviations():
+    return {
+        "fl": "Flute.Music_Voice",
+        "ob": "Oboe.Music_Voice",
+        "cl": "Clarinet.Music_Voice",
+        "sax": "Saxophone.Music_Voice",
+        "pf": "Piano.Music_Voice",
+        "perc": "Percussion.Music_Voice",
+        "gt": "Guitar.Music_Voice",
+        "vn": "Violin.Music_Voice",
+        "va": "Viola.Music_Voice",
+        "vc": "Cello.Music_Voice",
+        "cb": "Contrabass.Music_Voice",
+    }

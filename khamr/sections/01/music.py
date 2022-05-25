@@ -25,9 +25,9 @@ commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
     instruments=library.instruments,
     margin_markups=library.margin_markups,
-    metronome_marks=library.metronome_marks,
-    time_signatures=library.time_signatures[:44],
-    voice_abbreviations=library.voice_abbreviations,
+    metronome_marks=library.metronome_marks(),
+    time_signatures=library.time_signatures()[:44],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -369,7 +369,7 @@ commands(
 commands(
     ("gt", (1, 24)),
     baca.dynamic("f"),
-    baca.pitches(library.rose_pitches),
+    baca.pitches(library.rose_pitches()),
     baca.markup(r"\khamr-half-harmonics-explanation"),
     library.wide_third_octave(),
 )
@@ -388,7 +388,7 @@ commands(
 
 commands(
     ("gt", (25, 44)),
-    baca.pitches(library.rose_pitches),
+    baca.pitches(library.rose_pitches()),
 )
 
 # pf
@@ -411,7 +411,7 @@ commands(
 
 commands(
     ("pf", (25, 40)),
-    baca.pitches(library.rose_pitches),
+    baca.pitches(library.rose_pitches()),
 )
 
 commands(
@@ -470,7 +470,7 @@ commands(
     ),
     baca.suite(
         # TODO: release need to cast chords prior to glissando indicators
-        baca.pitches(library.violin_halo_pitches),
+        baca.pitches(library.violin_halo_pitches()),
         baca.glissando(),
     ),
     baca.markup(
@@ -501,7 +501,7 @@ commands(
         baca.start_markup("Viola", hcenter_in=16),
     ),
     baca.suite(
-        baca.pitches(library.violin_halo_pitches),
+        baca.pitches(library.violin_halo_pitches()),
         baca.glissando(),
     ),
     baca.markup(
@@ -532,7 +532,7 @@ commands(
         baca.start_markup("Cello", hcenter_in=16),
     ),
     baca.suite(
-        baca.pitches(library.cello_halo_pitches),
+        baca.pitches(library.cello_halo_pitches()),
         baca.glissando(),
     ),
     baca.markup(
@@ -564,7 +564,7 @@ commands(
     ),
     baca.dynamic("f"),
     baca.suite(
-        baca.pitches(library.contrabass_halo_pitches),
+        baca.pitches(library.contrabass_halo_pitches()),
         baca.glissando(),
     ),
     baca.markup(
