@@ -35,9 +35,9 @@
 
 \score {
     \keepWithTag viola {
-        \include "segment-01.ly"
-        \include "segment-02.ly"
-        \include "segment-03.ly"
-        \include "segment-04.ly"
+        \include "section-01.ly"
+        \include "section-02.ly"
+        \include "section-03.ly"
+        \include "section-04.ly"
     }
 }

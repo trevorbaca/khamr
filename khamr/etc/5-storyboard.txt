@@ -111,7 +111,7 @@ materials: 2B, 11, 14, 6, 2A, 5, 1
 
 ORCHESTRATION:
 
-    NOTE: orchestrate entire segment in such a way to window the fff
+    NOTE: orchestrate entire section in such a way to window the fff
     materials and allow the quieter materials intermittently to shine
     through.
 

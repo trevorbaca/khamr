@@ -7,5 +7,5 @@
 
 3.  Come up with a way to model dummy centerline pitches that are clef-aware.
 
-4.  Use segment metadata to avoid engraving redundant time signatures at the
-    beginning of nonfirst segments.
+4.  Use section metadata to avoid engraving redundant time signatures at the
+    beginning of nonfirst sections.
