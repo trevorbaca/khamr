@@ -71,7 +71,7 @@ metronome_marks = dict(
     ]
 )
 
-# 108 seconds / segment
+# 108 seconds / section
 #   = 226.8 beats at 126 MM
 #   = 151.2 beats at 84 MM
 #   = 113.4 beats at 63 MM
