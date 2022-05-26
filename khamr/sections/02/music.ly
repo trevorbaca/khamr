@@ -83,7 +83,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Flute
+                    \tag #'Flute
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Flute.Music_Staff"
@@ -96,7 +96,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Oboe
+                    \tag #'Oboe
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Oboe.Music_Staff"
@@ -109,7 +109,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Clarinet
+                    \tag #'Clarinet
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Clarinet.Music_Staff"
@@ -122,7 +122,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Saxophone
+                    \tag #'Saxophone
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Saxophone.Music_Staff"
@@ -149,7 +149,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Guitar
+                    \tag #'Guitar
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Guitar.Music_Staff"
@@ -162,7 +162,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Piano
+                    \tag #'Piano
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Piano.Music_Staff"
@@ -175,7 +175,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Percussion
+                    \tag #'Percussion
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "PercussionMusicStaff"
@@ -202,7 +202,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Violin
+                    \tag #'Violin
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Violin.Music_Staff"
@@ -215,7 +215,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Viola
+                    \tag #'Viola
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Viola.Music_Staff"
@@ -228,7 +228,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Cello
+                    \tag #'Cello
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Cello.Music_Staff"
@@ -241,7 +241,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Contrabass
+                    \tag #'Contrabass
                     % OPEN_BRACKETS:
                       %! khamr.make_empty_score()
                     \context Staff = "Contrabass.Music_Staff"
