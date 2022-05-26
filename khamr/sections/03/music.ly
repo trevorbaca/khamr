@@ -54,7 +54,7 @@
                 \context GlobalSkips = "Global_Skips"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \section_number.03.Global_Skips }
+                { \section_number.3.Global_Skips }
                 % CLOSING:
                 % COMMANDS:
 
@@ -89,7 +89,7 @@
                     \context Staff = "Flute.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Flute.Music_Staff }
+                    { \section_number.3.Flute.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -102,7 +102,7 @@
                     \context Staff = "Oboe.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Oboe.Music_Staff }
+                    { \section_number.3.Oboe.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -115,7 +115,7 @@
                     \context Staff = "Clarinet.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Clarinet.Music_Staff }
+                    { \section_number.3.Clarinet.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -128,7 +128,7 @@
                     \context Staff = "Saxophone.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Saxophone.Music_Staff }
+                    { \section_number.3.Saxophone.Music_Staff }
                     % CLOSING:
                     % COMMANDS:
 
@@ -155,7 +155,7 @@
                     \context Staff = "Guitar.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Guitar.Music_Staff }
+                    { \section_number.3.Guitar.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -168,7 +168,7 @@
                     \context Staff = "Piano.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Piano.Music_Staff }
+                    { \section_number.3.Piano.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -181,7 +181,7 @@
                     \context Staff = "PercussionMusicStaff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.PercussionMusicStaff }
+                    { \section_number.3.PercussionMusicStaff }
                     % CLOSING:
                     % COMMANDS:
 
@@ -208,7 +208,7 @@
                     \context Staff = "Violin.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Violin.Music_Staff }
+                    { \section_number.3.Violin.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -221,7 +221,7 @@
                     \context Staff = "Viola.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Viola.Music_Staff }
+                    { \section_number.3.Viola.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -234,7 +234,7 @@
                     \context Staff = "Cello.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Cello.Music_Staff }
+                    { \section_number.3.Cello.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -247,7 +247,7 @@
                     \context Staff = "Contrabass.Music_Staff"
                       %! khamr.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.03.Contrabass.Music_Staff }
+                    { \section_number.3.Contrabass.Music_Staff }
                     % CLOSING:
                     % COMMANDS:
 
