@@ -2556,9 +2556,9 @@ number.1.Flute.MusicVoice = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-boxed-markup "L.17"
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“BassFlute”)"
+    ^ \baca-explicit-indicator-markup "(“BassFlute”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“B. fl.”]"
@@ -3593,9 +3593,9 @@ number.1.Oboe.MusicVoice = {
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“EnglishHorn”)"
+    ^ \baca-explicit-indicator-markup "(“EnglishHorn”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Eng. hn.”]"
@@ -4533,9 +4533,9 @@ number.1.Clarinet.MusicVoice = {
       %! baca.dynamic()
     \pp
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“BassClarinet”)"
+    ^ \baca-explicit-indicator-markup "(“BassClarinet”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“B. cl.”]"
@@ -5471,9 +5471,9 @@ number.1.Saxophone.MusicVoice = {
       %! baca.dynamic()
     \pp
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“BaritoneSaxophone”)"
+    ^ \baca-explicit-indicator-markup "(“BaritoneSaxophone”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Bar. sax.”]"
@@ -6385,9 +6385,9 @@ number.1.Guitar.MusicVoice = {
       %! baca.dynamic()
     \f
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Guitar”)"
+    ^ \baca-explicit-indicator-markup "(“Guitar”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Gt.”]"
@@ -8784,9 +8784,9 @@ number.1.Piano.MusicVoice = {
       %! baca.dynamic()
     \mf
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Piano”)"
+    ^ \baca-explicit-indicator-markup "(“Piano”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Pf.”]"
@@ -10596,9 +10596,9 @@ number.1.Percussion.MusicVoice = {
       %! baca.dynamic()
     \mp
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Percussion”)"
+    ^ \baca-explicit-indicator-markup "(“Percussion”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Perc.”]"
@@ -11713,9 +11713,9 @@ number.1.Violin.MusicVoice = {
       %! baca.hairpin()
     \pp
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vn.”]"
@@ -14309,9 +14309,9 @@ number.1.Viola.MusicVoice = {
       %! baca.hairpin()
     \pp
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
+    ^ \baca-explicit-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Va.”]"
@@ -16672,9 +16672,9 @@ number.1.Cello.MusicVoice = {
       %! baca.hairpin()
     \pp
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
+    ^ \baca-explicit-indicator-markup "(“Cello”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc.”]"
@@ -18998,9 +18998,9 @@ number.1.Contrabass.MusicVoice = {
       %! baca.dynamic()
     \f
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Contrabass”)"
+    ^ \baca-explicit-indicator-markup "(“Contrabass”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cb.”]"
