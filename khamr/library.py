@@ -327,32 +327,17 @@ def make_empty_score():
     flute_music_staff = abjad.Staff(
         [flute_music_voice], name="Flute.Music_Staff", tag=tag
     )
-    abjad.annotate(
-        flute_music_staff,
-        "default_instrument",
-        instruments["BassFlute"],
-    )
     abjad.annotate(flute_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Flute", flute_music_staff)
     # OBOE
     oboe_music_voice = abjad.Voice(name="Oboe.MusicVoice", tag=tag)
     oboe_music_staff = abjad.Staff([oboe_music_voice], name="Oboe.Music_Staff", tag=tag)
-    abjad.annotate(
-        oboe_music_staff,
-        "default_instrument",
-        instruments["EnglishHorn"],
-    )
     abjad.annotate(oboe_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Oboe", oboe_music_staff)
     # CLARINET
     clarinet_music_voice = abjad.Voice(name="Clarinet.MusicVoice", tag=tag)
     clarinet_music_staff = abjad.Staff(
         [clarinet_music_voice], name="Clarinet.Music_Staff", tag=tag
-    )
-    abjad.annotate(
-        clarinet_music_staff,
-        "default_instrument",
-        instruments["BassClarinet"],
     )
     abjad.annotate(clarinet_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Clarinet", clarinet_music_staff)
@@ -361,22 +346,12 @@ def make_empty_score():
     saxophone_music_staff = abjad.Staff(
         [saxophone_music_voice], name="Saxophone.Music_Staff", tag=tag
     )
-    abjad.annotate(
-        saxophone_music_staff,
-        "default_instrument",
-        instruments["BaritoneSaxophone"],
-    )
     abjad.annotate(saxophone_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Saxophone", saxophone_music_staff)
     # GUITAR
     guitar_music_voice = abjad.Voice(name="Guitar.MusicVoice", tag=tag)
     guitar_music_staff = abjad.Staff(
         [guitar_music_voice], name="Guitar.Music_Staff", tag=tag
-    )
-    abjad.annotate(
-        guitar_music_staff,
-        "default_instrument",
-        instruments["Guitar"],
     )
     abjad.annotate(guitar_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Guitar", guitar_music_staff)
@@ -385,18 +360,12 @@ def make_empty_score():
     piano_music_staff = abjad.Staff(
         [piano_music_voice], name="Piano.Music_Staff", tag=tag
     )
-    abjad.annotate(piano_music_staff, "default_instrument", instruments["Piano"])
     abjad.annotate(piano_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Piano", piano_music_staff)
     # PERCUSSION
     percussion_music_voice = abjad.Voice(name="Percussion.MusicVoice", tag=tag)
     percussion_music_staff = abjad.Staff(
         [percussion_music_voice], name="PercussionMusicStaff", tag=tag
-    )
-    abjad.annotate(
-        percussion_music_staff,
-        "default_instrument",
-        instruments["Percussion"],
     )
     abjad.annotate(percussion_music_staff, "default_clef", abjad.Clef("percussion"))
     baca.score.attach_lilypond_tag("Percussion", percussion_music_staff)
@@ -405,11 +374,6 @@ def make_empty_score():
     violin_music_staff = abjad.Staff(
         [violin_music_voice], name="Violin.Music_Staff", tag=tag
     )
-    abjad.annotate(
-        violin_music_staff,
-        "default_instrument",
-        instruments["Violin"],
-    )
     abjad.annotate(violin_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Violin", violin_music_staff)
     # VIOLA
@@ -417,7 +381,6 @@ def make_empty_score():
     viola_music_staff = abjad.Staff(
         [viola_music_voice], name="Viola.Music_Staff", tag=tag
     )
-    abjad.annotate(viola_music_staff, "default_instrument", instruments["Viola"])
     abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
     # CELLO
@@ -425,18 +388,12 @@ def make_empty_score():
     cello_music_staff = abjad.Staff(
         [cello_music_voice], name="Cello.Music_Staff", tag=tag
     )
-    abjad.annotate(cello_music_staff, "default_instrument", instruments["Cello"])
     abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("Cello", cello_music_staff)
     # CONTRABASS
     contrabass_music_voice = abjad.Voice(name="Contrabass.MusicVoice", tag=tag)
     contrabass_music_staff = abjad.Staff(
         [contrabass_music_voice], name="Contrabass.Music_Staff", tag=tag
-    )
-    abjad.annotate(
-        contrabass_music_staff,
-        "default_instrument",
-        instruments["Contrabass"],
     )
     abjad.annotate(contrabass_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("Contrabass", contrabass_music_staff)
