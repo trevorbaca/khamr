@@ -1,12 +1,12 @@
 {
     "alive_during_section": [
         "Score",
-        "Global_Context",
-        "Global_Skips",
+        "GlobalContext",
+        "GlobalSkips",
         "Music_Context",
         "Wind_Section.Staff_Group",
         "Flute.Music_Staff",
-        "Global_Rests",
+        "GlobalRests",
         "Flute.Music_Voice",
         "Flute.Rest_Voice",
         "Oboe.Music_Staff",
@@ -417,7 +417,7 @@
         ],
         "Score": [
             baca.Memento(
-                context="Global_Skips",
+                context="GlobalSkips",
                 edition=None,
                 manifest="metronome_marks",
                 prototype=None,
@@ -425,7 +425,7 @@
                 value="126",
             ),
             baca.Memento(
-                context="Global_Skips",
+                context="GlobalSkips",
                 edition=None,
                 manifest=None,
                 prototype="abjad.TimeSignature",
