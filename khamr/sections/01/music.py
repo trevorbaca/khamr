@@ -244,9 +244,6 @@ music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 commands(
     music_voice_names,
     baca.append_phantom_measure(),
-    baca.attach_first_section_default_indicators(
-        attach_instruments_by_hand=True,
-    ),
 )
 
 # fl
