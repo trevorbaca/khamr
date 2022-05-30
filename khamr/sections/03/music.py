@@ -25,8 +25,8 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
-    instruments=library.instruments,
-    margin_markups=library.margin_markups,
+    instruments=library.instruments(),
+    margin_markups=library.margin_markups(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[:37],
     voice_abbreviations=library.voice_abbreviations(),
@@ -381,7 +381,7 @@ commands(
 
 commands(
     ("ob", (10, 29)),
-    baca.instrument(library.instruments["Oboe"]),
+    baca.instrument(commands.instruments["Oboe"]),
     baca.accent(selector=leaf_in_each_top_tuplet(0)),
     baca.dynamic("fff-ancora"),
     baca.pitches("C6 C#6 D#6 E6 F6 F#6"),
@@ -405,7 +405,7 @@ commands(
 
 commands(
     ("cl", (10, 29)),
-    baca.instrument(library.instruments["Clarinet"]),
+    baca.instrument(commands.instruments["Clarinet"]),
     baca.accent(selector=leaf_in_each_top_tuplet(0)),
     baca.dynamic("fff-ancora"),
     baca.pitches("D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6"),
@@ -413,7 +413,7 @@ commands(
 
 commands(
     ("cl", (32, 37)),
-    baca.instrument(library.instruments["BassClarinet"]),
+    baca.instrument(commands.instruments["BassClarinet"]),
     baca.dynamic("ppp"),
     baca.pitch("G2"),
 )
@@ -427,7 +427,7 @@ commands(
 
 commands(
     ("sax", (10, 29)),
-    baca.instrument(library.instruments["SopraninoSaxophone"]),
+    baca.instrument(commands.instruments["SopraninoSaxophone"]),
     baca.accent(selector=leaf_in_each_top_tuplet(0)),
     baca.dynamic("fff-ancora"),
     baca.pitches("C6 C#6 D6 F6 F#6 D#6 E6"),

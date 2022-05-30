@@ -21,8 +21,8 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
-    instruments=library.instruments,
-    margin_markups=library.margin_markups,
+    instruments=library.instruments(),
+    margin_markups=library.margin_markups(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[:30],
     voice_abbreviations=library.voice_abbreviations(),
@@ -333,7 +333,7 @@ commands(
 commands(
     ("fl", (15, 30)),
     baca.dynamic("fff"),
-    baca.instrument(library.instruments["Flute"]),
+    baca.instrument(commands.instruments["Flute"]),
     baca.markup(r"\baca-fluttertongue-markup"),
     baca.pitch("B5"),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
