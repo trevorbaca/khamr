@@ -6,147 +6,6 @@ import abjad
 import baca
 from abjadext import rmakers
 
-instruments = dict(
-    [
-        ("BaritoneSaxophone", abjad.BaritoneSaxophone()),
-        ("BassClarinet", abjad.BassClarinet()),
-        ("BassFlute", abjad.BassFlute()),
-        ("Cello", abjad.Cello()),
-        ("Clarinet", abjad.ClarinetInBFlat()),
-        ("Contrabass", abjad.Contrabass(pitch_range="[G0, +inf]")),
-        ("EnglishHorn", abjad.EnglishHorn()),
-        ("Flute", abjad.Flute()),
-        ("Guitar", abjad.Guitar()),
-        ("Oboe", abjad.Oboe()),
-        (
-            "Percussion",
-            abjad.Percussion(
-                allowable_clefs=[
-                    abjad.Clef("percussion"),
-                    abjad.Clef("treble"),
-                ]
-            ),
-        ),
-        ("Piano", abjad.Piano(context="Staff")),
-        ("Piccolo", abjad.Piccolo()),
-        ("SopraninoSaxophone", abjad.SopraninoSaxophone()),
-        ("Viola", abjad.Viola()),
-        ("Violin", abjad.Violin()),
-    ]
-)
-
-
-def _make_margin_markup(markup):
-    return abjad.MarginMarkup(markup=rf'\markup \hcenter-in #16 "{markup}"')
-
-
-margin_markups = dict(
-    [
-        ("B. cl.", _make_margin_markup("B. cl.")),
-        ("Bar. sax.", _make_margin_markup("Bar. sax.")),
-        ("B. fl.", _make_margin_markup("B. fl.")),
-        ("Cb.", _make_margin_markup("Cb.")),
-        ("Cl.", _make_margin_markup("Cl.")),
-        ("Eng. hn.", _make_margin_markup("Eng. hn.")),
-        ("Fl.", _make_margin_markup("Fl.")),
-        ("Gt.", _make_margin_markup("Gt.")),
-        ("Ob.", _make_margin_markup("Ob.")),
-        ("Perc.", _make_margin_markup("Perc.")),
-        ("Pf.", _make_margin_markup("Pf.")),
-        ("Picc.", _make_margin_markup("Picc.")),
-        ("Spnino. sax.", _make_margin_markup("Spnino. sax.")),
-        ("Va.", _make_margin_markup("Va.")),
-        ("Vc.", _make_margin_markup("Vc.")),
-        ("Vn.", _make_margin_markup("Vn.")),
-    ]
-)
-
-
-def metronome_marks():
-    return dict(
-        [
-            ("32", abjad.MetronomeMark((1, 4), 32)),
-            ("42", abjad.MetronomeMark((1, 4), 42)),
-            ("63", abjad.MetronomeMark((1, 4), 63)),
-            ("84", abjad.MetronomeMark((1, 4), 84)),
-            ("126", abjad.MetronomeMark((1, 4), 126)),
-        ]
-    )
-
-
-def time_signatures():
-    """
-    # 108 seconds / section
-    #   = 226.8 beats at 126 MM
-    #   = 151.2 beats at 84 MM
-    #   = 113.4 beats at 63 MM
-    #   = 75.6 beats at 42 MM
-    """
-    # numerators = [[2, 2, 3], [2, 4], [3, 4, 5]]
-    # numerators = baca.sequence.helianthate(numerators, -1, -1)
-    pairs = [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
-    pairs = baca.sequence.helianthate(pairs, -1, -1)
-    pairs = abjad.sequence.flatten(pairs)
-    time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]
-    time_signatures = abjad.CyclicTuple(time_signatures_)
-    return time_signatures
-
-
-def contrabass_halo_pitches():
-    string = r"""
-        A2 Bb2 A+2 B2 C+3 Bb2 A+2 B2
-        A2 B2 C#3 B+2 C3 A2 B2 C#3 B+2 D~3 C3 D3
-        A2 D3 C+3 D+3 E3 C#3 D3 E~3 F3 D3 E~3 F~3 E3
-        """
-    strings = string.split()
-    assert len(strings) == 33
-    pitches = [abjad.NamedPitch(_) for _ in strings]
-    contrabass_halo_pitches = abjad.CyclicTuple(pitches)
-    return contrabass_halo_pitches
-
-
-def cello_halo_pitches():
-    cello_halo_pitches = []
-    for halo_pitch in contrabass_halo_pitches():
-        cello_halo_pitch = halo_pitch + abjad.NamedInterval("m7")
-        cello_halo_pitches.append(cello_halo_pitch)
-    return cello_halo_pitches
-
-
-def double_stop_halo_pitches():
-    double_stop_halo_pitches = []
-    for halo_pitch in contrabass_halo_pitches():
-        lower_pitch = halo_pitch - abjad.NamedInterval("M9")
-        named_pitches_pair = (lower_pitch, halo_pitch)
-        double_stop_halo_pitches.append(named_pitches_pair)
-    return double_stop_halo_pitches
-
-
-def violin_halo_pitches():
-    violin_halo_pitches = []
-    for halo_pitch in contrabass_halo_pitches():
-        violin_halo_pitch = halo_pitch + abjad.NamedInterval("m14")
-        violin_halo_pitches.append(violin_halo_pitch)
-    return violin_halo_pitches
-
-
-def color_trill_pitches(transpose=None):
-    string = "F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4"
-    pitches = [abjad.NamedPitch(_) for _ in string.split()]
-    if transpose:
-        pitches = [_.transpose(n=transpose) for _ in pitches]
-    assert len(pitches) == 18
-    return pitches
-
-
-def rose_pitches():
-    rose_pitch_classes = [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
-    rose_pitch_classes = baca.sequence.helianthate(rose_pitch_classes, -1, 1)
-    rose_pitch_classes = abjad.sequence.flatten(rose_pitch_classes)
-    assert len(rose_pitch_classes) == 64
-    rose_pitches = tuple(abjad.NamedPitch(_) for _ in rose_pitch_classes)
-    return rose_pitches
-
 
 @dataclasses.dataclass
 class MarimbaHitCommand(baca.Command):
@@ -188,6 +47,45 @@ class MarimbaHitCommand(baca.Command):
                 abjad.attach(abjad.Clef("percussion"), next_leaf, tag=tag)
 
 
+def cello_halo_pitches():
+    cello_halo_pitches = []
+    for halo_pitch in contrabass_halo_pitches():
+        cello_halo_pitch = halo_pitch + abjad.NamedInterval("m7")
+        cello_halo_pitches.append(cello_halo_pitch)
+    return cello_halo_pitches
+
+
+def color_trill_pitches(transpose=None):
+    string = "F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4"
+    pitches = [abjad.NamedPitch(_) for _ in string.split()]
+    if transpose:
+        pitches = [_.transpose(n=transpose) for _ in pitches]
+    assert len(pitches) == 18
+    return pitches
+
+
+def contrabass_halo_pitches():
+    string = r"""
+        A2 Bb2 A+2 B2 C+3 Bb2 A+2 B2
+        A2 B2 C#3 B+2 C3 A2 B2 C#3 B+2 D~3 C3 D3
+        A2 D3 C+3 D+3 E3 C#3 D3 E~3 F3 D3 E~3 F~3 E3
+        """
+    strings = string.split()
+    assert len(strings) == 33
+    pitches = [abjad.NamedPitch(_) for _ in strings]
+    contrabass_halo_pitches = abjad.CyclicTuple(pitches)
+    return contrabass_halo_pitches
+
+
+def double_stop_halo_pitches():
+    double_stop_halo_pitches = []
+    for halo_pitch in contrabass_halo_pitches():
+        lower_pitch = halo_pitch - abjad.NamedInterval("M9")
+        named_pitches_pair = (lower_pitch, halo_pitch)
+        double_stop_halo_pitches.append(named_pitches_pair)
+    return double_stop_halo_pitches
+
+
 def halo_hairpins():
     hairpins = [
         "pp > ppp",
@@ -217,6 +115,37 @@ def halo_hairpins():
         )
         commands.append(command)
     return baca.chunk(*commands)
+
+
+def instruments():
+    return dict(
+        [
+            ("BaritoneSaxophone", abjad.BaritoneSaxophone()),
+            ("BassClarinet", abjad.BassClarinet()),
+            ("BassFlute", abjad.BassFlute()),
+            ("Cello", abjad.Cello()),
+            ("Clarinet", abjad.ClarinetInBFlat()),
+            ("Contrabass", abjad.Contrabass(pitch_range="[G0, +inf]")),
+            ("EnglishHorn", abjad.EnglishHorn()),
+            ("Flute", abjad.Flute()),
+            ("Guitar", abjad.Guitar()),
+            ("Oboe", abjad.Oboe()),
+            (
+                "Percussion",
+                abjad.Percussion(
+                    allowable_clefs=[
+                        abjad.Clef("percussion"),
+                        abjad.Clef("treble"),
+                    ]
+                ),
+            ),
+            ("Piano", abjad.Piano(context="Staff")),
+            ("Piccolo", abjad.Piccolo()),
+            ("SopraninoSaxophone", abjad.SopraninoSaxophone()),
+            ("Viola", abjad.Viola()),
+            ("Violin", abjad.Violin()),
+        ]
+    )
 
 
 def make_alternate_divisions(detach_ties=None):
@@ -596,10 +525,32 @@ def make_silent_first_division():
     )
 
 
+def make_trill_tuplets(tuplet_ratios, *commands):
+    def preprocessor(divisions):
+        divisions = baca.sequence.fuse(divisions)
+        divisions = baca.sequence.quarters(divisions)
+        return divisions
+
+    return baca.rhythm(
+        rmakers.tuplet(string_tuplet_ratios(tuplet_ratios)),
+        rmakers.tie(lambda _: baca.select.ptail_in_each_tuplet(_, -1, (None, -1))),
+        *commands,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
+        preprocessor=preprocessor,
+        tag=baca.tags.function_name(inspect.currentframe()),
+    )
+
+
 def margin_markup(
     key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
 ):
-    margin_markup = margin_markups[key]
+    _margin_markups = margin_markups()
+    margin_markup = _margin_markups[key]
     command = baca.margin_markup(
         margin_markup,
         alert=alert,
@@ -607,6 +558,44 @@ def margin_markup(
         selector=selector,
     )
     return baca.not_parts(command)
+
+
+def margin_markups():
+    def _make_margin_markup(markup):
+        return abjad.MarginMarkup(markup=rf'\markup \hcenter-in #16 "{markup}"')
+
+    return dict(
+        [
+            ("B. cl.", _make_margin_markup("B. cl.")),
+            ("Bar. sax.", _make_margin_markup("Bar. sax.")),
+            ("B. fl.", _make_margin_markup("B. fl.")),
+            ("Cb.", _make_margin_markup("Cb.")),
+            ("Cl.", _make_margin_markup("Cl.")),
+            ("Eng. hn.", _make_margin_markup("Eng. hn.")),
+            ("Fl.", _make_margin_markup("Fl.")),
+            ("Gt.", _make_margin_markup("Gt.")),
+            ("Ob.", _make_margin_markup("Ob.")),
+            ("Perc.", _make_margin_markup("Perc.")),
+            ("Pf.", _make_margin_markup("Pf.")),
+            ("Picc.", _make_margin_markup("Picc.")),
+            ("Spnino. sax.", _make_margin_markup("Spnino. sax.")),
+            ("Va.", _make_margin_markup("Va.")),
+            ("Vc.", _make_margin_markup("Vc.")),
+            ("Vn.", _make_margin_markup("Vn.")),
+        ]
+    )
+
+
+def metronome_marks():
+    return dict(
+        [
+            ("32", abjad.MetronomeMark((1, 4), 32)),
+            ("42", abjad.MetronomeMark((1, 4), 42)),
+            ("63", abjad.MetronomeMark((1, 4), 63)),
+            ("84", abjad.MetronomeMark((1, 4), 84)),
+            ("126", abjad.MetronomeMark((1, 4), 126)),
+        ]
+    )
 
 
 def narrow_fourth_octave():
@@ -619,6 +608,15 @@ def narrow_sixth_octave():
     return baca.RegisterCommand(
         registration=baca.Registration([("[A0, F#4)", 22), ("[F#4, C8]", 25)])
     )
+
+
+def rose_pitches():
+    rose_pitch_classes = [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
+    rose_pitch_classes = baca.sequence.helianthate(rose_pitch_classes, -1, 1)
+    rose_pitch_classes = abjad.sequence.flatten(rose_pitch_classes)
+    assert len(rose_pitch_classes) == 64
+    rose_pitches = tuple(abjad.NamedPitch(_) for _ in rose_pitch_classes)
+    return rose_pitches
 
 
 def sixth_octave():
@@ -732,35 +730,30 @@ def string_tuplet_ratios(number):
         raise ValueError(number)
 
 
-def make_trill_tuplets(tuplet_ratios, *commands):
-    def preprocessor(divisions):
-        divisions = baca.sequence.fuse(divisions)
-        divisions = baca.sequence.quarters(divisions)
-        return divisions
-
-    return baca.rhythm(
-        rmakers.tuplet(string_tuplet_ratios(tuplet_ratios)),
-        rmakers.tie(lambda _: baca.select.ptail_in_each_tuplet(_, -1, (None, -1))),
-        *commands,
-        rmakers.beam(),
-        rmakers.rewrite_rest_filled(),
-        rmakers.trivialize(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
+def time_signatures():
+    """
+    # 108 seconds / section
+    #   = 226.8 beats at 126 MM
+    #   = 151.2 beats at 84 MM
+    #   = 113.4 beats at 63 MM
+    #   = 75.6 beats at 42 MM
+    """
+    # numerators = [[2, 2, 3], [2, 4], [3, 4, 5]]
+    # numerators = baca.sequence.helianthate(numerators, -1, -1)
+    pairs = [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
+    pairs = baca.sequence.helianthate(pairs, -1, -1)
+    pairs = abjad.sequence.flatten(pairs)
+    time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]
+    time_signatures = abjad.CyclicTuple(time_signatures_)
+    return time_signatures
 
 
-def weiss_multiphonic(number):
-    return abjad.Markup(rf'\baca-boxed-markup "W.{number}"')
-
-
-def wide_third_octave():
-    return baca.RegisterCommand(
-        registration=baca.Registration([("[A0, F#4)", -20), ("[F#4, C8]", -6)])
-    )
+def violin_halo_pitches():
+    violin_halo_pitches = []
+    for halo_pitch in contrabass_halo_pitches():
+        violin_halo_pitch = halo_pitch + abjad.NamedInterval("m14")
+        violin_halo_pitches.append(violin_halo_pitch)
+    return violin_halo_pitches
 
 
 def voice_abbreviations():
@@ -777,3 +770,13 @@ def voice_abbreviations():
         "vc": "Cello.MusicVoice",
         "cb": "Contrabass.MusicVoice",
     }
+
+
+def weiss_multiphonic(number):
+    return abjad.Markup(rf'\baca-boxed-markup "W.{number}"')
+
+
+def wide_third_octave():
+    return baca.RegisterCommand(
+        registration=baca.Registration([("[A0, F#4)", -20), ("[F#4, C8]", -6)])
+    )

@@ -23,8 +23,8 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
-    instruments=library.instruments,
-    margin_markups=library.margin_markups,
+    instruments=library.instruments(),
+    margin_markups=library.margin_markups(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[:44],
     voice_abbreviations=library.voice_abbreviations(),
@@ -250,7 +250,7 @@ commands(
 
 commands(
     "fl",
-    baca.instrument(library.instruments["BassFlute"]),
+    baca.instrument(commands.instruments["BassFlute"]),
     baca.clef("treble"),
     baca.suite(
         library.margin_markup("B. fl."),
@@ -295,7 +295,7 @@ commands(
 
 commands(
     "ob",
-    baca.instrument(library.instruments["EnglishHorn"]),
+    baca.instrument(commands.instruments["EnglishHorn"]),
     baca.clef("percussion"),
     baca.suite(
         library.margin_markup("Eng. hn."),
@@ -329,7 +329,7 @@ commands(
 
 commands(
     "cl",
-    baca.instrument(library.instruments["BassClarinet"]),
+    baca.instrument(commands.instruments["BassClarinet"]),
     baca.clef("treble"),
     baca.suite(
         library.margin_markup("B. cl."),
@@ -343,7 +343,7 @@ commands(
 
 commands(
     ("sax", (1, 36)),
-    baca.instrument(library.instruments["BaritoneSaxophone"]),
+    baca.instrument(commands.instruments["BaritoneSaxophone"]),
     baca.clef("treble"),
     baca.suite(
         library.margin_markup("Bar. sax."),
@@ -367,7 +367,7 @@ commands(
 
 commands(
     "gt",
-    baca.instrument(library.instruments["Guitar"]),
+    baca.instrument(commands.instruments["Guitar"]),
     baca.clef("treble"),
     baca.suite(
         library.margin_markup("Gt."),
@@ -404,7 +404,7 @@ commands(
 
 commands(
     ("pf", (1, 24)),
-    baca.instrument(library.instruments["Piano"]),
+    baca.instrument(commands.instruments["Piano"]),
     baca.clef("percussion"),
     baca.suite(
         library.margin_markup("Pf."),
@@ -458,7 +458,7 @@ commands(
 
 commands(
     "perc",
-    baca.instrument(library.instruments["Percussion"]),
+    baca.instrument(commands.instruments["Percussion"]),
     baca.clef("percussion"),
     baca.suite(
         library.margin_markup("Perc."),
@@ -477,7 +477,7 @@ commands(
 
 commands(
     ("vn", (1, 36)),
-    baca.instrument(library.instruments["Violin"]),
+    baca.instrument(commands.instruments["Violin"]),
     baca.clef("treble"),
     baca.suite(
         library.margin_markup("Vn."),
@@ -511,7 +511,7 @@ commands(
 
 commands(
     ("va", (1, 36)),
-    baca.instrument(library.instruments["Viola"]),
+    baca.instrument(commands.instruments["Viola"]),
     baca.clef("alto"),
     baca.suite(
         library.margin_markup("Va."),
@@ -544,7 +544,7 @@ commands(
 
 commands(
     ("vc", (1, 36)),
-    baca.instrument(library.instruments["Cello"]),
+    baca.instrument(commands.instruments["Cello"]),
     baca.clef("bass"),
     baca.suite(
         library.margin_markup("Vc."),
@@ -577,7 +577,7 @@ commands(
 
 commands(
     "cb",
-    baca.instrument(library.instruments["Contrabass"]),
+    baca.instrument(commands.instruments["Contrabass"]),
     baca.clef("bass"),
     baca.suite(
         library.margin_markup("Cb."),
