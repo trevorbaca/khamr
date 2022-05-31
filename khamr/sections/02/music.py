@@ -303,13 +303,12 @@ commands(
 
 make_15_30("cb")
 
-# phantom & reapply
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 
 commands(
     music_voice_names,
-    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 

@@ -112,7 +112,6 @@
         \type Engraver_group
         \consists Axis_group_engraver
         \consists Bar_number_engraver
-        \consists Mark_engraver
         % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
         \consists Staff_collecting_engraver
         \consists Time_signature_engraver

@@ -237,13 +237,11 @@ commands(
     ),
 )
 
-# phantom & reapply
-
-music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
+# anchor notes
 
 commands(
-    music_voice_names,
-    baca.append_phantom_measure(),
+    ["vn", "va", "vc"],
+    baca.append_anchor_note(),
 )
 
 # fl

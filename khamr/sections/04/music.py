@@ -23,7 +23,6 @@ score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
-    **baca.section_accumulation_defaults(),
     instruments=library.instruments(),
     margin_markups=library.margin_markups(),
     metronome_marks=library.metronome_marks(),
@@ -218,13 +217,12 @@ commands(
     baca.make_mmrests_flat(),
 )
 
-# phantom & reapply
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 
 commands(
     music_voice_names,
-    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
@@ -330,12 +328,14 @@ commands(
 
 commands(
     ("cb", -1),
-    baca.chunk(
-        baca.mark(r"\khamr-colophon-markup"),
-        baca.rehearsal_mark_down(),
-        baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: baca.select.rleaf(_, -1),
+    baca.literal(
+        [
+            r"\once \override Score.RehearsalMark.direction = #down",
+            r"\once \override Score.RehearsalMark.padding = 6",
+            r"\once \override Score.RehearsalMark.self-alignment-X = #right",
+            r"\mark \khamr-colophon-markup",
+        ],
+        site="after",
     ),
 )
 
