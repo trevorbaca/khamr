@@ -329,7 +329,7 @@
                 manifest=None,
                 prototype="baca.StaffLines",
                 synthetic_offset=None,
-                value=5,
+                value=1,
             ),
             baca.Memento(
                 context="Percussion.MusicVoice",

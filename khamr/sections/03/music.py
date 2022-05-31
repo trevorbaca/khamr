@@ -479,6 +479,11 @@ commands(
 # perc
 
 commands(
+    "perc",
+    baca.staff_lines(1),
+)
+
+commands(
     ("perc", (5, 9)),
     baca.dynamic("pp"),
     baca.markup(r"\baca-bass-drum-markup"),
