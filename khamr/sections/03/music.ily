@@ -20164,8 +20164,8 @@ number.3.Percussion.MusicVoice = {
     % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
+      %! REDUNDANT_BAR_EXTENT
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
@@ -20175,17 +20175,20 @@ number.3.Percussion.MusicVoice = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
+      %! baca.staff_lines()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! EXPLICIT_STAFF_LINES
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines()
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -20199,9 +20202,9 @@ number.3.Percussion.MusicVoice = {
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
+      %! EXPLICIT_STAFF_LINES_COLOR
       %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f

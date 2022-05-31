@@ -3678,7 +3678,7 @@ number.4.Percussion.MusicVoice = {
       %! REAPPLIED_STAFF_LINES
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 5
+    \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
