@@ -451,44 +451,6 @@
               %! SPACING
               %! baca.SpacingSpecifier.__call__(3)
             %@% \bacaStopTextSpanSPM
-              %! SPACING
-              %! baca.SpacingSpecifier.__call__(2)
-            %@% - \baca-start-spm-left-only "[1/32]"
-              %! SPACING
-              %! baca.SpacingSpecifier.__call__(2)
-            %@% \bacaStartTextSpanSPM
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(1)
-            % [Page_Layout measure 21]
-              %! PHANTOM
-              %! SPACING_COMMAND
-              %! baca.SpacingSpecifier.__call__(1)
-              %! baca._style_phantom_measures(1)
-            \baca-new-spacing-section #1 #4
-              %! BREAK
-              %! PHANTOM
-              %! baca._apply_breaks(2)
-              %! baca._style_phantom_measures(1)
-            \noBreak
-              %! PHANTOM
-              %! baca._style_phantom_measures(2)
-            \baca-time-signature-transparent
-              %! PHANTOM
-              %! baca._make_global_skips(3)
-            s1 * 1/4
-              %! PHANTOM
-              %! SPACING
-              %! baca.SpacingSpecifier.__call__(3)
-              %! baca._style_phantom_measures(1)
-            %@% \bacaStopTextSpanSPM
-              %! PHANTOM
-              %! baca._style_phantom_measures(3)
-            \once \override Score.BarLine.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(3)
-            \once \override Score.SpanBar.transparent = ##t
 
           %! baca.make_global_context()
         }   %*% Page_Layout
