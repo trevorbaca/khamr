@@ -368,10 +368,12 @@ commands(
 
 
 if __name__ == "__main__":
+    defaults = baca.score_interpretation_defaults()
+    del defaults["append_phantom_measure"]
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,
-        **baca.score_interpretation_defaults(),
+        **defaults,
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
