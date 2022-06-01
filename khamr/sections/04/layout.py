@@ -32,4 +32,4 @@ spacing = baca.make_layout(
 )
 
 if __name__ == "__main__":
-    baca.build.make_layout_ly(spacing, do_not_append_anchor_skip=True)
+    baca.build.make_layout_ly(spacing)
