@@ -369,7 +369,7 @@ commands(
 
 if __name__ == "__main__":
     defaults = baca.score_interpretation_defaults()
-    del defaults["append_phantom_measure"]
+    del defaults["append_anchor_skip"]
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,
