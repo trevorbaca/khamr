@@ -546,13 +546,13 @@ def make_trill_tuplets(tuplet_ratios, *commands):
     )
 
 
-def margin_markup(
+def short_instrument_name(
     key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
 ):
-    _margin_markups = margin_markups()
-    margin_markup = _margin_markups[key]
-    command = baca.margin_markup(
-        margin_markup,
+    _short_instrument_names = short_instrument_names()
+    short_instrument_name = _short_instrument_names[key]
+    command = baca.short_instrument_name(
+        short_instrument_name,
         alert=alert,
         context=context,
         selector=selector,
@@ -560,28 +560,28 @@ def margin_markup(
     return baca.not_parts(command)
 
 
-def margin_markups():
-    def _make_margin_markup(markup):
-        return abjad.MarginMarkup(markup=rf'\markup \hcenter-in #16 "{markup}"')
+def short_instrument_names():
+    def _make_short_instrument_name(markup):
+        return abjad.ShortInstrumentName(rf'\markup \hcenter-in #16 "{markup}"')
 
     return dict(
         [
-            ("B. cl.", _make_margin_markup("B. cl.")),
-            ("Bar. sax.", _make_margin_markup("Bar. sax.")),
-            ("B. fl.", _make_margin_markup("B. fl.")),
-            ("Cb.", _make_margin_markup("Cb.")),
-            ("Cl.", _make_margin_markup("Cl.")),
-            ("Eng. hn.", _make_margin_markup("Eng. hn.")),
-            ("Fl.", _make_margin_markup("Fl.")),
-            ("Gt.", _make_margin_markup("Gt.")),
-            ("Ob.", _make_margin_markup("Ob.")),
-            ("Perc.", _make_margin_markup("Perc.")),
-            ("Pf.", _make_margin_markup("Pf.")),
-            ("Picc.", _make_margin_markup("Picc.")),
-            ("Spnino. sax.", _make_margin_markup("Spnino. sax.")),
-            ("Va.", _make_margin_markup("Va.")),
-            ("Vc.", _make_margin_markup("Vc.")),
-            ("Vn.", _make_margin_markup("Vn.")),
+            ("B. cl.", _make_short_instrument_name("B. cl.")),
+            ("Bar. sax.", _make_short_instrument_name("Bar. sax.")),
+            ("B. fl.", _make_short_instrument_name("B. fl.")),
+            ("Cb.", _make_short_instrument_name("Cb.")),
+            ("Cl.", _make_short_instrument_name("Cl.")),
+            ("Eng. hn.", _make_short_instrument_name("Eng. hn.")),
+            ("Fl.", _make_short_instrument_name("Fl.")),
+            ("Gt.", _make_short_instrument_name("Gt.")),
+            ("Ob.", _make_short_instrument_name("Ob.")),
+            ("Perc.", _make_short_instrument_name("Perc.")),
+            ("Pf.", _make_short_instrument_name("Pf.")),
+            ("Picc.", _make_short_instrument_name("Picc.")),
+            ("Spnino. sax.", _make_short_instrument_name("Spnino. sax.")),
+            ("Va.", _make_short_instrument_name("Va.")),
+            ("Vc.", _make_short_instrument_name("Vc.")),
+            ("Vn.", _make_short_instrument_name("Vn.")),
         ]
     )
 
