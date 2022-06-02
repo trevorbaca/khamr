@@ -125,19 +125,17 @@ def instruments():
             ("BassFlute", abjad.BassFlute()),
             ("Cello", abjad.Cello()),
             ("Clarinet", abjad.ClarinetInBFlat()),
-            ("Contrabass", abjad.Contrabass(pitch_range="[G0, +inf]")),
+            (
+                "Contrabass",
+                abjad.Contrabass(pitch_range=abjad.PitchRange("[G0, +inf]")),
+            ),
             ("EnglishHorn", abjad.EnglishHorn()),
             ("Flute", abjad.Flute()),
             ("Guitar", abjad.Guitar()),
             ("Oboe", abjad.Oboe()),
             (
                 "Percussion",
-                abjad.Percussion(
-                    allowable_clefs=[
-                        abjad.Clef("percussion"),
-                        abjad.Clef("treble"),
-                    ]
-                ),
+                abjad.Percussion(allowable_clefs=("percussion", "treble")),
             ),
             ("Piano", abjad.Piano(context="Staff")),
             ("Piccolo", abjad.Piccolo()),
