@@ -135,7 +135,7 @@ def instruments():
             ("Oboe", abjad.Oboe()),
             (
                 "Percussion",
-                abjad.Percussion(allowable_clefs=("percussion", "treble")),
+                abjad.Percussion(clefs=("percussion", "treble")),
             ),
             ("Piano", abjad.Piano(context="Staff")),
             ("Piccolo", abjad.Piccolo()),
