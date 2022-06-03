@@ -67,7 +67,7 @@
 
             % OPEN_BRACKETS:
               %! baca.make_music_context()
-            \context MusicContext = "Music_Context"
+            \context MusicContext = "MusicContext"
               %! baca.make_music_context()
             <<
                 % ABSOLUTE_BEFORE:
