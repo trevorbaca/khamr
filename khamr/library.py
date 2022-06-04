@@ -572,7 +572,7 @@ def short_instrument_names():
         "Perc.": abjad.ShortInstrumentName(r"\khamr-perc-markup"),
         "Pf.": abjad.ShortInstrumentName(r"\khamr-pf-markup"),
         "Picc.": abjad.ShortInstrumentName(r"\khamr-picc-markup"),
-        "Spnino. sax.": abjad.ShortInstrumentName("\khamr-spnino-sax-markup"),
+        "Spnino. sax.": abjad.ShortInstrumentName(r"\khamr-spnino-sax-markup"),
         "Va.": abjad.ShortInstrumentName(r"\khamr-va-markup"),
         "Vc.": abjad.ShortInstrumentName(r"\khamr-vc-markup"),
         "Vn.": abjad.ShortInstrumentName(r"\khamr-vn-markup"),
