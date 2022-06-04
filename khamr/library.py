@@ -559,29 +559,24 @@ def short_instrument_name(
 
 
 def short_instrument_names():
-    def _make_short_instrument_name(markup):
-        return abjad.ShortInstrumentName(rf'\markup \hcenter-in #16 "{markup}"')
-
-    return dict(
-        [
-            ("B. cl.", _make_short_instrument_name("B. cl.")),
-            ("Bar. sax.", _make_short_instrument_name("Bar. sax.")),
-            ("B. fl.", _make_short_instrument_name("B. fl.")),
-            ("Cb.", _make_short_instrument_name("Cb.")),
-            ("Cl.", _make_short_instrument_name("Cl.")),
-            ("Eng. hn.", _make_short_instrument_name("Eng. hn.")),
-            ("Fl.", _make_short_instrument_name("Fl.")),
-            ("Gt.", _make_short_instrument_name("Gt.")),
-            ("Ob.", _make_short_instrument_name("Ob.")),
-            ("Perc.", _make_short_instrument_name("Perc.")),
-            ("Pf.", _make_short_instrument_name("Pf.")),
-            ("Picc.", _make_short_instrument_name("Picc.")),
-            ("Spnino. sax.", _make_short_instrument_name("Spnino. sax.")),
-            ("Va.", _make_short_instrument_name("Va.")),
-            ("Vc.", _make_short_instrument_name("Vc.")),
-            ("Vn.", _make_short_instrument_name("Vn.")),
-        ]
-    )
+    return {
+        "B. cl.": abjad.ShortInstrumentName(r"\khamr-bcl-markup"),
+        "Bar. sax.": abjad.ShortInstrumentName(r"\khamr-bar-sax-markup"),
+        "B. fl.": abjad.ShortInstrumentName(r"\khamr-bfl-markup"),
+        "Cb.": abjad.ShortInstrumentName(r"\khamr-cb-markup"),
+        "Cl.": abjad.ShortInstrumentName(r"\khamr-cl-markup"),
+        "Eng. hn.": abjad.ShortInstrumentName(r"\khamr-eng-hn-markup"),
+        "Fl.": abjad.ShortInstrumentName(r"\khamr-fl-markup"),
+        "Gt.": abjad.ShortInstrumentName(r"\khamr-gt-markup"),
+        "Ob.": abjad.ShortInstrumentName(r"\khamr-ob-markup"),
+        "Perc.": abjad.ShortInstrumentName(r"\khamr-perc-markup"),
+        "Pf.": abjad.ShortInstrumentName(r"\khamr-pf-markup"),
+        "Picc.": abjad.ShortInstrumentName(r"\khamr-picc-markup"),
+        "Spnino. sax.": abjad.ShortInstrumentName("\khamr-spnino-sax-markup"),
+        "Va.": abjad.ShortInstrumentName(r"\khamr-va-markup"),
+        "Vc.": abjad.ShortInstrumentName(r"\khamr-vc-markup"),
+        "Vn.": abjad.ShortInstrumentName(r"\khamr-vn-markup"),
+    }
 
 
 def metronome_marks():
