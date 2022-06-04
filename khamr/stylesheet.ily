@@ -66,7 +66,7 @@
     ragged-right = ##t
 }
 
-%%% CONTEXTS
+% CONTEXTS
 
 \layout {
 
@@ -258,7 +258,62 @@
     }
 }
 
-%%% COLOPHON %%%
+% INSTRUMENT NAME MARKUP
+
+khamr-bass-flute-markup = \markup
+  \column {
+  \hcenter-in #16 Bass
+  \hcenter-in #16 flute
+  }
+khamr-bfl-markup = \markup \hcenter-in #16 "B. fl."
+khamr-fl-markup = \markup \hcenter-in #16 "Fl."
+khamr-picc-markup = \markup \hcenter-in #16 "Picc."
+
+khamr-english-horn-markup = \markup
+  \column {
+  \hcenter-in #16 English
+  \hcenter-in #16 horn
+  }
+khamr-eng-hn-markup = \markup \hcenter-in #16 "Eng. hn."
+
+khamr-bass-clarinet-markup = \markup
+  \column {
+  \hcenter-in #16 Bass
+  \hcenter-in #16 clarinet
+  }
+khamr-bcl-markup = \markup \hcenter-in #16 "B. cl."
+khamr-cl-markup = \markup \hcenter-in #16 Cl.
+
+khamr-baritone-saxophone-markup = \markup
+  \column {
+  \hcenter-in #16 Baritone
+  \hcenter-in #16 saxophone
+  }
+khamr-bar-sax-markup = \markup \hcenter-in #16 "Bar. sax."
+khamr-spnino-markup = \markup \hcenter-in #16 "Spnino. sax."
+
+khamr-guitar-markup = \markup \hcenter-in #16 Guitar
+khamr-gt-markup = \markup \hcenter-in #16 Gt.
+
+khamr-piano-markup = \markup \hcenter-in #16 Piano
+khamr-pf-markup = \markup \hcenter-in #16 Pf.
+
+khamr-percussion-markup = \markup \hcenter-in #16 Percussion
+khamr-perc-markup = \markup \hcenter-in #16 Perc.
+
+khamr-violin-markup = \markup \hcenter-in #16 Violin
+khamr-vn-markup = \markup \hcenter-in #16 Vn.
+
+khamr-viola-markup = \markup \hcenter-in #16 Viola
+khamr-va-markup = \markup \hcenter-in #16 Va.
+
+khamr-cello-markup = \markup \hcenter-in #16 Cello
+khamr-vc-markup = \markup \hcenter-in #16 Vc.
+
+khamr-contrabass-markup = \markup \hcenter-in #16 Contrabass
+khamr-cb-markup = \markup \hcenter-in #16 Cb.
+
+% COLOPHON
 
 khamr-colophon-markup = \markup {
     \override #'(font-name . "Palatino")
@@ -270,7 +325,7 @@ khamr-colophon-markup = \markup {
         }
     }
 
-%%% DIRECTIVES %%%
+% DIRECTIVES
 
 khamr-airtone-without-reed = \markup
     "airtone without reed: mix inhales and exhales ad lib."

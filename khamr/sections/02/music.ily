@@ -1773,12 +1773,12 @@ number.2.Flute.Music = {
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "B. fl."
+    \set Staff.instrumentName = \khamr-bfl-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. fl."
+    \set Staff.shortInstrumentName = \khamr-bfl-markup
     % OPENING:
     % COMMANDS:
       %! REAPPLIED_CLEF
@@ -1857,7 +1857,7 @@ number.2.Flute.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. fl."
+    \set Staff.shortInstrumentName = \khamr-bfl-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2404,12 +2404,12 @@ number.2.Oboe.Music = {
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Eng. hn."
+    \set Staff.instrumentName = \khamr-eng-hn-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
+    \set Staff.shortInstrumentName = \khamr-eng-hn-markup
       %! REAPPLIED_STAFF_LINES
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -2483,7 +2483,7 @@ number.2.Oboe.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
+    \set Staff.shortInstrumentName = \khamr-eng-hn-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2916,12 +2916,12 @@ number.2.Clarinet.Music = {
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "B. cl."
+    \set Staff.instrumentName = \khamr-bcl-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
+    \set Staff.shortInstrumentName = \khamr-bcl-markup
     % OPENING:
     % COMMANDS:
       %! REAPPLIED_CLEF
@@ -2977,7 +2977,7 @@ number.2.Clarinet.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
+    \set Staff.shortInstrumentName = \khamr-bcl-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3434,12 +3434,12 @@ number.2.Saxophone.Music = {
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Bar. sax."
+    \set Staff.instrumentName = \khamr-bar-sax-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bar. sax."
+    \set Staff.shortInstrumentName = \khamr-bar-sax-markup
     % OPENING:
     % COMMANDS:
       %! REAPPLIED_CLEF
@@ -3495,7 +3495,7 @@ number.2.Saxophone.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bar. sax."
+    \set Staff.shortInstrumentName = \khamr-bar-sax-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3943,12 +3943,12 @@ number.2.Guitar.Music = {
         % BEFORE:
         % COMMANDS:
           %! baca._clone_section_initial_short_instrument_name()
-        \set Staff.instrumentName = \markup \hcenter-in #16 "Gt."
+        \set Staff.instrumentName = \khamr-gt-markup
           %! -PARTS
           %! REAPPLIED_SHORT_INSTRUMENT_NAME
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
-        \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Gt."
+        \set Staff.shortInstrumentName = \khamr-gt-markup
         % OPENING:
         % COMMANDS:
           %! REAPPLIED_CLEF
@@ -4000,7 +4000,7 @@ number.2.Guitar.Music = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(3)
-        \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Gt."
+        \set Staff.shortInstrumentName = \khamr-gt-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -4542,12 +4542,12 @@ number.2.Piano.Music = {
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
+    \set Staff.instrumentName = \khamr-pf-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
+    \set Staff.shortInstrumentName = \khamr-pf-markup
       %! REAPPLIED_STAFF_LINES
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -4619,7 +4619,7 @@ number.2.Piano.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
+    \set Staff.shortInstrumentName = \khamr-pf-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5516,12 +5516,12 @@ number.2.Percussion.Music = {
       %! baca.stem_down()
     \override Stem.direction = #down
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Perc."
+    \set Staff.instrumentName = \khamr-perc-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
+    \set Staff.shortInstrumentName = \khamr-perc-markup
       %! REAPPLIED_STAFF_LINES
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -5595,7 +5595,7 @@ number.2.Percussion.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
+    \set Staff.shortInstrumentName = \khamr-perc-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7436,12 +7436,12 @@ number.2.Violin.Music = {
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Vn."
+    \set Staff.instrumentName = \khamr-vn-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vn."
+    \set Staff.shortInstrumentName = \khamr-vn-markup
     % OPENING:
     % COMMANDS:
       %! REAPPLIED_CLEF
@@ -7511,7 +7511,7 @@ number.2.Violin.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vn."
+    \set Staff.shortInstrumentName = \khamr-vn-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8940,12 +8940,12 @@ number.2.Viola.Music = {
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Va."
+    \set Staff.instrumentName = \khamr-va-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Va."
+    \set Staff.shortInstrumentName = \khamr-va-markup
     % OPENING:
     % COMMANDS:
       %! REAPPLIED_CLEF
@@ -9015,7 +9015,7 @@ number.2.Viola.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Va."
+    \set Staff.shortInstrumentName = \khamr-va-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10190,12 +10190,12 @@ number.2.Cello.Music = {
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Vc."
+    \set Staff.instrumentName = \khamr-vc-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
+    \set Staff.shortInstrumentName = \khamr-vc-markup
     % OPENING:
     % COMMANDS:
       %! REAPPLIED_CLEF
@@ -10265,7 +10265,7 @@ number.2.Cello.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
+    \set Staff.shortInstrumentName = \khamr-vc-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11037,12 +11037,12 @@ number.2.Contrabass.Music = {
       %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
       %! baca._clone_section_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Cb."
+    \set Staff.instrumentName = \khamr-cb-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
+    \set Staff.shortInstrumentName = \khamr-cb-markup
     % OPENING:
     % COMMANDS:
       %! REAPPLIED_CLEF
@@ -11103,7 +11103,7 @@ number.2.Contrabass.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
+    \set Staff.shortInstrumentName = \khamr-cb-markup
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
