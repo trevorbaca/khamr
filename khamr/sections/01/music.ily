@@ -2561,10 +2561,10 @@ number.1.Flute.Music = {
     ^ \baca-boxed-markup "L.17"
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“BassFlute”)"
+    ^ \baca-explicit-instrument-markup "(“BassFlute”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“B. fl.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“B. fl.”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3474,10 +3474,10 @@ number.1.Oboe.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“EnglishHorn”)"
+    ^ \baca-explicit-instrument-markup "(“EnglishHorn”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Eng. hn.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Eng. hn.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \khamr-airtone-without-reed
@@ -4304,10 +4304,10 @@ number.1.Clarinet.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“BassClarinet”)"
+    ^ \baca-explicit-instrument-markup "(“BassClarinet”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“B. cl.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“B. cl.”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -5132,10 +5132,10 @@ number.1.Saxophone.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“BaritoneSaxophone”)"
+    ^ \baca-explicit-instrument-markup "(“BaritoneSaxophone”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Bar. sax.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Bar. sax.”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -5936,10 +5936,10 @@ number.1.Guitar.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Guitar”)"
+    ^ \baca-explicit-instrument-markup "(“Guitar”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Gt.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Gt.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \khamr-half-harmonics-explanation
@@ -8211,10 +8211,10 @@ number.1.Piano.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Piano”)"
+    ^ \baca-explicit-instrument-markup "(“Piano”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Pf.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Pf.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \khamr-strike-lowest-strings
@@ -9913,10 +9913,10 @@ number.1.Percussion.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Percussion”)"
+    ^ \baca-explicit-instrument-markup "(“Percussion”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Perc.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Perc.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-xl-tam-tam-markup
@@ -10920,10 +10920,10 @@ number.1.Violin.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
+    ^ \baca-explicit-instrument-markup "(“Violin”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Vn.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Vn.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \khamr-emphasize-multiphonics
@@ -13466,10 +13466,10 @@ number.1.Viola.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Viola”)"
+    ^ \baca-explicit-instrument-markup "(“Viola”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Va.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Va.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \khamr-emphasize-multiphonics
@@ -15779,10 +15779,10 @@ number.1.Cello.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Cello”)"
+    ^ \baca-explicit-instrument-markup "(“Cello”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Vc.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Vc.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \khamr-emphasize-multiphonics
@@ -18055,10 +18055,10 @@ number.1.Contrabass.Music = {
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Contrabass”)"
+    ^ \baca-explicit-instrument-markup "(“Contrabass”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Cb.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Cb.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \khamr-emphasize-multiphonics
