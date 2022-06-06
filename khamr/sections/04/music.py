@@ -1,4 +1,3 @@
-import abjad
 import baca
 from abjadext import rmakers
 
@@ -42,19 +41,22 @@ baca.interpret.set_up_score(
 
 commands(
     "Skips",
-    baca.metronome_mark(
-        baca.Accelerando(),
-        selector=lambda _: abjad.select.leaf(_, 8 - 1),
-    ),
-    baca.metronome_mark(
-        "84",
-        selector=lambda _: abjad.select.leaf(_, 16 - 1),
-    ),
     baca.bar_line(
         "|.",
         lambda _: baca.select.skip(_, -1),
     ),
 )
+
+skips = score["Skips"]
+manifests = commands.manifests()
+
+for index, item in (
+    (8 - 1, baca.Accelerando()),
+    (16 - 1, "84"),
+):
+    skip = skips[index]
+    indicator = commands.metronome_marks.get(item, item)
+    baca.commands._metronome_mark(skip, indicator, manifests)
 
 # FL
 
