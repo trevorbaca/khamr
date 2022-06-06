@@ -38,29 +38,19 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.metronome_mark(
-        "42",
-        selector=lambda _: abjad.select.leaf(_, 1 - 1),
-    ),
-    baca.metronome_mark(
-        baca.Accelerando(),
-        selector=lambda _: abjad.select.leaf(_, 1 - 1),
-    ),
-    baca.metronome_mark(
-        "84",
-        selector=lambda _: abjad.select.leaf(_, 5 - 1),
-    ),
-    baca.metronome_mark(
-        "42",
-        selector=lambda _: abjad.select.leaf(_, 9 - 1),
-    ),
-    baca.metronome_mark(
-        "126",
-        selector=lambda _: abjad.select.leaf(_, 21 - 1),
-    ),
-)
+skips = score["Skips"]
+manifests = commands.manifests()
+
+for index, item in (
+    (1 - 1, "42"),
+    (1 - 1, baca.Accelerando()),
+    (5 - 1, "84"),
+    (9 - 1, "42"),
+    (21 - 1, "126"),
+):
+    skip = skips[index]
+    indicator = commands.metronome_marks.get(item, item)
+    baca.commands._metronome_mark(skip, indicator, manifests)
 
 stage_5_silence_pattern = abjad.index(
     [
