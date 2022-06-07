@@ -51,7 +51,7 @@ for index, item in (
     indicator = commands.metronome_marks.get(item, item)
     baca.commands._metronome_mark(skip, indicator, manifests)
 
-baca.commands._bar_line(score["Skips"][20 - 1], "|.")
+baca.bar_line(score["Skips"][20 - 1], "|.")
 
 # FL
 

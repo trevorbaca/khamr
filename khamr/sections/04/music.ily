@@ -1032,7 +1032,6 @@ number.4.Skips = {
       %! baca._label_stage_numbers()
     %@% \bacaStopTextSpanSNM
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
       %! baca.bar_line()
     \bar "|."
     % CLOSING:
