@@ -105,7 +105,7 @@ commands(
 
 commands(
     ("fl", (9, 14)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 make_15_30("fl")
@@ -124,7 +124,7 @@ commands(
 
 commands(
     ("ob", (9, 14)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 make_15_30("ob")
@@ -160,7 +160,7 @@ commands(
 
 commands(
     ("sax", (9, 14)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 make_15_30("sax")
