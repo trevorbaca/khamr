@@ -5,30 +5,30 @@
         "Skips",
         "MusicContext",
         "Wind_Section.Staff_Group",
-        "Flute.Music_Staff",
+        "Flute.Staff",
         "Rests",
         "Flute.Music",
-        "Oboe.Music_Staff",
+        "Oboe.Staff",
         "Oboe.Music",
-        "Clarinet.Music_Staff",
+        "Clarinet.Staff",
         "Clarinet.Music",
-        "Saxophone.Music_Staff",
+        "Saxophone.Staff",
         "Saxophone.Music",
         "Percussion_Section.Staff_Group",
-        "Guitar.Music_Staff",
+        "Guitar.Staff",
         "Guitar.Music",
-        "Piano.Music_Staff",
+        "Piano.Staff",
         "Piano.Music",
-        "PercussionMusicStaff",
+        "Percussion.Staff",
         "Percussion.Music",
         "String_Section.Staff_Group",
-        "Violin.Music_Staff",
+        "Violin.Staff",
         "Violin.Music",
-        "Viola.Music_Staff",
+        "Viola.Staff",
         "Viola.Music",
-        "Cello.Music_Staff",
+        "Cello.Staff",
         "Cello.Music",
-        "Contrabass.Music_Staff",
+        "Contrabass.Staff",
         "Contrabass.Music",
     ],
     "persistent_indicators": {
@@ -42,7 +42,7 @@
                 value="ppp",
             )
         ],
-        "Cello.Music_Staff": [
+        "Cello.Staff": [
             baca.Memento(
                 context="Cello.Music",
                 edition=None,
@@ -78,7 +78,7 @@
                 value="pp",
             )
         ],
-        "Clarinet.Music_Staff": [
+        "Clarinet.Staff": [
             baca.Memento(
                 context="Clarinet.Music",
                 edition=None,
@@ -114,7 +114,7 @@
                 value="pp",
             )
         ],
-        "Contrabass.Music_Staff": [
+        "Contrabass.Staff": [
             baca.Memento(
                 context="Contrabass.Music",
                 edition=None,
@@ -150,7 +150,7 @@
                 value="pp",
             )
         ],
-        "Flute.Music_Staff": [
+        "Flute.Staff": [
             baca.Memento(
                 context="Flute.Music",
                 edition=None,
@@ -186,7 +186,7 @@
                 value="f",
             )
         ],
-        "Guitar.Music_Staff": [
+        "Guitar.Staff": [
             baca.Memento(
                 context="Guitar.Music",
                 edition=None,
@@ -222,7 +222,7 @@
                 value="pp",
             )
         ],
-        "Oboe.Music_Staff": [
+        "Oboe.Staff": [
             baca.Memento(
                 context="Oboe.Music",
                 edition=None,
@@ -274,7 +274,7 @@
                 value="sfz",
             )
         ],
-        "PercussionMusicStaff": [
+        "Percussion.Staff": [
             baca.Memento(
                 context="Percussion.Music",
                 edition=None,
@@ -326,7 +326,7 @@
                 value="mp",
             )
         ],
-        "Piano.Music_Staff": [
+        "Piano.Staff": [
             baca.Memento(
                 context="Piano.Music",
                 edition=None,
@@ -378,7 +378,7 @@
                 value="p",
             )
         ],
-        "Saxophone.Music_Staff": [
+        "Saxophone.Staff": [
             baca.Memento(
                 context="Saxophone.Music",
                 edition=None,
@@ -432,7 +432,7 @@
                 value="ppp",
             )
         ],
-        "Viola.Music_Staff": [
+        "Viola.Staff": [
             baca.Memento(
                 context="Viola.Music",
                 edition=None,
@@ -468,7 +468,7 @@
                 value="ppp",
             )
         ],
-        "Violin.Music_Staff": [
+        "Violin.Staff": [
             baca.Memento(
                 context="Violin.Music",
                 edition=None,
