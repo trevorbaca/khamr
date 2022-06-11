@@ -2366,7 +2366,7 @@ number.2.Flute.Music = {
 
 
   %! baca.path.extern()
-number.2.Flute.Music_Staff = <<
+number.2.Flute.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2887,7 +2887,7 @@ number.2.Oboe.Music = {
 
 
   %! baca.path.extern()
-number.2.Oboe.Music_Staff = {
+number.2.Oboe.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3405,7 +3405,7 @@ number.2.Clarinet.Music = {
 
 
   %! baca.path.extern()
-number.2.Clarinet.Music_Staff = {
+number.2.Clarinet.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3906,7 +3906,7 @@ number.2.Saxophone.Music = {
 
 
   %! baca.path.extern()
-number.2.Saxophone.Music_Staff = {
+number.2.Saxophone.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4513,7 +4513,7 @@ number.2.Guitar.Music = {
 
 
   %! baca.path.extern()
-number.2.Guitar.Music_Staff = {
+number.2.Guitar.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5478,7 +5478,7 @@ number.2.Piano.Music = {
 
 
   %! baca.path.extern()
-number.2.Piano.Music_Staff = {
+number.2.Piano.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7407,7 +7407,7 @@ number.2.Percussion.Music = {
 
 
   %! baca.path.extern()
-number.2.PercussionMusicStaff = {
+number.2.Percussion.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8911,7 +8911,7 @@ number.2.Violin.Music = {
 
 
   %! baca.path.extern()
-number.2.Violin.Music_Staff = {
+number.2.Violin.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10161,7 +10161,7 @@ number.2.Viola.Music = {
 
 
   %! baca.path.extern()
-number.2.Viola.Music_Staff = {
+number.2.Viola.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11005,7 +11005,7 @@ number.2.Cello.Music = {
 
 
   %! baca.path.extern()
-number.2.Cello.Music_Staff = {
+number.2.Cello.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11641,7 +11641,7 @@ number.2.Contrabass.Music = {
 
 
   %! baca.path.extern()
-number.2.Contrabass.Music_Staff = {
+number.2.Contrabass.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
