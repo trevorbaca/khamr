@@ -82,263 +82,231 @@ def ptails_in_get_tuplets(pattern, pair):
 
 # FL
 
-commands(
-    ("fl", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Flute.Music"]
 
-commands(
-    ("fl", (3, 9)),
-    baca.make_mmrests(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
 
-commands(
-    ("fl", (10, 29)),
-    library.make_aviary_rhythm((7, 16), extra_counts=[1]),
-)
+music = baca.make_mmrests_function(commands.get(3, 9))
+voice.extend(music)
 
-commands(
-    ("fl", (30, 33)),
-    baca.make_mmrests(),
+music = library.make_aviary_rhythm(
+    (7, 16), extra_counts=[1], function=commands.get(10, 29)
 )
+voice.extend(music)
 
-commands(
-    ("fl", (34, 37)),
-    library.make_fused_wind_rhythm([8], denominator=16),
+music = baca.make_mmrests_function(commands.get(30, 33))
+voice.extend(music)
+
+music = library.make_fused_wind_rhythm(
+    [8], denominator=16, function=commands.get(34, 37)
 )
+voice.extend(music)
 
 # OB
 
-commands(
-    ("ob", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Oboe.Music"]
 
-commands(
-    ("ob", (3, 9)),
-    baca.make_mmrests(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
 
-commands(
-    ("ob", (10, 29)),
-    library.make_aviary_rhythm((5, 16), extra_counts=[1]),
-)
+music = baca.make_mmrests_function(commands.get(3, 9))
+voice.extend(music)
 
-commands(
-    ("ob", (30, 33)),
-    baca.make_mmrests(),
+music = library.make_aviary_rhythm(
+    (5, 16), extra_counts=[1], function=commands.get(10, 29)
 )
+voice.extend(music)
 
-commands(
-    ("ob", (34, 37)),
-    library.make_fused_wind_rhythm(
-        [10],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
-        denominator=16,
+music = baca.make_mmrests_function(commands.get(30, 33))
+voice.extend(music)
+
+music = library.make_fused_wind_rhythm(
+    [10],
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, 0),
     ),
+    denominator=16,
+    function=commands.get(34, 37),
 )
+voice.extend(music)
 
 # CL
 
-commands(
-    ("cl", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Clarinet.Music"]
 
-commands(
-    ("cl", (3, 9)),
-    baca.make_mmrests(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
 
-commands(
-    ("cl", (10, 29)),
-    library.make_aviary_rhythm((8, 16), extra_counts=[1]),
-)
+music = baca.make_mmrests_function(commands.get(3, 9))
+voice.extend(music)
 
-commands(
-    ("cl", (30, 31)),
-    baca.make_mmrests(),
+music = library.make_aviary_rhythm(
+    (8, 16), extra_counts=[1], function=commands.get(10, 29)
 )
+voice.extend(music)
 
-commands(
-    ("cl", (32, 37)),
-    baca.make_repeat_tied_notes(
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    ),
+music = baca.make_mmrests_function(commands.get(30, 31))
+voice.extend(music)
+
+music = baca.make_repeat_tied_notes_function(
+    commands.get(32, 37),
+    rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
 )
+voice.extend(music)
 
 # SAX
 
-commands(
-    ("sax", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Saxophone.Music"]
 
-commands(
-    ("sax", (3, 9)),
-    baca.make_mmrests(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
 
-commands(
-    ("sax", (10, 29)),
-    library.make_aviary_rhythm((6, 16), extra_counts=[1]),
-)
+music = baca.make_mmrests_function(commands.get(3, 9))
+voice.extend(music)
 
-commands(
-    ("sax", (30, 33)),
-    baca.make_mmrests(),
+music = library.make_aviary_rhythm(
+    (6, 16), extra_counts=[1], function=commands.get(10, 29)
 )
+voice.extend(music)
 
-commands(
-    ("sax", (34, 37)),
-    library.make_fused_wind_rhythm([12], denominator=16),
+music = baca.make_mmrests_function(commands.get(30, 33))
+voice.extend(music)
+
+music = library.make_fused_wind_rhythm(
+    [12], denominator=16, function=commands.get(34, 37)
 )
+voice.extend(music)
 
 # GT
 
-commands(
-    ("gt", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Guitar.Music"]
 
-commands(
-    ("gt", (3, 9)),
-    baca.make_mmrests(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
 
-commands(
-    ("gt", (10, 29)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_mmrests_function(commands.get(3, 9))
+voice.extend(music)
 
-commands(
-    ("gt", (30, 37)),
-    baca.make_mmrests(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(10, 29))
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(30, 37))
+voice.extend(music)
 
 # PF
 
-commands(
-    ("pf", (1, 9)),
-    library.make_current_rhythm([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
-)
+voice = score["Piano.Music"]
 
-commands(
-    ("pf", (10, 29)),
-    library.make_aviary_rhythm((9, 16), extra_counts=[2]),
+music = library.make_current_rhythm(
+    [4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5],
+    function=commands.get(1, 9),
 )
+voice.extend(music)
 
-commands(
-    ("pf", (30, 37)),
-    baca.make_mmrests(),
+music = library.make_aviary_rhythm(
+    (9, 16), extra_counts=[2], function=commands.get(10, 29)
 )
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(30, 37))
+voice.extend(music)
 
 # PERC
 
-commands(
-    ("perc", (1, 4)),
-    baca.make_mmrests(),
-)
+voice = score["Percussion.Music"]
 
-commands(
-    ("perc", (5, 9)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_mmrests_function(commands.get(1, 4))
+voice.extend(music)
 
-commands(
-    ("perc", (10, 25)),
-    baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(5, 9))
+voice.extend(music)
 
-commands(
-    ("perc", (26, 29)),
-    baca.make_repeated_duration_notes([(3, 8)], do_not_rewrite_meter=True),
+music = baca.make_repeated_duration_notes_function(
+    commands.get(10, 25), [(1, 4)], do_not_rewrite_meter=True
 )
+voice.extend(music)
 
-commands(
-    ("perc", (30, 37)),
-    baca.make_repeat_tied_notes(),
+music = baca.make_repeated_duration_notes_function(
+    commands.get(26, 29), [(3, 8)], do_not_rewrite_meter=True
 )
+voice.extend(music)
+
+music = baca.make_repeat_tied_notes_function(commands.get(30, 37))
+voice.extend(music)
 
 # VN
 
-commands(
-    ("vn", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Violin.Music"]
 
-commands(
-    ("vn", (3, 29)),
-    library.make_continuous_glissando_rhythm(
-        0,
-        rmakers.tie(
-            ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
-        ),
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
+
+music = library.make_continuous_glissando_rhythm(
+    0,
+    rmakers.tie(
+        ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
     ),
+    function=commands.get(3, 29),
 )
+voice.extend(music)
 
-commands(
-    ("vn", (30, 37)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(30, 37))
+voice.extend(music)
 
 # VA
 
-commands(
-    ("va", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Viola.Music"]
 
-commands(
-    ("va", (3, 29)),
-    library.make_continuous_glissando_rhythm(
-        -1,
-        rmakers.tie(
-            ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
-        ),
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
+
+music = library.make_continuous_glissando_rhythm(
+    -1,
+    rmakers.tie(
+        ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
     ),
+    function=commands.get(3, 29),
 )
+voice.extend(music)
 
-commands(
-    ("va", (30, 37)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(30, 37))
+voice.extend(music)
 
 # VC
 
-commands(
-    ("vc", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Cello.Music"]
 
-commands(
-    ("vc", (3, 29)),
-    library.make_continuous_glissando_rhythm(
-        -2,
-        rmakers.tie(
-            ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
-        ),
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
+
+music = library.make_continuous_glissando_rhythm(
+    -2,
+    rmakers.tie(
+        ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
     ),
+    function=commands.get(3, 29),
 )
+voice.extend(music)
 
-commands(
-    ("vc", (30, 37)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(30, 37))
+voice.extend(music)
 
 # CB
 
-commands(
-    ("cb", [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]),
-    baca.make_repeat_tied_notes(),
-)
+voice = score["Contrabass.Music"]
 
-commands(
-    ("cb", [(30, 31), (32, 37)]),
-    baca.make_repeat_tied_notes(rmakers.force_rest(lambda _: baca.select.lt(_, -1))),
-)
+for pair in [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]:
+    music = baca.make_repeat_tied_notes_function(commands.get(*pair))
+    voice.extend(music)
+
+
+for pair in [(30, 31), (32, 37)]:
+    music = baca.make_repeat_tied_notes_function(
+        commands.get(*pair),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+    )
+    voice.extend(music)
 
 # reapply
 
