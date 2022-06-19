@@ -146,7 +146,7 @@ def instruments():
     )
 
 
-def make_alternate_divisions(detach_ties=None, *, function=None):
+def make_alternate_divisions(time_signatures, detach_ties=None):
     commands = []
     if detach_ties is True:
         specifier = rmakers.untie()
@@ -170,11 +170,11 @@ def make_alternate_divisions(detach_ties=None, *, function=None):
         rmakers.force_repeat_tie(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_aviary_rhythm(duration, *, extra_counts, function=None):
+def make_aviary_rhythm(time_signatures, duration, *, extra_counts):
     def preprocessor(divisions):
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(divisions, [duration], cyclic=True)
@@ -186,11 +186,11 @@ def make_aviary_rhythm(duration, *, extra_counts, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_closing_rhythm(*, function=None):
+def make_closing_rhythm(time_signatures):
     def preprocessor(divisions):
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.split_divisions(
@@ -209,11 +209,11 @@ def make_closing_rhythm(*, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_continuous_glissando_rhythm(tuplet_ratio_rotation, *commands, function=None):
+def make_continuous_glissando_rhythm(time_signatures, tuplet_ratio_rotation, *commands):
     tuplet_ratios = [(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)]
     tuplet_ratio_rotation *= 2
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
@@ -229,11 +229,11 @@ def make_continuous_glissando_rhythm(tuplet_ratio_rotation, *commands, function=
         rmakers.force_repeat_tie(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_current_rhythm(counts, *commands, function=None):
+def make_current_rhythm(time_signatures, counts, *commands):
     tuplet_ratios = [_ * (1,) for _ in counts]
 
     def preprocessor(divisions):
@@ -251,7 +251,7 @@ def make_current_rhythm(counts, *commands, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
@@ -356,7 +356,7 @@ def make_empty_score():
     return score
 
 
-def make_fused_expanse_rhythm(counts, *, function=None):
+def make_fused_expanse_rhythm(time_signatures, counts):
     def preprocessor(divisions):
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         divisions = abjad.sequence.flatten(divisions, depth=-1)
@@ -372,11 +372,11 @@ def make_fused_expanse_rhythm(counts, *, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_fused_wind_rhythm(counts, *commands, denominator=8, function=None):
+def make_fused_wind_rhythm(time_signatures, counts, *commands, denominator=8):
     def preprocessor(divisions):
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         divisions = abjad.sequence.flatten(divisions, depth=-1)
@@ -399,11 +399,11 @@ def make_fused_wind_rhythm(counts, *commands, denominator=8, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_guitar_accelerando_rhythm(counts, *, function=None):
+def make_guitar_accelerando_rhythm(time_signatures, counts):
     def nontrivial_tuplets(argument):
         result = abjad.select.tuplets(argument)
         result = [_ for _ in result if 1 < len(_)]
@@ -422,11 +422,11 @@ def make_guitar_accelerando_rhythm(counts, *, function=None):
         preprocessor=lambda _: baca.sequence.fuse(_, counts, cyclic=True),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_guitar_isolata_rhythm(*commands, function=None):
+def make_guitar_isolata_rhythm(time_signatures, *commands):
     def preprocessor(divisions):
         result = baca.sequence.fuse(divisions)
         result = baca.sequence.quarters(result)
@@ -455,11 +455,11 @@ def make_guitar_isolata_rhythm(*commands, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_opening_glissando_rhythm(tuplet_ratio_rotation, *commands, function=None):
+def make_opening_glissando_rhythm(time_signatures, tuplet_ratio_rotation, *commands):
     tuplet_ratios = [
         (4, 1),
         (4, 1),
@@ -493,11 +493,11 @@ def make_opening_glissando_rhythm(tuplet_ratio_rotation, *commands, function=Non
         rmakers.force_repeat_tie(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_quarter_hits(*commands, function=None):
+def make_quarter_hits(time_signatures, *commands):
     def preprocessor(divisions):
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
@@ -511,11 +511,11 @@ def make_quarter_hits(*commands, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_silent_first_division(*, function=None):
+def make_silent_first_division(time_signatures):
     def preprocessor(divisions):
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
@@ -531,11 +531,11 @@ def make_silent_first_division(*, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 
-def make_trill_tuplets(tuplet_ratios, *commands, function=None):
+def make_trill_tuplets(time_signatures, tuplet_ratios, *commands):
     def preprocessor(divisions):
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.quarters(divisions)
@@ -554,7 +554,7 @@ def make_trill_tuplets(tuplet_ratios, *commands, function=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = rhythm_maker(function)
+    music = rhythm_maker(time_signatures)
     return music
 
 

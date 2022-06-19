@@ -59,11 +59,11 @@ for index, item in (
 voice = score["Flute.Music"]
 
 music = library.make_fused_wind_rhythm(
+    commands.get(),
     [10, 10, 6, 10, 8, 6],
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([2, 5], 6)),
     ),
-    function=commands.get(),
 )
 voice.extend(music)
 
@@ -72,11 +72,11 @@ voice.extend(music)
 voice = score["Oboe.Music"]
 
 music = library.make_fused_wind_rhythm(
+    commands.get(),
     [12, 6, 10, 10, 6, 8],
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 4], 6)),
     ),
-    function=commands.get(),
 )
 voice.extend(music)
 
@@ -85,11 +85,11 @@ voice.extend(music)
 voice = score["Clarinet.Music"]
 
 music = library.make_fused_wind_rhythm(
+    commands.get(),
     [8, 6, 10, 6, 10, 8],
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 3], 6)),
     ),
-    function=commands.get(),
 )
 voice.extend(music)
 
@@ -98,11 +98,11 @@ voice.extend(music)
 voice = score["Saxophone.Music"]
 
 music = library.make_fused_wind_rhythm(
+    commands.get(),
     [14, 6, 10, 6, 10, 8],
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 3], 6)),
     ),
-    function=commands.get(),
 )
 voice.extend(music)
 
@@ -111,6 +111,7 @@ voice.extend(music)
 voice = score["Guitar.Music"]
 
 music = library.make_guitar_isolata_rhythm(
+    commands.get(1, 24),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
@@ -123,18 +124,20 @@ music = library.make_guitar_isolata_rhythm(
     rmakers.tie(
         lambda _: abjad.select.leaves(abjad.select.tuplet(_, 0))[:-1],
     ),
-    function=commands.get(1, 24),
 )
 voice.extend(music)
 
-music = library.make_guitar_accelerando_rhythm([2, 1], function=commands.get(25, 40))
+music = library.make_guitar_accelerando_rhythm(
+    commands.get(25, 40),
+    [2, 1],
+)
 voice.extend(music)
 
 music = library.make_guitar_isolata_rhythm(
+    commands.get(41, 44),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
-    function=commands.get(41, 44),
 )
 voice.extend(music)
 
@@ -142,17 +145,23 @@ voice.extend(music)
 
 voice = score["Piano.Music"]
 
-music = library.make_fused_expanse_rhythm([20, 8, 20, 4], function=commands.get(1, 24))
+music = library.make_fused_expanse_rhythm(
+    commands.get(1, 24),
+    [20, 8, 20, 4],
+)
 voice.extend(music)
 
-music = library.make_guitar_accelerando_rhythm([3, 2], function=commands.get(25, 36))
+music = library.make_guitar_accelerando_rhythm(
+    commands.get(25, 36),
+    [3, 2],
+)
 voice.extend(music)
 
 music = library.make_guitar_isolata_rhythm(
+    commands.get(37, 40),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
-    function=commands.get(37, 40),
 )
 voice.extend(music)
 
@@ -163,7 +172,10 @@ voice.extend(music)
 
 voice = score["Percussion.Music"]
 
-music = library.make_fused_expanse_rhythm([20, 8, 20, 4], function=commands.get())
+music = library.make_fused_expanse_rhythm(
+    commands.get(),
+    [20, 8, 20, 4],
+)
 voice.extend(music)
 
 # VN
@@ -171,15 +183,18 @@ voice.extend(music)
 voice = score["Violin.Music"]
 
 music = library.make_opening_glissando_rhythm(
+    commands.get(1, 36),
     0,
     rmakers.repeat_tie(
         lambda _: baca.select.leaves_in_get_tuplets(_, ([0, 1, 2, 5], 7), (1, None)),
     ),
-    function=commands.get(1, 36),
 )
 voice.extend(music)
 
-music = library.make_trill_tuplets(4, function=commands.get(37, 44))
+music = library.make_trill_tuplets(
+    commands.get(37, 44),
+    4,
+)
 voice.extend(music)
 
 # VA
@@ -187,15 +202,18 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_opening_glissando_rhythm(
+    commands.get(1, 36),
     -1,
     rmakers.tie(
         lambda _: baca.select.leaves_in_get_tuplets(_, ([1, 2, 3, 6], 7), (None, -1)),
     ),
-    function=commands.get(1, 36),
 )
 voice.extend(music)
 
-music = library.make_trill_tuplets(3, function=commands.get(37, 44))
+music = library.make_trill_tuplets(
+    commands.get(37, 44),
+    3,
+)
 voice.extend(music)
 
 # VC
@@ -203,15 +221,18 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_opening_glissando_rhythm(
+    commands.get(1, 36),
     -2,
     rmakers.tie(
         lambda _: baca.select.leaves_in_get_tuplets(_, ([0, 2, 3, 4], 7), (None, -1)),
     ),
-    function=commands.get(1, 36),
 )
 voice.extend(music)
 
-music = library.make_trill_tuplets(2, function=commands.get(37, 44))
+music = library.make_trill_tuplets(
+    commands.get(37, 44),
+    2,
+)
 voice.extend(music)
 
 # CB
@@ -219,11 +240,11 @@ voice.extend(music)
 voice = score["Contrabass.Music"]
 
 music = library.make_opening_glissando_rhythm(
+    commands.get(),
     -3,
     rmakers.tie(
         lambda _: baca.select.leaves_in_get_tuplets(_, ([0, 1, 4, 6], 7), (None, -1)),
     ),
-    function=commands.get(),
 )
 voice.extend(music)
 
