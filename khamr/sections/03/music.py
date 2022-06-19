@@ -84,7 +84,7 @@ def ptails_in_get_tuplets(pattern, pair):
 
 voice = score["Flute.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(3, 9))
@@ -107,7 +107,7 @@ voice.extend(music)
 
 voice = score["Oboe.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(3, 9))
@@ -135,7 +135,7 @@ voice.extend(music)
 
 voice = score["Clarinet.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(3, 9))
@@ -149,7 +149,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(30, 31))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(32, 37),
     rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
 )
@@ -159,7 +159,7 @@ voice.extend(music)
 
 voice = score["Saxophone.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(3, 9))
@@ -182,13 +182,13 @@ voice.extend(music)
 
 voice = score["Guitar.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(10, 29))
+music = baca.make_repeat_tied_notes(commands.get(10, 29))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(30, 37))
@@ -219,27 +219,27 @@ voice = score["Percussion.Music"]
 music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(5, 9))
+music = baca.make_repeat_tied_notes(commands.get(5, 9))
 voice.extend(music)
 
-music = baca.make_repeated_duration_notes_function(
+music = baca.make_repeated_duration_notes(
     commands.get(10, 25), [(1, 4)], do_not_rewrite_meter=True
 )
 voice.extend(music)
 
-music = baca.make_repeated_duration_notes_function(
+music = baca.make_repeated_duration_notes(
     commands.get(26, 29), [(3, 8)], do_not_rewrite_meter=True
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(30, 37))
+music = baca.make_repeat_tied_notes(commands.get(30, 37))
 voice.extend(music)
 
 # VN
 
 voice = score["Violin.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_continuous_glissando_rhythm(
@@ -258,7 +258,7 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_continuous_glissando_rhythm(
@@ -277,7 +277,7 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_continuous_glissando_rhythm(
@@ -297,12 +297,12 @@ voice.extend(music)
 voice = score["Contrabass.Music"]
 
 for pair in [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]:
-    music = baca.make_repeat_tied_notes_function(commands.get(*pair))
+    music = baca.make_repeat_tied_notes(commands.get(*pair))
     voice.extend(music)
 
 
 for pair in [(30, 31), (32, 37)]:
-    music = baca.make_repeat_tied_notes_function(
+    music = baca.make_repeat_tied_notes(
         commands.get(*pair),
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     )

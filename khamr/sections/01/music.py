@@ -156,7 +156,7 @@ music = library.make_guitar_isolata_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(41, 44))
+music = baca.make_repeat_tied_notes(commands.get(41, 44))
 voice.extend(music)
 
 # PERC

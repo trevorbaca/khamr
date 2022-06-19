@@ -174,7 +174,7 @@ music = library.make_guitar_isolata_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(5, 14),
     rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
 )
@@ -187,7 +187,7 @@ voice.extend(music)
 
 voice = score["Piano.Music"]
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(1, 14),
     rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
 )
@@ -277,7 +277,7 @@ music = library.make_trill_tuplets(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(
+music = baca.make_repeat_tied_notes(
     commands.get(9, 14),
     rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
 )
