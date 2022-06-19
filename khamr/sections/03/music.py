@@ -87,7 +87,7 @@ voice = score["Flute.Music"]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3, 9))
+music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
@@ -95,7 +95,7 @@ music = library.make_aviary_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 33))
+music = baca.make_mmrests(commands.get(30, 33))
 voice.extend(music)
 
 music = library.make_fused_wind_rhythm(
@@ -110,7 +110,7 @@ voice = score["Oboe.Music"]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3, 9))
+music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
@@ -118,7 +118,7 @@ music = library.make_aviary_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 33))
+music = baca.make_mmrests(commands.get(30, 33))
 voice.extend(music)
 
 music = library.make_fused_wind_rhythm(
@@ -138,7 +138,7 @@ voice = score["Clarinet.Music"]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3, 9))
+music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
@@ -146,7 +146,7 @@ music = library.make_aviary_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 31))
+music = baca.make_mmrests(commands.get(30, 31))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(
@@ -162,7 +162,7 @@ voice = score["Saxophone.Music"]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3, 9))
+music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
@@ -170,7 +170,7 @@ music = library.make_aviary_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 33))
+music = baca.make_mmrests(commands.get(30, 33))
 voice.extend(music)
 
 music = library.make_fused_wind_rhythm(
@@ -185,13 +185,13 @@ voice = score["Guitar.Music"]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3, 9))
+music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(10, 29))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 37))
+music = baca.make_mmrests(commands.get(30, 37))
 voice.extend(music)
 
 # PF
@@ -209,14 +209,14 @@ music = library.make_aviary_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 37))
+music = baca.make_mmrests(commands.get(30, 37))
 voice.extend(music)
 
 # PERC
 
 voice = score["Percussion.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 4))
+music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(5, 9))
@@ -251,7 +251,7 @@ music = library.make_continuous_glissando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 37))
+music = baca.make_mmrests(commands.get(30, 37))
 voice.extend(music)
 
 # VA
@@ -270,7 +270,7 @@ music = library.make_continuous_glissando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 37))
+music = baca.make_mmrests(commands.get(30, 37))
 voice.extend(music)
 
 # VC
@@ -289,7 +289,7 @@ music = library.make_continuous_glissando_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(30, 37))
+music = baca.make_mmrests(commands.get(30, 37))
 voice.extend(music)
 
 # CB
