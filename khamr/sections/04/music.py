@@ -58,7 +58,9 @@ baca.bar_line(score["Skips"][20 - 1], "|.")
 voice = score["Flute.Music"]
 
 music = library.make_fused_wind_rhythm(
-    [8], denominator=16, function=commands.get(1, 15)
+    commands.get(1, 15),
+    [8],
+    denominator=16,
 )
 voice.extend(music)
 
@@ -70,7 +72,9 @@ voice.extend(music)
 voice = score["Oboe.Music"]
 
 music = library.make_fused_wind_rhythm(
-    [10], denominator=16, function=commands.get(1, 15)
+    commands.get(1, 15),
+    [10],
+    denominator=16,
 )
 voice.extend(music)
 
@@ -92,7 +96,9 @@ voice.extend(music)
 voice = score["Saxophone.Music"]
 
 music = library.make_fused_wind_rhythm(
-    [12], denominator=16, function=commands.get(1, 15)
+    commands.get(1, 15),
+    [12],
+    denominator=16,
 )
 voice.extend(music)
 
@@ -119,7 +125,7 @@ music = baca.make_repeat_tied_notes(
 )
 voice.extend(music)
 
-music = library.make_closing_rhythm(function=commands.get(16, 20))
+music = library.make_closing_rhythm(commands.get(16, 20))
 voice.extend(music)
 
 # PF
@@ -142,7 +148,7 @@ music = baca.make_repeat_tied_notes(
 )
 voice.extend(music)
 
-music = library.make_closing_rhythm(function=commands.get(16, 20))
+music = library.make_closing_rhythm(commands.get(16, 20))
 voice.extend(music)
 
 # PERC

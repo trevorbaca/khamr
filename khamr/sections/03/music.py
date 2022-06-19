@@ -91,7 +91,9 @@ music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
-    (7, 16), extra_counts=[1], function=commands.get(10, 29)
+    commands.get(10, 29),
+    (7, 16),
+    extra_counts=[1],
 )
 voice.extend(music)
 
@@ -99,7 +101,9 @@ music = baca.make_mmrests(commands.get(30, 33))
 voice.extend(music)
 
 music = library.make_fused_wind_rhythm(
-    [8], denominator=16, function=commands.get(34, 37)
+    commands.get(34, 37),
+    [8],
+    denominator=16,
 )
 voice.extend(music)
 
@@ -114,7 +118,9 @@ music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
-    (5, 16), extra_counts=[1], function=commands.get(10, 29)
+    commands.get(10, 29),
+    (5, 16),
+    extra_counts=[1],
 )
 voice.extend(music)
 
@@ -122,12 +128,12 @@ music = baca.make_mmrests(commands.get(30, 33))
 voice.extend(music)
 
 music = library.make_fused_wind_rhythm(
+    commands.get(34, 37),
     [10],
     rmakers.force_rest(
         lambda _: baca.select.tuplet(_, 0),
     ),
     denominator=16,
-    function=commands.get(34, 37),
 )
 voice.extend(music)
 
@@ -142,7 +148,9 @@ music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
-    (8, 16), extra_counts=[1], function=commands.get(10, 29)
+    commands.get(10, 29),
+    (8, 16),
+    extra_counts=[1],
 )
 voice.extend(music)
 
@@ -166,7 +174,9 @@ music = baca.make_mmrests(commands.get(3, 9))
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
-    (6, 16), extra_counts=[1], function=commands.get(10, 29)
+    commands.get(10, 29),
+    (6, 16),
+    extra_counts=[1],
 )
 voice.extend(music)
 
@@ -174,7 +184,9 @@ music = baca.make_mmrests(commands.get(30, 33))
 voice.extend(music)
 
 music = library.make_fused_wind_rhythm(
-    [12], denominator=16, function=commands.get(34, 37)
+    commands.get(34, 37),
+    [12],
+    denominator=16,
 )
 voice.extend(music)
 
@@ -199,13 +211,15 @@ voice.extend(music)
 voice = score["Piano.Music"]
 
 music = library.make_current_rhythm(
+    commands.get(1, 9),
     [4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5],
-    function=commands.get(1, 9),
 )
 voice.extend(music)
 
 music = library.make_aviary_rhythm(
-    (9, 16), extra_counts=[2], function=commands.get(10, 29)
+    commands.get(10, 29),
+    (9, 16),
+    extra_counts=[2],
 )
 voice.extend(music)
 
@@ -243,11 +257,11 @@ music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_continuous_glissando_rhythm(
+    commands.get(3, 29),
     0,
     rmakers.tie(
         ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
     ),
-    function=commands.get(3, 29),
 )
 voice.extend(music)
 
@@ -262,11 +276,11 @@ music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_continuous_glissando_rhythm(
+    commands.get(3, 29),
     -1,
     rmakers.tie(
         ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
     ),
-    function=commands.get(3, 29),
 )
 voice.extend(music)
 
@@ -281,11 +295,11 @@ music = baca.make_repeat_tied_notes(commands.get(1, 2))
 voice.extend(music)
 
 music = library.make_continuous_glissando_rhythm(
+    commands.get(3, 29),
     -2,
     rmakers.tie(
         ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
     ),
-    function=commands.get(3, 29),
 )
 voice.extend(music)
 
