@@ -99,7 +99,7 @@ music = library.make_fused_wind_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9, 14))
+music = baca.make_mmrests(commands.get(9, 14))
 voice.extend(music)
 
 music = make_15_30("fl")
@@ -118,7 +118,7 @@ music = library.make_fused_wind_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9, 14))
+music = baca.make_mmrests(commands.get(9, 14))
 voice.extend(music)
 
 music = make_15_30("ob")
@@ -156,7 +156,7 @@ music = library.make_fused_wind_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9, 14))
+music = baca.make_mmrests(commands.get(9, 14))
 voice.extend(music)
 
 music = make_15_30("sax")

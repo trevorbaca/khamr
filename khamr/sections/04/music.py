@@ -62,7 +62,7 @@ music = library.make_fused_wind_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # OB
@@ -74,7 +74,7 @@ music = library.make_fused_wind_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # CL
@@ -84,7 +84,7 @@ voice = score["Clarinet.Music"]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 15))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # SAX
@@ -96,7 +96,7 @@ music = library.make_fused_wind_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # GT
@@ -155,13 +155,13 @@ music = baca.make_repeat_tied_notes_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 7))
+music = baca.make_mmrests(commands.get(6, 7))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(8, 15))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # VN
@@ -171,7 +171,7 @@ voice = score["Violin.Music"]
 music = baca.make_repeated_duration_notes_function(commands.get(1, 15), [(7, 4)])
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # VA
@@ -181,7 +181,7 @@ voice = score["Viola.Music"]
 music = baca.make_repeated_duration_notes_function(commands.get(1, 15), [(6, 4)])
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # VC
@@ -191,7 +191,7 @@ voice = score["Cello.Music"]
 music = baca.make_repeated_duration_notes_function(commands.get(1, 15), [(5, 4)])
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # CB
@@ -201,7 +201,7 @@ voice = score["Contrabass.Music"]
 music = baca.make_repeated_duration_notes_function(commands.get(1, 15), [(4, 4)])
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(16, 20))
+music = baca.make_mmrests(commands.get(16, 20))
 voice.extend(music)
 
 # reapply
