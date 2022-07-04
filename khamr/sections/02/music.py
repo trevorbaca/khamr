@@ -382,7 +382,7 @@ commands(
     baca.dynamic("fff"),
     baca.pitch(
         "G#2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
