@@ -7,7 +7,7 @@ import baca
 from abjadext import rmakers
 
 
-@dataclasses.dataclass
+@dataclasses.dataclass(frozen=True, order=True, slots=True, unsafe_hash=True)
 class MarimbaHitCommand(baca.Command):
     """
     Marimba hit command.
@@ -18,12 +18,9 @@ class MarimbaHitCommand(baca.Command):
 
     def __post_init__(self):
         baca.Command.__post_init__(self)
-        self.indices = self.indices or ()
-        self.attach_first_markup = bool(self.attach_first_markup)
-        self._measures = None
+        assert isinstance(self.attach_first_markup, bool)
 
     def __call__(self, argument=None, runtime=None):
-        self._runtime = runtime
         tag = abjad.Tag("khamr.MarimbaHitCommand.__call__()")
         found_first = False
         for i, plt in enumerate(baca.plts(argument)):
