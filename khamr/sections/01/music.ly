@@ -75,7 +75,7 @@
 
                 % OPEN_BRACKETS:
                   %! khamr.make_empty_score()
-                \context WindSectionStaffGroup = "WindSection.StaffGroup"
+                \context WindSectionStaffGroup = "WindSectionStaffGroup"
                   %! khamr.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -141,7 +141,7 @@
 
                 % OPEN_BRACKETS:
                   %! khamr.make_empty_score()
-                \context PercussionSectionStaffGroup = "PercussionSection.StaffGroup"
+                \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                   %! khamr.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -194,7 +194,7 @@
 
                 % OPEN_BRACKETS:
                   %! khamr.make_empty_score()
-                \context StringSectionStaffGroup = "StringSection.StaffGroup"
+                \context StringSectionStaffGroup = "StringSectionStaffGroup"
                   %! khamr.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
