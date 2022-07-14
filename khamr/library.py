@@ -317,14 +317,14 @@ def make_empty_score():
             saxophone_music_staff,
         ],
         lilypond_type="WindSectionStaffGroup",
-        name="Wind_Section.Staff_Group",
+        name="WindSection.StaffGroup",
         tag=tag,
     )
     # PERCUSSION SECTION STAFF GROUP
     percussion_section_staff_group = abjad.StaffGroup(
         [guitar_music_staff, piano_music_staff, percussion_music_staff],
         lilypond_type="PercussionSectionStaffGroup",
-        name="Percussion_Section.Staff_Group",
+        name="PercussionSection.StaffGroup",
         tag=tag,
     )
     # STRING SECTION STAFF GROUP
@@ -336,7 +336,7 @@ def make_empty_score():
             contrabass_music_staff,
         ],
         lilypond_type="StringSectionStaffGroup",
-        name="String_Section.Staff_Group",
+        name="StringSection.StaffGroup",
         tag=tag,
     )
     # MUSIC CONTEXT
