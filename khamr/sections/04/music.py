@@ -365,10 +365,12 @@ if __name__ == "__main__":
     del defaults["append_anchor_skip"]
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
-        commands,
+        commands.manifests(),
+        commands.time_signatures,
         **defaults,
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        commands=commands,
         error_on_not_yet_pitched=True,
         final_section=True,
         global_rests_in_topmost_staff=True,
