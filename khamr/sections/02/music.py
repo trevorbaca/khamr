@@ -571,10 +571,12 @@ commands(
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
-        commands,
+        commands.manifests(),
+        commands.time_signatures,
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        commands=commands,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         transpose_score=True,
