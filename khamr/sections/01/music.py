@@ -21,7 +21,7 @@ stage_markup = (
 score = music = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -32,9 +32,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -42,7 +42,7 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = commands.manifests()
+manifests = accumulator.manifests()
 
 for index, item in (
     (1 - 1, "126"),
@@ -51,7 +51,7 @@ for index, item in (
     (37 - 1, "84"),
 ):
     skip = skips[index]
-    indicator = commands.metronome_marks.get(item, item)
+    indicator = accumulator.metronome_marks.get(item, item)
     baca.metronome_mark(skip, indicator, manifests)
 
 # FL
@@ -59,7 +59,7 @@ for index, item in (
 voice = score["Flute.Music"]
 
 music = library.make_fused_wind_rhythm(
-    commands.get(),
+    accumulator.get(),
     [10, 10, 6, 10, 8, 6],
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([2, 5], 6)),
@@ -72,7 +72,7 @@ voice.extend(music)
 voice = score["Oboe.Music"]
 
 music = library.make_fused_wind_rhythm(
-    commands.get(),
+    accumulator.get(),
     [12, 6, 10, 10, 6, 8],
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 4], 6)),
@@ -85,7 +85,7 @@ voice.extend(music)
 voice = score["Clarinet.Music"]
 
 music = library.make_fused_wind_rhythm(
-    commands.get(),
+    accumulator.get(),
     [8, 6, 10, 6, 10, 8],
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 3], 6)),
@@ -98,7 +98,7 @@ voice.extend(music)
 voice = score["Saxophone.Music"]
 
 music = library.make_fused_wind_rhythm(
-    commands.get(),
+    accumulator.get(),
     [14, 6, 10, 6, 10, 8],
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 3], 6)),
@@ -111,7 +111,7 @@ voice.extend(music)
 voice = score["Guitar.Music"]
 
 music = library.make_guitar_isolata_rhythm(
-    commands.get(1, 24),
+    accumulator.get(1, 24),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
@@ -128,13 +128,13 @@ music = library.make_guitar_isolata_rhythm(
 voice.extend(music)
 
 music = library.make_guitar_accelerando_rhythm(
-    commands.get(25, 40),
+    accumulator.get(25, 40),
     [2, 1],
 )
 voice.extend(music)
 
 music = library.make_guitar_isolata_rhythm(
-    commands.get(41, 44),
+    accumulator.get(41, 44),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
@@ -146,26 +146,26 @@ voice.extend(music)
 voice = score["Piano.Music"]
 
 music = library.make_fused_expanse_rhythm(
-    commands.get(1, 24),
+    accumulator.get(1, 24),
     [20, 8, 20, 4],
 )
 voice.extend(music)
 
 music = library.make_guitar_accelerando_rhythm(
-    commands.get(25, 36),
+    accumulator.get(25, 36),
     [3, 2],
 )
 voice.extend(music)
 
 music = library.make_guitar_isolata_rhythm(
-    commands.get(37, 40),
+    accumulator.get(37, 40),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
     ),
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes(commands.get(41, 44))
+music = baca.make_repeat_tied_notes(accumulator.get(41, 44))
 voice.extend(music)
 
 # PERC
@@ -173,7 +173,7 @@ voice.extend(music)
 voice = score["Percussion.Music"]
 
 music = library.make_fused_expanse_rhythm(
-    commands.get(),
+    accumulator.get(),
     [20, 8, 20, 4],
 )
 voice.extend(music)
@@ -183,7 +183,7 @@ voice.extend(music)
 voice = score["Violin.Music"]
 
 music = library.make_opening_glissando_rhythm(
-    commands.get(1, 36),
+    accumulator.get(1, 36),
     0,
     rmakers.repeat_tie(
         lambda _: baca.select.leaves_in_get_tuplets(_, ([0, 1, 2, 5], 7), (1, None)),
@@ -192,7 +192,7 @@ music = library.make_opening_glissando_rhythm(
 voice.extend(music)
 
 music = library.make_trill_tuplets(
-    commands.get(37, 44),
+    accumulator.get(37, 44),
     4,
 )
 voice.extend(music)
@@ -202,7 +202,7 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_opening_glissando_rhythm(
-    commands.get(1, 36),
+    accumulator.get(1, 36),
     -1,
     rmakers.tie(
         lambda _: baca.select.leaves_in_get_tuplets(_, ([1, 2, 3, 6], 7), (None, -1)),
@@ -211,7 +211,7 @@ music = library.make_opening_glissando_rhythm(
 voice.extend(music)
 
 music = library.make_trill_tuplets(
-    commands.get(37, 44),
+    accumulator.get(37, 44),
     3,
 )
 voice.extend(music)
@@ -221,7 +221,7 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_opening_glissando_rhythm(
-    commands.get(1, 36),
+    accumulator.get(1, 36),
     -2,
     rmakers.tie(
         lambda _: baca.select.leaves_in_get_tuplets(_, ([0, 2, 3, 4], 7), (None, -1)),
@@ -230,7 +230,7 @@ music = library.make_opening_glissando_rhythm(
 voice.extend(music)
 
 music = library.make_trill_tuplets(
-    commands.get(37, 44),
+    accumulator.get(37, 44),
     2,
 )
 voice.extend(music)
@@ -240,7 +240,7 @@ voice.extend(music)
 voice = score["Contrabass.Music"]
 
 music = library.make_opening_glissando_rhythm(
-    commands.get(),
+    accumulator.get(),
     -3,
     rmakers.tie(
         lambda _: baca.select.leaves_in_get_tuplets(_, ([0, 1, 4, 6], 7), (None, -1)),
@@ -250,22 +250,22 @@ voice.extend(music)
 
 # anchor notes
 
-commands(
+accumulator(
     ["vn", "va", "vc"],
     baca.append_anchor_note(),
 )
 
 # fl
 
-commands(
+accumulator(
     "fl",
-    baca.instrument(commands.instruments["BassFlute"]),
+    baca.instrument(accumulator.instruments["BassFlute"]),
     baca.instrument_name(r"\khamr-bass-flute-markup"),
     library.short_instrument_name("B. fl."),
     baca.clef("treble"),
 )
 
-commands(
+accumulator(
     ("fl", (1, 16)),
     baca.dynamic("mp"),
     baca.pitch("<G3 G4>"),
@@ -275,7 +275,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("fl", (17, 36)),
     baca.pitch("<G#3 G#4>"),
     baca.markup(
@@ -283,7 +283,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     ("fl", (37, 44)),
     baca.hairpin(
         "mp > pp",
@@ -300,15 +300,15 @@ commands(
 
 # ob
 
-commands(
+accumulator(
     "ob",
-    baca.instrument(commands.instruments["EnglishHorn"]),
+    baca.instrument(accumulator.instruments["EnglishHorn"]),
     baca.instrument_name(r"\khamr-english-horn-markup"),
     library.short_instrument_name("Eng. hn."),
     baca.clef("percussion"),
 )
 
-commands(
+accumulator(
     ("ob", (1, 36)),
     baca.clef("percussion"),
     baca.dynamic("p"),
@@ -317,7 +317,7 @@ commands(
     baca.markup(r"\khamr-airtone-without-reed"),
 )
 
-commands(
+accumulator(
     ("ob", (37, 44)),
     baca.clef("treble"),
     baca.dynamic("pp"),
@@ -332,9 +332,9 @@ commands(
 
 # cl
 
-commands(
+accumulator(
     "cl",
-    baca.instrument(commands.instruments["BassClarinet"]),
+    baca.instrument(accumulator.instruments["BassClarinet"]),
     baca.instrument_name(r"\khamr-bass-clarinet-markup"),
     library.short_instrument_name("B. cl."),
     baca.clef("treble"),
@@ -344,9 +344,9 @@ commands(
 
 # sax
 
-commands(
+accumulator(
     ("sax", (1, 36)),
-    baca.instrument(commands.instruments["BaritoneSaxophone"]),
+    baca.instrument(accumulator.instruments["BaritoneSaxophone"]),
     baca.instrument_name(r"\khamr-baritone-saxophone-markup"),
     library.short_instrument_name("Bar. sax."),
     baca.clef("treble"),
@@ -354,7 +354,7 @@ commands(
     baca.pitch("G3"),
 )
 
-commands(
+accumulator(
     ("sax", (37, 44)),
     baca.dynamic("p"),
     baca.pitch("<F3 G+3>"),
@@ -366,15 +366,15 @@ commands(
 
 # gt
 
-commands(
+accumulator(
     "gt",
-    baca.instrument(commands.instruments["Guitar"]),
+    baca.instrument(accumulator.instruments["Guitar"]),
     baca.instrument_name(r"\khamr-guitar-markup"),
     library.short_instrument_name("Gt."),
     baca.clef("treble"),
 )
 
-commands(
+accumulator(
     ("gt", (1, 24)),
     baca.dynamic("f"),
     baca.pitches(library.rose_pitches()),
@@ -382,39 +382,39 @@ commands(
     library.wide_third_octave(),
 )
 
-commands(
+accumulator(
     ("gt", (25, 44)),
     baca.tuplet_bracket_staff_padding(4),
     baca.markup(r"\khamr-move-towards-the-bridge"),
     library.narrow_fourth_octave(),
 )
 
-commands(
+accumulator(
     "gt",
     baca.note_head_style_cross(),
 )
 
-commands(
+accumulator(
     ("gt", (25, 44)),
     baca.pitches(library.rose_pitches()),
 )
 
 # pf
 
-commands(
+accumulator(
     ("pf", (1, 24)),
-    baca.instrument(commands.instruments["Piano"]),
+    baca.instrument(accumulator.instruments["Piano"]),
     baca.instrument_name(r"\khamr-piano-markup"),
     library.short_instrument_name("Pf."),
     baca.clef("percussion"),
 )
 
-commands(
+accumulator(
     ("pf", (25, 40)),
     baca.pitches(library.rose_pitches()),
 )
 
-commands(
+accumulator(
     ("pf", (1, 24)),
     baca.accent(selector=lambda _: baca.select.pheads(_)),
     baca.clef("percussion"),
@@ -424,7 +424,7 @@ commands(
     baca.staff_position(0),
 )
 
-commands(
+accumulator(
     ("pf", (25, 40)),
     baca.clef("treble"),
     baca.dynamic("mf-ancora"),
@@ -434,7 +434,7 @@ commands(
     library.sixth_octave(),
 )
 
-commands(
+accumulator(
     ("pf", (41, 44)),
     baca.clef("percussion"),
     baca.dynamic("mp"),
@@ -445,9 +445,9 @@ commands(
 
 # perc
 
-commands(
+accumulator(
     "perc",
-    baca.instrument(commands.instruments["Percussion"]),
+    baca.instrument(accumulator.instruments["Percussion"]),
     baca.instrument_name(r"\khamr-percussion-markup"),
     library.short_instrument_name("Perc."),
     baca.clef("percussion"),
@@ -462,9 +462,9 @@ commands(
 
 # vn
 
-commands(
+accumulator(
     ("vn", (1, 36)),
-    baca.instrument(commands.instruments["Violin"]),
+    baca.instrument(accumulator.instruments["Violin"]),
     baca.instrument_name(r"\khamr-violin-markup"),
     library.short_instrument_name("Vn."),
     baca.clef("treble"),
@@ -481,7 +481,7 @@ commands(
     library.halo_hairpins(),
 )
 
-commands(
+accumulator(
     ("vn", (37, 44)),
     baca.dynamic("ppp"),
     baca.new(
@@ -494,9 +494,9 @@ commands(
 
 # va
 
-commands(
+accumulator(
     ("va", (1, 36)),
-    baca.instrument(commands.instruments["Viola"]),
+    baca.instrument(accumulator.instruments["Viola"]),
     baca.instrument_name(r"\khamr-viola-markup"),
     library.short_instrument_name("Va."),
     baca.clef("alto"),
@@ -512,7 +512,7 @@ commands(
     library.halo_hairpins(),
 )
 
-commands(
+accumulator(
     ("va", (37, 44)),
     baca.dynamic("ppp"),
     baca.new(
@@ -525,9 +525,9 @@ commands(
 
 # vc
 
-commands(
+accumulator(
     ("vc", (1, 36)),
-    baca.instrument(commands.instruments["Cello"]),
+    baca.instrument(accumulator.instruments["Cello"]),
     baca.instrument_name(r"\khamr-cello-markup"),
     library.short_instrument_name("Vc."),
     baca.clef("bass"),
@@ -543,7 +543,7 @@ commands(
     library.halo_hairpins(),
 )
 
-commands(
+accumulator(
     ("vc", (37, 44)),
     baca.dynamic("ppp"),
     baca.new(
@@ -556,9 +556,9 @@ commands(
 
 # cb
 
-commands(
+accumulator(
     "cb",
-    baca.instrument(commands.instruments["Contrabass"]),
+    baca.instrument(accumulator.instruments["Contrabass"]),
     baca.instrument_name(r"\khamr-contrabass-markup"),
     library.short_instrument_name("Cb."),
     baca.clef("bass"),
@@ -574,37 +574,37 @@ commands(
     baca.note_head_style_harmonic(),
 )
 
-commands(
+accumulator(
     ("cb", (9, 44)),
     library.halo_hairpins(),
 )
 
 # vn, va, vc, cb composites
 
-commands(
+accumulator(
     ["vn", "va", "vc", "cb"],
     baca.markup(r"\khamr-emphasize-multiphonics"),
 )
 
-commands(
+accumulator(
     (["vn", "va", "vc"], (37, 44)),
     baca.accent(selector=lambda _: baca.select.pheads(_)),
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         transpose_score=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily", "header.ily"],
