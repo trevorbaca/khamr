@@ -80,516 +80,450 @@ def ptails_in_get_tuplets(pattern, pair):
     return selector
 
 
-# FL
-
-voice = score["Flute.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(3, 9))
-voice.extend(music)
-
-music = library.make_aviary_rhythm(
-    accumulator.get(10, 29),
-    (7, 16),
-    extra_counts=[1],
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 33))
-voice.extend(music)
-
-music = library.make_fused_wind_rhythm(
-    accumulator.get(34, 37),
-    [8],
-    denominator=16,
-)
-voice.extend(music)
-
-# OB
-
-voice = score["Oboe.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(3, 9))
-voice.extend(music)
-
-music = library.make_aviary_rhythm(
-    accumulator.get(10, 29),
-    (5, 16),
-    extra_counts=[1],
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 33))
-voice.extend(music)
-
-music = library.make_fused_wind_rhythm(
-    accumulator.get(34, 37),
-    [10],
-    rmakers.force_rest(
-        lambda _: baca.select.tuplet(_, 0),
-    ),
-    denominator=16,
-)
-voice.extend(music)
-
-# CL
-
-voice = score["Clarinet.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(3, 9))
-voice.extend(music)
-
-music = library.make_aviary_rhythm(
-    accumulator.get(10, 29),
-    (8, 16),
-    extra_counts=[1],
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 31))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(
-    accumulator.get(32, 37),
-    rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-)
-voice.extend(music)
-
-# SAX
-
-voice = score["Saxophone.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(3, 9))
-voice.extend(music)
-
-music = library.make_aviary_rhythm(
-    accumulator.get(10, 29),
-    (6, 16),
-    extra_counts=[1],
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 33))
-voice.extend(music)
-
-music = library.make_fused_wind_rhythm(
-    accumulator.get(34, 37),
-    [12],
-    denominator=16,
-)
-voice.extend(music)
-
-# GT
-
-voice = score["Guitar.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(3, 9))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(accumulator.get(10, 29))
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 37))
-voice.extend(music)
-
-# PF
-
-voice = score["Piano.Music"]
-
-music = library.make_current_rhythm(
-    accumulator.get(1, 9),
-    [4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5],
-)
-voice.extend(music)
-
-music = library.make_aviary_rhythm(
-    accumulator.get(10, 29),
-    (9, 16),
-    extra_counts=[2],
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 37))
-voice.extend(music)
-
-# PERC
-
-voice = score["Percussion.Music"]
-
-music = baca.make_mmrests(accumulator.get(1, 4))
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(accumulator.get(5, 9))
-voice.extend(music)
-
-music = baca.make_repeated_duration_notes(
-    accumulator.get(10, 25), [(1, 4)], do_not_rewrite_meter=True
-)
-voice.extend(music)
-
-music = baca.make_repeated_duration_notes(
-    accumulator.get(26, 29), [(3, 8)], do_not_rewrite_meter=True
-)
-voice.extend(music)
-
-music = baca.make_repeat_tied_notes(accumulator.get(30, 37))
-voice.extend(music)
-
-# VN
-
-voice = score["Violin.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-
-music = library.make_continuous_glissando_rhythm(
-    accumulator.get(3, 29),
-    0,
-    rmakers.tie(
-        ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
-    ),
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 37))
-voice.extend(music)
-
-# VA
-
-voice = score["Viola.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-
-music = library.make_continuous_glissando_rhythm(
-    accumulator.get(3, 29),
-    -1,
-    rmakers.tie(
-        ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
-    ),
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 37))
-voice.extend(music)
-
-# VC
-
-voice = score["Cello.Music"]
-
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-
-music = library.make_continuous_glissando_rhythm(
-    accumulator.get(3, 29),
-    -2,
-    rmakers.tie(
-        ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
-    ),
-)
-voice.extend(music)
-
-music = baca.make_mmrests(accumulator.get(30, 37))
-voice.extend(music)
-
-# CB
-
-voice = score["Contrabass.Music"]
-
-for pair in [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]:
-    music = baca.make_repeat_tied_notes(accumulator.get(*pair))
+def FL(voice):
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(3, 9))
+    voice.extend(music)
+    music = library.make_aviary_rhythm(
+        accumulator.get(10, 29),
+        (7, 16),
+        extra_counts=[1],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 33))
+    voice.extend(music)
+    music = library.make_fused_wind_rhythm(
+        accumulator.get(34, 37),
+        [8],
+        denominator=16,
+    )
     voice.extend(music)
 
 
-for pair in [(30, 31), (32, 37)]:
+def OB(voice):
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(3, 9))
+    voice.extend(music)
+    music = library.make_aviary_rhythm(
+        accumulator.get(10, 29),
+        (5, 16),
+        extra_counts=[1],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 33))
+    voice.extend(music)
+    music = library.make_fused_wind_rhythm(
+        accumulator.get(34, 37),
+        [10],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, 0),
+        ),
+        denominator=16,
+    )
+    voice.extend(music)
+
+
+def CL(voice):
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(3, 9))
+    voice.extend(music)
+    music = library.make_aviary_rhythm(
+        accumulator.get(10, 29),
+        (8, 16),
+        extra_counts=[1],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 31))
+    voice.extend(music)
     music = baca.make_repeat_tied_notes(
-        accumulator.get(*pair),
+        accumulator.get(32, 37),
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
     )
     voice.extend(music)
 
-# reapply
 
-music_voice_names = [_ for _ in voice_names if "Music" in _]
+def SAX(voice):
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(3, 9))
+    voice.extend(music)
+    music = library.make_aviary_rhythm(
+        accumulator.get(10, 29),
+        (6, 16),
+        extra_counts=[1],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 33))
+    voice.extend(music)
+    music = library.make_fused_wind_rhythm(
+        accumulator.get(34, 37),
+        [12],
+        denominator=16,
+    )
+    voice.extend(music)
 
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
 
-# fl
+def GT(voice):
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(3, 9))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(accumulator.get(10, 29))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 37))
+    voice.extend(music)
 
-accumulator(
-    ("fl", (1, 2)),
-    baca.pitch("B5"),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
 
-accumulator(
-    ("fl", (10, 29)),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff-ancora"),
-    baca.pitches("D6 E6 F#6 C6 C#6 D6 D#6 F6"),
-)
+def PF(voice):
+    music = library.make_current_rhythm(
+        accumulator.get(1, 9),
+        [4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5],
+    )
+    voice.extend(music)
+    music = library.make_aviary_rhythm(
+        accumulator.get(10, 29),
+        (9, 16),
+        extra_counts=[2],
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 37))
+    voice.extend(music)
 
-accumulator(
-    ("fl", (34, 37)),
-    baca.dynamic("pp"),
-    baca.pitch("Bb4"),  # (sounds B3)
-    baca.markup(r"\khamr-covered-flute-airtone"),
-)
 
-# ob
+def PERC(voice):
+    music = baca.make_mmrests(accumulator.get(1, 4))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(accumulator.get(5, 9))
+    voice.extend(music)
+    music = baca.make_repeated_duration_notes(
+        accumulator.get(10, 25), [(1, 4)], do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    music = baca.make_repeated_duration_notes(
+        accumulator.get(26, 29), [(3, 8)], do_not_rewrite_meter=True
+    )
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(accumulator.get(30, 37))
+    voice.extend(music)
 
-accumulator(
-    ("ob", (1, 2)),
-    baca.pitch("G#3"),
-)
 
-accumulator(
-    ("ob", (10, 29)),
-    baca.instrument(accumulator.instruments["Oboe"]),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff-ancora"),
-    baca.pitches("C6 C#6 D#6 E6 F6 F#6"),
-)
+def VN(voice):
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = library.make_continuous_glissando_rhythm(
+        accumulator.get(3, 29),
+        0,
+        rmakers.tie(
+            ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
+        ),
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 37))
+    voice.extend(music)
 
-accumulator(
-    ("ob", (34, 37)),
-    baca.clef("percussion"),
-    baca.dynamic("pp"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    baca.markup(r"\khamr-airtone-without-reed"),
-)
 
-# cl
+def VA(voice):
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = library.make_continuous_glissando_rhythm(
+        accumulator.get(3, 29),
+        -1,
+        rmakers.tie(
+            ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
+        ),
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 37))
+    voice.extend(music)
 
-accumulator(
-    ("cl", (1, 2)),
-    baca.pitch("F#2"),
-)
 
-accumulator(
-    ("cl", (10, 29)),
-    baca.instrument(accumulator.instruments["Clarinet"]),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff-ancora"),
-    baca.pitches("D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6"),
-)
+def VC(voice):
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = library.make_continuous_glissando_rhythm(
+        accumulator.get(3, 29),
+        -2,
+        rmakers.tie(
+            ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
+        ),
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(30, 37))
+    voice.extend(music)
 
-accumulator(
-    ("cl", (32, 37)),
-    baca.instrument(accumulator.instruments["BassClarinet"]),
-    baca.dynamic("ppp"),
-    baca.pitch("G2"),
-)
 
-# sax
+def CB(voice):
+    for pair in [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]:
+        music = baca.make_repeat_tied_notes(accumulator.get(*pair))
+        voice.extend(music)
+    for pair in [(30, 31), (32, 37)]:
+        music = baca.make_repeat_tied_notes(
+            accumulator.get(*pair),
+            rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
+        )
+        voice.extend(music)
 
-accumulator(
-    ("sax", (1, 2)),
-    baca.pitch("G#2"),
-)
 
-accumulator(
-    ("sax", (10, 29)),
-    baca.instrument(accumulator.instruments["SopraninoSaxophone"]),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff-ancora"),
-    baca.pitches("C6 C#6 D6 F6 F#6 D#6 E6"),
-)
+def fl(m):
+    accumulator(
+        ("fl", (1, 2)),
+        baca.pitch("B5"),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    )
+    accumulator(
+        ("fl", (10, 29)),
+        baca.accent(selector=leaf_in_each_top_tuplet(0)),
+        baca.dynamic("fff-ancora"),
+        baca.pitches("D6 E6 F#6 C6 C#6 D6 D#6 F6"),
+    )
+    accumulator(
+        ("fl", (34, 37)),
+        baca.dynamic("pp"),
+        baca.pitch("Bb4"),  # (sounds B3)
+        baca.markup(r"\khamr-covered-flute-airtone"),
+    )
 
-accumulator(
-    ("sax", (34, 37)),
-    baca.clef("percussion"),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-airtone-markup"),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-)
 
-# gt
+def ob(m):
+    accumulator(
+        ("ob", (1, 2)),
+        baca.pitch("G#3"),
+    )
+    accumulator(
+        ("ob", (10, 29)),
+        baca.instrument(accumulator.instruments["Oboe"]),
+        baca.accent(selector=leaf_in_each_top_tuplet(0)),
+        baca.dynamic("fff-ancora"),
+        baca.pitches("C6 C#6 D#6 E6 F6 F#6"),
+    )
+    accumulator(
+        ("ob", (34, 37)),
+        baca.clef("percussion"),
+        baca.dynamic("pp"),
+        baca.staff_lines(1),
+        baca.staff_position(0),
+        baca.markup(r"\khamr-airtone-without-reed"),
+    )
 
-accumulator(
-    ("gt", (1, 2)),
-    baca.pitch("G3"),
-)
 
-accumulator(
-    ("gt", (10, 29)),
-    baca.dynamic("fff"),
-    baca.pitch("Ab4"),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
+def cl(m):
+    accumulator(
+        ("cl", (1, 2)),
+        baca.pitch("F#2"),
+    )
+    accumulator(
+        ("cl", (10, 29)),
+        baca.instrument(accumulator.instruments["Clarinet"]),
+        baca.accent(selector=leaf_in_each_top_tuplet(0)),
+        baca.dynamic("fff-ancora"),
+        baca.pitches("D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6"),
+    )
+    accumulator(
+        ("cl", (32, 37)),
+        baca.instrument(accumulator.instruments["BassClarinet"]),
+        baca.dynamic("ppp"),
+        baca.pitch("G2"),
+    )
 
-# pf
 
-accumulator(
-    ("pf", (1, 9)),
-    baca.pitches([_.invert().transpose("M2") for _ in library.rose_pitches()]),
-    baca.ottava(),
-    library.sixth_octave(),
-)
+def sax(m):
+    accumulator(
+        ("sax", (1, 2)),
+        baca.pitch("G#2"),
+    )
+    accumulator(
+        ("sax", (10, 29)),
+        baca.instrument(accumulator.instruments["SopraninoSaxophone"]),
+        baca.accent(selector=leaf_in_each_top_tuplet(0)),
+        baca.dynamic("fff-ancora"),
+        baca.pitches("C6 C#6 D6 F6 F#6 D#6 E6"),
+    )
+    accumulator(
+        ("sax", (34, 37)),
+        baca.clef("percussion"),
+        baca.dynamic("pp"),
+        baca.markup(r"\baca-airtone-markup"),
+        baca.staff_lines(1),
+        baca.staff_position(0),
+    )
 
-accumulator(
-    ("pf", (5, 9)),
-    baca.dynamic("ffff"),
-)
 
-accumulator(
-    ("pf", (10, 29)),
-    baca.accent(selector=leaf_in_each_top_tuplet(0)),
-    baca.dynamic("fff"),
-    baca.pitches("C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6"),
-)
-
-# perc
-
-accumulator(
-    "perc",
-    baca.staff_lines(1),
-)
-
-accumulator(
-    ("perc", (5, 9)),
-    baca.dynamic("pp"),
-    baca.markup(r"\baca-bass-drum-markup"),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
-
-accumulator(
-    ("perc", (10, 29)),
-    baca.double_staccato(selector=lambda _: baca.select.pheads(_)),
-    baca.dynamic("fff"),
-    baca.markup(r"\baca-castanets-markup"),
-)
-
-accumulator(
-    ("perc", (30, 37)),
-    baca.dynamic("ppp"),
-    baca.markup(r"\baca-bass-drum-markup"),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
-
-accumulator(
-    ("perc", (5, 37)),
-    baca.staff_position(0),
-)
-
-# vn
-
-# va
-
-# vc
-
-# cb
-
-accumulator(
-    ("cb", (1, 2)),
-    baca.pitch("<G0 A1>"),
-)
-
-accumulator(
-    ("cb", (3, 25)),
-    baca.pitch("<G#0 A#1>"),
-)
-
-accumulator(
-    ("cb", (26, 31)),
-    baca.pitch("<G0 A1>"),
-)
-
-accumulator(
-    ("cb", (3, 4)),
-    baca.dynamic("p"),
-)
-
-accumulator(
-    ("cb", (5, 9)),
-    baca.hairpin("p < f"),
-)
-
-accumulator(
-    ("cb", (10, 25)),
-    baca.dynamic("fff"),
-    baca.markup(r"\baca-estr-sul-pont-markup"),
-)
-
-accumulator(
-    ("cb", (26, 37)),
-    baca.markup(r"\baca-arco-ordinario-markup"),
-)
-
-accumulator(
-    ("cb", (32, 37)),
-    baca.dynamic("mp"),
-    baca.pitch("G0"),
-    baca.trill_spanner(
-        alteration="F2",
-        harmonic=True,
-    ),
-    baca.markup(r"\khamr-scodanibbio"),
-)
-
-# vn, va, vc composites
-
-accumulator(
-    (["vn", "va", "vc"], (1, 2)),
-    baca.new(
-        baca.pitch("A4"),
-        match=0,
-    ),
-    baca.new(
-        baca.pitch("G#4"),
-        match=1,
-    ),
-    baca.new(
+def gt(m):
+    accumulator(
+        ("gt", (1, 2)),
         baca.pitch("G3"),
-        match=2,
-    ),
-)
+    )
+    accumulator(
+        ("gt", (10, 29)),
+        baca.dynamic("fff"),
+        baca.pitch("Ab4"),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    )
 
-accumulator(
-    (["vn", "va", "vc"], (3, 29)),
-    baca.pitches([_.invert().transpose("A4") for _ in library.rose_pitches()]),
-    baca.glissando(),
-    baca.markup(r"\baca-estr-sul-pont-markup"),
-    baca.note_head_style_harmonic(),
-    library.narrow_fourth_octave(),
-)
 
-accumulator(
-    (["vn", "va", "vc"], (3, 4)),
-    baca.dynamic("p"),
-)
+def pf(m):
+    accumulator(
+        ("pf", (1, 9)),
+        baca.pitches([_.invert().transpose("M2") for _ in library.rose_pitches()]),
+        baca.ottava(),
+        library.sixth_octave(),
+    )
+    accumulator(
+        ("pf", (5, 9)),
+        baca.dynamic("ffff"),
+    )
+    accumulator(
+        ("pf", (10, 29)),
+        baca.accent(selector=leaf_in_each_top_tuplet(0)),
+        baca.dynamic("fff"),
+        baca.pitches("C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6"),
+    )
 
-accumulator(
-    (["vn", "va", "vc"], (10, 25)),
-    baca.dynamic("fff"),
-)
 
-accumulator(
-    (["vn", "va", "vc"], (5, 9)),
-    baca.hairpin("pp < f"),
-)
+def perc(m):
+    accumulator(
+        "perc",
+        baca.staff_lines(1),
+    )
+    accumulator(
+        ("perc", (5, 9)),
+        baca.dynamic("pp"),
+        baca.markup(r"\baca-bass-drum-markup"),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    )
+    accumulator(
+        ("perc", (10, 29)),
+        baca.double_staccato(selector=lambda _: baca.select.pheads(_)),
+        baca.dynamic("fff"),
+        baca.markup(r"\baca-castanets-markup"),
+    )
+    accumulator(
+        ("perc", (30, 37)),
+        baca.dynamic("ppp"),
+        baca.markup(r"\baca-bass-drum-markup"),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    )
+    accumulator(
+        ("perc", (5, 37)),
+        baca.staff_position(0),
+    )
+
+
+def cb(m):
+    accumulator(
+        ("cb", (1, 2)),
+        baca.pitch("<G0 A1>"),
+    )
+    accumulator(
+        ("cb", (3, 25)),
+        baca.pitch("<G#0 A#1>"),
+    )
+    accumulator(
+        ("cb", (26, 31)),
+        baca.pitch("<G0 A1>"),
+    )
+    accumulator(
+        ("cb", (3, 4)),
+        baca.dynamic("p"),
+    )
+    accumulator(
+        ("cb", (5, 9)),
+        baca.hairpin("p < f"),
+    )
+    accumulator(
+        ("cb", (10, 25)),
+        baca.dynamic("fff"),
+        baca.markup(r"\baca-estr-sul-pont-markup"),
+    )
+    accumulator(
+        ("cb", (26, 37)),
+        baca.markup(r"\baca-arco-ordinario-markup"),
+    )
+    accumulator(
+        ("cb", (32, 37)),
+        baca.dynamic("mp"),
+        baca.pitch("G0"),
+        baca.trill_spanner(
+            alteration="F2",
+            harmonic=True,
+        ),
+        baca.markup(r"\khamr-scodanibbio"),
+    )
+
+
+def composites(cache):
+    accumulator(
+        (["vn", "va", "vc"], (1, 2)),
+        baca.new(
+            baca.pitch("A4"),
+            match=0,
+        ),
+        baca.new(
+            baca.pitch("G#4"),
+            match=1,
+        ),
+        baca.new(
+            baca.pitch("G3"),
+            match=2,
+        ),
+    )
+    accumulator(
+        (["vn", "va", "vc"], (3, 29)),
+        baca.pitches([_.invert().transpose("A4") for _ in library.rose_pitches()]),
+        baca.glissando(),
+        baca.markup(r"\baca-estr-sul-pont-markup"),
+        baca.note_head_style_harmonic(),
+        library.narrow_fourth_octave(),
+    )
+    accumulator(
+        (["vn", "va", "vc"], (3, 4)),
+        baca.dynamic("p"),
+    )
+    accumulator(
+        (["vn", "va", "vc"], (10, 25)),
+        baca.dynamic("fff"),
+    )
+    accumulator(
+        (["vn", "va", "vc"], (5, 9)),
+        baca.hairpin("pp < f"),
+    )
+
+
+def main():
+    FL(accumulator.voice("fl"))
+    OB(accumulator.voice("ob"))
+    CL(accumulator.voice("cl"))
+    SAX(accumulator.voice("sax"))
+    GT(accumulator.voice("gt"))
+    PF(accumulator.voice("pf"))
+    PERC(accumulator.voice("perc"))
+    VN(accumulator.voice("vn"))
+    VA(accumulator.voice("va"))
+    VC(accumulator.voice("vc"))
+    CB(accumulator.voice("cb"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    fl(cache["fl"])
+    ob(cache["ob"])
+    cl(cache["cl"])
+    sax(cache["sax"])
+    gt(cache["gt"])
+    pf(cache["pf"])
+    perc(cache["perc"])
+    cb(cache["cb"])
+    composites(cache)
 
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),
