@@ -346,7 +346,7 @@ def sax(m):
 def gt(m):
     accumulator(
         ("gt", (1, 4)),
-        baca.note_head_style_cross(),
+        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
         baca.pitches(abjad.sequence.rotate(library.rose_pitches(), -16)),
     )
     accumulator(
@@ -392,13 +392,13 @@ def perc(m):
         ("perc", (1, 14)),
         baca.accent(selector=lambda _: baca.select.pheads(_)),
         baca.pitches("C4 C4 Ab5 C4 C4 C4", allow_repeats=True),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.MarimbaHitCommand(indices=[2]),
     )
     accumulator(
         ("perc", (15, 30)),
         baca.pitch("Ab5"),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.MarimbaHitCommand(indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
     )
 
@@ -498,7 +498,7 @@ def cb(m):
             r"\baca-strings-iii-plus-iv-markup",
             direction=abjad.DOWN,
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("cb", (15, 30)),

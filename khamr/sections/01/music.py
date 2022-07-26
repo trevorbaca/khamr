@@ -363,7 +363,7 @@ def gt(m):
     )
     accumulator(
         "gt",
-        baca.note_head_style_cross(),
+        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("gt", (25, 44)),
@@ -422,7 +422,7 @@ def perc(m):
         baca.dynamic("mp"),
         baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
         baca.staff_lines(1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.MarimbaHitCommand(indices=[3, 7], attach_first_markup=True),
         baca.markup(r"\baca-xl-tam-tam-markup"),
     )
@@ -444,7 +444,7 @@ def vn(m):
             r"\baca-string-iv-markup",
             direction=abjad.DOWN,
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.halo_hairpins(),
     )
     accumulator(
@@ -474,7 +474,7 @@ def va(m):
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.halo_hairpins(),
     )
     accumulator(
@@ -504,7 +504,7 @@ def vc(m):
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.halo_hairpins(),
     )
     accumulator(
@@ -535,7 +535,7 @@ def cb(m):
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("cb", (9, 44)),
