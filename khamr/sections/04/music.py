@@ -289,7 +289,9 @@ def composites(cache):
         (["vn", "va", "vc", "cb"], (1, 15)),
         baca.staff_lines(1),
         baca.staff_position(0),
-        baca.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(
+            selector=lambda _: baca.select.pheads(_),
+        ),
         baca.new(
             baca.markup(r"\baca-bow-on-wooden-mute-markup"),
             match=[0, 1],
