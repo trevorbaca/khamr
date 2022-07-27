@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -279,6 +280,7 @@ def cb(m):
                 r"\once \override Score.RehearsalMark.self-alignment-X = #right",
                 r"\mark \khamr-colophon-markup",
             ],
+            selector=lambda _: abjad.select.leaf(_, 0),
             site="after",
         ),
     )
