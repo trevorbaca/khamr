@@ -294,7 +294,9 @@ def ob(m):
     )
     accumulator(
         ("ob", (10, 29)),
-        baca.instrument(accumulator.instruments["Oboe"]),
+        baca.instrument(
+            accumulator.instruments["Oboe"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.accent(selector=leaf_in_each_top_tuplet(0)),
         baca.dynamic("fff-ancora"),
         baca.pitches("C6 C#6 D#6 E6 F6 F#6"),
@@ -316,14 +318,20 @@ def cl(m):
     )
     accumulator(
         ("cl", (10, 29)),
-        baca.instrument(accumulator.instruments["Clarinet"]),
+        baca.instrument(
+            accumulator.instruments["Clarinet"],
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         baca.accent(selector=leaf_in_each_top_tuplet(0)),
         baca.dynamic("fff-ancora"),
         baca.pitches("D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6"),
     )
     accumulator(
         ("cl", (32, 37)),
-        baca.instrument(accumulator.instruments["BassClarinet"]),
+        baca.instrument(
+            accumulator.instruments["BassClarinet"],
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         baca.dynamic("ppp"),
         baca.pitch("G2"),
     )
@@ -336,7 +344,10 @@ def sax(m):
     )
     accumulator(
         ("sax", (10, 29)),
-        baca.instrument(accumulator.instruments["SopraninoSaxophone"]),
+        baca.instrument(
+            accumulator.instruments["SopraninoSaxophone"],
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         baca.accent(selector=leaf_in_each_top_tuplet(0)),
         baca.dynamic("fff-ancora"),
         baca.pitches("C6 C#6 D6 F6 F#6 D#6 E6"),

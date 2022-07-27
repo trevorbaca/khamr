@@ -296,7 +296,9 @@ def fl(m):
     accumulator(
         ("fl", (15, 30)),
         baca.dynamic("fff"),
-        baca.instrument(accumulator.instruments["Flute"]),
+        baca.instrument(
+            accumulator.instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.markup(r"\baca-fluttertongue-markup"),
         baca.pitch("B5"),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
