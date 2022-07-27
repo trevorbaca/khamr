@@ -244,7 +244,9 @@ def fl(m):
             accumulator.instruments["BassFlute"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.instrument_name(r"\khamr-bass-flute-markup"),
+        baca.instrument_name(
+            r"\khamr-bass-flute-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("B. fl."),
         baca.clef("treble"),
     )
@@ -287,7 +289,9 @@ def ob(m):
             accumulator.instruments["EnglishHorn"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.instrument_name(r"\khamr-english-horn-markup"),
+        baca.instrument_name(
+            r"\khamr-english-horn-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Eng. hn."),
         baca.clef("percussion"),
     )
@@ -320,7 +324,9 @@ def cl(m):
             accumulator.instruments["BassClarinet"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.instrument_name(r"\khamr-bass-clarinet-markup"),
+        baca.instrument_name(
+            r"\khamr-bass-clarinet-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("B. cl."),
         baca.clef("treble"),
         baca.dynamic("pp"),
@@ -335,7 +341,10 @@ def sax(m):
             accumulator.instruments["BaritoneSaxophone"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.instrument_name(r"\khamr-baritone-saxophone-markup"),
+        baca.instrument_name(
+            r"\khamr-baritone-saxophone-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Bar. sax."),
         baca.clef("treble"),
         baca.dynamic("pp"),
@@ -359,7 +368,9 @@ def gt(m):
             accumulator.instruments["Guitar"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.instrument_name(r"\khamr-guitar-markup"),
+        baca.instrument_name(
+            r"\khamr-guitar-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Gt."),
         baca.clef("treble"),
     )
@@ -392,7 +403,9 @@ def pf(m):
         baca.instrument(
             accumulator.instruments["Piano"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\khamr-piano-markup"),
+        baca.instrument_name(
+            r"\khamr-piano-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Pf."),
         baca.clef("percussion"),
     )
@@ -435,7 +448,9 @@ def perc(m):
             accumulator.instruments["Percussion"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.instrument_name(r"\khamr-percussion-markup"),
+        baca.instrument_name(
+            r"\khamr-percussion-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Perc."),
         baca.clef("percussion"),
         baca.accent(selector=lambda _: baca.select.pheads(_)),
@@ -455,7 +470,9 @@ def vn(m):
             accumulator.instruments["Violin"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.instrument_name(r"\khamr-violin-markup"),
+        baca.instrument_name(
+            r"\khamr-violin-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Vn."),
         baca.clef("treble"),
         baca.suite(
@@ -488,7 +505,9 @@ def va(m):
         baca.instrument(
             accumulator.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\khamr-viola-markup"),
+        baca.instrument_name(
+            r"\khamr-viola-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Va."),
         baca.clef("alto"),
         baca.suite(
@@ -520,7 +539,9 @@ def vc(m):
         baca.instrument(
             accumulator.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\khamr-cello-markup"),
+        baca.instrument_name(
+            r"\khamr-cello-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Vc."),
         baca.clef("bass"),
         baca.suite(
@@ -553,7 +574,9 @@ def cb(m):
             accumulator.instruments["Contrabass"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.instrument_name(r"\khamr-contrabass-markup"),
+        baca.instrument_name(
+            r"\khamr-contrabass-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Cb."),
         baca.clef("bass"),
         baca.dynamic("f"),
