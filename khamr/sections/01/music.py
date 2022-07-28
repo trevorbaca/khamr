@@ -301,7 +301,7 @@ def ob(m):
         ("ob", (1, 36)),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.markup(
             r"\khamr-airtone-without-reed", selector=lambda _: baca.select.pleaf(_, 0)
@@ -317,7 +317,7 @@ def ob(m):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         baca.pitch("<A4 E5>"),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
@@ -432,7 +432,7 @@ def pf(m):
         baca.markup(
             r"\khamr-strike-lowest-strings", selector=lambda _: baca.select.pleaf(_, 0)
         ),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
     )
     accumulator(
@@ -440,7 +440,7 @@ def pf(m):
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("mf-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.ottava(),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.markup(
             r"\khamr-match-guitar-dynamic-levels",
             selector=lambda _: baca.select.pleaf(_, 0),
@@ -451,7 +451,7 @@ def pf(m):
         ("pf", (41, 44)),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.markup(
             r"\khamr-sparse-piano-clicks-markup",
@@ -475,7 +475,7 @@ def perc(m):
         baca.accent(selector=lambda _: baca.select.pheads(_)),
         baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.MarimbaHitCommand(indices=[3, 7], attach_first_markup=True),
         baca.markup(

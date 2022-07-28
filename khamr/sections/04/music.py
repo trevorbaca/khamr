@@ -291,7 +291,7 @@ def cb(m):
 def composites(cache):
     accumulator(
         (["vn", "va", "vc", "cb"], (1, 15)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.alternate_bow_strokes(
             selector=lambda _: baca.select.pheads(_),
