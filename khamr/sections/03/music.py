@@ -307,7 +307,7 @@ def ob(m):
         ("ob", (34, 37)),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.markup(
             r"\khamr-airtone-without-reed", selector=lambda _: baca.select.pleaf(_, 0)
@@ -363,7 +363,7 @@ def sax(m):
         baca.markup(
             r"\baca-airtone-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
     )
 
@@ -403,7 +403,7 @@ def pf(m):
 def perc(m):
     accumulator(
         "perc",
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("perc", (5, 9)),

@@ -382,7 +382,7 @@ def pf(m):
         baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.ottava_bassa(),
         baca.pitch("<A0 B0 C1 D1 E1 F1 G1 A1>"),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
