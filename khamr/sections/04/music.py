@@ -207,7 +207,7 @@ def gt(m):
     accumulator(
         "gt",
         baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.flageolet(selector=lambda _: baca.select.pheads(_)),
         baca.pitch("C4"),
     )
@@ -217,7 +217,7 @@ def pf(m):
     accumulator(
         "pf",
         baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("A#4"),
     )
 
@@ -235,7 +235,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (8, 15)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-snare-drum-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -309,7 +309,7 @@ def composites(cache):
     )
     accumulator(
         (["vn", "va", "vc", "cb"], (1, 7)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         (["vn", "va", "vc", "cb"], (8, 15)),

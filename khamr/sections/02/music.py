@@ -295,7 +295,7 @@ def fl(m):
     )
     accumulator(
         ("fl", (15, 30)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.instrument(
             accumulator.instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
@@ -315,7 +315,7 @@ def ob(m):
     )
     accumulator(
         ("ob", (15, 30)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G#3"),
     )
 
@@ -327,7 +327,7 @@ def cl(m):
     )
     accumulator(
         ("cl", (15, 30)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("F#2"),
     )
 
@@ -339,7 +339,7 @@ def sax(m):
     )
     accumulator(
         ("sax", (15, 30)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch(
             "G#2",
             selector=lambda _: baca.select.plts(_),
@@ -355,7 +355,7 @@ def gt(m):
     )
     accumulator(
         ("gt", (5, 14)),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("F#2"),
         baca.markup(
             r"\khamr-sparse-guitar-clicks", selector=lambda _: baca.select.pleaf(_, 0)
@@ -363,7 +363,7 @@ def gt(m):
     )
     accumulator(
         ("gt", (15, 30)),
-        baca.dynamic("ff"),
+        baca.dynamic("ff", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G2"),
         baca.markup(
             r"\khamr-guitar-with-screw", selector=lambda _: baca.select.pleaf(_, 0)
@@ -379,7 +379,7 @@ def pf(m):
     accumulator(
         ("pf", (15, 20)),
         baca.clef("bass"),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.ottava_bassa(),
         baca.pitch("<A0 B0 C1 D1 E1 F1 G1 A1>"),
         baca.staff_lines(5),
@@ -388,7 +388,7 @@ def pf(m):
     accumulator(
         ("pf", (21, 30)),
         baca.clef("treble"),
-        baca.dynamic("fff-ancora"),
+        baca.dynamic("fff-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.ottava(),
         baca.pitches([_.invert() for _ in library.rose_pitches()]),
         library.sixth_octave(),
@@ -434,7 +434,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (15, 30)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -465,7 +465,7 @@ def va(m):
     )
     accumulator(
         ("va", (15, 30)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -485,7 +485,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (9, 14)),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("F#3"),
         baca.markup(
             r"\khamr-sparse-cello-clicks", selector=lambda _: baca.select.pleaf(_, 0)
@@ -493,7 +493,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (15, 30)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -504,7 +504,7 @@ def vc(m):
 def cb(m):
     accumulator(
         ("cb", (1, 14)),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.suite(
             # TODO: release need to cast chord prior to glissando indicators
             baca.pitches(library.double_stop_halo_pitches()),
@@ -519,7 +519,7 @@ def cb(m):
     )
     accumulator(
         ("cb", (15, 30)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),

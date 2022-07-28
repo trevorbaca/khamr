@@ -276,12 +276,12 @@ def fl(m):
     accumulator(
         ("fl", (10, 29)),
         baca.accent(selector=leaf_in_each_top_tuplet(0)),
-        baca.dynamic("fff-ancora"),
+        baca.dynamic("fff-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("D6 E6 F#6 C6 C#6 D6 D#6 F6"),
     )
     accumulator(
         ("fl", (34, 37)),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("Bb4"),  # (sounds B3)
         baca.markup(
             r"\khamr-covered-flute-airtone", selector=lambda _: baca.select.pleaf(_, 0)
@@ -300,13 +300,13 @@ def ob(m):
             accumulator.instruments["Oboe"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         baca.accent(selector=leaf_in_each_top_tuplet(0)),
-        baca.dynamic("fff-ancora"),
+        baca.dynamic("fff-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("C6 C#6 D#6 E6 F6 F#6"),
     )
     accumulator(
         ("ob", (34, 37)),
         baca.clef("percussion"),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.staff_lines(1),
         baca.staff_position(0),
         baca.markup(
@@ -327,7 +327,7 @@ def cl(m):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         baca.accent(selector=leaf_in_each_top_tuplet(0)),
-        baca.dynamic("fff-ancora"),
+        baca.dynamic("fff-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6"),
     )
     accumulator(
@@ -336,7 +336,7 @@ def cl(m):
             accumulator.instruments["BassClarinet"],
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-        baca.dynamic("ppp"),
+        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G2"),
     )
 
@@ -353,13 +353,13 @@ def sax(m):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         baca.accent(selector=leaf_in_each_top_tuplet(0)),
-        baca.dynamic("fff-ancora"),
+        baca.dynamic("fff-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("C6 C#6 D6 F6 F#6 D#6 E6"),
     )
     accumulator(
         ("sax", (34, 37)),
         baca.clef("percussion"),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-airtone-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -375,7 +375,7 @@ def gt(m):
     )
     accumulator(
         ("gt", (10, 29)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("Ab4"),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
@@ -390,12 +390,12 @@ def pf(m):
     )
     accumulator(
         ("pf", (5, 9)),
-        baca.dynamic("ffff"),
+        baca.dynamic("ffff", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("pf", (10, 29)),
         baca.accent(selector=leaf_in_each_top_tuplet(0)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6"),
     )
 
@@ -407,7 +407,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (5, 9)),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-bass-drum-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -416,14 +416,14 @@ def perc(m):
     accumulator(
         ("perc", (10, 29)),
         baca.double_staccato(selector=lambda _: baca.select.pheads(_)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-castanets-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
     )
     accumulator(
         ("perc", (30, 37)),
-        baca.dynamic("ppp"),
+        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-bass-drum-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -450,7 +450,7 @@ def cb(m):
     )
     accumulator(
         ("cb", (3, 4)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("cb", (5, 9)),
@@ -458,7 +458,7 @@ def cb(m):
     )
     accumulator(
         ("cb", (10, 25)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-estr-sul-pont-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -471,7 +471,7 @@ def cb(m):
     )
     accumulator(
         ("cb", (32, 37)),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G0"),
         baca.trill_spanner(
             alteration="F2",
@@ -509,11 +509,11 @@ def composites(cache):
     )
     accumulator(
         (["vn", "va", "vc"], (3, 4)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         (["vn", "va", "vc"], (10, 25)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         (["vn", "va", "vc"], (5, 9)),

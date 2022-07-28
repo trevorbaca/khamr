@@ -252,7 +252,7 @@ def fl(m):
     )
     accumulator(
         ("fl", (1, 16)),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("<G3 G4>"),
         baca.markup(
             # TODO: make \baca-levine-multiphonic-markup function
@@ -300,7 +300,7 @@ def ob(m):
     accumulator(
         ("ob", (1, 36)),
         baca.clef("percussion"),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.staff_lines(1),
         baca.staff_position(0),
         baca.markup(
@@ -310,7 +310,7 @@ def ob(m):
     accumulator(
         ("ob", (37, 44)),
         baca.clef("treble"),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.flageolet(selector=lambda _: baca.select.pheads(_)),
         baca.markup(
             r"\baca-put-reed-back-in-markup",
@@ -333,7 +333,7 @@ def cl(m):
         ),
         library.short_instrument_name("B. cl."),
         baca.clef("treble"),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("A2"),
     )
 
@@ -351,12 +351,12 @@ def sax(m):
         ),
         library.short_instrument_name("Bar. sax."),
         baca.clef("treble"),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G3"),
     )
     accumulator(
         ("sax", (37, 44)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("<F3 G+3>"),
         baca.markup(
             # TODO: make \baca-weiss-multiphonic-markup function
@@ -381,7 +381,7 @@ def gt(m):
     )
     accumulator(
         ("gt", (1, 24)),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches(library.rose_pitches()),
         baca.markup(
             r"\khamr-half-harmonics-explanation",
@@ -428,7 +428,7 @@ def pf(m):
         ("pf", (1, 24)),
         baca.accent(selector=lambda _: baca.select.pheads(_)),
         baca.clef("percussion"),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\khamr-strike-lowest-strings", selector=lambda _: baca.select.pleaf(_, 0)
         ),
@@ -438,7 +438,7 @@ def pf(m):
     accumulator(
         ("pf", (25, 40)),
         baca.clef("treble"),
-        baca.dynamic("mf-ancora"),
+        baca.dynamic("mf-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.ottava(),
         baca.staff_lines(5),
         baca.markup(
@@ -450,7 +450,7 @@ def pf(m):
     accumulator(
         ("pf", (41, 44)),
         baca.clef("percussion"),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.staff_lines(1),
         baca.staff_position(0),
         baca.markup(
@@ -473,7 +473,7 @@ def perc(m):
         library.short_instrument_name("Perc."),
         baca.clef("percussion"),
         baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
         baca.staff_lines(1),
         baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
@@ -511,7 +511,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (37, 44)),
-        baca.dynamic("ppp"),
+        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
@@ -548,7 +548,7 @@ def va(m):
     )
     accumulator(
         ("va", (37, 44)),
-        baca.dynamic("ppp"),
+        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
@@ -585,7 +585,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (37, 44)),
-        baca.dynamic("ppp"),
+        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
@@ -609,7 +609,7 @@ def cb(m):
         ),
         library.short_instrument_name("Cb."),
         baca.clef("bass"),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.suite(
             baca.pitches(library.contrabass_halo_pitches()),
             baca.glissando(),
