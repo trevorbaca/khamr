@@ -283,7 +283,9 @@ def fl(m):
         ("fl", (34, 37)),
         baca.dynamic("pp"),
         baca.pitch("Bb4"),  # (sounds B3)
-        baca.markup(r"\khamr-covered-flute-airtone"),
+        baca.markup(
+            r"\khamr-covered-flute-airtone", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
 
 
@@ -307,7 +309,9 @@ def ob(m):
         baca.dynamic("pp"),
         baca.staff_lines(1),
         baca.staff_position(0),
-        baca.markup(r"\khamr-airtone-without-reed"),
+        baca.markup(
+            r"\khamr-airtone-without-reed", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
 
 
@@ -356,7 +360,9 @@ def sax(m):
         ("sax", (34, 37)),
         baca.clef("percussion"),
         baca.dynamic("pp"),
-        baca.markup(r"\baca-airtone-markup"),
+        baca.markup(
+            r"\baca-airtone-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.staff_lines(1),
         baca.staff_position(0),
     )
@@ -402,19 +408,25 @@ def perc(m):
     accumulator(
         ("perc", (5, 9)),
         baca.dynamic("pp"),
-        baca.markup(r"\baca-bass-drum-markup"),
+        baca.markup(
+            r"\baca-bass-drum-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("perc", (10, 29)),
         baca.double_staccato(selector=lambda _: baca.select.pheads(_)),
         baca.dynamic("fff"),
-        baca.markup(r"\baca-castanets-markup"),
+        baca.markup(
+            r"\baca-castanets-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
     accumulator(
         ("perc", (30, 37)),
         baca.dynamic("ppp"),
-        baca.markup(r"\baca-bass-drum-markup"),
+        baca.markup(
+            r"\baca-bass-drum-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
@@ -447,11 +459,15 @@ def cb(m):
     accumulator(
         ("cb", (10, 25)),
         baca.dynamic("fff"),
-        baca.markup(r"\baca-estr-sul-pont-markup"),
+        baca.markup(
+            r"\baca-estr-sul-pont-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
     accumulator(
         ("cb", (26, 37)),
-        baca.markup(r"\baca-arco-ordinario-markup"),
+        baca.markup(
+            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
     accumulator(
         ("cb", (32, 37)),
@@ -461,7 +477,7 @@ def cb(m):
             alteration="F2",
             harmonic=True,
         ),
-        baca.markup(r"\khamr-scodanibbio"),
+        baca.markup(r"\khamr-scodanibbio", selector=lambda _: baca.select.pleaf(_, 0)),
     )
 
 
@@ -485,7 +501,9 @@ def composites(cache):
         (["vn", "va", "vc"], (3, 29)),
         baca.pitches([_.invert().transpose("A4") for _ in library.rose_pitches()]),
         baca.glissando(),
-        baca.markup(r"\baca-estr-sul-pont-markup"),
+        baca.markup(
+            r"\baca-estr-sul-pont-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.narrow_fourth_octave(),
     )
