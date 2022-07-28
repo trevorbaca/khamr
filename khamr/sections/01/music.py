@@ -248,7 +248,7 @@ def fl(m):
             r"\khamr-bass-flute-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("B. fl."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("fl", (1, 16)),
@@ -295,11 +295,11 @@ def ob(m):
             r"\khamr-english-horn-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Eng. hn."),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("ob", (1, 36)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.staff_lines(1),
         baca.staff_position(0),
@@ -309,7 +309,7 @@ def ob(m):
     )
     accumulator(
         ("ob", (37, 44)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.flageolet(selector=lambda _: baca.select.pheads(_)),
         baca.markup(
@@ -332,7 +332,7 @@ def cl(m):
             r"\khamr-bass-clarinet-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("B. cl."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("A2"),
     )
@@ -350,7 +350,7 @@ def sax(m):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Bar. sax."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G3"),
     )
@@ -377,7 +377,7 @@ def gt(m):
             r"\khamr-guitar-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Gt."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("gt", (1, 24)),
@@ -418,7 +418,7 @@ def pf(m):
             r"\khamr-piano-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Pf."),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("pf", (25, 40)),
@@ -427,7 +427,7 @@ def pf(m):
     accumulator(
         ("pf", (1, 24)),
         baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\khamr-strike-lowest-strings", selector=lambda _: baca.select.pleaf(_, 0)
@@ -437,7 +437,7 @@ def pf(m):
     )
     accumulator(
         ("pf", (25, 40)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("mf-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.ottava(),
         baca.staff_lines(5),
@@ -449,7 +449,7 @@ def pf(m):
     )
     accumulator(
         ("pf", (41, 44)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.staff_lines(1),
         baca.staff_position(0),
@@ -471,7 +471,7 @@ def perc(m):
             r"\khamr-percussion-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Perc."),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.accent(selector=lambda _: baca.select.pheads(_)),
         baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
@@ -495,7 +495,7 @@ def vn(m):
             r"\khamr-violin-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Vn."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.suite(
             # TODO: release need to cast chords prior to glissando indicators
             baca.pitches(library.violin_halo_pitches()),
@@ -533,7 +533,7 @@ def va(m):
             r"\khamr-viola-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Va."),
-        baca.clef("alto"),
+        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.suite(
             baca.pitches(library.violin_halo_pitches()),
             baca.glissando(),
@@ -570,7 +570,7 @@ def vc(m):
             r"\khamr-cello-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Vc."),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.suite(
             baca.pitches(library.cello_halo_pitches()),
             baca.glissando(),
@@ -608,7 +608,7 @@ def cb(m):
             r"\khamr-contrabass-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Cb."),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.suite(
             baca.pitches(library.contrabass_halo_pitches()),

@@ -305,7 +305,7 @@ def ob(m):
     )
     accumulator(
         ("ob", (34, 37)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.staff_lines(1),
         baca.staff_position(0),
@@ -358,7 +358,7 @@ def sax(m):
     )
     accumulator(
         ("sax", (34, 37)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-airtone-markup", selector=lambda _: baca.select.pleaf(_, 0)
