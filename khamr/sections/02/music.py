@@ -299,7 +299,9 @@ def fl(m):
         baca.instrument(
             accumulator.instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.markup(r"\baca-fluttertongue-markup"),
+        baca.markup(
+            r"\baca-fluttertongue-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitch("B5"),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
@@ -355,13 +357,17 @@ def gt(m):
         ("gt", (5, 14)),
         baca.dynamic("mf"),
         baca.pitch("F#2"),
-        baca.markup(r"\khamr-sparse-guitar-clicks"),
+        baca.markup(
+            r"\khamr-sparse-guitar-clicks", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
     accumulator(
         ("gt", (15, 30)),
         baca.dynamic("ff"),
         baca.pitch("G2"),
-        baca.markup(r"\khamr-guitar-with-screw"),
+        baca.markup(
+            r"\khamr-guitar-with-screw", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
 
 
@@ -429,7 +435,9 @@ def vn(m):
     accumulator(
         ("vn", (15, 30)),
         baca.dynamic("fff"),
-        baca.markup(r"\baca-arco-ordinario-markup"),
+        baca.markup(
+            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitch("A4"),
     )
 
@@ -458,7 +466,9 @@ def va(m):
     accumulator(
         ("va", (15, 30)),
         baca.dynamic("fff"),
-        baca.markup(r"\baca-arco-ordinario-markup"),
+        baca.markup(
+            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitch("G#4"),
     )
 
@@ -477,12 +487,16 @@ def vc(m):
         ("vc", (9, 14)),
         baca.dynamic("mf"),
         baca.pitch("F#3"),
-        baca.markup(r"\khamr-sparse-cello-clicks"),
+        baca.markup(
+            r"\khamr-sparse-cello-clicks", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
     accumulator(
         ("vc", (15, 30)),
         baca.dynamic("fff"),
-        baca.markup(r"\baca-arco-ordinario-markup"),
+        baca.markup(
+            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitch("G3"),
     )
 
@@ -499,13 +513,16 @@ def cb(m):
         baca.markup(
             r"\baca-strings-iii-plus-iv-markup",
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("cb", (15, 30)),
         baca.dynamic("fff"),
-        baca.markup(r"\baca-arco-ordinario-markup"),
+        baca.markup(
+            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitch("<G0 A1>"),
     )
 

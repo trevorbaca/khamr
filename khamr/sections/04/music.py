@@ -236,7 +236,9 @@ def perc(m):
     accumulator(
         ("perc", (8, 15)),
         baca.dynamic("fff"),
-        baca.markup(r"\baca-snare-drum-markup"),
+        baca.markup(
+            r"\baca-snare-drum-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
@@ -297,10 +299,12 @@ def composites(cache):
         baca.new(
             baca.markup(r"\baca-bow-on-wooden-mute-markup"),
             match=[0, 1],
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.new(
             baca.markup(r"\baca-bow-on-tailpiece-markup"),
             match=[2, 3],
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(

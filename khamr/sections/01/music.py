@@ -257,6 +257,7 @@ def fl(m):
         baca.markup(
             # TODO: make \baca-levine-multiphonic-markup function
             baca.levine_multiphonic(17),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -264,6 +265,7 @@ def fl(m):
         baca.pitch("<G#3 G#4>"),
         baca.markup(
             baca.levine_multiphonic(22),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -301,7 +303,9 @@ def ob(m):
         baca.dynamic("p"),
         baca.staff_lines(1),
         baca.staff_position(0),
-        baca.markup(r"\khamr-airtone-without-reed"),
+        baca.markup(
+            r"\khamr-airtone-without-reed", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
     accumulator(
         ("ob", (37, 44)),
@@ -357,6 +361,7 @@ def sax(m):
         baca.markup(
             # TODO: make \baca-weiss-multiphonic-markup function
             library.weiss_multiphonic(77),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 
@@ -378,13 +383,19 @@ def gt(m):
         ("gt", (1, 24)),
         baca.dynamic("f"),
         baca.pitches(library.rose_pitches()),
-        baca.markup(r"\khamr-half-harmonics-explanation"),
+        baca.markup(
+            r"\khamr-half-harmonics-explanation",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         library.wide_third_octave(),
     )
     accumulator(
         ("gt", (25, 44)),
         baca.tuplet_bracket_staff_padding(4),
-        baca.markup(r"\khamr-move-towards-the-bridge"),
+        baca.markup(
+            r"\khamr-move-towards-the-bridge",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         library.narrow_fourth_octave(),
     )
     accumulator(
@@ -418,7 +429,9 @@ def pf(m):
         baca.accent(selector=lambda _: baca.select.pheads(_)),
         baca.clef("percussion"),
         baca.dynamic("mf"),
-        baca.markup(r"\khamr-strike-lowest-strings"),
+        baca.markup(
+            r"\khamr-strike-lowest-strings", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.staff_lines(1),
         baca.staff_position(0),
     )
@@ -428,7 +441,10 @@ def pf(m):
         baca.dynamic("mf-ancora"),
         baca.ottava(),
         baca.staff_lines(5),
-        baca.markup(r"\khamr-match-guitar-dynamic-levels"),
+        baca.markup(
+            r"\khamr-match-guitar-dynamic-levels",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         library.sixth_octave(),
     )
     accumulator(
@@ -437,7 +453,10 @@ def pf(m):
         baca.dynamic("mp"),
         baca.staff_lines(1),
         baca.staff_position(0),
-        baca.markup(r"\khamr-sparse-piano-clicks-markup"),
+        baca.markup(
+            r"\khamr-sparse-piano-clicks-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
     )
 
 
@@ -459,7 +478,9 @@ def perc(m):
         baca.staff_lines(1),
         baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.MarimbaHitCommand(indices=[3, 7], attach_first_markup=True),
-        baca.markup(r"\baca-xl-tam-tam-markup"),
+        baca.markup(
+            r"\baca-xl-tam-tam-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
 
 
@@ -483,6 +504,7 @@ def vn(m):
         baca.markup(
             r"\baca-string-iv-markup",
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.halo_hairpins(),
@@ -494,7 +516,9 @@ def vn(m):
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
         ),
-        baca.markup(r"\baca-molto-flautando-markup"),
+        baca.markup(
+            r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitches(library.color_trill_pitches()),
     )
 
@@ -517,6 +541,7 @@ def va(m):
         baca.markup(
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.halo_hairpins(),
@@ -528,7 +553,9 @@ def va(m):
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
         ),
-        baca.markup(r"\baca-molto-flautando-markup"),
+        baca.markup(
+            r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitches(library.color_trill_pitches()),
     )
 
@@ -551,6 +578,7 @@ def vc(m):
         baca.markup(
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         library.halo_hairpins(),
@@ -562,7 +590,9 @@ def vc(m):
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
         ),
-        baca.markup(r"\baca-molto-flautando-markup"),
+        baca.markup(
+            r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitches(library.color_trill_pitches()),
     )
 
@@ -587,6 +617,7 @@ def cb(m):
         baca.markup(
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
     )
@@ -599,7 +630,9 @@ def cb(m):
 def composites(cache):
     accumulator(
         ["vn", "va", "vc", "cb"],
-        baca.markup(r"\khamr-emphasize-multiphonics"),
+        baca.markup(
+            r"\khamr-emphasize-multiphonics", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
     )
     accumulator(
         (["vn", "va", "vc"], (37, 44)),
