@@ -250,28 +250,28 @@ def perc(m):
 def vn(m):
     accumulator(
         ("vn", (1, 15)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
 def va(m):
     accumulator(
         ("va", (1, 15)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
 def vc(m):
     accumulator(
         ("vc", (1, 15)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
 def cb(m):
     accumulator(
         ("cb", (1, 15)),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("cb", -1),

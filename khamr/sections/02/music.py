@@ -378,7 +378,7 @@ def pf(m):
     )
     accumulator(
         ("pf", (15, 20)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.ottava_bassa(),
         baca.pitch("<A0 B0 C1 D1 E1 F1 G1 A1>"),
@@ -387,7 +387,7 @@ def pf(m):
     )
     accumulator(
         ("pf", (21, 30)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("fff-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.ottava(),
         baca.pitches([_.invert() for _ in library.rose_pitches()]),
