@@ -505,11 +505,8 @@ def cb(m):
     accumulator(
         ("cb", (1, 14)),
         baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
-        baca.suite(
-            # TODO: release need to cast chord prior to glissando indicators
-            baca.pitches(library.double_stop_halo_pitches()),
-            baca.glissando(),
-        ),
+        baca.pitches(library.double_stop_halo_pitches()),
+        baca.glissando(),
         baca.markup(
             r"\baca-strings-iii-plus-iv-markup",
             direction=abjad.DOWN,
