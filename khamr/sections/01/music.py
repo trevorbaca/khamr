@@ -496,11 +496,8 @@ def vn(m):
         ),
         library.short_instrument_name("Vn."),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.suite(
-            # TODO: release need to cast chords prior to glissando indicators
-            baca.pitches(library.violin_halo_pitches()),
-            baca.glissando(),
-        ),
+        baca.pitches(library.violin_halo_pitches()),
+        baca.glissando(),
         baca.markup(
             r"\baca-string-iv-markup",
             direction=abjad.DOWN,
@@ -534,10 +531,8 @@ def va(m):
         ),
         library.short_instrument_name("Va."),
         baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.suite(
-            baca.pitches(library.violin_halo_pitches()),
-            baca.glissando(),
-        ),
+        baca.pitches(library.violin_halo_pitches()),
+        baca.glissando(),
         baca.markup(
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
@@ -571,10 +566,8 @@ def vc(m):
         ),
         library.short_instrument_name("Vc."),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.suite(
-            baca.pitches(library.cello_halo_pitches()),
-            baca.glissando(),
-        ),
+        baca.pitches(library.cello_halo_pitches()),
+        baca.glissando(),
         baca.markup(
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
@@ -610,10 +603,8 @@ def cb(m):
         library.short_instrument_name("Cb."),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
-        baca.suite(
-            baca.pitches(library.contrabass_halo_pitches()),
-            baca.glissando(),
-        ),
+        baca.pitches(library.contrabass_halo_pitches()),
+        baca.glissando(),
         baca.markup(
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
