@@ -603,13 +603,31 @@ def metronome_marks():
 
 def narrow_fourth_octave():
     return baca.RegisterCommand(
-        registration=baca.Registration([("[A0, F#4)", -2), ("[F#4, C8]", 1)])
+        registration=baca.Registration(
+            [
+                baca.RegistrationComponent(
+                    abjad.PitchRange("[A0, F#4)"), abjad.NumberedPitch(-2)
+                ),
+                baca.RegistrationComponent(
+                    abjad.PitchRange("[F#4, C8]"), abjad.NumberedPitch(1)
+                ),
+            ]
+        )
     )
 
 
 def narrow_sixth_octave():
     return baca.RegisterCommand(
-        registration=baca.Registration([("[A0, F#4)", 22), ("[F#4, C8]", 25)])
+        registration=baca.Registration(
+            [
+                baca.RegistrationComponent(
+                    abjad.PitchRange("[A0, F#4)"), abjad.NumberedPitch(22)
+                ),
+                baca.RegistrationComponent(
+                    abjad.PitchRange("[F#4, C8]"), abjad.NumberedPitch(25)
+                ),
+            ]
+        )
     )
 
 
@@ -623,7 +641,15 @@ def rose_pitches():
 
 
 def sixth_octave():
-    return baca.RegisterCommand(registration=baca.Registration([("[A0, C8)", 30)]))
+    return baca.RegisterCommand(
+        registration=baca.Registration(
+            [
+                baca.RegistrationComponent(
+                    abjad.PitchRange("[A0, C8)"), abjad.NumberedPitch(30)
+                )
+            ]
+        )
+    )
 
 
 def string_tuplet_ratios(number):
@@ -781,5 +807,14 @@ def weiss_multiphonic(number):
 
 def wide_third_octave():
     return baca.RegisterCommand(
-        registration=baca.Registration([("[A0, F#4)", -20), ("[F#4, C8]", -6)])
+        registration=baca.Registration(
+            [
+                baca.RegistrationComponent(
+                    abjad.PitchRange("[A0, F#4)"), abjad.NumberedPitch(-20)
+                ),
+                baca.RegistrationComponent(
+                    abjad.PitchRange("[F#4, C8]"), abjad.NumberedPitch(-6)
+                ),
+            ]
+        )
     )
