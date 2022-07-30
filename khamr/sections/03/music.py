@@ -500,7 +500,7 @@ def composites(cache):
     accumulator(
         (["vn", "va", "vc"], (3, 29)),
         baca.pitches([_.invert().transpose("A4") for _ in library.rose_pitches()]),
-        baca.glissando(),
+        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
         baca.markup(
             r"\baca-estr-sul-pont-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),

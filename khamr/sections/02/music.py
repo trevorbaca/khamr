@@ -506,7 +506,7 @@ def cb(m):
         ("cb", (1, 14)),
         baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches(library.double_stop_halo_pitches()),
-        baca.glissando(),
+        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
         baca.markup(
             r"\baca-strings-iii-plus-iv-markup",
             direction=abjad.DOWN,
