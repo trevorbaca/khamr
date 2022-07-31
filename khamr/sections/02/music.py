@@ -290,6 +290,7 @@ def fl(m):
         baca.new(
             baca.trill_spanner(),
             map=lambda _: baca.select.qruns(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.pitch("Bb4"),
     )
@@ -380,7 +381,7 @@ def pf(m):
         ("pf", (15, 20)),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.ottava_bassa(),
+        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<A0 B0 C1 D1 E1 F1 G1 A1>"),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -389,7 +390,7 @@ def pf(m):
         ("pf", (21, 30)),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("fff-ancora", selector=lambda _: baca.select.phead(_, 0)),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.pitches([_.invert() for _ in library.rose_pitches()]),
         library.sixth_octave(),
     )
@@ -430,6 +431,7 @@ def vn(m):
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -461,6 +463,7 @@ def va(m):
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -480,6 +483,7 @@ def vc(m):
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.pitches(library.color_trill_pitches()),
     )

@@ -385,7 +385,7 @@ def pf(m):
     accumulator(
         ("pf", (1, 9)),
         baca.pitches([_.invert().transpose("M2") for _ in library.rose_pitches()]),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         library.sixth_octave(),
     )
     accumulator(
@@ -476,6 +476,7 @@ def cb(m):
         baca.trill_spanner(
             alteration="F2",
             harmonic=True,
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.markup(r"\khamr-scodanibbio", selector=lambda _: baca.select.pleaf(_, 0)),
     )
