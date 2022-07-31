@@ -279,6 +279,7 @@ def fl(m):
         baca.new(
             baca.trill_spanner(),
             map=lambda _: baca.select.qruns(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.pitch("A4"),
     )
@@ -439,7 +440,7 @@ def pf(m):
         ("pf", (25, 40)),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("mf-ancora", selector=lambda _: baca.select.phead(_, 0)),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.markup(
             r"\khamr-match-guitar-dynamic-levels",
@@ -512,6 +513,7 @@ def vn(m):
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.markup(
             r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
@@ -547,6 +549,7 @@ def va(m):
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.markup(
             r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
@@ -582,6 +585,7 @@ def vc(m):
         baca.new(
             baca.trill_spanner(alteration="m2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.markup(
             r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
