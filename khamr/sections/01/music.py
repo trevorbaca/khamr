@@ -256,15 +256,10 @@ def fl(cache):
         baca.markup_function(o.pleaf(0), baca.levine_multiphonic(22))
     with baca.scope(m.get(37, 44)) as o:
         baca.hairpin_function(o.tleaves(), "mp > pp")
-    accumulator(
-        ("fl", (37, 44)),
-        baca.new(
-            baca.trill_spanner(),
-            map=lambda _: baca.select.qruns(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.pitch("A4"),
-    )
+        for run in baca.select.qruns(o):
+            run = baca.select.tleaves(run, rleak=True)
+            baca.trill_spanner_function(run)
+        baca.pitch_function(o, "A4")
 
 
 def ob(m):
