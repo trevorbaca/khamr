@@ -262,58 +262,52 @@ def fl(cache):
         baca.pitch_function(o, "A4")
 
 
-def ob(m):
-    accumulator(
-        "ob",
-        baca.instrument(
+def ob(cache):
+    m = cache["ob"]
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(
+            o.leaf(0),
             accumulator.instruments["EnglishHorn"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.instrument_name(
-            r"\khamr-english-horn-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Eng. hn."),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("ob", (1, 36)),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_position(0),
-        baca.markup(
-            r"\khamr-airtone-without-reed", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-    )
-    accumulator(
-        ("ob", (37, 44)),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.flageolet(selector=lambda _: baca.select.pheads(_)),
-        baca.markup(
-            r"\baca-put-reed-back-in-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.pitch("<A4 E5>"),
-        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+            accumulator.manifests(),
+        )
+        baca.instrument_name_function(o.leaf(0), r"\khamr-english-horn-markup")
+        library.short_instrument_name_function(
+            o.leaf(0),
+            "Eng. hn.",
+            accumulator.manifests(),
+        )
+        baca.clef_function(o.leaf(0), "percussion")
+    with baca.scope(m.get(1, 36)) as o:
+        baca.dynamic_function(o.phead(0), "p")
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.staff_position_function(o, 0)
+        baca.markup_function(o.pleaf(0), r"\khamr-airtone-without-reed")
+    with baca.scope(m.get(37, 44)) as o:
+        baca.pitch_function(o, "<A4 E5>")
+        cache.rebuild()
+        m = cache["ob"]
+    with baca.scope(m.get(37, 44)) as o:
+        baca.clef_function(o.leaf(0), "treble")
+        baca.dynamic_function(o.phead(0), "pp")
+        baca.flageolet_function(o.pheads())
+        baca.markup_function(o.leaf(0), r"\baca-put-reed-back-in-markup")
+        baca.staff_lines_function(o.leaf(0), 5)
 
 
 def cl(m):
-    accumulator(
-        "cl",
-        baca.instrument(
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(
+            o.leaf(0),
             accumulator.instruments["BassClarinet"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.instrument_name(
-            r"\khamr-bass-clarinet-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("B. cl."),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("A2"),
-    )
+            accumulator.manifests(),
+        )
+        baca.instrument_name_function(o.leaf(0), r"\khamr-bass-clarinet-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "B. cl.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "treble")
+        baca.dynamic_function(o.phead(0), "pp")
+        baca.pitch_function(o, "A2")
 
 
 def sax(m):
@@ -630,7 +624,7 @@ def main():
         accumulator.voice_abbreviations,
     )
     fl(cache)
-    ob(cache["ob"])
+    ob(cache)
     cl(cache["cl"])
     sax(cache["sax"])
     gt(cache["gt"])
