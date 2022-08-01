@@ -626,6 +626,20 @@ def narrow_fourth_octave():
     )
 
 
+def narrow_fourth_octave_function(argument):
+    registration = baca.Registration(
+        [
+            baca.RegistrationComponent(
+                abjad.PitchRange("[A0, F#4)"), abjad.NumberedPitch(-2)
+            ),
+            baca.RegistrationComponent(
+                abjad.PitchRange("[F#4, C8]"), abjad.NumberedPitch(1)
+            ),
+        ]
+    )
+    baca.pitchcommands._do_register_command(argument, registration)
+
+
 def narrow_sixth_octave():
     return baca.RegisterCommand(
         registration=baca.Registration(
@@ -660,6 +674,17 @@ def sixth_octave():
             ]
         )
     )
+
+
+def sixth_octave_function(argument):
+    registration = baca.Registration(
+        [
+            baca.RegistrationComponent(
+                abjad.PitchRange("[A0, C8)"), abjad.NumberedPitch(30)
+            )
+        ]
+    )
+    baca.pitchcommands._do_register_command(argument, registration)
 
 
 def string_tuplet_ratios(number):
@@ -828,3 +853,17 @@ def wide_third_octave():
             ]
         )
     )
+
+
+def wide_third_octave_function(argument):
+    registration = baca.Registration(
+        [
+            baca.RegistrationComponent(
+                abjad.PitchRange("[A0, F#4)"), abjad.NumberedPitch(-20)
+            ),
+            baca.RegistrationComponent(
+                abjad.PitchRange("[F#4, C8]"), abjad.NumberedPitch(-6)
+            ),
+        ]
+    )
+    baca.pitchcommands._do_register_command(argument, registration)
