@@ -2523,21 +2523,20 @@ number.1.Flute.Music = {
       %! baca.clef_extra_offset_function(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.instrument_name()
+      %! baca.instrument_name_function()
     \set Staff.instrumentName = \khamr-bass-flute-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \khamr-bfl-markup
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -2551,7 +2550,7 @@ number.1.Flute.Music = {
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     <g' g''>2
@@ -2562,16 +2561,15 @@ number.1.Flute.Music = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \mp
     % MARKUP:
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \baca-boxed-markup "L.17"
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -2593,7 +2591,7 @@ number.1.Flute.Music = {
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \khamr-bfl-markup
     % ABSOLUTE_BEFORE:
@@ -2848,8 +2846,7 @@ number.1.Flute.Music = {
     <g' g''>2.
     % AFTER:
     % MARKUP:
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \baca-boxed-markup "L.22"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -3206,13 +3203,13 @@ number.1.Flute.Music = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3221,13 +3218,13 @@ number.1.Flute.Music = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \>
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3337,13 +3334,13 @@ number.1.Flute.Music = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \pp
     % SPANNER_STARTS:
     \repeatTie

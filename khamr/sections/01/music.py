@@ -230,52 +230,34 @@ def CB(voice):
     voice.extend(music)
 
 
-## anchor notes
-#
-# accumulator(
-#    ["vn", "va", "vc"],
-#    baca.append_anchor_note(),
-# )
-#
-def fl(m):
-    accumulator(
-        "fl",
-        baca.instrument(
-            accumulator.instruments["BassFlute"],
-            selector=lambda _: abjad.select.leaf(_, 0),
+def fl(cache):
+    m = cache["fl"]
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["BassFlute"], accumulator.manifests()
         ),
-        baca.instrument_name(
-            r"\khamr-bass-flute-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("B. fl."),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("fl", (1, 16)),
-        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("<G3 G4>"),
-        baca.markup(
-            # TODO: make \baca-levine-multiphonic-markup function
-            baca.levine_multiphonic(17),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        ("fl", (17, 36)),
-        baca.pitch("<G#3 G#4>"),
-        baca.markup(
-            baca.levine_multiphonic(22),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
+        baca.instrument_name_function(o.leaf(0), r"\khamr-bass-flute-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "B. fl.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "treble")
+    with baca.scope(m.get(1, 16)) as o:
+        baca.pitch_function(o, "<G3 G4>")
+        cache.rebuild()
+        m = cache["fl"]
+    with baca.scope(m.get(1, 16)) as o:
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.markup_function(o.pleaf(0), baca.levine_multiphonic(17))
+    with baca.scope(m.get(17, 36)) as o:
+        baca.pitch_function(o, "<G#3 G#4>")
+        cache.rebuild()
+        m = cache["fl"]
+    with baca.scope(m.get(17, 36)) as o:
+        baca.markup_function(o.pleaf(0), baca.levine_multiphonic(22))
+    with baca.scope(m.get(37, 44)) as o:
+        baca.hairpin_function(o.tleaves(), "mp > pp")
     accumulator(
         ("fl", (37, 44)),
-        baca.hairpin(
-            "mp > pp",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
         baca.new(
             baca.trill_spanner(),
             map=lambda _: baca.select.qruns(_),
@@ -652,7 +634,7 @@ def main():
         len(accumulator.time_signatures),
         accumulator.voice_abbreviations,
     )
-    fl(cache["fl"])
+    fl(cache)
     ob(cache["ob"])
     cl(cache["cl"])
     sax(cache["sax"])

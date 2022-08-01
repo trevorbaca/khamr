@@ -568,6 +568,16 @@ def short_instrument_name(
     return baca.not_parts(command)
 
 
+def short_instrument_name_function(argument, key, context="Staff"):
+    _short_instrument_names = short_instrument_names()
+    short_instrument_name = _short_instrument_names[key]
+    baca.short_instrument_name_function(
+        argument,
+        short_instrument_name,
+        context=context,
+    )
+
+
 def short_instrument_names():
     return {
         "B. cl.": abjad.ShortInstrumentName(r"\khamr-bcl-markup"),
