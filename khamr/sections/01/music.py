@@ -310,126 +310,99 @@ def cl(m):
         baca.pitch_function(o, "A2")
 
 
-def sax(m):
-    accumulator(
-        ("sax", (1, 36)),
-        baca.instrument(
+def sax(cache):
+    m = cache["sax"]
+    with baca.scope(m.get(1, 36)) as o:
+        baca.instrument_function(
+            o.leaf(0),
             accumulator.instruments["BaritoneSaxophone"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.instrument_name(
+            accumulator.manifests(),
+        )
+        baca.instrument_name_function(
+            o.leaf(0),
             r"\khamr-baritone-saxophone-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Bar. sax."),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("G3"),
-    )
-    accumulator(
-        ("sax", (37, 44)),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("<F3 G+3>"),
-        baca.markup(
+        )
+        library.short_instrument_name_function(
+            o.leaf(0), "Bar. sax.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "treble")
+        baca.dynamic_function(o.phead(0), "pp")
+        baca.pitch_function(o, "G3")
+    with baca.scope(m.get(37, 44)) as o:
+        baca.pitch_function(o, "<F3 G+3>")
+        cache.rebuild()
+        m = cache["sax"]
+    with baca.scope(m.get(37, 44)) as o:
+        baca.dynamic_function(o.phead(0), "p")
+        baca.markup_function(
+            o.pleaf(0),
             # TODO: make \baca-weiss-multiphonic-markup function
             library.weiss_multiphonic(77),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
+        )
 
 
 def gt(m):
-    accumulator(
-        "gt",
-        baca.instrument(
-            accumulator.instruments["Guitar"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.instrument_name(
-            r"\khamr-guitar-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Gt."),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("gt", (1, 24)),
-        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitches(library.rose_pitches()),
-        baca.markup(
-            r"\khamr-half-harmonics-explanation",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        library.wide_third_octave(),
-    )
-    accumulator(
-        ("gt", (25, 44)),
-        baca.tuplet_bracket_staff_padding(4),
-        baca.markup(
-            r"\khamr-move-towards-the-bridge",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        library.narrow_fourth_octave(),
-    )
-    accumulator(
-        "gt",
-        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        ("gt", (25, 44)),
-        baca.pitches(library.rose_pitches()),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Guitar"], accumulator.manifests()
+        )
+        baca.instrument_name_function(o.leaf(0), r"\khamr-guitar-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "Gt.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "treble")
+    with baca.scope(m.get(1, 24)) as o:
+        baca.dynamic_function(o.phead(0), "f")
+        baca.pitches_function(o, library.rose_pitches())
+        baca.markup_function(o.pleaf(0), r"\khamr-half-harmonics-explanation"),
+        library.wide_third_octave_function(o)
+    with baca.scope(m.get(25, 44)) as o:
+        baca.tuplet_bracket_staff_padding_function(o, 4)
+        baca.markup_function(o.pleaf(0), r"\khamr-move-towards-the-bridge")
+        library.narrow_fourth_octave_function(o)
+    with baca.scope(m.leaves()) as o:
+        baca.note_head_style_cross_function(o.pleaves())
+    with baca.scope(m.get(25, 44)) as o:
+        baca.pitches_function(o, library.rose_pitches())
 
 
 def pf(m):
-    accumulator(
-        ("pf", (1, 24)),
-        baca.instrument(
-            accumulator.instruments["Piano"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\khamr-piano-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Pf."),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("pf", (25, 40)),
-        baca.pitches(library.rose_pitches()),
-    )
-    accumulator(
-        ("pf", (1, 24)),
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
-            r"\khamr-strike-lowest-strings", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_position(0),
-    )
-    accumulator(
-        ("pf", (25, 40)),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("mf-ancora", selector=lambda _: baca.select.phead(_, 0)),
-        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
-        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.markup(
+    with baca.scope(m.get(1, 24)) as o:
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Piano"], accumulator.manifests()
+        )
+        baca.instrument_name_function(o.leaf(0), r"\khamr-piano-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "Pf.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "percussion")
+    with baca.scope(m.get(25, 40)) as o:
+        baca.pitches_function(o, library.rose_pitches())
+    with baca.scope(m.get(1, 24)) as o:
+        baca.accent_function(o.pheads())
+        baca.dynamic_function(o.phead(0), "mf")
+        baca.markup_function(o.pleaf(0), r"\khamr-strike-lowest-strings")
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.staff_position_function(o, 0)
+    with baca.scope(m.get(25, 40)) as o:
+        baca.clef_function(o.leaf(0), "treble")
+        baca.dynamic_function(o.phead(0), "mf-ancora")
+        baca.ottava_function(o.tleaves())
+        baca.staff_lines_function(o.leaf(0), 5)
+        baca.markup_function(
+            o.pleaf(0),
             r"\khamr-match-guitar-dynamic-levels",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        library.sixth_octave(),
-    )
-    accumulator(
-        ("pf", (41, 44)),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_position(0),
-        baca.markup(
+        )
+        library.sixth_octave_function(o)
+    with baca.scope(m.get(41, 44)) as o:
+        baca.clef_function(o.leaf(0), "percussion")
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.staff_position_function(o, 0)
+        baca.markup_function(
+            o.pleaf(0),
             r"\khamr-sparse-piano-clicks-markup",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
+        )
 
 
 def perc(m):
@@ -626,7 +599,7 @@ def main():
     fl(cache)
     ob(cache)
     cl(cache["cl"])
-    sax(cache["sax"])
+    sax(cache)
     gt(cache["gt"])
     pf(cache["pf"])
     perc(cache["perc"])
