@@ -447,132 +447,110 @@ def vn(m):
         )
         baca.note_head_style_harmonic_function(o.pleaves())
         library.halo_hairpins_function(o)
-    accumulator(
-        ("vn", (37, 44)),
-        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.new(
-            baca.trill_spanner(alteration="m2"),
-            map=lambda _: baca.select.plts(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.markup(
-            r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.pitches(library.color_trill_pitches()),
-    )
+    with baca.scope(m.get(37, 44)) as o:
+        baca.dynamic_function(o.phead(0), "ppp")
+        baca.markup_function(o.pleaf(0), r"\baca-molto-flautando-markup"),
+        baca.pitches_function(o, library.color_trill_pitches())
+        for plt in baca.select.plts(o):
+            baca.trill_spanner_function(
+                baca.select.rleak(baca.select.tleaves(plt)),
+                alteration="m2",
+            )
 
 
 def va(m):
-    accumulator(
-        ("va", (1, 36)),
-        baca.instrument(
-            accumulator.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
+    with baca.scope(m.get(1, 36)) as o:
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Viola"], accumulator.manifests()
         ),
-        baca.instrument_name(
-            r"\khamr-viola-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Va."),
-        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.pitches(library.violin_halo_pitches()),
-        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
-        baca.markup(
+        baca.instrument_name_function(o.leaf(0), r"\khamr-viola-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "Va.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "alto")
+        baca.pitches_function(o, library.violin_halo_pitches())
+        baca.glissando_function(o.tleaves())
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-        library.halo_hairpins(),
-    )
-    accumulator(
-        ("va", (37, 44)),
-        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.new(
-            baca.trill_spanner(alteration="m2"),
-            map=lambda _: baca.select.plts(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.markup(
-            r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.pitches(library.color_trill_pitches()),
-    )
+        )
+        baca.note_head_style_harmonic_function(o.pleaves())
+        library.halo_hairpins_function(o)
+    with baca.scope(m.get(37, 44)) as o:
+        baca.dynamic_function(o.phead(0), "ppp")
+        for plt in baca.select.plts(o):
+            baca.trill_spanner_function(
+                baca.select.rleak(baca.select.tleaves(plt)),
+                alteration="m2",
+            )
+        baca.markup_function(o.pleaf(0), r"\baca-molto-flautando-markup"),
+        baca.pitches_function(o, library.color_trill_pitches())
 
 
 def vc(m):
-    accumulator(
-        ("vc", (1, 36)),
-        baca.instrument(
-            accumulator.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
+    with baca.scope(m.get(1, 36)) as o:
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Cello"], accumulator.manifests()
         ),
-        baca.instrument_name(
-            r"\khamr-cello-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Vc."),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.pitches(library.cello_halo_pitches()),
-        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
-        baca.markup(
+        baca.instrument_name_function(o.leaf(0), r"\khamr-cello-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "Vc.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "bass")
+        baca.pitches_function(o, library.cello_halo_pitches())
+        baca.glissando_function(o.tleaves())
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-        library.halo_hairpins(),
-    )
-    accumulator(
-        ("vc", (37, 44)),
-        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.new(
-            baca.trill_spanner(alteration="m2"),
-            map=lambda _: baca.select.plts(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.markup(
-            r"\baca-molto-flautando-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.pitches(library.color_trill_pitches()),
-    )
+        )
+        baca.note_head_style_harmonic_function(o.pleaves())
+        library.halo_hairpins_function(o)
+    with baca.scope(m.get(37, 44)) as o:
+        baca.dynamic_function(o.phead(0), "ppp")
+        for plt in baca.select.plts(o):
+            baca.trill_spanner_function(
+                baca.select.rleak(baca.select.tleaves(plt)),
+                alteration="m2",
+            )
+        baca.markup_function(o.pleaf(0), r"\baca-molto-flautando-markup")
+        baca.pitches_function(o, library.color_trill_pitches())
 
 
 def cb(m):
-    accumulator(
-        "cb",
-        baca.instrument(
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(
+            o.leaf(0),
             accumulator.instruments["Contrabass"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.instrument_name(
-            r"\khamr-contrabass-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Cb."),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitches(library.contrabass_halo_pitches()),
-        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
-        baca.markup(
+        )
+        baca.instrument_name_function(o.leaf(0), r"\khamr-contrabass-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "Cb.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "bass")
+        baca.dynamic_function(o.phead(0), "f")
+        baca.pitches_function(o, library.contrabass_halo_pitches())
+        baca.glissando_function(o.tleaves())
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        ("cb", (9, 44)),
-        library.halo_hairpins(),
-    )
+        )
+        baca.note_head_style_harmonic_function(o.pleaves())
+    with baca.scope(m.get(9, 44)) as o:
+        library.halo_hairpins_function(o)
 
 
 def composites(cache):
-    accumulator(
-        ["vn", "va", "vc", "cb"],
-        baca.markup(
-            r"\khamr-emphasize-multiphonics", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-    )
-    accumulator(
-        (["vn", "va", "vc"], (37, 44)),
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-    )
+    for name in ["vn", "va", "vc", "cb"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.markup_function(o.pleaf(0), r"\khamr-emphasize-multiphonics")
+    for name in ["vn", "va", "vc"]:
+        m = cache[name]
+        with baca.scope(m.get(37, 44)) as o:
+            baca.accent_function(o.pheads())
 
 
 def main():
@@ -615,7 +593,6 @@ if __name__ == "__main__":
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         transpose_score=True,
