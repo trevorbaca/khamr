@@ -99,6 +99,25 @@ def halo_hairpins():
     return baca.chunk(*commands)
 
 
+def halo_hairpins_function(argument):
+    strings = [
+        "pp > ppp",
+        "ppp < pp",
+        "pp > ppp",
+        "ppp < pp",
+        "pp < p",
+        "p > pp",
+        "pp < p",
+        "p > ppp",
+        "ppp < pp",
+    ]
+    strings = abjad.CyclicTuple(strings)
+    plts = baca.select.plts(argument)
+    for i, plt in enumerate(plts):
+        string = strings[i]
+        baca.hairpin_function(plt, string, remove_length_1_spanner_start=True)
+
+
 def instruments():
     return dict(
         [
