@@ -74,7 +74,7 @@ def ptails_in_get_tuplets(pattern, pair):
     def selector(argument):
         result = abjad.select.tuplets(argument)
         result = abjad.select.get(result, *pattern)
-        result = [baca.ptails(_)[start:stop] for _ in result]
+        result = [baca.select.ptails(_)[start:stop] for _ in result]
         return result
 
     return selector

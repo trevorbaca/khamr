@@ -38,7 +38,7 @@ def contrabass_halo_pitches():
 def do_marimba_hit_command(argument, attach_first_markup, indices):
     tag = abjad.Tag("khamr.do_marimba_hit_command()")
     found_first = False
-    for i, plt in enumerate(baca.plts(argument)):
+    for i, plt in enumerate(baca.select.plts(argument)):
         if i not in indices:
             continue
         abjad.attach(baca.StaffLines(5), plt.head, tag=tag)
