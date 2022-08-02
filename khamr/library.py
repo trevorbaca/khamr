@@ -1,47 +1,8 @@
-import dataclasses
 import inspect
-import typing
 
 import abjad
 import baca
 from abjadext import rmakers
-
-
-@dataclasses.dataclass(frozen=True, order=True, slots=True, unsafe_hash=True)
-class MarimbaHitCommand(baca.Command):
-    """
-    Marimba hit command.
-    """
-
-    attach_first_markup: bool = False
-    indices: typing.Any = None
-
-    def __post_init__(self):
-        baca.Command.__post_init__(self)
-        assert isinstance(self.attach_first_markup, bool)
-
-    def __call__(self, argument=None, runtime=None):
-        tag = abjad.Tag("khamr.MarimbaHitCommand.__call__()")
-        found_first = False
-        for i, plt in enumerate(baca.plts(argument)):
-            if i not in self.indices:
-                continue
-            abjad.attach(baca.StaffLines(5), plt.head, tag=tag)
-            if self.attach_first_markup and not found_first:
-                string = r"""\markup \larger \box \override #'(box-padding . 0.75)"""
-                string += """ "marimba + woodblock" """
-                markup = abjad.Markup(string)
-                abjad.attach(markup, plt.head, tag=tag)
-                found_first = True
-            abjad.detach(abjad.Articulation, plt.head)
-            abjad.attach(abjad.Dynamic("sfz"), plt.head, context="Voice", tag=tag)
-            abjad.attach(abjad.Articulation("marcato"), plt.head, tag=tag)
-            abjad.detach(abjad.Clef, plt.head)
-            abjad.attach(abjad.Clef("treble"), plt.head, tag=tag)
-            next_leaf = abjad.get.leaf(plt.tail, 1)
-            if next_leaf is not None:
-                abjad.attach(baca.StaffLines(1), next_leaf, tag=tag)
-                abjad.attach(abjad.Clef("percussion"), next_leaf, tag=tag)
 
 
 def cello_halo_pitches():
@@ -72,6 +33,30 @@ def contrabass_halo_pitches():
     pitches = [abjad.NamedPitch(_) for _ in strings]
     contrabass_halo_pitches = abjad.CyclicTuple(pitches)
     return contrabass_halo_pitches
+
+
+def do_marimba_hit_command(argument, attach_first_markup, indices):
+    tag = abjad.Tag("khamr.do_marimba_hit_command()")
+    found_first = False
+    for i, plt in enumerate(baca.plts(argument)):
+        if i not in indices:
+            continue
+        abjad.attach(baca.StaffLines(5), plt.head, tag=tag)
+        if attach_first_markup and not found_first:
+            string = r"""\markup \larger \box \override #'(box-padding . 0.75)"""
+            string += """ "marimba + woodblock" """
+            markup = abjad.Markup(string)
+            abjad.attach(markup, plt.head, tag=tag)
+            found_first = True
+        abjad.detach(abjad.Articulation, plt.head)
+        abjad.attach(abjad.Dynamic("sfz"), plt.head, context="Voice", tag=tag)
+        abjad.attach(abjad.Articulation("marcato"), plt.head, tag=tag)
+        abjad.detach(abjad.Clef, plt.head)
+        abjad.attach(abjad.Clef("treble"), plt.head, tag=tag)
+        next_leaf = abjad.get.leaf(plt.tail, 1)
+        if next_leaf is not None:
+            abjad.attach(baca.StaffLines(1), next_leaf, tag=tag)
+            abjad.attach(abjad.Clef("percussion"), next_leaf, tag=tag)
 
 
 def double_stop_halo_pitches():

@@ -397,19 +397,17 @@ def pf(m):
 
 
 def perc(m):
-    accumulator(
-        ("perc", (1, 14)),
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.pitches("C4 C4 Ab5 C4 C4 C4", allow_repeats=True),
-        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-        library.MarimbaHitCommand(indices=[2]),
-    )
-    accumulator(
-        ("perc", (15, 30)),
-        baca.pitch("Ab5"),
-        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-        library.MarimbaHitCommand(indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
-    )
+    with baca.scope(m.get(1, 14)) as o:
+        baca.accent_function(o.pheads())
+        baca.pitches_function(o, "C4 C4 Ab5 C4 C4 C4", allow_repeats=True)
+        baca.stem_down_function(o.pleaves())
+        library.do_marimba_hit_command(o, False, indices=[2])
+    with baca.scope(m.get(15, 30)) as o:
+        baca.pitch_function(o, "Ab5")
+        baca.stem_down_function(o.pleaves())
+        library.do_marimba_hit_command(
+            o, False, indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        )
 
 
 def vn(m):
