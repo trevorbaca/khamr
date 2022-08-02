@@ -429,27 +429,24 @@ def perc(m):
 
 
 def vn(m):
-    accumulator(
-        ("vn", (1, 36)),
-        baca.instrument(
-            accumulator.instruments["Violin"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.instrument_name(
-            r"\khamr-violin-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Vn."),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.pitches(library.violin_halo_pitches()),
-        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
-        baca.markup(
+    with baca.scope(m.get(1, 36)) as o:
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Violin"], accumulator.manifests()
+        )
+        baca.instrument_name_function(o.leaf(0), r"\khamr-violin-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "Vn.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "treble")
+        baca.pitches_function(o, library.violin_halo_pitches())
+        baca.glissando_function(o.tleaves())
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-string-iv-markup",
             direction=abjad.DOWN,
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-        library.halo_hairpins(),
-    )
+        )
+        baca.note_head_style_harmonic_function(o.pleaves())
+        library.halo_hairpins_function(o)
     accumulator(
         ("vn", (37, 44)),
         baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
