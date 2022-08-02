@@ -406,27 +406,26 @@ def pf(m):
 
 
 def perc(m):
-    accumulator(
-        "perc",
-        baca.instrument(
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(
+            o.leaf(0),
             accumulator.instruments["Percussion"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        baca.instrument_name(
-            r"\khamr-percussion-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Perc."),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitches("C4 C4 C4 Ab5", allow_repeats=True),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-        library.MarimbaHitCommand(indices=[3, 7], attach_first_markup=True),
-        baca.markup(
-            r"\baca-xl-tam-tam-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-    )
+            accumulator.manifests(),
+        )
+        baca.instrument_name_function(o.leaf(0), r"\khamr-percussion-markup")
+        library.short_instrument_name_function(
+            o.leaf(0),
+            "Perc.",
+            accumulator.manifests(),
+        )
+        baca.clef_function(o.leaf(0), "percussion")
+        baca.accent_function(o.pheads())
+        baca.dynamic_function(o.phead(0), "mp")
+        baca.pitches_function(o, "C4 C4 C4 Ab5", allow_repeats=True)
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.stem_down_function(o.pleaves())
+        library.do_marimba_hit_command(o, attach_first_markup=True, indices=[3, 7])
+        baca.markup_function(o.pleaf(0), r"\baca-xl-tam-tam-markup")
 
 
 def vn(m):

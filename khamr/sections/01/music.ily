@@ -9770,42 +9770,40 @@ number.1.Percussion.Music = {
       %! EXPLICIT_BAR_EXTENT
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines(1)
+      %! baca.staff_lines_function(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
-      %! baca.OverrideCommand._call(1)
-      %! baca.stem_down()
+      %! baca.stem_down_function(1)
     \override Stem.direction = #down
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.instrument_name()
+      %! baca.instrument_name_function()
     \set Staff.instrumentName = \khamr-percussion-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \khamr-perc-markup
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines(2)
+      %! baca.staff_lines_function(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines(2)
+      %! baca.staff_lines_function(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines(2)
+      %! baca.staff_lines_function(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -9822,33 +9820,31 @@ number.1.Percussion.Music = {
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
     c'2
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \mp
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Percussion”)"
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \baca-xl-tam-tam-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -9867,7 +9863,7 @@ number.1.Percussion.Music = {
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \khamr-perc-markup
     % ABSOLUTE_BEFORE:
@@ -9952,8 +9948,7 @@ number.1.Percussion.Music = {
     c'4
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -9999,8 +9994,7 @@ number.1.Percussion.Music = {
     c'2
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -10100,21 +10094,21 @@ number.1.Percussion.Music = {
     % COMMANDS:
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -10128,25 +10122,25 @@ number.1.Percussion.Music = {
       %! EXPLICIT_CLEF
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \set Staff.forceClef = ##t
     af''!2.
     % AFTER:
     % ARTICULATIONS:
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \sfz
     % MARKUP:
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     - \markup \larger \box \override #'(box-padding . 0.75) "marimba + woodblock" 
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -10184,21 +10178,21 @@ number.1.Percussion.Music = {
     \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -10212,13 +10206,12 @@ number.1.Percussion.Music = {
       %! EXPLICIT_CLEF
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \set Staff.forceClef = ##t
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -10323,8 +10316,7 @@ number.1.Percussion.Music = {
     c'2
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -10362,8 +10354,7 @@ number.1.Percussion.Music = {
     c'2
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -10454,21 +10445,21 @@ number.1.Percussion.Music = {
     % COMMANDS:
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -10482,23 +10473,23 @@ number.1.Percussion.Music = {
       %! EXPLICIT_CLEF
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \set Staff.forceClef = ##t
       %! khamr.make_fused_expanse_rhythm()
     af''!1
     % AFTER:
     % ARTICULATIONS:
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \sfz
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -10522,21 +10513,21 @@ number.1.Percussion.Music = {
     \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._set_status_tag()
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -10550,13 +10541,12 @@ number.1.Percussion.Music = {
       %! EXPLICIT_CLEF
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
-      %! khamr.MarimbaHitCommand.__call__()
+      %! khamr.do_marimba_hit_command()
     \set Staff.forceClef = ##t
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -10650,8 +10640,7 @@ number.1.Percussion.Music = {
     c'1.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -10687,8 +10676,7 @@ number.1.Percussion.Music = {
     c'2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -10733,8 +10721,7 @@ number.1.Percussion.Music = {
     - \tweak direction #up
     \repeatTie
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.stem_down()
+      %! baca.stem_down_function(2)
     \revert Stem.direction
     % CLOSING:
     % COMMANDS:
