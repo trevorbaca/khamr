@@ -68,37 +68,6 @@ def double_stop_halo_pitches():
     return double_stop_halo_pitches
 
 
-def halo_hairpins():
-    hairpins = [
-        "pp > ppp",
-        "ppp < pp",
-        "pp > ppp",
-        "ppp < pp",
-        "pp < p",
-        "p > pp",
-        "pp < p",
-        "p > ppp",
-        "ppp < pp",
-    ]
-    commands = []
-
-    def make_plt_selector(i, hairpins):
-        def selector(argument):
-            result = baca.select.plts(argument)
-            result = abjad.select.get(result, [i], len(hairpins))
-            return result
-
-        return selector
-
-    for i, hairpin in enumerate(hairpins):
-        command = baca.new(
-            baca.hairpin(hairpin, remove_length_1_spanner_start=True),
-            map=make_plt_selector(i, hairpins),
-        )
-        commands.append(command)
-    return baca.chunk(*commands)
-
-
 def halo_hairpins_function(argument):
     strings = [
         "pp > ppp",
@@ -258,61 +227,48 @@ def make_current_rhythm(time_signatures, counts, *commands):
 
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
-    # GLOBAL CONTEXT
     global_context = baca.score.make_global_context()
-    # FLUTE
     flute_music_voice = abjad.Voice(name="Flute.Music", tag=tag)
     flute_music_staff = abjad.Staff([flute_music_voice], name="Flute.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Flute", flute_music_staff)
-    # OBOE
     oboe_music_voice = abjad.Voice(name="Oboe.Music", tag=tag)
     oboe_music_staff = abjad.Staff([oboe_music_voice], name="Oboe.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Oboe", oboe_music_staff)
-    # CLARINET
     clarinet_music_voice = abjad.Voice(name="Clarinet.Music", tag=tag)
     clarinet_music_staff = abjad.Staff(
         [clarinet_music_voice], name="Clarinet.Staff", tag=tag
     )
     baca.score.attach_lilypond_tag("Clarinet", clarinet_music_staff)
-    # SAXOPHONE
     saxophone_music_voice = abjad.Voice(name="Saxophone.Music", tag=tag)
     saxophone_music_staff = abjad.Staff(
         [saxophone_music_voice], name="Saxophone.Staff", tag=tag
     )
     baca.score.attach_lilypond_tag("Saxophone", saxophone_music_staff)
-    # GUITAR
     guitar_music_voice = abjad.Voice(name="Guitar.Music", tag=tag)
     guitar_music_staff = abjad.Staff([guitar_music_voice], name="Guitar.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Guitar", guitar_music_staff)
-    # PIANO
     piano_music_voice = abjad.Voice(name="Piano.Music", tag=tag)
     piano_music_staff = abjad.Staff([piano_music_voice], name="Piano.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Piano", piano_music_staff)
-    # PERCUSSION
     percussion_music_voice = abjad.Voice(name="Percussion.Music", tag=tag)
     percussion_music_staff = abjad.Staff(
         [percussion_music_voice], name="Percussion.Staff", tag=tag
     )
     baca.score.attach_lilypond_tag("Percussion", percussion_music_staff)
-    # VIOLIN
     violin_music_voice = abjad.Voice(name="Violin.Music", tag=tag)
     violin_music_staff = abjad.Staff([violin_music_voice], name="Violin.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Violin", violin_music_staff)
-    # VIOLA
     viola_music_voice = abjad.Voice(name="Viola.Music", tag=tag)
     viola_music_staff = abjad.Staff([viola_music_voice], name="Viola.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
-    # CELLO
     cello_music_voice = abjad.Voice(name="Cello.Music", tag=tag)
     cello_music_staff = abjad.Staff([cello_music_voice], name="Cello.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Cello", cello_music_staff)
-    # CONTRABASS
     contrabass_music_voice = abjad.Voice(name="Contrabass.Music", tag=tag)
     contrabass_music_staff = abjad.Staff(
         [contrabass_music_voice], name="Contrabass.Staff", tag=tag
     )
     baca.score.attach_lilypond_tag("Contrabass", contrabass_music_staff)
-    # WIND SECTION STAFF GROUP
     wind_section_staff_group = abjad.StaffGroup(
         [
             flute_music_staff,
@@ -324,14 +280,12 @@ def make_empty_score():
         name="WindSectionStaffGroup",
         tag=tag,
     )
-    # PERCUSSION SECTION STAFF GROUP
     percussion_section_staff_group = abjad.StaffGroup(
         [guitar_music_staff, piano_music_staff, percussion_music_staff],
         lilypond_type="PercussionSectionStaffGroup",
         name="PercussionSectionStaffGroup",
         tag=tag,
     )
-    # STRING SECTION STAFF GROUP
     string_section_staff_group = abjad.StaffGroup(
         [
             violin_music_staff,
@@ -343,13 +297,11 @@ def make_empty_score():
         name="StringSectionStaffGroup",
         tag=tag,
     )
-    # MUSIC CONTEXT
     music_context = baca.score.make_music_context(
         wind_section_staff_group,
         percussion_section_staff_group,
         string_section_staff_group,
     )
-    # SCORE
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
     baca.score.assert_lilypond_identifiers(score)
     baca.score.assert_unique_context_names(score)
@@ -558,20 +510,6 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *commands):
     return music
 
 
-def short_instrument_name(
-    key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
-):
-    _short_instrument_names = short_instrument_names()
-    short_instrument_name = _short_instrument_names[key]
-    command = baca.short_instrument_name(
-        short_instrument_name,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    return baca.not_parts(command)
-
-
 def short_instrument_name_function(argument, key, context="Staff"):
     _short_instrument_names = short_instrument_names()
     short_instrument_name = _short_instrument_names[key]
@@ -615,21 +553,6 @@ def metronome_marks():
     )
 
 
-def narrow_fourth_octave():
-    return baca.RegisterCommand(
-        registration=baca.Registration(
-            [
-                baca.RegistrationComponent(
-                    abjad.PitchRange("[A0, F#4)"), abjad.NumberedPitch(-2)
-                ),
-                baca.RegistrationComponent(
-                    abjad.PitchRange("[F#4, C8]"), abjad.NumberedPitch(1)
-                ),
-            ]
-        )
-    )
-
-
 def narrow_fourth_octave_function(argument):
     registration = baca.Registration(
         [
@@ -644,21 +567,6 @@ def narrow_fourth_octave_function(argument):
     baca.pitchcommands._do_register_command(argument, registration)
 
 
-def narrow_sixth_octave():
-    return baca.RegisterCommand(
-        registration=baca.Registration(
-            [
-                baca.RegistrationComponent(
-                    abjad.PitchRange("[A0, F#4)"), abjad.NumberedPitch(22)
-                ),
-                baca.RegistrationComponent(
-                    abjad.PitchRange("[F#4, C8]"), abjad.NumberedPitch(25)
-                ),
-            ]
-        )
-    )
-
-
 def rose_pitches():
     rose_pitch_classes = [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]]
     rose_pitch_classes = baca.sequence.helianthate(rose_pitch_classes, -1, 1)
@@ -666,18 +574,6 @@ def rose_pitches():
     assert len(rose_pitch_classes) == 64
     rose_pitches = tuple(abjad.NamedPitch(_) for _ in rose_pitch_classes)
     return rose_pitches
-
-
-def sixth_octave():
-    return baca.RegisterCommand(
-        registration=baca.Registration(
-            [
-                baca.RegistrationComponent(
-                    abjad.PitchRange("[A0, C8)"), abjad.NumberedPitch(30)
-                )
-            ]
-        )
-    )
 
 
 def sixth_octave_function(argument):
@@ -842,21 +738,6 @@ def voice_abbreviations():
 
 def weiss_multiphonic(number):
     return abjad.Markup(rf'\baca-boxed-markup "W.{number}"')
-
-
-def wide_third_octave():
-    return baca.RegisterCommand(
-        registration=baca.Registration(
-            [
-                baca.RegistrationComponent(
-                    abjad.PitchRange("[A0, F#4)"), abjad.NumberedPitch(-20)
-                ),
-                baca.RegistrationComponent(
-                    abjad.PitchRange("[F#4, C8]"), abjad.NumberedPitch(-6)
-                ),
-            ]
-        )
-    )
 
 
 def wide_third_octave_function(argument):
