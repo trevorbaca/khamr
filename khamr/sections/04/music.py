@@ -1,4 +1,3 @@
-import abjad
 import baca
 from abjadext import rmakers
 
@@ -176,145 +175,98 @@ def CB(voice):
 
 
 def fl(m):
-    accumulator(
-        ("fl", (1, 15)),
-        baca.pitch("Bb4"),  # (sounds B3)
-    )
+    with baca.scope(m.get(1, 15)) as o:
+        baca.pitch_function(o, "Bb4")  # (sounds B3)
 
 
 def ob(m):
-    accumulator(
-        ("ob", (1, 15)),
-        baca.staff_position(0),
-    )
+    with baca.scope(m.get(1, 15)) as o:
+        baca.staff_position_function(o, 0)
 
 
 def cl(m):
-    accumulator(
-        ("cl", (1, 15)),
-        baca.pitch("G2"),
-    )
+    with baca.scope(m.get(1, 15)) as o:
+        baca.pitch_function(o, "G2")
 
 
 def sax(m):
-    accumulator(
-        ("sax", (1, 15)),
-        baca.staff_position(0),
-    )
+    with baca.scope(m.get(1, 15)) as o:
+        baca.staff_position_function(o, 0)
 
 
 def gt(m):
-    accumulator(
-        "gt",
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
-        baca.flageolet(selector=lambda _: baca.select.pheads(_)),
-        baca.pitch("C4"),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.accent_function(o.pheads())
+        baca.dynamic_function(o.phead(0), "mf")
+        baca.flageolet_function(o.pheads())
+        baca.pitch_function(o, "C4")
 
 
 def pf(m):
-    accumulator(
-        "pf",
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("A#4"),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.accent_function(o.pheads())
+        baca.dynamic_function(o.phead(0), "mf")
+        baca.pitch_function(o, "A#4")
 
 
 def perc(m):
-    accumulator(
-        ("perc", (1, 5)),
-        baca.hairpin(
-            "pp > ppp",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        ("perc", (8, 15)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
-            r"\baca-snare-drum-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        ("perc", (1, 15)),
-        baca.staff_position(0),
-    )
+    with baca.scope(m.get(1, 5)) as o:
+        baca.hairpin_function(o.tleaves(), "pp > ppp")
+        baca.stem_tremolo_function(o.pleaves())
+    with baca.scope(m.get(8, 15)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.markup_function(o.pleaf(0), r"\baca-snare-drum-markup")
+        baca.stem_tremolo_function(o.pleaves())
+    with baca.scope(m.get(1, 15)) as o:
+        baca.staff_position_function(o, 0)
 
 
 def vn(m):
-    accumulator(
-        ("vn", (1, 15)),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+    with baca.scope(m.get(1, 15)) as o:
+        baca.clef_function(o.leaf(0), "percussion")
 
 
 def va(m):
-    accumulator(
-        ("va", (1, 15)),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+    with baca.scope(m.get(1, 15)) as o:
+        baca.clef_function(o.leaf(0), "percussion")
 
 
 def vc(m):
-    accumulator(
-        ("vc", (1, 15)),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+    with baca.scope(m.get(1, 15)) as o:
+        baca.clef_function(o.leaf(0), "percussion")
 
 
 def cb(m):
-    accumulator(
-        ("cb", (1, 15)),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("cb", -1),
-        baca.literal(
+    with baca.scope(m.get(1, 15)) as o:
+        baca.clef_function(o.leaf(0), "percussion")
+    with baca.scope(m[20]) as o:
+        baca.literal_function(
+            o.leaf(0),
             [
                 r"\once \override Score.RehearsalMark.direction = #down",
                 r"\once \override Score.RehearsalMark.padding = 6",
                 r"\once \override Score.RehearsalMark.self-alignment-X = #right",
                 r"\mark \khamr-colophon-markup",
             ],
-            selector=lambda _: abjad.select.leaf(_, 0),
             site="after",
-        ),
-    )
+        )
 
 
 def composites(cache):
-    accumulator(
-        (["vn", "va", "vc", "cb"], (1, 15)),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_position(0),
-        baca.alternate_bow_strokes(
-            selector=lambda _: baca.select.pheads(_),
-        ),
-        baca.new(
-            baca.markup(r"\baca-bow-on-wooden-mute-markup"),
-            match=[0, 1],
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.new(
-            baca.markup(r"\baca-bow-on-tailpiece-markup"),
-            match=[2, 3],
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        (["vn", "va", "vc", "cb"], (1, 7)),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        (["vn", "va", "vc", "cb"], (8, 15)),
-        baca.hairpin("p > ppp"),
-    )
+    for name in ["vn", "va", "vc", "cb"]:
+        m = cache[name]
+        with baca.scope(m.get(1, 15)) as o:
+            baca.staff_lines_function(o.leaf(0), 1)
+            baca.staff_position_function(o, 0)
+            baca.alternate_bow_strokes_function(o.pheads())
+            if name in ("vn", "va"):
+                baca.markup_function(o.pleaf(0), r"\baca-bow-on-wooden-mute-markup")
+            if name in ("vc", "cb"):
+                baca.markup_function(o.pleaf(0), r"\baca-bow-on-tailpiece-markup")
+        with baca.scope(m.get(1, 7)) as o:
+            baca.dynamic_function(o.phead(0), "p")
+        with baca.scope(m.get(8, 15)) as o:
+            baca.hairpin_function(o, "p > ppp")
 
 
 def main():
@@ -361,7 +313,6 @@ if __name__ == "__main__":
         **defaults,
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         final_section=True,
         global_rests_in_topmost_staff=True,

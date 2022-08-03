@@ -270,130 +270,84 @@ def CB(voice):
     voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = [_ for _ in voice_names if "Music" in _]
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
 def fl(m):
-    accumulator(
-        ("fl", (1, 8)),
-        baca.hairpin(
-            "mp > pp",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-        baca.new(
-            baca.trill_spanner(),
-            map=lambda _: baca.select.qruns(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.pitch("Bb4"),
-    )
-    accumulator(
-        ("fl", (15, 30)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.instrument(
-            accumulator.instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.markup(
-            r"\baca-fluttertongue-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.pitch("B5"),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    )
+    with baca.scope(m.get(1, 8)) as o:
+        baca.hairpin_function(o.tleaves(), "mp > pp")
+        for qrun in baca.select.qruns(o):
+            qrun = baca.select.tleaves(qrun, rleak=True)
+            baca.trill_spanner_function(qrun)
+        baca.pitch_function(o, "Bb4")
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.instrument_function(
+            o.leaf(0), accumulator.instruments["Flute"], accumulator.manifests()
+        )
+        baca.markup_function(o.pleaf(0), r"\baca-fluttertongue-markup")
+        baca.pitch_function(o, "B5")
+        baca.stem_tremolo_function(o.pleaves())
 
 
-def ob(m):
-    accumulator(
-        ("ob", (1, 8)),
-        baca.flageolet(selector=lambda _: baca.select.pheads(_)),
-        baca.pitch("<A4 E5>"),
-    )
-    accumulator(
-        ("ob", (15, 30)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("G#3"),
-    )
+def ob(cache):
+    m = cache["ob"]
+    with baca.scope(m.get(1, 8)) as o:
+        baca.flageolet_function(o.pheads())
+        baca.pitch_function(o, "<A4 E5>")
+        cache.rebuild()
+        m = cache["ob"]
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.pitch_function(o, "G#3")
 
 
 def cl(m):
-    accumulator(
-        ("cl", (1, 14)),
-        baca.pitch("G2"),
-    )
-    accumulator(
-        ("cl", (15, 30)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("F#2"),
-    )
+    with baca.scope(m.get(1, 14)) as o:
+        baca.pitch_function(o, "G2")
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.pitch_function(o, "F#2")
 
 
 def sax(m):
-    accumulator(
-        ("sax", (1, 8)),
-        baca.pitch("<F3 G+3>"),
-    )
-    accumulator(
-        ("sax", (15, 30)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch(
-            "G#2",
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
+    with baca.scope(m.get(1, 8)) as o:
+        baca.pitch_function(o, "<F3 G+3>")
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.pitch_function(o, "G#2")
 
 
 def gt(m):
-    accumulator(
-        ("gt", (1, 4)),
-        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
-        baca.pitches(abjad.sequence.rotate(library.rose_pitches(), -16)),
-    )
-    accumulator(
-        ("gt", (5, 14)),
-        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("F#2"),
-        baca.markup(
-            r"\khamr-sparse-guitar-clicks", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-    )
-    accumulator(
-        ("gt", (15, 30)),
-        baca.dynamic("ff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("G2"),
-        baca.markup(
-            r"\khamr-guitar-with-screw", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-    )
+    with baca.scope(m.get(1, 4)) as o:
+        baca.note_head_style_cross_function(o.pleaves())
+        baca.pitches_function(o, abjad.sequence.rotate(library.rose_pitches(), -16))
+    with baca.scope(m.get(5, 14)) as o:
+        baca.dynamic_function(o.phead(0), "mf")
+        baca.pitch_function(o, "F#2")
+        baca.markup_function(o.pleaf(0), r"\khamr-sparse-guitar-clicks")
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "ff")
+        baca.pitch_function(o, "G2")
+        baca.markup_function(o.pleaf(0), r"\khamr-guitar-with-screw")
 
 
-def pf(m):
-    accumulator(
-        ("pf", (1, 14)),
-        baca.staff_position(0),
-    )
-    accumulator(
-        ("pf", (15, 20)),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.ottava_bassa(selector=lambda _: baca.select.tleaves(_)),
-        baca.pitch("<A0 B0 C1 D1 E1 F1 G1 A1>"),
-        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        ("pf", (21, 30)),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic("fff-ancora", selector=lambda _: baca.select.phead(_, 0)),
-        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
-        baca.pitches([_.invert() for _ in library.rose_pitches()]),
-        library.sixth_octave(),
-    )
+def pf(cache):
+    m = cache["pf"]
+    with baca.scope(m.get(1, 14)) as o:
+        baca.staff_position_function(o, 0)
+    with baca.scope(m.get(15, 20)) as o:
+        baca.clef_function(o.leaf(0), "bass")
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.ottava_bassa_function(o.tleaves())
+        baca.staff_lines_function(o.leaf(0), 5)
+        baca.stem_tremolo_function(o.pleaves())
+        baca.pitch_function(o, "<A0 B0 C1 D1 E1 F1 G1 A1>")
+        cache.rebuild()
+        m = cache["pf"]
+    with baca.scope(m.get(21, 30)) as o:
+        baca.clef_function(o.leaf(0), "treble")
+        baca.dynamic_function(o.phead(0), "fff-ancora")
+        baca.ottava_function(o.tleaves())
+        baca.pitches_function(o, [_.invert() for _ in library.rose_pitches()])
+        library.sixth_octave_function(o)
 
 
 def perc(m):
@@ -411,119 +365,80 @@ def perc(m):
 
 
 def vn(m):
-    accumulator(
-        ("vn", (1, 4)),
-        baca.pitches(library.color_trill_pitches("m2")),
-    )
-    accumulator(
-        ("vn", (5, 8)),
-        baca.pitches(library.color_trill_pitches("M2")),
-    )
-    accumulator(
-        ("vn", (9, 14)),
-        baca.pitches(library.color_trill_pitches("m3")),
-    )
-    accumulator(
-        ("vn", (1, 14)),
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.new(
-            baca.trill_spanner(alteration="m2"),
-            map=lambda _: baca.select.plts(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-    )
-    accumulator(
-        ("vn", (15, 30)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
-            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.pitch("A4"),
-    )
+    with baca.scope(m.get(1, 4)) as o:
+        baca.pitches_function(o, library.color_trill_pitches("m2"))
+    with baca.scope(m.get(5, 8)) as o:
+        baca.pitches_function(o, library.color_trill_pitches("M2"))
+    with baca.scope(m.get(9, 14)) as o:
+        baca.pitches_function(o, library.color_trill_pitches("m3"))
+    with baca.scope(m.get(1, 14)) as o:
+        baca.accent_function(o.pheads())
+        for plt in baca.select.plts(o):
+            plt = baca.select.tleaves(plt, rleak=True)
+            baca.trill_spanner_function(plt, alteration="m2")
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.markup_function(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.pitch_function(o, "A4")
 
 
 def va(m):
-    accumulator(
-        ("va", (1, 4)),
-        baca.pitches(library.color_trill_pitches()),
-    )
-    accumulator(
-        ("va", (5, 8)),
-        baca.pitches(library.color_trill_pitches("m2")),
-    )
-    accumulator(
-        ("va", (9, 14)),
-        baca.pitches(library.color_trill_pitches("M2")),
-    )
-    accumulator(
-        ("va", (1, 14)),
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.new(
-            baca.trill_spanner(alteration="m2"),
-            map=lambda _: baca.select.plts(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-    )
-    accumulator(
-        ("va", (15, 30)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
-            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.pitch("G#4"),
-    )
+    with baca.scope(m.get(1, 4)) as o:
+        baca.pitches_function(o, library.color_trill_pitches())
+    with baca.scope(m.get(5, 8)) as o:
+        baca.pitches_function(o, library.color_trill_pitches("m2"))
+    with baca.scope(m.get(9, 14)) as o:
+        baca.pitches_function(o, library.color_trill_pitches("M2"))
+    with baca.scope(m.get(1, 14)) as o:
+        baca.accent_function(o.pheads())
+        for plt in baca.select.plts(o):
+            plt = baca.select.tleaves(plt, rleak=True)
+            baca.trill_spanner_function(plt, alteration="m2")
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.markup_function(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.pitch_function(o, "G#4")
 
 
 def vc(m):
-    accumulator(
-        ("vc", (1, 8)),
-        baca.accent(selector=lambda _: baca.select.pheads(_)),
-        baca.new(
-            baca.trill_spanner(alteration="m2"),
-            map=lambda _: baca.select.plts(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.pitches(library.color_trill_pitches()),
-    )
-    accumulator(
-        ("vc", (9, 14)),
-        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("F#3"),
-        baca.markup(
-            r"\khamr-sparse-cello-clicks", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-    )
-    accumulator(
-        ("vc", (15, 30)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
-            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.pitch("G3"),
-    )
+    with baca.scope(m.get(1, 8)) as o:
+        baca.accent_function(o.pheads())
+        for plt in baca.select.plts(o):
+            plt = baca.select.tleaves(plt, rleak=True)
+            baca.trill_spanner_function(plt, alteration="m2")
+        baca.pitches_function(o, library.color_trill_pitches())
+    with baca.scope(m.get(9, 14)) as o:
+        baca.dynamic_function(o.phead(0), "mf")
+        baca.pitch_function(o, "F#3")
+        baca.markup_function(o.pleaf(0), r"\khamr-sparse-cello-clicks")
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.markup_function(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.pitch_function(o, "G3")
 
 
-def cb(m):
-    accumulator(
-        ("cb", (1, 14)),
-        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitches(library.double_stop_halo_pitches()),
-        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
-        baca.markup(
+def cb(cache):
+    m = cache["cb"]
+    with baca.scope(m.get(1, 14)) as o:
+        baca.pitches_function(o, library.double_stop_halo_pitches())
+        cache.rebuild()
+        m = cache["cb"]
+    with baca.scope(m.get(1, 14)) as o:
+        baca.dynamic_function(o.phead(0), "mf")
+        baca.glissando_function(o.tleaves())
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-strings-iii-plus-iv-markup",
             direction=abjad.DOWN,
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        ("cb", (15, 30)),
-        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
-            r"\baca-arco-ordinario-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.pitch("<G0 A1>"),
-    )
+        )
+        baca.note_head_style_harmonic_function(o.pleaves())
+    with baca.scope(m.get(15, 30)) as o:
+        baca.pitch_function(o, "<G0 A1>")
+        cache.rebuild()
+        m = cache["cb"]
+    with baca.scope(m.get(15, 30)) as o:
+        baca.dynamic_function(o.phead(0), "fff")
+        baca.markup_function(o.pleaf(0), r"\baca-arco-ordinario-markup")
 
 
 def main():
@@ -546,16 +461,16 @@ def main():
         accumulator.voice_abbreviations,
     )
     fl(cache["fl"])
-    ob(cache["ob"])
+    ob(cache)
     cl(cache["cl"])
     sax(cache["sax"])
     gt(cache["gt"])
-    pf(cache["pf"])
+    pf(cache)
     perc(cache["perc"])
     vn(cache["vn"])
     va(cache["va"])
     vc(cache["vc"])
-    cb(cache["cb"])
+    cb(cache)
 
 
 if __name__ == "__main__":
@@ -567,7 +482,6 @@ if __name__ == "__main__":
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         transpose_score=True,
