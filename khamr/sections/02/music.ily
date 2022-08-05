@@ -5022,8 +5022,7 @@ number.2.Piano.Music = {
         % BEFORE:
         % COMMANDS:
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
-          %! baca.ottava_function()
+          %! baca._do_spanner_indicator_command(2)
         \ottava 1
           %! khamr.make_current_rhythm()
         cf''''!8
@@ -5456,8 +5455,7 @@ number.2.Piano.Music = {
     ]
     % COMMANDS:
       %! SPANNER_STOP
-      %! baca._attach_start_stop_indicators(4)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(4)
     \ottava 0
     % CLOSING:
     % COMMANDS:

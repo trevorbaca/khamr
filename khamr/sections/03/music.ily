@@ -15936,8 +15936,7 @@ number.3.Piano.Music = {
     % BEFORE:
     % COMMANDS:
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
-      %! baca.ottava_function()
+      %! baca._do_spanner_indicator_command(2)
     \ottava 1
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \khamr-pf-markup
@@ -17144,8 +17143,7 @@ number.3.Piano.Music = {
         ]
         % COMMANDS:
           %! SPANNER_STOP
-          %! baca._attach_start_stop_indicators(4)
-          %! baca.ottava_function()
+          %! baca._do_spanner_indicator_command(4)
         \ottava 0
         % CLOSING:
         % COMMANDS:
