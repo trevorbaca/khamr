@@ -24441,7 +24441,7 @@ number.3.Contrabass.Music = {
     % OPENING:
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \pitchedTrill
     g,,2.
@@ -24469,11 +24469,11 @@ number.3.Contrabass.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
       %! SPANNER_START
-      %! baca._attach_start_stop_indicators(2)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \startTrillSpan f
     % ABSOLUTE_BEFORE:
@@ -24562,7 +24562,7 @@ number.3.Contrabass.Music = {
     % AFTER:
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._attach_start_stop_indicators(4)
+      %! baca._do_spanner_indicator_command(4)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % CLOSING:
