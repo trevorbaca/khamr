@@ -8621,8 +8621,7 @@ number.1.Piano.Music = {
           %! baca.clef_extra_offset_function(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! SPANNER_START
-          %! baca._attach_start_stop_indicators(2)
-          %! baca.ottava_function()
+          %! baca._do_spanner_indicator_command(2)
         \ottava 1
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
@@ -9558,8 +9557,7 @@ number.1.Piano.Music = {
         % AFTER:
         % COMMANDS:
           %! SPANNER_STOP
-          %! baca._attach_start_stop_indicators(4)
-          %! baca.ottava_function()
+          %! baca._do_spanner_indicator_command(4)
         \ottava 0
         % ABSOLUTE_BEFORE:
         % COMMANDS:
