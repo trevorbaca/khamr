@@ -523,6 +523,7 @@ def cb(m):
         baca.instrument_function(
             o.leaf(0),
             accumulator.instruments["Contrabass"],
+            accumulator.manifests(),
         )
         baca.instrument_name_function(o.leaf(0), r"\khamr-contrabass-markup")
         library.short_instrument_name_function(
