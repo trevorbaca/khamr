@@ -3232,7 +3232,7 @@ number.1.Flute.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -3289,7 +3289,7 @@ number.1.Flute.Music = {
     % AFTER:
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % ABSOLUTE_BEFORE:
@@ -3304,7 +3304,7 @@ number.1.Flute.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
@@ -3352,7 +3352,7 @@ number.1.Flute.Music = {
     % AFTER:
     % SPANNER_STOPS:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.trill_spanner_function()
     \stopTrillSpan
     % CLOSING:
@@ -8621,7 +8621,7 @@ number.1.Piano.Music = {
           %! baca.clef_extra_offset_function(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
         \ottava 1
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
@@ -9557,7 +9557,7 @@ number.1.Piano.Music = {
         % AFTER:
         % COMMANDS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
         \ottava 0
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12420,7 +12420,7 @@ number.1.Violin.Music = {
     % OPENING:
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \pitchedTrill
       %! khamr.make_trill_tuplets()
@@ -12451,7 +12451,7 @@ number.1.Violin.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
@@ -12476,7 +12476,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -12487,7 +12487,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -12497,7 +12497,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan g'
         % CLOSING:
@@ -12547,7 +12547,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -12558,7 +12558,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -12571,7 +12571,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gqf'
         % CLOSING:
@@ -12617,7 +12617,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -12628,7 +12628,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -12641,7 +12641,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gf'
         % CLOSING:
@@ -12686,7 +12686,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -12697,7 +12697,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -12707,7 +12707,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gqf'
         % CLOSING:
@@ -12764,7 +12764,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -12775,7 +12775,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -12785,7 +12785,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gf'
         % CLOSING:
@@ -12840,7 +12840,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -12851,7 +12851,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -12861,7 +12861,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan f'
         % CLOSING:
@@ -12909,7 +12909,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -12920,7 +12920,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -12933,7 +12933,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan fqs'
         % CLOSING:
@@ -12981,7 +12981,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -12992,7 +12992,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -13005,7 +13005,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan f'
         % CLOSING:
@@ -13062,7 +13062,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -13073,7 +13073,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -13083,7 +13083,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan fqs'
         % CLOSING:
@@ -13138,7 +13138,7 @@ number.1.Violin.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -13149,7 +13149,7 @@ number.1.Violin.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -13159,7 +13159,7 @@ number.1.Violin.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gf'
         % CLOSING:
@@ -13239,7 +13239,7 @@ number.1.Violin.Music = {
     % SPANNER_STOPS:
       %! ANCHOR_NOTE
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
       %! baca.trill_spanner_function()
     \stopTrillSpan
@@ -14898,7 +14898,7 @@ number.1.Viola.Music = {
     % OPENING:
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \pitchedTrill
       %! khamr.make_trill_tuplets()
@@ -14929,7 +14929,7 @@ number.1.Viola.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
@@ -14956,7 +14956,7 @@ number.1.Viola.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -14967,7 +14967,7 @@ number.1.Viola.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -14977,7 +14977,7 @@ number.1.Viola.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan g'
         % CLOSING:
@@ -15037,7 +15037,7 @@ number.1.Viola.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -15048,7 +15048,7 @@ number.1.Viola.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -15061,7 +15061,7 @@ number.1.Viola.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gqf'
         % CLOSING:
@@ -15109,7 +15109,7 @@ number.1.Viola.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -15120,7 +15120,7 @@ number.1.Viola.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -15133,7 +15133,7 @@ number.1.Viola.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gf'
         % CLOSING:
@@ -15190,7 +15190,7 @@ number.1.Viola.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -15201,7 +15201,7 @@ number.1.Viola.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -15211,7 +15211,7 @@ number.1.Viola.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gqf'
         % CLOSING:
@@ -15268,7 +15268,7 @@ number.1.Viola.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -15279,7 +15279,7 @@ number.1.Viola.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -15289,7 +15289,7 @@ number.1.Viola.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gf'
         % CLOSING:
@@ -15346,7 +15346,7 @@ number.1.Viola.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -15357,7 +15357,7 @@ number.1.Viola.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -15367,7 +15367,7 @@ number.1.Viola.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan f'
         % CLOSING:
@@ -15427,7 +15427,7 @@ number.1.Viola.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -15438,7 +15438,7 @@ number.1.Viola.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -15451,7 +15451,7 @@ number.1.Viola.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan fqs'
         % CLOSING:
@@ -15531,7 +15531,7 @@ number.1.Viola.Music = {
     % SPANNER_STOPS:
       %! ANCHOR_NOTE
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
       %! baca.trill_spanner_function()
     \stopTrillSpan
@@ -17226,7 +17226,7 @@ number.1.Cello.Music = {
     % OPENING:
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \pitchedTrill
       %! khamr.make_trill_tuplets()
@@ -17257,7 +17257,7 @@ number.1.Cello.Music = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca._do_spanner_indicator_command(2)
+      %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner_function()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
@@ -17296,7 +17296,7 @@ number.1.Cello.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -17307,7 +17307,7 @@ number.1.Cello.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -17317,7 +17317,7 @@ number.1.Cello.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan g'
         % CLOSING:
@@ -17365,7 +17365,7 @@ number.1.Cello.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -17376,7 +17376,7 @@ number.1.Cello.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -17389,7 +17389,7 @@ number.1.Cello.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gqf'
         % CLOSING:
@@ -17463,7 +17463,7 @@ number.1.Cello.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -17474,7 +17474,7 @@ number.1.Cello.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % STOP_BEAM:
@@ -17487,7 +17487,7 @@ number.1.Cello.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gf'
         % CLOSING:
@@ -17544,7 +17544,7 @@ number.1.Cello.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -17555,7 +17555,7 @@ number.1.Cello.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -17565,7 +17565,7 @@ number.1.Cello.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gqf'
         % CLOSING:
@@ -17622,7 +17622,7 @@ number.1.Cello.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -17633,7 +17633,7 @@ number.1.Cello.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -17643,7 +17643,7 @@ number.1.Cello.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan gf'
         % CLOSING:
@@ -17688,7 +17688,7 @@ number.1.Cello.Music = {
         % OPENING:
         % PITCHED_TRILL:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \pitchedTrill
           %! khamr.make_trill_tuplets()
@@ -17699,7 +17699,7 @@ number.1.Cello.Music = {
         - \accent
         % SPANNER_STOPS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
           %! baca.trill_spanner_function()
         \stopTrillSpan
         % SPANNER_STARTS:
@@ -17709,7 +17709,7 @@ number.1.Cello.Music = {
         ~
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner_function()
         \startTrillSpan f'
         % CLOSING:
@@ -17789,7 +17789,7 @@ number.1.Cello.Music = {
     % SPANNER_STOPS:
       %! ANCHOR_NOTE
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
       %! baca.trill_spanner_function()
     \stopTrillSpan
