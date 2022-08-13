@@ -88,32 +88,24 @@ def halo_hairpins_function(argument):
 
 
 def instruments():
-    return dict(
-        [
-            ("BaritoneSaxophone", abjad.BaritoneSaxophone()),
-            ("BassClarinet", abjad.BassClarinet()),
-            ("BassFlute", abjad.BassFlute()),
-            ("Cello", abjad.Cello()),
-            ("Clarinet", abjad.ClarinetInBFlat()),
-            (
-                "Contrabass",
-                abjad.Contrabass(pitch_range=abjad.PitchRange("[G0, +inf]")),
-            ),
-            ("EnglishHorn", abjad.EnglishHorn()),
-            ("Flute", abjad.Flute()),
-            ("Guitar", abjad.Guitar()),
-            ("Oboe", abjad.Oboe()),
-            (
-                "Percussion",
-                abjad.Percussion(clefs=("percussion", "treble")),
-            ),
-            ("Piano", abjad.Piano(context="Staff")),
-            ("Piccolo", abjad.Piccolo()),
-            ("SopraninoSaxophone", abjad.SopraninoSaxophone()),
-            ("Viola", abjad.Viola()),
-            ("Violin", abjad.Violin()),
-        ]
-    )
+    return {
+        "BaritoneSaxophone": abjad.BaritoneSaxophone(),
+        "BassClarinet": abjad.BassClarinet(),
+        "BassFlute": abjad.BassFlute(),
+        "Cello": abjad.Cello(),
+        "Clarinet": abjad.ClarinetInBFlat(),
+        "Contrabass": abjad.Contrabass(pitch_range=abjad.PitchRange("[G0, +inf]")),
+        "EnglishHorn": abjad.EnglishHorn(),
+        "Flute": abjad.Flute(),
+        "Guitar": abjad.Guitar(),
+        "Oboe": abjad.Oboe(),
+        "Percussion": abjad.Percussion(clefs=("percussion", "treble")),
+        "Piano": abjad.Piano(context="Staff"),
+        "Piccolo": abjad.Piccolo(),
+        "SopraninoSaxophone": abjad.SopraninoSaxophone(),
+        "Viola": abjad.Viola(),
+        "Violin": abjad.Violin(),
+    }
 
 
 def make_alternate_divisions(time_signatures, detach_ties=None):
@@ -543,15 +535,13 @@ def short_instrument_names():
 
 
 def metronome_marks():
-    return dict(
-        [
-            ("32", abjad.MetronomeMark((1, 4), 32)),
-            ("42", abjad.MetronomeMark((1, 4), 42)),
-            ("63", abjad.MetronomeMark((1, 4), 63)),
-            ("84", abjad.MetronomeMark((1, 4), 84)),
-            ("126", abjad.MetronomeMark((1, 4), 126)),
-        ]
-    )
+    return {
+        "32": abjad.MetronomeMark((1, 4), 32),
+        "42": abjad.MetronomeMark((1, 4), 42),
+        "63": abjad.MetronomeMark((1, 4), 63),
+        "84": abjad.MetronomeMark((1, 4), 84),
+        "126": abjad.MetronomeMark((1, 4), 126),
+    }
 
 
 def narrow_fourth_octave_function(argument):
