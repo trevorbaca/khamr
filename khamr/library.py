@@ -502,17 +502,6 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *commands):
     return music
 
 
-def short_instrument_name_function(argument, key, manifests, *, context="Staff"):
-    _short_instrument_names = short_instrument_names()
-    short_instrument_name = _short_instrument_names[key]
-    baca.short_instrument_name_function(
-        argument,
-        short_instrument_name,
-        manifests,
-        context=context,
-    )
-
-
 def short_instrument_names():
     return {
         "B. cl.": abjad.ShortInstrumentName(r"\khamr-bcl-markup"),
