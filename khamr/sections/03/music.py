@@ -292,9 +292,7 @@ def ob(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.pitch_function(o, "G#3")
     with baca.scope(m.get(10, 29)) as o:
-        baca.instrument_function(
-            o.leaf(0), accumulator.instruments["Oboe"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Oboe", accumulator.manifests())
         baca.accent_function(leaf_in_each_top_tuplet(o, 0))
         baca.dynamic_function(o.phead(0), "fff-ancora")
         baca.pitches_function(o, "C6 C#6 D#6 E6 F6 F#6")
@@ -310,16 +308,12 @@ def cl(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.pitch_function(o, "F#2")
     with baca.scope(m.get(10, 29)) as o:
-        baca.instrument_function(
-            o.leaf(0), accumulator.instruments["Clarinet"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Clarinet", accumulator.manifests())
         baca.accent_function(leaf_in_each_top_tuplet(o, 0))
         baca.dynamic_function(o.phead(0), "fff-ancora")
         baca.pitches_function(o, "D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6")
     with baca.scope(m.get(32, 37)) as o:
-        baca.instrument_function(
-            o.leaf(0), accumulator.instruments["BassClarinet"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "BassClarinet", accumulator.manifests())
         baca.dynamic_function(o.phead(0), "ppp")
         baca.pitch_function(o, "G2")
 
@@ -329,9 +323,7 @@ def sax(m):
         baca.pitch_function(o, "G#2")
     with baca.scope(m.get(10, 29)) as o:
         baca.instrument_function(
-            o.leaf(0),
-            accumulator.instruments["SopraninoSaxophone"],
-            accumulator.manifests(),
+            o.leaf(0), "SopraninoSaxophone", accumulator.manifests()
         )
         baca.accent_function(leaf_in_each_top_tuplet(o, 0))
         baca.dynamic_function(o.phead(0), "fff-ancora")

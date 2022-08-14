@@ -279,9 +279,7 @@ def fl(m):
         baca.pitch_function(o, "Bb4")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic_function(o.phead(0), "fff")
-        baca.instrument_function(
-            o.leaf(0), accumulator.instruments["Flute"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Flute", accumulator.manifests())
         baca.markup_function(o.pleaf(0), r"\baca-fluttertongue-markup")
         baca.pitch_function(o, "B5")
         baca.stem_tremolo_function(o.pleaves())
