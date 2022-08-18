@@ -20,9 +20,9 @@ score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
+    instruments=library.instruments,
+    short_instrument_names=library.short_instrument_names,
+    metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[:30],
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -31,7 +31,7 @@ accumulator = baca.CommandAccumulator(
 baca.interpret.set_up_score(
     score,
     accumulator,
-    accumulator.manifests(),
+    library.manifests,
     accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
@@ -40,7 +40,7 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = accumulator.manifests()
+manifests = library.manifests
 
 for index, item in (
     (1 - 1, "42"),
@@ -278,7 +278,7 @@ def fl(m):
         baca.pitch_function(o, "Bb4")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic_function(o.phead(0), "fff")
-        baca.instrument_function(o.leaf(0), "Flute", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Flute", library.manifests)
         baca.markup_function(o.pleaf(0), r"\baca-fluttertongue-markup")
         baca.pitch_function(o, "B5")
         baca.stem_tremolo_function(o.pleaves())
@@ -454,7 +454,7 @@ def main():
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
-        accumulator.manifests(),
+        library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.interpret.cache_leaves(
@@ -479,7 +479,7 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),

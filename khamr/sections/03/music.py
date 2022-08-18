@@ -24,9 +24,9 @@ score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
+    instruments=library.instruments,
+    short_instrument_names=library.short_instrument_names,
+    metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[:37],
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -35,7 +35,7 @@ accumulator = baca.CommandAccumulator(
 baca.interpret.set_up_score(
     score,
     accumulator,
-    accumulator.manifests(),
+    library.manifests,
     accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
@@ -44,7 +44,7 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = accumulator.manifests()
+manifests = library.manifests
 
 for index, item in (
     (5 - 1, "63"),
@@ -291,7 +291,7 @@ def ob(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.pitch_function(o, "G#3")
     with baca.scope(m.get(10, 29)) as o:
-        baca.instrument_function(o.leaf(0), "Oboe", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Oboe", library.manifests)
         baca.accent_function(leaf_in_each_top_tuplet(o, 0))
         baca.dynamic_function(o.phead(0), "fff-ancora")
         baca.pitches_function(o, "C6 C#6 D#6 E6 F6 F#6")
@@ -307,12 +307,12 @@ def cl(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.pitch_function(o, "F#2")
     with baca.scope(m.get(10, 29)) as o:
-        baca.instrument_function(o.leaf(0), "Clarinet", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Clarinet", library.manifests)
         baca.accent_function(leaf_in_each_top_tuplet(o, 0))
         baca.dynamic_function(o.phead(0), "fff-ancora")
         baca.pitches_function(o, "D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6")
     with baca.scope(m.get(32, 37)) as o:
-        baca.instrument_function(o.leaf(0), "BassClarinet", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "BassClarinet", library.manifests)
         baca.dynamic_function(o.phead(0), "ppp")
         baca.pitch_function(o, "G2")
 
@@ -321,9 +321,7 @@ def sax(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.pitch_function(o, "G#2")
     with baca.scope(m.get(10, 29)) as o:
-        baca.instrument_function(
-            o.leaf(0), "SopraninoSaxophone", accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "SopraninoSaxophone", library.manifests)
         baca.accent_function(leaf_in_each_top_tuplet(o, 0))
         baca.dynamic_function(o.phead(0), "fff-ancora")
         baca.pitches_function(o, "C6 C#6 D6 F6 F#6 D#6 E6")
@@ -449,7 +447,7 @@ def main():
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
-        accumulator.manifests(),
+        library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.interpret.cache_leaves(
@@ -472,7 +470,7 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
