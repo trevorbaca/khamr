@@ -648,22 +648,6 @@ def violin_halo_pitches():
     return violin_halo_pitches
 
 
-def voice_abbreviations():
-    return {
-        "fl": "Flute.Music",
-        "ob": "Oboe.Music",
-        "cl": "Clarinet.Music",
-        "sax": "Saxophone.Music",
-        "pf": "Piano.Music",
-        "perc": "Percussion.Music",
-        "gt": "Guitar.Music",
-        "vn": "Violin.Music",
-        "va": "Viola.Music",
-        "vc": "Cello.Music",
-        "cb": "Contrabass.Music",
-    }
-
-
 def weiss_multiphonic(number):
     return abjad.Markup(rf'\baca-boxed-markup "W.{number}"')
 
@@ -735,4 +719,19 @@ manifests = {
     "abjad.Instrument": instruments,
     "abjad.MetronomeMark": metronome_marks,
     "abjad.ShortInstrumentName": short_instrument_names,
+}
+
+
+voice_abbreviations = {
+    "fl": "Flute.Music",
+    "ob": "Oboe.Music",
+    "cl": "Clarinet.Music",
+    "sax": "Saxophone.Music",
+    "pf": "Piano.Music",
+    "perc": "Percussion.Music",
+    "gt": "Guitar.Music",
+    "vn": "Violin.Music",
+    "va": "Viola.Music",
+    "vc": "Cello.Music",
+    "cb": "Contrabass.Music",
 }
