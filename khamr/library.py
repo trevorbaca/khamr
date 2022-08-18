@@ -87,27 +87,6 @@ def halo_hairpins_function(argument):
         baca.hairpin_function(plt, string, remove_length_1_spanner_start=True)
 
 
-def instruments():
-    return {
-        "BaritoneSaxophone": abjad.BaritoneSaxophone(),
-        "BassClarinet": abjad.BassClarinet(),
-        "BassFlute": abjad.BassFlute(),
-        "Cello": abjad.Cello(),
-        "Clarinet": abjad.ClarinetInBFlat(),
-        "Contrabass": abjad.Contrabass(pitch_range=abjad.PitchRange("[G0, +inf]")),
-        "EnglishHorn": abjad.EnglishHorn(),
-        "Flute": abjad.Flute(),
-        "Guitar": abjad.Guitar(),
-        "Oboe": abjad.Oboe(),
-        "Percussion": abjad.Percussion(clefs=("percussion", "treble")),
-        "Piano": abjad.Piano(context="Staff"),
-        "Piccolo": abjad.Piccolo(),
-        "SopraninoSaxophone": abjad.SopraninoSaxophone(),
-        "Viola": abjad.Viola(),
-        "Violin": abjad.Violin(),
-    }
-
-
 def make_alternate_divisions(time_signatures, detach_ties=None):
     commands = []
     if detach_ties is True:
@@ -502,37 +481,6 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *commands):
     return music
 
 
-def short_instrument_names():
-    return {
-        "B. cl.": abjad.ShortInstrumentName(r"\khamr-bcl-markup"),
-        "Bar. sax.": abjad.ShortInstrumentName(r"\khamr-bar-sax-markup"),
-        "B. fl.": abjad.ShortInstrumentName(r"\khamr-bfl-markup"),
-        "Cb.": abjad.ShortInstrumentName(r"\khamr-cb-markup"),
-        "Cl.": abjad.ShortInstrumentName(r"\khamr-cl-markup"),
-        "Eng. hn.": abjad.ShortInstrumentName(r"\khamr-eng-hn-markup"),
-        "Fl.": abjad.ShortInstrumentName(r"\khamr-fl-markup"),
-        "Gt.": abjad.ShortInstrumentName(r"\khamr-gt-markup"),
-        "Ob.": abjad.ShortInstrumentName(r"\khamr-ob-markup"),
-        "Perc.": abjad.ShortInstrumentName(r"\khamr-perc-markup"),
-        "Pf.": abjad.ShortInstrumentName(r"\khamr-pf-markup"),
-        "Picc.": abjad.ShortInstrumentName(r"\khamr-picc-markup"),
-        "Spnino. sax.": abjad.ShortInstrumentName(r"\khamr-spnino-sax-markup"),
-        "Va.": abjad.ShortInstrumentName(r"\khamr-va-markup"),
-        "Vc.": abjad.ShortInstrumentName(r"\khamr-vc-markup"),
-        "Vn.": abjad.ShortInstrumentName(r"\khamr-vn-markup"),
-    }
-
-
-def metronome_marks():
-    return {
-        "32": abjad.MetronomeMark((1, 4), 32),
-        "42": abjad.MetronomeMark((1, 4), 42),
-        "63": abjad.MetronomeMark((1, 4), 63),
-        "84": abjad.MetronomeMark((1, 4), 84),
-        "126": abjad.MetronomeMark((1, 4), 126),
-    }
-
-
 def narrow_fourth_octave_function(argument):
     registration = baca.Registration(
         [
@@ -732,3 +680,59 @@ def wide_third_octave_function(argument):
         ]
     )
     baca.pitchcommands._do_register_command(argument, registration)
+
+
+instruments = {
+    "BaritoneSaxophone": abjad.BaritoneSaxophone(),
+    "BassClarinet": abjad.BassClarinet(),
+    "BassFlute": abjad.BassFlute(),
+    "Cello": abjad.Cello(),
+    "Clarinet": abjad.ClarinetInBFlat(),
+    "Contrabass": abjad.Contrabass(pitch_range=abjad.PitchRange("[G0, +inf]")),
+    "EnglishHorn": abjad.EnglishHorn(),
+    "Flute": abjad.Flute(),
+    "Guitar": abjad.Guitar(),
+    "Oboe": abjad.Oboe(),
+    "Percussion": abjad.Percussion(clefs=("percussion", "treble")),
+    "Piano": abjad.Piano(context="Staff"),
+    "Piccolo": abjad.Piccolo(),
+    "SopraninoSaxophone": abjad.SopraninoSaxophone(),
+    "Viola": abjad.Viola(),
+    "Violin": abjad.Violin(),
+}
+
+
+metronome_marks = {
+    "32": abjad.MetronomeMark((1, 4), 32),
+    "42": abjad.MetronomeMark((1, 4), 42),
+    "63": abjad.MetronomeMark((1, 4), 63),
+    "84": abjad.MetronomeMark((1, 4), 84),
+    "126": abjad.MetronomeMark((1, 4), 126),
+}
+
+
+short_instrument_names = {
+    "B. cl.": abjad.ShortInstrumentName(r"\khamr-bcl-markup"),
+    "Bar. sax.": abjad.ShortInstrumentName(r"\khamr-bar-sax-markup"),
+    "B. fl.": abjad.ShortInstrumentName(r"\khamr-bfl-markup"),
+    "Cb.": abjad.ShortInstrumentName(r"\khamr-cb-markup"),
+    "Cl.": abjad.ShortInstrumentName(r"\khamr-cl-markup"),
+    "Eng. hn.": abjad.ShortInstrumentName(r"\khamr-eng-hn-markup"),
+    "Fl.": abjad.ShortInstrumentName(r"\khamr-fl-markup"),
+    "Gt.": abjad.ShortInstrumentName(r"\khamr-gt-markup"),
+    "Ob.": abjad.ShortInstrumentName(r"\khamr-ob-markup"),
+    "Perc.": abjad.ShortInstrumentName(r"\khamr-perc-markup"),
+    "Pf.": abjad.ShortInstrumentName(r"\khamr-pf-markup"),
+    "Picc.": abjad.ShortInstrumentName(r"\khamr-picc-markup"),
+    "Spnino. sax.": abjad.ShortInstrumentName(r"\khamr-spnino-sax-markup"),
+    "Va.": abjad.ShortInstrumentName(r"\khamr-va-markup"),
+    "Vc.": abjad.ShortInstrumentName(r"\khamr-vc-markup"),
+    "Vn.": abjad.ShortInstrumentName(r"\khamr-vn-markup"),
+}
+
+
+manifests = {
+    "abjad.Instrument": instruments,
+    "abjad.MetronomeMark": metronome_marks,
+    "abjad.ShortInstrumentName": short_instrument_names,
+}

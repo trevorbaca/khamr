@@ -22,9 +22,9 @@ score = music = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
+    instruments=library.instruments,
+    short_instrument_names=library.short_instrument_names,
+    metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[:44],
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -33,7 +33,7 @@ accumulator = baca.CommandAccumulator(
 baca.interpret.set_up_score(
     score,
     accumulator,
-    accumulator.manifests(),
+    library.manifests,
     accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
@@ -42,7 +42,7 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = accumulator.manifests()
+manifests = library.manifests
 
 for index, item in (
     (1 - 1, "126"),
@@ -232,11 +232,9 @@ def CB(voice):
 def fl(cache):
     m = cache["fl"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "BassFlute", accumulator.manifests()),
+        baca.instrument_function(o.leaf(0), "BassFlute", library.manifests),
         baca.instrument_name_function(o.leaf(0), r"\khamr-bass-flute-markup")
-        baca.short_instrument_name_function(
-            o.leaf(0), "B. fl.", accumulator.manifests()
-        )
+        baca.short_instrument_name_function(o.leaf(0), "B. fl.", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
     with baca.scope(m.get(1, 16)) as o:
         baca.pitch_function(o, "<G3 G4>")
@@ -262,11 +260,9 @@ def fl(cache):
 def ob(cache):
     m = cache["ob"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "EnglishHorn", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "EnglishHorn", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\khamr-english-horn-markup")
-        baca.short_instrument_name_function(
-            o.leaf(0), "Eng. hn.", accumulator.manifests()
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Eng. hn.", library.manifests)
         baca.clef_function(o.leaf(0), "percussion")
     with baca.scope(m.get(1, 36)) as o:
         baca.dynamic_function(o.phead(0), "p")
@@ -287,11 +283,9 @@ def ob(cache):
 
 def cl(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "BassClarinet", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "BassClarinet", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\khamr-bass-clarinet-markup")
-        baca.short_instrument_name_function(
-            o.leaf(0), "B. cl.", accumulator.manifests()
-        )
+        baca.short_instrument_name_function(o.leaf(0), "B. cl.", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         baca.dynamic_function(o.phead(0), "pp")
         baca.pitch_function(o, "A2")
@@ -300,16 +294,12 @@ def cl(m):
 def sax(cache):
     m = cache["sax"]
     with baca.scope(m.get(1, 36)) as o:
-        baca.instrument_function(
-            o.leaf(0), "BaritoneSaxophone", accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "BaritoneSaxophone", library.manifests)
         baca.instrument_name_function(
             o.leaf(0),
             r"\khamr-baritone-saxophone-markup",
         )
-        baca.short_instrument_name_function(
-            o.leaf(0), "Bar. sax.", accumulator.manifests()
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Bar. sax.", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         baca.dynamic_function(o.phead(0), "pp")
         baca.pitch_function(o, "G3")
@@ -328,9 +318,9 @@ def sax(cache):
 
 def gt(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Guitar", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Guitar", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\khamr-guitar-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Gt.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Gt.", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
     with baca.scope(m.get(1, 24)) as o:
         baca.dynamic_function(o.phead(0), "f")
@@ -349,9 +339,9 @@ def gt(m):
 
 def pf(m):
     with baca.scope(m.get(1, 24)) as o:
-        baca.instrument_function(o.leaf(0), "Piano", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Piano", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\khamr-piano-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Pf.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Pf.", library.manifests)
         baca.clef_function(o.leaf(0), "percussion")
     with baca.scope(m.get(25, 40)) as o:
         baca.pitches_function(o, library.rose_pitches())
@@ -387,10 +377,10 @@ def perc(m):
         baca.instrument_function(
             o.leaf(0),
             "Percussion",
-            accumulator.manifests(),
+            library.manifests,
         )
         baca.instrument_name_function(o.leaf(0), r"\khamr-percussion-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Perc.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Perc.", library.manifests)
         baca.clef_function(o.leaf(0), "percussion")
         baca.accent_function(o.pheads())
         baca.dynamic_function(o.phead(0), "mp")
@@ -403,9 +393,9 @@ def perc(m):
 
 def vn(m):
     with baca.scope(m.get(1, 36)) as o:
-        baca.instrument_function(o.leaf(0), "Violin", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Violin", library.manifests)
         baca.instrument_name_function(o.leaf(0), r"\khamr-violin-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Vn.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Vn.", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         baca.pitches_function(o, library.violin_halo_pitches())
         baca.glissando_function(o.tleaves())
@@ -429,9 +419,9 @@ def vn(m):
 
 def va(m):
     with baca.scope(m.get(1, 36)) as o:
-        baca.instrument_function(o.leaf(0), "Viola", accumulator.manifests()),
+        baca.instrument_function(o.leaf(0), "Viola", library.manifests),
         baca.instrument_name_function(o.leaf(0), r"\khamr-viola-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Va.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Va.", library.manifests)
         baca.clef_function(o.leaf(0), "alto")
         baca.pitches_function(o, library.violin_halo_pitches())
         baca.glissando_function(o.tleaves())
@@ -455,9 +445,9 @@ def va(m):
 
 def vc(m):
     with baca.scope(m.get(1, 36)) as o:
-        baca.instrument_function(o.leaf(0), "Cello", accumulator.manifests()),
+        baca.instrument_function(o.leaf(0), "Cello", library.manifests),
         baca.instrument_name_function(o.leaf(0), r"\khamr-cello-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Vc.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Vc.", library.manifests)
         baca.clef_function(o.leaf(0), "bass")
         baca.pitches_function(o, library.cello_halo_pitches())
         baca.glissando_function(o.tleaves())
@@ -484,10 +474,10 @@ def cb(m):
         baca.instrument_function(
             o.leaf(0),
             "Contrabass",
-            accumulator.manifests(),
+            library.manifests,
         )
         baca.instrument_name_function(o.leaf(0), r"\khamr-contrabass-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Cb.", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Cb.", library.manifests)
         baca.clef_function(o.leaf(0), "bass")
         baca.dynamic_function(o.phead(0), "f")
         baca.pitches_function(o, library.contrabass_halo_pitches())
@@ -548,7 +538,7 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
