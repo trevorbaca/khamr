@@ -18,9 +18,9 @@ accumulator = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    library.manifests,
     accumulator.time_signatures,
     accumulator,
+    library.manifests,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
 )
