@@ -8,14 +8,6 @@ from khamr import library
 ########################################### 02 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[A.1]", 1),
-    ("[A.2]", 5),
-    ("[A.3]", 9),
-    ("[A.4]", 15),
-    ("[A.5]", 21),
-)
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -33,11 +25,18 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
-manifests = library.manifests
+
+stage_markup = (
+    ("[A.1]", 1),
+    ("[A.2]", 5),
+    ("[A.3]", 9),
+    ("[A.4]", 15),
+    ("[A.5]", 21),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 for index, item in (
     (1 - 1, "42"),
@@ -47,7 +46,7 @@ for index, item in (
     (21 - 1, "126"),
 ):
     skip = skips[index]
-    baca.metronome_mark_function(skip, item, manifests)
+    baca.metronome_mark_function(skip, item, library.manifests)
 
 stage_5_silence_pattern = abjad.index(
     [

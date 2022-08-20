@@ -7,17 +7,6 @@ from khamr import library
 ########################################### 04 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[C.1]", 1),
-    ("[C.2]", 4),
-    ("[C.3]", 6),
-    ("[C.4]", 8),
-    ("[C.5]", 10),
-    ("[C.6]", 12),
-    ("[C.7]", 14),
-    ("[C.8]", 16),
-)
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -34,18 +23,28 @@ baca.interpret.set_up_score(
     accumulator,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
-manifests = library.manifests
+
+stage_markup = (
+    ("[C.1]", 1),
+    ("[C.2]", 4),
+    ("[C.3]", 6),
+    ("[C.4]", 8),
+    ("[C.5]", 10),
+    ("[C.6]", 12),
+    ("[C.7]", 14),
+    ("[C.8]", 16),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 for index, item in (
     (8 - 1, baca.Accelerando()),
     (16 - 1, "84"),
 ):
     skip = skips[index]
-    baca.metronome_mark_function(skip, item, manifests)
+    baca.metronome_mark_function(skip, item, library.manifests)
 
 baca.bar_line_function(score["Skips"][20 - 1], "|.")
 
