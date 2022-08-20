@@ -8,16 +8,6 @@ from khamr import library
 ########################################### 01 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[_.1]", 1),
-    ("[_.2]", 9),
-    ("[_.3]", 17),
-    ("[_.4]", 25),
-    ("[_.5]", 31),
-    ("[_.6]", 37),
-    ("[_.7]", 41),
-)
-
 score = music = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -35,11 +25,20 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
-manifests = library.manifests
+
+stage_markup = (
+    ("[_.1]", 1),
+    ("[_.2]", 9),
+    ("[_.3]", 17),
+    ("[_.4]", 25),
+    ("[_.5]", 31),
+    ("[_.6]", 37),
+    ("[_.7]", 41),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 for index, item in (
     (1 - 1, "126"),
@@ -48,7 +47,7 @@ for index, item in (
     (37 - 1, "84"),
 ):
     skip = skips[index]
-    baca.metronome_mark_function(skip, item, manifests)
+    baca.metronome_mark_function(skip, item, library.manifests)
 
 
 def FL(voice):
