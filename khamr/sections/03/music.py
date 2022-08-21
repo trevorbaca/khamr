@@ -81,7 +81,7 @@ def ptails_in_get_tuplets(pattern, pair):
     return selector
 
 
-def FL(voice):
+def FL(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
@@ -102,7 +102,7 @@ def FL(voice):
     voice.extend(music)
 
 
-def OB(voice):
+def OB(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
@@ -126,7 +126,7 @@ def OB(voice):
     voice.extend(music)
 
 
-def CL(voice):
+def CL(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
@@ -146,7 +146,7 @@ def CL(voice):
     voice.extend(music)
 
 
-def SAX(voice):
+def SAX(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
@@ -167,7 +167,7 @@ def SAX(voice):
     voice.extend(music)
 
 
-def GT(voice):
+def GT(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
@@ -178,7 +178,7 @@ def GT(voice):
     voice.extend(music)
 
 
-def PF(voice):
+def PF(voice, accumulator):
     music = library.make_current_rhythm(
         accumulator.get(1, 9),
         [4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5],
@@ -194,7 +194,7 @@ def PF(voice):
     voice.extend(music)
 
 
-def PERC(voice):
+def PERC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(5, 9))
@@ -211,7 +211,7 @@ def PERC(voice):
     voice.extend(music)
 
 
-def VN(voice):
+def VN(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_continuous_glissando_rhythm(
@@ -226,7 +226,7 @@ def VN(voice):
     voice.extend(music)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_continuous_glissando_rhythm(
@@ -241,7 +241,7 @@ def VA(voice):
     voice.extend(music)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_continuous_glissando_rhythm(
@@ -256,7 +256,7 @@ def VC(voice):
     voice.extend(music)
 
 
-def CB(voice):
+def CB(voice, accumulator):
     for pair in [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]:
         music = baca.make_repeat_tied_notes(accumulator.get(*pair))
         voice.extend(music)
@@ -427,17 +427,17 @@ def composites(cache):
 
 
 def main():
-    FL(accumulator.voice("fl"))
-    OB(accumulator.voice("ob"))
-    CL(accumulator.voice("cl"))
-    SAX(accumulator.voice("sax"))
-    GT(accumulator.voice("gt"))
-    PF(accumulator.voice("pf"))
-    PERC(accumulator.voice("perc"))
-    VN(accumulator.voice("vn"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
-    CB(accumulator.voice("cb"))
+    FL(accumulator.voice("fl"), accumulator)
+    OB(accumulator.voice("ob"), accumulator)
+    CL(accumulator.voice("cl"), accumulator)
+    SAX(accumulator.voice("sax"), accumulator)
+    GT(accumulator.voice("gt"), accumulator)
+    PF(accumulator.voice("pf"), accumulator)
+    PERC(accumulator.voice("perc"), accumulator)
+    VN(accumulator.voice("vn"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
+    CB(accumulator.voice("cb"), accumulator)
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
