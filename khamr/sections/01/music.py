@@ -50,7 +50,7 @@ for index, item in (
     baca.metronome_mark_function(skip, item, library.manifests)
 
 
-def FL(voice):
+def FL(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(),
         [10, 10, 6, 10, 8, 6],
@@ -61,7 +61,7 @@ def FL(voice):
     voice.extend(music)
 
 
-def OB(voice):
+def OB(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(),
         [12, 6, 10, 10, 6, 8],
@@ -72,7 +72,7 @@ def OB(voice):
     voice.extend(music)
 
 
-def CL(voice):
+def CL(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(),
         [8, 6, 10, 6, 10, 8],
@@ -83,7 +83,7 @@ def CL(voice):
     voice.extend(music)
 
 
-def SAX(voice):
+def SAX(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(),
         [14, 6, 10, 6, 10, 8],
@@ -94,7 +94,7 @@ def SAX(voice):
     voice.extend(music)
 
 
-def GT(voice):
+def GT(voice, accumulator):
     music = library.make_guitar_isolata_rhythm(
         accumulator.get(1, 24),
         rmakers.force_rest(
@@ -125,7 +125,7 @@ def GT(voice):
     voice.extend(music)
 
 
-def PF(voice):
+def PF(voice, accumulator):
     music = library.make_fused_expanse_rhythm(
         accumulator.get(1, 24),
         [20, 8, 20, 4],
@@ -147,7 +147,7 @@ def PF(voice):
     voice.extend(music)
 
 
-def PERC(voice):
+def PERC(voice, accumulator):
     music = library.make_fused_expanse_rhythm(
         accumulator.get(),
         [20, 8, 20, 4],
@@ -155,7 +155,7 @@ def PERC(voice):
     voice.extend(music)
 
 
-def VN(voice):
+def VN(voice, accumulator):
     music = library.make_opening_glissando_rhythm(
         accumulator.get(1, 36),
         0,
@@ -174,7 +174,7 @@ def VN(voice):
     baca.append_anchor_note_function(voice)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = library.make_opening_glissando_rhythm(
         accumulator.get(1, 36),
         -1,
@@ -193,7 +193,7 @@ def VA(voice):
     baca.append_anchor_note_function(voice)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = library.make_opening_glissando_rhythm(
         accumulator.get(1, 36),
         -2,
@@ -212,7 +212,7 @@ def VC(voice):
     baca.append_anchor_note_function(voice)
 
 
-def CB(voice):
+def CB(voice, accumulator):
     music = library.make_opening_glissando_rhythm(
         accumulator.get(),
         -3,
@@ -500,17 +500,17 @@ def composites(cache):
 
 
 def main():
-    FL(accumulator.voice("fl"))
-    OB(accumulator.voice("ob"))
-    CL(accumulator.voice("cl"))
-    SAX(accumulator.voice("sax"))
-    GT(accumulator.voice("gt"))
-    PF(accumulator.voice("pf"))
-    PERC(accumulator.voice("perc"))
-    VN(accumulator.voice("vn"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
-    CB(accumulator.voice("cb"))
+    FL(accumulator.voice("fl"), accumulator)
+    OB(accumulator.voice("ob"), accumulator)
+    CL(accumulator.voice("cl"), accumulator)
+    SAX(accumulator.voice("sax"), accumulator)
+    GT(accumulator.voice("gt"), accumulator)
+    PF(accumulator.voice("pf"), accumulator)
+    PERC(accumulator.voice("perc"), accumulator)
+    VN(accumulator.voice("vn"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
+    CB(accumulator.voice("cb"), accumulator)
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
