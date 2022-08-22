@@ -263,7 +263,7 @@ def composites(cache):
             baca.hairpin_function(o, "p > ppp")
 
 
-def main():
+def make_score():
     FL(accumulator.voice("fl"), accumulator)
     OB(accumulator.voice("ob"), accumulator)
     CL(accumulator.voice("cl"), accumulator)
@@ -301,8 +301,8 @@ def main():
     composites(cache)
 
 
-if __name__ == "__main__":
-    main()
+def main():
+    make_score()
     defaults = baca.interpret.section_defaults()
     del defaults["append_anchor_skip"]
     metadata, persist, timing = baca.build.section(
@@ -323,3 +323,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()
