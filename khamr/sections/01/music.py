@@ -8,46 +8,37 @@ from khamr import library
 ########################################### 01 ##########################################
 #########################################################################################
 
-score = music = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures()[:44],
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+def make_empty_score():
+    score = library.make_empty_score()
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures()[:44],
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    return score, accumulator
 
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-    first_section=True,
-)
 
-skips = score["Skips"]
-
-stage_markup = (
-    ("[_.1]", 1),
-    ("[_.2]", 9),
-    ("[_.3]", 17),
-    ("[_.4]", 25),
-    ("[_.5]", 31),
-    ("[_.6]", 37),
-    ("[_.7]", 41),
-)
-baca.label_stage_numbers(skips, stage_markup)
-
-for index, item in (
-    (1 - 1, "126"),
-    (25 - 1, "63"),
-    (25 - 1, baca.Accelerando()),
-    (37 - 1, "84"),
-):
-    skip = skips[index]
-    baca.metronome_mark_function(skip, item, library.manifests)
+def GLOBALS(skips):
+    stage_markup = (
+        ("[_.1]", 1),
+        ("[_.2]", 9),
+        ("[_.3]", 17),
+        ("[_.4]", 25),
+        ("[_.5]", 31),
+        ("[_.6]", 37),
+        ("[_.7]", 41),
+    )
+    baca.label_stage_numbers(skips, stage_markup)
+    for index, item in (
+        (1 - 1, "126"),
+        (25 - 1, "63"),
+        (25 - 1, baca.Accelerando()),
+        (37 - 1, "84"),
+    ):
+        skip = skips[index]
+        baca.metronome_mark_function(skip, item, library.manifests)
 
 
 def FL(voice, accumulator):
@@ -500,6 +491,17 @@ def composites(cache):
 
 
 def make_score():
+    score, accumulator = make_empty_score()
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        first_section=True,
+    )
+    GLOBALS(score["Skips"])
     FL(accumulator.voice("fl"), accumulator)
     OB(accumulator.voice("ob"), accumulator)
     CL(accumulator.voice("cl"), accumulator)
@@ -528,16 +530,17 @@ def make_score():
     vc(cache["vc"])
     cb(cache["cb"])
     composites(cache)
+    return score, accumulator
 
 
 def main():
-    make_score()
+    score, accumulator = make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
+        activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
