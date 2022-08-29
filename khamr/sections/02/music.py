@@ -486,7 +486,7 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
+        activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         first_measure_number=first_measure_number,
