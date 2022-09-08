@@ -37,7 +37,7 @@ def GLOBALS(skips):
         (21 - 1, "126"),
     ):
         skip = skips[index]
-        baca.metronome_mark_function(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, library.manifests)
 
 
 stage_5_silence_pattern = abjad.index(
@@ -259,91 +259,91 @@ def CB(voice, accumulator):
 
 def fl(m):
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpin_function(o.tleaves(), "mp > pp")
+        baca.hairpin(o.tleaves(), "mp > pp")
         for qrun in baca.select.qruns(o):
             qrun = baca.select.tleaves(qrun, rleak=True)
-            baca.trill_spanner_function(qrun)
-        baca.pitch_function(o, "Bb4")
+            baca.trill_spanner(qrun)
+        baca.pitch(o, "Bb4")
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.instrument_function(o.leaf(0), "Flute", library.manifests)
-        baca.markup_function(o.pleaf(0), r"\baca-fluttertongue-markup")
-        baca.pitch_function(o, "B5")
-        baca.stem_tremolo_function(o.pleaves())
+        baca.dynamic(o.phead(0), "fff")
+        baca.instrument(o.leaf(0), "Flute", library.manifests)
+        baca.markup(o.pleaf(0), r"\baca-fluttertongue-markup")
+        baca.pitch(o, "B5")
+        baca.stem_tremolo(o.pleaves())
 
 
 def ob(cache):
     m = cache["ob"]
     with baca.scope(m.get(1, 8)) as o:
-        baca.flageolet_function(o.pheads())
-        baca.pitch_function(o, "<A4 E5>")
+        baca.flageolet(o.pheads())
+        baca.pitch(o, "<A4 E5>")
         cache.rebuild()
         m = cache["ob"]
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.pitch_function(o, "G#3")
+        baca.dynamic(o.phead(0), "fff")
+        baca.pitch(o, "G#3")
 
 
 def cl(m):
     with baca.scope(m.get(1, 14)) as o:
-        baca.pitch_function(o, "G2")
+        baca.pitch(o, "G2")
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.pitch_function(o, "F#2")
+        baca.dynamic(o.phead(0), "fff")
+        baca.pitch(o, "F#2")
 
 
 def sax(m):
     with baca.scope(m.get(1, 8)) as o:
-        baca.pitch_function(o, "<F3 G+3>")
+        baca.pitch(o, "<F3 G+3>")
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.pitch_function(o, "G#2")
+        baca.dynamic(o.phead(0), "fff")
+        baca.pitch(o, "G#2")
 
 
 def gt(m):
     with baca.scope(m.get(1, 4)) as o:
-        baca.note_head_style_cross_function(o.pleaves())
-        baca.pitches_function(o, abjad.sequence.rotate(library.rose_pitches(), -16))
+        baca.note_head_style_cross(o.pleaves())
+        baca.pitches(o, abjad.sequence.rotate(library.rose_pitches(), -16))
     with baca.scope(m.get(5, 14)) as o:
-        baca.dynamic_function(o.phead(0), "mf")
-        baca.pitch_function(o, "F#2")
-        baca.markup_function(o.pleaf(0), r"\khamr-sparse-guitar-clicks")
+        baca.dynamic(o.phead(0), "mf")
+        baca.pitch(o, "F#2")
+        baca.markup(o.pleaf(0), r"\khamr-sparse-guitar-clicks")
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "ff")
-        baca.pitch_function(o, "G2")
-        baca.markup_function(o.pleaf(0), r"\khamr-guitar-with-screw")
+        baca.dynamic(o.phead(0), "ff")
+        baca.pitch(o, "G2")
+        baca.markup(o.pleaf(0), r"\khamr-guitar-with-screw")
 
 
 def pf(cache):
     m = cache["pf"]
     with baca.scope(m.get(1, 14)) as o:
-        baca.staff_position_function(o, 0)
+        baca.staff_position(o, 0)
     with baca.scope(m.get(15, 20)) as o:
-        baca.clef_function(o.leaf(0), "bass")
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.ottava_bassa_function(o.tleaves())
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.stem_tremolo_function(o.pleaves())
-        baca.pitch_function(o, "<A0 B0 C1 D1 E1 F1 G1 A1>")
+        baca.clef(o.leaf(0), "bass")
+        baca.dynamic(o.phead(0), "fff")
+        baca.ottava_bassa(o.tleaves())
+        baca.staff_lines(o.leaf(0), 5)
+        baca.stem_tremolo(o.pleaves())
+        baca.pitch(o, "<A0 B0 C1 D1 E1 F1 G1 A1>")
         cache.rebuild()
         m = cache["pf"]
     with baca.scope(m.get(21, 30)) as o:
-        baca.clef_function(o.leaf(0), "treble")
-        baca.dynamic_function(o.phead(0), "fff-ancora")
-        baca.ottava_function(o.tleaves())
-        baca.pitches_function(o, [_.invert() for _ in library.rose_pitches()])
-        library.sixth_octave_function(o)
+        baca.clef(o.leaf(0), "treble")
+        baca.dynamic(o.phead(0), "fff-ancora")
+        baca.ottava(o.tleaves())
+        baca.pitches(o, [_.invert() for _ in library.rose_pitches()])
+        library.sixth_octave(o)
 
 
 def perc(m):
     with baca.scope(m.get(1, 14)) as o:
-        baca.accent_function(o.pheads())
-        baca.pitches_function(o, "C4 C4 Ab5 C4 C4 C4", allow_repeats=True)
-        baca.stem_down_function(o.pleaves())
+        baca.accent(o.pheads())
+        baca.pitches(o, "C4 C4 Ab5 C4 C4 C4", allow_repeats=True)
+        baca.stem_down(o.pleaves())
         library.do_marimba_hit_command(o, False, indices=[2])
     with baca.scope(m.get(15, 30)) as o:
-        baca.pitch_function(o, "Ab5")
-        baca.stem_down_function(o.pleaves())
+        baca.pitch(o, "Ab5")
+        baca.stem_down(o.pleaves())
         library.do_marimba_hit_command(
             o, False, indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
         )
@@ -351,79 +351,79 @@ def perc(m):
 
 def vn(m):
     with baca.scope(m.get(1, 4)) as o:
-        baca.pitches_function(o, library.color_trill_pitches("m2"))
+        baca.pitches(o, library.color_trill_pitches("m2"))
     with baca.scope(m.get(5, 8)) as o:
-        baca.pitches_function(o, library.color_trill_pitches("M2"))
+        baca.pitches(o, library.color_trill_pitches("M2"))
     with baca.scope(m.get(9, 14)) as o:
-        baca.pitches_function(o, library.color_trill_pitches("m3"))
+        baca.pitches(o, library.color_trill_pitches("m3"))
     with baca.scope(m.get(1, 14)) as o:
-        baca.accent_function(o.pheads())
+        baca.accent(o.pheads())
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
-            baca.trill_spanner_function(plt, alteration="m2")
+            baca.trill_spanner(plt, alteration="m2")
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.markup_function(o.pleaf(0), r"\baca-arco-ordinario-markup")
-        baca.pitch_function(o, "A4")
+        baca.dynamic(o.phead(0), "fff")
+        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.pitch(o, "A4")
 
 
 def va(m):
     with baca.scope(m.get(1, 4)) as o:
-        baca.pitches_function(o, library.color_trill_pitches())
+        baca.pitches(o, library.color_trill_pitches())
     with baca.scope(m.get(5, 8)) as o:
-        baca.pitches_function(o, library.color_trill_pitches("m2"))
+        baca.pitches(o, library.color_trill_pitches("m2"))
     with baca.scope(m.get(9, 14)) as o:
-        baca.pitches_function(o, library.color_trill_pitches("M2"))
+        baca.pitches(o, library.color_trill_pitches("M2"))
     with baca.scope(m.get(1, 14)) as o:
-        baca.accent_function(o.pheads())
+        baca.accent(o.pheads())
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
-            baca.trill_spanner_function(plt, alteration="m2")
+            baca.trill_spanner(plt, alteration="m2")
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.markup_function(o.pleaf(0), r"\baca-arco-ordinario-markup")
-        baca.pitch_function(o, "G#4")
+        baca.dynamic(o.phead(0), "fff")
+        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.pitch(o, "G#4")
 
 
 def vc(m):
     with baca.scope(m.get(1, 8)) as o:
-        baca.accent_function(o.pheads())
+        baca.accent(o.pheads())
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
-            baca.trill_spanner_function(plt, alteration="m2")
-        baca.pitches_function(o, library.color_trill_pitches())
+            baca.trill_spanner(plt, alteration="m2")
+        baca.pitches(o, library.color_trill_pitches())
     with baca.scope(m.get(9, 14)) as o:
-        baca.dynamic_function(o.phead(0), "mf")
-        baca.pitch_function(o, "F#3")
-        baca.markup_function(o.pleaf(0), r"\khamr-sparse-cello-clicks")
+        baca.dynamic(o.phead(0), "mf")
+        baca.pitch(o, "F#3")
+        baca.markup(o.pleaf(0), r"\khamr-sparse-cello-clicks")
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.markup_function(o.pleaf(0), r"\baca-arco-ordinario-markup")
-        baca.pitch_function(o, "G3")
+        baca.dynamic(o.phead(0), "fff")
+        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.pitch(o, "G3")
 
 
 def cb(cache):
     m = cache["cb"]
     with baca.scope(m.get(1, 14)) as o:
-        baca.pitches_function(o, library.double_stop_halo_pitches())
+        baca.pitches(o, library.double_stop_halo_pitches())
         cache.rebuild()
         m = cache["cb"]
     with baca.scope(m.get(1, 14)) as o:
-        baca.dynamic_function(o.phead(0), "mf")
-        baca.glissando_function(o.tleaves())
-        baca.markup_function(
+        baca.dynamic(o.phead(0), "mf")
+        baca.glissando(o.tleaves())
+        baca.markup(
             o.pleaf(0),
             r"\baca-strings-iii-plus-iv-markup",
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic_function(o.pleaves())
+        baca.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(15, 30)) as o:
-        baca.pitch_function(o, "<G0 A1>")
+        baca.pitch(o, "<G0 A1>")
         cache.rebuild()
         m = cache["cb"]
     with baca.scope(m.get(15, 30)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.markup_function(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.dynamic(o.phead(0), "fff")
+        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
 
 
 def make_score(first_measure_number, previous_persistent_indicators):

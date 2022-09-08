@@ -68,7 +68,7 @@ def double_stop_halo_pitches():
     return double_stop_halo_pitches
 
 
-def halo_hairpins_function(argument):
+def halo_hairpins(argument):
     strings = [
         "pp > ppp",
         "ppp < pp",
@@ -84,7 +84,7 @@ def halo_hairpins_function(argument):
     plts = baca.select.plts(argument)
     for i, plt in enumerate(plts):
         string = strings[i]
-        baca.hairpin_function(plt, string, remove_length_1_spanner_start=True)
+        baca.hairpin(plt, string, remove_length_1_spanner_start=True)
 
 
 def make_alternate_divisions(time_signatures, detach_ties=None):
@@ -481,7 +481,7 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *commands):
     return music
 
 
-def narrow_fourth_octave_function(argument):
+def narrow_fourth_octave(argument):
     registration = baca.Registration(
         [
             baca.RegistrationComponent(
@@ -504,7 +504,7 @@ def rose_pitches():
     return rose_pitches
 
 
-def sixth_octave_function(argument):
+def sixth_octave(argument):
     registration = baca.Registration(
         [
             baca.RegistrationComponent(
@@ -652,7 +652,7 @@ def weiss_multiphonic(number):
     return abjad.Markup(rf'\baca-boxed-markup "W.{number}"')
 
 
-def wide_third_octave_function(argument):
+def wide_third_octave(argument):
     registration = baca.Registration(
         [
             baca.RegistrationComponent(
