@@ -63,7 +63,7 @@ def OB(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 15))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 15))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
@@ -81,52 +81,34 @@ def SAX(voice, accumulator):
 
 
 def GT(voice, accumulator):
-    music = baca.make_repeat_tied_notes(
-        accumulator.get(1, 7),
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[:-1],
-        ),
-    )
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 7))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
-        accumulator.get(8, 15),
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[1:],
-        ),
-    )
+    rmakers.force_rest_function(baca.select.leaves(music)[:-1])
+    music = baca.make_repeat_tied_notes_function(accumulator.get(8, 15))
     voice.extend(music)
+    rmakers.force_rest_function(baca.select.leaves(music)[2:]),
     music = library.make_closing_rhythm(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def PF(voice, accumulator):
-    music = baca.make_repeat_tied_notes(
-        accumulator.get(1, 7),
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[:-1],
-        ),
-    )
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 7))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
-        accumulator.get(8, 15),
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_)[1:],
-        ),
-    )
+    rmakers.force_rest_function(baca.select.leaves(music)[:-1])
+    music = baca.make_repeat_tied_notes_function(accumulator.get(8, 15))
     voice.extend(music)
+    rmakers.force_rest_function(baca.select.leaves(music)[2:]),
     music = library.make_closing_rhythm(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def PERC(voice, accumulator):
-    music = baca.make_repeat_tied_notes(
-        accumulator.get(1, 5),
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    )
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
     voice.extend(music)
+    rmakers.force_rest_function(baca.select.pleaf(music, -1))
     music = baca.make_mmrests(accumulator.get(6, 7))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(8, 15))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(8, 15))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
