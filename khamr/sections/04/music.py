@@ -36,8 +36,8 @@ def GLOBALS(skips):
         (16 - 1, "84"),
     ):
         skip = skips[index]
-        baca.metronome_mark_function(skip, item, library.manifests)
-    baca.bar_line_function(skips[20 - 1], "|.")
+        baca.metronome_mark(skip, item, library.manifests)
+    baca.bar_line(skips[20 - 1], "|.")
 
 
 def FL(voice, accumulator):
@@ -162,71 +162,71 @@ def CB(voice, accumulator):
 
 def fl(m):
     with baca.scope(m.get(1, 15)) as o:
-        baca.pitch_function(o, "Bb4")  # (sounds B3)
+        baca.pitch(o, "Bb4")  # (sounds B3)
 
 
 def ob(m):
     with baca.scope(m.get(1, 15)) as o:
-        baca.staff_position_function(o, 0)
+        baca.staff_position(o, 0)
 
 
 def cl(m):
     with baca.scope(m.get(1, 15)) as o:
-        baca.pitch_function(o, "G2")
+        baca.pitch(o, "G2")
 
 
 def sax(m):
     with baca.scope(m.get(1, 15)) as o:
-        baca.staff_position_function(o, 0)
+        baca.staff_position(o, 0)
 
 
 def gt(m):
     with baca.scope(m.leaves()) as o:
-        baca.accent_function(o.pheads())
-        baca.dynamic_function(o.phead(0), "mf")
-        baca.flageolet_function(o.pheads())
-        baca.pitch_function(o, "C4")
+        baca.accent(o.pheads())
+        baca.dynamic(o.phead(0), "mf")
+        baca.flageolet(o.pheads())
+        baca.pitch(o, "C4")
 
 
 def pf(m):
     with baca.scope(m.leaves()) as o:
-        baca.accent_function(o.pheads())
-        baca.dynamic_function(o.phead(0), "mf")
-        baca.pitch_function(o, "A#4")
+        baca.accent(o.pheads())
+        baca.dynamic(o.phead(0), "mf")
+        baca.pitch(o, "A#4")
 
 
 def perc(m):
     with baca.scope(m.get(1, 5)) as o:
-        baca.hairpin_function(o.tleaves(), "pp > ppp")
-        baca.stem_tremolo_function(o.pleaves())
+        baca.hairpin(o.tleaves(), "pp > ppp")
+        baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(8, 15)) as o:
-        baca.dynamic_function(o.phead(0), "fff")
-        baca.markup_function(o.pleaf(0), r"\baca-snare-drum-markup")
-        baca.stem_tremolo_function(o.pleaves())
+        baca.dynamic(o.phead(0), "fff")
+        baca.markup(o.pleaf(0), r"\baca-snare-drum-markup")
+        baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(1, 15)) as o:
-        baca.staff_position_function(o, 0)
+        baca.staff_position(o, 0)
 
 
 def vn(m):
     with baca.scope(m.get(1, 15)) as o:
-        baca.clef_function(o.leaf(0), "percussion")
+        baca.clef(o.leaf(0), "percussion")
 
 
 def va(m):
     with baca.scope(m.get(1, 15)) as o:
-        baca.clef_function(o.leaf(0), "percussion")
+        baca.clef(o.leaf(0), "percussion")
 
 
 def vc(m):
     with baca.scope(m.get(1, 15)) as o:
-        baca.clef_function(o.leaf(0), "percussion")
+        baca.clef(o.leaf(0), "percussion")
 
 
 def cb(m):
     with baca.scope(m.get(1, 15)) as o:
-        baca.clef_function(o.leaf(0), "percussion")
+        baca.clef(o.leaf(0), "percussion")
     with baca.scope(m[20]) as o:
-        baca.literal_function(
+        baca.literal(
             o.leaf(0),
             [
                 r"\once \override Score.RehearsalMark.direction = #down",
@@ -242,17 +242,17 @@ def composites(cache):
     for name in ["vn", "va", "vc", "cb"]:
         m = cache[name]
         with baca.scope(m.get(1, 15)) as o:
-            baca.staff_lines_function(o.leaf(0), 1)
-            baca.staff_position_function(o, 0)
-            baca.alternate_bow_strokes_function(o.pheads())
+            baca.staff_lines(o.leaf(0), 1)
+            baca.staff_position(o, 0)
+            baca.alternate_bow_strokes(o.pheads())
             if name in ("vn", "va"):
-                baca.markup_function(o.pleaf(0), r"\baca-bow-on-wooden-mute-markup")
+                baca.markup(o.pleaf(0), r"\baca-bow-on-wooden-mute-markup")
             if name in ("vc", "cb"):
-                baca.markup_function(o.pleaf(0), r"\baca-bow-on-tailpiece-markup")
+                baca.markup(o.pleaf(0), r"\baca-bow-on-tailpiece-markup")
         with baca.scope(m.get(1, 7)) as o:
-            baca.dynamic_function(o.phead(0), "p")
+            baca.dynamic(o.phead(0), "p")
         with baca.scope(m.get(8, 15)) as o:
-            baca.hairpin_function(o, "p > ppp")
+            baca.hairpin(o, "p > ppp")
 
 
 def make_score(first_measure_number, previous_persistent_indicators):
