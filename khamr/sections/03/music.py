@@ -331,9 +331,7 @@ def gt(m):
 
 def pf(m):
     with baca.scope(m.get(1, 9)) as o:
-        baca.pitches(
-            o, [_.invert().transpose("M2") for _ in library.rose_pitches()]
-        )
+        baca.pitches(o, [_.invert().transpose("M2") for _ in library.rose_pitches()])
         baca.ottava(o.tleaves())
         library.sixth_octave(o)
     with baca.scope(m.get(5, 9)) as o:
