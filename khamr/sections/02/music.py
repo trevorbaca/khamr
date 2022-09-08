@@ -142,21 +142,17 @@ def GT(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
-        accumulator.get(5, 14),
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    )
+    music = baca.make_repeat_tied_notes_function(accumulator.get(5, 14))
     voice.extend(music)
+    rmakers.force_rest_function(abjad.select.leaf(music, -1))
     music = make_15_30("gt", accumulator)
     voice.extend(music)
 
 
 def PF(voice, accumulator):
-    music = baca.make_repeat_tied_notes(
-        accumulator.get(1, 14),
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    )
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 14))
     voice.extend(music)
+    rmakers.force_rest_function(abjad.select.leaf(music, -1))
     music = library.make_alternate_divisions(
         accumulator.get(15, 20),
         detach_ties=True,
@@ -230,11 +226,9 @@ def VC(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(
-        accumulator.get(9, 14),
-        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
-    )
+    music = baca.make_repeat_tied_notes_function(accumulator.get(9, 14))
     voice.extend(music)
+    rmakers.force_rest_function(abjad.select.leaf(music, -1))
     music = make_15_30("vc", accumulator)
     voice.extend(music)
 

@@ -134,7 +134,7 @@ def PF(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(41, 44))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(41, 44))
     voice.extend(music)
 
 
