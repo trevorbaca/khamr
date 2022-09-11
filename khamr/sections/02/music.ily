@@ -5039,6 +5039,7 @@ number.2.Piano.Music = {
           %! baca.dynamic()
         \baca-fff-ancora
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5053,6 +5054,7 @@ number.2.Piano.Music = {
         ef''''!8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5075,6 +5077,7 @@ number.2.Piano.Music = {
     bf'''!16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5094,6 +5097,7 @@ number.2.Piano.Music = {
     d''''16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5110,6 +5114,7 @@ number.2.Piano.Music = {
     bf'''!16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5129,6 +5134,7 @@ number.2.Piano.Music = {
     df''''!16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5153,6 +5159,7 @@ number.2.Piano.Music = {
         ef''''!8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5167,6 +5174,7 @@ number.2.Piano.Music = {
         e''''8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5189,6 +5197,7 @@ number.2.Piano.Music = {
     af'''!16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5208,6 +5217,7 @@ number.2.Piano.Music = {
     gf'''!16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5232,6 +5242,7 @@ number.2.Piano.Music = {
         f''''16
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5256,6 +5267,7 @@ number.2.Piano.Music = {
         cf''''!16
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5283,6 +5295,7 @@ number.2.Piano.Music = {
     df''''!16.
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5314,6 +5327,7 @@ number.2.Piano.Music = {
     e''''16.
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5338,6 +5352,7 @@ number.2.Piano.Music = {
         af'''!8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5352,6 +5367,7 @@ number.2.Piano.Music = {
         cf''''!8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5382,6 +5398,7 @@ number.2.Piano.Music = {
         c''''8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5396,6 +5413,7 @@ number.2.Piano.Music = {
         df''''!8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5418,6 +5436,7 @@ number.2.Piano.Music = {
     ef''''!16.
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5449,6 +5468,7 @@ number.2.Piano.Music = {
     af'''!16.
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % COMMANDS:
@@ -7538,6 +7558,7 @@ number.2.Violin.Music = {
         g'8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -7563,6 +7584,7 @@ number.2.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -7620,6 +7642,7 @@ number.2.Violin.Music = {
         gqf'8.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -7645,6 +7668,7 @@ number.2.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -7914,6 +7938,7 @@ number.2.Violin.Music = {
         gs'8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -7939,6 +7964,7 @@ number.2.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -7984,6 +8010,7 @@ number.2.Violin.Music = {
         gqs'8.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -8009,6 +8036,7 @@ number.2.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -8252,6 +8280,7 @@ number.2.Violin.Music = {
         a'8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -8277,6 +8306,7 @@ number.2.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -8324,6 +8354,7 @@ number.2.Violin.Music = {
         aqf'8.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -8349,6 +8380,7 @@ number.2.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -9024,6 +9056,7 @@ number.2.Viola.Music = {
         fs'8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -9049,6 +9082,7 @@ number.2.Viola.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -9108,6 +9142,7 @@ number.2.Viola.Music = {
         fqs'8.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -9133,6 +9168,7 @@ number.2.Viola.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -9402,6 +9438,7 @@ number.2.Viola.Music = {
         gqf'8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -9427,6 +9464,7 @@ number.2.Viola.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -9486,6 +9524,7 @@ number.2.Viola.Music = {
         gf'8.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -9511,6 +9550,7 @@ number.2.Viola.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -10272,6 +10312,7 @@ number.2.Cello.Music = {
         fs'8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -10297,6 +10338,7 @@ number.2.Cello.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -10358,6 +10400,7 @@ number.2.Cello.Music = {
         fqs'8.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -10383,6 +10426,7 @@ number.2.Cello.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
+          %! khamr.make_trill_tuplets()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
