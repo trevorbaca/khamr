@@ -15998,6 +15998,7 @@ number.3.Piano.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Piano”)"
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_AFTER:
@@ -16031,6 +16032,7 @@ number.3.Piano.Music = {
     c''''16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16040,6 +16042,7 @@ number.3.Piano.Music = {
     af'''!16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16059,6 +16062,7 @@ number.3.Piano.Music = {
     c''''16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16070,6 +16074,7 @@ number.3.Piano.Music = {
     b'''16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16089,6 +16094,7 @@ number.3.Piano.Music = {
     f''''16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16106,6 +16112,7 @@ number.3.Piano.Music = {
         e''''8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16120,6 +16127,7 @@ number.3.Piano.Music = {
         bf'''!8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16145,6 +16153,7 @@ number.3.Piano.Music = {
         a'''16.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16216,6 +16225,7 @@ number.3.Piano.Music = {
         a'''16.
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16239,6 +16249,7 @@ number.3.Piano.Music = {
         e''''16.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16288,6 +16299,7 @@ number.3.Piano.Music = {
     ef''''!8
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16307,6 +16319,7 @@ number.3.Piano.Music = {
         f''''8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16321,6 +16334,7 @@ number.3.Piano.Music = {
         df''''!8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16336,6 +16350,7 @@ number.3.Piano.Music = {
     bf'''!16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16355,6 +16370,7 @@ number.3.Piano.Music = {
     fs'''!16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16364,6 +16380,7 @@ number.3.Piano.Music = {
     f''''16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16383,6 +16400,7 @@ number.3.Piano.Music = {
     d''''16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16415,6 +16433,7 @@ number.3.Piano.Music = {
           %! baca.dynamic()
         \ffff
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16429,6 +16448,7 @@ number.3.Piano.Music = {
         af'''!8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16452,6 +16472,7 @@ number.3.Piano.Music = {
         g'''8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16466,6 +16487,7 @@ number.3.Piano.Music = {
         bf'''!8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16489,6 +16511,7 @@ number.3.Piano.Music = {
         a'''16
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16513,6 +16536,7 @@ number.3.Piano.Music = {
         c''''16
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16536,6 +16560,7 @@ number.3.Piano.Music = {
         df''''!16
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16560,6 +16585,7 @@ number.3.Piano.Music = {
         af'''!16
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16585,6 +16611,7 @@ number.3.Piano.Music = {
         df''''!16.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16609,6 +16636,7 @@ number.3.Piano.Music = {
         df''''!16.
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16632,6 +16660,7 @@ number.3.Piano.Music = {
         d''''16.
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16656,6 +16685,7 @@ number.3.Piano.Music = {
         g'''16.
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16681,6 +16711,7 @@ number.3.Piano.Music = {
         e''''16
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16705,6 +16736,7 @@ number.3.Piano.Music = {
         ef''''!16
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16720,6 +16752,7 @@ number.3.Piano.Music = {
     f''''16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16739,6 +16772,7 @@ number.3.Piano.Music = {
     bf'''!16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16748,6 +16782,7 @@ number.3.Piano.Music = {
     a'''16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16767,6 +16802,7 @@ number.3.Piano.Music = {
     g'''16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16776,6 +16812,7 @@ number.3.Piano.Music = {
     e''''16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16795,6 +16832,7 @@ number.3.Piano.Music = {
     df''''!16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16814,6 +16852,7 @@ number.3.Piano.Music = {
         ef''''!8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16922,6 +16961,7 @@ number.3.Piano.Music = {
         df''''!16
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16945,6 +16985,7 @@ number.3.Piano.Music = {
         bf'''!16
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -17006,6 +17047,7 @@ number.3.Piano.Music = {
         d''''8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -17031,6 +17073,7 @@ number.3.Piano.Music = {
         e''''8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -17045,6 +17088,7 @@ number.3.Piano.Music = {
         af'''!8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -17060,6 +17104,7 @@ number.3.Piano.Music = {
     g'''16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17079,6 +17124,7 @@ number.3.Piano.Music = {
     a'''16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17088,6 +17134,7 @@ number.3.Piano.Music = {
     e''''16
     % AFTER:
     % START_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17107,6 +17154,7 @@ number.3.Piano.Music = {
     c''''16
     % AFTER:
     % STOP_BEAM:
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17124,6 +17172,7 @@ number.3.Piano.Music = {
         df''''!8
         % AFTER:
         % START_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -17138,6 +17187,7 @@ number.3.Piano.Music = {
         e''''8
         % AFTER:
         % STOP_BEAM:
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % COMMANDS:
