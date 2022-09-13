@@ -61,18 +61,6 @@ def leaf_in_each_top_tuplet_selector(n):
     return selector
 
 
-def ptails_in_get_tuplets(pattern, pair):
-    start, stop = pair
-
-    def selector(argument):
-        result = abjad.select.tuplets(argument)
-        result = abjad.select.get(result, *pattern)
-        result = [baca.select.ptails(_)[start:stop] for _ in result]
-        return result
-
-    return selector
-
-
 def FL(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 2))
     voice.extend(music)
@@ -110,9 +98,7 @@ def OB(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(34, 37),
         [10],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 0),
-        ),
+        force_rest_tuplets=[0],
         denominator=16,
     )
     voice.extend(music)
@@ -204,12 +190,10 @@ def PERC(voice, accumulator):
 def VN(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_continuous_glissando_rhythm(
+    music = library.make_continuous_glissando_rhythm_function(
         accumulator.get(3, 29),
         0,
-        rmakers.tie(
-            ptails_in_get_tuplets(([0, 1, 3], 7), (None, -1)),
-        ),
+        tie_ptails_in_get_tuplets=([0, 1, 3], 7),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 37))
@@ -219,12 +203,10 @@ def VN(voice, accumulator):
 def VA(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_continuous_glissando_rhythm(
+    music = library.make_continuous_glissando_rhythm_function(
         accumulator.get(3, 29),
         -1,
-        rmakers.tie(
-            ptails_in_get_tuplets(([1, 2, 4], 7), (None, -1)),
-        ),
+        tie_ptails_in_get_tuplets=([1, 2, 4], 7),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 37))
@@ -234,12 +216,10 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_continuous_glissando_rhythm(
+    music = library.make_continuous_glissando_rhythm_function(
         accumulator.get(3, 29),
         -2,
-        rmakers.tie(
-            ptails_in_get_tuplets(([2, 3, 5], 7), (None, -1)),
-        ),
+        tie_ptails_in_get_tuplets=([2, 3, 5], 7),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 37))
