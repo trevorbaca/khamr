@@ -2104,7 +2104,7 @@ number.2.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 15]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     b''1.
     % AFTER:
     % STEM_TREMOLOS:
@@ -2134,7 +2134,7 @@ number.2.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2166,14 +2166,14 @@ number.2.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 19]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     b''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -2184,7 +2184,7 @@ number.2.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2672,7 +2672,7 @@ number.2.Oboe.Music = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 15]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     ds'!1.
     % AFTER:
     % ARTICULATIONS:
@@ -2693,7 +2693,7 @@ number.2.Oboe.Music = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2719,21 +2719,21 @@ number.2.Oboe.Music = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 19]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     ds'!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3190,7 +3190,7 @@ number.2.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 15]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     gs!1.
     % AFTER:
     % ARTICULATIONS:
@@ -3211,7 +3211,7 @@ number.2.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3237,21 +3237,21 @@ number.2.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 19]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     gs!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3691,7 +3691,7 @@ number.2.Saxophone.Music = {
 
       %! baca._comment_measure_numbers()
     % [Saxophone.Music measure 15]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     es'!1.
     % AFTER:
     % ARTICULATIONS:
@@ -3712,7 +3712,7 @@ number.2.Saxophone.Music = {
 
       %! baca._comment_measure_numbers()
     % [Saxophone.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3738,21 +3738,21 @@ number.2.Saxophone.Music = {
 
       %! baca._comment_measure_numbers()
     % [Saxophone.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Saxophone.Music measure 19]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     es'!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Saxophone.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4290,7 +4290,7 @@ number.2.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 15]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     g1.
     % AFTER:
     % ARTICULATIONS:
@@ -4314,7 +4314,7 @@ number.2.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4340,21 +4340,21 @@ number.2.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 19]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     g1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4916,7 +4916,7 @@ number.2.Piano.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4941,7 +4941,7 @@ number.2.Piano.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4963,7 +4963,7 @@ number.2.Piano.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8632,7 +8632,7 @@ number.2.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 15]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     a'1.
     % AFTER:
     % ARTICULATIONS:
@@ -8656,7 +8656,7 @@ number.2.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8682,21 +8682,21 @@ number.2.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 19]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     a'1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9876,7 +9876,7 @@ number.2.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 15]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     gs'!1.
     % AFTER:
     % ARTICULATIONS:
@@ -9900,7 +9900,7 @@ number.2.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9926,21 +9926,21 @@ number.2.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 19]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     gs'!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10715,7 +10715,7 @@ number.2.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 15]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     g1.
     % AFTER:
     % ARTICULATIONS:
@@ -10739,7 +10739,7 @@ number.2.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10765,21 +10765,21 @@ number.2.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 19]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     g1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11382,7 +11382,7 @@ number.2.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 16]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11408,7 +11408,7 @@ number.2.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 18]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11421,7 +11421,7 @@ number.2.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 20]
-      %! khamr.make_alternate_divisions()
+      %! khamr.make_alternate_divisions_function()
     r1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:

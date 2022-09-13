@@ -66,7 +66,7 @@ stage_5_silence_pattern = abjad.index(
 
 def make_15_30(voice, accumulator):
     result = []
-    music = library.make_alternate_divisions(accumulator.get(15, 20))
+    music = library.make_alternate_divisions_function(accumulator.get(15, 20))
     result.extend(music)
     music = library.make_silent_first_division(accumulator.get(21, 30))
     result.extend(music)
@@ -140,7 +140,7 @@ def PF(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 14))
     voice.extend(music)
     rmakers.force_rest_function(abjad.select.leaf(music, -1))
-    music = library.make_alternate_divisions(
+    music = library.make_alternate_divisions_function(
         accumulator.get(15, 20),
         detach_ties=True,
     )

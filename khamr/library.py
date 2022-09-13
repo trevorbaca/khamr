@@ -87,70 +87,57 @@ def halo_hairpins(argument):
         baca.hairpin(plt, string, remove_length_1_spanner_start=True)
 
 
-def make_alternate_divisions(time_signatures, detach_ties=None):
-    commands = []
+def make_alternate_divisions_function(time_signatures, *, detach_ties=False):
+    tag = baca.tags.function_name(inspect.currentframe())
+    nested_music = rmakers.note_function(time_signatures, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    ptails = baca.select.ptails(voice)[:-1]
+    rmakers.tie_function(ptails, tag=tag)
+    leaves = abjad.select.leaves(voice)
+    groups = abjad.select.group_by_measure(leaves)
+    groups = abjad.select.get(groups, [1], 2)
+    rmakers.force_rest_function(groups, tag=tag)
     if detach_ties is True:
-        specifier = rmakers.untie()
-        commands.append(specifier)
-
-    def rests(argument):
-        result = abjad.select.leaves(argument)
-        result = abjad.select.group_by_measure(result)
-        result = abjad.select.get(result, [1], 2)
-        return result
-
-    rhythm_maker = rmakers.stack(
-        rmakers.note(),
-        rmakers.tie(
-            lambda _: baca.select.ptails(_)[:-1],
-        ),
-        rmakers.force_rest(rests),
-        *commands,
-        rmakers.beam(lambda _: baca.select.plts(_)),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
+        rmakers.untie_function(voice)
+    plts = baca.select.plts(voice)
+    rmakers.beam_function(plts, tag=tag)
+    rmakers.rewrite_meter_function(voice, tag=tag)
+    rmakers.force_repeat_tie_function(voice)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
-def make_aviary_rhythm(time_signatures, duration, *, extra_counts):
-    def preprocessor(divisions):
-        divisions = baca.sequence.fuse(divisions)
-        divisions = baca.sequence.split_divisions(divisions, [duration], cyclic=True)
-        return divisions
-
-    rhythm_maker = rmakers.stack(
-        rmakers.even_division([16], extra_counts=extra_counts),
-        rmakers.beam(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
+def make_aviary_rhythm_function(time_signatures, duration, *, extra_counts):
+    tag = baca.tags.function_name(inspect.currentframe())
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = baca.sequence.fuse(divisions)
+    divisions = baca.sequence.split_divisions(divisions, [duration], cyclic=True)
+    divisions = abjad.sequence.flatten(divisions)
+    nested_music = rmakers.even_division_function(
+        divisions, [16], extra_counts=extra_counts, tag=tag
     )
-    music = rhythm_maker(time_signatures)
-    return music
+    rmakers.beam_function(nested_music, tag=tag)
+    return nested_music
 
 
-def make_closing_rhythm(time_signatures):
-    def preprocessor(divisions):
-        divisions = baca.sequence.fuse(divisions)
-        divisions = baca.sequence.split_divisions(
-            divisions, [(2, 4), (4, 4), (12, 4)], cyclic=True
-        )
-        return divisions
-
-    rhythm_maker = rmakers.stack(
-        rmakers.note(),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [0, -1]),
-        ),
-        rmakers.beam(lambda _: baca.select.plts(_)),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
+def make_closing_rhythm_function(time_signatures):
+    tag = baca.tags.function_name(inspect.currentframe())
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = baca.sequence.fuse(divisions)
+    divisions = baca.sequence.split_divisions(
+        divisions, [(2, 4), (4, 4), (12, 4)], cyclic=True
     )
-    music = rhythm_maker(time_signatures)
+    divisions = abjad.sequence.flatten(divisions, depth=-1)
+    nested_music = rmakers.note_function(divisions, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    lts = baca.select.lts(voice)
+    lts = abjad.select.get(lts, [0, -1])
+    rmakers.force_rest_function(lts, tag=tag)
+    plts = baca.select.plts(voice)
+    rmakers.beam_function(plts, tag=tag)
+    rmakers.rewrite_meter_function(voice, tag=tag)
+    rmakers.force_repeat_tie_function(voice)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 

@@ -66,7 +66,7 @@ def FL(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
     voice.extend(music)
-    music = library.make_aviary_rhythm(
+    music = library.make_aviary_rhythm_function(
         accumulator.get(10, 29),
         (7, 16),
         extra_counts=[1],
@@ -87,7 +87,7 @@ def OB(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
     voice.extend(music)
-    music = library.make_aviary_rhythm(
+    music = library.make_aviary_rhythm_function(
         accumulator.get(10, 29),
         (5, 16),
         extra_counts=[1],
@@ -109,7 +109,7 @@ def CL(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
     voice.extend(music)
-    music = library.make_aviary_rhythm(
+    music = library.make_aviary_rhythm_function(
         accumulator.get(10, 29),
         (8, 16),
         extra_counts=[1],
@@ -127,7 +127,7 @@ def SAX(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 9))
     voice.extend(music)
-    music = library.make_aviary_rhythm(
+    music = library.make_aviary_rhythm_function(
         accumulator.get(10, 29),
         (6, 16),
         extra_counts=[1],
@@ -160,7 +160,7 @@ def PF(voice, accumulator):
         [4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5],
     )
     voice.extend(music)
-    music = library.make_aviary_rhythm(
+    music = library.make_aviary_rhythm_function(
         accumulator.get(10, 29),
         (9, 16),
         extra_counts=[2],
