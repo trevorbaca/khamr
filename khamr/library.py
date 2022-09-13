@@ -336,42 +336,37 @@ def make_guitar_accelerando_rhythm_function(time_signatures, counts):
     return music
 
 
-def make_guitar_isolata_rhythm(time_signatures, *, force_rest_tuplets=None):
-    def preprocessor(divisions):
-        result = baca.sequence.fuse(divisions)
-        result = baca.sequence.quarters(result)
-        return result
-
-    commands = []
-    if force_rest_tuplets is not None:
-        command = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets),
-        )
-        commands.append(command)
-    rhythm_maker = rmakers.stack(
-        rmakers.tuplet(
-            [
-                (-1, 1, -1),
-                (-1, 1, -1),
-                (-1, 1, -2),
-                (-3, 1, -1),
-                (-1, 2),
-                (-2, 1, -1),
-                (-2, 1, -1),
-                (-3, 1, -1),
-            ]
-        ),
-        *commands,
-        rmakers.beam(),
-        rmakers.rewrite_rest_filled(),
-        rmakers.rewrite_sustained(),
-        rmakers.trivialize(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
+def make_guitar_isolata_rhythm_function(time_signatures, *, force_rest_tuplets=None):
+    tag = baca.tags.function_name(inspect.currentframe())
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = baca.sequence.fuse(divisions)
+    divisions = baca.sequence.quarters(divisions)
+    nested_music = rmakers.tuplet_function(
+        divisions,
+        [
+            (-1, 1, -1),
+            (-1, 1, -1),
+            (-1, 1, -2),
+            (-3, 1, -1),
+            (-1, 2),
+            (-2, 1, -1),
+            (-2, 1, -1),
+            (-3, 1, -1),
+        ],
+        tag=tag,
     )
-    music = rhythm_maker(time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    if force_rest_tuplets is not None:
+        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.get(tuplets, force_rest_tuplets)
+        rmakers.force_rest_function(tuplets, tag=tag)
+    rmakers.beam_function(voice, tag=tag)
+    rmakers.rewrite_rest_filled_function(voice, tag=tag)
+    rmakers.rewrite_sustained_function(voice)
+    rmakers.trivialize_function(voice)
+    rmakers.extract_trivial_function(voice)
+    rmakers.rewrite_meter_function(voice, tag=tag)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 

@@ -3938,9 +3938,9 @@ number.2.Guitar.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     \times 2/3
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3976,7 +3976,7 @@ number.2.Guitar.Music = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! khamr.make_guitar_isolata_rhythm()
+          %! khamr.make_guitar_isolata_rhythm_function()
         r8
         % AFTER:
         % ARTICULATIONS:
@@ -4015,84 +4015,84 @@ number.2.Guitar.Music = {
         % COMMANDS:
           %! baca.note_head_style_cross(1)
         \override NoteHead.style = #'cross
-          %! khamr.make_guitar_isolata_rhythm()
+          %! khamr.make_guitar_isolata_rhythm_function()
         d''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_guitar_isolata_rhythm()
+          %! khamr.make_guitar_isolata_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 2]
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     \times 2/3
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Guitar.Music measure 3]
-          %! khamr.make_guitar_isolata_rhythm()
+          %! khamr.make_guitar_isolata_rhythm_function()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_guitar_isolata_rhythm()
+          %! khamr.make_guitar_isolata_rhythm_function()
         fs''!4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     \times 2/3
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_guitar_isolata_rhythm()
+          %! khamr.make_guitar_isolata_rhythm_function()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_guitar_isolata_rhythm()
+          %! khamr.make_guitar_isolata_rhythm_function()
         g''8
         % AFTER:
         % COMMANDS:
@@ -4101,20 +4101,20 @@ number.2.Guitar.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_guitar_isolata_rhythm()
+          %! khamr.make_guitar_isolata_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 4]
-      %! khamr.make_guitar_isolata_rhythm()
+      %! khamr.make_guitar_isolata_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
