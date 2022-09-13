@@ -3204,14 +3204,14 @@ number.4.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 16]
-      %! khamr.make_closing_rhythm()
+      %! khamr.make_closing_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 17]
-      %! khamr.make_closing_rhythm()
+      %! khamr.make_closing_rhythm_function()
     c''1
     % AFTER:
     % ARTICULATIONS:
@@ -3272,7 +3272,7 @@ number.4.Guitar.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_closing_rhythm()
+      %! khamr.make_closing_rhythm_function()
     r2
     % CLOSING:
     % COMMANDS:
@@ -3511,14 +3511,14 @@ number.4.Piano.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 16]
-      %! khamr.make_closing_rhythm()
+      %! khamr.make_closing_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 17]
-      %! khamr.make_closing_rhythm()
+      %! khamr.make_closing_rhythm_function()
     as'!1
     % AFTER:
     % ARTICULATIONS:
@@ -3575,7 +3575,7 @@ number.4.Piano.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_closing_rhythm()
+      %! khamr.make_closing_rhythm_function()
     r2
     % CLOSING:
     % COMMANDS:

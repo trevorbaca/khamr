@@ -87,7 +87,7 @@ def GT(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(8, 15))
     voice.extend(music)
     rmakers.force_rest_function(baca.select.leaves(music)[2:]),
-    music = library.make_closing_rhythm(accumulator.get(16, 20))
+    music = library.make_closing_rhythm_function(accumulator.get(16, 20))
     voice.extend(music)
 
 
@@ -98,7 +98,7 @@ def PF(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(8, 15))
     voice.extend(music)
     rmakers.force_rest_function(baca.select.leaves(music)[2:]),
-    music = library.make_closing_rhythm(accumulator.get(16, 20))
+    music = library.make_closing_rhythm_function(accumulator.get(16, 20))
     voice.extend(music)
 
 
