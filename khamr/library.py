@@ -368,12 +368,18 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
     return music
 
 
-def make_guitar_isolata_rhythm(time_signatures, *commands):
+def make_guitar_isolata_rhythm(time_signatures, *, force_rest_tuplets=None):
     def preprocessor(divisions):
         result = baca.sequence.fuse(divisions)
         result = baca.sequence.quarters(result)
         return result
 
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets),
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.tuplet(
             [
@@ -401,7 +407,14 @@ def make_guitar_isolata_rhythm(time_signatures, *commands):
     return music
 
 
-def make_opening_glissando_rhythm(time_signatures, tuplet_ratio_rotation, *commands):
+def make_opening_glissando_rhythm(
+    time_signatures,
+    tuplet_ratio_rotation,
+    *,
+    repeat_tie_leaves_in_get_tuplets=None,
+    tie_leaves_in_get_tuplets=None,
+    force_rest_tuplets=None,
+):
     tuplet_ratios = [
         (4, 1),
         (4, 1),
@@ -418,6 +431,24 @@ def make_opening_glissando_rhythm(time_signatures, tuplet_ratio_rotation, *comma
     ]
     tuplet_ratio_rotation *= 3
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
+    commands = []
+    if repeat_tie_leaves_in_get_tuplets is not None:
+        command = rmakers.repeat_tie(
+            lambda _: baca.select.leaves_in_get_tuplets(
+                _, *repeat_tie_leaves_in_get_tuplets
+            )
+        )
+        commands.append(command)
+    if tie_leaves_in_get_tuplets is not None:
+        command = rmakers.tie(
+            lambda _: baca.select.leaves_in_get_tuplets(_, *tie_leaves_in_get_tuplets)
+        )
+        commands.append(command)
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets),
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.tuplet(tuplet_ratios),
         rmakers.repeat_tie(
@@ -439,10 +470,17 @@ def make_opening_glissando_rhythm(time_signatures, tuplet_ratio_rotation, *comma
     return music
 
 
-def make_quarter_hits(time_signatures, *commands):
+def make_quarter_hits(time_signatures, *, force_rest_lts=None):
     def preprocessor(divisions):
         divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
         return divisions
+
+    commands = []
+    if force_rest_lts is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), force_rest_lts)
+        )
+        commands.append(command)
 
     rhythm_maker = rmakers.stack(
         rmakers.note(),
@@ -477,12 +515,18 @@ def make_silent_first_division(time_signatures):
     return music
 
 
-def make_trill_tuplets(time_signatures, tuplet_ratios, *commands):
+def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=None):
     def preprocessor(divisions):
         divisions = baca.sequence.fuse(divisions)
         divisions = baca.sequence.quarters(divisions)
         return divisions
 
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets),
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.tuplet(string_tuplet_ratios(tuplet_ratios)),
         rmakers.tie(lambda _: baca.select.ptail_in_each_tuplet(_, -1, (None, -1))),
