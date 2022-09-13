@@ -189,11 +189,11 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(5, 9))
     voice.extend(music)
-    music = baca.make_repeated_duration_notes(
+    music = baca.make_repeated_duration_notes_function(
         accumulator.get(10, 25), [(1, 4)], do_not_rewrite_meter=True
     )
     voice.extend(music)
-    music = baca.make_repeated_duration_notes(
+    music = baca.make_repeated_duration_notes_function(
         accumulator.get(26, 29), [(3, 8)], do_not_rewrite_meter=True
     )
     voice.extend(music)

@@ -4950,7 +4950,7 @@ number.4.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'2
     % AFTER:
     % ARTICULATIONS:
@@ -5183,7 +5183,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -5259,7 +5259,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5275,7 +5275,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -5312,7 +5312,7 @@ number.4.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5328,7 +5328,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 9]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -5449,7 +5449,7 @@ number.4.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -5684,7 +5684,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 3]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5761,7 +5761,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 7]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5772,7 +5772,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 8]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5856,7 +5856,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 11]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5867,7 +5867,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 12]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5922,7 +5922,7 @@ number.4.Contrabass.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'1
     % AFTER:
     % ARTICULATIONS:

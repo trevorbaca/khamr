@@ -115,28 +115,28 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = baca.make_repeated_duration_notes(accumulator.get(1, 15), [(7, 4)])
+    music = baca.make_repeated_duration_notes_function(accumulator.get(1, 15), [(7, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeated_duration_notes(accumulator.get(1, 15), [(6, 4)])
+    music = baca.make_repeated_duration_notes_function(accumulator.get(1, 15), [(6, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def VC(voice, accumulator):
-    music = baca.make_repeated_duration_notes(accumulator.get(1, 15), [(5, 4)])
+    music = baca.make_repeated_duration_notes_function(accumulator.get(1, 15), [(5, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def CB(voice, accumulator):
-    music = baca.make_repeated_duration_notes(accumulator.get(1, 15), [(4, 4)])
+    music = baca.make_repeated_duration_notes_function(accumulator.get(1, 15), [(4, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
