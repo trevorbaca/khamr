@@ -130,7 +130,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_opening_glissando_rhythm(
+    music = library.make_opening_glissando_rhythm_function(
         accumulator.get(1, 36),
         0,
         repeat_tie_leaves_in_get_tuplets=(([0, 1, 2, 5], 7), (1, None)),
@@ -145,7 +145,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_opening_glissando_rhythm(
+    music = library.make_opening_glissando_rhythm_function(
         accumulator.get(1, 36),
         -1,
         tie_leaves_in_get_tuplets=(([1, 2, 3, 6], 7), (None, -1)),
@@ -160,7 +160,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_opening_glissando_rhythm(
+    music = library.make_opening_glissando_rhythm_function(
         accumulator.get(1, 36),
         -2,
         tie_leaves_in_get_tuplets=(([0, 2, 3, 4], 7), (None, -1)),
@@ -175,7 +175,7 @@ def VC(voice, accumulator):
 
 
 def CB(voice, accumulator):
-    music = library.make_opening_glissando_rhythm(
+    music = library.make_opening_glissando_rhythm_function(
         accumulator.get(),
         -3,
         tie_leaves_in_get_tuplets=(([0, 1, 4, 6], 7), (None, -1)),
