@@ -102,7 +102,7 @@ def make_alternate_divisions_function(time_signatures, *, detach_ties=False):
     plts = baca.select.plts(voice)
     rmakers.beam_function(plts, tag=tag)
     rmakers.rewrite_meter_function(voice, tag=tag)
-    rmakers.force_repeat_tie_function(voice)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -136,7 +136,7 @@ def make_closing_rhythm_function(time_signatures):
     plts = baca.select.plts(voice)
     rmakers.beam_function(plts, tag=tag)
     rmakers.rewrite_meter_function(voice, tag=tag)
-    rmakers.force_repeat_tie_function(voice)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -160,7 +160,7 @@ def make_continuous_glissando_rhythm_function(
     rmakers.trivialize_function(voice)
     rmakers.extract_trivial_function(voice)
     rmakers.rewrite_meter_function(voice, tag=tag)
-    rmakers.force_repeat_tie_function(voice)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -281,7 +281,7 @@ def make_fused_expanse_rhythm_function(time_signatures, counts):
     plts = baca.select.plts(voice)
     rmakers.beam_function(plts, tag=tag)
     rmakers.rewrite_meter_function(voice, tag=tag)
-    rmakers.force_repeat_tie_function(voice)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -311,7 +311,7 @@ def make_fused_wind_rhythm_function(
     rmakers.rewrite_rest_filled_function(voice, tag=tag)
     rmakers.extract_trivial_function(voice)
     rmakers.rewrite_meter_function(voice, tag=tag)
-    rmakers.force_repeat_tie_function(voice)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -331,7 +331,7 @@ def make_guitar_accelerando_rhythm_function(time_signatures, counts):
     tuplets = [_ for _ in tuplets if 1 < len(_)]
     rmakers.duration_bracket_function(tuplets)
     rmakers.feather_beam_function(voice)
-    rmakers.force_repeat_tie_function(voice)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -418,7 +418,7 @@ def make_opening_glissando_rhythm_function(
     rmakers.trivialize_function(voice)
     rmakers.extract_trivial_function(voice)
     rmakers.rewrite_meter_function(voice, tag=tag)
-    rmakers.force_repeat_tie_function(voice)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -437,7 +437,7 @@ def make_quarter_hits_function(time_signatures, *, force_rest_lts=None):
     plts = baca.select.plts(voice)
     rmakers.beam_function(plts, tag=tag)
     rmakers.rewrite_meter_function(voice, tag=tag)
-    rmakers.force_repeat_tie_function(voice)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
