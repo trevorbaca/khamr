@@ -423,28 +423,22 @@ def make_opening_glissando_rhythm_function(
     return music
 
 
-def make_quarter_hits(time_signatures, *, force_rest_lts=None):
-    def preprocessor(divisions):
-        divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
-        return divisions
-
-    commands = []
+def make_quarter_hits_function(time_signatures, *, force_rest_lts=None):
+    tag = baca.tags.function_name(inspect.currentframe())
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+    divisions = abjad.sequence.flatten(divisions, depth=-1)
+    nested_music = rmakers.note_function(divisions, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if force_rest_lts is not None:
-        command = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), force_rest_lts)
-        )
-        commands.append(command)
-
-    rhythm_maker = rmakers.stack(
-        rmakers.note(),
-        *commands,
-        rmakers.beam(lambda _: baca.select.plts(_)),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
+        lts = baca.select.lts(voice)
+        lts = abjad.select.get(lts, force_rest_lts)
+        rmakers.force_rest_function(lts, tag=tag)
+    plts = baca.select.plts(voice)
+    rmakers.beam_function(plts, tag=tag)
+    rmakers.rewrite_meter_function(voice, tag=tag)
+    rmakers.force_repeat_tie_function(voice)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 

@@ -160,12 +160,12 @@ def PERC(voice, accumulator):
     )
     voice.extend(music)
     indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
-    music = library.make_quarter_hits(
+    music = library.make_quarter_hits_function(
         accumulator.get(15, 20),
         force_rest_lts=indices,
     )
     voice.extend(music)
-    music = library.make_quarter_hits(
+    music = library.make_quarter_hits_function(
         accumulator.get(21, 30),
         force_rest_lts=stage_5_silence_pattern,
     )
@@ -209,7 +209,7 @@ def VC(voice, accumulator):
 
 
 def CB(voice, accumulator):
-    music = library.make_opening_glissando_rhythm(
+    music = library.make_opening_glissando_rhythm_function(
         accumulator.get(1, 14),
         -3,
         repeat_tie_leaves_in_get_tuplets=(([0, 1, 4, 6], 7), (1, None)),
