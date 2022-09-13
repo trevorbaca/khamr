@@ -74,7 +74,7 @@ def FL(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 33))
     voice.extend(music)
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(34, 37),
         [8],
         denominator=16,
@@ -95,7 +95,7 @@ def OB(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 33))
     voice.extend(music)
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(34, 37),
         [10],
         force_rest_tuplets=[0],
@@ -135,7 +135,7 @@ def SAX(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 33))
     voice.extend(music)
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(34, 37),
         [12],
         denominator=16,
@@ -155,7 +155,7 @@ def GT(voice, accumulator):
 
 
 def PF(voice, accumulator):
-    music = library.make_current_rhythm(
+    music = library.make_current_rhythm_function(
         accumulator.get(1, 9),
         [4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5],
     )

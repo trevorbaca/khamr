@@ -1325,7 +1325,7 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1369,7 +1369,7 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     bf'16
     % AFTER:
     % SPANNER_STARTS:
@@ -1377,7 +1377,7 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1426,7 +1426,7 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1464,7 +1464,7 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1513,7 +1513,7 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1574,12 +1574,12 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     bf'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -1590,7 +1590,7 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     bf'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -1598,7 +1598,7 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1824,7 +1824,7 @@ number.4.Oboe.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1868,7 +1868,7 @@ number.4.Oboe.Music = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 7]
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -1880,7 +1880,7 @@ number.4.Oboe.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -1888,7 +1888,7 @@ number.4.Oboe.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1936,7 +1936,7 @@ number.4.Oboe.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1987,7 +1987,7 @@ number.4.Oboe.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2052,7 +2052,7 @@ number.4.Oboe.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -2060,7 +2060,7 @@ number.4.Oboe.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2682,7 +2682,7 @@ number.4.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2737,7 +2737,7 @@ number.4.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -2745,7 +2745,7 @@ number.4.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2807,7 +2807,7 @@ number.4.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2892,12 +2892,12 @@ number.4.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2908,7 +2908,7 @@ number.4.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
@@ -2916,7 +2916,7 @@ number.4.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:

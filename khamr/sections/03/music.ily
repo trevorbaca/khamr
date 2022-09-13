@@ -5221,7 +5221,7 @@ number.3.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5280,7 +5280,7 @@ number.3.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % CLOSING:
     % COMMANDS:
@@ -8890,7 +8890,7 @@ number.3.Oboe.Music = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 36]
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8952,7 +8952,7 @@ number.3.Oboe.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % CLOSING:
     % COMMANDS:
@@ -15156,7 +15156,7 @@ number.3.Saxophone.Music = {
 
       %! baca._comment_measure_numbers()
     % [Saxophone.Music measure 36]
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     c'2...
     % AFTER:
     % SPANNER_STARTS:
@@ -15164,7 +15164,7 @@ number.3.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15210,7 +15210,7 @@ number.3.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm()
+      %! khamr.make_fused_wind_rhythm_function()
     r16
     % CLOSING:
     % COMMANDS:
@@ -15979,7 +15979,7 @@ number.3.Piano.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     df''''!16
     % AFTER:
     % ARTICULATIONS:
@@ -15998,7 +15998,7 @@ number.3.Piano.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Piano”)"
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_AFTER:
@@ -16018,51 +16018,51 @@ number.3.Piano.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     d''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     c''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     af'''!16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     g'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     c''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16070,353 +16070,353 @@ number.3.Piano.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 2]
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     b'''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     df''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     ef''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     f''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 2/3
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         fs'''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         bf'''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 3]
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         a'''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         af'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         g'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         f''''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         b'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ef''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         a'''16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         fs'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         bf'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     d''''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     f''''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     ef''''!8
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 2/3
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 4]
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         f''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         b'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     bf'''!16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     a'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     fs'''!16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     f''''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     c''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     df''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     d''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 2/3
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 5]
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''8
         % AFTER:
         % ARTICULATIONS:
@@ -16433,761 +16433,761 @@ number.3.Piano.Music = {
           %! baca.dynamic()
         \ffff
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         af'''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 2/3
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         g'''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         fs'''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         bf'''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         a'''16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         d''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         f''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         af'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 6]
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ef''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         f''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         b'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         d''''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         f''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         af'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         g'''16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 7]
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ef''''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     f''''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     fs'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     bf'''!16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     a'''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     c''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     af'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     g'''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     e''''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     b'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     df''''!16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 2/3
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 8]
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ef''''!8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         a'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         fs'''!16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         d''''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         f''''16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ef''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         f''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 4/5
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         bf'''!16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         a'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         f''''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 2/3
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         d''''8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 2/3
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 9]
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         c''''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         af'''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     g'''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     fs'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     bf'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     a'''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     e''''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     d''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     c''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     \times 2/3
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         df''''!8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         g'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
         e''''8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm()
+          %! khamr.make_current_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % COMMANDS:
@@ -17198,7 +17198,7 @@ number.3.Piano.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm()
+      %! khamr.make_current_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
