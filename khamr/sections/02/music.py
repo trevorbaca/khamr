@@ -126,9 +126,7 @@ def SAX(voice, accumulator):
 def GT(voice, accumulator):
     music = library.make_guitar_isolata_rhythm(
         accumulator.get(1, 4),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 2, 3, 5, 6, 7, 8], 9)),
-        ),
+        force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(5, 14))
@@ -164,16 +162,12 @@ def PERC(voice, accumulator):
     indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
     music = library.make_quarter_hits(
         accumulator.get(15, 20),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), indices),
-        ),
+        force_rest_lts=indices,
     )
     voice.extend(music)
     music = library.make_quarter_hits(
         accumulator.get(21, 30),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), stage_5_silence_pattern),
-        ),
+        force_rest_lts=stage_5_silence_pattern,
     )
     voice.extend(music)
 
@@ -182,9 +176,7 @@ def VN(voice, accumulator):
     music = library.make_trill_tuplets(
         accumulator.get(1, 14),
         4,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (-2, None)),
-        ),
+        force_rest_tuplets=[-2, -1],
     )
     voice.extend(music)
     music = make_15_30("vn", accumulator)
@@ -195,9 +187,7 @@ def VA(voice, accumulator):
     music = library.make_trill_tuplets(
         accumulator.get(1, 14),
         3,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (-2, None)),
-        ),
+        force_rest_tuplets=[-2, -1],
     )
     voice.extend(music)
     music = make_15_30("va", accumulator)
@@ -208,9 +198,7 @@ def VC(voice, accumulator):
     music = library.make_trill_tuplets(
         accumulator.get(1, 8),
         2,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (-2, None)),
-        ),
+        force_rest_tuplets=[-2, -1],
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(9, 14))
@@ -224,14 +212,8 @@ def CB(voice, accumulator):
     music = library.make_opening_glissando_rhythm(
         accumulator.get(1, 14),
         -3,
-        rmakers.repeat_tie(
-            lambda _: baca.select.leaves_in_get_tuplets(
-                _, ([0, 1, 4, 6], 7), (1, None)
-            ),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
+        repeat_tie_leaves_in_get_tuplets=(([0, 1, 4, 6], 7), (1, None)),
+        force_rest_tuplets=[-1],
     )
     voice.extend(music)
     music = make_15_30("cb", accumulator)

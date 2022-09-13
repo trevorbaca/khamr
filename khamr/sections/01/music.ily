@@ -5888,7 +5888,7 @@ number.1.Guitar.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! khamr.make_guitar_isolata_rhythm()
+      %! GT()
     cs'!4
     % AFTER:
     % ARTICULATIONS:
