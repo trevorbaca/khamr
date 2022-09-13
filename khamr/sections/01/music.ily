@@ -12650,7 +12650,7 @@ number.1.Violin.Music = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'2
     % AFTER:
     % ARTICULATIONS:
@@ -12685,18 +12685,18 @@ number.1.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12707,7 +12707,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -12732,14 +12732,14 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 38]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fs'2
     % AFTER:
     % SPANNER_STARTS:
@@ -12747,30 +12747,30 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 39]
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fs'8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12781,7 +12781,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'!8.
         % AFTER:
         % ARTICULATIONS:
@@ -12793,7 +12793,7 @@ number.1.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -12810,12 +12810,12 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'2
     % AFTER:
     % SPANNER_STARTS:
@@ -12823,28 +12823,28 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'8.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12855,7 +12855,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'8
         % AFTER:
         % ARTICULATIONS:
@@ -12867,7 +12867,7 @@ number.1.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -12884,12 +12884,12 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -12897,26 +12897,26 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 40]
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'4
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -12927,7 +12927,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -12952,12 +12952,12 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -12965,14 +12965,14 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 41]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -12980,24 +12980,24 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13008,7 +13008,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'4
         % AFTER:
         % ARTICULATIONS:
@@ -13033,12 +13033,12 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -13046,12 +13046,12 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -13059,24 +13059,24 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13087,7 +13087,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         e'4
         % AFTER:
         % ARTICULATIONS:
@@ -13112,14 +13112,14 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 42]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -13127,27 +13127,27 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         e'8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13158,7 +13158,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         eqs'!8.
         % AFTER:
         % ARTICULATIONS:
@@ -13170,7 +13170,7 @@ number.1.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         ]
         % SPANNER_STARTS:
           %! baca._attach_shadow_tie_indicators()
@@ -13186,14 +13186,14 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 43]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     eqs'2
     % AFTER:
     % SPANNER_STARTS:
@@ -13201,28 +13201,28 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         eqs'8.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13233,7 +13233,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -13245,7 +13245,7 @@ number.1.Violin.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -13262,12 +13262,12 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     e'4
     % AFTER:
     % SPANNER_STARTS:
@@ -13275,14 +13275,14 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 44]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     e'4
     % AFTER:
     % SPANNER_STARTS:
@@ -13290,24 +13290,24 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         e'4
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13318,7 +13318,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         eqs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -13343,12 +13343,12 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     eqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -13356,12 +13356,12 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     eqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -13369,24 +13369,24 @@ number.1.Violin.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         eqs'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13397,7 +13397,7 @@ number.1.Violin.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'4
         % AFTER:
         % ARTICULATIONS:
@@ -13422,16 +13422,16 @@ number.1.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15168,7 +15168,7 @@ number.1.Viola.Music = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'2.
     % AFTER:
     % ARTICULATIONS:
@@ -15203,20 +15203,20 @@ number.1.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 38]
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15227,7 +15227,7 @@ number.1.Viola.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -15252,12 +15252,12 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -15265,14 +15265,14 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 39]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fs'2
     % AFTER:
     % SPANNER_STARTS:
@@ -15280,28 +15280,28 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fs'8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15312,7 +15312,7 @@ number.1.Viola.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'!8.
         % AFTER:
         % ARTICULATIONS:
@@ -15324,7 +15324,7 @@ number.1.Viola.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -15341,12 +15341,12 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -15354,30 +15354,30 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 40]
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'8.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15388,7 +15388,7 @@ number.1.Viola.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'8
         % AFTER:
         % ARTICULATIONS:
@@ -15400,7 +15400,7 @@ number.1.Viola.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -15417,12 +15417,12 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -15430,14 +15430,14 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 41]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -15445,24 +15445,24 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'4
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15473,7 +15473,7 @@ number.1.Viola.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -15498,12 +15498,12 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'2
     % AFTER:
     % SPANNER_STARTS:
@@ -15511,14 +15511,14 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 42]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -15526,24 +15526,24 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15554,7 +15554,7 @@ number.1.Viola.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'4
         % AFTER:
         % ARTICULATIONS:
@@ -15579,12 +15579,12 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -15592,14 +15592,14 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 43]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -15607,24 +15607,24 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15635,7 +15635,7 @@ number.1.Viola.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         e'4
         % AFTER:
         % ARTICULATIONS:
@@ -15660,12 +15660,12 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     e'4
     % AFTER:
     % SPANNER_STARTS:
@@ -15673,14 +15673,14 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 44]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -15688,28 +15688,28 @@ number.1.Viola.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         e'8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -15720,7 +15720,7 @@ number.1.Viola.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         eqs'!8.
         % AFTER:
         % ARTICULATIONS:
@@ -15732,7 +15732,7 @@ number.1.Viola.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -15749,16 +15749,16 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     eqs'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -17541,7 +17541,7 @@ number.1.Cello.Music = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'2.
     % AFTER:
     % ARTICULATIONS:
@@ -17577,7 +17577,7 @@ number.1.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 38]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -17585,24 +17585,24 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -17613,7 +17613,7 @@ number.1.Cello.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -17638,14 +17638,14 @@ number.1.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 39]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fs'1
     % AFTER:
     % SPANNER_STARTS:
@@ -17653,27 +17653,27 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fs'8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -17684,7 +17684,7 @@ number.1.Cello.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'!8.
         % AFTER:
         % ARTICULATIONS:
@@ -17696,7 +17696,7 @@ number.1.Cello.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         ]
         % SPANNER_STARTS:
           %! baca._attach_shadow_tie_indicators()
@@ -17712,12 +17712,12 @@ number.1.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -17725,14 +17725,14 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 40]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'2
     % AFTER:
     % SPANNER_STARTS:
@@ -17740,14 +17740,14 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 41]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -17755,27 +17755,27 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'8.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         [
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -17786,7 +17786,7 @@ number.1.Cello.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'8
         % AFTER:
         % ARTICULATIONS:
@@ -17798,7 +17798,7 @@ number.1.Cello.Music = {
           %! baca.trill_spanner()
         \stopTrillSpan
         % STOP_BEAM:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         ]
         % SPANNER_STARTS:
           %! baca._attach_shadow_tie_indicators()
@@ -17814,12 +17814,12 @@ number.1.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -17827,14 +17827,14 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 42]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -17842,24 +17842,24 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'4
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -17870,7 +17870,7 @@ number.1.Cello.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'!16
         % AFTER:
         % ARTICULATIONS:
@@ -17895,12 +17895,12 @@ number.1.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'4
     % AFTER:
     % SPANNER_STARTS:
@@ -17908,14 +17908,14 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 43]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     fqs'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -17923,24 +17923,24 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         fqs'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -17951,7 +17951,7 @@ number.1.Cello.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'4
         % AFTER:
         % ARTICULATIONS:
@@ -17976,14 +17976,14 @@ number.1.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 44]
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     f'1
     % AFTER:
     % SPANNER_STARTS:
@@ -17991,24 +17991,24 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \times 4/5
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         f'16
         % AFTER:
         % SPANNER_STARTS:
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -18019,7 +18019,7 @@ number.1.Cello.Music = {
           %! baca._do_spanner_indicator_command(1)
           %! baca.trill_spanner()
         \pitchedTrill
-          %! khamr.make_trill_tuplets()
+          %! khamr.make_trill_tuplets_function()
         e'4
         % AFTER:
         % ARTICULATIONS:
@@ -18044,16 +18044,16 @@ number.1.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     e'4
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_trill_tuplets()
+      %! khamr.make_trill_tuplets_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
