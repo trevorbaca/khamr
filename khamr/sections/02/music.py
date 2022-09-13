@@ -68,7 +68,7 @@ def make_15_30(voice, accumulator):
     result = []
     music = library.make_alternate_divisions_function(accumulator.get(15, 20))
     result.extend(music)
-    music = library.make_silent_first_division(accumulator.get(21, 30))
+    music = library.make_silent_first_division_function(accumulator.get(21, 30))
     result.extend(music)
     return result
 
@@ -173,7 +173,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_trill_tuplets(
+    music = library.make_trill_tuplets_function(
         accumulator.get(1, 14),
         4,
         force_rest_tuplets=[-2, -1],
@@ -184,7 +184,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_trill_tuplets(
+    music = library.make_trill_tuplets_function(
         accumulator.get(1, 14),
         3,
         force_rest_tuplets=[-2, -1],
@@ -195,7 +195,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_trill_tuplets(
+    music = library.make_trill_tuplets_function(
         accumulator.get(1, 8),
         2,
         force_rest_tuplets=[-2, -1],

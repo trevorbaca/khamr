@@ -136,7 +136,7 @@ def VN(voice, accumulator):
         repeat_tie_leaves_in_get_tuplets=(([0, 1, 2, 5], 7), (1, None)),
     )
     voice.extend(music)
-    music = library.make_trill_tuplets(
+    music = library.make_trill_tuplets_function(
         accumulator.get(37, 44),
         4,
     )
@@ -151,7 +151,7 @@ def VA(voice, accumulator):
         tie_leaves_in_get_tuplets=(([1, 2, 3, 6], 7), (None, -1)),
     )
     voice.extend(music)
-    music = library.make_trill_tuplets(
+    music = library.make_trill_tuplets_function(
         accumulator.get(37, 44),
         3,
     )
@@ -166,7 +166,7 @@ def VC(voice, accumulator):
         tie_leaves_in_get_tuplets=(([0, 2, 3, 4], 7), (None, -1)),
     )
     voice.extend(music)
-    music = library.make_trill_tuplets(
+    music = library.make_trill_tuplets_function(
         accumulator.get(37, 44),
         2,
     )
