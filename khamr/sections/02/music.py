@@ -77,9 +77,7 @@ def FL(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(1, 8),
         [10, 10, 6, 8, 6],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([2, 5], 6)),
-        ),
+        force_rest_tuplets=abjad.Pattern([2, 5], period=6),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 14))
@@ -92,9 +90,7 @@ def OB(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(1, 8),
         [12, 6, 10, 10, 6, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 4], 6)),
-        ),
+        force_rest_tuplets=([1, 4], 6),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 14))
@@ -107,12 +103,7 @@ def CL(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(1, 14),
         [8, 6, 10, 6, 10, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
+        force_rest_tuplets=abjad.Pattern([1, 3], period=6) | abjad.Pattern([-1]),
     )
     voice.extend(music)
     music = make_15_30("cl", accumulator)
@@ -123,9 +114,7 @@ def SAX(voice, accumulator):
     music = library.make_fused_wind_rhythm(
         accumulator.get(1, 8),
         [14, 6, 10, 6, 10, 8],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([1, 3], 6)),
-        ),
+        force_rest_tuplets=([1, 3], 6),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 14))
@@ -161,9 +150,7 @@ def PF(voice, accumulator):
     music = library.make_current_rhythm(
         accumulator.get(21, 30),
         [4, 3, 5],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, stage_5_silence_pattern),
-        ),
+        force_rest_tuplets=stage_5_silence_pattern,
     )
     voice.extend(music)
 

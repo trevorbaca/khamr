@@ -21146,7 +21146,7 @@ number.3.Violin.Music = {
     % COMMANDS:
       %! baca.note_head_style_harmonic(1)
     \override NoteHead.style = #'harmonic
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     f'1.
     % AFTER:
     % ARTICULATIONS:
@@ -21174,7 +21174,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 4]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     fs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21185,16 +21185,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 5]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'2.
         % AFTER:
         % ARTICULATIONS:
@@ -21233,7 +21233,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21244,14 +21244,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 6]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     c'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21262,16 +21262,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 7]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         b1
         % AFTER:
         % SPANNER_STARTS:
@@ -21281,7 +21281,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -21292,24 +21292,24 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 5/9
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 8]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21319,7 +21319,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         ds'!1.
         % AFTER:
         % SPANNER_STARTS:
@@ -21330,22 +21330,22 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 9]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -21355,7 +21355,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         g'2.
         % AFTER:
         % ARTICULATIONS:
@@ -21381,14 +21381,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 10]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     a'2.
     % AFTER:
     % ARTICULATIONS:
@@ -21413,7 +21413,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 11]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -21425,7 +21425,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 12]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     as!2
     % AFTER:
     % SPANNER_STARTS:
@@ -21435,7 +21435,7 @@ number.3.Violin.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21447,7 +21447,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 13]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     cs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21458,16 +21458,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 14]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'4
         % AFTER:
         % SPANNER_STARTS:
@@ -21477,7 +21477,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         c'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21488,24 +21488,24 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 15]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         b1
         % AFTER:
         % SPANNER_STARTS:
@@ -21515,7 +21515,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21526,22 +21526,22 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 16]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -21551,7 +21551,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         ds'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -21562,7 +21562,7 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21591,7 +21591,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 18]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     g'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21602,16 +21602,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 19]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         cs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -21621,7 +21621,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -21632,14 +21632,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 20]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     as!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -21650,16 +21650,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 21]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         d'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21669,7 +21669,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -21680,22 +21680,22 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 22]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -21705,7 +21705,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         fs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -21716,24 +21716,24 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 23]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21743,7 +21743,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         g'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21754,14 +21754,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 24]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     a'1
     % AFTER:
     % SPANNER_STARTS:
@@ -21773,7 +21773,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 25]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     ds'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -21784,16 +21784,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 26]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -21803,7 +21803,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         d'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21814,14 +21814,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 27]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     cs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -21832,16 +21832,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 28]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21851,7 +21851,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         as!1
         % AFTER:
         % SPANNER_STARTS:
@@ -21862,24 +21862,24 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 29]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21889,7 +21889,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'2
         % AFTER:
         % COMMANDS:
@@ -21899,7 +21899,7 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22114,11 +22114,11 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -22129,7 +22129,7 @@ number.3.Viola.Music = {
         % COMMANDS:
           %! baca.note_head_style_harmonic(1)
         \override NoteHead.style = #'harmonic
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'1.
         % AFTER:
         % ARTICULATIONS:
@@ -22155,7 +22155,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         fs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22166,14 +22166,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     a'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -22185,7 +22185,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 5]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     e'1
     % AFTER:
     % ARTICULATIONS:
@@ -22226,7 +22226,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 6]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -22236,7 +22236,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     b2
     % AFTER:
     % SPANNER_STARTS:
@@ -22248,7 +22248,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -22259,18 +22259,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 5/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 8]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22280,7 +22280,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22291,22 +22291,22 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 9]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22316,7 +22316,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         g'2
         % AFTER:
         % ARTICULATIONS:
@@ -22342,24 +22342,24 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 10]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'2
         % AFTER:
         % ARTICULATIONS:
@@ -22382,7 +22382,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22393,14 +22393,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -22433,18 +22433,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 13]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         cs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -22454,7 +22454,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -22465,14 +22465,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 14]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22483,18 +22483,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 15]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         b1.
         % AFTER:
         % SPANNER_STARTS:
@@ -22504,7 +22504,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22515,22 +22515,22 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 16]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'4
         % AFTER:
         % SPANNER_STARTS:
@@ -22540,7 +22540,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         ds'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -22551,24 +22551,24 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 5/9
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 17]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'1.
         % AFTER:
         % SPANNER_STARTS:
@@ -22578,7 +22578,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         g'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22589,14 +22589,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 18]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     cs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -22608,7 +22608,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 19]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -22619,18 +22619,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 20]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         as!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22640,7 +22640,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         d'1
         % AFTER:
         % SPANNER_STARTS:
@@ -22651,14 +22651,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 21]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22669,16 +22669,16 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 22]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -22688,7 +22688,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         fs'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -22699,14 +22699,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 23]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     a'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22716,7 +22716,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     g'4
     % AFTER:
     % SPANNER_STARTS:
@@ -22727,16 +22727,16 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 24]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'2
         % AFTER:
         % SPANNER_STARTS:
@@ -22746,7 +22746,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22757,14 +22757,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 25]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22776,7 +22776,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 26]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     d'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22787,18 +22787,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 27]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         cs'!1.
         % AFTER:
         % SPANNER_STARTS:
@@ -22808,7 +22808,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22819,14 +22819,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 28]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -22838,7 +22838,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 29]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     a'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22848,7 +22848,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     e'4
     % AFTER:
     % COMMANDS:
@@ -23072,7 +23072,7 @@ number.3.Cello.Music = {
     % COMMANDS:
       %! baca.note_head_style_harmonic(1)
     \override NoteHead.style = #'harmonic
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     f'1
     % AFTER:
     % ARTICULATIONS:
@@ -23098,7 +23098,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     fs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23110,7 +23110,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     a'4
     % AFTER:
     % SPANNER_STARTS:
@@ -23120,7 +23120,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -23132,7 +23132,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 5]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -23173,7 +23173,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 6]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     b2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23184,16 +23184,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 7]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23203,7 +23203,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23214,7 +23214,7 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23242,16 +23242,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 9]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -23261,7 +23261,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         g'2
         % AFTER:
         % ARTICULATIONS:
@@ -23287,14 +23287,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 10]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     a'4
     % AFTER:
     % ARTICULATIONS:
@@ -23317,7 +23317,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     gs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23328,16 +23328,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 11]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         as!1
         % AFTER:
         % SPANNER_STARTS:
@@ -23347,7 +23347,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         d'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23358,7 +23358,7 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23387,7 +23387,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     e'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23398,16 +23398,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 14]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         c'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23417,7 +23417,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         b4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23428,14 +23428,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 15]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     gs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -23446,16 +23446,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 16]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23465,7 +23465,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         ds'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23476,24 +23476,24 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 5/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 17]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -23503,7 +23503,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         g'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23514,24 +23514,24 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 18]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         cs'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23541,7 +23541,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23552,14 +23552,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 19]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -23571,7 +23571,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     d'1.
     % AFTER:
     % SPANNER_STARTS:
@@ -23582,16 +23582,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 21]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23601,7 +23601,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23612,14 +23612,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 22]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     fs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23630,18 +23630,18 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 23]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23651,7 +23651,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         g'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23662,22 +23662,22 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 24]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23687,7 +23687,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -23698,22 +23698,22 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 25]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         f'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23723,7 +23723,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         d'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23734,14 +23734,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     cs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23753,7 +23753,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 27]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     gs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -23764,16 +23764,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 28]
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         as!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23783,7 +23783,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm()
+          %! khamr.make_continuous_glissando_rhythm_function()
         a'1
         % AFTER:
         % SPANNER_STARTS:
@@ -23794,14 +23794,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 29]
-      %! khamr.make_continuous_glissando_rhythm()
+      %! khamr.make_continuous_glissando_rhythm_function()
     e'2.
     % AFTER:
     % COMMANDS:
