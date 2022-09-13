@@ -41,7 +41,7 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(1, 15),
         [8],
         denominator=16,
@@ -52,7 +52,7 @@ def FL(voice, accumulator):
 
 
 def OB(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(1, 15),
         [10],
         denominator=16,
@@ -70,7 +70,7 @@ def CL(voice, accumulator):
 
 
 def SAX(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(1, 15),
         [12],
         denominator=16,

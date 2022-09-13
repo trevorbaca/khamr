@@ -42,7 +42,7 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(),
         [10, 10, 6, 10, 8, 6],
         force_rest_tuplets=([2, 5], 6),
@@ -51,7 +51,7 @@ def FL(voice, accumulator):
 
 
 def OB(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(),
         [12, 6, 10, 10, 6, 8],
         force_rest_tuplets=([1, 4], 6),
@@ -60,7 +60,7 @@ def OB(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(),
         [8, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
@@ -69,7 +69,7 @@ def CL(voice, accumulator):
 
 
 def SAX(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(),
         [14, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
@@ -89,7 +89,7 @@ def GT(voice, accumulator):
     rmakers.tie_function(tuplet[:-1])
     rmakers.rewrite_sustained_function(tuplet)
     rmakers.extract_trivial_function(tuplet)
-    music = library.make_guitar_accelerando_rhythm(
+    music = library.make_guitar_accelerando_rhythm_function(
         accumulator.get(25, 40),
         [2, 1],
     )
@@ -102,12 +102,12 @@ def GT(voice, accumulator):
 
 
 def PF(voice, accumulator):
-    music = library.make_fused_expanse_rhythm(
+    music = library.make_fused_expanse_rhythm_function(
         accumulator.get(1, 24),
         [20, 8, 20, 4],
     )
     voice.extend(music)
-    music = library.make_guitar_accelerando_rhythm(
+    music = library.make_guitar_accelerando_rhythm_function(
         accumulator.get(25, 36),
         [3, 2],
     )
@@ -122,7 +122,7 @@ def PF(voice, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = library.make_fused_expanse_rhythm(
+    music = library.make_fused_expanse_rhythm_function(
         accumulator.get(),
         [20, 8, 20, 4],
     )

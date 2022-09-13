@@ -74,7 +74,7 @@ def make_15_30(voice, accumulator):
 
 
 def FL(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(1, 8),
         [10, 10, 6, 8, 6],
         force_rest_tuplets=abjad.Pattern([2, 5], period=6),
@@ -87,7 +87,7 @@ def FL(voice, accumulator):
 
 
 def OB(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(1, 8),
         [12, 6, 10, 10, 6, 8],
         force_rest_tuplets=([1, 4], 6),
@@ -100,7 +100,7 @@ def OB(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(1, 14),
         [8, 6, 10, 6, 10, 8],
         force_rest_tuplets=abjad.Pattern([1, 3], period=6) | abjad.Pattern([-1]),
@@ -111,7 +111,7 @@ def CL(voice, accumulator):
 
 
 def SAX(voice, accumulator):
-    music = library.make_fused_wind_rhythm(
+    music = library.make_fused_wind_rhythm_function(
         accumulator.get(1, 8),
         [14, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
@@ -145,7 +145,7 @@ def PF(voice, accumulator):
         detach_ties=True,
     )
     voice.extend(music)
-    music = library.make_current_rhythm(
+    music = library.make_current_rhythm_function(
         accumulator.get(21, 30),
         [4, 3, 5],
         force_rest_tuplets=stage_5_silence_pattern,
@@ -154,7 +154,7 @@ def PF(voice, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = library.make_fused_expanse_rhythm(
+    music = library.make_fused_expanse_rhythm_function(
         accumulator.get(1, 14),
         [8, 20, 4, 20],
     )
