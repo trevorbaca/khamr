@@ -370,7 +370,7 @@ def make_guitar_isolata_rhythm_function(time_signatures, *, force_rest_tuplets=N
     return music
 
 
-def make_opening_glissando_rhythm(
+def make_opening_glissando_rhythm_function(
     time_signatures,
     tuplet_ratio_rotation,
     *,
@@ -378,6 +378,7 @@ def make_opening_glissando_rhythm(
     tie_leaves_in_get_tuplets=None,
     force_rest_tuplets=None,
 ):
+    tag = baca.tags.function_name(inspect.currentframe())
     tuplet_ratios = [
         (4, 1),
         (4, 1),
@@ -394,42 +395,31 @@ def make_opening_glissando_rhythm(
     ]
     tuplet_ratio_rotation *= 3
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
-    commands = []
+    nested_music = rmakers.tuplet_function(time_signatures, tuplet_ratios, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    tuplets = baca.select.tuplets(voice)[1:]
+    pleaves = [baca.select.pleaf(_, 0) for _ in tuplets]
+    rmakers.repeat_tie_function(pleaves, tag=tag)
     if repeat_tie_leaves_in_get_tuplets is not None:
-        command = rmakers.repeat_tie(
-            lambda _: baca.select.leaves_in_get_tuplets(
-                _, *repeat_tie_leaves_in_get_tuplets
-            )
+        leaves = baca.select.leaves_in_get_tuplets(
+            voice, *repeat_tie_leaves_in_get_tuplets
         )
-        commands.append(command)
+        rmakers.repeat_tie_function(leaves)
     if tie_leaves_in_get_tuplets is not None:
-        command = rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, *tie_leaves_in_get_tuplets)
-        )
-        commands.append(command)
+        leaves = baca.select.leaves_in_get_tuplets(voice, *tie_leaves_in_get_tuplets)
+        rmakers.tie_function(leaves)
     if force_rest_tuplets is not None:
-        command = rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets),
-        )
-        commands.append(command)
-    rhythm_maker = rmakers.stack(
-        rmakers.tuplet(tuplet_ratios),
-        rmakers.repeat_tie(
-            lambda _: [
-                baca.select.pleaf(tuplet, 0) for tuplet in baca.select.tuplets(_)[1:]
-            ]
-        ),
-        *commands,
-        rmakers.beam(),
-        rmakers.rewrite_rest_filled(),
-        rmakers.rewrite_sustained(),
-        rmakers.trivialize(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie(),
-        tag=baca.tags.function_name(inspect.currentframe()),
-    )
-    music = rhythm_maker(time_signatures)
+        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.get(tuplets, force_rest_tuplets)
+        rmakers.force_rest_function(tuplets, tag=tag)
+    rmakers.beam_function(voice, tag=tag)
+    rmakers.rewrite_rest_filled_function(voice, tag=tag)
+    rmakers.rewrite_sustained_function(voice, tag=tag)
+    rmakers.trivialize_function(voice)
+    rmakers.extract_trivial_function(voice)
+    rmakers.rewrite_meter_function(voice, tag=tag)
+    rmakers.force_repeat_tie_function(voice)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
