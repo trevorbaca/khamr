@@ -78,7 +78,7 @@ def SAX(voice, accumulator):
 
 
 def GT(voice, accumulator):
-    music = library.make_guitar_isolata_rhythm(
+    music = library.make_guitar_isolata_rhythm_function(
         accumulator.get(1, 24),
         force_rest_tuplets=abjad.Pattern([1, 2, 3, 5, 6, 7, 8], period=9)
         | abjad.Pattern(range(1, 12)),
@@ -94,7 +94,7 @@ def GT(voice, accumulator):
         [2, 1],
     )
     voice.extend(music)
-    music = library.make_guitar_isolata_rhythm(
+    music = library.make_guitar_isolata_rhythm_function(
         accumulator.get(41, 44),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
@@ -112,7 +112,7 @@ def PF(voice, accumulator):
         [3, 2],
     )
     voice.extend(music)
-    music = library.make_guitar_isolata_rhythm(
+    music = library.make_guitar_isolata_rhythm_function(
         accumulator.get(37, 40),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )

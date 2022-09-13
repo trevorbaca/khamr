@@ -124,7 +124,7 @@ def SAX(voice, accumulator):
 
 
 def GT(voice, accumulator):
-    music = library.make_guitar_isolata_rhythm(
+    music = library.make_guitar_isolata_rhythm_function(
         accumulator.get(1, 4),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
