@@ -193,7 +193,7 @@ def VN(voice, accumulator):
     music = library.make_continuous_glissando_rhythm_function(
         accumulator.get(3, 29),
         0,
-        tie_ptails_in_get_tuplets=([0, 1, 3], 7),
+        tie_ptails_in_tuplets=([0, 1, 3], 7),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 37))
@@ -206,7 +206,7 @@ def VA(voice, accumulator):
     music = library.make_continuous_glissando_rhythm_function(
         accumulator.get(3, 29),
         -1,
-        tie_ptails_in_get_tuplets=([1, 2, 4], 7),
+        tie_ptails_in_tuplets=([1, 2, 4], 7),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 37))
@@ -219,7 +219,7 @@ def VC(voice, accumulator):
     music = library.make_continuous_glissando_rhythm_function(
         accumulator.get(3, 29),
         -2,
-        tie_ptails_in_get_tuplets=([2, 3, 5], 7),
+        tie_ptails_in_tuplets=([2, 3, 5], 7),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(30, 37))

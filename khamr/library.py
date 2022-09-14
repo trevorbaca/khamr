@@ -142,7 +142,7 @@ def make_closing_rhythm_function(time_signatures):
 
 
 def make_continuous_glissando_rhythm_function(
-    time_signatures, tuplet_ratio_rotation, *, tie_ptails_in_get_tuplets
+    time_signatures, tuplet_ratio_rotation, *, tie_ptails_in_tuplets
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     tuplet_ratios = [(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)]
@@ -151,7 +151,7 @@ def make_continuous_glissando_rhythm_function(
     nested_music = rmakers.tuplet_function(time_signatures, tuplet_ratios, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     result = abjad.select.tuplets(voice)
-    result = abjad.select.get(result, tie_ptails_in_get_tuplets)
+    result = abjad.select.get(result, tie_ptails_in_tuplets)
     result = [baca.select.ptails(_)[:-1] for _ in result]
     rmakers.tie_function(result, tag=tag)
     rmakers.beam_function(voice, tag=tag)
@@ -374,8 +374,8 @@ def make_opening_glissando_rhythm_function(
     time_signatures,
     tuplet_ratio_rotation,
     *,
-    repeat_tie_leaves_in_get_tuplets=None,
-    tie_leaves_in_get_tuplets=None,
+    repeat_tie_leaves_in_tuplets=None,
+    tie_leaves_in_tuplets=None,
     force_rest_tuplets=None,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
@@ -400,14 +400,16 @@ def make_opening_glissando_rhythm_function(
     tuplets = baca.select.tuplets(voice)[1:]
     pleaves = [baca.select.pleaf(_, 0) for _ in tuplets]
     rmakers.repeat_tie_function(pleaves, tag=tag)
-    if repeat_tie_leaves_in_get_tuplets is not None:
-        leaves = baca.select.leaves_in_get_tuplets(
-            voice, *repeat_tie_leaves_in_get_tuplets
-        )
-        rmakers.repeat_tie_function(leaves)
-    if tie_leaves_in_get_tuplets is not None:
-        leaves = baca.select.leaves_in_get_tuplets(voice, *tie_leaves_in_get_tuplets)
-        rmakers.tie_function(leaves)
+    if repeat_tie_leaves_in_tuplets is not None:
+        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.get(tuplets, repeat_tie_leaves_in_tuplets)
+        leaves = [abjad.select.leaves(_)[1:] for _ in tuplets]
+        rmakers.repeat_tie_function(leaves, tag=tag)
+    if tie_leaves_in_tuplets is not None:
+        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.get(tuplets, tie_leaves_in_tuplets)
+        leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
+        rmakers.tie_function(leaves, tag=tag)
     if force_rest_tuplets is not None:
         tuplets = baca.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
