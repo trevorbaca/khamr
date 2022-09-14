@@ -212,7 +212,7 @@ def CB(voice, accumulator):
     music = library.make_opening_glissando_rhythm_function(
         accumulator.get(1, 14),
         -3,
-        repeat_tie_leaves_in_get_tuplets=(([0, 1, 4, 6], 7), (1, None)),
+        repeat_tie_leaves_in_tuplets=([0, 1, 4, 6], 7),
         force_rest_tuplets=[-1],
     )
     voice.extend(music)

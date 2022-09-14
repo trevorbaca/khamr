@@ -133,7 +133,7 @@ def VN(voice, accumulator):
     music = library.make_opening_glissando_rhythm_function(
         accumulator.get(1, 36),
         0,
-        repeat_tie_leaves_in_get_tuplets=(([0, 1, 2, 5], 7), (1, None)),
+        repeat_tie_leaves_in_tuplets=([0, 1, 2, 5], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets_function(
@@ -148,7 +148,7 @@ def VA(voice, accumulator):
     music = library.make_opening_glissando_rhythm_function(
         accumulator.get(1, 36),
         -1,
-        tie_leaves_in_get_tuplets=(([1, 2, 3, 6], 7), (None, -1)),
+        tie_leaves_in_tuplets=([1, 2, 3, 6], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets_function(
@@ -163,7 +163,7 @@ def VC(voice, accumulator):
     music = library.make_opening_glissando_rhythm_function(
         accumulator.get(1, 36),
         -2,
-        tie_leaves_in_get_tuplets=(([0, 2, 3, 4], 7), (None, -1)),
+        tie_leaves_in_tuplets=([0, 2, 3, 4], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets_function(
@@ -178,7 +178,7 @@ def CB(voice, accumulator):
     music = library.make_opening_glissando_rhythm_function(
         accumulator.get(),
         -3,
-        tie_leaves_in_get_tuplets=(([0, 1, 4, 6], 7), (None, -1)),
+        tie_leaves_in_tuplets=([0, 1, 4, 6], 7),
     )
     voice.extend(music)
 
