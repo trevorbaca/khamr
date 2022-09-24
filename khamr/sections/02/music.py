@@ -66,15 +66,15 @@ stage_5_silence_pattern = abjad.index(
 
 def make_15_30(voice, accumulator):
     result = []
-    music = library.make_alternate_divisions_function(accumulator.get(15, 20))
+    music = library.make_alternate_divisions(accumulator.get(15, 20))
     result.extend(music)
-    music = library.make_silent_first_division_function(accumulator.get(21, 30))
+    music = library.make_silent_first_division(accumulator.get(21, 30))
     result.extend(music)
     return result
 
 
 def FL(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(1, 8),
         [10, 10, 6, 8, 6],
         force_rest_tuplets=abjad.Pattern([2, 5], period=6),
@@ -87,7 +87,7 @@ def FL(voice, accumulator):
 
 
 def OB(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(1, 8),
         [12, 6, 10, 10, 6, 8],
         force_rest_tuplets=([1, 4], 6),
@@ -100,7 +100,7 @@ def OB(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(1, 14),
         [8, 6, 10, 6, 10, 8],
         force_rest_tuplets=abjad.Pattern([1, 3], period=6) | abjad.Pattern([-1]),
@@ -111,7 +111,7 @@ def CL(voice, accumulator):
 
 
 def SAX(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(1, 8),
         [14, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
@@ -124,28 +124,28 @@ def SAX(voice, accumulator):
 
 
 def GT(voice, accumulator):
-    music = library.make_guitar_isolata_rhythm_function(
+    music = library.make_guitar_isolata_rhythm(
         accumulator.get(1, 4),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(5, 14))
+    music = baca.make_repeat_tied_notes(accumulator.get(5, 14))
     voice.extend(music)
-    rmakers.force_rest_function(abjad.select.leaf(music, -1))
+    rmakers.force_rest(abjad.select.leaf(music, -1))
     music = make_15_30("gt", accumulator)
     voice.extend(music)
 
 
 def PF(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 14))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 14))
     voice.extend(music)
-    rmakers.force_rest_function(abjad.select.leaf(music, -1))
-    music = library.make_alternate_divisions_function(
+    rmakers.force_rest(abjad.select.leaf(music, -1))
+    music = library.make_alternate_divisions(
         accumulator.get(15, 20),
         detach_ties=True,
     )
     voice.extend(music)
-    music = library.make_current_rhythm_function(
+    music = library.make_current_rhythm(
         accumulator.get(21, 30),
         [4, 3, 5],
         force_rest_tuplets=stage_5_silence_pattern,
@@ -154,18 +154,18 @@ def PF(voice, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = library.make_fused_expanse_rhythm_function(
+    music = library.make_fused_expanse_rhythm(
         accumulator.get(1, 14),
         [8, 20, 4, 20],
     )
     voice.extend(music)
     indices = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20]
-    music = library.make_quarter_hits_function(
+    music = library.make_quarter_hits(
         accumulator.get(15, 20),
         force_rest_lts=indices,
     )
     voice.extend(music)
-    music = library.make_quarter_hits_function(
+    music = library.make_quarter_hits(
         accumulator.get(21, 30),
         force_rest_lts=stage_5_silence_pattern,
     )
@@ -173,7 +173,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_trill_tuplets_function(
+    music = library.make_trill_tuplets(
         accumulator.get(1, 14),
         4,
         force_rest_tuplets=[-2, -1],
@@ -184,7 +184,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_trill_tuplets_function(
+    music = library.make_trill_tuplets(
         accumulator.get(1, 14),
         3,
         force_rest_tuplets=[-2, -1],
@@ -195,21 +195,21 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_trill_tuplets_function(
+    music = library.make_trill_tuplets(
         accumulator.get(1, 8),
         2,
         force_rest_tuplets=[-2, -1],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(9, 14))
+    music = baca.make_repeat_tied_notes(accumulator.get(9, 14))
     voice.extend(music)
-    rmakers.force_rest_function(abjad.select.leaf(music, -1))
+    rmakers.force_rest(abjad.select.leaf(music, -1))
     music = make_15_30("vc", accumulator)
     voice.extend(music)
 
 
 def CB(voice, accumulator):
-    music = library.make_opening_glissando_rhythm_function(
+    music = library.make_opening_glissando_rhythm(
         accumulator.get(1, 14),
         -3,
         repeat_tie_leaves_in_tuplets=([0, 1, 4, 6], 7),

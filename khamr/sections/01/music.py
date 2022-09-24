@@ -42,7 +42,7 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(),
         [10, 10, 6, 10, 8, 6],
         force_rest_tuplets=([2, 5], 6),
@@ -51,7 +51,7 @@ def FL(voice, accumulator):
 
 
 def OB(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(),
         [12, 6, 10, 10, 6, 8],
         force_rest_tuplets=([1, 4], 6),
@@ -60,7 +60,7 @@ def OB(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(),
         [8, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
@@ -69,7 +69,7 @@ def CL(voice, accumulator):
 
 
 def SAX(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(),
         [14, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
@@ -78,23 +78,23 @@ def SAX(voice, accumulator):
 
 
 def GT(voice, accumulator):
-    music = library.make_guitar_isolata_rhythm_function(
+    music = library.make_guitar_isolata_rhythm(
         accumulator.get(1, 24),
         force_rest_tuplets=abjad.Pattern([1, 2, 3, 5, 6, 7, 8], period=9)
         | abjad.Pattern(range(1, 12)),
     )
     voice.extend(music)
     tuplet = abjad.select.tuplet(music, 0)
-    rmakers.force_note_function(tuplet, tag=abjad.Tag("GT()"))
-    rmakers.tie_function(tuplet[:-1])
-    rmakers.rewrite_sustained_function(tuplet)
-    rmakers.extract_trivial_function(tuplet)
-    music = library.make_guitar_accelerando_rhythm_function(
+    rmakers.force_note(tuplet, tag=abjad.Tag("GT()"))
+    rmakers.tie(tuplet[:-1])
+    rmakers.rewrite_sustained(tuplet)
+    rmakers.extract_trivial(tuplet)
+    music = library.make_guitar_accelerando_rhythm(
         accumulator.get(25, 40),
         [2, 1],
     )
     voice.extend(music)
-    music = library.make_guitar_isolata_rhythm_function(
+    music = library.make_guitar_isolata_rhythm(
         accumulator.get(41, 44),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
@@ -102,27 +102,27 @@ def GT(voice, accumulator):
 
 
 def PF(voice, accumulator):
-    music = library.make_fused_expanse_rhythm_function(
+    music = library.make_fused_expanse_rhythm(
         accumulator.get(1, 24),
         [20, 8, 20, 4],
     )
     voice.extend(music)
-    music = library.make_guitar_accelerando_rhythm_function(
+    music = library.make_guitar_accelerando_rhythm(
         accumulator.get(25, 36),
         [3, 2],
     )
     voice.extend(music)
-    music = library.make_guitar_isolata_rhythm_function(
+    music = library.make_guitar_isolata_rhythm(
         accumulator.get(37, 40),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(41, 44))
+    music = baca.make_repeat_tied_notes(accumulator.get(41, 44))
     voice.extend(music)
 
 
 def PERC(voice, accumulator):
-    music = library.make_fused_expanse_rhythm_function(
+    music = library.make_fused_expanse_rhythm(
         accumulator.get(),
         [20, 8, 20, 4],
     )
@@ -130,13 +130,13 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_opening_glissando_rhythm_function(
+    music = library.make_opening_glissando_rhythm(
         accumulator.get(1, 36),
         0,
         repeat_tie_leaves_in_tuplets=([0, 1, 2, 5], 7),
     )
     voice.extend(music)
-    music = library.make_trill_tuplets_function(
+    music = library.make_trill_tuplets(
         accumulator.get(37, 44),
         4,
     )
@@ -145,13 +145,13 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_opening_glissando_rhythm_function(
+    music = library.make_opening_glissando_rhythm(
         accumulator.get(1, 36),
         -1,
         tie_leaves_in_tuplets=([1, 2, 3, 6], 7),
     )
     voice.extend(music)
-    music = library.make_trill_tuplets_function(
+    music = library.make_trill_tuplets(
         accumulator.get(37, 44),
         3,
     )
@@ -160,13 +160,13 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_opening_glissando_rhythm_function(
+    music = library.make_opening_glissando_rhythm(
         accumulator.get(1, 36),
         -2,
         tie_leaves_in_tuplets=([0, 2, 3, 4], 7),
     )
     voice.extend(music)
-    music = library.make_trill_tuplets_function(
+    music = library.make_trill_tuplets(
         accumulator.get(37, 44),
         2,
     )
@@ -175,7 +175,7 @@ def VC(voice, accumulator):
 
 
 def CB(voice, accumulator):
-    music = library.make_opening_glissando_rhythm_function(
+    music = library.make_opening_glissando_rhythm(
         accumulator.get(),
         -3,
         tie_leaves_in_tuplets=([0, 1, 4, 6], 7),

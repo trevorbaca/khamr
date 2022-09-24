@@ -2247,7 +2247,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -2292,14 +2292,14 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b''2
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2389,18 +2389,18 @@ number.3.Flute.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 10]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
@@ -2419,2719 +2419,2719 @@ number.3.Flute.Music = {
           %! baca.dynamic()
         \baca-fff-ancora
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 12]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 26]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 7/8
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 4/5
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5217,12 +5217,12 @@ number.3.Flute.Music = {
     bf'2...
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5246,7 +5246,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5260,7 +5260,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5272,7 +5272,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5280,12 +5280,12 @@ number.3.Flute.Music = {
     bf'16
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % CLOSING:
     % COMMANDS:
@@ -5376,7 +5376,7 @@ number.3.Oboe.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     ds'!2
     % AFTER:
     % ARTICULATIONS:
@@ -5418,11 +5418,11 @@ number.3.Oboe.Music = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     ds'2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5512,18 +5512,18 @@ number.3.Oboe.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe.Music measure 10]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -5546,3237 +5546,3237 @@ number.3.Oboe.Music = {
           %! baca._attach_latent_indicator_alert()
         ^ \baca-explicit-instrument-markup "(“Oboe”)"
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe.Music measure 14]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe.Music measure 17]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe.Music measure 18]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe.Music measure 22]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Oboe.Music measure 24]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/6
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 4/5
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8895,7 +8895,7 @@ number.3.Oboe.Music = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 36]
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8935,7 +8935,7 @@ number.3.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8947,7 +8947,7 @@ number.3.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8955,12 +8955,12 @@ number.3.Oboe.Music = {
     c'16
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % CLOSING:
     % COMMANDS:
@@ -9027,7 +9027,7 @@ number.3.Clarinet.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     gs!2
     % AFTER:
     % ARTICULATIONS:
@@ -9069,11 +9069,11 @@ number.3.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     gs2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9163,16 +9163,16 @@ number.3.Clarinet.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 10]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
@@ -9195,2503 +9195,2503 @@ number.3.Clarinet.Music = {
           %! baca._attach_latent_indicator_alert()
         ^ \baca-explicit-instrument-markup "(“Clarinet”)"
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 13]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 18]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 24]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 25]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 26]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 27]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 28]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 8/9
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 29]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 4/5
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         es'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         gs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11762,7 +11762,7 @@ number.3.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 33]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a2.
     % AFTER:
     % SPANNER_STARTS:
@@ -11770,14 +11770,14 @@ number.3.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 34]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
     % SPANNER_STARTS:
@@ -11785,14 +11785,14 @@ number.3.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 35]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
     % SPANNER_STARTS:
@@ -11800,7 +11800,7 @@ number.3.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11893,7 +11893,7 @@ number.3.Saxophone.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     es'!2
     % AFTER:
     % ARTICULATIONS:
@@ -11935,11 +11935,11 @@ number.3.Saxophone.Music = {
 
       %! baca._comment_measure_numbers()
     % [Saxophone.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     es'2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12029,18 +12029,18 @@ number.3.Saxophone.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone.Music measure 10]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
@@ -12063,2953 +12063,2953 @@ number.3.Saxophone.Music = {
           %! baca._attach_latent_indicator_alert()
         ^ \baca-explicit-instrument-markup "(“SopraninoSaxophone”)"
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone.Music measure 11]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone.Music measure 13]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone.Music measure 14]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone.Music measure 18]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone.Music measure 19]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone.Music measure 22]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Saxophone.Music measure 25]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 6/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         bs''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 2/3
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         a''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         as''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         b''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15153,9 +15153,9 @@ number.3.Saxophone.Music = {
     c'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -15166,16 +15166,16 @@ number.3.Saxophone.Music = {
 
       %! baca._comment_measure_numbers()
     % [Saxophone.Music measure 36]
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     c'2...
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15199,7 +15199,7 @@ number.3.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15211,7 +15211,7 @@ number.3.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15219,12 +15219,12 @@ number.3.Saxophone.Music = {
     c'16
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % CLOSING:
     % COMMANDS:
@@ -15291,7 +15291,7 @@ number.3.Guitar.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -15333,11 +15333,11 @@ number.3.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g'2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15428,7 +15428,7 @@ number.3.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 10]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''!2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -15457,7 +15457,7 @@ number.3.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 11]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -15468,7 +15468,7 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15505,7 +15505,7 @@ number.3.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 13]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -15516,14 +15516,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 14]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -15534,14 +15534,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 15]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''1.
     % AFTER:
     % STEM_TREMOLOS:
@@ -15552,14 +15552,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 16]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -15570,7 +15570,7 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15607,7 +15607,7 @@ number.3.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 18]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -15618,14 +15618,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 19]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -15636,14 +15636,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 20]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''1.
     % AFTER:
     % STEM_TREMOLOS:
@@ -15654,14 +15654,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 21]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -15672,14 +15672,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 22]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -15690,14 +15690,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 23]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -15708,14 +15708,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 24]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -15726,14 +15726,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 25]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -15744,14 +15744,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 26]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -15762,14 +15762,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 27]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''1.
     % AFTER:
     % STEM_TREMOLOS:
@@ -15780,14 +15780,14 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 28]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -15798,21 +15798,21 @@ number.3.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 29]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     af''2.
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15993,7 +15993,7 @@ number.3.Piano.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     df''''!16
     % AFTER:
     % ARTICULATIONS:
@@ -16012,7 +16012,7 @@ number.3.Piano.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Piano”)"
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_AFTER:
@@ -16032,51 +16032,51 @@ number.3.Piano.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     d''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     c''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     af'''!16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     g'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     c''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16084,353 +16084,353 @@ number.3.Piano.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 2]
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     b'''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     df''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     ef''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     f''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         fs'''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         bf'''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 3]
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         a'''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         af'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         g'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         f''''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         b'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ef''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         a'''16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         fs'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         bf'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     d''''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     f''''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     ef''''!8
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 4]
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         f''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         b'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     bf'''!16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     a'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     fs'''!16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     f''''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     c''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     df''''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     d''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 5]
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % ARTICULATIONS:
@@ -16447,761 +16447,761 @@ number.3.Piano.Music = {
           %! baca.dynamic()
         \ffff
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         af'''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         g'''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         fs'''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         bf'''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         a'''16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         d''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         f''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         g'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         af'''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 6]
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ef''''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         f''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         b'''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         d''''16.
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         f''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         af'''!16.
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         g'''16.
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 7]
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ef''''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     f''''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     e''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     fs'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     bf'''!16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     a'''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     c''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     af'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     g'''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     e''''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     b'''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     df''''!16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 8]
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ef''''!8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         a'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         fs'''!16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         bf'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         d''''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         f''''16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ef''''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         f''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         b'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 4/5
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         bf'''!16
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         a'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         f''''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         d''''8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 9]
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         c''''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         af'''!8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     g'''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     fs'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     bf'''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     a'''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     e''''16
     % AFTER:
     % START_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     d''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     f''''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     c''''16
     % AFTER:
     % STOP_BEAM:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     \times 2/3
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         df''''!8
         % AFTER:
         % START_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         g'''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
         e''''8
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_current_rhythm_function()
+          %! khamr.make_current_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % COMMANDS:
@@ -17212,24 +17212,24 @@ number.3.Piano.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_current_rhythm_function()
+      %! khamr.make_current_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 10]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
@@ -17248,2593 +17248,2593 @@ number.3.Piano.Music = {
           %! baca.dynamic()
         \fff
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 22]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 25]
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 9/11
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         cs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     \times 5/7
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % ARTICULATIONS:
           %! baca.accent()
         - \accent
         % START_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         d'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ds'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         e'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         f'''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         fs'''!16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         c'''16
         % AFTER:
         % STOP_BEAM:
-          %! khamr.make_aviary_rhythm_function()
+          %! khamr.make_aviary_rhythm()
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_aviary_rhythm_function()
+      %! khamr.make_aviary_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -20098,7 +20098,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 5]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -20130,7 +20130,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 6]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -20141,23 +20141,23 @@ number.3.Percussion.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -20198,23 +20198,23 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 9]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 10]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20238,7 +20238,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20247,7 +20247,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20258,7 +20258,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 11]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20267,7 +20267,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20276,7 +20276,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20285,7 +20285,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20296,7 +20296,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 12]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20305,7 +20305,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20314,7 +20314,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20323,7 +20323,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20332,7 +20332,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20343,7 +20343,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 13]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20352,7 +20352,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20361,7 +20361,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20372,7 +20372,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 14]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20381,7 +20381,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20392,7 +20392,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 15]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20401,7 +20401,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20410,7 +20410,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20419,7 +20419,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20428,7 +20428,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20437,7 +20437,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20448,7 +20448,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 16]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20457,7 +20457,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20468,7 +20468,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 17]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20477,7 +20477,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20486,7 +20486,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20495,7 +20495,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20504,7 +20504,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20515,7 +20515,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 18]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20524,7 +20524,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20533,7 +20533,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20544,7 +20544,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 19]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20553,7 +20553,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20562,7 +20562,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20571,7 +20571,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20582,7 +20582,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 20]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20591,7 +20591,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20600,7 +20600,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20609,7 +20609,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20618,7 +20618,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20627,7 +20627,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20638,7 +20638,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 21]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20647,7 +20647,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20658,7 +20658,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 22]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20667,7 +20667,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20678,7 +20678,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 23]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20687,7 +20687,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20696,7 +20696,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20707,7 +20707,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 24]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20716,7 +20716,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20725,7 +20725,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20734,7 +20734,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20745,7 +20745,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 25]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20754,7 +20754,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4
     % AFTER:
     % ARTICULATIONS:
@@ -20765,7 +20765,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 26]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20774,7 +20774,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20783,7 +20783,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20792,7 +20792,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20801,7 +20801,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20810,7 +20810,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20819,7 +20819,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20828,7 +20828,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20839,7 +20839,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 29]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20848,7 +20848,7 @@ number.3.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     b'4.
     % AFTER:
     % ARTICULATIONS:
@@ -20859,7 +20859,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 30]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -20891,16 +20891,16 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 31]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -20941,7 +20941,7 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 33]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -20952,23 +20952,23 @@ number.3.Percussion.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 34]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -20979,16 +20979,16 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 35]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -21029,14 +21029,14 @@ number.3.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 37]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % CLOSING:
     % COMMANDS:
@@ -21103,7 +21103,7 @@ number.3.Violin.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a'2
     % AFTER:
     % ARTICULATIONS:
@@ -21145,11 +21145,11 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a'2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21160,7 +21160,7 @@ number.3.Violin.Music = {
     % COMMANDS:
       %! baca.note_head_style_harmonic(1)
     \override NoteHead.style = #'harmonic
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     f'1.
     % AFTER:
     % ARTICULATIONS:
@@ -21188,7 +21188,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 4]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     fs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21199,16 +21199,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 5]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2.
         % AFTER:
         % ARTICULATIONS:
@@ -21247,7 +21247,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21258,14 +21258,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 6]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     c'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21276,16 +21276,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 7]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         b1
         % AFTER:
         % SPANNER_STARTS:
@@ -21295,7 +21295,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -21306,24 +21306,24 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 5/9
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 8]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21333,7 +21333,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!1.
         % AFTER:
         % SPANNER_STARTS:
@@ -21344,22 +21344,22 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 9]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -21369,7 +21369,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2.
         % AFTER:
         % ARTICULATIONS:
@@ -21395,14 +21395,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 10]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     a'2.
     % AFTER:
     % ARTICULATIONS:
@@ -21427,7 +21427,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 11]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -21439,7 +21439,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 12]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     as!2
     % AFTER:
     % SPANNER_STARTS:
@@ -21449,7 +21449,7 @@ number.3.Violin.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21461,7 +21461,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 13]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     cs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21472,16 +21472,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 14]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'4
         % AFTER:
         % SPANNER_STARTS:
@@ -21491,7 +21491,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         c'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21502,24 +21502,24 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 15]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         b1
         % AFTER:
         % SPANNER_STARTS:
@@ -21529,7 +21529,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21540,22 +21540,22 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 16]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -21565,7 +21565,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -21576,7 +21576,7 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -21599,14 +21599,14 @@ number.3.Violin.Music = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 18]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     g'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -21617,16 +21617,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 19]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         cs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -21636,7 +21636,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -21647,14 +21647,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 20]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     as!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -21665,16 +21665,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 21]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         d'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21684,7 +21684,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -21695,22 +21695,22 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 22]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -21720,7 +21720,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         fs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -21731,24 +21731,24 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 23]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21758,7 +21758,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21769,14 +21769,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 24]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     a'1
     % AFTER:
     % SPANNER_STARTS:
@@ -21788,7 +21788,7 @@ number.3.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 25]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     ds'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -21799,16 +21799,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 26]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -21818,7 +21818,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         d'2
         % AFTER:
         % SPANNER_STARTS:
@@ -21829,14 +21829,14 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 27]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     cs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -21847,16 +21847,16 @@ number.3.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 28]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21866,7 +21866,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         as!1
         % AFTER:
         % SPANNER_STARTS:
@@ -21877,24 +21877,24 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violin.Music measure 29]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -21904,7 +21904,7 @@ number.3.Violin.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2
         % AFTER:
         % COMMANDS:
@@ -21914,7 +21914,7 @@ number.3.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -22077,7 +22077,7 @@ number.3.Viola.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     gs'!2
     % AFTER:
     % ARTICULATIONS:
@@ -22119,21 +22119,21 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     gs'2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -22144,7 +22144,7 @@ number.3.Viola.Music = {
         % COMMANDS:
           %! baca.note_head_style_harmonic(1)
         \override NoteHead.style = #'harmonic
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1.
         % AFTER:
         % ARTICULATIONS:
@@ -22170,7 +22170,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         fs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22181,14 +22181,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     a'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -22200,7 +22200,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 5]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     e'1
     % AFTER:
     % ARTICULATIONS:
@@ -22241,7 +22241,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 6]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -22251,7 +22251,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     b2
     % AFTER:
     % SPANNER_STARTS:
@@ -22263,7 +22263,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -22274,18 +22274,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 5/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 8]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22295,7 +22295,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22306,22 +22306,22 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 9]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22331,7 +22331,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2
         % AFTER:
         % ARTICULATIONS:
@@ -22357,24 +22357,24 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 10]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2
         % AFTER:
         % ARTICULATIONS:
@@ -22397,7 +22397,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22408,14 +22408,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 11]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -22443,24 +22443,24 @@ number.3.Viola.Music = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 13]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         cs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -22470,7 +22470,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -22481,14 +22481,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 14]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22499,18 +22499,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 15]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         b1.
         % AFTER:
         % SPANNER_STARTS:
@@ -22520,7 +22520,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22531,22 +22531,22 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 16]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'4
         % AFTER:
         % SPANNER_STARTS:
@@ -22556,7 +22556,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -22567,24 +22567,24 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 5/9
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 17]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1.
         % AFTER:
         % SPANNER_STARTS:
@@ -22594,7 +22594,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22605,14 +22605,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 18]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     cs'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -22624,7 +22624,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 19]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1
     % AFTER:
     % SPANNER_STARTS:
@@ -22635,18 +22635,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 20]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         as!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -22656,7 +22656,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         d'1
         % AFTER:
         % SPANNER_STARTS:
@@ -22667,14 +22667,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 21]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22685,16 +22685,16 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 22]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -22704,7 +22704,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         fs'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -22715,14 +22715,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 23]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     a'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22732,7 +22732,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     g'4
     % AFTER:
     % SPANNER_STARTS:
@@ -22743,16 +22743,16 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 24]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2
         % AFTER:
         % SPANNER_STARTS:
@@ -22762,7 +22762,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22773,14 +22773,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 25]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22792,7 +22792,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 26]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     d'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22803,18 +22803,18 @@ number.3.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 3/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 27]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         cs'!1.
         % AFTER:
         % SPANNER_STARTS:
@@ -22824,7 +22824,7 @@ number.3.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -22835,14 +22835,14 @@ number.3.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 28]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -22854,7 +22854,7 @@ number.3.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 29]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     a'2
     % AFTER:
     % SPANNER_STARTS:
@@ -22864,7 +22864,7 @@ number.3.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     e'4
     % AFTER:
     % COMMANDS:
@@ -23031,7 +23031,7 @@ number.3.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g2
     % AFTER:
     % ARTICULATIONS:
@@ -23073,11 +23073,11 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23088,7 +23088,7 @@ number.3.Cello.Music = {
     % COMMANDS:
       %! baca.note_head_style_harmonic(1)
     \override NoteHead.style = #'harmonic
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     f'1
     % AFTER:
     % ARTICULATIONS:
@@ -23114,7 +23114,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     fs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23126,7 +23126,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     a'4
     % AFTER:
     % SPANNER_STARTS:
@@ -23136,7 +23136,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -23148,7 +23148,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 5]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -23189,7 +23189,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 6]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     b2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23200,16 +23200,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 7]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23219,7 +23219,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23230,7 +23230,7 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23253,22 +23253,22 @@ number.3.Cello.Music = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 9]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -23278,7 +23278,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2
         % AFTER:
         % ARTICULATIONS:
@@ -23304,14 +23304,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 10]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     a'4
     % AFTER:
     % ARTICULATIONS:
@@ -23334,7 +23334,7 @@ number.3.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23345,16 +23345,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 11]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         as!1
         % AFTER:
         % SPANNER_STARTS:
@@ -23364,7 +23364,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         d'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23375,7 +23375,7 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -23398,14 +23398,14 @@ number.3.Cello.Music = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 13]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     e'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -23416,16 +23416,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 14]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         c'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23435,7 +23435,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         b4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23446,14 +23446,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 15]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -23464,16 +23464,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 16]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23483,7 +23483,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23494,24 +23494,24 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 5/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 17]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'1
         % AFTER:
         % SPANNER_STARTS:
@@ -23521,7 +23521,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         g'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23532,24 +23532,24 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 18]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         cs'!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23559,7 +23559,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         gs'!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23570,14 +23570,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 19]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     as!1
     % AFTER:
     % SPANNER_STARTS:
@@ -23589,7 +23589,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 20]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     d'1.
     % AFTER:
     % SPANNER_STARTS:
@@ -23600,16 +23600,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 21]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         e'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23619,7 +23619,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23630,14 +23630,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 22]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     fs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23648,18 +23648,18 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 6/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 23]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2
         % AFTER:
         % SPANNER_STARTS:
@@ -23669,7 +23669,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         g'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23680,22 +23680,22 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/7
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 24]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -23705,7 +23705,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         ds'!1
         % AFTER:
         % SPANNER_STARTS:
@@ -23716,22 +23716,22 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 4/5
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 25]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         f'4.
         % AFTER:
         % SPANNER_STARTS:
@@ -23741,7 +23741,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         d'4
         % AFTER:
         % SPANNER_STARTS:
@@ -23752,14 +23752,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 26]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     cs'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -23771,7 +23771,7 @@ number.3.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 27]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     gs'!1.
     % AFTER:
     % SPANNER_STARTS:
@@ -23782,16 +23782,16 @@ number.3.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     \times 2/3
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 28]
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         as!2
         % AFTER:
         % SPANNER_STARTS:
@@ -23801,7 +23801,7 @@ number.3.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! khamr.make_continuous_glissando_rhythm_function()
+          %! khamr.make_continuous_glissando_rhythm()
         a'1
         % AFTER:
         % SPANNER_STARTS:
@@ -23812,14 +23812,14 @@ number.3.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 29]
-      %! khamr.make_continuous_glissando_rhythm_function()
+      %! khamr.make_continuous_glissando_rhythm()
     e'2.
     % AFTER:
     % COMMANDS:
@@ -24030,7 +24030,7 @@ number.3.Contrabass.Music = {
     <g,, a,>2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24065,7 +24065,7 @@ number.3.Contrabass.Music = {
     <gs,, as,>2.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24120,7 +24120,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24130,7 +24130,7 @@ number.3.Contrabass.Music = {
     <gs,, as,>1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24178,7 +24178,7 @@ number.3.Contrabass.Music = {
       %! baca.hairpin()
     \f
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24220,7 +24220,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24258,7 +24258,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24272,7 +24272,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24286,7 +24286,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24300,7 +24300,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24338,7 +24338,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24352,7 +24352,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24366,7 +24366,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24380,7 +24380,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24394,7 +24394,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24408,7 +24408,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24422,7 +24422,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24432,7 +24432,7 @@ number.3.Contrabass.Music = {
     <gs,, as,>2
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24461,7 +24461,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24475,7 +24475,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24485,7 +24485,7 @@ number.3.Contrabass.Music = {
     <g,, a,>2.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -24558,7 +24558,7 @@ number.3.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 33]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g,,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -24566,14 +24566,14 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 34]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g,,1
     % AFTER:
     % SPANNER_STARTS:
@@ -24581,14 +24581,14 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 35]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     g,,1
     % AFTER:
     % SPANNER_STARTS:
@@ -24596,7 +24596,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
