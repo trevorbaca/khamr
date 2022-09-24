@@ -41,7 +41,7 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(1, 15),
         [8],
         denominator=16,
@@ -52,7 +52,7 @@ def FL(voice, accumulator):
 
 
 def OB(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(1, 15),
         [10],
         denominator=16,
@@ -63,14 +63,14 @@ def OB(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 15))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 15))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def SAX(voice, accumulator):
-    music = library.make_fused_wind_rhythm_function(
+    music = library.make_fused_wind_rhythm(
         accumulator.get(1, 15),
         [12],
         denominator=16,
@@ -81,62 +81,62 @@ def SAX(voice, accumulator):
 
 
 def GT(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 7))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 7))
     voice.extend(music)
-    rmakers.force_rest_function(baca.select.leaves(music)[:-1])
-    music = baca.make_repeat_tied_notes_function(accumulator.get(8, 15))
+    rmakers.force_rest(baca.select.leaves(music)[:-1])
+    music = baca.make_repeat_tied_notes(accumulator.get(8, 15))
     voice.extend(music)
-    rmakers.force_rest_function(baca.select.leaves(music)[2:]),
-    music = library.make_closing_rhythm_function(accumulator.get(16, 20))
+    rmakers.force_rest(baca.select.leaves(music)[2:]),
+    music = library.make_closing_rhythm(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def PF(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 7))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 7))
     voice.extend(music)
-    rmakers.force_rest_function(baca.select.leaves(music)[:-1])
-    music = baca.make_repeat_tied_notes_function(accumulator.get(8, 15))
+    rmakers.force_rest(baca.select.leaves(music)[:-1])
+    music = baca.make_repeat_tied_notes(accumulator.get(8, 15))
     voice.extend(music)
-    rmakers.force_rest_function(baca.select.leaves(music)[2:]),
-    music = library.make_closing_rhythm_function(accumulator.get(16, 20))
+    rmakers.force_rest(baca.select.leaves(music)[2:]),
+    music = library.make_closing_rhythm(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def PERC(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
     voice.extend(music)
-    rmakers.force_rest_function(baca.select.pleaf(music, -1))
+    rmakers.force_rest(baca.select.pleaf(music, -1))
     music = baca.make_mmrests(accumulator.get(6, 7))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(8, 15))
+    music = baca.make_repeat_tied_notes(accumulator.get(8, 15))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def VN(voice, accumulator):
-    music = baca.make_repeated_duration_notes_function(accumulator.get(1, 15), [(7, 4)])
+    music = baca.make_repeated_duration_notes(accumulator.get(1, 15), [(7, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeated_duration_notes_function(accumulator.get(1, 15), [(6, 4)])
+    music = baca.make_repeated_duration_notes(accumulator.get(1, 15), [(6, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def VC(voice, accumulator):
-    music = baca.make_repeated_duration_notes_function(accumulator.get(1, 15), [(5, 4)])
+    music = baca.make_repeated_duration_notes(accumulator.get(1, 15), [(5, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)
 
 
 def CB(voice, accumulator):
-    music = baca.make_repeated_duration_notes_function(accumulator.get(1, 15), [(4, 4)])
+    music = baca.make_repeated_duration_notes(accumulator.get(1, 15), [(4, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(16, 20))
     voice.extend(music)

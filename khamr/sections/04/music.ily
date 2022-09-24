@@ -1290,7 +1290,7 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1304,7 +1304,7 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1316,7 +1316,7 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1324,12 +1324,12 @@ number.4.Flute.Music = {
     bf'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1351,9 +1351,9 @@ number.4.Flute.Music = {
     bf'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1371,21 +1371,21 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     bf'16
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1405,9 +1405,9 @@ number.4.Flute.Music = {
     bf'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1425,7 +1425,7 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1433,12 +1433,12 @@ number.4.Flute.Music = {
     bf'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1458,9 +1458,9 @@ number.4.Flute.Music = {
     bf'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1474,12 +1474,12 @@ number.4.Flute.Music = {
     bf'4..
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1499,9 +1499,9 @@ number.4.Flute.Music = {
     bf'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1519,7 +1519,7 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1527,12 +1527,12 @@ number.4.Flute.Music = {
     bf'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1556,7 +1556,7 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1570,7 +1570,7 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1584,7 +1584,7 @@ number.4.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1592,17 +1592,17 @@ number.4.Flute.Music = {
     bf'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     bf'!2
     % AFTER:
     % SPANNER_STARTS:
@@ -1613,16 +1613,16 @@ number.4.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     bf'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1821,7 +1821,7 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1831,9 +1831,9 @@ number.4.Oboe.Music = {
     c'1.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1847,12 +1847,12 @@ number.4.Oboe.Music = {
     c'4..
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1872,9 +1872,9 @@ number.4.Oboe.Music = {
     c'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1892,14 +1892,14 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 7]
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -1907,21 +1907,21 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1945,7 +1945,7 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1957,7 +1957,7 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1967,12 +1967,12 @@ number.4.Oboe.Music = {
     c'2...
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1994,9 +1994,9 @@ number.4.Oboe.Music = {
     c'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -2014,7 +2014,7 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2022,12 +2022,12 @@ number.4.Oboe.Music = {
     c'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2051,7 +2051,7 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2065,7 +2065,7 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2079,7 +2079,7 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2091,21 +2091,21 @@ number.4.Oboe.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2232,7 +2232,7 @@ number.4.Clarinet.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a2
     % AFTER:
     % ARTICULATIONS:
@@ -2274,7 +2274,7 @@ number.4.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a2
     % AFTER:
     % SPANNER_STARTS:
@@ -2282,14 +2282,14 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 3]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a1.
     % AFTER:
     % SPANNER_STARTS:
@@ -2297,14 +2297,14 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 4]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2312,14 +2312,14 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 5]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
     % SPANNER_STARTS:
@@ -2327,14 +2327,14 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 6]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2342,14 +2342,14 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
     % SPANNER_STARTS:
@@ -2357,7 +2357,7 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2388,7 +2388,7 @@ number.4.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 9]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
     % SPANNER_STARTS:
@@ -2396,14 +2396,14 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 10]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2411,14 +2411,14 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 11]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
     % SPANNER_STARTS:
@@ -2426,7 +2426,7 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2457,7 +2457,7 @@ number.4.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 13]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2465,14 +2465,14 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 14]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a2
     % AFTER:
     % SPANNER_STARTS:
@@ -2480,18 +2480,18 @@ number.4.Clarinet.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 15]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     a1.
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2687,7 +2687,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2697,9 +2697,9 @@ number.4.Saxophone.Music = {
     c'1.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -2717,7 +2717,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2727,12 +2727,12 @@ number.4.Saxophone.Music = {
     c'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2756,7 +2756,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2766,9 +2766,9 @@ number.4.Saxophone.Music = {
     c'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -2786,21 +2786,21 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2820,9 +2820,9 @@ number.4.Saxophone.Music = {
     c'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     - \tweak direction #up
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -2840,7 +2840,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2854,7 +2854,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2862,12 +2862,12 @@ number.4.Saxophone.Music = {
     c'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2891,7 +2891,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2903,7 +2903,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2917,7 +2917,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2931,7 +2931,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2945,7 +2945,7 @@ number.4.Saxophone.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2953,17 +2953,17 @@ number.4.Saxophone.Music = {
     c'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     c'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2974,16 +2974,16 @@ number.4.Saxophone.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     c'8.
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_fused_wind_rhythm_function()
+      %! khamr.make_fused_wind_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3176,7 +3176,7 @@ number.4.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c''1
     % AFTER:
     % ARTICULATIONS:
@@ -3271,14 +3271,14 @@ number.4.Guitar.Music = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 16]
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music measure 17]
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     c''1
     % AFTER:
     % ARTICULATIONS:
@@ -3313,7 +3313,7 @@ number.4.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3327,7 +3327,7 @@ number.4.Guitar.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3337,12 +3337,12 @@ number.4.Guitar.Music = {
     c''1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     r2
     % CLOSING:
     % COMMANDS:
@@ -3490,7 +3490,7 @@ number.4.Piano.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 7]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     as'!1
     % AFTER:
     % ARTICULATIONS:
@@ -3581,14 +3581,14 @@ number.4.Piano.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 16]
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 17]
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     as'!1
     % AFTER:
     % ARTICULATIONS:
@@ -3619,7 +3619,7 @@ number.4.Piano.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3633,7 +3633,7 @@ number.4.Piano.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3643,12 +3643,12 @@ number.4.Piano.Music = {
     as'1
     % AFTER:
     % SPANNER_STARTS:
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! khamr.make_closing_rhythm_function()
+      %! khamr.make_closing_rhythm()
     r2
     % CLOSING:
     % COMMANDS:
@@ -3736,7 +3736,7 @@ number.4.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -3799,7 +3799,7 @@ number.4.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -3810,23 +3810,23 @@ number.4.Percussion.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 3]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1.
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3837,7 +3837,7 @@ number.4.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 4]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -3859,7 +3859,7 @@ number.4.Percussion.Music = {
       %! baca.hairpin()
     \ppp
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3941,16 +3941,16 @@ number.4.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 9]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3961,7 +3961,7 @@ number.4.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 10]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -3972,23 +3972,23 @@ number.4.Percussion.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 11]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -4029,7 +4029,7 @@ number.4.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 13]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -4040,14 +4040,14 @@ number.4.Percussion.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 14]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -4058,23 +4058,23 @@ number.4.Percussion.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 15]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     b'1.
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5023,7 +5023,7 @@ number.4.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'2
     % AFTER:
     % ARTICULATIONS:
@@ -5256,7 +5256,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -5332,7 +5332,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5348,7 +5348,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -5385,7 +5385,7 @@ number.4.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5401,7 +5401,7 @@ number.4.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 9]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'4
     % AFTER:
     % SPANNER_STARTS:
@@ -5522,7 +5522,7 @@ number.4.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -5757,7 +5757,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 3]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5834,7 +5834,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 7]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5845,7 +5845,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 8]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5929,7 +5929,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 11]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5940,7 +5940,7 @@ number.4.Contrabass.Music = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music measure 12]
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'1
     % AFTER:
     % ARTICULATIONS:
@@ -5995,7 +5995,7 @@ number.4.Contrabass.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes_function()
+      %! baca.make_repeated_duration_notes()
     c'1
     % AFTER:
     % ARTICULATIONS:
