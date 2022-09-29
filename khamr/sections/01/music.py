@@ -11,13 +11,10 @@ from khamr import library
 
 def make_empty_score():
     score = library.make_empty_score()
-    voice_names = baca.accumulator.get_voice_names(score)
-    accumulator = baca.CommandAccumulator(
-        time_signatures=library.time_signatures()[:44],
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
-    )
-    return score, accumulator
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
+    time_signatures = library.time_signatures()[:44]
+    measures = baca.measures(time_signatures)
+    return score, voices, measures
 
 
 def GLOBALS(skips):
@@ -41,45 +38,45 @@ def GLOBALS(skips):
         baca.metronome_mark(skip, item, library.manifests)
 
 
-def FL(voice, accumulator):
+def FL(voice, measures):
     music = library.make_fused_wind_rhythm(
-        accumulator.get(),
+        measures(),
         [10, 10, 6, 10, 8, 6],
         force_rest_tuplets=([2, 5], 6),
     )
     voice.extend(music)
 
 
-def OB(voice, accumulator):
+def OB(voice, measures):
     music = library.make_fused_wind_rhythm(
-        accumulator.get(),
+        measures(),
         [12, 6, 10, 10, 6, 8],
         force_rest_tuplets=([1, 4], 6),
     )
     voice.extend(music)
 
 
-def CL(voice, accumulator):
+def CL(voice, measures):
     music = library.make_fused_wind_rhythm(
-        accumulator.get(),
+        measures(),
         [8, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
     )
     voice.extend(music)
 
 
-def SAX(voice, accumulator):
+def SAX(voice, measures):
     music = library.make_fused_wind_rhythm(
-        accumulator.get(),
+        measures(),
         [14, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
     )
     voice.extend(music)
 
 
-def GT(voice, accumulator):
+def GT(voice, measures):
     music = library.make_guitar_isolata_rhythm(
-        accumulator.get(1, 24),
+        measures(1, 24),
         force_rest_tuplets=abjad.Pattern([1, 2, 3, 5, 6, 7, 8], period=9)
         | abjad.Pattern(range(1, 12)),
     )
@@ -90,93 +87,93 @@ def GT(voice, accumulator):
     rmakers.rewrite_sustained(tuplet)
     rmakers.extract_trivial(tuplet)
     music = library.make_guitar_accelerando_rhythm(
-        accumulator.get(25, 40),
+        measures(25, 40),
         [2, 1],
     )
     voice.extend(music)
     music = library.make_guitar_isolata_rhythm(
-        accumulator.get(41, 44),
+        measures(41, 44),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
 
 
-def PF(voice, accumulator):
+def PF(voice, measures):
     music = library.make_fused_expanse_rhythm(
-        accumulator.get(1, 24),
+        measures(1, 24),
         [20, 8, 20, 4],
     )
     voice.extend(music)
     music = library.make_guitar_accelerando_rhythm(
-        accumulator.get(25, 36),
+        measures(25, 36),
         [3, 2],
     )
     voice.extend(music)
     music = library.make_guitar_isolata_rhythm(
-        accumulator.get(37, 40),
+        measures(37, 40),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(41, 44))
+    music = baca.make_repeat_tied_notes(measures(41, 44))
     voice.extend(music)
 
 
-def PERC(voice, accumulator):
+def PERC(voice, measures):
     music = library.make_fused_expanse_rhythm(
-        accumulator.get(),
+        measures(),
         [20, 8, 20, 4],
     )
     voice.extend(music)
 
 
-def VN(voice, accumulator):
+def VN(voice, measures):
     music = library.make_opening_glissando_rhythm(
-        accumulator.get(1, 36),
+        measures(1, 36),
         0,
         repeat_tie_leaves_in_tuplets=([0, 1, 2, 5], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        accumulator.get(37, 44),
+        measures(37, 44),
         4,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VA(voice, accumulator):
+def VA(voice, measures):
     music = library.make_opening_glissando_rhythm(
-        accumulator.get(1, 36),
+        measures(1, 36),
         -1,
         tie_leaves_in_tuplets=([1, 2, 3, 6], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        accumulator.get(37, 44),
+        measures(37, 44),
         3,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VC(voice, accumulator):
+def VC(voice, measures):
     music = library.make_opening_glissando_rhythm(
-        accumulator.get(1, 36),
+        measures(1, 36),
         -2,
         tie_leaves_in_tuplets=([0, 2, 3, 4], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        accumulator.get(37, 44),
+        measures(37, 44),
         2,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def CB(voice, accumulator):
+def CB(voice, measures):
     music = library.make_opening_glissando_rhythm(
-        accumulator.get(),
+        measures(),
         -3,
         tie_leaves_in_tuplets=([0, 1, 4, 6], 7),
     )
@@ -459,31 +456,30 @@ def composites(cache):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, accumulator = make_empty_score()
+    score, voices, measures = make_empty_score()
     baca.section.set_up_score(
         score,
-        accumulator.time_signatures,
-        accumulator,
+        measures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
         manifests=library.manifests,
     )
     GLOBALS(score["Skips"])
-    FL(accumulator.voice("fl"), accumulator)
-    OB(accumulator.voice("ob"), accumulator)
-    CL(accumulator.voice("cl"), accumulator)
-    SAX(accumulator.voice("sax"), accumulator)
-    GT(accumulator.voice("gt"), accumulator)
-    PF(accumulator.voice("pf"), accumulator)
-    PERC(accumulator.voice("perc"), accumulator)
-    VN(accumulator.voice("vn"), accumulator)
-    VA(accumulator.voice("va"), accumulator)
-    VC(accumulator.voice("vc"), accumulator)
-    CB(accumulator.voice("cb"), accumulator)
+    FL(voices("fl"), measures)
+    OB(voices("ob"), measures)
+    CL(voices("cl"), measures)
+    SAX(voices("sax"), measures)
+    GT(voices("gt"), measures)
+    PF(voices("pf"), measures)
+    PERC(voices("perc"), measures)
+    VN(voices("vn"), measures)
+    VA(voices("va"), measures)
+    VC(voices("vc"), measures)
+    CB(voices("cb"), measures)
     cache = baca.section.cache_leaves(
         score,
-        len(accumulator.time_signatures),
+        len(measures()),
         library.voice_abbreviations,
     )
     fl(cache)
@@ -498,16 +494,16 @@ def make_score():
     vc(cache["vc"])
     cb(cache["cb"])
     composites(cache)
-    return score, accumulator
+    return score, measures
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
-    score, accumulator = make_score(timing)
+    score, measures = make_score(timing)
     metadata, persist = baca.section.postprocess_score(
         score,
-        accumulator.time_signatures,
+        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
