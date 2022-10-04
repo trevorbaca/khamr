@@ -494,15 +494,14 @@ def make_score():
     vc(cache["vc"])
     cb(cache["cb"])
     composites(cache)
-    return score, measures
+    return score
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
-    score, measures = make_score(environment.timing)
+    score = make_score(environment.timing)
     metadata = baca.section.postprocess_score(
         score,
-        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
