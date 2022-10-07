@@ -502,7 +502,6 @@ def main():
     score = make_score(environment.timing)
     metadata = baca.section.postprocess_score(
         score,
-        **baca.section.section_defaults(),
         always_make_global_rests=True,
         environment=environment,
         error_on_not_yet_pitched=True,
