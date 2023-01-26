@@ -169,7 +169,7 @@ def make_current_rhythm(time_signatures, counts, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
     tuplet_ratios = [_ * (1,) for _ in counts]
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
     divisions = abjad.sequence.flatten(divisions)
     nested_music = rmakers.tuplet(divisions, tuplet_ratios, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -272,7 +272,7 @@ def make_empty_score():
 def make_fused_expanse_rhythm(time_signatures, counts):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
     divisions = abjad.sequence.flatten(divisions, depth=-1)
@@ -291,7 +291,7 @@ def make_fused_wind_rhythm(
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
     nested_music = rmakers.incised(
@@ -428,7 +428,7 @@ def make_opening_glissando_rhythm(
 def make_quarter_hits(time_signatures, *, force_rest_lts=None):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     nested_music = rmakers.note(divisions, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -447,7 +447,7 @@ def make_quarter_hits(time_signatures, *, force_rest_lts=None):
 def make_silent_first_division(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=(3, 2)) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     nested_music = rmakers.note(divisions, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
