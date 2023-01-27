@@ -109,7 +109,7 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
 
 def make_aviary_rhythm(time_signatures, duration, *, extra_counts):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.split_divisions(divisions, [duration], cyclic=True)
     divisions = abjad.sequence.flatten(divisions)
@@ -122,7 +122,7 @@ def make_aviary_rhythm(time_signatures, duration, *, extra_counts):
 
 def make_closing_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.split_divisions(
         divisions, [(2, 4), (4, 4), (12, 4)], cyclic=True
@@ -168,8 +168,7 @@ def make_continuous_glissando_rhythm(
 def make_current_rhythm(time_signatures, counts, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
     tuplet_ratios = [_ * (1,) for _ in counts]
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
     divisions = abjad.sequence.flatten(divisions)
     nested_music = rmakers.tuplet(divisions, tuplet_ratios, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -271,8 +270,7 @@ def make_empty_score():
 
 def make_fused_expanse_rhythm(time_signatures, counts):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
     divisions = abjad.sequence.flatten(divisions, depth=-1)
@@ -290,8 +288,7 @@ def make_fused_wind_rhythm(
     time_signatures, counts, *, denominator=8, force_rest_tuplets=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
     nested_music = rmakers.incised(
@@ -318,7 +315,7 @@ def make_fused_wind_rhythm(
 
 def make_guitar_accelerando_rhythm(time_signatures, counts):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions, counts, cyclic=True)
     nested_music = rmakers.accelerando(
         divisions, [(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)], tag=tag
@@ -338,7 +335,7 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
 
 def make_guitar_isolata_rhythm(time_signatures, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     nested_music = rmakers.tuplet(
@@ -379,20 +376,7 @@ def make_opening_glissando_rhythm(
     force_rest_tuplets=None,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    tuplet_ratios = [
-        (4, 1),
-        (4, 1),
-        (4, 1),
-        (3, 1),
-        (3, 1),
-        (3, 1),
-        (2, 1),
-        (2, 1),
-        (2, 1),
-        (6, 1),
-        (6, 1),
-        (6, 1),
-    ]
+    tuplet_ratios = [(_, 1) for _ in [4, 4, 4, 3, 3, 3, 2, 2, 2, 6, 6, 6]]
     tuplet_ratio_rotation *= 3
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
     nested_music = rmakers.tuplet(time_signatures, tuplet_ratios, tag=tag)
@@ -427,8 +411,7 @@ def make_opening_glissando_rhythm(
 
 def make_quarter_hits(time_signatures, *, force_rest_lts=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     nested_music = rmakers.note(divisions, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -446,8 +429,7 @@ def make_quarter_hits(time_signatures, *, force_rest_lts=None):
 
 def make_silent_first_division(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
-    divisions = [baca.sequence.quarters([_], compound=True) for _ in divisions]
+    divisions = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
     divisions = abjad.sequence.flatten(divisions, depth=-1)
     nested_music = rmakers.note(divisions, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
@@ -463,7 +445,7 @@ def make_silent_first_division(time_signatures):
 
 def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     divisions = abjad.sequence.flatten(divisions)
@@ -523,107 +505,27 @@ def sixth_octave(argument):
 
 def string_tuplet_ratios(number):
     if number == 1:
-        return [
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1, 4),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (2, 3),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (3, 2),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (4, 1),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1, 4),
-        ]
+        return eval(
+            """[(1,), (1,), (1,), (1,), (1,), (1, 4), (1,), (1,), (1,), (1,), (1,),
+            (2, 3), (1,), (1,), (1,), (1,), (1,), (3, 2), (1,), (1,), (1,), (1,), (1,),
+            (4, 1), (1,), (1,), (1,), (1,), (1,), (1, 4)]"""
+        )
     elif number == 2:
-        return [
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1, 4),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (2, 3),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (3, 2),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (4, 1),
-            (1,),
-            (1,),
-            (1,),
-            (1,),
-            (1, 4),
-        ]
+        return eval(
+            """[(1,), (1,), (1,), (1,), (1, 4), (1,), (1,), (1,), (1,), (2, 3), (1,),
+            (1,), (1,), (1,), (3, 2), (1,), (1,), (1,), (1,), (4, 1), (1,), (1,), (1,),
+            (1,), (1, 4)]"""
+        )
     elif number == 3:
-        return [
-            (1,),
-            (1,),
-            (1,),
-            (1, 4),
-            (1,),
-            (1,),
-            (1,),
-            (2, 3),
-            (1,),
-            (1,),
-            (1,),
-            (3, 2),
-            (1,),
-            (1,),
-            (1,),
-            (4, 1),
-            (1,),
-            (1,),
-            (1,),
-            (1, 4),
-        ]
+        return eval(
+            """[(1,), (1,), (1,), (1, 4), (1,), (1,), (1,), (2, 3), (1,), (1,),
+            (1,), (3, 2), (1,), (1,), (1,), (4, 1), (1,), (1,), (1,), (1, 4)]"""
+        )
     elif number == 4:
-        return [
-            (1,),
-            (1,),
-            (1, 4),
-            (1,),
-            (1,),
-            (2, 3),
-            (1,),
-            (1,),
-            (3, 2),
-            (1,),
-            (1,),
-            (4, 1),
-            (1,),
-            (1,),
-            (1, 4),
-        ]
+        return eval(
+            """[(1,), (1,), (1, 4), (1,), (1,), (2, 3), (1,), (1,), (3, 2), (1,),
+            (1,), (4, 1), (1,), (1,), (1, 4)]"""
+        )
     else:
         raise ValueError(number)
 
