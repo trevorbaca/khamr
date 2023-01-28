@@ -7318,7 +7318,7 @@ number.1.Guitar.Music = {
         % COMMANDS:
 
           %! khamr.make_guitar_accelerando_rhythm()
-        bf''!16 * 2
+        bf''!16 * 2/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER
@@ -8934,7 +8934,7 @@ number.1.Piano.Music = {
         % COMMANDS:
 
           %! khamr.make_guitar_accelerando_rhythm()
-        ef''''!16 * 2
+        ef''''!16 * 2/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER
@@ -9594,7 +9594,7 @@ number.1.Piano.Music = {
         % COMMANDS:
 
           %! khamr.make_guitar_accelerando_rhythm()
-        d''''16 * 2
+        d''''16 * 2/1
         % AFTER:
         % MARKUP:
           %! DURATION_MULTIPLIER
