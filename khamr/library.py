@@ -112,7 +112,7 @@ def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(durations, [weight], cyclic=True)
+    durations = baca.sequence.split(durations, [weight], cyclic=True)
     durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.even_division(
         durations, [16], extra_counts=extra_counts, tag=tag
@@ -125,7 +125,7 @@ def make_closing_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split_divisions(
+    durations = baca.sequence.split(
         durations, [(2, 4), (4, 4), (12, 4)], cyclic=True
     )
     durations = abjad.sequence.flatten(durations, depth=-1)
