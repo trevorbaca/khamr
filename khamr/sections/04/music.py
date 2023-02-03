@@ -12,8 +12,8 @@ def make_empty_score():
     score = library.make_empty_score()
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[:20]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def GLOBALS(skips):
@@ -37,105 +37,105 @@ def GLOBALS(skips):
     baca.bar_line(skips[20 - 1], "|.")
 
 
-def FL(voice, measures):
+def FL(voice, signatures):
     music = library.make_fused_wind_rhythm(
-        measures(1, 15),
+        signatures(1, 15),
         [8],
         denominator=16,
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
+    music = baca.make_mmrests(signatures(16, 20))
     voice.extend(music)
 
 
-def OB(voice, measures):
+def OB(voice, signatures):
     music = library.make_fused_wind_rhythm(
-        measures(1, 15),
+        signatures(1, 15),
         [10],
         denominator=16,
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
+    music = baca.make_mmrests(signatures(16, 20))
     voice.extend(music)
 
 
-def CL(voice, measures):
-    music = baca.make_repeat_tied_notes(measures(1, 15))
+def CL(voice, signatures):
+    music = baca.make_repeat_tied_notes(signatures(1, 15))
     voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
+    music = baca.make_mmrests(signatures(16, 20))
     voice.extend(music)
 
 
-def SAX(voice, measures):
+def SAX(voice, signatures):
     music = library.make_fused_wind_rhythm(
-        measures(1, 15),
+        signatures(1, 15),
         [12],
         denominator=16,
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
+    music = baca.make_mmrests(signatures(16, 20))
     voice.extend(music)
 
 
-def GT(voice, measures):
-    music = baca.make_repeat_tied_notes(measures(1, 7))
+def GT(voice, signatures):
+    music = baca.make_repeat_tied_notes(signatures(1, 7))
     voice.extend(music)
     rmakers.force_rest(baca.select.leaves(music)[:-1])
-    music = baca.make_repeat_tied_notes(measures(8, 15))
+    music = baca.make_repeat_tied_notes(signatures(8, 15))
     voice.extend(music)
     rmakers.force_rest(baca.select.leaves(music)[2:]),
-    music = library.make_closing_rhythm(measures(16, 20))
+    music = library.make_closing_rhythm(signatures(16, 20))
     voice.extend(music)
 
 
-def PF(voice, measures):
-    music = baca.make_repeat_tied_notes(measures(1, 7))
+def PF(voice, signatures):
+    music = baca.make_repeat_tied_notes(signatures(1, 7))
     voice.extend(music)
     rmakers.force_rest(baca.select.leaves(music)[:-1])
-    music = baca.make_repeat_tied_notes(measures(8, 15))
+    music = baca.make_repeat_tied_notes(signatures(8, 15))
     voice.extend(music)
     rmakers.force_rest(baca.select.leaves(music)[2:]),
-    music = library.make_closing_rhythm(measures(16, 20))
+    music = library.make_closing_rhythm(signatures(16, 20))
     voice.extend(music)
 
 
-def PERC(voice, measures):
-    music = baca.make_repeat_tied_notes(measures(1, 5))
+def PERC(voice, signatures):
+    music = baca.make_repeat_tied_notes(signatures(1, 5))
     voice.extend(music)
     rmakers.force_rest(baca.select.pleaf(music, -1))
-    music = baca.make_mmrests(measures(6, 7))
+    music = baca.make_mmrests(signatures(6, 7))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(measures(8, 15))
+    music = baca.make_repeat_tied_notes(signatures(8, 15))
     voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
-    voice.extend(music)
-
-
-def VN(voice, measures):
-    music = baca.make_repeated_duration_notes(measures(1, 15), [(7, 4)])
-    voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
+    music = baca.make_mmrests(signatures(16, 20))
     voice.extend(music)
 
 
-def VA(voice, measures):
-    music = baca.make_repeated_duration_notes(measures(1, 15), [(6, 4)])
+def VN(voice, signatures):
+    music = baca.make_repeated_duration_notes(signatures(1, 15), [(7, 4)])
     voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
-    voice.extend(music)
-
-
-def VC(voice, measures):
-    music = baca.make_repeated_duration_notes(measures(1, 15), [(5, 4)])
-    voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
+    music = baca.make_mmrests(signatures(16, 20))
     voice.extend(music)
 
 
-def CB(voice, measures):
-    music = baca.make_repeated_duration_notes(measures(1, 15), [(4, 4)])
+def VA(voice, signatures):
+    music = baca.make_repeated_duration_notes(signatures(1, 15), [(6, 4)])
     voice.extend(music)
-    music = baca.make_mmrests(measures(16, 20))
+    music = baca.make_mmrests(signatures(16, 20))
+    voice.extend(music)
+
+
+def VC(voice, signatures):
+    music = baca.make_repeated_duration_notes(signatures(1, 15), [(5, 4)])
+    voice.extend(music)
+    music = baca.make_mmrests(signatures(16, 20))
+    voice.extend(music)
+
+
+def CB(voice, signatures):
+    music = baca.make_repeated_duration_notes(signatures(1, 15), [(4, 4)])
+    voice.extend(music)
+    music = baca.make_mmrests(signatures(16, 20))
     voice.extend(music)
 
 
@@ -236,27 +236,27 @@ def composites(cache):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, voices, measures = make_empty_score()
+    score, voices, signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"])
-    FL(voices("fl"), measures)
-    OB(voices("ob"), measures)
-    CL(voices("cl"), measures)
-    SAX(voices("sax"), measures)
-    GT(voices("gt"), measures)
-    PF(voices("pf"), measures)
-    PERC(voices("perc"), measures)
-    VN(voices("vn"), measures)
-    VA(voices("va"), measures)
-    VC(voices("vc"), measures)
-    CB(voices("cb"), measures)
+    FL(voices("fl"), signatures)
+    OB(voices("ob"), signatures)
+    CL(voices("cl"), signatures)
+    SAX(voices("sax"), signatures)
+    GT(voices("gt"), signatures)
+    PF(voices("pf"), signatures)
+    PERC(voices("perc"), signatures)
+    VN(voices("vn"), signatures)
+    VA(voices("va"), signatures)
+    VC(voices("vc"), signatures)
+    CB(voices("cb"), signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -264,7 +264,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     fl(cache["fl"])
