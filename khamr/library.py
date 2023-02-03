@@ -125,9 +125,7 @@ def make_closing_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     durations = baca.sequence.fuse(durations)
-    durations = baca.sequence.split(
-        durations, [(2, 4), (4, 4), (12, 4)], cyclic=True
-    )
+    durations = baca.sequence.split(durations, [(2, 4), (4, 4), (12, 4)], cyclic=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
