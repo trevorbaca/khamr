@@ -272,8 +272,10 @@ def make_fused_expanse_rhythm(time_signatures, counts):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
     durations = abjad.sequence.flatten(durations, depth=-1)
-    durations = baca.sequence.fuse(durations, counts, cyclic=True)
-    durations = abjad.sequence.flatten(durations, depth=-1)
+    lists = abjad.sequence.partition_by_counts(
+        durations, counts, cyclic=True, overhang=True
+    )
+    durations = [sum(_) for _ in lists]
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     plts = baca.select.plts(voice)
@@ -290,7 +292,10 @@ def make_fused_wind_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [baca.sequence.quarters([_], compound=True) for _ in time_signatures]
     durations = abjad.sequence.flatten(durations, depth=-1)
-    durations = baca.sequence.fuse(durations, counts, cyclic=True)
+    lists = abjad.sequence.partition_by_counts(
+        durations, counts, cyclic=True, overhang=True
+    )
+    durations = [sum(_) for _ in lists]
     nested_music = rmakers.incised(
         durations,
         prefix_talea=[-1],
@@ -316,7 +321,10 @@ def make_fused_wind_rhythm(
 def make_guitar_accelerando_rhythm(time_signatures, counts):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations, counts, cyclic=True)
+    lists = abjad.sequence.partition_by_counts(
+        durations, counts, cyclic=True, overhang=True
+    )
+    durations = [sum(_) for _ in lists]
     nested_music = rmakers.accelerando(
         durations, [(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)], tag=tag
     )
@@ -336,7 +344,7 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
 def make_guitar_isolata_rhythm(time_signatures, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     nested_music = rmakers.tuplet(
         durations,
