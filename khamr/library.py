@@ -111,7 +111,7 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
 def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(durations, [weight], cyclic=True)
     durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.even_division(
@@ -124,7 +124,7 @@ def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
 def make_closing_rhythm(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.split(durations, [(2, 4), (4, 4), (12, 4)], cyclic=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
     nested_music = rmakers.note(durations, tag=tag)
@@ -455,7 +455,7 @@ def make_silent_first_division(time_signatures):
 def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.tuplet(
