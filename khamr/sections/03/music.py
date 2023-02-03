@@ -48,16 +48,6 @@ def leaf_in_each_top_tuplet(argument, n):
     return argument
 
 
-def leaf_in_each_top_tuplet_selector(n):
-    def selector(argument):
-        selection = abjad.select.top(argument)
-        selection = abjad.select.tuplets(selection)
-        result = [abjad.select.leaf(_, n) for _ in selection]
-        return result
-
-    return selector
-
-
 def FL(voice, measures):
     music = baca.make_repeat_tied_notes(measures(1, 2))
     voice.extend(music)
