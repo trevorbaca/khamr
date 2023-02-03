@@ -13,8 +13,8 @@ def make_empty_score():
     score = library.make_empty_score()
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[:44]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def GLOBALS(skips):
@@ -38,45 +38,45 @@ def GLOBALS(skips):
         baca.metronome_mark(skip, item, library.manifests)
 
 
-def FL(voice, measures):
+def FL(voice, signatures):
     music = library.make_fused_wind_rhythm(
-        measures(),
+        signatures(),
         [10, 10, 6, 10, 8, 6],
         force_rest_tuplets=([2, 5], 6),
     )
     voice.extend(music)
 
 
-def OB(voice, measures):
+def OB(voice, signatures):
     music = library.make_fused_wind_rhythm(
-        measures(),
+        signatures(),
         [12, 6, 10, 10, 6, 8],
         force_rest_tuplets=([1, 4], 6),
     )
     voice.extend(music)
 
 
-def CL(voice, measures):
+def CL(voice, signatures):
     music = library.make_fused_wind_rhythm(
-        measures(),
+        signatures(),
         [8, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
     )
     voice.extend(music)
 
 
-def SAX(voice, measures):
+def SAX(voice, signatures):
     music = library.make_fused_wind_rhythm(
-        measures(),
+        signatures(),
         [14, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
     )
     voice.extend(music)
 
 
-def GT(voice, measures):
+def GT(voice, signatures):
     music = library.make_guitar_isolata_rhythm(
-        measures(1, 24),
+        signatures(1, 24),
         force_rest_tuplets=abjad.Pattern([1, 2, 3, 5, 6, 7, 8], period=9)
         | abjad.Pattern(range(1, 12)),
     )
@@ -87,93 +87,93 @@ def GT(voice, measures):
     rmakers.rewrite_sustained(tuplet)
     rmakers.extract_trivial(tuplet)
     music = library.make_guitar_accelerando_rhythm(
-        measures(25, 40),
+        signatures(25, 40),
         [2, 1],
     )
     voice.extend(music)
     music = library.make_guitar_isolata_rhythm(
-        measures(41, 44),
+        signatures(41, 44),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
 
 
-def PF(voice, measures):
+def PF(voice, signatures):
     music = library.make_fused_expanse_rhythm(
-        measures(1, 24),
+        signatures(1, 24),
         [20, 8, 20, 4],
     )
     voice.extend(music)
     music = library.make_guitar_accelerando_rhythm(
-        measures(25, 36),
+        signatures(25, 36),
         [3, 2],
     )
     voice.extend(music)
     music = library.make_guitar_isolata_rhythm(
-        measures(37, 40),
+        signatures(37, 40),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(measures(41, 44))
+    music = baca.make_repeat_tied_notes(signatures(41, 44))
     voice.extend(music)
 
 
-def PERC(voice, measures):
+def PERC(voice, signatures):
     music = library.make_fused_expanse_rhythm(
-        measures(),
+        signatures(),
         [20, 8, 20, 4],
     )
     voice.extend(music)
 
 
-def VN(voice, measures):
+def VN(voice, signatures):
     music = library.make_opening_glissando_rhythm(
-        measures(1, 36),
+        signatures(1, 36),
         0,
         repeat_tie_leaves_in_tuplets=([0, 1, 2, 5], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        measures(37, 44),
+        signatures(37, 44),
         4,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VA(voice, measures):
+def VA(voice, signatures):
     music = library.make_opening_glissando_rhythm(
-        measures(1, 36),
+        signatures(1, 36),
         -1,
         tie_leaves_in_tuplets=([1, 2, 3, 6], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        measures(37, 44),
+        signatures(37, 44),
         3,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VC(voice, measures):
+def VC(voice, signatures):
     music = library.make_opening_glissando_rhythm(
-        measures(1, 36),
+        signatures(1, 36),
         -2,
         tie_leaves_in_tuplets=([0, 2, 3, 4], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        measures(37, 44),
+        signatures(37, 44),
         2,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def CB(voice, measures):
+def CB(voice, signatures):
     music = library.make_opening_glissando_rhythm(
-        measures(),
+        signatures(),
         -3,
         tie_leaves_in_tuplets=([0, 1, 4, 6], 7),
     )
@@ -456,30 +456,30 @@ def composites(cache):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, voices, measures = make_empty_score()
+    score, voices, signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
         manifests=library.manifests,
     )
     GLOBALS(score["Skips"])
-    FL(voices("fl"), measures)
-    OB(voices("ob"), measures)
-    CL(voices("cl"), measures)
-    SAX(voices("sax"), measures)
-    GT(voices("gt"), measures)
-    PF(voices("pf"), measures)
-    PERC(voices("perc"), measures)
-    VN(voices("vn"), measures)
-    VA(voices("va"), measures)
-    VC(voices("vc"), measures)
-    CB(voices("cb"), measures)
+    FL(voices("fl"), signatures)
+    OB(voices("ob"), signatures)
+    CL(voices("cl"), signatures)
+    SAX(voices("sax"), signatures)
+    GT(voices("gt"), signatures)
+    PF(voices("pf"), signatures)
+    PERC(voices("perc"), signatures)
+    VN(voices("vn"), signatures)
+    VA(voices("va"), signatures)
+    VC(voices("vc"), signatures)
+    CB(voices("cb"), signatures)
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     fl(cache)
