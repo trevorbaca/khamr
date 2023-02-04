@@ -22,6 +22,21 @@ def color_trill_pitches(transpose=None):
     return pitches
 
 
+def compound_quarters(time_signatures):
+    durations = []
+    for time_signature in time_signatures:
+        if time_signature.numerator == 6:
+            weights = [(3, 8)]
+        else:
+            weights = [(1, 4)]
+        durations_ = baca.sequence.split(
+            [time_signature.duration], weights, cyclic=True
+        )
+        durations.extend(durations_)
+    durations = abjad.sequence.flatten(durations)
+    return durations
+
+
 def contrabass_halo_pitches():
     string = r"""
         A2 Bb2 A+2 B2 C+3 Bb2 A+2 B2
@@ -171,11 +186,8 @@ def make_continuous_glissando_rhythm(
 def make_current_rhythm(time_signatures, counts, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
     tuplet_ratios = [_ * (1,) for _ in counts]
-    pairs = [_.pair for _ in time_signatures]
-    durations = [
-        baca.sequence.split([_], [(1, 4)], compound=True, cyclic=True) for _ in pairs
-    ]
-    durations = abjad.sequence.flatten(durations)
+    durations = compound_quarters(time_signatures)
+    # durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if force_rest_tuplets is not None:
@@ -276,11 +288,8 @@ def make_empty_score():
 
 def make_fused_expanse_rhythm(time_signatures, counts):
     tag = baca.tags.function_name(inspect.currentframe())
-    pairs = [_.pair for _ in time_signatures]
-    durations = [
-        baca.sequence.split([_], [(1, 4)], compound=True, cyclic=True) for _ in pairs
-    ]
-    durations = abjad.sequence.flatten(durations, depth=-1)
+    durations = compound_quarters(time_signatures)
+    # durations = abjad.sequence.flatten(durations)
     lists = abjad.sequence.partition_by_counts(
         durations, counts, cyclic=True, overhang=True
     )
@@ -299,11 +308,8 @@ def make_fused_wind_rhythm(
     time_signatures, counts, *, denominator=8, force_rest_tuplets=None
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    pairs = [_.pair for _ in time_signatures]
-    durations = [
-        baca.sequence.split([_], [(1, 4)], compound=True, cyclic=True) for _ in pairs
-    ]
-    durations = abjad.sequence.flatten(durations, depth=-1)
+    durations = compound_quarters(time_signatures)
+    # durations = abjad.sequence.flatten(durations)
     lists = abjad.sequence.partition_by_counts(
         durations, counts, cyclic=True, overhang=True
     )
@@ -432,11 +438,8 @@ def make_opening_glissando_rhythm(
 
 def make_quarter_hits(time_signatures, *, force_rest_lts=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    pairs = [_.pair for _ in time_signatures]
-    durations = [
-        baca.sequence.split([_], [(1, 4)], compound=True, cyclic=True) for _ in pairs
-    ]
-    durations = abjad.sequence.flatten(durations, depth=-1)
+    durations = compound_quarters(time_signatures)
+    # durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if force_rest_lts is not None:
@@ -454,10 +457,8 @@ def make_quarter_hits(time_signatures, *, force_rest_lts=None):
 def make_silent_first_division(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     pairs = [_.pair for _ in time_signatures]
-    durations = [
-        baca.sequence.split([_], [(1, 4)], compound=True, cyclic=True) for _ in pairs
-    ]
-    durations = abjad.sequence.flatten(durations, depth=-1)
+    durations = compound_quarters(time_signatures)
+    # durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     ptails = baca.select.ptails(voice)[1:]
