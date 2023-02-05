@@ -187,7 +187,6 @@ def make_current_rhythm(time_signatures, counts, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
     tuplet_ratios = [_ * (1,) for _ in counts]
     durations = compound_quarters(time_signatures)
-    # durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if force_rest_tuplets is not None:
@@ -289,7 +288,6 @@ def make_empty_score():
 def make_fused_expanse_rhythm(time_signatures, counts):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = compound_quarters(time_signatures)
-    # durations = abjad.sequence.flatten(durations)
     lists = abjad.sequence.partition_by_counts(
         durations, counts, cyclic=True, overhang=True
     )
@@ -309,7 +307,6 @@ def make_fused_wind_rhythm(
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = compound_quarters(time_signatures)
-    # durations = abjad.sequence.flatten(durations)
     lists = abjad.sequence.partition_by_counts(
         durations, counts, cyclic=True, overhang=True
     )
@@ -439,7 +436,6 @@ def make_opening_glissando_rhythm(
 def make_quarter_hits(time_signatures, *, force_rest_lts=None):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = compound_quarters(time_signatures)
-    # durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if force_rest_lts is not None:
@@ -456,9 +452,7 @@ def make_quarter_hits(time_signatures, *, force_rest_lts=None):
 
 def make_silent_first_division(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
-    pairs = [_.pair for _ in time_signatures]
     durations = compound_quarters(time_signatures)
-    # durations = abjad.sequence.flatten(durations)
     nested_music = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     ptails = baca.select.ptails(voice)[1:]
