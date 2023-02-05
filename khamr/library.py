@@ -29,8 +29,9 @@ def compound_quarters(time_signatures):
             weights = [(3, 8)]
         else:
             weights = [(1, 4)]
-        durations_ = baca.sequence.split(
-            [time_signature.duration], weights, cyclic=True
+        weights = [abjad.Duration(_) for _ in weights]
+        durations_ = abjad.sequence.split(
+            [time_signature.duration], weights, cyclic=True, overhang=True
         )
         durations.extend(durations_)
     durations = abjad.sequence.flatten(durations)
