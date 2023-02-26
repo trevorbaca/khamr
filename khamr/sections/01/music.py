@@ -13,8 +13,8 @@ def make_empty_score():
     score = library.make_empty_score()
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[:44]
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def GLOBALS(skips):
@@ -38,45 +38,45 @@ def GLOBALS(skips):
         baca.metronome_mark(skip, item, library.manifests)
 
 
-def FL(voice, signatures):
+def FL(voice, time_signatures):
     music = library.make_fused_wind_rhythm(
-        signatures(),
+        time_signatures(),
         [10, 10, 6, 10, 8, 6],
         force_rest_tuplets=([2, 5], 6),
     )
     voice.extend(music)
 
 
-def OB(voice, signatures):
+def OB(voice, time_signatures):
     music = library.make_fused_wind_rhythm(
-        signatures(),
+        time_signatures(),
         [12, 6, 10, 10, 6, 8],
         force_rest_tuplets=([1, 4], 6),
     )
     voice.extend(music)
 
 
-def CL(voice, signatures):
+def CL(voice, time_signatures):
     music = library.make_fused_wind_rhythm(
-        signatures(),
+        time_signatures(),
         [8, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
     )
     voice.extend(music)
 
 
-def SAX(voice, signatures):
+def SAX(voice, time_signatures):
     music = library.make_fused_wind_rhythm(
-        signatures(),
+        time_signatures(),
         [14, 6, 10, 6, 10, 8],
         force_rest_tuplets=([1, 3], 6),
     )
     voice.extend(music)
 
 
-def GT(voice, signatures):
+def GT(voice, time_signatures):
     music = library.make_guitar_isolata_rhythm(
-        signatures(1, 24),
+        time_signatures(1, 24),
         force_rest_tuplets=abjad.Pattern([1, 2, 3, 5, 6, 7, 8], period=9)
         | abjad.Pattern(range(1, 12)),
     )
@@ -87,93 +87,93 @@ def GT(voice, signatures):
     rmakers.rewrite_sustained(tuplet)
     rmakers.extract_trivial(tuplet)
     music = library.make_guitar_accelerando_rhythm(
-        signatures(25, 40),
+        time_signatures(25, 40),
         [2, 1],
     )
     voice.extend(music)
     music = library.make_guitar_isolata_rhythm(
-        signatures(41, 44),
+        time_signatures(41, 44),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
 
 
-def PF(voice, signatures):
+def PF(voice, time_signatures):
     music = library.make_fused_expanse_rhythm(
-        signatures(1, 24),
+        time_signatures(1, 24),
         [20, 8, 20, 4],
     )
     voice.extend(music)
     music = library.make_guitar_accelerando_rhythm(
-        signatures(25, 36),
+        time_signatures(25, 36),
         [3, 2],
     )
     voice.extend(music)
     music = library.make_guitar_isolata_rhythm(
-        signatures(37, 40),
+        time_signatures(37, 40),
         force_rest_tuplets=([1, 2, 3, 5, 6, 7, 8], 9),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(41, 44))
+    music = baca.make_repeat_tied_notes(time_signatures(41, 44))
     voice.extend(music)
 
 
-def PERC(voice, signatures):
+def PERC(voice, time_signatures):
     music = library.make_fused_expanse_rhythm(
-        signatures(),
+        time_signatures(),
         [20, 8, 20, 4],
     )
     voice.extend(music)
 
 
-def VN(voice, signatures):
+def VN(voice, time_signatures):
     music = library.make_opening_glissando_rhythm(
-        signatures(1, 36),
+        time_signatures(1, 36),
         0,
         repeat_tie_leaves_in_tuplets=([0, 1, 2, 5], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        signatures(37, 44),
+        time_signatures(37, 44),
         4,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VA(voice, signatures):
+def VA(voice, time_signatures):
     music = library.make_opening_glissando_rhythm(
-        signatures(1, 36),
+        time_signatures(1, 36),
         -1,
         tie_leaves_in_tuplets=([1, 2, 3, 6], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        signatures(37, 44),
+        time_signatures(37, 44),
         3,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VC(voice, signatures):
+def VC(voice, time_signatures):
     music = library.make_opening_glissando_rhythm(
-        signatures(1, 36),
+        time_signatures(1, 36),
         -2,
         tie_leaves_in_tuplets=([0, 2, 3, 4], 7),
     )
     voice.extend(music)
     music = library.make_trill_tuplets(
-        signatures(37, 44),
+        time_signatures(37, 44),
         2,
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def CB(voice, signatures):
+def CB(voice, time_signatures):
     music = library.make_opening_glissando_rhythm(
-        signatures(),
+        time_signatures(),
         -3,
         tie_leaves_in_tuplets=([0, 1, 4, 6], 7),
     )
@@ -456,30 +456,30 @@ def composites(cache):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, voices, signatures = make_empty_score()
+    score, voices, time_signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
         manifests=library.manifests,
     )
     GLOBALS(score["Skips"])
-    FL(voices("fl"), signatures)
-    OB(voices("ob"), signatures)
-    CL(voices("cl"), signatures)
-    SAX(voices("sax"), signatures)
-    GT(voices("gt"), signatures)
-    PF(voices("pf"), signatures)
-    PERC(voices("perc"), signatures)
-    VN(voices("vn"), signatures)
-    VA(voices("va"), signatures)
-    VC(voices("vc"), signatures)
-    CB(voices("cb"), signatures)
+    FL(voices("fl"), time_signatures)
+    OB(voices("ob"), time_signatures)
+    CL(voices("cl"), time_signatures)
+    SAX(voices("sax"), time_signatures)
+    GT(voices("gt"), time_signatures)
+    PF(voices("pf"), time_signatures)
+    PERC(voices("perc"), time_signatures)
+    VN(voices("vn"), time_signatures)
+    VA(voices("va"), time_signatures)
+    VC(voices("vc"), time_signatures)
+    CB(voices("cb"), time_signatures)
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     fl(cache)
