@@ -106,8 +106,8 @@ def halo_hairpins(argument):
 def make_alternate_divisions(time_signatures, *, detach_ties=False):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
-    nested_music = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    lists = rmakers.note(durations, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
     ptails = baca.select.ptails(voice)[:-1]
     rmakers.tie(ptails, tag=tag)
     leaves = abjad.select.leaves(voice)
@@ -132,11 +132,9 @@ def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
         durations, [abjad.Duration(weight)], cyclic=True, overhang=True
     )
     durations = abjad.sequence.flatten(durations)
-    nested_music = rmakers.even_division(
-        durations, [16], extra_counts=extra_counts, tag=tag
-    )
-    rmakers.beam(nested_music, tag=tag)
-    return nested_music
+    tuplets = rmakers.even_division(durations, [16], extra_counts=extra_counts, tag=tag)
+    rmakers.beam(tuplets, tag=tag)
+    return tuplets
 
 
 def make_closing_rhythm(time_signatures):
@@ -146,8 +144,8 @@ def make_closing_rhythm(time_signatures):
     weights = [abjad.Duration(_) for _ in [(2, 4), (4, 4), (12, 4)]]
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
-    nested_music = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    lists = rmakers.note(durations, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
     lts = baca.select.lts(voice)
     lts = abjad.select.get(lts, [0, -1])
     rmakers.force_rest(lts, tag=tag)
@@ -167,8 +165,8 @@ def make_continuous_glissando_rhythm(
     tuplet_ratios = [(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)]
     tuplet_ratio_rotation *= 2
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
-    nested_music = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    tuplets = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     result = abjad.select.tuplets(voice)
     result = abjad.select.get(result, tie_ptails_in_tuplets)
     result = [baca.select.ptails(_)[:-1] for _ in result]
@@ -188,8 +186,8 @@ def make_current_rhythm(time_signatures, counts, *, force_rest_tuplets=None):
     tag = baca.tags.function_name(inspect.currentframe())
     tuplet_ratios = [_ * (1,) for _ in counts]
     durations = compound_quarters(time_signatures)
-    nested_music = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    tuplets = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
         tuplets = baca.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
@@ -293,8 +291,8 @@ def make_fused_expanse_rhythm(time_signatures, counts):
         durations, counts, cyclic=True, overhang=True
     )
     durations = [sum(_) for _ in lists]
-    nested_music = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    lists = rmakers.note(durations, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
     plts = baca.select.plts(voice)
     rmakers.beam(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -312,7 +310,7 @@ def make_fused_wind_rhythm(
         durations, counts, cyclic=True, overhang=True
     )
     durations = [sum(_) for _ in lists]
-    nested_music = rmakers.incised(
+    tuplets = rmakers.incised(
         durations,
         prefix_talea=[-1],
         prefix_counts=[0],
@@ -321,7 +319,7 @@ def make_fused_wind_rhythm(
         talea_denominator=denominator,
         tag=tag,
     )
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
         tuplets = baca.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
@@ -341,10 +339,10 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
         durations, counts, cyclic=True, overhang=True
     )
     durations = [sum(_) for _ in lists]
-    nested_music = rmakers.accelerando(
+    tuplets = rmakers.accelerando(
         durations, [(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)], tag=tag
     )
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     tuplets = baca.select.tuplets(voice)[1:]
     pleaves = [baca.select.pleaf(_, 0) for _ in tuplets]
     rmakers.repeat_tie(pleaves, tag=tag)
@@ -362,7 +360,7 @@ def make_guitar_isolata_rhythm(time_signatures, *, force_rest_tuplets=None):
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
-    nested_music = rmakers.tuplet(
+    tuplets = rmakers.tuplet(
         durations,
         [
             (-1, 1, -1),
@@ -376,7 +374,7 @@ def make_guitar_isolata_rhythm(time_signatures, *, force_rest_tuplets=None):
         ],
         tag=tag,
     )
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
         tuplets = baca.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
@@ -404,8 +402,8 @@ def make_opening_glissando_rhythm(
     tuplet_ratio_rotation *= 3
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
     durations = [_.duration for _ in time_signatures]
-    nested_music = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    tuplets = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     tuplets = baca.select.tuplets(voice)[1:]
     pleaves = [baca.select.pleaf(_, 0) for _ in tuplets]
     rmakers.repeat_tie(pleaves, tag=tag)
@@ -437,8 +435,8 @@ def make_opening_glissando_rhythm(
 def make_quarter_hits(time_signatures, *, force_rest_lts=None):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = compound_quarters(time_signatures)
-    nested_music = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    lists = rmakers.note(durations, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
     if force_rest_lts is not None:
         lts = baca.select.lts(voice)
         lts = abjad.select.get(lts, force_rest_lts)
@@ -454,8 +452,8 @@ def make_quarter_hits(time_signatures, *, force_rest_lts=None):
 def make_silent_first_division(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = compound_quarters(time_signatures)
-    nested_music = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    lists = rmakers.note(durations, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
     ptails = baca.select.ptails(voice)[1:]
     rmakers.repeat_tie(ptails, tag=tag)
     note = abjad.select.note(voice, 0)
@@ -472,10 +470,8 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=Non
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     durations = abjad.sequence.flatten(durations)
-    nested_music = rmakers.tuplet(
-        durations, string_tuplet_ratios(tuplet_ratios), tag=tag
-    )
-    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    tuplets = rmakers.tuplet(durations, string_tuplet_ratios(tuplet_ratios), tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     ptails = baca.select.ptail_in_each_tuplet(voice, -1, (None, -1))
     rmakers.tie(ptails, tag=tag)
     if force_rest_tuplets is not None:
