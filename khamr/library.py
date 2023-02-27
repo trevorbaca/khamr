@@ -107,7 +107,8 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     lists = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
+    components = abjad.sequence.flatten(lists)
+    voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     ptails = baca.select.ptails(voice)[:-1]
     rmakers.tie(ptails, tag=tag)
     leaves = abjad.select.leaves(voice)
@@ -145,7 +146,8 @@ def make_closing_rhythm(time_signatures):
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
     lists = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
+    components = abjad.sequence.flatten(lists)
+    voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     lts = baca.select.lts(voice)
     lts = abjad.select.get(lts, [0, -1])
     rmakers.force_rest(lts, tag=tag)
@@ -292,7 +294,8 @@ def make_fused_expanse_rhythm(time_signatures, counts):
     )
     durations = [sum(_) for _ in lists]
     lists = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
+    components = abjad.sequence.flatten(lists)
+    voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     plts = baca.select.plts(voice)
     rmakers.beam(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -436,7 +439,8 @@ def make_quarter_hits(time_signatures, *, force_rest_lts=None):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = compound_quarters(time_signatures)
     lists = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
+    components = abjad.sequence.flatten(lists)
+    voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     if force_rest_lts is not None:
         lts = baca.select.lts(voice)
         lts = abjad.select.get(lts, force_rest_lts)
@@ -453,7 +457,8 @@ def make_silent_first_division(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     durations = compound_quarters(time_signatures)
     lists = rmakers.note(durations, tag=tag)
-    voice = rmakers.wrap_in_time_signature_staff(lists, time_signatures)
+    components = abjad.sequence.flatten(lists)
+    voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     ptails = baca.select.ptails(voice)[1:]
     rmakers.repeat_tie(ptails, tag=tag)
     note = abjad.select.note(voice, 0)
