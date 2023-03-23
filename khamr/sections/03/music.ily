@@ -6414,7 +6414,6 @@ number.3.Piano.Music = {
     \baca-fff-ancora
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Piano”)"
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -6429,11 +6428,9 @@ number.3.Piano.Music = {
     f''''16
 
     c''''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     af'''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g'''16
@@ -6441,12 +6438,10 @@ number.3.Piano.Music = {
     e''''16
 
     c''''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Piano.Music measure 2]
     b'''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     df''''!16
@@ -6454,20 +6449,17 @@ number.3.Piano.Music = {
     ef''''!16
 
     f''''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
     {
 
         e''''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         fs'''!8
 
         bf'''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6477,7 +6469,6 @@ number.3.Piano.Music = {
 
         % [Piano.Music measure 3]
         a'''16.
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         c''''16.
@@ -6504,7 +6495,6 @@ number.3.Piano.Music = {
         ef''''!16.
 
         a'''16.
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6513,7 +6503,6 @@ number.3.Piano.Music = {
     {
 
         e''''16.
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         fs'''!16.
@@ -6532,7 +6521,6 @@ number.3.Piano.Music = {
     f''''8
 
     ef''''!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
@@ -6540,19 +6528,16 @@ number.3.Piano.Music = {
 
         % [Piano.Music measure 4]
         f''''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b'''8
 
         df''''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     bf'''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a'''16
@@ -6560,11 +6545,9 @@ number.3.Piano.Music = {
     e''''16
 
     fs'''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     f''''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     c''''16
@@ -6572,7 +6555,6 @@ number.3.Piano.Music = {
     df''''!16
 
     d''''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
@@ -6585,13 +6567,11 @@ number.3.Piano.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \ffff
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         c''''8
 
         af'''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6600,13 +6580,11 @@ number.3.Piano.Music = {
     {
 
         g'''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         fs'''!8
 
         bf'''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6615,7 +6593,6 @@ number.3.Piano.Music = {
     {
 
         a'''16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         e''''16
@@ -6625,7 +6602,6 @@ number.3.Piano.Music = {
         f''''16
 
         c''''16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6634,7 +6610,6 @@ number.3.Piano.Music = {
     {
 
         df''''!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         g'''16
@@ -6644,7 +6619,6 @@ number.3.Piano.Music = {
         c''''16
 
         af'''!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6654,7 +6628,6 @@ number.3.Piano.Music = {
 
         % [Piano.Music measure 6]
         df''''!16.
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         ef''''!16.
@@ -6664,7 +6637,6 @@ number.3.Piano.Music = {
         b'''16.
 
         df''''!16.
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6673,7 +6645,6 @@ number.3.Piano.Music = {
     {
 
         d''''16.
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f''''16.
@@ -6683,7 +6654,6 @@ number.3.Piano.Music = {
         af'''!16.
 
         g'''16.
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6693,7 +6663,6 @@ number.3.Piano.Music = {
 
         % [Piano.Music measure 7]
         e''''16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         c''''16
@@ -6703,13 +6672,11 @@ number.3.Piano.Music = {
         df''''!16
 
         ef''''!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     f''''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     e''''16
@@ -6717,11 +6684,9 @@ number.3.Piano.Music = {
     fs'''!16
 
     bf'''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     a'''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     c''''16
@@ -6729,11 +6694,9 @@ number.3.Piano.Music = {
     af'''!16
 
     g'''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     e''''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f''''16
@@ -6741,7 +6704,6 @@ number.3.Piano.Music = {
     b'''16
 
     df''''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
@@ -6749,7 +6711,6 @@ number.3.Piano.Music = {
 
         % [Piano.Music measure 8]
         ef''''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         a'''8
@@ -6789,7 +6750,6 @@ number.3.Piano.Music = {
         b'''16
 
         df''''!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6798,7 +6758,6 @@ number.3.Piano.Music = {
     {
 
         bf'''!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         a'''16
@@ -6821,7 +6780,6 @@ number.3.Piano.Music = {
         df''''!8
 
         d''''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6831,19 +6789,16 @@ number.3.Piano.Music = {
 
         % [Piano.Music measure 9]
         e''''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         c''''8
 
         af'''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     g'''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     fs'''!16
@@ -6851,11 +6806,9 @@ number.3.Piano.Music = {
     bf'''!16
 
     a'''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     e''''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d''''16
@@ -6863,20 +6816,17 @@ number.3.Piano.Music = {
     f''''16
 
     c''''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
     {
 
         df''''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         g'''8
 
         e''''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
           %! SPANNER_STOP
         \ottava 0

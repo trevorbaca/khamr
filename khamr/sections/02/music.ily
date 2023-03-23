@@ -2316,13 +2316,11 @@ number.2.Piano.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \baca-fff-ancora
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         c''''8
 
         ef''''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2331,7 +2329,6 @@ number.2.Piano.Music = {
     r4
 
     bf'''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     gf'''!16
@@ -2339,14 +2336,12 @@ number.2.Piano.Music = {
     f''''16
 
     d''''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Piano.Music measure 23]
     r2
 
     bf'''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a'''16
@@ -2354,7 +2349,6 @@ number.2.Piano.Music = {
     cf''''!16
 
     df''''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Piano.Music measure 24]
@@ -2364,13 +2358,11 @@ number.2.Piano.Music = {
     {
 
         ef''''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d''''8
 
         e''''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2379,7 +2371,6 @@ number.2.Piano.Music = {
     r4
 
     af'''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g'''16
@@ -2387,7 +2378,6 @@ number.2.Piano.Music = {
     bf'''!16
 
     gf'''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Piano.Music measure 26]
@@ -2397,7 +2387,6 @@ number.2.Piano.Music = {
     {
 
         f''''16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d''''16
@@ -2407,7 +2396,6 @@ number.2.Piano.Music = {
         a'''16
 
         cf''''!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2418,7 +2406,6 @@ number.2.Piano.Music = {
     r4.
 
     df''''!16.
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g'''32
@@ -2432,7 +2419,6 @@ number.2.Piano.Music = {
     d''''32
 
     e''''16.
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Piano.Music measure 28]
@@ -2442,13 +2428,11 @@ number.2.Piano.Music = {
     {
 
         af'''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         bf'''!8
 
         cf''''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2460,13 +2444,11 @@ number.2.Piano.Music = {
     {
 
         c''''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         ef''''!8
 
         df''''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2475,7 +2457,6 @@ number.2.Piano.Music = {
     r4.
 
     ef''''!16.
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a'''32
@@ -2489,7 +2470,6 @@ number.2.Piano.Music = {
     cf''''32
 
     af'''!16.
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! SPANNER_STOP
     \ottava 0
@@ -3458,7 +3438,6 @@ number.2.Violin.Music = {
     {
 
         g'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3468,7 +3447,6 @@ number.2.Violin.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -3491,7 +3469,6 @@ number.2.Violin.Music = {
     {
 
         gqf'8.
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3501,7 +3478,6 @@ number.2.Violin.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -3605,7 +3581,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 7]
         gs'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3615,7 +3590,6 @@ number.2.Violin.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -3633,7 +3607,6 @@ number.2.Violin.Music = {
     {
 
         gqs'8.
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3643,7 +3616,6 @@ number.2.Violin.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -3736,7 +3708,6 @@ number.2.Violin.Music = {
     {
 
         a'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3746,7 +3717,6 @@ number.2.Violin.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -3765,7 +3735,6 @@ number.2.Violin.Music = {
     {
 
         aqf'8.
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3775,7 +3744,6 @@ number.2.Violin.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -4045,7 +4013,6 @@ number.2.Viola.Music = {
     {
 
         fs'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4055,7 +4022,6 @@ number.2.Viola.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -4079,7 +4045,6 @@ number.2.Viola.Music = {
     {
 
         fqs'8.
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4089,7 +4054,6 @@ number.2.Viola.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -4193,7 +4157,6 @@ number.2.Viola.Music = {
     {
 
         gqf'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4203,7 +4166,6 @@ number.2.Viola.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -4227,7 +4189,6 @@ number.2.Viola.Music = {
     {
 
         gf'8.
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4237,7 +4198,6 @@ number.2.Viola.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -4540,7 +4500,6 @@ number.2.Cello.Music = {
     {
 
         fs'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4550,7 +4509,6 @@ number.2.Cello.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
@@ -4575,7 +4533,6 @@ number.2.Cello.Music = {
     {
 
         fqs'8.
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4585,7 +4542,6 @@ number.2.Cello.Music = {
         - \accent
           %! SPANNER_STOP
         \stopTrillSpan
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         - \tweak stencil ##f
         ~
