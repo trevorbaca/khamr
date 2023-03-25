@@ -2328,28 +2328,36 @@ number.2.Piano.Music = {
     % [Piano.Music measure 22]
     r4
 
-    bf'''!16
-    [
+    {
 
-    gf'''!16
+        bf'''!16
+        [
 
-    f''''16
+        gf'''!16
 
-    d''''16
-    ]
+        f''''16
+
+        d''''16
+        ]
+
+    }
 
     % [Piano.Music measure 23]
     r2
 
-    bf'''!16
-    [
+    {
 
-    a'''16
+        bf'''!16
+        [
 
-    cf''''!16
+        a'''16
 
-    df''''!16
-    ]
+        cf''''!16
+
+        df''''!16
+        ]
+
+    }
 
     % [Piano.Music measure 24]
     r2.
@@ -2370,15 +2378,19 @@ number.2.Piano.Music = {
     % [Piano.Music measure 25]
     r4
 
-    af'''!16
-    [
+    {
 
-    g'''16
+        af'''!16
+        [
 
-    bf'''!16
+        g'''16
 
-    gf'''!16
-    ]
+        bf'''!16
+
+        gf'''!16
+        ]
+
+    }
 
     % [Piano.Music measure 26]
     r4
@@ -2405,21 +2417,19 @@ number.2.Piano.Music = {
 
     r4.
 
-    df''''!16.
-    [
+    {
 
-    g'''32
-    ~
+        df''''!16.
+        [
 
-    g'''16
+        g'''16.
 
-    d''''16
-    ~
+        d''''16.
 
-    d''''32
+        e''''16.
+        ]
 
-    e''''16.
-    ]
+    }
 
     % [Piano.Music measure 28]
     r2.
@@ -2456,23 +2466,21 @@ number.2.Piano.Music = {
     % [Piano.Music measure 30]
     r4.
 
-    ef''''!16.
-    [
+    {
 
-    a'''32
-    ~
+        ef''''!16.
+        [
 
-    a'''16
+        a'''16.
 
-    cf''''!16
-    ~
+        cf''''!16.
 
-    cf''''32
+        af'''!16.
+        ]
+          %! SPANNER_STOP
+        \ottava 0
 
-    af'''!16.
-    ]
-      %! SPANNER_STOP
-    \ottava 0
+    }
 
 }
 

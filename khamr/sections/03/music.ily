@@ -6381,75 +6381,87 @@ number.3.Guitar.Staff = {
 
 number.3.Piano.Music = {
 
-    % [Piano.Music measure 1]
-      %! SPANNER_START
-    \ottava 1
-    \set Staff.instrumentName = \khamr-pf-markup
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-pf-markup
-      %! REAPPLIED_STAFF_LINES
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-    \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
-    \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    df''''!16
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    \baca-fff-ancora
-      %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Piano”)"
-    [
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-      %! -PARTS
-      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-pf-markup
+    {
 
-    d''''16
+        % [Piano.Music measure 1]
+          %! SPANNER_START
+        \ottava 1
+        \set Staff.instrumentName = \khamr-pf-markup
+          %! -PARTS
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME
+        \set Staff.shortInstrumentName = \khamr-pf-markup
+          %! REAPPLIED_STAFF_LINES
+        \stopStaff
+          %! REAPPLIED_STAFF_LINES
+        \once \override Staff.StaffSymbol.line-count = 5
+          %! REAPPLIED_STAFF_LINES
+        \startStaff
+          %! REAPPLIED_CLEF
+        \clef "treble"
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+          %! REAPPLIED_STAFF_LINES_COLOR
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
+        df''''!16
+          %! REAPPLIED_DYNAMIC_COLOR
+          %! REAPPLIED_DYNAMIC
+        - \tweak color #(x11-color 'green4)
+          %! REAPPLIED_DYNAMIC
+        \baca-fff-ancora
+          %! REAPPLIED_INSTRUMENT_ALERT
+        ^ \baca-reapplied-instrument-markup "(“Piano”)"
+        [
+          %! REAPPLIED_CLEF_REDRAW_COLOR
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)
+          %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+          %! -PARTS
+          %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
+        \set Staff.shortInstrumentName = \khamr-pf-markup
 
-    f''''16
+        d''''16
 
-    c''''16
-    ]
+        f''''16
 
-    af'''!16
-    [
+        c''''16
+        ]
 
-    g'''16
+    }
 
-    e''''16
+    {
 
-    c''''16
-    ]
+        af'''!16
+        [
 
-    % [Piano.Music measure 2]
-    b'''16
-    [
+        g'''16
 
-    df''''!16
+        e''''16
 
-    ef''''!16
+        c''''16
+        ]
 
-    f''''16
-    ]
+    }
+
+    {
+
+        % [Piano.Music measure 2]
+        b'''16
+        [
+
+        df''''!16
+
+        ef''''!16
+
+        f''''16
+        ]
+
+    }
 
     \times 2/3
     {
@@ -6516,12 +6528,17 @@ number.3.Piano.Music = {
 
     }
 
-    d''''8
+    {
 
-    f''''8
+        d''''8
+        [
 
-    ef''''!8
-    ]
+        f''''8
+
+        ef''''!8
+        ]
+
+    }
 
     \times 2/3
     {
@@ -6537,25 +6554,33 @@ number.3.Piano.Music = {
 
     }
 
-    bf'''!16
-    [
+    {
 
-    a'''16
+        bf'''!16
+        [
 
-    e''''16
+        a'''16
 
-    fs'''!16
-    ]
+        e''''16
 
-    f''''16
-    [
+        fs'''!16
+        ]
 
-    c''''16
+    }
 
-    df''''!16
+    {
 
-    d''''16
-    ]
+        f''''16
+        [
+
+        c''''16
+
+        df''''!16
+
+        d''''16
+        ]
+
+    }
 
     \times 2/3
     {
@@ -6676,35 +6701,47 @@ number.3.Piano.Music = {
 
     }
 
-    f''''16
-    [
+    {
 
-    e''''16
+        f''''16
+        [
 
-    fs'''!16
+        e''''16
 
-    bf'''!16
-    ]
+        fs'''!16
 
-    a'''16
-    [
+        bf'''!16
+        ]
 
-    c''''16
+    }
 
-    af'''!16
+    {
 
-    g'''16
-    ]
+        a'''16
+        [
 
-    e''''16
-    [
+        c''''16
 
-    f''''16
+        af'''!16
 
-    b'''16
+        g'''16
+        ]
 
-    df''''!16
-    ]
+    }
+
+    {
+
+        e''''16
+        [
+
+        f''''16
+
+        b'''16
+
+        df''''!16
+        ]
+
+    }
 
     \times 2/3
     {
@@ -6798,25 +6835,33 @@ number.3.Piano.Music = {
 
     }
 
-    g'''16
-    [
+    {
 
-    fs'''!16
+        g'''16
+        [
 
-    bf'''!16
+        fs'''!16
 
-    a'''16
-    ]
+        bf'''!16
 
-    e''''16
-    [
+        a'''16
+        ]
 
-    d''''16
+    }
 
-    f''''16
+    {
 
-    c''''16
-    ]
+        e''''16
+        [
+
+        d''''16
+
+        f''''16
+
+        c''''16
+        ]
+
+    }
 
     \times 2/3
     {

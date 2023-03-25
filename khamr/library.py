@@ -195,8 +195,9 @@ def make_current_rhythm(time_signatures, counts, *, force_rest_tuplets=None):
     rmakers.beam(voice, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.trivialize(voice)
-    rmakers.extract_trivial(voice)
+    rmakers.extract_rest_filled(voice)
     rmakers.rewrite_meter(voice, tag=tag)
+    rmakers.swap_trivial(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
 
