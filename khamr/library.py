@@ -500,7 +500,7 @@ def narrow_fourth_octave(argument):
             ),
         ]
     )
-    baca.pitchcommands._do_register_command(argument, registration)
+    baca.pitchtools._do_register_command(argument, registration)
 
 
 def rose_pitches():
@@ -520,7 +520,7 @@ def sixth_octave(argument):
             )
         ]
     )
-    baca.pitchcommands._do_register_command(argument, registration)
+    baca.pitchtools._do_register_command(argument, registration)
 
 
 def string_tuplet_ratios(number):
@@ -591,7 +591,7 @@ def wide_third_octave(argument):
             ),
         ]
     )
-    baca.pitchcommands._do_register_command(argument, registration)
+    baca.pitchtools._do_register_command(argument, registration)
 
 
 instruments = {
