@@ -25,8 +25,6 @@
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
               %! BREAK
-            \noBreak
-              %! BREAK
             \pageBreak
             s1 * 2/4
               %! SPACING
@@ -79,8 +77,6 @@
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
               %! BREAK
-            \noBreak
-              %! BREAK
             \pageBreak
             s1 * 4/4
               %! SPACING
@@ -122,8 +118,6 @@
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
               %! BREAK
-            \noBreak
-              %! BREAK
             \pageBreak
             s1 * 5/4
               %! SPACING
@@ -164,8 +158,6 @@
             \baca-lbsd #20 #'(20 30 30 30 40 30 30 40 30 30 30 40)
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
-              %! BREAK
-            \noBreak
               %! BREAK
             \pageBreak
             s1 * 4/4
@@ -221,8 +213,6 @@
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
               %! BREAK
-            \noBreak
-              %! BREAK
             \pageBreak
             s1 * 6/4
               %! SPACING
@@ -263,8 +253,6 @@
             \baca-lbsd #20 #'(20 30 30 30 40 30 30 40 30 30 30 40)
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
-              %! BREAK
-            \noBreak
               %! BREAK
             \pageBreak
             s1 * 6/8
@@ -319,8 +307,6 @@
             \baca-lbsd #20 #'(20 30 30 30 40 30 30 40 30 30 30 40)
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
-              %! BREAK
-            \noBreak
               %! BREAK
             \pageBreak
             s1 * 2/4
@@ -389,8 +375,6 @@
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
               %! BREAK
-            \noBreak
-              %! BREAK
             \pageBreak
             s1 * 6/4
               %! SPACING
@@ -431,8 +415,6 @@
             \baca-lbsd #20 #'(20 30 30 30 40 30 30 40 30 30 30 40)
               %! SPACING_COMMAND
             \baca-new-spacing-section #1 #32
-              %! BREAK
-            \noBreak
               %! BREAK
             \pageBreak
             s1 * 6/8
