@@ -133,7 +133,9 @@ def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
     )
     durations = abjad.sequence.flatten(durations)
     tuplets = rmakers.even_division(durations, [16], extra_counts=extra_counts, tag=tag)
+    voice = abjad.Voice(tuplets, name="Temporary")
     rmakers.beam(tuplets, tag=tag)
+    voice[:] = []
     return tuplets
 
 
