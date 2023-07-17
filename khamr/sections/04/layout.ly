@@ -1,6 +1,6 @@
 % first_page_number = 34
 % page_count = 6
-% measure_count = 20 + 1
+% measure_count = 20
 % time_signatures = [
 % '2/4', '2/4', '6/4', '3/4', '4/4', '6/8', '4/4', '5/4', '4/4', '3/4', '4/4',
 %  '5/4', '6/8', '2/4', '6/4', '2/4', '5/4', '6/8', '4/4', '6/4'
@@ -277,7 +277,7 @@
 
             % [PageLayout measure 20]
               %! SPACING_COMMAND
-            \baca-new-spacing-section #1 #32
+            \baca-new-spacing-section #35 #768
               %! BREAK
             \noBreak
             s1 * 6/4
