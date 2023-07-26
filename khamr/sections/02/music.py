@@ -34,7 +34,7 @@ def GLOBALS(skips):
         (21 - 1, "126"),
     ):
         skip = skips[index]
-        baca.metronome_mark(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, manifests=library.manifests)
 
 
 stage_5_silence_pattern = abjad.index(

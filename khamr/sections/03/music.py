@@ -38,7 +38,7 @@ def GLOBALS(skips):
         (30 - 1, "42"),
     ):
         skip = skips[index]
-        baca.metronome_mark(skip, item, library.manifests)
+        baca.metronome_mark(skip, item, manifests=library.manifests)
 
 
 def leaf_in_each_top_tuplet(argument, n):
