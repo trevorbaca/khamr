@@ -228,11 +228,9 @@
 
     \override BarLine.hair-thickness = 0.5
 
-    \override Beam.breakable = ##t
 
     \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
 
-    \override Glissando.breakable = ##t
     \override Glissando.thickness = 3
 
     \override NoteCollision.merge-differently-dotted = ##t
@@ -263,7 +261,6 @@
 
     \override TrillSpanner.bound-details.right.padding = 2
 
-    \override TupletBracket.breakable = ##t
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 0.75
     \override TupletBracket.staff-padding = 1.5
