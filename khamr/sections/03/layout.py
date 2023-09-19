@@ -1,10 +1,9 @@
 import baca
 
-y_offset = 20
-distances = (20, (30, 30, 30, 40), (30, 30, 40), (30, 30, 30, 40))
-
 
 def main():
+    y_offset = 20
+    distances = (20, (30, 30, 30, 40), (30, 30, 40), (30, 30, 30, 40))
     spacing = baca.make_layout(
         baca.page(
             1,
