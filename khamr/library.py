@@ -475,7 +475,8 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=Non
     durations = abjad.sequence.flatten(durations)
     tuplets = rmakers.tuplet(durations, string_tuplet_ratios(tuplet_ratios), tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    ptails = baca.select.ptail_in_each_tuplet(voice, -1, (None, -1))
+    tuplets = tuplets[:-1]
+    ptails = [baca.select.ptail(_, -1) for _ in tuplets]
     rmakers.tie(ptails, tag=tag)
     if force_rest_tuplets is not None:
         tuplets = baca.select.tuplets(voice)
