@@ -279,11 +279,11 @@ def gt(m):
         baca.markup(o.pleaf(0), r"\khamr-half-harmonics-explanation"),
         library.wide_third_octave(o)
     with baca.scope(m.get(25, 44)) as o:
-        baca.tuplet_bracket_staff_padding(o, 4)
+        baca.override.tuplet_bracket_staff_padding(o, 4)
         baca.markup(o.pleaf(0), r"\khamr-move-towards-the-bridge")
         library.narrow_fourth_octave(o)
     with baca.scope(m.leaves()) as o:
-        baca.note_head_style_cross(o.pleaves())
+        baca.override.note_head_style_cross(o.pleaves())
     with baca.scope(m.get(25, 44)) as o:
         baca.pitches(o, library.rose_pitches())
 
@@ -337,7 +337,7 @@ def perc(m):
         baca.dynamic(o.phead(0), "mp")
         baca.pitches(o, "C4 C4 C4 Ab5", allow_repeats=True)
         baca.staff_lines(o.leaf(0), 1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         library.do_marimba_hit_command(o, attach_first_markup=True, indices=[3, 7])
         baca.markup(o.pleaf(0), r"\baca-xl-tam-tam-markup")
 
@@ -355,7 +355,7 @@ def vn(m):
             r"\baca-string-iv-markup",
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         library.halo_hairpins(o)
     with baca.scope(m.get(37, 44)) as o:
         baca.dynamic(o.phead(0), "ppp")
@@ -381,7 +381,7 @@ def va(m):
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         library.halo_hairpins(o)
     with baca.scope(m.get(37, 44)) as o:
         baca.dynamic(o.phead(0), "ppp")
@@ -407,7 +407,7 @@ def vc(m):
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         library.halo_hairpins(o)
     with baca.scope(m.get(37, 44)) as o:
         baca.dynamic(o.phead(0), "ppp")
@@ -438,7 +438,7 @@ def cb(m):
             r"\baca-string-iii-markup",
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(9, 44)) as o:
         library.halo_hairpins(o)
 

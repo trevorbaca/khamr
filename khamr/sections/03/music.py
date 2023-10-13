@@ -369,7 +369,7 @@ def composites(cache):
             )
             baca.glissando(o.tleaves())
             baca.markup(o.pleaf(0), r"\baca-estr-sul-pont-markup")
-            baca.note_head_style_harmonic(o.pleaves())
+            baca.override.note_head_style_harmonic(o.pleaves())
             library.narrow_fourth_octave(o)
         with baca.scope(m.get(3, 4)) as o:
             baca.dynamic(o.phead(0), "p")

@@ -262,7 +262,7 @@ def sax(m):
 
 def gt(m):
     with baca.scope(m.get(1, 4)) as o:
-        baca.note_head_style_cross(o.pleaves())
+        baca.override.note_head_style_cross(o.pleaves())
         baca.pitches(o, abjad.sequence.rotate(library.rose_pitches(), -16))
     with baca.scope(m.get(5, 14)) as o:
         baca.dynamic(o.phead(0), "mf")
@@ -299,11 +299,11 @@ def perc(m):
     with baca.scope(m.get(1, 14)) as o:
         baca.accent(o.pheads())
         baca.pitches(o, "C4 C4 Ab5 C4 C4 C4", allow_repeats=True)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         library.do_marimba_hit_command(o, False, indices=[2])
     with baca.scope(m.get(15, 30)) as o:
         baca.pitch(o, "Ab5")
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         library.do_marimba_hit_command(
             o, False, indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
         )
@@ -376,7 +376,7 @@ def cb(cache):
             r"\baca-strings-iii-plus-iv-markup",
             direction=abjad.DOWN,
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(15, 30)) as o:
         baca.pitch(o, "<G0 A1>")
         cache.rebuild()
