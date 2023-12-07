@@ -1328,6 +1328,8 @@ number.1.Rests = {
 number.1.Flute.Music = {
 
     % [Flute.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1347,8 +1349,6 @@ number.1.Flute.Music = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-bfl-markup
-      %! EXPLICIT_CLEF
-    \clef "treble"
     <g' g''>2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1724,6 +1724,8 @@ number.1.Flute.Staff = <<
 number.1.Oboe.Music = {
 
     % [Oboe.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1751,8 +1753,6 @@ number.1.Oboe.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     c'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2004,6 +2004,8 @@ number.1.Oboe.Music = {
     r2
 
     % [Oboe.Music measure 37]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_37
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -2024,8 +2026,6 @@ number.1.Oboe.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "treble"
     r2.
     ^ \baca-put-reed-back-in-markup
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -2099,6 +2099,8 @@ number.1.Oboe.Staff = {
 number.1.Clarinet.Music = {
 
     % [Clarinet.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -2118,8 +2120,6 @@ number.1.Clarinet.Music = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-bcl-markup
-      %! EXPLICIT_CLEF
-    \clef "treble"
     b2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2464,6 +2464,8 @@ number.1.Clarinet.Staff = {
 number.1.Saxophone.Music = {
 
     % [Saxophone.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -2483,8 +2485,6 @@ number.1.Saxophone.Music = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-bar-sax-markup
-      %! EXPLICIT_CLEF
-    \clef "treble"
     e''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2815,6 +2815,8 @@ number.1.Saxophone.Staff = {
 number.1.Guitar.Music = {
 
     % [Guitar.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -2835,8 +2837,6 @@ number.1.Guitar.Music = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-gt-markup
-      %! EXPLICIT_CLEF
-    \clef "treble"
     cs'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3557,6 +3557,8 @@ number.1.Guitar.Staff = {
 number.1.Piano.Music = {
 
     % [Piano.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -3584,8 +3586,6 @@ number.1.Piano.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     c'2
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3778,6 +3778,8 @@ number.1.Piano.Music = {
     {
 
         % [Piano.Music measure 25]
+          %! EXPLICIT_CLEF
+        \clef "treble"
           %! MEASURE_25
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -3801,8 +3803,6 @@ number.1.Piano.Music = {
           %! EXPLICIT_STAFF_LINES
         \startStaff
         \once \override Beam.grow-direction = #right
-          %! EXPLICIT_CLEF
-        \clef "treble"
         cs''''!16 * 247/32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4108,6 +4108,8 @@ number.1.Piano.Music = {
     r2
 
     % [Piano.Music measure 41]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_41
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -4128,8 +4130,6 @@ number.1.Piano.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     c'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -4179,6 +4179,8 @@ number.1.Piano.Staff = {
 number.1.Percussion.Music = {
 
     % [Percussion.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -4210,8 +4212,6 @@ number.1.Percussion.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     c'2
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4333,6 +4333,8 @@ number.1.Percussion.Music = {
     c'2.
     \repeatTie
 
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
@@ -4347,8 +4349,6 @@ number.1.Percussion.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "treble"
     af''!2.
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4367,6 +4367,8 @@ number.1.Percussion.Music = {
     \repeatTie
 
     % [Percussion.Music measure 17]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_17
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -4387,8 +4389,6 @@ number.1.Percussion.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     c'2.
     - \accent
     - \tweak stencil ##f
@@ -4496,6 +4496,8 @@ number.1.Percussion.Music = {
     c'4
     \repeatTie
 
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
@@ -4510,8 +4512,6 @@ number.1.Percussion.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "treble"
     af''!1
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4523,6 +4523,8 @@ number.1.Percussion.Music = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     % [Percussion.Music measure 33]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_33
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -4543,8 +4545,6 @@ number.1.Percussion.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     c'2.
     - \accent
     - \tweak stencil ##f
@@ -4641,6 +4641,8 @@ number.1.Percussion.Staff = {
 number.1.Violin.Music = {
 
     % [Violin.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -4661,8 +4663,6 @@ number.1.Violin.Music = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-vn-markup
-      %! EXPLICIT_CLEF
-    \clef "treble"
     g'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -5689,6 +5689,8 @@ number.1.Violin.Staff = {
 number.1.Viola.Music = {
 
     % [Viola.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -5709,8 +5711,6 @@ number.1.Viola.Music = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-va-markup
-      %! EXPLICIT_CLEF
-    \clef "alto"
     g'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -6648,6 +6648,8 @@ number.1.Viola.Staff = {
 number.1.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -6668,8 +6670,6 @@ number.1.Cello.Music = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-vc-markup
-      %! EXPLICIT_CLEF
-    \clef "bass"
     g2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -7602,6 +7602,8 @@ number.1.Cello.Staff = {
 number.1.Contrabass.Music = {
 
     % [Contrabass.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -7622,8 +7624,6 @@ number.1.Contrabass.Music = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-cb-markup
-      %! EXPLICIT_CLEF
-    \clef "bass"
     a2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
