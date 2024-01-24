@@ -100,7 +100,11 @@ def halo_hairpins(argument):
     plts = baca.select.plts(argument)
     for i, plt in enumerate(plts):
         string = strings[i]
-        baca.hairpin(plt, string, remove_length_1_spanner_start=True)
+        if len(plt) == 1:
+            start_dynamic = string.split()[0]
+            baca.hairpin(plt, start_dynamic)
+        else:
+            baca.hairpin(plt, string)
 
 
 def make_alternate_divisions(time_signatures, *, detach_ties=False):
