@@ -222,7 +222,7 @@ def fl(m):
         baca.hairpin(o.tleaves(), "mp > pp")
         for qrun in baca.select.qruns(o):
             qrun = baca.select.tleaves(qrun, rleak=True)
-            baca.trill_spanner(qrun)
+            baca.spanners.trill(qrun)
         baca.pitch(o, "Bb4")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
@@ -281,7 +281,7 @@ def pf(cache):
     with baca.scope(m.get(15, 20)) as o:
         baca.clef(o.leaf(0), "bass")
         baca.dynamic(o.phead(0), "fff")
-        baca.ottava_bassa(o.tleaves())
+        baca.spanners.ottava_bassa(o.tleaves())
         baca.staff_lines(o.leaf(0), 5)
         baca.stem_tremolo(o.pleaves())
         baca.pitch(o, "<A0 B0 C1 D1 E1 F1 G1 A1>")
@@ -290,7 +290,7 @@ def pf(cache):
     with baca.scope(m.get(21, 30)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.dynamic(o.phead(0), "fff-ancora")
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
         baca.pitches(o, [_.invert() for _ in library.rose_pitches()])
         library.sixth_octave(o)
 
@@ -320,7 +320,7 @@ def vn(m):
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
-            baca.trill_spanner(plt, alteration="m2")
+            baca.spanners.trill(plt, alteration="m2")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
         baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
@@ -338,7 +338,7 @@ def va(m):
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
-            baca.trill_spanner(plt, alteration="m2")
+            baca.spanners.trill(plt, alteration="m2")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
         baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
@@ -350,7 +350,7 @@ def vc(m):
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
-            baca.trill_spanner(plt, alteration="m2")
+            baca.spanners.trill(plt, alteration="m2")
         baca.pitches(o, library.color_trill_pitches())
     with baca.scope(m.get(9, 14)) as o:
         baca.dynamic(o.phead(0), "mf")
