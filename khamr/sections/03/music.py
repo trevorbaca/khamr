@@ -295,7 +295,7 @@ def gt(m):
 def pf(m):
     with baca.scope(m.get(1, 9)) as o:
         baca.pitches(o, [_.invert().transpose("M2") for _ in library.rose_pitches()])
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
         library.sixth_octave(o)
     with baca.scope(m.get(5, 9)) as o:
         baca.dynamic(o.phead(0), "ffff")
@@ -346,7 +346,7 @@ def cb(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.dynamic(o.phead(0), "mp")
         baca.pitch(o, "G0")
-        baca.trill_spanner(
+        baca.spanners.trill(
             baca.select.tleaves(o, rleak=True),
             alteration="F2",
             harmonic=True,
