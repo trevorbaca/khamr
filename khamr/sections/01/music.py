@@ -201,7 +201,7 @@ def fl(cache):
     with baca.scope(m.get(17, 36)) as o:
         baca.markup(o.pleaf(0), baca.levine_multiphonic(22))
     with baca.scope(m.get(37, 44)) as o:
-        baca.hairpin(o.tleaves(), "mp > pp")
+        baca.spanners.hairpin(o.tleaves(), "mp > pp")
         for run in baca.select.qruns(o):
             run = baca.select.tleaves(run, rleak=True)
             baca.spanners.trill(run)
