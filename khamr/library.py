@@ -102,9 +102,9 @@ def halo_hairpins(argument):
         string = strings[i]
         if len(plt) == 1:
             start_dynamic = string.split()[0]
-            baca.hairpin(plt, start_dynamic)
+            baca.spanners.hairpin(plt, start_dynamic)
         else:
-            baca.hairpin(plt, string)
+            baca.spanners.hairpin(plt, string)
 
 
 def make_alternate_divisions(time_signatures, *, detach_ties=False):

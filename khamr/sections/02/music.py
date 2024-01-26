@@ -219,7 +219,7 @@ def CB(voice, time_signatures):
 
 def fl(m):
     with baca.scope(m.get(1, 8)) as o:
-        baca.hairpin(o.tleaves(), "mp > pp")
+        baca.spanners.hairpin(o.tleaves(), "mp > pp")
         for qrun in baca.select.qruns(o):
             qrun = baca.select.tleaves(qrun, rleak=True)
             baca.spanners.trill(qrun)
