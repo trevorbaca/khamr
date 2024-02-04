@@ -221,7 +221,7 @@ def fl(m):
     with baca.scope(m.get(1, 8)) as o:
         baca.spanners.hairpin(o.tleaves(), "mp > pp")
         for qrun in baca.select.qruns(o):
-            qrun = baca.select.tleaves(qrun, rleak=True)
+            qrun = baca.select.next(baca.select.tleaves(qrun))
             baca.spanners.trill(qrun)
         baca.pitch(o, "Bb4")
     with baca.scope(m.get(15, 30)) as o:
@@ -319,7 +319,7 @@ def vn(m):
     with baca.scope(m.get(1, 14)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            plt = baca.select.tleaves(plt, rleak=True)
+            plt = baca.select.next(baca.select.tleaves(plt))
             baca.spanners.trill(plt, alteration="m2")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
@@ -337,7 +337,7 @@ def va(m):
     with baca.scope(m.get(1, 14)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            plt = baca.select.tleaves(plt, rleak=True)
+            plt = baca.select.next(baca.select.tleaves(plt))
             baca.spanners.trill(plt, alteration="m2")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
@@ -349,7 +349,7 @@ def vc(m):
     with baca.scope(m.get(1, 8)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            plt = baca.select.tleaves(plt, rleak=True)
+            plt = baca.select.next(baca.select.tleaves(plt))
             baca.spanners.trill(plt, alteration="m2")
         baca.pitches(o, library.color_trill_pitches())
     with baca.scope(m.get(9, 14)) as o:

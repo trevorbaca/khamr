@@ -203,7 +203,7 @@ def fl(cache):
     with baca.scope(m.get(37, 44)) as o:
         baca.spanners.hairpin(o.tleaves(), "mp > pp")
         for run in baca.select.qruns(o):
-            run = baca.select.tleaves(run, rleak=True)
+            run = baca.select.rleak(baca.select.tleaves(run)),
             baca.spanners.trill(run)
         baca.pitch(o, "A4")
 
