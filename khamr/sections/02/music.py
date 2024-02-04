@@ -221,8 +221,10 @@ def fl(m):
     with baca.scope(m.get(1, 8)) as o:
         baca.spanners.hairpin(o.tleaves(), "mp > pp")
         for qrun in baca.select.qruns(o):
-            qrun = baca.select.next(baca.select.tleaves(qrun))
-            baca.spanners.trill(qrun)
+            baca.spanners.trill(
+                qrun,
+                with_next_leaf=True,
+            )
         baca.pitch(o, "Bb4")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
@@ -319,8 +321,11 @@ def vn(m):
     with baca.scope(m.get(1, 14)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            plt = baca.select.next(baca.select.tleaves(plt))
-            baca.spanners.trill(plt, alteration="m2")
+            baca.spanners.trill(
+                plt,
+                alteration="m2",
+                with_next_leaf=True,
+            )
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
         baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
@@ -337,8 +342,11 @@ def va(m):
     with baca.scope(m.get(1, 14)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            plt = baca.select.next(baca.select.tleaves(plt))
-            baca.spanners.trill(plt, alteration="m2")
+            baca.spanners.trill(
+                plt,
+                alteration="m2",
+                with_next_leaf=True,
+            )
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
         baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
@@ -349,8 +357,11 @@ def vc(m):
     with baca.scope(m.get(1, 8)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            plt = baca.select.next(baca.select.tleaves(plt))
-            baca.spanners.trill(plt, alteration="m2")
+            baca.spanners.trill(
+                plt,
+                alteration="m2",
+                with_next_leaf=True,
+            )
         baca.pitches(o, library.color_trill_pitches())
     with baca.scope(m.get(9, 14)) as o:
         baca.dynamic(o.phead(0), "mf")

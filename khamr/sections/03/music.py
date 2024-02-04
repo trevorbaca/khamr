@@ -347,9 +347,10 @@ def cb(cache):
         baca.dynamic(o.phead(0), "mp")
         baca.pitch(o, "G0")
         baca.spanners.trill(
-            baca.select.rleak(baca.select.tleaves(o)),
+            baca.select.tleaves(o),
             alteration="F2",
             harmonic=True,
+            with_next_leaf=True,
         )
         baca.markup(o.pleaf(0), r"\khamr-scodanibbio")
 
