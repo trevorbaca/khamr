@@ -350,7 +350,6 @@ def cb(cache):
             baca.select.tleaves(o),
             alteration="F2",
             harmonic=True,
-            with_next_leaf=True,
         )
         baca.markup(o.pleaf(0), r"\khamr-scodanibbio")
 
