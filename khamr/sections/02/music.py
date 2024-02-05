@@ -221,7 +221,7 @@ def fl(m):
     with baca.scope(m.get(1, 8)) as o:
         baca.spanners.hairpin(o.tleaves(), "mp > pp")
         for qrun in baca.select.qruns(o):
-            baca.spanners.trill(qrun)
+            baca.rspanners.trill(qrun)
         baca.pitch(o, "Bb4")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
@@ -318,7 +318,7 @@ def vn(m):
     with baca.scope(m.get(1, 14)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 plt,
                 alteration="m2",
             )
@@ -338,7 +338,7 @@ def va(m):
     with baca.scope(m.get(1, 14)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 plt,
                 alteration="m2",
             )
@@ -352,7 +352,7 @@ def vc(m):
     with baca.scope(m.get(1, 8)) as o:
         baca.accent(o.pheads())
         for plt in baca.select.plts(o):
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 plt,
                 alteration="m2",
             )
