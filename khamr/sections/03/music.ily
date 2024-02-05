@@ -6400,7 +6400,6 @@ number.3.Piano.Music = {
           %! REAPPLIED_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
           %! EXPLICIT_OTTAVA
-          %! SPANNER_START
         \ottava 1
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
         %@% \override Staff.Clef.color = ##f
@@ -6892,7 +6891,6 @@ number.3.Piano.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_STOP
         \ottava 0
         c'''16
         - \accent
