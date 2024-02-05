@@ -4095,9 +4095,9 @@ number.1.Piano.Music = {
         r8
 
         d''''8
+
           %! SPANNER_STOP
         \ottava 0
-
         r8
 
     }

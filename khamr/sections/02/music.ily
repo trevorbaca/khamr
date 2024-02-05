@@ -2285,10 +2285,10 @@ number.2.Piano.Music = {
     % [Piano.Music measure 19]
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
     :32
-      %! SPANNER_STOP
-    \ottava 0
 
     % [Piano.Music measure 20]
+      %! SPANNER_STOP
+    \ottava 0
     r1.
 
     % [Piano.Music measure 21]
@@ -2480,10 +2480,10 @@ number.2.Piano.Music = {
 
         cf''''!16.
 
-        af'''!16.
-        ]
           %! SPANNER_STOP
         \ottava 0
+        af'''!16.
+        ]
 
     }
 
