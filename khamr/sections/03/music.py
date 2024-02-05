@@ -346,7 +346,7 @@ def cb(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.dynamic(o.phead(0), "mp")
         baca.pitch(o, "G0")
-        baca.spanners.trill(
+        baca.rspanners.trill(
             baca.select.tleaves(o),
             alteration="F2",
             harmonic=True,
