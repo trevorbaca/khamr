@@ -6395,8 +6395,11 @@ number.3.Piano.Music = {
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
           %! REAPPLIED_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+          %! EXPLICIT_OTTAVA
           %! SPANNER_START
         \ottava 1
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
@@ -6886,6 +6889,9 @@ number.3.Piano.Music = {
     {
 
         % [Piano.Music measure 10]
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_STOP
         \ottava 0
         c'''16
