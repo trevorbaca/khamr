@@ -2245,8 +2245,11 @@ number.2.Piano.Music = {
       %! MEASURE_59
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_START
     \ottava -1
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
@@ -2287,6 +2290,9 @@ number.2.Piano.Music = {
     :32
 
     % [Piano.Music measure 20]
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_STOP
     \ottava 0
     r1.
@@ -2313,6 +2319,9 @@ number.2.Piano.Music = {
     \times 2/3
     {
 
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_START
         \ottava 1
         cf''''!8
@@ -2480,6 +2489,9 @@ number.2.Piano.Music = {
 
         cf''''!16.
 
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_STOP
         \ottava 0
         af'''!16.
