@@ -6878,8 +6878,6 @@ number.3.Piano.Music = {
 
         e''''8
         ]
-          %! SPANNER_STOP
-        \ottava 0
 
     }
 
@@ -6888,6 +6886,8 @@ number.3.Piano.Music = {
     {
 
         % [Piano.Music measure 10]
+          %! SPANNER_STOP
+        \ottava 0
         c'''16
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
