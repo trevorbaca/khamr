@@ -584,7 +584,7 @@ def violin_halo_pitches():
 
 
 def weiss_multiphonic(number):
-    return abjad.Markup(rf'\baca-boxed-markup "W.{number}"')
+    return rf'\baca-boxed-markup "W.{number}"'
 
 
 def wide_third_octave(argument):
