@@ -86,25 +86,29 @@ def double_stop_halo_pitches():
 
 def halo_hairpins(argument):
     strings = [
-        "pp > ppp",
-        "ppp < pp",
-        "pp > ppp",
-        "ppp < pp",
-        "pp < p",
-        "p > pp",
-        "pp < p",
-        "p > ppp",
-        "ppp < pp",
+        "pp>ppp",
+        "ppp<pp",
+        "pp>ppp",
+        "ppp<pp",
+        "pp<p",
+        "p>pp",
+        "pp<p",
+        "p>ppp",
+        "ppp<pp",
     ]
     strings = abjad.CyclicTuple(strings)
     plts = baca.select.plts(argument)
     for i, plt in enumerate(plts):
         string = strings[i]
         if len(plt) == 1:
-            start_dynamic = string.split()[0]
-            baca.spanners.hairpin(plt, start_dynamic)
+            if "<" in string:
+                start_dynamic, _ = string.split("<")
+            else:
+                assert ">" in string
+                start_dynamic, _ = string.split(">")
+            baca.hairpinlib.exact(plt, start_dynamic)
         else:
-            baca.spanners.hairpin(plt, string)
+            baca.hairpinlib.exact(plt, string)
 
 
 def make_alternate_divisions(time_signatures, *, detach_ties=False):
