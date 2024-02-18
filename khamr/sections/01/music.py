@@ -201,7 +201,7 @@ def fl(cache):
     with baca.scope(m.get(17, 36)) as o:
         baca.markup(o.pleaf(0), baca.levine_multiphonic(22))
     with baca.scope(m.get(37, 44)) as o:
-        baca.spanners.hairpin(o.tleaves(), "mp > pp")
+        baca.hairpinlib.exact(o.tleaves(), "mp>pp")
         for run in baca.select.qruns(o):
             baca.rspanners.trill(run)
         baca.pitch(o, "A4")
