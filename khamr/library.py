@@ -106,9 +106,9 @@ def halo_hairpins(argument):
             else:
                 assert ">" in string
                 start_dynamic, _ = string.split(">")
-            baca.hairpinlib.exact(plt, start_dynamic)
+            baca.hairpins.exact(plt, start_dynamic)
         else:
-            baca.hairpinlib.exact(plt, string)
+            baca.hairpins.exact(plt, string)
 
 
 def make_alternate_divisions(time_signatures, *, detach_ties=False):
