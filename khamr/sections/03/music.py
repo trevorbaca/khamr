@@ -337,7 +337,7 @@ def cb(cache):
     with baca.scope(m.get(3, 4)) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(5, 9)) as o:
-        baca.hairpins.exact(o, "p<f")
+        baca.hairpin(o, "p<f")
     with baca.scope(m.get(10, 25)) as o:
         baca.dynamic(o.phead(0), "fff")
         baca.markup(o.pleaf(0), r"\baca-estr-sul-pont-markup")
@@ -376,7 +376,7 @@ def composites(cache):
         with baca.scope(m.get(10, 25)) as o:
             baca.dynamic(o.phead(0), "fff")
         with baca.scope(m.get(5, 9)) as o:
-            baca.hairpins.exact(o, "pp<f")
+            baca.hairpin(o, "pp<f")
 
 
 @baca.build.timed("make_score")
