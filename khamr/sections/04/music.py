@@ -177,7 +177,7 @@ def pf(m):
 
 def perc(m):
     with baca.scope(m.get(1, 5)) as o:
-        baca.hairpins.exact(o.tleaves(), "pp>ppp")
+        baca.hairpin(o.tleaves(), "pp>ppp")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(8, 15)) as o:
         baca.dynamic(o.phead(0), "fff")
@@ -232,7 +232,7 @@ def composites(cache):
         with baca.scope(m.get(1, 7)) as o:
             baca.dynamic(o.phead(0), "p")
         with baca.scope(m.get(8, 15)) as o:
-            baca.hairpins.exact(o, "p>ppp")
+            baca.hairpin(o, "p>ppp")
 
 
 @baca.build.timed("make_score")
