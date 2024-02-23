@@ -347,7 +347,7 @@ def vn(m):
         baca.short_instrument_name(o.leaf(0), "Vn.", library.manifests)
         baca.clef(o.leaf(0), "treble")
         baca.pitches(o, library.violin_halo_pitches())
-        baca.basic_glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves(), do_not_untie=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iv-markup",
@@ -373,7 +373,7 @@ def va(m):
         baca.short_instrument_name(o.leaf(0), "Va.", library.manifests)
         baca.clef(o.leaf(0), "alto")
         baca.pitches(o, library.violin_halo_pitches())
-        baca.basic_glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves(), do_not_untie=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iii-markup",
@@ -399,7 +399,7 @@ def vc(m):
         baca.short_instrument_name(o.leaf(0), "Vc.", library.manifests)
         baca.clef(o.leaf(0), "bass")
         baca.pitches(o, library.cello_halo_pitches())
-        baca.basic_glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves(), do_not_untie=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iii-markup",
@@ -430,7 +430,7 @@ def cb(m):
         baca.clef(o.leaf(0), "bass")
         baca.dynamic(o.phead(0), "f")
         baca.pitches(o, library.contrabass_halo_pitches())
-        baca.basic_glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves(), do_not_untie=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-string-iii-markup",

@@ -367,7 +367,7 @@ def composites(cache):
             baca.pitches(
                 o, [_.invert().transpose("A4") for _ in library.rose_pitches()]
             )
-            baca.basic_glissando(o.tleaves())
+            baca.basic_glissando(o.tleaves(), do_not_untie=True)
             baca.markup(o.pleaf(0), r"\baca-estr-sul-pont-markup")
             baca.override.note_head_style_harmonic(o.pleaves())
             library.narrow_fourth_octave(o)
