@@ -375,7 +375,11 @@ def cb(cache):
         m = cache["cb"]
     with baca.scope(m.get(1, 14)) as o:
         baca.dynamic(o.phead(0), "mf")
-        baca.basic_glissando(o.tleaves(), do_not_untie=True)
+        baca.glissando(
+            o.tleaves(),
+            do_not_hide_middle_note_heads=True,
+            do_not_untie=True,
+        )
         baca.markup(
             o.pleaf(0),
             r"\baca-strings-iii-plus-iv-markup",
