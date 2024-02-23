@@ -364,10 +364,13 @@ def composites(cache):
         with baca.scope(m.get(1, 2)) as o:
             baca.pitch(o, pitch)
         with baca.scope(m.get(3, 29)) as o:
-            baca.pitches(
-                o, [_.invert().transpose("A4") for _ in library.rose_pitches()]
+            pitches = [_.invert().transpose("A4") for _ in library.rose_pitches()]
+            baca.pitches(o, pitches)
+            baca.glissando(
+                o,
+                do_not_hide_middle_note_heads=True,
+                do_not_untie=True,
             )
-            baca.basic_glissando(o.tleaves(), do_not_untie=True)
             baca.markup(o.pleaf(0), r"\baca-estr-sul-pont-markup")
             baca.override.note_head_style_harmonic(o.pleaves())
             library.narrow_fourth_octave(o)
