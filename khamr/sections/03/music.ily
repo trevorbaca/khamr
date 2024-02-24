@@ -8000,7 +8000,7 @@ number.3.Percussion.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \pp
-    ^ \baca-bass-drum-markup
+    ^ \baca-boxed-bass-drum-markup
     - \tweak stencil ##f
     ~
 
@@ -8046,7 +8046,7 @@ number.3.Percussion.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \fff
-    ^ \baca-castanets-markup
+    ^ \baca-boxed-castanets-markup
 
     b'4
     - \baca-staccati #2
@@ -8268,7 +8268,7 @@ number.3.Percussion.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ppp
-    ^ \baca-bass-drum-markup
+    ^ \baca-boxed-bass-drum-markup
     - \tweak stencil ##f
     ~
 

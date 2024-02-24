@@ -4219,9 +4219,9 @@ number.1.Percussion.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
+    ^ \baca-boxed-xl-tam-tam-markup
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Percussion”)"
-    ^ \baca-xl-tam-tam-markup
     - \tweak stencil ##f
     ~
       %! EXPLICIT_CLEF_REDRAW_COLOR
