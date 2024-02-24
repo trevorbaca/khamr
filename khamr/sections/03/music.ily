@@ -9596,7 +9596,7 @@ number.3.Contrabass.Music = {
 
     % [Contrabass.Music measure 26]
     <g,, a,>2
-    ^ \baca-arco-ordinario-markup
+    ^ \baca-boxed-arco-ordinario-markup
     - \tweak stencil ##f
     ~
 
