@@ -310,15 +310,15 @@ def perc(m):
         baca.staff_lines(o.leaf(0), 1)
     with baca.scope(m.get(5, 9)) as o:
         baca.dynamic(o.phead(0), "pp")
-        baca.markup(o.pleaf(0), r"\baca-bass-drum-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-bass-drum-markup")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(10, 29)) as o:
         baca.double_staccato(o.pheads())
         baca.dynamic(o.phead(0), "fff")
-        baca.markup(o.pleaf(0), r"\baca-castanets-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-castanets-markup")
     with baca.scope(m.get(30, 37)) as o:
         baca.dynamic(o.phead(0), "ppp")
-        baca.markup(o.pleaf(0), r"\baca-bass-drum-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-bass-drum-markup")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(5, 37)) as o:
         baca.staff_position(o, 0)

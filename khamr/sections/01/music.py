@@ -337,7 +337,7 @@ def perc(m):
         baca.staff_lines(o.leaf(0), 1)
         baca.override.stem_down(o.pleaves())
         library.do_marimba_hit_command(o, attach_first_markup=True, indices=[3, 7])
-        baca.markup(o.pleaf(0), r"\baca-xl-tam-tam-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-xl-tam-tam-markup")
 
 
 def vn(m):
