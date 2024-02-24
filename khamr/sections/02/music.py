@@ -324,7 +324,7 @@ def vn(m):
             )
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
-        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-arco-ordinario-markup")
         baca.pitch(o, "A4")
 
 
@@ -344,7 +344,7 @@ def va(m):
             )
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
-        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-arco-ordinario-markup")
         baca.pitch(o, "G#4")
 
 
@@ -363,7 +363,7 @@ def vc(m):
         baca.markup(o.pleaf(0), r"\khamr-sparse-cello-clicks")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
-        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-arco-ordinario-markup")
         baca.pitch(o, "G3")
 
 
@@ -392,7 +392,7 @@ def cb(cache):
         m = cache["cb"]
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
-        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-arco-ordinario-markup")
 
 
 @baca.build.timed("make_score")

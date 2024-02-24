@@ -342,7 +342,7 @@ def cb(cache):
         baca.dynamic(o.phead(0), "fff")
         baca.markup(o.pleaf(0), r"\baca-estr-sul-pont-markup")
     with baca.scope(m.get(26, 37)) as o:
-        baca.markup(o.pleaf(0), r"\baca-arco-ordinario-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-arco-ordinario-markup")
     with baca.scope(m.get(32, 37)) as o:
         baca.dynamic(o.phead(0), "mp")
         baca.pitch(o, "G0")

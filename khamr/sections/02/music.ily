@@ -3863,7 +3863,7 @@ number.2.Violin.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \fff
-    ^ \baca-arco-ordinario-markup
+    ^ \baca-boxed-arco-ordinario-markup
 
     % [Violin.Music measure 16]
     r2
@@ -4345,7 +4345,7 @@ number.2.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \fff
-    ^ \baca-arco-ordinario-markup
+    ^ \baca-boxed-arco-ordinario-markup
 
     % [Viola.Music measure 16]
     r2
@@ -4678,7 +4678,7 @@ number.2.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \fff
-    ^ \baca-arco-ordinario-markup
+    ^ \baca-boxed-arco-ordinario-markup
 
     % [Cello.Music measure 16]
     r2
@@ -4943,7 +4943,7 @@ number.2.Contrabass.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \fff
-    ^ \baca-arco-ordinario-markup
+    ^ \baca-boxed-arco-ordinario-markup
 
     % [Contrabass.Music measure 16]
     r2
