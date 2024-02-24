@@ -2023,7 +2023,7 @@ number.1.Oboe.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     r2.
-    ^ \baca-put-reed-back-in-markup
+    ^ \baca-boxed-put-reed-back-in-markup
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 

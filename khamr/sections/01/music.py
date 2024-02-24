@@ -227,7 +227,7 @@ def ob(cache):
         baca.clef(o.leaf(0), "treble")
         baca.dynamic(o.phead(0), "pp")
         baca.flageolet(o.pheads())
-        baca.markup(o.leaf(0), r"\baca-put-reed-back-in-markup")
+        baca.markup(o.leaf(0), r"\baca-boxed-put-reed-back-in-markup")
         baca.staff_lines(o.leaf(0), 5)
 
 
