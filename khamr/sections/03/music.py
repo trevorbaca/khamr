@@ -294,7 +294,12 @@ def gt(m):
 
 def pf(m):
     with baca.scope(m.get(1, 9)) as o:
-        baca.pitches(o, [_.invert().transpose("M2") for _ in library.rose_pitches()])
+        strings = []
+        for string in library.rose_pitches():
+            pitch = abjad.NamedPitch(string).invert().transpose("M2")
+            string = pitch.get_name(locale="us")
+            strings.append(string)
+        baca.pitches(o, strings)
         baca.rspanners.ottava(o.tleaves())
         library.sixth_octave(o)
     with baca.scope(m.get(5, 9)) as o:
@@ -364,8 +369,12 @@ def composites(cache):
         with baca.scope(m.get(1, 2)) as o:
             baca.pitch(o, pitch)
         with baca.scope(m.get(3, 29)) as o:
-            pitches = [_.invert().transpose("A4") for _ in library.rose_pitches()]
-            baca.pitches(o, pitches)
+            strings = []
+            for string in library.rose_pitches():
+                pitch = abjad.NamedPitch(string).invert().transpose("A4")
+                string = pitch.get_name(locale="us")
+                strings.append(string)
+            baca.pitches(o, strings)
             baca.glissando(
                 o,
                 do_not_hide_middle_note_heads=True,

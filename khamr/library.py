@@ -8,17 +8,18 @@ from abjadext import rmakers
 def cello_halo_pitches():
     cello_halo_pitches = []
     for halo_pitch in contrabass_halo_pitches():
-        cello_halo_pitch = halo_pitch + abjad.NamedInterval("m7")
-        cello_halo_pitches.append(cello_halo_pitch)
+        cello_halo_pitch = abjad.NamedPitch(halo_pitch) + abjad.NamedInterval("m7")
+        cello_halo_pitches.append(cello_halo_pitch.get_name(locale="us"))
     return cello_halo_pitches
 
 
 def color_trill_pitches(transpose=None):
-    string = "F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4"
+    string = "F4 F#4 Fqs4 F4 Fqs4 F4 E4 Eqs4 E4 Eqs4 F4 Fqs4 F#4 Fqs4 F#4 Ftqs4 F#4 Eqs4"
     pitches = [abjad.NamedPitch(_) for _ in string.split()]
     if transpose:
         pitches = [_.transpose(n=transpose) for _ in pitches]
     assert len(pitches) == 18
+    pitches = [_.get_name(locale="us") for _ in pitches]
     return pitches
 
 
@@ -47,6 +48,7 @@ def contrabass_halo_pitches():
     strings = string.split()
     assert len(strings) == 33
     pitches = [abjad.NamedPitch(_) for _ in strings]
+    pitches = [_.get_name(locale="us") for _ in pitches]
     contrabass_halo_pitches = abjad.CyclicTuple(pitches)
     return contrabass_halo_pitches
 
@@ -77,10 +79,9 @@ def do_marimba_hit_command(argument, attach_first_markup, indices):
 
 def double_stop_halo_pitches():
     double_stop_halo_pitches = []
-    for halo_pitch in contrabass_halo_pitches():
-        lower_pitch = halo_pitch - abjad.NamedInterval("M9")
+    for halo_name in contrabass_halo_pitches():
+        lower_pitch = abjad.NamedPitch(halo_name) - abjad.NamedInterval("M9")
         lower_name = lower_pitch.get_name(locale="us")
-        halo_name = halo_pitch.get_name(locale="us")
         string = f"<{lower_name} {halo_name}>"
         double_stop_halo_pitches.append(string)
     return double_stop_halo_pitches
@@ -521,8 +522,7 @@ def rose_pitches():
     rose_pitch_classes = baca.sequence.helianthate(rose_pitch_classes, -1, 1)
     rose_pitch_classes = abjad.sequence.flatten(rose_pitch_classes)
     assert len(rose_pitch_classes) == 64
-    rose_pitches = tuple(abjad.NamedPitch(_) for _ in rose_pitch_classes)
-    return rose_pitches
+    return rose_pitch_classes
 
 
 def sixth_octave(argument):
@@ -584,8 +584,10 @@ def time_signatures():
 def violin_halo_pitches():
     violin_halo_pitches = []
     for halo_pitch in contrabass_halo_pitches():
-        violin_halo_pitch = halo_pitch + abjad.NamedInterval("m14")
+        violin_halo_pitch = abjad.NamedPitch(halo_pitch) + abjad.NamedInterval("m14")
         violin_halo_pitches.append(violin_halo_pitch)
+        # violin_halo_pitches = [_.get_name(locale="us") for _ in violin_halo_pitches]
+    violin_halo_pitches = [_.get_name(locale="us") for _ in violin_halo_pitches]
     return violin_halo_pitches
 
 
