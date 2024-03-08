@@ -253,7 +253,7 @@ def cl(m):
 
 def sax(m):
     with baca.scope(m.get(1, 8)) as o:
-        baca.pitch(o, "<F3 G+3>")
+        baca.pitch(o, "<F3 Gqs3>")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
         baca.pitch(o, "G#2")

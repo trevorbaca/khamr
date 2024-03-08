@@ -254,7 +254,7 @@ def sax(cache):
         baca.dynamic(o.phead(0), "pp")
         baca.pitch(o, "G3")
     with baca.scope(m.get(37, 44)) as o:
-        baca.pitch(o, "<F3 G+3>")
+        baca.pitch(o, "<F3 Gqs3>")
         cache.rebuild()
         m = cache["sax"]
     with baca.scope(m.get(37, 44)) as o:
