@@ -82,7 +82,7 @@ def double_stop_halo_pitches():
     for halo_name in contrabass_halo_pitches():
         lower_pitch = abjad.NamedPitch(halo_name) - abjad.NamedInterval("M9")
         lower_name = lower_pitch.get_name(locale="us")
-        string = f"<{lower_name} {halo_name}>"
+        string = f"{lower_name}:{halo_name}"
         double_stop_halo_pitches.append(string)
     return double_stop_halo_pitches
 
