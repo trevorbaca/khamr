@@ -188,14 +188,14 @@ def fl(cache):
         baca.short_instrument_name(o.leaf(0), "B. fl.", library.manifests)
         baca.clef(o.leaf(0), "treble")
     with baca.scope(m.get(1, 16)) as o:
-        baca.pitch(o, "<G3 G4>")
+        baca.pitch(o, "G3:G4")
         cache.rebuild()
         m = cache["fl"]
     with baca.scope(m.get(1, 16)) as o:
         baca.dynamic(o.phead(0), "mp")
         baca.markup(o.pleaf(0), baca.levine_multiphonic(17))
     with baca.scope(m.get(17, 36)) as o:
-        baca.pitch(o, "<G#3 G#4>")
+        baca.pitch(o, "G#3:G#4")
         cache.rebuild()
         m = cache["fl"]
     with baca.scope(m.get(17, 36)) as o:
@@ -220,7 +220,7 @@ def ob(cache):
         baca.staff_position(o, 0)
         baca.markup(o.pleaf(0), r"\khamr-airtone-without-reed")
     with baca.scope(m.get(37, 44)) as o:
-        baca.pitch(o, "<A4 E5>")
+        baca.pitch(o, "A4:E5")
         cache.rebuild()
         m = cache["ob"]
     with baca.scope(m.get(37, 44)) as o:
@@ -254,7 +254,7 @@ def sax(cache):
         baca.dynamic(o.phead(0), "pp")
         baca.pitch(o, "G3")
     with baca.scope(m.get(37, 44)) as o:
-        baca.pitch(o, "<F3 Gqs3>")
+        baca.pitch(o, "F3:Gqs3")
         cache.rebuild()
         m = cache["sax"]
     with baca.scope(m.get(37, 44)) as o:
