@@ -235,7 +235,7 @@ def ob(cache):
     m = cache["ob"]
     with baca.scope(m.get(1, 8)) as o:
         baca.flageolet(o.pheads())
-        baca.pitch(o, "<A4 E5>")
+        baca.pitch(o, "A4:E5")
         cache.rebuild()
         m = cache["ob"]
     with baca.scope(m.get(15, 30)) as o:
@@ -253,7 +253,7 @@ def cl(m):
 
 def sax(m):
     with baca.scope(m.get(1, 8)) as o:
-        baca.pitch(o, "<F3 Gqs3>")
+        baca.pitch(o, "F3:Gqs3")
     with baca.scope(m.get(15, 30)) as o:
         baca.dynamic(o.phead(0), "fff")
         baca.pitch(o, "G#2")
@@ -283,7 +283,7 @@ def pf(cache):
         baca.rspanners.ottava(o.tleaves(), -1)
         baca.staff_lines(o.leaf(0), 5)
         baca.stem_tremolo(o.pleaves())
-        baca.pitch(o, "<A0 B0 C1 D1 E1 F1 G1 A1>")
+        baca.pitch(o, "A0:B0:C1:D1:E1:F1:G1:A1")
         cache.rebuild()
         m = cache["pf"]
     with baca.scope(m.get(21, 30)) as o:
@@ -391,7 +391,7 @@ def cb(cache):
         )
         baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(15, 30)) as o:
-        baca.pitch(o, "<G0 A1>")
+        baca.pitch(o, "G0:A1")
         cache.rebuild()
         m = cache["cb"]
     with baca.scope(m.get(15, 30)) as o:

@@ -332,11 +332,11 @@ def perc(m):
 def cb(cache):
     m = cache["cb"]
     with baca.scope(m.get(1, 2)) as o:
-        baca.pitch(o, "<G0 A1>")
+        baca.pitch(o, "G0:A1")
     with baca.scope(m.get(3, 25)) as o:
-        baca.pitch(o, "<G#0 A#1>")
+        baca.pitch(o, "G#0:A#1")
     with baca.scope(m.get(26, 31)) as o:
-        baca.pitch(o, "<G0 A1>")
+        baca.pitch(o, "G0:A1")
     cache.rebuild()
     m = cache["cb"]
     with baca.scope(m.get(3, 4)) as o:
