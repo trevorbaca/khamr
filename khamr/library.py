@@ -14,7 +14,9 @@ def cello_halo_pitches():
 
 
 def color_trill_pitches(transpose=None):
-    string = "F4 F#4 Fqs4 F4 Fqs4 F4 E4 Eqs4 E4 Eqs4 F4 Fqs4 F#4 Fqs4 F#4 Ftqs4 F#4 Eqs4"
+    string = (
+        "F4 F#4 Fqs4 F4 Fqs4 F4 E4 Eqs4 E4 Eqs4 F4 Fqs4 F#4 Fqs4 F#4 Ftqs4 F#4 Eqs4"
+    )
     pitches = [abjad.NamedPitch(_) for _ in string.split()]
     if transpose:
         pitches = [_.transpose(n=transpose) for _ in pitches]
