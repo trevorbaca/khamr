@@ -335,7 +335,7 @@ def perc(m):
         baca.dynamic(o.phead(0), "mp")
         baca.pitches(o, "C4 C4 C4 Ab5", allow_repeats=True)
         baca.staff_lines(o.leaf(0), 1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         library.do_marimba_hit_command(o, attach_first_markup=True, indices=[3, 7])
         baca.markup(o.pleaf(0), r"\baca-boxed-xl-tam-tam-markup")
 

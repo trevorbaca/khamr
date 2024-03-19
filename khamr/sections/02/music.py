@@ -302,11 +302,11 @@ def perc(m):
     with baca.scope(m.get(1, 14)) as o:
         baca.accent(o.pheads())
         baca.pitches(o, "C4 C4 Ab5 C4 C4 C4", allow_repeats=True)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         library.do_marimba_hit_command(o, False, indices=[2])
     with baca.scope(m.get(15, 30)) as o:
         baca.pitch(o, "Ab5")
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         library.do_marimba_hit_command(
             o, False, indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
         )
