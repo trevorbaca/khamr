@@ -3232,7 +3232,7 @@ number.1.Guitar.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -3358,7 +3358,7 @@ number.1.Guitar.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -3396,7 +3396,7 @@ number.1.Guitar.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
     \times 1/1
     {
 
@@ -3769,7 +3769,7 @@ number.1.Piano.Music = {
     - \tweak direction #up
     \repeatTie
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 2 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2 } }
     \times 1/1
     {
 
@@ -4010,7 +4010,7 @@ number.1.Piano.Music = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve ~ 4 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 4 } }
     \times 1/1
     {
 
