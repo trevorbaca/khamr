@@ -181,7 +181,7 @@ def perc(m):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(8, 15)) as o:
         baca.dynamic(o.phead(0), "fff")
-        baca.markup(o.pleaf(0), r"\baca-snare-drum-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-snare-drum-markup")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(1, 15)) as o:
         baca.staff_position(o, 0)
