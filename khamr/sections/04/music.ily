@@ -1808,7 +1808,7 @@ number.4.Percussion.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \fff
-    ^ \baca-snare-drum-markup
+    ^ \baca-boxed-snare-drum-markup
     - \tweak stencil ##f
     ~
 
