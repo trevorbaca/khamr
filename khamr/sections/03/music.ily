@@ -1183,7 +1183,7 @@ number.3.Flute.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -1200,16 +1200,16 @@ number.3.Flute.Music = {
       %! REAPPLIED_DYNAMIC
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Flute”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Flute”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-bfl-markup
+    \set Staff.shortInstrumentName = \khamr-bfl-markup %@%
 
     % [Flute.Music measure 2]
     b''2
@@ -2362,7 +2362,7 @@ number.3.Oboe.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
@@ -2386,16 +2386,16 @@ number.3.Oboe.Music = {
       %! REAPPLIED_DYNAMIC
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“EnglishHorn”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“EnglishHorn”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-eng-hn-markup
+    \set Staff.shortInstrumentName = \khamr-eng-hn-markup %@%
 
     % [Oboe.Music measure 2]
     ds'2
@@ -2449,7 +2449,7 @@ number.3.Oboe.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-fff-ancora
           %! EXPLICIT_INSTRUMENT_ALERT
-        ^ \baca-explicit-instrument-markup "(“Oboe”)"
+        %@% ^ \baca-explicit-instrument-markup "(“Oboe”)"
         [
 
         cs'''!16
@@ -3741,7 +3741,7 @@ number.3.Clarinet.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -3757,16 +3757,16 @@ number.3.Clarinet.Music = {
       %! REAPPLIED_DYNAMIC
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-bcl-markup
+    \set Staff.shortInstrumentName = \khamr-bcl-markup %@%
 
     % [Clarinet.Music measure 2]
     gs2
@@ -3819,7 +3819,7 @@ number.3.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-fff-ancora
           %! EXPLICIT_INSTRUMENT_ALERT
-        ^ \baca-explicit-instrument-markup "(“Clarinet”)"
+        %@% ^ \baca-explicit-instrument-markup "(“Clarinet”)"
         [
 
         es'''!16
@@ -4769,7 +4769,7 @@ number.3.Clarinet.Music = {
       %! EXPLICIT_DYNAMIC
     \ppp
       %! EXPLICIT_INSTRUMENT_ALERT
-    ^ \baca-explicit-instrument-markup "(“BassClarinet”)"
+    %@% ^ \baca-explicit-instrument-markup "(“BassClarinet”)"
     - \tweak stencil ##f
     ~
 
@@ -4827,7 +4827,7 @@ number.3.Saxophone.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -4843,16 +4843,16 @@ number.3.Saxophone.Music = {
       %! REAPPLIED_DYNAMIC
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“BaritoneSaxophone”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“BaritoneSaxophone”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-bar-sax-markup
+    \set Staff.shortInstrumentName = \khamr-bar-sax-markup %@%
 
     % [Saxophone.Music measure 2]
     es'2
@@ -4906,7 +4906,7 @@ number.3.Saxophone.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-fff-ancora
           %! EXPLICIT_INSTRUMENT_ALERT
-        ^ \baca-explicit-instrument-markup "(“SopraninoSaxophone”)"
+        %@% ^ \baca-explicit-instrument-markup "(“SopraninoSaxophone”)"
         [
 
         as''!16
@@ -6113,7 +6113,7 @@ number.3.Guitar.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -6129,16 +6129,16 @@ number.3.Guitar.Music = {
       %! REAPPLIED_DYNAMIC
     \ff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Guitar”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-gt-markup
+    \set Staff.shortInstrumentName = \khamr-gt-markup %@%
 
     % [Guitar.Music measure 2]
     g'2
@@ -6394,7 +6394,7 @@ number.3.Piano.Music = {
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+        %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! REAPPLIED_STAFF_LINES_COLOR
@@ -6422,15 +6422,15 @@ number.3.Piano.Music = {
           %! REAPPLIED_DYNAMIC
         \baca-fff-ancora
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Piano”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Piano”)"
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+        %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
           %! -PARTS
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-        \set Staff.shortInstrumentName = \khamr-pf-markup
+        \set Staff.shortInstrumentName = \khamr-pf-markup %@%
 
         d''''16
 
@@ -7938,7 +7938,7 @@ number.3.Percussion.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #blue
       %! -PARTS
@@ -7968,14 +7968,14 @@ number.3.Percussion.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Percussion”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-perc-markup
+    \set Staff.shortInstrumentName = \khamr-perc-markup %@%
 
     % [Percussion.Music measure 2]
     R1 * 2/4
@@ -8353,7 +8353,7 @@ number.3.Violin.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -8369,16 +8369,16 @@ number.3.Violin.Music = {
       %! REAPPLIED_DYNAMIC
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-vn-markup
+    \set Staff.shortInstrumentName = \khamr-vn-markup %@%
 
     % [Violin.Music measure 2]
     a'2
@@ -8704,7 +8704,7 @@ number.3.Viola.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -8720,16 +8720,16 @@ number.3.Viola.Music = {
       %! REAPPLIED_DYNAMIC
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-va-markup
+    \set Staff.shortInstrumentName = \khamr-va-markup %@%
 
     % [Viola.Music measure 2]
     gs'2
@@ -9049,7 +9049,7 @@ number.3.Cello.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -9065,16 +9065,16 @@ number.3.Cello.Music = {
       %! REAPPLIED_DYNAMIC
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Cello”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-vc-markup
+    \set Staff.shortInstrumentName = \khamr-vc-markup %@%
 
     % [Cello.Music measure 2]
     g2
@@ -9394,7 +9394,7 @@ number.3.Contrabass.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -9410,16 +9410,16 @@ number.3.Contrabass.Music = {
       %! REAPPLIED_DYNAMIC
     \fff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
     - \tweak stencil ##f
     ~
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \khamr-cb-markup
+    \set Staff.shortInstrumentName = \khamr-cb-markup %@%
 
     % [Contrabass.Music measure 2]
     <g,, a,>2
