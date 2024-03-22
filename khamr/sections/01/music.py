@@ -518,7 +518,7 @@ def persist_score(score, environment):
         first_section=True,
         global_rests_in_topmost_staff=True,
     )
-    baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
+    baca.section.activate_tags(score, baca.tags.LOCAL_MEASURE_NUMBER)
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
