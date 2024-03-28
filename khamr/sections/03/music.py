@@ -351,10 +351,11 @@ def cb(cache):
     with baca.scope(m.get(32, 37)) as o:
         baca.dynamic(o.phead(0), "mp")
         baca.pitch(o, "G0")
-        baca.rspanners.trill(
+        baca.spanners.trill(
             baca.select.tleaves(o),
             alteration="F2",
             harmonic=True,
+            rleak=True,
         )
         baca.markup(o.pleaf(0), r"\khamr-scodanibbio")
 
