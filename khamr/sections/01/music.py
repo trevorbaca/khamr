@@ -203,7 +203,7 @@ def fl(cache):
     with baca.scope(m.get(37, 44)) as o:
         baca.hairpin(o.tleaves(), "mp>pp")
         for run in baca.select.qruns(o):
-            baca.rspanners.trill(run)
+            baca.spanners.trill(run, rleak=True)
         baca.pitch(o, "A4")
 
 
@@ -364,9 +364,10 @@ def vn(m):
         baca.markup(o.pleaf(0), r"\baca-molto-flautando-markup"),
         baca.pitches(o, library.color_trill_pitches())
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 alteration="m2",
+                rleak=True,
             )
 
 
@@ -392,9 +393,10 @@ def va(m):
     with baca.scope(m.get(37, 44)) as o:
         baca.dynamic(o.phead(0), "ppp")
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 alteration="m2",
+                rleak=True,
             )
         baca.markup(o.pleaf(0), r"\baca-molto-flautando-markup"),
         baca.pitches(o, library.color_trill_pitches())
@@ -422,9 +424,10 @@ def vc(m):
     with baca.scope(m.get(37, 44)) as o:
         baca.dynamic(o.phead(0), "ppp")
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 alteration="m2",
+                rleak=True,
             )
         baca.markup(o.pleaf(0), r"\baca-molto-flautando-markup")
         baca.pitches(o, library.color_trill_pitches())
