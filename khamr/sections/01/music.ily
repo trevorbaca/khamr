@@ -1414,9 +1414,9 @@ number.1.Flute.Music = {
     r4.
 
     % [Flute.Music measure 8]
-    r2.
-
-    r2
+    R1 * 5/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"5" #"4"
 
     % [Flute.Music measure 9]
     <g' g''>1
@@ -1467,10 +1467,14 @@ number.1.Flute.Music = {
     r8
 
     % [Flute.Music measure 14]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Flute.Music measure 15]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Flute.Music measure 16]
     <g' g''>2
@@ -1524,7 +1528,9 @@ number.1.Flute.Music = {
     r4.
 
     % [Flute.Music measure 23]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Flute.Music measure 24]
     r2
@@ -1579,7 +1585,9 @@ number.1.Flute.Music = {
     r2
 
     % [Flute.Music measure 31]
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Flute.Music measure 32]
     r4
@@ -1627,10 +1635,14 @@ number.1.Flute.Music = {
     r8
 
     % [Flute.Music measure 37]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Flute.Music measure 38]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Flute.Music measure 39]
     r2.
@@ -1794,7 +1806,9 @@ number.1.Oboe.Music = {
     r2..
 
     % [Oboe.Music measure 6]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Oboe.Music measure 7]
     r4
@@ -1848,7 +1862,9 @@ number.1.Oboe.Music = {
     r2
 
     % [Oboe.Music measure 13]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Oboe.Music measure 14]
     c'2
@@ -1900,7 +1916,9 @@ number.1.Oboe.Music = {
     r2.
 
     % [Oboe.Music measure 21]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Oboe.Music measure 22]
     r4
@@ -1947,10 +1965,14 @@ number.1.Oboe.Music = {
     r8
 
     % [Oboe.Music measure 29]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Oboe.Music measure 30]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Oboe.Music measure 31]
     r4
@@ -2022,8 +2044,10 @@ number.1.Oboe.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-    r2.
+    R1 * 6/8
     ^ \baca-boxed-put-reed-back-in-markup
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -2157,7 +2181,9 @@ number.1.Clarinet.Music = {
     r8
 
     % [Clarinet.Music measure 4]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Clarinet.Music measure 5]
     r2.
@@ -2192,7 +2218,9 @@ number.1.Clarinet.Music = {
     r2
 
     % [Clarinet.Music measure 9]
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Clarinet.Music measure 10]
     b2.
@@ -2260,7 +2288,9 @@ number.1.Clarinet.Music = {
     r4.
 
     % [Clarinet.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Clarinet.Music measure 19]
     r2.
@@ -2296,7 +2326,9 @@ number.1.Clarinet.Music = {
     r2
 
     % [Clarinet.Music measure 24]
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Clarinet.Music measure 25]
     b2
@@ -2359,7 +2391,9 @@ number.1.Clarinet.Music = {
     r8
 
     % [Clarinet.Music measure 33]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Clarinet.Music measure 34]
     r2.
@@ -2386,10 +2420,14 @@ number.1.Clarinet.Music = {
     r8
 
     % [Clarinet.Music measure 37]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Clarinet.Music measure 38]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Clarinet.Music measure 39]
     r2.
@@ -2529,7 +2567,9 @@ number.1.Saxophone.Music = {
     r4.
 
     % [Saxophone.Music measure 6]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Saxophone.Music measure 7]
     r2.
@@ -2556,7 +2596,9 @@ number.1.Saxophone.Music = {
     r8
 
     % [Saxophone.Music measure 10]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Saxophone.Music measure 11]
     r2.
@@ -2634,10 +2676,14 @@ number.1.Saxophone.Music = {
     r4.
 
     % [Saxophone.Music measure 22]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Saxophone.Music measure 23]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Saxophone.Music measure 24]
     e''1
@@ -2668,7 +2714,9 @@ number.1.Saxophone.Music = {
     r2..
 
     % [Saxophone.Music measure 28]
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Saxophone.Music measure 29]
     e''2.
@@ -2743,10 +2791,14 @@ number.1.Saxophone.Music = {
     r8
 
     % [Saxophone.Music measure 38]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Saxophone.Music measure 39]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Saxophone.Music measure 40]
     <d'' eqs''!>2
@@ -2853,13 +2905,19 @@ number.1.Guitar.Music = {
     r4
 
     % [Guitar.Music measure 2]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Guitar.Music measure 3]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Guitar.Music measure 4]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Guitar.Music measure 5]
     r8
@@ -2923,7 +2981,9 @@ number.1.Guitar.Music = {
     r4
 
     % [Guitar.Music measure 10]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     \times 2/3
     {
@@ -2986,7 +3046,9 @@ number.1.Guitar.Music = {
     r4
 
     % [Guitar.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Guitar.Music measure 17]
     r16
@@ -3058,7 +3120,9 @@ number.1.Guitar.Music = {
     r4
 
     % [Guitar.Music measure 22]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Guitar.Music measure 23]
     r4
@@ -3508,7 +3572,9 @@ number.1.Guitar.Music = {
     }
 
     % [Guitar.Music measure 42]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Guitar.Music measure 43]
     r4
@@ -4105,7 +4171,9 @@ number.1.Piano.Music = {
     r4
 
     % [Piano.Music measure 40]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Piano.Music measure 41]
       %! EXPLICIT_CLEF

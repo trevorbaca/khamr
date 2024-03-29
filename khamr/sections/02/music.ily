@@ -1047,9 +1047,9 @@ number.2.Flute.Music = {
     \stopTrillSpan
 
     % [Flute.Music measure 8]
-    r2.
-
-    r2
+    R1 * 5/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"5" #"4"
 
     % [Flute.Music measure 9]
     R1 * 4/4
@@ -1094,7 +1094,9 @@ number.2.Flute.Music = {
     ^ \baca-fluttertongue-markup
 
     % [Flute.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Flute.Music measure 17]
     b''2.
@@ -1107,14 +1109,18 @@ number.2.Flute.Music = {
     \repeatTie
 
     % [Flute.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Flute.Music measure 19]
     b''1
     :32
 
     % [Flute.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Flute.Music measure 21]
     r4
@@ -1268,7 +1274,9 @@ number.2.Oboe.Music = {
     r2..
 
     % [Oboe.Music measure 6]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Oboe.Music measure 7]
     r4
@@ -1328,7 +1336,9 @@ number.2.Oboe.Music = {
     \fff
 
     % [Oboe.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Oboe.Music measure 17]
     ds'!2.
@@ -1339,13 +1349,17 @@ number.2.Oboe.Music = {
     \repeatTie
 
     % [Oboe.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Oboe.Music measure 19]
     ds'!1
 
     % [Oboe.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Oboe.Music measure 21]
     r4
@@ -1475,7 +1489,9 @@ number.2.Clarinet.Music = {
     r8
 
     % [Clarinet.Music measure 4]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Clarinet.Music measure 5]
     r2.
@@ -1510,7 +1526,9 @@ number.2.Clarinet.Music = {
     r2
 
     % [Clarinet.Music measure 9]
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Clarinet.Music measure 10]
     a2.
@@ -1537,10 +1555,14 @@ number.2.Clarinet.Music = {
     r2
 
     % [Clarinet.Music measure 13]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Clarinet.Music measure 14]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Clarinet.Music measure 15]
     gs!1.
@@ -1551,7 +1573,9 @@ number.2.Clarinet.Music = {
     \fff
 
     % [Clarinet.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Clarinet.Music measure 17]
     gs!2.
@@ -1562,13 +1586,17 @@ number.2.Clarinet.Music = {
     \repeatTie
 
     % [Clarinet.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Clarinet.Music measure 19]
     gs!1
 
     % [Clarinet.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Clarinet.Music measure 21]
     r4
@@ -1705,7 +1733,9 @@ number.2.Saxophone.Music = {
     r4.
 
     % [Saxophone.Music measure 6]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Saxophone.Music measure 7]
     r2.
@@ -1764,7 +1794,9 @@ number.2.Saxophone.Music = {
     \fff
 
     % [Saxophone.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Saxophone.Music measure 17]
     es'!2.
@@ -1775,13 +1807,17 @@ number.2.Saxophone.Music = {
     \repeatTie
 
     % [Saxophone.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Saxophone.Music measure 19]
     es'!1
 
     % [Saxophone.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Saxophone.Music measure 21]
     r4
@@ -1899,7 +1935,9 @@ number.2.Guitar.Music = {
     r4
 
     % [Guitar.Music measure 2]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     \times 2/3
     {
@@ -1928,7 +1966,9 @@ number.2.Guitar.Music = {
     }
 
     % [Guitar.Music measure 4]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Guitar.Music measure 5]
     fs!1
@@ -1998,7 +2038,9 @@ number.2.Guitar.Music = {
     \repeatTie
 
     % [Guitar.Music measure 14]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Guitar.Music measure 15]
     g1.
@@ -2010,7 +2052,9 @@ number.2.Guitar.Music = {
     ^ \khamr-guitar-with-screw
 
     % [Guitar.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Guitar.Music measure 17]
     g2.
@@ -2021,13 +2065,17 @@ number.2.Guitar.Music = {
     \repeatTie
 
     % [Guitar.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Guitar.Music measure 19]
     g1
 
     % [Guitar.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Guitar.Music measure 21]
     r4
@@ -2228,7 +2276,9 @@ number.2.Piano.Music = {
     \repeatTie
 
     % [Piano.Music measure 14]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Piano.Music measure 15]
       %! EXPLICIT_CLEF
@@ -2268,7 +2318,9 @@ number.2.Piano.Music = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     % [Piano.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Piano.Music measure 17]
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
@@ -2278,7 +2330,9 @@ number.2.Piano.Music = {
     :32
 
     % [Piano.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Piano.Music measure 19]
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
@@ -2289,7 +2343,9 @@ number.2.Piano.Music = {
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
     \ottava 0
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Piano.Music measure 21]
       %! EXPLICIT_CLEF
@@ -2688,7 +2744,9 @@ number.2.Percussion.Music = {
     \revert Stem.direction
 
     % [Percussion.Music measure 15]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Percussion.Music measure 16]
       %! EXPLICIT_CLEF
@@ -2745,9 +2803,9 @@ number.2.Percussion.Music = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     % [Percussion.Music measure 17]
-    r2.
-
-    r2
+    R1 * 5/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"5" #"4"
 
     % [Percussion.Music measure 18]
       %! EXPLICIT_CLEF
@@ -2803,7 +2861,9 @@ number.2.Percussion.Music = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     % [Percussion.Music measure 19]
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Percussion.Music measure 20]
       %! EXPLICIT_CLEF
@@ -3852,7 +3912,9 @@ number.2.Violin.Music = {
     }
 
     % [Violin.Music measure 14]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
       %! SPANNER_STOP
     \stopTrillSpan
 
@@ -3866,7 +3928,9 @@ number.2.Violin.Music = {
     ^ \baca-boxed-arco-ordinario-markup
 
     % [Violin.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Violin.Music measure 17]
     a'2.
@@ -3877,13 +3941,17 @@ number.2.Violin.Music = {
     \repeatTie
 
     % [Violin.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Violin.Music measure 19]
     a'1
 
     % [Violin.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Violin.Music measure 21]
     r4
@@ -4334,7 +4402,9 @@ number.2.Viola.Music = {
     }
 
     % [Viola.Music measure 14]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
       %! SPANNER_STOP
     \stopTrillSpan
 
@@ -4348,7 +4418,9 @@ number.2.Viola.Music = {
     ^ \baca-boxed-arco-ordinario-markup
 
     % [Viola.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Viola.Music measure 17]
     gs'!2.
@@ -4359,13 +4431,17 @@ number.2.Viola.Music = {
     \repeatTie
 
     % [Viola.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Viola.Music measure 19]
     gs'!1
 
     % [Viola.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Viola.Music measure 21]
     r4
@@ -4669,7 +4745,9 @@ number.2.Cello.Music = {
     \repeatTie
 
     % [Cello.Music measure 14]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Cello.Music measure 15]
     g1.
@@ -4681,7 +4759,9 @@ number.2.Cello.Music = {
     ^ \baca-boxed-arco-ordinario-markup
 
     % [Cello.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Cello.Music measure 17]
     g2.
@@ -4692,13 +4772,17 @@ number.2.Cello.Music = {
     \repeatTie
 
     % [Cello.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Cello.Music measure 19]
     g1
 
     % [Cello.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Cello.Music measure 21]
     r4
@@ -4934,7 +5018,9 @@ number.2.Contrabass.Music = {
     }
 
     % [Contrabass.Music measure 14]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Contrabass.Music measure 15]
     <g,, a,>1.
@@ -4946,7 +5032,9 @@ number.2.Contrabass.Music = {
     ^ \baca-boxed-arco-ordinario-markup
 
     % [Contrabass.Music measure 16]
-    r2
+    R1 * 2/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
     % [Contrabass.Music measure 17]
     <g,, a,>2.
@@ -4957,13 +5045,17 @@ number.2.Contrabass.Music = {
     \repeatTie
 
     % [Contrabass.Music measure 18]
-    r2.
+    R1 * 6/8
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"8"
 
     % [Contrabass.Music measure 19]
     <g,, a,>1
 
     % [Contrabass.Music measure 20]
-    r1.
+    R1 * 6/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     % [Contrabass.Music measure 21]
     r4
