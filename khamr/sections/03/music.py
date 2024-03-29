@@ -300,7 +300,7 @@ def pf(m):
             string = pitch.get_name(locale="us")
             strings.append(string)
         baca.pitches(o, strings)
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
         library.sixth_octave(o)
     with baca.scope(m.get(5, 9)) as o:
         baca.dynamic(o.phead(0), "ffff")

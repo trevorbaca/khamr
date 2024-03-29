@@ -303,7 +303,7 @@ def pf(m):
     with baca.scope(m.get(25, 40)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.dynamic(o.phead(0), "mf-ancora")
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.staff_lines(o.leaf(0), 5)
         baca.markup(
             o.pleaf(0),
