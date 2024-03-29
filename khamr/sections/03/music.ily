@@ -3686,12 +3686,16 @@ number.3.Oboe.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     % [Oboe.Music measure 35]
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Oboe.Music measure 36]
     r2
@@ -9620,7 +9624,9 @@ number.3.Contrabass.Music = {
     <g,, a,>2.
 
     % [Contrabass.Music measure 31]
-    r1
+    R1 * 4/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Contrabass.Music measure 32]
       %! SPANNER_START
