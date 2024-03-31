@@ -540,7 +540,7 @@ def make_layout():
     y_offset = 20
     distances = (20, (30, 30, 30, 40), (30, 30, 40), (30, 30, 30, 40))
     first_page_distances = (20, (30, 30, 30, 40), (30, 30, 40), (30, 30, 30, 40))
-    layout = baca.layout.Layout(
+    breaks = baca.layout.Breaks(
         baca.layout.Page(
             1,
             baca.layout.System(1, y_offset=60, distances=first_page_distances),
@@ -593,9 +593,11 @@ def make_layout():
             13,
             baca.layout.System(44, y_offset=y_offset, distances=distances),
         ),
+    )
+    spacing = baca.layout.Spacing(
         default_spacing=(1, 32),
     )
-    baca.build.write_layout_ly(layout)
+    baca.build.write_layout_ly(breaks, spacing)
 
 
 def main():
