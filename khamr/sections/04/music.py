@@ -287,7 +287,6 @@ def persist_score(score, environment):
         score,
         environment,
         library.manifests,
-        error_on_not_yet_pitched=True,
         final_section=True,
         global_rests_in_topmost_staff=True,
     )
