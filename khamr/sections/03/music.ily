@@ -9643,7 +9643,7 @@ number.3.Contrabass.Music = {
     - \tweak stencil ##f
     ~
       %! SPANNER_START
-    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
+    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph "noteheads.s0harmonic" #}))
       %! SPANNER_START
     \startTrillSpan f
 
