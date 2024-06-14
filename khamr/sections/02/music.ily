@@ -1893,7 +1893,7 @@ number.2.Saxophone.Staff = {
 
 number.2.Guitar.Music = {
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music measure 1]
@@ -1941,7 +1941,7 @@ number.2.Guitar.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music measure 3]
@@ -1955,7 +1955,7 @@ number.2.Guitar.Music = {
 
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2368,7 +2368,7 @@ number.2.Piano.Music = {
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    \times 2/3
+    \tuplet 3/2
     {
 
           %! EXPLICIT_OTTAVA_COLOR
@@ -2427,7 +2427,7 @@ number.2.Piano.Music = {
     % [Piano.Music measure 24]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef''''!8
@@ -2460,7 +2460,7 @@ number.2.Piano.Music = {
     % [Piano.Music measure 26]
     r4
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f''''16
@@ -2499,7 +2499,7 @@ number.2.Piano.Music = {
     % [Piano.Music measure 28]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af'''!8
@@ -2515,7 +2515,7 @@ number.2.Piano.Music = {
     % [Piano.Music measure 29]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''''8
@@ -3482,7 +3482,7 @@ number.2.Violin.Music = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-vn-markup %@%
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 2]
@@ -3513,7 +3513,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         g'8
@@ -3544,7 +3544,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gqf'8.
@@ -3576,7 +3576,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gf'4
@@ -3606,7 +3606,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gqf'16
@@ -3630,7 +3630,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 6]
@@ -3655,7 +3655,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 7]
@@ -3682,7 +3682,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gqs'8.
@@ -3709,7 +3709,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         g'4
@@ -3733,7 +3733,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 9]
@@ -3758,7 +3758,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         af'16
@@ -3783,7 +3783,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         a'8
@@ -3810,7 +3810,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         aqf'8.
@@ -3842,7 +3842,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         af'4
@@ -3871,7 +3871,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         aqf'16
@@ -3896,7 +3896,7 @@ number.2.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         af'16
@@ -4071,7 +4071,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'16
@@ -4096,7 +4096,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fs'8
@@ -4128,7 +4128,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fqs'8.
@@ -4160,7 +4160,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'4
@@ -4190,7 +4190,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gf'16
@@ -4215,7 +4215,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         g'16
@@ -4240,7 +4240,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gqf'8
@@ -4272,7 +4272,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gf'8.
@@ -4304,7 +4304,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         g'4
@@ -4329,7 +4329,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gs'16
@@ -4354,7 +4354,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         gqs'16
@@ -4384,7 +4384,7 @@ number.2.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         g'8
@@ -4561,7 +4561,7 @@ number.2.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Cello.Music measure 3]
@@ -4591,7 +4591,7 @@ number.2.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fs'8
@@ -4624,7 +4624,7 @@ number.2.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fqs'8.
@@ -4656,7 +4656,7 @@ number.2.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'4
@@ -4681,7 +4681,7 @@ number.2.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Cello.Music measure 8]
@@ -4900,7 +4900,7 @@ number.2.Contrabass.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Contrabass.Music measure 3]
@@ -4914,7 +4914,7 @@ number.2.Contrabass.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Contrabass.Music measure 4]
@@ -4934,7 +4934,7 @@ number.2.Contrabass.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Contrabass.Music measure 6]
@@ -4980,7 +4980,7 @@ number.2.Contrabass.Music = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabass.Music measure 11]
@@ -5006,7 +5006,7 @@ number.2.Contrabass.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Contrabass.Music measure 13]
