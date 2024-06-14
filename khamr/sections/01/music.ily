@@ -2953,7 +2953,7 @@ number.1.Guitar.Music = {
     % [Guitar.Music measure 8]
     r2.
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         r8.
@@ -2969,7 +2969,7 @@ number.1.Guitar.Music = {
     % [Guitar.Music measure 9]
     r2
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         r8.
@@ -2987,7 +2987,7 @@ number.1.Guitar.Music = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music measure 11]
@@ -2999,7 +2999,7 @@ number.1.Guitar.Music = {
 
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music measure 12]
@@ -3025,7 +3025,7 @@ number.1.Guitar.Music = {
     % [Guitar.Music measure 14]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -3063,7 +3063,7 @@ number.1.Guitar.Music = {
 
     r2
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music measure 18]
@@ -3080,7 +3080,7 @@ number.1.Guitar.Music = {
     % [Guitar.Music measure 19]
     r4
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         r8.
@@ -3096,7 +3096,7 @@ number.1.Guitar.Music = {
     % [Guitar.Music measure 20]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -3109,7 +3109,7 @@ number.1.Guitar.Music = {
 
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music measure 21]
@@ -3129,7 +3129,7 @@ number.1.Guitar.Music = {
     % [Guitar.Music measure 23]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -3154,7 +3154,7 @@ number.1.Guitar.Music = {
     r4
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 25]
@@ -3185,7 +3185,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 27]
@@ -3227,7 +3227,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 28]
@@ -3269,7 +3269,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 30]
@@ -3299,7 +3299,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 31]
@@ -3349,7 +3349,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 2. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 33]
@@ -3379,7 +3379,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 34]
@@ -3425,7 +3425,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 36]
@@ -3463,7 +3463,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 1 } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 37]
@@ -3497,7 +3497,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 39]
@@ -3539,7 +3539,7 @@ number.1.Guitar.Music = {
     \revert TupletNumber.text
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music measure 40]
@@ -3548,7 +3548,7 @@ number.1.Guitar.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music measure 41]
@@ -3564,7 +3564,7 @@ number.1.Guitar.Music = {
 
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -3581,7 +3581,7 @@ number.1.Guitar.Music = {
     % [Guitar.Music measure 43]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -3838,7 +3838,7 @@ number.1.Piano.Music = {
     \repeatTie
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 2 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Piano.Music measure 25]
@@ -3925,7 +3925,7 @@ number.1.Piano.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Piano.Music measure 28]
@@ -3971,7 +3971,7 @@ number.1.Piano.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { \breve. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Piano.Music measure 30]
@@ -4033,7 +4033,7 @@ number.1.Piano.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Piano.Music measure 33]
@@ -4079,7 +4079,7 @@ number.1.Piano.Music = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { \breve } + \rhythm { 4 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Piano.Music measure 35]
@@ -4126,7 +4126,7 @@ number.1.Piano.Music = {
     }
     \revert TupletNumber.text
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Piano.Music measure 37]
@@ -4143,7 +4143,7 @@ number.1.Piano.Music = {
     % [Piano.Music measure 38]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -4155,7 +4155,7 @@ number.1.Piano.Music = {
     % [Piano.Music measure 39]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -4773,7 +4773,7 @@ number.1.Violin.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.Music measure 4]
@@ -4836,7 +4836,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.Music measure 7]
@@ -4890,7 +4890,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Violin.Music measure 11]
@@ -4922,7 +4922,7 @@ number.1.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         % [Violin.Music measure 12]
@@ -4960,7 +4960,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 14]
@@ -5015,7 +5015,7 @@ number.1.Violin.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Violin.Music measure 18]
@@ -5046,7 +5046,7 @@ number.1.Violin.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.Music measure 19]
@@ -5083,7 +5083,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violin.Music measure 21]
@@ -5132,7 +5132,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 25]
@@ -5163,7 +5163,7 @@ number.1.Violin.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 26]
@@ -5246,7 +5246,7 @@ number.1.Violin.Music = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/9
+    \tuplet 9/5
     {
 
         % [Violin.Music measure 32]
@@ -5310,7 +5310,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Violin.Music measure 35]
@@ -5372,7 +5372,7 @@ number.1.Violin.Music = {
       %! SPANNER_START
     \startTrillSpan gf'
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'16
@@ -5397,7 +5397,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 39]
@@ -5424,7 +5424,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fqs'8.
@@ -5450,7 +5450,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 40]
@@ -5481,7 +5481,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fqs'16
@@ -5510,7 +5510,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'16
@@ -5535,7 +5535,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         e'8
@@ -5562,7 +5562,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         eqs'8.
@@ -5594,7 +5594,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         e'4
@@ -5623,7 +5623,7 @@ number.1.Violin.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         eqs'16
@@ -5765,7 +5765,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 5]
@@ -5829,7 +5829,7 @@ number.1.Viola.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         % [Viola.Music measure 8]
@@ -5905,7 +5905,7 @@ number.1.Viola.Music = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Viola.Music measure 13]
@@ -5943,7 +5943,7 @@ number.1.Viola.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Viola.Music measure 15]
@@ -5997,7 +5997,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Viola.Music measure 19]
@@ -6029,7 +6029,7 @@ number.1.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Viola.Music measure 20]
@@ -6066,7 +6066,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Viola.Music measure 22]
@@ -6142,7 +6142,7 @@ number.1.Viola.Music = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Viola.Music measure 27]
@@ -6229,7 +6229,7 @@ number.1.Viola.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Viola.Music measure 33]
@@ -6260,7 +6260,7 @@ number.1.Viola.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Viola.Music measure 34]
@@ -6331,7 +6331,7 @@ number.1.Viola.Music = {
       %! SPANNER_START
     \startTrillSpan gf'
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Viola.Music measure 38]
@@ -6362,7 +6362,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fs'8
@@ -6388,7 +6388,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Viola.Music measure 40]
@@ -6421,7 +6421,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'4
@@ -6451,7 +6451,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fqs'16
@@ -6481,7 +6481,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'16
@@ -6511,7 +6511,7 @@ number.1.Viola.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         e'8
@@ -6629,7 +6629,7 @@ number.1.Cello.Music = {
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \khamr-vc-markup %@%
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Cello.Music measure 2]
@@ -6679,7 +6679,7 @@ number.1.Cello.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Cello.Music measure 6]
@@ -6710,7 +6710,7 @@ number.1.Cello.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Cello.Music measure 7]
@@ -6752,7 +6752,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Cello.Music measure 9]
@@ -6832,7 +6832,7 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Cello.Music measure 14]
@@ -6869,7 +6869,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Cello.Music measure 16]
@@ -6923,7 +6923,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Cello.Music measure 20]
@@ -6954,7 +6954,7 @@ number.1.Cello.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Cello.Music measure 21]
@@ -6992,7 +6992,7 @@ number.1.Cello.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Cello.Music measure 23]
@@ -7067,7 +7067,7 @@ number.1.Cello.Music = {
     - \tweak stencil ##f
     ~
 
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Cello.Music measure 28]
@@ -7105,7 +7105,7 @@ number.1.Cello.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Cello.Music measure 30]
@@ -7248,7 +7248,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'16
@@ -7273,7 +7273,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fs'8
@@ -7311,7 +7311,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fqs'8.
@@ -7343,7 +7343,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'4
@@ -7373,7 +7373,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         fqs'16
@@ -7398,7 +7398,7 @@ number.1.Cello.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         f'16
@@ -7514,7 +7514,7 @@ number.1.Contrabass.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Contrabass.Music measure 3]
@@ -7528,7 +7528,7 @@ number.1.Contrabass.Music = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Contrabass.Music measure 4]
@@ -7548,7 +7548,7 @@ number.1.Contrabass.Music = {
     ~
     \repeatTie
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Contrabass.Music measure 6]
@@ -7606,7 +7606,7 @@ number.1.Contrabass.Music = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabass.Music measure 11]
@@ -7649,7 +7649,7 @@ number.1.Contrabass.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Contrabass.Music measure 13]
@@ -7724,7 +7724,7 @@ number.1.Contrabass.Music = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Contrabass.Music measure 18]
@@ -7762,7 +7762,7 @@ number.1.Contrabass.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Contrabass.Music measure 20]
@@ -7811,7 +7811,7 @@ number.1.Contrabass.Music = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabass.Music measure 24]
@@ -7842,7 +7842,7 @@ number.1.Contrabass.Music = {
 
     }
 
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Contrabass.Music measure 25]
@@ -7880,7 +7880,7 @@ number.1.Contrabass.Music = {
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Contrabass.Music measure 27]
@@ -7956,7 +7956,7 @@ number.1.Contrabass.Music = {
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Contrabass.Music measure 32]
@@ -7993,7 +7993,7 @@ number.1.Contrabass.Music = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabass.Music measure 34]
@@ -8047,7 +8047,7 @@ number.1.Contrabass.Music = {
     ~
     \repeatTie
 
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Contrabass.Music measure 38]
@@ -8079,7 +8079,7 @@ number.1.Contrabass.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Contrabass.Music measure 39]
