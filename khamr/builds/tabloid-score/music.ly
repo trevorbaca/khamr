@@ -9,17 +9,17 @@
 \include "_sections/03.ily"
 \include "_sections/04.ily"
 
-
-\score {
-    <<
-        {
-        %\page-layout-score
-        }
-        {
-        \include "_sections/01.ly"
-        \include "_sections/02.ly"
-        \include "_sections/03.ly"
-        \include "_sections/04.ly"
-        }
-    >>
+\score
+{
+  <<
+    {
+      %\page-layout-score
+    }
+    {
+      \include "_sections/01.ly"
+      \include "_sections/02.ly"
+      \include "_sections/03.ly"
+      \include "_sections/04.ly"
+    }
+  >>
 }
