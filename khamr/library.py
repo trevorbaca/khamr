@@ -219,7 +219,7 @@ def make_current_rhythm(time_signatures, counts, *, force_rest_tuplets=None):
 
 def make_empty_score():
     tag = baca.helpers.function_name(inspect.currentframe())
-    global_context = baca.score.make_global_context()
+    global_context = baca.score.make_global_context(make_time_signatures_context=True)
     flute_music_voice = abjad.Voice(name="Flute.Music", tag=tag)
     flute_music_staff = abjad.Staff([flute_music_voice], name="Flute.Staff", tag=tag)
     baca.score.attach_lilypond_tag("Flute", flute_music_staff)
