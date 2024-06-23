@@ -3,7 +3,7 @@
 number.1.Skips = {
 
     % [Skips measure 1]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=126
     s1 * 2/4
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -531,7 +531,7 @@ number.1.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 25]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=63
     s1 * 2/4
       %! CLOCK_TIME
@@ -810,7 +810,7 @@ number.1.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 37]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=84
     s1 * 6/8
       %! CLOCK_TIME
