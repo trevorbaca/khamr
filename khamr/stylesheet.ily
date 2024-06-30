@@ -184,6 +184,7 @@
     \remove System_start_delimiter_engraver
     \override BarLine.hair-thickness = 0.5
     \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
+    \override Hairpin.to-barline = ##f
     \override Glissando.thickness = 3
     \override NoteCollision.merge-differently-dotted = ##t
     \override NoteColumn.ignore-collision = ##t
@@ -198,15 +199,13 @@
     \override TextScript.font-name = #"Palatino"
     \override TextSpanner.to-barline = ##t
     \override TrillPitchAccidental.avoid-slur = #'ignore
-    \override TrillSpanner.bound-details.right.padding = 2
+    \override TrillSpanner.Y-extent = ##f
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 0.75
     \override TupletBracket.staff-padding = 1.5
     \override TupletNumber.font-size = 1
     \override TupletNumber.text = #tuplet-number::calc-fraction-text
     autoBeaming = ##f
-    barNumberFormatter = #baca-oval-bar-numbers
-    rehearsalMarkFormatter = #format-mark-box-alphabet
     proportionalNotationDuration = \musicLength 1*1/24
     tupletFullLength = ##t
   }
