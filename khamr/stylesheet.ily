@@ -199,7 +199,6 @@
     \override TextScript.font-name = #"Palatino"
     \override TextSpanner.to-barline = ##t
     \override TrillPitchAccidental.avoid-slur = #'ignore
-    \override TrillSpanner.Y-extent = ##f
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 0.75
     \override TupletBracket.staff-padding = 1.5
