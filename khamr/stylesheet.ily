@@ -1,4 +1,4 @@
-\version "2.25.22"
+\version "2.25.23"
 \include "baca.ily"
 
 #(set-default-paper-size "tabloid")
@@ -205,7 +205,7 @@
     \override TupletNumber.font-size = 1
     \override TupletNumber.text = #tuplet-number::calc-fraction-text
     autoBeaming = ##f
-    proportionalNotationDuration = \musicLength 1*1/24
+    proportionalNotationDuration = #1/24
     tupletFullLength = ##t
   }
 }
