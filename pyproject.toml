@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "khamr"
-version = "1.0.0"
+version = "3.21"
 description = "Al-kitab al-khamr (2015) for chamber orchestra"
 authors = [{ name = "Trevor Bača", email = "trevor.baca@gmail.com" }]
 license = { text = "MIT" }
