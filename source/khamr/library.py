@@ -356,7 +356,10 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
     )
     durations = [sum(_) for _ in lists]
     tuplets = rmakers.accelerando(
-        durations, [(1, 2), (1, 8), (1, 16)], [(1, 8), (1, 2), (1, 16)], tag=tag
+        durations,
+        rmakers.durations([(1, 2), (1, 8), (1, 16)]),
+        rmakers.durations([(1, 8), (1, 2), (1, 16)]),
+        tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     tuplets = abjad.select.tuplets(voice)[1:]
