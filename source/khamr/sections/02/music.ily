@@ -5072,15 +5072,16 @@ number.2.Contrabass.Music =
 
     }
 
-    \tuplet 5/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \tuplet 5/3
     {
 
         % [Contrabass.Music measure 4]
-        <af, bf>2.
+        <af, bf>1
         \glissando
         \repeatTie
 
-        <gqs,! aqs!>8.
+        <gqs,! aqs!>4
         - \tweak stencil ##f
         ~
 
@@ -5092,15 +5093,16 @@ number.2.Contrabass.Music =
     ~
     \repeatTie
 
-    \tuplet 5/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \tuplet 5/3
     {
 
         % [Contrabass.Music measure 6]
-        <gqs, aqs>2.
+        <gqs, aqs>1
         \glissando
         \repeatTie
 
-        <a, b>8.
+        <a, b>4
         - \tweak stencil ##f
         ~
 

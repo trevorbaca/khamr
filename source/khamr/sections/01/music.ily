@@ -5432,21 +5432,20 @@ number.1.Violin.Music =
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 9/5
+    \tuplet 3/5
     {
 
         % [Violin.Music measure 32]
-        bf'1.
+        bf'2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
-        - \tweak direction #up
-        \repeatTie
         \glissando
+        \repeatTie
 
-        g'2.
+        g'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -7117,11 +7116,12 @@ number.1.Cello.Music =
     ~
     \repeatTie
 
-    \tuplet 5/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \tuplet 5/3
     {
 
         % [Cello.Music measure 20]
-        a1.
+        a\breve
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -7130,7 +7130,7 @@ number.1.Cello.Music =
         \glissando
         \repeatTie
 
-        g4.
+        g2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -7726,15 +7726,16 @@ number.1.Contrabass.Music =
 
     }
 
-    \tuplet 5/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \tuplet 5/3
     {
 
         % [Contrabass.Music measure 4]
-        bf2.
+        bf1
         \glissando
         \repeatTie
 
-        aqs!8.
+        aqs!4
         - \tweak stencil ##f
         ~
 
@@ -7746,15 +7747,16 @@ number.1.Contrabass.Music =
     ~
     \repeatTie
 
-    \tuplet 5/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \tuplet 5/3
     {
 
         % [Contrabass.Music measure 6]
-        aqs2.
+        aqs1
         \glissando
         \repeatTie
 
-        b8.
+        b4
         - \tweak stencil ##f
         ~
 
@@ -7922,11 +7924,12 @@ number.1.Contrabass.Music =
     - \tweak stencil ##f
     ~
 
-    \tuplet 5/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \tuplet 5/3
     {
 
         % [Contrabass.Music measure 18]
-        b2.
+        b1
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -7935,7 +7938,7 @@ number.1.Contrabass.Music =
         \glissando
         \repeatTie
 
-        a8.
+        a4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
