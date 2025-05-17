@@ -1,6 +1,6 @@
 % Al-kitab al-khamr (2015) for eleven players
 
-\version "2.25.25"
+\version "2.25.26"
 
 \include "../stylesheet.ily"
 #(set-default-paper-size "ledger")
