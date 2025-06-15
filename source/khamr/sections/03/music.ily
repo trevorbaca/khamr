@@ -8620,14 +8620,14 @@ number.3.Violin.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 3/5
+    \tuplet 6/5
     {
 
         % [Violin.Music measure 8]
-        e'4
+        e'2
         \glissando
 
-        ds'!2
+        ds'!1
         \glissando
 
     }
@@ -9074,14 +9074,14 @@ number.3.Viola.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 3/5
+    \tuplet 6/5
     {
 
         % [Viola.Music measure 17]
-        f'2
+        f'1
         \glissando
 
-        g'4
+        g'2
         \glissando
 
     }

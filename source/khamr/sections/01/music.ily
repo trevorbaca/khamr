@@ -5432,20 +5432,21 @@ number.1.Violin.Music =
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 3/5
+    \tuplet 6/5
     {
 
         % [Violin.Music measure 32]
-        bf'2
+        bf'1
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
-        \glissando
+        - \tweak direction #up
         \repeatTie
+        \glissando
 
-        g'4
+        g'2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -8157,11 +8158,11 @@ number.1.Contrabass.Music =
     ~
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         % [Contrabass.Music measure 32]
-        a2.
+        a1.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
@@ -8170,7 +8171,7 @@ number.1.Contrabass.Music =
         \glissando
         \repeatTie
 
-        b4
+        b2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
