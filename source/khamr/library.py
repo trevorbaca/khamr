@@ -34,7 +34,7 @@ def compound_quarters(time_signatures):
             weights = [(1, 4)]
         weights = [abjad.Duration(_) for _ in weights]
         durations_ = abjad.sequence.split(
-            [time_signature.duration], weights, cyclic=True, overhang=True
+            [time_signature.get_duration()], weights, cyclic=True, overhang=True
         )
         durations.extend(durations_)
     durations = abjad.sequence.flatten(durations)
@@ -118,7 +118,7 @@ def halo_hairpins(argument):
 
 def make_alternate_divisions(time_signatures, *, detach_ties=False):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.duration for _ in time_signatures]
+    durations = [_.get_duration() for _ in time_signatures]
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     ptails = baca.select.ptails(voice)[:-1]
@@ -139,7 +139,7 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
 
 def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.duration for _ in time_signatures]
+    durations = [_.get_duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = abjad.sequence.split(
         durations, [abjad.Duration(weight)], cyclic=True, overhang=True
@@ -154,7 +154,7 @@ def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
 
 def make_closing_rhythm(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.duration for _ in time_signatures]
+    durations = [_.get_duration() for _ in time_signatures]
     durations = [sum(durations)]
     weights = [abjad.Duration(_) for _ in [(2, 4), (4, 4), (12, 4)]]
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
@@ -176,7 +176,7 @@ def make_continuous_glissando_rhythm(
     time_signatures, tuplet_ratio_rotation, *, tie_ptails_in_tuplets
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.duration for _ in time_signatures]
+    durations = [_.get_duration() for _ in time_signatures]
     tuplet_ratios = [(4, 3), (3, 4), (3, 2), (2, 3), (2, 1), (1, 2)]
     tuplet_ratio_rotation *= 2
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
@@ -350,7 +350,7 @@ def make_fused_wind_rhythm(
 
 def make_guitar_accelerando_rhythm(time_signatures, counts):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.duration for _ in time_signatures]
+    durations = [_.get_duration() for _ in time_signatures]
     lists = abjad.sequence.partition_by_counts(
         durations, counts, cyclic=True, overhang=True
     )
@@ -376,7 +376,7 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
 
 def make_guitar_isolata_rhythm(time_signatures, *, force_rest_tuplets=None):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.duration for _ in time_signatures]
+    durations = [_.get_duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tuplets = rmakers.tuplet(
@@ -420,7 +420,7 @@ def make_opening_glissando_rhythm(
     tuplet_ratios = [(_, 1) for _ in [4, 4, 4, 3, 3, 3, 2, 2, 2, 6, 6, 6]]
     tuplet_ratio_rotation *= 3
     tuplet_ratios = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
-    durations = [_.duration for _ in time_signatures]
+    durations = [_.get_duration() for _ in time_signatures]
     tuplets = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     tuplets = abjad.select.tuplets(voice)[1:]
@@ -485,7 +485,7 @@ def make_silent_first_division(time_signatures):
 
 def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=None):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.duration for _ in time_signatures]
+    durations = [_.get_duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     durations = abjad.sequence.flatten(durations)
