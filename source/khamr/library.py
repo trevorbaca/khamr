@@ -592,7 +592,9 @@ def violin_halo_pitches():
         violin_halo_pitch = abjad.NamedPitch(halo_pitch) + abjad.NamedInterval("m14")
         violin_halo_pitches.append(violin_halo_pitch)
         # violin_halo_pitches = [_.get_name_in_locale(locale="us") for _ in violin_halo_pitches]
-    violin_halo_pitches = [_.get_name_in_locale(locale="us") for _ in violin_halo_pitches]
+    violin_halo_pitches = [
+        _.get_name_in_locale(locale="us") for _ in violin_halo_pitches
+    ]
     return violin_halo_pitches
 
 
