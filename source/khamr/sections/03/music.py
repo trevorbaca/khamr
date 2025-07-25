@@ -297,7 +297,7 @@ def pf(m):
         strings = []
         for string in library.rose_pitches():
             pitch = abjad.NamedPitch(string).invert().transpose("M2")
-            string = pitch.get_name(locale="us")
+            string = pitch.get_name_in_locale(locale="us")
             strings.append(string)
         baca.pitches(o, strings)
         baca.spanners.ottava(o.tleaves(), rleak=True)
@@ -373,7 +373,7 @@ def composites(cache):
             strings = []
             for string in library.rose_pitches():
                 pitch = abjad.NamedPitch(string).invert().transpose("A4")
-                string = pitch.get_name(locale="us")
+                string = pitch.get_name_in_locale(locale="us")
                 strings.append(string)
             baca.pitches(o, strings)
             baca.glissando(

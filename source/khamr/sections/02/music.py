@@ -292,7 +292,7 @@ def pf(cache):
         baca.spanners.ottava(o.tleaves(), rleak=True)
         strings = []
         for string in library.rose_pitches():
-            string = abjad.NamedPitch(string).invert().get_name(locale="us")
+            string = abjad.NamedPitch(string).invert().get_name_in_locale(locale="us")
             strings.append(string)
         baca.pitches(o, strings)
         library.sixth_octave(o)

@@ -9,7 +9,7 @@ def cello_halo_pitches():
     cello_halo_pitches = []
     for halo_pitch in contrabass_halo_pitches():
         cello_halo_pitch = abjad.NamedPitch(halo_pitch) + abjad.NamedInterval("m7")
-        cello_halo_pitches.append(cello_halo_pitch.get_name(locale="us"))
+        cello_halo_pitches.append(cello_halo_pitch.get_name_in_locale(locale="us"))
     return cello_halo_pitches
 
 
@@ -21,7 +21,7 @@ def color_trill_pitches(transpose=None):
     if transpose:
         pitches = [_.transpose(n=transpose) for _ in pitches]
     assert len(pitches) == 18
-    pitches = [_.get_name(locale="us") for _ in pitches]
+    pitches = [_.get_name_in_locale(locale="us") for _ in pitches]
     return pitches
 
 
@@ -50,7 +50,7 @@ def contrabass_halo_pitches():
     strings = string.split()
     assert len(strings) == 33
     pitches = [abjad.NamedPitch(_) for _ in strings]
-    pitches = [_.get_name(locale="us") for _ in pitches]
+    pitches = [_.get_name_in_locale(locale="us") for _ in pitches]
     contrabass_halo_pitches = abjad.CyclicTuple(pitches)
     return contrabass_halo_pitches
 
@@ -83,7 +83,7 @@ def double_stop_halo_pitches():
     double_stop_halo_pitches = []
     for halo_name in contrabass_halo_pitches():
         lower_pitch = abjad.NamedPitch(halo_name) - abjad.NamedInterval("M9")
-        lower_name = lower_pitch.get_name(locale="us")
+        lower_name = lower_pitch.get_name_in_locale(locale="us")
         string = f"{lower_name}:{halo_name}"
         double_stop_halo_pitches.append(string)
     return double_stop_halo_pitches
@@ -591,8 +591,8 @@ def violin_halo_pitches():
     for halo_pitch in contrabass_halo_pitches():
         violin_halo_pitch = abjad.NamedPitch(halo_pitch) + abjad.NamedInterval("m14")
         violin_halo_pitches.append(violin_halo_pitch)
-        # violin_halo_pitches = [_.get_name(locale="us") for _ in violin_halo_pitches]
-    violin_halo_pitches = [_.get_name(locale="us") for _ in violin_halo_pitches]
+        # violin_halo_pitches = [_.get_name_in_locale(locale="us") for _ in violin_halo_pitches]
+    violin_halo_pitches = [_.get_name_in_locale(locale="us") for _ in violin_halo_pitches]
     return violin_halo_pitches
 
 
