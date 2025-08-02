@@ -32,7 +32,7 @@ def compound_quarters(time_signatures):
             weights = [(3, 8)]
         else:
             weights = [(1, 4)]
-        weights = [abjad.Duration(_) for _ in weights]
+        weights = abjad.duration.durations(weights)
         durations_ = abjad.sequence.split(
             [time_signature.duration()], weights, cyclic=True, overhang=True
         )
@@ -142,7 +142,7 @@ def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
     durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = abjad.sequence.split(
-        durations, [abjad.Duration(weight)], cyclic=True, overhang=True
+        durations, [abjad.Duration(*weight)], cyclic=True, overhang=True
     )
     durations = abjad.sequence.flatten(durations)
     tuplets = rmakers.even_division(durations, [16], extra_counts=extra_counts, tag=tag)
@@ -156,7 +156,7 @@ def make_closing_rhythm(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
     durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
-    weights = [abjad.Duration(_) for _ in [(2, 4), (4, 4), (12, 4)]]
+    weights = abjad.duration.durations([(2, 4), (4, 4), (12, 4)])
     durations = abjad.sequence.split(durations, weights, cyclic=True, overhang=True)
     durations = abjad.sequence.flatten(durations, depth=-1)
     components = rmakers.note(durations, tag=tag)
