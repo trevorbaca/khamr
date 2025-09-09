@@ -142,7 +142,7 @@ def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
     durations = abjad.duration.value_durations(time_signatures)
     durations = [sum(durations)]
     durations = abjad.sequence.split(
-        durations, [abjad.ValueDuration(*weight)], cyclic=True, overhang=True
+        durations, [abjad.Duration(*weight)], cyclic=True, overhang=True
     )
     durations = abjad.sequence.flatten(durations)
     tuplets = rmakers.even_division(durations, [16], extra_counts=extra_counts, tag=tag)
@@ -637,11 +637,11 @@ instruments = {
 
 
 metronome_marks = {
-    "32": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 32),
-    "42": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 42),
-    "63": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 63),
-    "84": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 84),
-    "126": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 126),
+    "32": abjad.MetronomeMark(abjad.Duration(1, 4), 32),
+    "42": abjad.MetronomeMark(abjad.Duration(1, 4), 42),
+    "63": abjad.MetronomeMark(abjad.Duration(1, 4), 63),
+    "84": abjad.MetronomeMark(abjad.Duration(1, 4), 84),
+    "126": abjad.MetronomeMark(abjad.Duration(1, 4), 126),
 }
 
 
