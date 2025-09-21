@@ -328,11 +328,11 @@ def make_fused_wind_rhythm(
     durations = [sum(_) for _ in lists]
     tuplets = rmakers.incised(
         durations,
+        talea_denominator=denominator,
         prefix_talea=[-1],
         prefix_counts=[0],
         suffix_talea=[-1],
         suffix_counts=[1],
-        talea_denominator=denominator,
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
