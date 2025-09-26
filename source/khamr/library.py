@@ -61,19 +61,19 @@ def do_marimba_hit_command(argument, attach_first_markup, indices):
     for i, plt in enumerate(baca.select.plts(argument)):
         if i not in indices:
             continue
-        abjad.attach(baca.StaffLines(5), plt.head(), tag=tag)
+        abjad.attach(baca.StaffLines(5), plt[0], tag=tag)
         if attach_first_markup and not found_first:
             string = r"""\markup \larger \box \override #'(box-padding . 0.75)"""
             string += """ "marimba + woodblock" """
             markup = abjad.Markup(string)
-            abjad.attach(markup, plt.head(), tag=tag)
+            abjad.attach(markup, plt[0], tag=tag)
             found_first = True
-        abjad.detach(abjad.Articulation, plt.head())
-        abjad.attach(abjad.Dynamic("sfz"), plt.head(), context="Voice", tag=tag)
-        abjad.attach(abjad.Articulation("marcato"), plt.head(), tag=tag)
-        abjad.detach(abjad.Clef, plt.head())
-        abjad.attach(abjad.Clef("treble"), plt.head(), tag=tag)
-        next_leaf = abjad.get.leaf(plt.tail(), 1)
+        abjad.detach(abjad.Articulation, plt[0])
+        abjad.attach(abjad.Dynamic("sfz"), plt[0], context="Voice", tag=tag)
+        abjad.attach(abjad.Articulation("marcato"), plt[0], tag=tag)
+        abjad.detach(abjad.Clef, plt[0])
+        abjad.attach(abjad.Clef("treble"), plt[0], tag=tag)
+        next_leaf = abjad.get.leaf(plt[-1], 1)
         if next_leaf is not None:
             abjad.attach(baca.StaffLines(1), next_leaf, tag=tag)
             abjad.attach(abjad.Clef("percussion"), next_leaf, tag=tag)
