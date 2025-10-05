@@ -369,8 +369,9 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
     rmakers.repeat_tie(pleaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     tuplets = [_ for _ in tuplets if 1 < len(_)]
+    leaf_lists = [_[:] for _ in tuplets]
     rmakers.duration_bracket(tuplets)
-    rmakers.feather_beam(voice)
+    rmakers.feather_beam(leaf_lists)
     rmakers.force_repeat_tie(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
