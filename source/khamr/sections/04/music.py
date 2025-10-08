@@ -81,10 +81,12 @@ def SAX(voice, time_signatures):
 def GT(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 7))
     voice.extend(music)
-    rmakers.force_rest(abjad.select.leaves(music)[:-1])
+    leaves = abjad.select.leaves(music)
+    rmakers.force_rest(leaves[:-1])
     music = baca.make_repeat_tied_notes(time_signatures(8, 15))
     voice.extend(music)
-    rmakers.force_rest(abjad.select.leaves(music)[2:]),
+    leaves = abjad.select.leaves(music)
+    rmakers.force_rest(leaves[2:]),
     music = library.make_closing_rhythm(time_signatures(16, 20))
     voice.extend(music)
 
@@ -92,10 +94,12 @@ def GT(voice, time_signatures):
 def PF(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 7))
     voice.extend(music)
-    rmakers.force_rest(abjad.select.leaves(music)[:-1])
+    leaves = abjad.select.leaves(music)
+    rmakers.force_rest(leaves[:-1])
     music = baca.make_repeat_tied_notes(time_signatures(8, 15))
     voice.extend(music)
-    rmakers.force_rest(abjad.select.leaves(music)[2:]),
+    leaves = abjad.select.leaves(music)
+    rmakers.force_rest(leaves[2:]),
     music = library.make_closing_rhythm(time_signatures(16, 20))
     voice.extend(music)
 
@@ -103,7 +107,8 @@ def PF(voice, time_signatures):
 def PERC(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 5))
     voice.extend(music)
-    rmakers.force_rest(baca.select.pleaf(music, -1))
+    pleaves = baca.select.pleaves(music)
+    rmakers.force_rest(pleaves[-1:])
     music = baca.make_mmrests(time_signatures(6, 7))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(8, 15))

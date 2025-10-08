@@ -106,7 +106,8 @@ def CL(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(32, 37))
     voice.extend(music)
-    rmakers.force_rest(abjad.select.leaf(music, -1))
+    leaves = abjad.select.leaves(music)
+    rmakers.force_rest(leaves[-1:])
 
 
 def SAX(voice, time_signatures):
@@ -220,7 +221,8 @@ def CB(voice, time_signatures):
     for pair in [(30, 31), (32, 37)]:
         music = baca.make_repeat_tied_notes(time_signatures(*pair))
         voice.extend(music)
-        rmakers.force_rest(abjad.select.leaf(music, -1))
+        leaves = abjad.select.leaves(music)
+        rmakers.force_rest(leaves[-1:])
 
 
 def fl(m):
