@@ -85,7 +85,7 @@ def GT(voice, time_signatures):
     leaves = abjad.select.leaves(tuplet)
     rmakers.force_note(leaves, tag=abjad.Tag("GT()"))
     rmakers.tie(tuplet[:-1])
-    rmakers.rewrite_sustained(tuplet)
+    rmakers.rewrite_sustained_tuplets([tuplet])
     rmakers.extract_trivial([tuplet])
     music = library.make_guitar_accelerando_rhythm(
         time_signatures(25, 40),
