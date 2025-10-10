@@ -190,6 +190,7 @@ def make_continuous_glissando_rhythm(
     result = abjad.select.tuplets(voice)
     result = abjad.select.get(result, tie_ptails_in_tuplets)
     result = [baca.select.ptails(_)[:-1] for _ in result]
+    result = abjad.sequence.flatten(result)
     rmakers.tie(result, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
@@ -455,11 +456,13 @@ def make_opening_glissando_rhythm(
         tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, repeat_tie_leaves_in_tuplets)
         leaves = [abjad.select.leaves(_)[1:] for _ in tuplets]
+        leaves = abjad.sequence.flatten(leaves)
         rmakers.repeat_tie(leaves, tag=tag)
     if tie_leaves_in_tuplets is not None:
         tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, tie_leaves_in_tuplets)
         leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
+        leaves = abjad.sequence.flatten(leaves)
         rmakers.tie(leaves, tag=tag)
     if force_rest_tuplets is not None:
         tuplets = abjad.select.tuplets(voice)
