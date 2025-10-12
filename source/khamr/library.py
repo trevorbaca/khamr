@@ -129,7 +129,8 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
     leaves = abjad.select.leaves(groups)
     rmakers.force_rest(leaves, tag=tag)
     if detach_ties is True:
-        rmakers.untie(voice)
+        leaves = abjad.select.leaves(voice)
+        rmakers.untie_leaves(leaves)
     plts = baca.select.plts(voice)
     rmakers.beam(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
