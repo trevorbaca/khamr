@@ -132,7 +132,7 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
         leaves = abjad.select.leaves(voice)
         rmakers.untie_leaves(leaves)
     plts = baca.select.plts(voice)
-    rmakers.beam(plts, tag=tag)
+    rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
     rmakers.force_repeat_tie(leaves, tag=tag)
@@ -151,7 +151,7 @@ def make_aviary_rhythm(time_signatures, weight, *, extra_counts):
     tuplets = rmakers.even_division(durations, [16], extra_counts=extra_counts, tag=tag)
     voice = abjad.Voice(tuplets, name="Temporary")
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam(leaf_lists, tag=tag)
+    rmakers.beam_runs(leaf_lists, tag=tag)
     voice[:] = []
     return tuplets
 
@@ -170,7 +170,7 @@ def make_closing_rhythm(time_signatures):
     leaves = abjad.select.leaves(lts)
     rmakers.force_rest(leaves, tag=tag)
     plts = baca.select.plts(voice)
-    rmakers.beam(plts, tag=tag)
+    rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
     rmakers.force_repeat_tie(leaves, tag=tag)
@@ -194,7 +194,7 @@ def make_continuous_glissando_rhythm(
     result = abjad.sequence.flatten(result)
     rmakers.tie(result, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam(leaf_lists, tag=tag)
+    rmakers.beam_runs(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.rewrite_sustained_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
@@ -219,7 +219,7 @@ def make_current_rhythm(time_signatures, counts, *, force_rest_tuplets=None):
         leaves = abjad.select.leaves(tuplets)
         rmakers.force_rest(leaves, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam(leaf_lists, tag=tag)
+    rmakers.beam_runs(leaf_lists, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
@@ -325,7 +325,7 @@ def make_fused_expanse_rhythm(time_signatures, counts):
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     plts = baca.select.plts(voice)
-    rmakers.beam(plts, tag=tag)
+    rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
     rmakers.force_repeat_tie(leaves, tag=tag)
@@ -425,7 +425,7 @@ def make_guitar_isolata_rhythm(time_signatures, *, force_rest_tuplets=None):
         rmakers.force_rest(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam(leaf_lists, tag=tag)
+    rmakers.beam_runs(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.rewrite_sustained_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
@@ -473,7 +473,7 @@ def make_opening_glissando_rhythm(
         rmakers.force_rest(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam(leaf_lists, tag=tag)
+    rmakers.beam_runs(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.rewrite_sustained_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
@@ -497,7 +497,7 @@ def make_quarter_hits(time_signatures, *, force_rest_lts=None):
         leaves = abjad.select.leaves(lts)
         rmakers.force_rest(leaves, tag=tag)
     plts = baca.select.plts(voice)
-    rmakers.beam(plts, tag=tag)
+    rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
     rmakers.force_repeat_tie(leaves, tag=tag)
@@ -539,7 +539,7 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=Non
         rmakers.force_rest(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam(leaf_lists, tag=tag)
+    rmakers.beam_runs(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.trivialize_tuplets(tuplets)
