@@ -83,7 +83,7 @@ def GT(voice, time_signatures):
     voice.extend(music)
     tuplet = abjad.select.tuplet(music, 0)
     leaves = abjad.select.leaves(tuplet)
-    rmakers.force_note(leaves, tag=abjad.Tag("GT()"))
+    rmakers.replace_leaves_with_notes(leaves, tag=abjad.Tag("GT()"))
     rmakers.tie(tuplet[:-1])
     rmakers.rewrite_sustained_tuplets([tuplet])
     rmakers.extract_trivial_tuplets([tuplet])

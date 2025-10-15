@@ -129,7 +129,7 @@ def GT(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(5, 14))
     voice.extend(music)
     leaves = abjad.select.leaves(music)
-    rmakers.force_rest(leaves[-1:])
+    rmakers.replace_leaves_with_rests(leaves[-1:])
     music = make_15_30("gt", time_signatures)
     voice.extend(music)
 
@@ -138,7 +138,7 @@ def PF(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 14))
     voice.extend(music)
     leaves = abjad.select.leaves(music)
-    rmakers.force_rest(leaves[-1:])
+    rmakers.replace_leaves_with_rests(leaves[-1:])
     music = library.make_alternate_divisions(
         time_signatures(15, 20),
         detach_ties=True,
@@ -203,7 +203,7 @@ def VC(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(9, 14))
     voice.extend(music)
     leaves = abjad.select.leaves(music)
-    rmakers.force_rest(leaves[-1:])
+    rmakers.replace_leaves_with_rests(leaves[-1:])
     music = make_15_30("vc", time_signatures)
     voice.extend(music)
 
