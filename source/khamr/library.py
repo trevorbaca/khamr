@@ -135,7 +135,7 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
     rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -173,7 +173,7 @@ def make_closing_rhythm(time_signatures):
     rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -202,7 +202,7 @@ def make_continuous_glissando_rhythm(
     rmakers.extract_trivial_tuplets(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -328,7 +328,7 @@ def make_fused_expanse_rhythm(time_signatures, counts):
     rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -363,7 +363,7 @@ def make_fused_wind_rhythm(
     rmakers.extract_trivial_tuplets(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -394,7 +394,7 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
     rmakers.override_beam_grow_direction(leaf_lists)
     rmakers.override_tuplet_number_text_duration_markup(tuplets)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -482,7 +482,7 @@ def make_opening_glissando_rhythm(
     rmakers.extract_trivial_tuplets(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -501,7 +501,7 @@ def make_quarter_hits(time_signatures, *, force_rest_lts=None):
     rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -517,7 +517,7 @@ def make_silent_first_division(time_signatures):
     rmakers.replace_leaves_with_rests([note], tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -547,7 +547,7 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=Non
     rmakers.extract_trivial_tuplets(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
