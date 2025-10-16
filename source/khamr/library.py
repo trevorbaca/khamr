@@ -122,7 +122,7 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     ptails = baca.select.ptails(voice)[:-1]
-    rmakers.tie(ptails, tag=tag)
+    rmakers.attach_ties_to_pleaves(ptails, tag=tag)
     leaves = abjad.select.leaves(voice)
     groups = abjad.select.group_by_measure(leaves)
     groups = abjad.select.get(groups, [1], 2)
@@ -130,7 +130,7 @@ def make_alternate_divisions(time_signatures, *, detach_ties=False):
     rmakers.replace_leaves_with_rests(leaves, tag=tag)
     if detach_ties is True:
         leaves = abjad.select.leaves(voice)
-        rmakers.untie_leaves(leaves)
+        rmakers.detach_ties_from_leaves(leaves)
     plts = baca.select.plts(voice)
     rmakers.beam_runs(plts, tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -192,7 +192,7 @@ def make_continuous_glissando_rhythm(
     result = abjad.select.get(result, tie_ptails_in_tuplets)
     result = [baca.select.ptails(_)[:-1] for _ in result]
     result = abjad.sequence.flatten(result)
-    rmakers.tie(result, tag=tag)
+    rmakers.attach_ties_to_pleaves(result, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam_runs(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
@@ -386,7 +386,7 @@ def make_guitar_accelerando_rhythm(time_signatures, counts):
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     tuplets = abjad.select.tuplets(voice)[1:]
     pleaves = [baca.select.pleaf(_, 0) for _ in tuplets]
-    rmakers.repeat_tie(pleaves, tag=tag)
+    rmakers.attach_repeat_ties_to_pleaves(pleaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     tuplets = [_ for _ in tuplets if 1 < len(_)]
     leaf_lists = [_[:] for _ in tuplets]
@@ -454,19 +454,19 @@ def make_opening_glissando_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     tuplets = abjad.select.tuplets(voice)[1:]
     pleaves = [baca.select.pleaf(_, 0) for _ in tuplets]
-    rmakers.repeat_tie(pleaves, tag=tag)
+    rmakers.attach_repeat_ties_to_pleaves(pleaves, tag=tag)
     if repeat_tie_leaves_in_tuplets is not None:
         tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, repeat_tie_leaves_in_tuplets)
         leaves = [abjad.select.leaves(_)[1:] for _ in tuplets]
         leaves = abjad.sequence.flatten(leaves)
-        rmakers.repeat_tie(leaves, tag=tag)
+        rmakers.attach_repeat_ties_to_pleaves(leaves, tag=tag)
     if tie_leaves_in_tuplets is not None:
         tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, tie_leaves_in_tuplets)
         leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
         leaves = abjad.sequence.flatten(leaves)
-        rmakers.tie(leaves, tag=tag)
+        rmakers.attach_ties_to_pleaves(leaves, tag=tag)
     if force_rest_tuplets is not None:
         tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
@@ -512,7 +512,7 @@ def make_silent_first_division(time_signatures):
     components = rmakers.note(durations, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(components, time_signatures)
     ptails = baca.select.ptails(voice)[1:]
-    rmakers.repeat_tie(ptails, tag=tag)
+    rmakers.attach_repeat_ties_to_pleaves(ptails, tag=tag)
     note = abjad.select.note(voice, 0)
     rmakers.replace_leaves_with_rests([note], tag=tag)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -532,7 +532,7 @@ def make_trill_tuplets(time_signatures, tuplet_ratios, *, force_rest_tuplets=Non
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     tuplets = tuplets[:-1]
     ptails = [baca.select.ptail(_, -1) for _ in tuplets]
-    rmakers.tie(ptails, tag=tag)
+    rmakers.attach_ties_to_pleaves(ptails, tag=tag)
     if force_rest_tuplets is not None:
         tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
